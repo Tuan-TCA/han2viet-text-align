@@ -1,0 +1,72 @@
+﻿========================================
+Part: Cap_01 | Language: han
+File: C:\Users\Tuan TCA\OneDrive\Tai_Lieu\3ndYear\NLP\Midterm\CV16\01_nguon\Cap_01\HAN.pdf
+Custom Metadata: no
+Metadata Stream: no
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           53
+Encrypted:       no
+Page size:       1051 x 1054 pts
+Page rot:        0
+File size:       18443261 bytes
+Optimized:       no
+PDF version:     1.7
+
+========================================
+Part: Cap_01 | Language: viet
+File: C:\Users\Tuan TCA\OneDrive\Tai_Lieu\3ndYear\NLP\Midterm\CV16\01_nguon\Cap_01\VIET.pdf
+Custom Metadata: no
+Metadata Stream: no
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           251
+Encrypted:       no
+Page size:       387.2 x 558.2 pts
+Page rot:        0
+File size:       9294077 bytes
+Optimized:       no
+PDF version:     1.5
+
+========================================
+Part: Cap_02 | Language: han
+File: C:\Users\Tuan TCA\OneDrive\Tai_Lieu\3ndYear\NLP\Midterm\CV16\01_nguon\Cap_02\HAN.pdf
+Custom Metadata: no
+Metadata Stream: no
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           92
+Encrypted:       no
+Page size:       700 x 634 pts
+Page rot:        0
+File size:       8607091 bytes
+Optimized:       no
+PDF version:     1.4
+
+========================================
+Part: Cap_02 | Language: viet
+File: C:\Users\Tuan TCA\OneDrive\Tai_Lieu\3ndYear\NLP\Midterm\CV16\01_nguon\Cap_02\VIET.pdf
+Custom Metadata: no
+Metadata Stream: no
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           105
+Encrypted:       no
+Page size:       414.2 x 567.1 pts
+Page rot:        0
+File size:       2855043 bytes
+Optimized:       no
+PDF version:     1.5
+
