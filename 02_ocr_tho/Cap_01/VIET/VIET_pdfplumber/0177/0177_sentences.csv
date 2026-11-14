@@ -1,0 +1,9 @@
+﻿id,confidence,page,page_end,text,n_chars,cross_page,incomplete_start,incomplete_end,needs_review
+0177-001,1.0,0177,0177,"Xét bản kê của Cai bạ dinh Long Hồ là Hiến Đức hầu Nguyễn Khoa Thuyên thì huyện Tân Bình, hai thuộc Quy An, Qui Hoá, dân đều hơn 3.000 định, ruộng đều hơn 5.000 thửa, thuế lệ mỗi thửa hạng nhất 6 hộc, hạng nhì 5 hộc, hạng ba 4 hộc; thuộc Tam Lạch, dân hơn 4.000 định, ruộng hơn 5.000 thửa, 3 trại thuộc Bãä Canh, Bà Lai, Bà Kiến dân hơn 4.000 đình, ruộng hơn 4.000 thửa, thuế lệ mỗi thửa hạng nhất 4 hộc, hạng nhì 3 hộc, hạng ba 2 hộc; huyện Phúc Long, trường Giản Thảo, ruộng hơn 6.000 thửa, thuế lệ mỗi thửa hạng nhất 10 hộc, hạng nhì 8 hộc, hạng ba 6 hộc; châu Định Viễn, dân hơn 7.000 đỉnh, ruộng hơn 7.000 thửa, thuế lệ mỗi thửa hạng nhất 4 hộc, hạng nhì 3ä hộc, hạng ba 2 hộc.",682,False,False,False,False
+0177-002,1.0,0177,0177,Như vậy thì phú thuế hàng năm không khỏi không sót lậu.,55,False,False,False,False
+0177-003,1.0,0177,0177,"Khoa Thuyên nỏi rằng ruộng ở các huyện thuộc Tân Bình, Phúc Long, Quy Ar Qui Hoá, có cày để cấy, cấy 1 hộc thóc thì gặt được 100 hộc thóc; thuộc Tam Lạch, trại Bả Canh, châu Định Viễn, thì ruộng không cày, phát cỏ rồi cấy, cấy 1 hộc thóc thì gặt được 300 hộc.",259,False,False,False,False
+0177-004,1.0,0177,0177,Như thế thì ruộng tốt có thể biết được.,39,False,False,False,False
+0177-005,1.0,0177,0177,"Lệ trưởng tô ruộng các huyện thuộc xứ Quảng Nam, các tổng xã thôn phường và các hộ phụ canh phải nộp tiền gạo cung đốn theo đầu mẫu, năm Kỷ Sửu tình hình như sau:",162,False,False,False,False
+0177-006,1.0,0177,0177,"Phủ Điện Bàn 4 huyện, gạo cung đốn theo đầu mẫu cộng 64ð bao”' 50 thưng 6 cáp, tiền là 273 quan ð tiền 45 đồng”.",112,False,False,False,False
+0177-007,0.9866,0177,0177,"Phủ Thăng Hoa 6 huyện chính và tân, gạo cung đốn ° Bản T.V.K.H. và V.8.H. đều chép là 340 bao.",94,False,False,False,False
+0177-008,0.8846,0177,0177,°®$ Bản V.S.H. chép là 373 quan.,32,False,False,False,True

@@ -1,0 +1,12 @@
+﻿id,confidence,page,page_end,text,n_chars,cross_page,incomplete_start,incomplete_end,needs_review
+0179-001,1.0,0179,0179,"bộ, trị bạ, trị thuế, mỗi viên mỗi huyện 90 tấm; còn bao nhiêu thì lại thu tiền vào kho, cũng tủn mủn lắm.",106,False,False,False,False
+0179-002,1.0,0179,0179,Xét lệ nộp cót của các huyện xứ Thuận Hoá về năm Kỷ Sửu là:,59,False,False,False,False
+0179-003,1.0,0179,0179,"Huyện Hương Trà, trừ ruộng cấp lương được miễn. còn thu 296 tấm lệ dùng vào kho. lại 1.760 tấm và 3 phần rưỡi tấm cho nộp bằng tiền 352 quan 3 tiền.",148,False,False,False,False
+0179-004,1.0,0179,0179,"Huyện Quang Điền, trừ ruộng cấp lương được miễn, còn thu 189 tấm lệ dùng vào kho, lại 1.597 tấm và 3 phần tấm cho nộp bằng tiền 320 quan 8 tiền 55 đồng.",152,False,False,False,False
+0179-005,1.0,0179,0179,"Huyện Phú Vang, trừ ruộng cấp lương được miễn, còn thụ 348 tấm lệ dùng vào kho, lại 2.688 tấm và 3 phần tấm cho nộp bằng tiền 537 quan 7 tiền 51 đồng.",150,False,False,False,False
+0179-006,1.0,0179,0179,"Huyện Hải Lăng, trừ ruộng cấp lương được miễn, còn thu 3ðð tấm lệ dùng vào kho, lại 1.418 tấm và 3 phần tấm cho nộp bằng tiền 283 quan 7 tiển 30 đồng.",150,False,False,False,False
+0179-007,1.0,0179,0179,"Huyện Đăng Xương, thu 269 tấm lệ dùng vào kho, lại 1.624 tấm và 3 phần tấm cho nộp bằng tiền 332 quan 8 tiền.",109,False,False,False,False
+0179-008,1.0,0179,0179,Huyện Minh Linh. thu 4ã8 tấm lệ dùng vào kho. lại 1.440 tấm và 1 phần tấm cho nộp bằng tiền 289 quan 3 tiền 22 đồng.,116,False,False,False,False
+0179-009,1.0,0179,0179,"Huyện Khang Lộc, thu 304 tấm lệ dùng vào kho, lại 1.426 tấm và 2 phần rưỡi tấm cho nộp bằng tiền 285 quan 3ä tiền 30 đồng.",122,False,False,False,False
+0179-010,1.0,0179,0179,"Huyện Lệ Thuỷ, thu 275 tấm lệ dùng vào kho, lại 668 tấm và nửa phần tấm, cho nập bằng tiền 133 quan 6 tiền 51 đồng.",115,False,False,False,False
+0179-011,1.0,0179,0180,"Châu Nam Bố Chính, thu 39 tấm lệ dùng vào kho, lại 680 tấm và 2 phần rưỡi tấm cho nộp bằng tiền 136 quan 1 tiền 41 đồng.",120,True,False,False,False

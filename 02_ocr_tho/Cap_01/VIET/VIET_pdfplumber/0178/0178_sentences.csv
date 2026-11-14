@@ -1,0 +1,12 @@
+﻿id,confidence,page,page_end,text,n_chars,cross_page,incomplete_start,incomplete_end,needs_review
+0178-001,1.0,0178,0178,"theo đầu mẫu là 1.342 bao 9 thưng 4 cáp, tiền là 639 quan 1 tiền 48 đồng.",73,False,False,False,False
+0178-002,1.0,0178,0178,"Phủ Quảng Ngãi 3 huyện, gạo cung đốn theo đầu mẫu là 559 bao 22 thưng 2 cáp, tiển là 167 quan 9 tiền.",101,False,False,False,False
+0178-003,1.0,0178,0178,"Phủ Qui Nhơn 3 huyện, gạo cung đốn theo đầu mẫu là 1.028 bao ð thưng 3 cáp, tiền là 528 quan 7 tiền 8 đồng.",107,False,False,False,False
+0178-004,1.0,0178,0178,"Phủ Phú Yên 2 huyện, gạo cung đốn theo đầu mẫu là 106 bao 17 thưng 9 cáp, tiển là 81 quan 7 tiền 39 đồng.",105,False,False,False,False
+0178-005,1.0,0178,0178,"Phủ Bình Khang 2 huyện, gạo cung đốn theo đầu mẫu là 141 bao 28 thưng 1 cấp, tiền và gạo thay bằng tiền cộng là 59 quan 2 tiền 52 đồng.",135,False,False,False,False
+0178-006,1.0,0178,0178,"Phủ Diên Khánh 3 huyện, gạo cung đốn theo đầu mẫu là 140 bao 16 thưng 8 cáp, tiền là 43 quan 8 tiền 44 đồng.",108,False,False,False,False
+0178-007,1.0,0178,0178,"Phủ Gia Định, huyện Tân Bình, gạo cung đốn theo đầu mẫu là 303 bao 34 thưng 4 cáp, tiền là 19 quan 3 tiền 56 đồng.",114,False,False,False,False
+0178-008,1.0,0178,0178,"Huyện Phúc Long, gạo cung đốn theo đầu mẫu và các hạng gạo Thường tân”, gạo cánh trắng, cộng là 113 bao 32 thưng ö cáp 3 thược.",127,False,False,False,False
+0178-009,1.0,0178,0178,"Kho chứa thóc gạo, có cót tre dài 8 thước rộng 7 thước 5 tấc, bổ vào người có ruộng, mỗi xã cứ thóc 1.000 thưng thì nộp 5 tấm cót, nộp thay bằng tiền thì nộp 2 tiển, ngoài lệ đùng vào kho, lấy tiền ấy để làm ngụ lộc cho cai trưng, cai lại và quan bản đường thì mỗi tích mỗi huyện là 100 tấm, và ngụ lộc của quan đề lĩnh kho cùng lính giữ kho thì đều hơn 10 tấm.",361,False,False,False,False
+0178-010,0.9983,0178,0178,"Lại lễ biếu các quan tứ trụ, lục °?",35,False,False,False,False
+0178-011,0.9706,0178,0178,Gạo thường tân: gạo nộp về tiết Cơm múi.,40,False,False,False,False

@@ -1,0 +1,65 @@
+
+# ==============================
+# Python environments
+# ==============================
+.venv/
+venv/
+env/
+.venv_paddle/
+env_omni/
+
+# ==============================
+# Python cache
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# IDE and OS
+# ==============================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Logs and temporary files
+# ==============================
+*.log
+*.tmp
+*.temp
+*.bak
+
+# ==============================
+# Model weights and checkpoints
+# ==============================
+*.pth
+*.pt
+*.onnx
+*.safetensors
+*.ckpt
+
+# ==============================
+# Generated OCR / processing outputs
+# ==============================
+**/images/
+**/raw/
+**/corrected/
+**/output/
+**/outputs/
+**/results/
+
+# ==============================
+# Generated intermediate datasets
+# ==============================
+*.parquet
