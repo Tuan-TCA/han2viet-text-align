@@ -1,0 +1,11 @@
+{
+  "is_success": false,
+  "code": "000403",
+  "message": {
+    "title": "t_access_denied",
+    "text": "m_access_denied",
+    "web_text": "Truy cập bị từ chối!",
+    "debug_msg": null
+  },
+  "data": null
+}

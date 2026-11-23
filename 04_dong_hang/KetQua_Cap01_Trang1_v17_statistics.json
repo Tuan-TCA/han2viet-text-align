@@ -1,0 +1,39 @@
+{
+  "version": "v17-semantic",
+  "translation_type": "meaning_translation",
+  "inputs": {
+    "han_file": "C:\\Users\\Tuan TCA\\OneDrive\\Tai_Lieu\\3ndYear\\NLP\\Midterm\\CV16\\03_text_sach\\Cap_01\\HAN\\0001-cleaned.csv",
+    "vietnamese_file": "C:\\Users\\Tuan TCA\\OneDrive\\Tai_Lieu\\3ndYear\\NLP\\Midterm\\CV16\\03_text_sach\\Cap_01\\VIET\\vi_cleaned.csv",
+    "han_sentence_count": 16,
+    "vietnamese_chunk_count": 189,
+    "vietnamese_page_range": [
+      "170",
+      "190"
+    ]
+  },
+  "alignment": {
+    "step_count": 187,
+    "alignment_type_counts": {
+      "0-1": 172,
+      "1-1": 12,
+      "1-N": 2,
+      "N-1": 1
+    },
+    "low_semantic_score_steps": 1,
+    "gap_steps": 172
+  },
+  "parameters": {
+    "neutral_cosine": 0.3,
+    "gap_penalty": 0.05,
+    "merge_penalty": 0.05,
+    "anchor_weight": 0.08,
+    "review_threshold": 0.3
+  },
+  "definitions": {
+    "Semantic_Cosine": "Raw cosine similarity of sentence/group embeddings; not a probability.",
+    "DP_Score": "Centered semantic score after neutral threshold and merge penalty, plus weak lexical hint for 1-1.",
+    "Weak_Lexical_Anchor": "Optional Sino-Vietnamese exact n-gram overlap; not a hard constraint and not character-level correction.",
+    "Review_Flag": "Heuristic review indicator; not a correctness label.",
+    "OMISSION_ADDITION_MISSING_Label_Target_OCR_Conf_Min": "Left blank because they require ground truth or OCR confidence input."
+  }
+}

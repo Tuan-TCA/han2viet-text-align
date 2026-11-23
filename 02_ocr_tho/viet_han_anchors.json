@@ -1,0 +1,40 @@
+{
+  "Cap_01": {
+    "viet_start": 186,
+    "viet_end": 251,
+    "printed_start": 189,
+    "han_end": 53,
+    "paragraph_start_pages": [251],
+    "start_cue": "nộp tiền lĩnh bằng, đến nay",
+    "end_cue": "đều nộp mỗi người tiền sưu 3 tiền.",
+    "anchors": [
+      [186, 1, "nộp tiền lĩnh bằng, đến nay", "Mở đầu bản Hán giữa đoạn về lệ lĩnh bằng; câu Việt bị cắt ở đầu."],
+      [187, 1, "4.349 người", "Số người thuộc phủ Thăng Hoa năm Kỷ Sửu."],
+      [187, 2, "đội trưởng kho", "Lệ tiền của đội trưởng kho; nối sang trang Việt 188."],
+      [188, 2, "sản mỗi người 2 quan", "Tiếp cụm ‘các đội thổ sản’ từ trang Việt 187."],
+      [221, 27, "4.307 người", "Số người của sáu huyện phủ Thăng Hoa và các thuộc."],
+      [250, 52, "10.285 quan", "Sổ tiền tàu voi, ngựa ở sáu huyện Thuận Hoá."],
+      [251, 53, "370 người", "Thuyền Hải Châu: 370 nhiêu phu, mỗi người nộp 3 tiền."]
+    ]
+  },
+  "Cap_02": {
+    "viet_start": 1,
+    "viet_end": 105,
+    "printed_start": 304,
+    "han_end": 51,
+    "han_end_region": "nửa phải",
+    "start_cue": "hân tài đời nào là không có",
+    "end_cue": "kính dâng từ để mừng",
+    "anchors": [
+      [1, 1, "hân tài đời nào là không có", "人才何代無之 — mở đầu Quyển V."],
+      [2, 1, "không chuộng văn học", "Đoạn cuối Hán trang 1, về cách tuyển dụng của họ Nguyễn."],
+      [2, 2, "Nguyễn Cư Trình", "Mở đầu tiểu truyện Nguyễn Cư Trình (阮居貞)."],
+      [3, 2, "Đế nộ Dương hầu", "Kim dữ lan đào, bài đầu trong mười bài vịnh Hà Tiên."],
+      [4, 2, "Trung phân thôn lạc", "Mở đầu bài Bình sơn điệp thuý; bài này tiếp sang Hán trang 3."],
+      [53, 26, "5 vạn lạng bạc", "Cuối nửa trái Hán trang 26: chuyện thời Tộ quốc công và tổng đốc Lưỡng Quảng."],
+      [104, 50, "Mai Chiêu Tư", "Bài văn mừng của Mai Chiêu Tư bắt đầu trên Việt trang 104."],
+      [105, 50, "Bốn sáu tuổi xuân thu", "Phần giữa bài văn mừng; Hán trang 50 tiếp đến đoạn ‘đem khoan chính’."],
+      [105, 51, "kính dâng từ để mừng", "Nửa phải Hán trang 51, trước 卷之五終; nửa trái đã sang Quyển VI."]
+    ]
+  }
+}

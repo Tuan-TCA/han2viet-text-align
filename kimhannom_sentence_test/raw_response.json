@@ -1,0 +1,11 @@
+{
+  "is_success": false,
+  "code": "000108",
+  "message": {
+    "title": "t_field_value_required",
+    "text": "m_field_value_required",
+    "web_text": "Giá trị truyền lên không hợp lệ, vui lòng thử lại!",
+    "debug_msg": null
+  },
+  "data": null
+}
