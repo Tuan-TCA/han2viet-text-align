@@ -36,5 +36,27 @@
       [105, 50, "Bốn sáu tuổi xuân thu", "Phần giữa bài văn mừng; Hán trang 50 tiếp đến đoạn ‘đem khoan chính’."],
       [105, 51, "kính dâng từ để mừng", "Nửa phải Hán trang 51, trước 卷之五終; nửa trái đã sang Quyển VI."]
     ]
+  },
+  "Cap_02_VI": {
+    "pair": "Cap_02",
+    "viet_pdf": "01_nguon/Cap-02/Viet-2/pdf/Phu_bien_tap_luc_2007.pdf",
+    "viet_start": 405,
+    "viet_end": 439,
+    "printed_start": 409,
+    "han_start": 51,
+    "han_start_region": "nửa trái",
+    "han_end": 87,
+    "heading_keys": ["vat san phong tuc"],
+    "restore_initial": "N",
+    "start_cue": "hững vật sản quý",
+    "end_cue": "cau già lấy hột bán cho người Tàu",
+    "anchors": [
+      [405, 51, "châu Bắc Bố Chính", "Đầu Quyển VI (物產), liệt kê vật sản ở 75 xã, thôn, phường tại nửa trái ảnh Hán."],
+      [414, 61, "hai đội ty thợ đúc, đều 30 người", "順化有鑄匠司二隊各三十人 — hai đội thợ đúc ở Thuận Hoá."],
+      [424, 71, "Năm Cảnh Hưng thứ 5, Giáp Tý", "景興五年甲子 — đoạn thay đổi quy chế áo mũ."],
+      [425, 71, "mặc áo ngắn hẹp tay như áo đàn ông", "婦人皆窄袖短衣如男裝 — trang Việt tiếp đoạn quy chế áo mũ."],
+      [434, 81, "có nhiều ruộng mùa hạ, ít ruộng mùa", "順化多夏田少秋田 — đoạn về các vụ lúa ở Thuận Hoá."],
+      [439, 87, "Gia Định rất nhiều cau", "嘉定府最多椰 — đoạn cuối về cau Gia Định, trước 卷之六完."]
+    ]
   }
 }

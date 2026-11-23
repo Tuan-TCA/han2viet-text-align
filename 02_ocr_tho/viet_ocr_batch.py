@@ -101,7 +101,8 @@ def classify(pages, cfg):
                 ln.kind, mode = 'tieu_de', 'phien_am'
             elif re.fullmatch(r'[^(a-z]*\(?c?dich[^\w]*', label):
                 ln.kind, mode = 'tieu_de', 'dich_tho'
-            elif label.startswith(('quyen v', 'nhan tai va van tho')) or re.fullmatch(r'[\W_]+|\d{1,2}', label):
+            elif (label.startswith(('quyen v', 'nhan tai va van tho')) or label in cfg.get('heading_keys', [])
+                  or re.fullmatch(r'[\W_]+|\d{1,2}', label)):
                 ln.kind = 'tieu_de'
             else:
                 if mode != 'van_xuoi' and len(ln.text) >= 67 and (gap > typical * 1.6 or
@@ -136,6 +137,7 @@ def split_spans(text):
 def records_for(pages, cfg, cap):
     start_page, end_page = cfg['viet_start'], cfg['viet_end']
     start_cue, end_cue = key(cfg['start_cue']), key(cfg['end_cue'])
+    initial = cfg.get('restore_initial', 'N' if cap == 'Cap_02' else '')
     started, ended = False, False
     buffer, spans, last = '', [], None
     records = []
@@ -158,9 +160,9 @@ def records_for(pages, cfg, cap):
                 flags.append('vắt trang')
             if cap == 'Cap_01' and p == start_page and key(text).startswith('nop tien linh bang'):
                 flags.append('đầu đoạn cắt giữa câu')
-            if cap == 'Cap_02' and p == start_page and text.startswith('hân tài đời nào'):
-                text = 'N' + text
-                flags.append('khôi phục chữ N đầu trang từ bản in')
+            if initial and p == start_page and key(text).startswith(start_cue.split(',')[0]):
+                text = initial + text
+                flags.append(f'khôi phục chữ {initial} đầu trang từ bản in')
             records.append((p, touched[0].order, q, kind, text, '; '.join(flags)))
         buffer, spans, last = '', [], None
 
@@ -170,8 +172,7 @@ def records_for(pages, cfg, cap):
         for ln in lines:
             if ln.kind == 'so_trang':
                 continue
-            # Both beginning cues fit within one line in the source except the
-            # Cap_01 cue, which may end on the next line; use its unique prefix.
+            # The prefix fits on one line even if the full cue wraps.
             if not started and ln.kind == 'van_xuoi' and p == start_page:
                 prefix = start_cue.split(',')[0]
                 at = key(ln.text).find(prefix)
@@ -240,9 +241,14 @@ def number_keys(text, han=False):
 
 
 def page_mapping(cap, pages, cfg):
+    han_start, han_end = cfg.get('han_start', 1), cfg['han_end']
+    regions = {page: cfg[f'han_{side}_region'] for page, side in [(han_start, 'start'), (han_end, 'end')]
+               if f'han_{side}_region' in cfg}
     anchors = defaultdict(list)
     candidates = defaultdict(list)
     for viet, han, cue, note in cfg['anchors']:
+        if not han_start <= han <= han_end:
+            raise ValueError(f'{cap}: anchor Hán {han} outside {han_start}–{han_end}')
         if key(cue) not in key(pages[viet][0]):
             raise ValueError(f'{cap}: missing anchor on Viet {viet}: {cue}')
         anchors[viet].append((han, cue, note))
@@ -251,7 +257,7 @@ def page_mapping(cap, pages, cfg):
     vn = {p: number_keys(txt) for p, (txt, _, _) in pages.items()}
     for path in sorted((ROOT / '03_text_sach' / cap / 'HAN').glob('[0-9][0-9][0-9][0-9]-cleaned.csv')):
         han = int(path.name[:4])
-        if not 1 <= han <= cfg['han_end'] or (han == cfg['han_end'] and 'han_end_region' in cfg):
+        if not han_start <= han <= han_end or han in regions:
             continue
         with path.open(encoding='utf-8-sig', newline='') as src:
             nums = number_keys(' '.join(r['text_zh'] for r in csv.DictReader(src)), han=True)
@@ -264,11 +270,13 @@ def page_mapping(cap, pages, cfg):
     for p in pages:
         before = max((v for v in anchors if v < p), default=None)
         after = min((v for v in anchors if v > p), default=None)
-        lo = min(a[0] for a in anchors[before]) if before else 1
-        hi = max(a[0] for a in anchors[after]) if after else cfg['han_end']
+        lo = min(a[0] for a in anchors[before]) if before else han_start
+        hi = max(a[0] for a in anchors[after]) if after else han_end
         exact = anchors.get(p, [])
         evidence = ' | '.join(f'Hán {h}: {cue} — {note}' for h, cue, note in exact)
-        verified = ', '.join(str(h) + (' (' + cfg['han_end_region'] + ')' if h == cfg['han_end'] and 'han_end_region' in cfg else '') for h in sorted({a[0] for a in exact}))
+        verified = ', '.join(f'{h} ({regions[h]})' if h in regions else str(h) for h in sorted({a[0] for a in exact}))
+        if cfg.get('han_start_region') and lo == han_start:
+            evidence = ' | '.join(filter(None, [evidence, f'Giới hạn đầu: Hán {han_start} ({regions[han_start]})']))
         suggested = [(h, terms) for h, terms in candidates.get(p, []) if lo <= h <= hi]
         if suggested:
             evidence = ' | '.join(filter(None, [evidence, *(f'Ứng viên Hán {h} (số liệu: {terms})' for h, terms in suggested)]))
@@ -296,10 +304,12 @@ def excel_sheet(ws, headers, widths, rows):
 
 def run(cap, cfg):
     start, end = cfg['viet_start'], cfg['viet_end']
-    base = ROOT / '02_ocr_tho' / cap / 'VIET'
+    pair = cfg.get('pair', cap)
+    base = ROOT / '02_ocr_tho' / pair / 'VIET'
     raw_dir = base / 'raw' / 'pdftotext'
-    pages = load_pages(ROOT / '01_nguon' / cap / 'VIET.pdf', start, end)
-    mapping = page_mapping(cap, pages, cfg)
+    pdf = ROOT / cfg.get('viet_pdf', f'01_nguon/{pair}/VIET.pdf')
+    pages = load_pages(pdf, start, end)
+    mapping = page_mapping(pair, pages, cfg)
     classify(pages, cfg)
     records = records_for(pages, cfg, cap)
     raw_dir.mkdir(parents=True, exist_ok=True)

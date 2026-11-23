@@ -25,14 +25,17 @@ From the repository root, with Poppler's `pdftotext` on `PATH` and Python `openp
 python -B 02_ocr_tho/viet_ocr_batch.py --cap all
 ```
 
-The same command reads both PDFs' embedded OCR, segments the selected text, checks configured passage anchors, and regenerates the raw `VIET/raw/pdftotext/NNNN_page_text.txt` and workbook outputs for each pair. Use `--cap Cap_01` or `--cap Cap_02` for one pair.
+The command reads the PDFs' embedded OCR, segments the selected text, checks configured passage anchors, and regenerates the raw `VIET/raw/pdftotext/NNNN_page_text.txt` and workbook outputs. Use `--cap Cap_01` or `--cap Cap_02` for the original ranges. For Quyển VI alone, run `python -B 02_ocr_tho/viet_ocr_batch.py --cap Cap_02_VI`.
 
 | Workbook (under `02_ocr_tho/`) | Vietnamese PDF pages | Hán scope |
 | --- | --- | --- |
 | `Cap_01/VIET/VIET_0186-0251.xlsx` | 186–251 | 1–53; the overlap starts within Vietnamese PDF p. 186. |
 | `Cap_02/VIET/VIET_0001-0105.xlsx` | 1–105 | 1–50 and right half of 51 (Quyển V). |
+| `Cap_02/VIET/VIET_0405-0439.xlsx` | 405–439 in the full PDF (printed 409–443) | Left half of 51 through 87 (Quyển VI). |
 
-Filter `CAU_VIET` on `dung_de_ghep = TRUE` for prose and verse translations. Each cross-page sentence has one ID and two page endpoints. Labels and sentence boundaries are extraction heuristics; review OCR against the PDF before using it as a reference. `TRANG_VIET` separates confirmed passage anchors from candidates and from broader search windows bounded by the neighboring anchors. A verified anchor establishes an overlap, not a full page or sentence alignment. The script checks each cue in `02_ocr_tho/viet_han_anchors.json` against the source. If page-numbered Hán cleaned CSVs are available in Stage 03, uniquely shared number pairs can additionally suggest a candidate. The search window for Cap_02 never includes the left half of Hán p. 51.
+`Cap_02_VI` uses the [Internet Archive PDF WITH TEXT](https://archive.org/details/phubientapluc_vsh_2007), saved as `01_nguon/Cap-02/Viet-2/pdf/Phu_bien_tap_luc_2007.pdf`. Full-PDF p. 404 is the last page of the original Cap_02 Vietnamese PDF; p. 405 continues with Quyển VI. The afterword starts on p. 440, outside this run.
+
+Filter `CAU_VIET` on `dung_de_ghep = TRUE` for prose and verse translations. Each cross-page sentence has one ID and two page endpoints. Labels and sentence boundaries are extraction heuristics; review OCR against the PDF before using it as a reference. `TRANG_VIET` separates confirmed passage anchors from candidates and from broader search windows bounded by the neighboring anchors. A verified anchor establishes an overlap, not a full page or sentence alignment. The script checks each cue in `02_ocr_tho/viet_han_anchors.json` against the source. If page-numbered Hán cleaned CSVs are available in Stage 03, uniquely shared number pairs can additionally suggest a candidate. At Hán p. 51, the Quyển V range stops at the right half and the Quyển VI range starts at the left half.
 
 ## Kaggle: upload, attach data, run
 
