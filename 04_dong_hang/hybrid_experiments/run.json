@@ -1,0 +1,96 @@
+{
+  "variants": [
+    "V18",
+    "V19",
+    "V20",
+    "V21",
+    "V22",
+    "V23"
+  ],
+  "stats": [
+    {
+      "variant": "V18",
+      "block": "0001-0002",
+      "source_chars": 904,
+      "han_units": 31,
+      "matched_chars": 634
+    },
+    {
+      "variant": "V19",
+      "block": "0001-0002",
+      "source_chars": 904,
+      "han_units": 34,
+      "matched_chars": 661
+    },
+    {
+      "variant": "V20",
+      "block": "0001-0002",
+      "source_chars": 904,
+      "han_units": 33,
+      "matched_chars": 669
+    },
+    {
+      "variant": "V21",
+      "block": "0001-0002",
+      "source_chars": 904,
+      "han_units": 33,
+      "matched_chars": 639
+    },
+    {
+      "variant": "V22",
+      "block": "0001-0002",
+      "source_chars": 904,
+      "han_units": 33,
+      "matched_chars": 639
+    },
+    {
+      "variant": "V23",
+      "block": "0001-0002",
+      "source_chars": 904,
+      "han_units": 35,
+      "matched_chars": 522
+    }
+  ],
+  "source_chars": 904,
+  "api_calls": 5,
+  "cache_hits": 1,
+  "attempts": [
+    {
+      "tag": "0001-0002:coarse:0",
+      "han_units": 29,
+      "viet_units": 12,
+      "traceable": 11,
+      "ok": true
+    },
+    {
+      "tag": "0001-0002:coarse:0",
+      "han_units": 29,
+      "viet_units": 12,
+      "traceable": 11,
+      "ok": true
+    },
+    {
+      "tag": "0001-0002:coarse:1",
+      "han_units": 29,
+      "viet_units": 16,
+      "traceable": 14,
+      "ok": true
+    },
+    {
+      "tag": "0001-0002:fine:0",
+      "han_units": 70,
+      "viet_units": 12,
+      "traceable": 15,
+      "ok": true
+    },
+    {
+      "tag": "0001-0002:fine:1",
+      "han_units": 70,
+      "viet_units": 16,
+      "traceable": 19,
+      "ok": true
+    }
+  ],
+  "failures": [],
+  "dictionary_entries": 8306
+}

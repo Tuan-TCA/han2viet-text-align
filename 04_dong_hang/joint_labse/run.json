@@ -1,0 +1,63 @@
+{
+  "variants": [
+    "V7",
+    "V8",
+    "V9",
+    "V10"
+  ],
+  "source_chars": 904,
+  "pages": [
+    1,
+    2
+  ],
+  "viet_window": [
+    185,
+    189
+  ],
+  "model": "labse",
+  "han_candidates": 5659,
+  "viet_candidates": 31,
+  "dictionary_entries": 8306,
+  "scores": {
+    "V7": 110.5582653474807,
+    "V8": 129.3376139584183,
+    "V9": 136.96356174565844,
+    "V10": 53.53461889743798
+  },
+  "config": {
+    "command": "run",
+    "han_dir": "C:\\Users\\Tuan TCA\\OneDrive\\Tai_Lieu\\3ndYear\\NLP\\Midterm\\CV16\\02_ocr_tho\\Cap_01\\HAN\\pages",
+    "viet_xlsx": "C:\\Users\\Tuan TCA\\OneDrive\\Tai_Lieu\\3ndYear\\NLP\\Midterm\\CV16\\02_ocr_tho\\Cap_01\\VIET\\VIET_0186-0251.xlsx",
+    "output": "04_dong_hang\\joint_labse",
+    "pages": [
+      1,
+      2
+    ],
+    "variants": [
+      "V7",
+      "V8",
+      "V9",
+      "V10"
+    ],
+    "model": "labse",
+    "hv_dict": null,
+    "offline": false,
+    "stride": 4,
+    "min_han": 5,
+    "max_han": 110,
+    "max_viet_group": 2,
+    "margin": 1,
+    "threads": 8,
+    "batch_size": 16,
+    "max_tokens": 256,
+    "max_matrix_cells": 3000000,
+    "threshold": 0.4,
+    "strict_delta": 0.12,
+    "skip_han": 0.015,
+    "skip_viet": 0.12,
+    "number_weight": 0.18,
+    "hv_weight": 0.2,
+    "group_penalty": 0.3,
+    "boundary_penalty": 0.1
+  }
+}

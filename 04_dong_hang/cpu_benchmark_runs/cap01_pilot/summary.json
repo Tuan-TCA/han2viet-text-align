@@ -1,0 +1,482 @@
+{
+  "han_pages": [
+    1,
+    2
+  ],
+  "viet_pages": [
+    186,
+    188
+  ],
+  "reviewed_reference_pairs": 4,
+  "segmentation": {
+    "underthesea": {
+      "seconds": 17.095,
+      "before": 12,
+      "after": 13
+    },
+    "jiayan": {
+      "status": "not run",
+      "reason": "Set --jiayan-models and install KenLM"
+    }
+  },
+  "variants": {
+    "reviewed": {
+      "api": {
+        "proposals": 11,
+        "exact_review_matches": 0,
+        "confirmed_label_1": null,
+        "unreviewed": 11,
+        "covered_han_units": 12
+      },
+      "bertalign": {
+        "proposals": 13,
+        "exact_review_matches": 0,
+        "confirmed_label_1": null,
+        "unreviewed": 13,
+        "covered_han_units": 16
+      },
+      "hybrid": {
+        "proposals": 12,
+        "exact_review_matches": 0,
+        "confirmed_label_1": null,
+        "unreviewed": 12,
+        "covered_han_units": 13
+      },
+      "bert_additions_to_api": 1,
+      "han_units": 16,
+      "viet_units": 12,
+      "api_seconds": 15.743,
+      "bertalign_seconds": 49.581,
+      "bertalign_error": null,
+      "api_calls": 2,
+      "api_errors": 0,
+      "api_attempts": [
+        {
+          "han_ids": [
+            "Cap01-R001-001",
+            "Cap01-R001-002",
+            "Cap01-R001-003",
+            "Cap01-R001-004",
+            "Cap01-R001-005",
+            "Cap01-R001-006",
+            "Cap01-R001-007",
+            "Cap01-R001-008"
+          ],
+          "viet_pages": [
+            186,
+            188
+          ],
+          "vi_split_depth": 0,
+          "parent_attempt": null,
+          "viet_spans": [
+            [
+              "Cap_01-VI-0186-001",
+              0,
+              19
+            ],
+            [
+              "Cap_01-VI-0186-001",
+              20,
+              145
+            ],
+            [
+              "Cap_01-VI-0186-002",
+              0,
+              113
+            ],
+            [
+              "Cap_01-VI-0186-003",
+              0,
+              850
+            ],
+            [
+              "Cap_01-VI-0187-001",
+              0,
+              56
+            ],
+            [
+              "Cap_01-VI-0187-001",
+              57,
+              164
+            ],
+            [
+              "Cap_01-VI-0187-001",
+              165,
+              209
+            ],
+            [
+              "Cap_01-VI-0187-001",
+              210,
+              248
+            ],
+            [
+              "Cap_01-VI-0187-002",
+              0,
+              137
+            ],
+            [
+              "Cap_01-VI-0187-002",
+              138,
+              210
+            ],
+            [
+              "Cap_01-VI-0187-002",
+              211,
+              237
+            ],
+            [
+              "Cap_01-VI-0187-003",
+              0,
+              68
+            ],
+            [
+              "Cap_01-VI-0187-004",
+              0,
+              168
+            ],
+            [
+              "Cap_01-VI-0187-005",
+              0,
+              771
+            ]
+          ],
+          "traceable_pairs": 7,
+          "malformed_rows": 0,
+          "returned_rows": 8
+        },
+        {
+          "han_ids": [
+            "Cap01-R001-009",
+            "Cap01-R002-010",
+            "Cap01-R002-011",
+            "Cap01-R002-012",
+            "Cap01-R002-013",
+            "Cap01-R002-014",
+            "Cap01-R002-015",
+            "Cap01-R002-016"
+          ],
+          "viet_pages": [
+            186,
+            188
+          ],
+          "vi_split_depth": 0,
+          "parent_attempt": null,
+          "viet_spans": [
+            [
+              "Cap_01-VI-0186-003",
+              0,
+              850
+            ],
+            [
+              "Cap_01-VI-0187-001",
+              0,
+              56
+            ],
+            [
+              "Cap_01-VI-0187-001",
+              57,
+              164
+            ],
+            [
+              "Cap_01-VI-0187-001",
+              165,
+              209
+            ],
+            [
+              "Cap_01-VI-0187-001",
+              210,
+              248
+            ],
+            [
+              "Cap_01-VI-0187-002",
+              0,
+              137
+            ],
+            [
+              "Cap_01-VI-0187-002",
+              138,
+              210
+            ],
+            [
+              "Cap_01-VI-0187-002",
+              211,
+              237
+            ],
+            [
+              "Cap_01-VI-0187-003",
+              0,
+              68
+            ],
+            [
+              "Cap_01-VI-0187-004",
+              0,
+              168
+            ],
+            [
+              "Cap_01-VI-0187-005",
+              0,
+              771
+            ],
+            [
+              "Cap_01-VI-0188-001",
+              0,
+              608
+            ],
+            [
+              "Cap_01-VI-0188-002",
+              0,
+              63
+            ],
+            [
+              "Cap_01-VI-0188-002",
+              64,
+              78
+            ],
+            [
+              "Cap_01-VI-0188-003",
+              0,
+              278
+            ],
+            [
+              "Cap_01-VI-0188-003",
+              279,
+              296
+            ]
+          ],
+          "traceable_pairs": 5,
+          "malformed_rows": 0,
+          "returned_rows": 7
+        }
+      ]
+    },
+    "underthesea": {
+      "api": {
+        "proposals": 11,
+        "exact_review_matches": 0,
+        "confirmed_label_1": null,
+        "unreviewed": 11,
+        "covered_han_units": 12
+      },
+      "bertalign": {
+        "proposals": 12,
+        "exact_review_matches": 0,
+        "confirmed_label_1": null,
+        "unreviewed": 12,
+        "covered_han_units": 16
+      },
+      "hybrid": {
+        "proposals": 12,
+        "exact_review_matches": 0,
+        "confirmed_label_1": null,
+        "unreviewed": 12,
+        "covered_han_units": 13
+      },
+      "bert_additions_to_api": 1,
+      "han_units": 16,
+      "viet_units": 13,
+      "api_seconds": 21.517,
+      "bertalign_seconds": 34.17,
+      "bertalign_error": null,
+      "api_calls": 2,
+      "api_errors": 0,
+      "api_attempts": [
+        {
+          "han_ids": [
+            "Cap01-R001-001",
+            "Cap01-R001-002",
+            "Cap01-R001-003",
+            "Cap01-R001-004",
+            "Cap01-R001-005",
+            "Cap01-R001-006",
+            "Cap01-R001-007",
+            "Cap01-R001-008"
+          ],
+          "viet_pages": [
+            186,
+            188
+          ],
+          "vi_split_depth": 0,
+          "parent_attempt": null,
+          "viet_spans": [
+            [
+              "Cap_01-VI-0186-001.U1",
+              0,
+              19
+            ],
+            [
+              "Cap_01-VI-0186-001.U1",
+              20,
+              145
+            ],
+            [
+              "Cap_01-VI-0186-002.U1",
+              0,
+              113
+            ],
+            [
+              "Cap_01-VI-0186-003.U1",
+              0,
+              850
+            ],
+            [
+              "Cap_01-VI-0187-001.U1",
+              0,
+              56
+            ],
+            [
+              "Cap_01-VI-0187-001.U1",
+              57,
+              164
+            ],
+            [
+              "Cap_01-VI-0187-001.U1",
+              165,
+              209
+            ],
+            [
+              "Cap_01-VI-0187-001.U1",
+              210,
+              248
+            ],
+            [
+              "Cap_01-VI-0187-002.U1",
+              0,
+              137
+            ],
+            [
+              "Cap_01-VI-0187-002.U1",
+              138,
+              210
+            ],
+            [
+              "Cap_01-VI-0187-002.U1",
+              211,
+              237
+            ],
+            [
+              "Cap_01-VI-0187-003.U1",
+              0,
+              68
+            ],
+            [
+              "Cap_01-VI-0187-004.U1",
+              0,
+              168
+            ],
+            [
+              "Cap_01-VI-0187-005.U1",
+              0,
+              771
+            ]
+          ],
+          "traceable_pairs": 7,
+          "malformed_rows": 0,
+          "returned_rows": 8
+        },
+        {
+          "han_ids": [
+            "Cap01-R001-009",
+            "Cap01-R002-010",
+            "Cap01-R002-011",
+            "Cap01-R002-012",
+            "Cap01-R002-013",
+            "Cap01-R002-014",
+            "Cap01-R002-015",
+            "Cap01-R002-016"
+          ],
+          "viet_pages": [
+            187,
+            189
+          ],
+          "vi_split_depth": 0,
+          "parent_attempt": null,
+          "viet_spans": [
+            [
+              "Cap_01-VI-0187-001.U1",
+              0,
+              56
+            ],
+            [
+              "Cap_01-VI-0187-001.U1",
+              57,
+              164
+            ],
+            [
+              "Cap_01-VI-0187-001.U1",
+              165,
+              209
+            ],
+            [
+              "Cap_01-VI-0187-001.U1",
+              210,
+              248
+            ],
+            [
+              "Cap_01-VI-0187-002.U1",
+              0,
+              137
+            ],
+            [
+              "Cap_01-VI-0187-002.U1",
+              138,
+              210
+            ],
+            [
+              "Cap_01-VI-0187-002.U1",
+              211,
+              237
+            ],
+            [
+              "Cap_01-VI-0187-003.U1",
+              0,
+              68
+            ],
+            [
+              "Cap_01-VI-0187-004.U1",
+              0,
+              168
+            ],
+            [
+              "Cap_01-VI-0187-005.U1",
+              0,
+              771
+            ],
+            [
+              "Cap_01-VI-0188-001.U1",
+              0,
+              608
+            ],
+            [
+              "Cap_01-VI-0188-002.U1",
+              0,
+              63
+            ],
+            [
+              "Cap_01-VI-0188-002.U1",
+              64,
+              78
+            ],
+            [
+              "Cap_01-VI-0188-003.U1",
+              0,
+              278
+            ],
+            [
+              "Cap_01-VI-0188-003.U1",
+              279,
+              296
+            ],
+            [
+              "Cap_01-VI-0188-004.U1",
+              0,
+              169
+            ]
+          ],
+          "traceable_pairs": 6,
+          "malformed_rows": 0,
+          "returned_rows": 7
+        }
+      ]
+    }
+  }
+}
