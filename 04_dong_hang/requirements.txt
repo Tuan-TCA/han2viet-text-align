@@ -1,0 +1,8 @@
+bertalign @ git+https://github.com/bfsujason/bertalign.git
+sentence-transformers
+faiss-cpu
+googletrans==4.0.0-rc1
+pandas
+openpyxl
+numpy
+tqdm
