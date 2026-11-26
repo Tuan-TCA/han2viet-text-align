@@ -1,0 +1,78 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "f8d533bc6e025b680a2b4b6bc55263c1f6caaaf823af657077bf7b87a8c3ce49",
+  "payload": {
+    "han": "父不亡保其罪子君安亡保其艮奇\n雖於鉛錄之弊後來久美今欲更之\n其芳甚難于來效而生之饑其芳其急\n臣窃思之百今之計莫若依後法置常平食志府置庫\n從有隨府玄幸平之價粟斟即依常平價買入官庫粟貴則0依價癸賣與民\n此此則業不至於甚賤以妨農而致廢步亦不至於貴甚\n以資富賈之利而貧臣飢璧我從徐之更鉛錢之弊而諸貨平更\n謹除常平法例列于左一或嘉定府玄常平粟價每解五陌平順延處粟價每解六陌\n富安為仁案價之辭\n七酉塵又升華雲盤案價也\n解八百順京廟平市致樂價每辭一定\n如各府此穀熟之辰許民依常平價商賣尚粟財則有司亦依常平價買入官\n有粟之家執價不肯責則可亦依常平價買之\n國有粟者不敢把價陰欲發船\n嘗筆卦京書得二倍之利平順延度之案\n卦京當得六倍之利富安為仁之宗\n卦京堂得七分之利意又升華雲豐之案卦京雪得八分之利\n此則年二不必差年催諸府衆船卦京而諸府之",
+    "vi": "Ở Gia Định thóc đắt thì thóc ở các phủ không thể không đắt; thóc ở các phủ đắt mà dân ở Phú Xuân không đối sao được?\nPhàm tình người một ngày không ăn hai bữa thì đói, suốt năm không may áo thì rét, đói rét thiết thân thì không đoái Hêm sỉ, cho nên gian tà nổi mà trộm cướp sinh.\nCó câu nói rằng: \"Một bữa không có ăn thì cha con không có nghĩa nữa; Cha đã không giữ được con, thì vua sao giữ được dân?\nTuy nhiên cái tệ tiền kẽm đã lâu rồi, nay muốn đổi đi thế rất là khó, mà nạn đói của dân lại rất gấp.\nThần trộm nghĩ phương kế ngày nay không gì bằng phỏng theo phép nhà Hán, đặt kho thường bình, mỗi phủ một kho, đặt quan phụ trách, tuỳ phủ mà định giá thường bình, thóc rẻ thì theo giá mà đong vào, thóc đắt thì theo giá ấy mà bán ra.\nNhư thế thì giá thóc không đến rẻ quá để hại nhà nông đến nỗi phải bỏ nghề, cũng không đến đắt quá để làm lợi cho bọn phú thương mà dân nghèo thì đói.\nRồi sau sẽ dần dần đối cái tệ tiền kẽm.\nNhư thế thì giá các hàng sẽ được bình ổn.\nXin trình bày thể lệ về phép kho thường bình như sau: Ví như phủ Gia Định giá thóc thường bình mỗi hộc 5 tiền, Bình Thuận, Diên Khánh, giá thóc mỗi hộc 6 tiền, Phú Yên, Quy Nhơn giá thóc mỗi hộc 7 tiển, Quảng Ngãi, Thăng Hoa, Điện Bàn, giá thóc mỗi hộc 8 tiền, Thuận Kinh, Quảng Bình, Bố Chính, giá thóc mỗi hộc 1 quan.\nNhư gặp ngày mùa ở các phủ thì cho dân theo giá thường bình mà buôn bán, nếu thóc không chạy mà giá rẻ thì hữu ty y giá thường bình mà mua; hoặc nhà có thóc giữ giá không chịu bán thì hữu ty cũng y giá thường bình mà mua, khiến họ cũng không dám giữ giá; rồi sau lấy thuyền vận chở tới Kinh, còn dư thì để chứa ở xứ ấy để phòng năm mất mùa mà phát chẩn cho quân dân."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 0,\n        \"vi_start\": 0,\n        \"vi_end\": 2,\n        \"han_text\": \"父不亡保其罪子君安亡保其艮奇\",\n        \"vietnamese_text\": \"Ở Gia Định thóc đắt thì thóc ở các phủ không thể không đắt; thóc ở các phủ đắt mà dân ở Phú Xuân không đối sao được? Phàm tình người một ngày không ăn hai bữa thì đói, suốt năm không may áo thì rét, đói rét thiết thân thì không đoái Hêm sỉ, cho nên gian tà nổi mà trộm cướp sinh. Có câu nói rằng: \\\"Một bữa không có ăn thì cha con không có nghĩa nữa; Cha đã không giữ được con, thì vua sao giữ được dân?\",\n        \"score\": 0.03976391791851925\n      },\n      {\n        \"han_start\": 1,\n        \"han_end\": 2,\n        \"vi_start\": 3,\n        \"vi_end\": 3,\n        \"han_text\": \"雖於鉛錄之弊後來久美今欲更之 其芳甚難于來效而生之饑其芳其急\",\n        \"vietnamese_text\": \"Tuy nhiên cái tệ tiền kẽm đã lâu rồi, nay muốn đổi đi thế rất là khó, mà nạn đói của dân lại rất gấp.\",\n        \"score\": 0.2857191315181053\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 4,\n        \"vi_start\": 4,\n        \"vi_end\": 4,\n        \"han_text\": \"臣窃思之百今之計莫若依後法置常平食志府置庫 從有隨府玄幸平之價粟斟即依常平價買入官庫粟貴則0依價癸賣與民\",\n        \"vietnamese_text\": \"Thần trộm nghĩ phương kế ngày nay không gì bằng phỏng theo phép nhà Hán, đặt kho thường bình, mỗi phủ một kho, đặt quan phụ trách, tuỳ phủ mà định giá thường bình, thóc rẻ thì theo giá mà đong vào, thóc đắt thì theo giá ấy mà bán ra.\",\n        \"score\": 0.3325028817864568\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 6,\n        \"vi_start\": 5,\n        \"vi_end\": 7,\n        \"han_text\": \"此此則業不至於甚賤以妨農而致廢步亦不至於貴甚 以資富賈之利而貧臣飢璧我從徐之更鉛錢之弊而諸貨平更\",\n        \"vietnamese_text\": \"Như thế thì giá thóc không đến rẻ quá để hại nhà nông đến nỗi phải bỏ nghề, cũng không đến đắt quá để làm lợi cho bọn phú thương mà dân nghèo thì đói. Rồi sau sẽ dần dần đối cái tệ tiền kẽm. Như thế thì giá các hàng sẽ được bình ổn.\",\n        \"score\": 0.431222667388782\n      },\n      {\n        \"han_start\": 7,\n        \"han_end\": 10,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"謹除常平法例列于左一或嘉定府玄常平粟價每解五陌平順延處粟價每解六陌 富安為仁案價之辭 七酉塵又升華雲盤案價也 解八百順京廟平市致樂價每辭一定\",\n        \"vietnamese_text\": \"Xin trình bày thể lệ về phép kho thường bình như sau: Ví như phủ Gia Định giá thóc thường bình mỗi hộc 5 tiền, Bình Thuận, Diên Khánh, giá thóc mỗi hộc 6 tiền, Phú Yên, Quy Nhơn giá thóc mỗi hộc 7 tiển, Quảng Ngãi, Thăng Hoa, Điện Bàn, giá thóc mỗi hộc 8 tiền, Thuận Kinh, Quảng Bình, Bố Chính, giá thóc mỗi hộc 1 quan.\",\n        \"score\": 0.31087963727629553\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 14,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"如各府此穀熟之辰許民依常平價商賣尚粟財則有司亦依常平價買入官 有粟之家執價不肯責則可亦依常平價買之 國有粟者不敢把價陰欲發船 嘗筆卦京書得二倍之利平順延度之案\",\n        \"vietnamese_text\": \"Như gặp ngày mùa ở các phủ thì cho dân theo giá thường bình mà buôn bán, nếu thóc không chạy mà giá rẻ thì hữu ty y giá thường bình mà mua; hoặc nhà có thóc giữ giá không chịu bán thì hữu ty cũng y giá thường bình mà mua, khiến họ cũng không dám giữ giá; rồi sau lấy thuyền vận chở tới Kinh, còn dư thì để chứa ở xứ ấy để phòng năm mất mùa mà phát chẩn cho quân dân.\",\n        \"score\": 0.3824244939388366\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 0,
+          "vi_start": 0,
+          "vi_end": 2,
+          "han_text": "父不亡保其罪子君安亡保其艮奇",
+          "vietnamese_text": "Ở Gia Định thóc đắt thì thóc ở các phủ không thể không đắt; thóc ở các phủ đắt mà dân ở Phú Xuân không đối sao được? Phàm tình người một ngày không ăn hai bữa thì đói, suốt năm không may áo thì rét, đói rét thiết thân thì không đoái Hêm sỉ, cho nên gian tà nổi mà trộm cướp sinh. Có câu nói rằng: \"Một bữa không có ăn thì cha con không có nghĩa nữa; Cha đã không giữ được con, thì vua sao giữ được dân?",
+          "score": 0.03976391791851925
+        },
+        {
+          "han_start": 1,
+          "han_end": 2,
+          "vi_start": 3,
+          "vi_end": 3,
+          "han_text": "雖於鉛錄之弊後來久美今欲更之 其芳甚難于來效而生之饑其芳其急",
+          "vietnamese_text": "Tuy nhiên cái tệ tiền kẽm đã lâu rồi, nay muốn đổi đi thế rất là khó, mà nạn đói của dân lại rất gấp.",
+          "score": 0.2857191315181053
+        },
+        {
+          "han_start": 3,
+          "han_end": 4,
+          "vi_start": 4,
+          "vi_end": 4,
+          "han_text": "臣窃思之百今之計莫若依後法置常平食志府置庫 從有隨府玄幸平之價粟斟即依常平價買入官庫粟貴則0依價癸賣與民",
+          "vietnamese_text": "Thần trộm nghĩ phương kế ngày nay không gì bằng phỏng theo phép nhà Hán, đặt kho thường bình, mỗi phủ một kho, đặt quan phụ trách, tuỳ phủ mà định giá thường bình, thóc rẻ thì theo giá mà đong vào, thóc đắt thì theo giá ấy mà bán ra.",
+          "score": 0.3325028817864568
+        },
+        {
+          "han_start": 5,
+          "han_end": 6,
+          "vi_start": 5,
+          "vi_end": 7,
+          "han_text": "此此則業不至於甚賤以妨農而致廢步亦不至於貴甚 以資富賈之利而貧臣飢璧我從徐之更鉛錢之弊而諸貨平更",
+          "vietnamese_text": "Như thế thì giá thóc không đến rẻ quá để hại nhà nông đến nỗi phải bỏ nghề, cũng không đến đắt quá để làm lợi cho bọn phú thương mà dân nghèo thì đói. Rồi sau sẽ dần dần đối cái tệ tiền kẽm. Như thế thì giá các hàng sẽ được bình ổn.",
+          "score": 0.431222667388782
+        },
+        {
+          "han_start": 7,
+          "han_end": 10,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "謹除常平法例列于左一或嘉定府玄常平粟價每解五陌平順延處粟價每解六陌 富安為仁案價之辭 七酉塵又升華雲盤案價也 解八百順京廟平市致樂價每辭一定",
+          "vietnamese_text": "Xin trình bày thể lệ về phép kho thường bình như sau: Ví như phủ Gia Định giá thóc thường bình mỗi hộc 5 tiền, Bình Thuận, Diên Khánh, giá thóc mỗi hộc 6 tiền, Phú Yên, Quy Nhơn giá thóc mỗi hộc 7 tiển, Quảng Ngãi, Thăng Hoa, Điện Bàn, giá thóc mỗi hộc 8 tiền, Thuận Kinh, Quảng Bình, Bố Chính, giá thóc mỗi hộc 1 quan.",
+          "score": 0.31087963727629553
+        },
+        {
+          "han_start": 11,
+          "han_end": 14,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "如各府此穀熟之辰許民依常平價商賣尚粟財則有司亦依常平價買入官 有粟之家執價不肯責則可亦依常平價買之 國有粟者不敢把價陰欲發船 嘗筆卦京書得二倍之利平順延度之案",
+          "vietnamese_text": "Như gặp ngày mùa ở các phủ thì cho dân theo giá thường bình mà buôn bán, nếu thóc không chạy mà giá rẻ thì hữu ty y giá thường bình mà mua; hoặc nhà có thóc giữ giá không chịu bán thì hữu ty cũng y giá thường bình mà mua, khiến họ cũng không dám giữ giá; rồi sau lấy thuyền vận chở tới Kinh, còn dư thì để chứa ở xứ ấy để phòng năm mất mùa mà phát chẩn cho quân dân.",
+          "score": 0.3824244939388366
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 5844
+}

@@ -1,0 +1,11 @@
+{
+  "identity": "5833a93d06136fd628733a4b816f66aeab54ee09a4978be9fee3819d9d550d6a",
+  "version": 2,
+  "production_sha256": {
+    "03_text_sach\\artifacts\\production\\han_segments.jsonl": "8db9a10b6406d18d9a52254e35d0bab29cc090332abf98ed96e981c46f94282e",
+    "03_text_sach\\artifacts\\production\\window_context.jsonl": "34b87f40eeb746dc0573757bef62ea480073c42669c1d4cd613bed3ac386ea2d",
+    "03_text_sach\\artifacts\\production\\production_audit.json": "fa294c8e8bd006a75f0cb58290b981394b89c9627bf0e216efd77de940da847e",
+    "03_text_sach\\artifacts\\production\\production_manifest.json": "e3def9f4a74cc5fbd4c74553b52c74090f0c529240999d4ac6fbcd668c87074e"
+  },
+  "pilot": false
+}

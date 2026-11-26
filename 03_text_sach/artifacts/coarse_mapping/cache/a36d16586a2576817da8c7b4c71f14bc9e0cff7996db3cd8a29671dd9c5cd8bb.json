@@ -1,0 +1,105 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "a36d16586a2576817da8c7b4c71f14bc9e0cff7996db3cd8a29671dd9c5cd8bb",
+  "payload": {
+    "han": "完璞范首自融珍不為物敬所泪胸收洒蕩目會心聽\n故於花朝月夜三辰冷雨疏尾之際\n聲物而登欲頗成德走调天松各得其性之正\n示花竹之於尼也隨触隨登此韻無分而人不厌其繁也\n第凡之能於物也天物驟至苦箱皆鳴\n而独以竹指名者何赤蓋竹之為物也有顯乎君子之分焉\n通其立志名集可慨於楚見其己人而况實其诗耶\n吳世雖詩集其詠有云南方有一士志大而效奇\n少之宣產小長進心無玄職十效寢食任被忘權威孝目蒼生若胸中無所\n自負且盡匱善價应有期\n行年未四十此心忽已哀\n退居友廉鹿結屋卧山坡\n目毫古人半所得在伏義\n誰知富貴外別有些此見點\n須知古人誠於不我欺\n回首少年場凡事在妄為\n幸赤賤難韻縣念自#怡\n哲人嗟永袁吾今誰興局\n其春日僞成云浮者故下見吾真水竹生謹幸不貧\n野賤亦尾烟自直山花有路色偏親\n身談討容饒三寸佳釀逢春好十分\n料得無人(2)同此生不妨麋底結為鄰\n其書懷云天地生余有意無",
+    "vi": "Hoa lam chạm cột hồng ứng má.\nLa chối quanh mương đượm tóc xanh.\nBừa tha gốc tùng ngồi bóng mát.\nĐầu cành chím hót giục ta chăng!\nlo 3. .$a đinH uấn hành Tình giang thụ sắc uãn thương thương.\nĐộc bộ sơ đỉnh uọng diểu mang.\n7v khách miễn âu tàng loạn địch; Hậu ngư cơ lộ lập hàn đường.\nThu phong uì chuẩn hồ tâm tĩnh.\nLạc nhật không giao lữ tứ mạng.\nPhạm Lãi biển chu hò xứ thị?"
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 0,\n        \"vi_start\": 0,\n        \"vi_end\": 1,\n        \"han_text\": \"完璞范首自融珍不為物敬所泪胸收洒蕩目會心聽\",\n        \"vietnamese_text\": \"Hoa lam chạm cột hồng ứng má. La chối quanh mương đượm tóc xanh.\",\n        \"score\": 0.012277466371706736\n      },\n      {\n        \"han_start\": 1,\n        \"han_end\": 2,\n        \"vi_start\": 2,\n        \"vi_end\": 2,\n        \"han_text\": \"故於花朝月夜三辰冷雨疏尾之際 聲物而登欲頗成德走调天松各得其性之正\",\n        \"vietnamese_text\": \"Bừa tha gốc tùng ngồi bóng mát.\",\n        \"score\": 0.15985477098108083\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 3,\n        \"vi_start\": 3,\n        \"vi_end\": 4,\n        \"han_text\": \"示花竹之於尼也隨触隨登此韻無分而人不厌其繁也\",\n        \"vietnamese_text\": \"Đầu cành chím hót giục ta chăng! lo 3.\",\n        \"score\": 0.08566060719712038\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 6,\n        \"vi_start\": 5,\n        \"vi_end\": 5,\n        \"han_text\": \"第凡之能於物也天物驟至苦箱皆鳴 而独以竹指名者何赤蓋竹之為物也有顯乎君子之分焉 通其立志名集可慨於楚見其己人而况實其诗耶\",\n        \"vietnamese_text\": \".\",\n        \"score\": -0.0015280113646641703\n      },\n      {\n        \"han_start\": 7,\n        \"han_end\": 10,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"吳世雖詩集其詠有云南方有一士志大而效奇 少之宣產小長進心無玄職十效寢食任被忘權威孝目蒼生若胸中無所 自負且盡匱善價应有期 行年未四十此心忽已哀\",\n        \"vietnamese_text\": \"$a đinH uấn hành Tình giang thụ sắc uãn thương thương.\",\n        \"score\": 0.11986586326302914\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 13,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"退居友廉鹿結屋卧山坡 目毫古人半所得在伏義 誰知富貴外別有些此見點\",\n        \"vietnamese_text\": \"Độc bộ sơ đỉnh uọng diểu mang.\",\n        \"score\": 0.0976591297187075\n      },\n      {\n        \"han_start\": 14,\n        \"han_end\": 16,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"須知古人誠於不我欺 回首少年場凡事在妄為 幸赤賤難韻縣念自#怡\",\n        \"vietnamese_text\": \"7v khách miễn âu tàng loạn địch; Hậu ngư cơ lộ lập hàn đường.\",\n        \"score\": 0.05335999000662562\n      },\n      {\n        \"han_start\": 17,\n        \"han_end\": 20,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"哲人嗟永袁吾今誰興局 其春日僞成云浮者故下見吾真水竹生謹幸不貧 野賤亦尾烟自直山花有路色偏親 身談討容饒三寸佳釀逢春好十分\",\n        \"vietnamese_text\": \"Thu phong uì chuẩn hồ tâm tĩnh.\",\n        \"score\": 0.07473184641026405\n      },\n      {\n        \"han_start\": 21,\n        \"han_end\": 22,\n        \"vi_start\": 10,\n        \"vi_end\": 11,\n        \"han_text\": \"料得無人(2)同此生不妨麋底結為鄰 其書懷云天地生余有意無\",\n        \"vietnamese_text\": \"Lạc nhật không giao lữ tứ mạng. Phạm Lãi biển chu hò xứ thị?\",\n        \"score\": 0.09900173923643654\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 0,
+          "vi_start": 0,
+          "vi_end": 1,
+          "han_text": "完璞范首自融珍不為物敬所泪胸收洒蕩目會心聽",
+          "vietnamese_text": "Hoa lam chạm cột hồng ứng má. La chối quanh mương đượm tóc xanh.",
+          "score": 0.012277466371706736
+        },
+        {
+          "han_start": 1,
+          "han_end": 2,
+          "vi_start": 2,
+          "vi_end": 2,
+          "han_text": "故於花朝月夜三辰冷雨疏尾之際 聲物而登欲頗成德走调天松各得其性之正",
+          "vietnamese_text": "Bừa tha gốc tùng ngồi bóng mát.",
+          "score": 0.15985477098108083
+        },
+        {
+          "han_start": 3,
+          "han_end": 3,
+          "vi_start": 3,
+          "vi_end": 4,
+          "han_text": "示花竹之於尼也隨触隨登此韻無分而人不厌其繁也",
+          "vietnamese_text": "Đầu cành chím hót giục ta chăng! lo 3.",
+          "score": 0.08566060719712038
+        },
+        {
+          "han_start": 4,
+          "han_end": 6,
+          "vi_start": 5,
+          "vi_end": 5,
+          "han_text": "第凡之能於物也天物驟至苦箱皆鳴 而独以竹指名者何赤蓋竹之為物也有顯乎君子之分焉 通其立志名集可慨於楚見其己人而况實其诗耶",
+          "vietnamese_text": ".",
+          "score": -0.0015280113646641703
+        },
+        {
+          "han_start": 7,
+          "han_end": 10,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "吳世雖詩集其詠有云南方有一士志大而效奇 少之宣產小長進心無玄職十效寢食任被忘權威孝目蒼生若胸中無所 自負且盡匱善價应有期 行年未四十此心忽已哀",
+          "vietnamese_text": "$a đinH uấn hành Tình giang thụ sắc uãn thương thương.",
+          "score": 0.11986586326302914
+        },
+        {
+          "han_start": 11,
+          "han_end": 13,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "退居友廉鹿結屋卧山坡 目毫古人半所得在伏義 誰知富貴外別有些此見點",
+          "vietnamese_text": "Độc bộ sơ đỉnh uọng diểu mang.",
+          "score": 0.0976591297187075
+        },
+        {
+          "han_start": 14,
+          "han_end": 16,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "須知古人誠於不我欺 回首少年場凡事在妄為 幸赤賤難韻縣念自#怡",
+          "vietnamese_text": "7v khách miễn âu tàng loạn địch; Hậu ngư cơ lộ lập hàn đường.",
+          "score": 0.05335999000662562
+        },
+        {
+          "han_start": 17,
+          "han_end": 20,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "哲人嗟永袁吾今誰興局 其春日僞成云浮者故下見吾真水竹生謹幸不貧 野賤亦尾烟自直山花有路色偏親 身談討容饒三寸佳釀逢春好十分",
+          "vietnamese_text": "Thu phong uì chuẩn hồ tâm tĩnh.",
+          "score": 0.07473184641026405
+        },
+        {
+          "han_start": 21,
+          "han_end": 22,
+          "vi_start": 10,
+          "vi_end": 11,
+          "han_text": "料得無人(2)同此生不妨麋底結為鄰 其書懷云天地生余有意無",
+          "vietnamese_text": "Lạc nhật không giao lữ tứ mạng. Phạm Lãi biển chu hò xứ thị?",
+          "score": 0.09900173923643654
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 5344
+}

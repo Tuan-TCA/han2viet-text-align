@@ -1,0 +1,98 @@
+{
+  "range": [
+    140,
+    140
+  ],
+  "pdf_range": [
+    439,
+    439
+  ],
+  "submitted_range": [
+    439,
+    439
+  ],
+  "ids": [
+    "Cap_02_VI-VI-0439-002",
+    "Cap_02_VI-VI-0439-003",
+    "Cap_02_VI-VI-0439-004",
+    "Cap_02_VI-VI-0439-005",
+    "Cap_02_VI-VI-0439-006",
+    "Cap_02_VI-VI-0439-007",
+    "Cap_02_VI-VI-0439-008",
+    "Cap_02_VI-VI-0439-009",
+    "Cap_02_VI-VI-0439-010",
+    "Cap_02_VI-VI-0439-011"
+  ],
+  "submitted_ids": [
+    "Cap_02_VI-VI-0439-002",
+    "Cap_02_VI-VI-0439-003",
+    "Cap_02_VI-VI-0439-004",
+    "Cap_02_VI-VI-0439-005",
+    "Cap_02_VI-VI-0439-006",
+    "Cap_02_VI-VI-0439-007",
+    "Cap_02_VI-VI-0439-008",
+    "Cap_02_VI-VI-0439-009",
+    "Cap_02_VI-VI-0439-010",
+    "Cap_02_VI-VI-0439-011"
+  ],
+  "han_coverage": 1.0,
+  "vi_coverage": 1.0,
+  "missing_han": 0,
+  "duplicate_han": 0,
+  "duplicate_vi": 0,
+  "unresolved": 0,
+  "order_violations": 0,
+  "mapped_groups": 4,
+  "number_hits": 1,
+  "entity_hits": 0,
+  "weak_api_score": 0.04266907048340732,
+  "links": [
+    [
+      52335,
+      52361,
+      [
+        "Cap_02_VI-VI-0439-002",
+        "Cap_02_VI-VI-0439-003",
+        "Cap_02_VI-VI-0439-004"
+      ]
+    ],
+    [
+      52361,
+      52380,
+      [
+        "Cap_02_VI-VI-0439-005"
+      ]
+    ],
+    [
+      52380,
+      52389,
+      [
+        "Cap_02_VI-VI-0439-006",
+        "Cap_02_VI-VI-0439-007",
+        "Cap_02_VI-VI-0439-008"
+      ]
+    ],
+    [
+      52389,
+      52431,
+      [
+        "Cap_02_VI-VI-0439-009",
+        "Cap_02_VI-VI-0439-010",
+        "Cap_02_VI-VI-0439-011"
+      ]
+    ]
+  ],
+  "score": 3.2351202884580084,
+  "status": "ok",
+  "request_key": "a6616c981166da4b63fc5e5bf1c104018275c6713f0fa9cdf543bf7812a7b9b8",
+  "cap": "Cap_02",
+  "han_page": 87,
+  "purpose": "production-v2",
+  "han_ids": [
+    "Cap_02-087-088-S4-0001",
+    "Cap_02-087-088-S4-0002",
+    "Cap_02-087-088-S4-0003",
+    "Cap_02-087-088-S4-0004",
+    "Cap_02-087-088-S4-0005"
+  ]
+}

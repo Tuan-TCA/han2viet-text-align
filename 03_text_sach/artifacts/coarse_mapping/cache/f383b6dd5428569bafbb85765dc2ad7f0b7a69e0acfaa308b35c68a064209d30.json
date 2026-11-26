@@ -1,0 +1,105 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "f383b6dd5428569bafbb85765dc2ad7f0b7a69e0acfaa308b35c68a064209d30",
+  "payload": {
+    "han": "正容云先試士子中者饒孝欽者查所色登前說查民丁分為旺頂年民頂老頂穷疾頊各色老說別併漂流近别者出淺長成至紫者入澤\n附善者為附社類落四本一席工進\n一方迎戶部一本送丞司一本送縣官\n至景治年间朝廷厌其圓還類數\n始差分行勘定通併各社人丁田產量補率效立為平例\n生者不計耗者不除首法遂廢\n阮氏族守廣順傳習家久兵民田效租炫一遵洪德規例非有異也\n此法照軍項進取可謂兵效多矣\n唐太遣使點中男入庫者亦兆此\n且在家則出孫無殺徵英為併兌祖強亦古者寓兵主整之意\n玄另頭常如應多已除外不計\n至如照丁口等策以差次出賦味示不至有偏\n若祥酒是生生老成北仍其成例\n雜中各色量加裁減於微員目渠八省約郎一方之民巳沐膏澤而兵財自足國課亦有餘矣\n廣順六年一選場正月差官六月選風香柔奏田富榮三縣一場在辯擂下處\n登昌海陵明天三縣一場康祿\n正麗水南南政各縣各一場廣南九縣九暢\n差官自擇善地無有定所並限一月內完讫\n頗落只責人效增減以收其稅非是遂另\n但如另兵有欲則户部後落照落克補\n廣順蕭狀自端國公至壽國公七世間\n徐五年內各縣士人有就本次嘗官",
+    "vi": "Năm người ấy tổng cộng số tiển là 1.466 quan 3 tiền 21 đồng.\nBản triều từ đời Hồng Đức đến khoảng đời Thịnh Đức, Vĩnh Thọ thời Trung Hưng đều thường làm hộ tịch, thấy chép ở Thiện chính tập, đạt khái xét được: Cứ 3 năm một lần làm nhỏ (tiểu tạo), 6 năm một lần làm lớn (đại tu), sai quan duyệt tuyển, bắt các tổng xã kê khai chính hộ khách hộ, trước hết thi học trò, người đỗ thì được làm nhiêu học, sau xét đến chức sắc, nhiêu ấm, sau nữa xét đến dân đính, chia làm các hạng tráng, hạng quân, hạng dân, hạng lão, hạng tật, hạng cùng; lão nhiêu tính riêng; người xiêu tán đi nơi. khác thì bỏ ra số; người đến tuổi trưởng thành thì vào số; người biên phụ vào số là phụ.\nMỗi xã khai bốn bản sổ, 1 bản tâu lên, 1 bản đệ lên quan Hộ bộ, 1 bản gửi lên Thừa ty, 1 bản gửi lên quan huyện.\nĐến khoảng đời Cảnh Trị, triểu đình cho duyệt tuyển là phiển mới sai quan chia đi khám thực, tính suốt cä nhân định điền sản các xã, lượng bổ số suất, đặt làm bình lệ, người sinh ra không kể, người hụt đi không trừ, phép cũ bèn bãi bỏ.\nHọ Nguyễn đóng giữ xứ Thuận Quảng, truyền nối lâu đời, sổ binh đân, ruộng đất, tô thuế, tất cả theo qui lệ đời Hồng Đức, không khác.\nPhép ấy chiếu hạng quân mà tuyển lấy có thể được số quân nhiều.\nThái Tông nhà Đường sai sứ điểm hạng trung nam sung làm quân thì cũng như thế.\nVả khi ở nhà thì nộp tiền để được miễn địch, khi đòi ra thì được miễn cả tô phú, đó cũng là ý ngụ bình ư nông của đời xưa.\nHạng lính thường phục dịch đã trừ ra không kể, còn như chiếu theo đẳng hạng số đinh, theo thứ bậc mà nộp tiền thuế thì cũng không có bên nhẹ bên nặng.\nMở sổ ra xem, số dân rõ ràng, rất dễ tra xét."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 0,\n        \"vi_start\": 0,\n        \"vi_end\": 3,\n        \"han_text\": \"正容云先試士子中者饒孝欽者查所色登前說查民丁分為旺頂年民頂老頂穷疾頊各色老說別併漂流近别者出淺長成至紫者入澤\",\n        \"vietnamese_text\": \"Năm người ấy tổng cộng số tiển là 1. 466 quan 3 tiền 21 đồng. Bản triều từ đời Hồng Đức đến khoảng đời Thịnh Đức, Vĩnh Thọ thời Trung Hưng đều thường làm hộ tịch, thấy chép ở Thiện chính tập, đạt khái xét được: Cứ 3 năm một lần làm nhỏ (tiểu tạo), 6 năm một lần làm lớn (đại tu), sai quan duyệt tuyển, bắt các tổng xã kê khai chính hộ khách hộ, trước hết thi học trò, người đỗ thì được làm nhiêu học, sau xét đến chức sắc, nhiêu ấm, sau nữa xét đến dân đính, chia làm các hạng tráng, hạng quân, hạng dân, hạng lão, hạng tật, hạng cùng; lão nhiêu tính riêng; người xiêu tán đi nơi. khác thì bỏ ra số; người đến tuổi trưởng thành thì vào số; người biên phụ vào số là phụ.\",\n        \"score\": 0.0948210654018491\n      },\n      {\n        \"han_start\": 1,\n        \"han_end\": 2,\n        \"vi_start\": 4,\n        \"vi_end\": 4,\n        \"han_text\": \"附善者為附社類落四本一席工進 一方迎戶部一本送丞司一本送縣官\",\n        \"vietnamese_text\": \"Mỗi xã khai bốn bản sổ, 1 bản tâu lên, 1 bản đệ lên quan Hộ bộ, 1 bản gửi lên Thừa ty, 1 bản gửi lên quan huyện.\",\n        \"score\": 0.25589691813432824\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 5,\n        \"vi_start\": 5,\n        \"vi_end\": 5,\n        \"han_text\": \"至景治年间朝廷厌其圓還類數 始差分行勘定通併各社人丁田產量補率效立為平例 生者不計耗者不除首法遂廢\",\n        \"vietnamese_text\": \"Đến khoảng đời Cảnh Trị, triểu đình cho duyệt tuyển là phiển mới sai quan chia đi khám thực, tính suốt cä nhân định điền sản các xã, lượng bổ số suất, đặt làm bình lệ, người sinh ra không kể, người hụt đi không trừ, phép cũ bèn bãi bỏ.\",\n        \"score\": 0.3119039075175111\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 6,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"阮氏族守廣順傳習家久兵民田效租炫一遵洪德規例非有異也\",\n        \"vietnamese_text\": \"Họ Nguyễn đóng giữ xứ Thuận Quảng, truyền nối lâu đời, sổ binh đân, ruộng đất, tô thuế, tất cả theo qui lệ đời Hồng Đức, không khác.\",\n        \"score\": 0.2619668943479968\n      },\n      {\n        \"han_start\": 7,\n        \"han_end\": 7,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"此法照軍項進取可謂兵效多矣\",\n        \"vietnamese_text\": \"Phép ấy chiếu hạng quân mà tuyển lấy có thể được số quân nhiều.\",\n        \"score\": 0.37354474146862404\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 8,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"唐太遣使點中男入庫者亦兆此\",\n        \"vietnamese_text\": \"Thái Tông nhà Đường sai sứ điểm hạng trung nam sung làm quân thì cũng như thế.\",\n        \"score\": 0.2792039595285064\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 12,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"且在家則出孫無殺徵英為併兌祖強亦古者寓兵主整之意 玄另頭常如應多已除外不計 至如照丁口等策以差次出賦味示不至有偏 若祥酒是生生老成北仍其成例\",\n        \"vietnamese_text\": \"Vả khi ở nhà thì nộp tiền để được miễn địch, khi đòi ra thì được miễn cả tô phú, đó cũng là ý ngụ bình ư nông của đời xưa.\",\n        \"score\": 0.13892761920572616\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 16,\n        \"vi_start\": 10,\n        \"vi_end\": 10,\n        \"han_text\": \"雜中各色量加裁減於微員目渠八省約郎一方之民巳沐膏澤而兵財自足國課亦有餘矣 廣順六年一選場正月差官六月選風香柔奏田富榮三縣一場在辯擂下處 登昌海陵明天三縣一場康祿 正麗水南南政各縣各一場廣南九縣九暢\",\n        \"vietnamese_text\": \"Hạng lính thường phục dịch đã trừ ra không kể, còn như chiếu theo đẳng hạng số đinh, theo thứ bậc mà nộp tiền thuế thì cũng không có bên nhẹ bên nặng.\",\n        \"score\": 0.0898151487391574\n      },\n      {\n        \"han_start\": 18,\n        \"han_end\": 21,\n        \"vi_start\": 11,\n        \"vi_end\": 11,\n        \"han_text\": \"頗落只責人效增減以收其稅非是遂另 但如另兵有欲則户部後落照落克補 廣順蕭狀自端國公至壽國公七世間 徐五年內各縣士人有就本次嘗官\",\n        \"vietnamese_text\": \"Mở sổ ra xem, số dân rõ ràng, rất dễ tra xét.\",\n        \"score\": -0.05416720224634566\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 0,
+          "vi_start": 0,
+          "vi_end": 3,
+          "han_text": "正容云先試士子中者饒孝欽者查所色登前說查民丁分為旺頂年民頂老頂穷疾頊各色老說別併漂流近别者出淺長成至紫者入澤",
+          "vietnamese_text": "Năm người ấy tổng cộng số tiển là 1. 466 quan 3 tiền 21 đồng. Bản triều từ đời Hồng Đức đến khoảng đời Thịnh Đức, Vĩnh Thọ thời Trung Hưng đều thường làm hộ tịch, thấy chép ở Thiện chính tập, đạt khái xét được: Cứ 3 năm một lần làm nhỏ (tiểu tạo), 6 năm một lần làm lớn (đại tu), sai quan duyệt tuyển, bắt các tổng xã kê khai chính hộ khách hộ, trước hết thi học trò, người đỗ thì được làm nhiêu học, sau xét đến chức sắc, nhiêu ấm, sau nữa xét đến dân đính, chia làm các hạng tráng, hạng quân, hạng dân, hạng lão, hạng tật, hạng cùng; lão nhiêu tính riêng; người xiêu tán đi nơi. khác thì bỏ ra số; người đến tuổi trưởng thành thì vào số; người biên phụ vào số là phụ.",
+          "score": 0.0948210654018491
+        },
+        {
+          "han_start": 1,
+          "han_end": 2,
+          "vi_start": 4,
+          "vi_end": 4,
+          "han_text": "附善者為附社類落四本一席工進 一方迎戶部一本送丞司一本送縣官",
+          "vietnamese_text": "Mỗi xã khai bốn bản sổ, 1 bản tâu lên, 1 bản đệ lên quan Hộ bộ, 1 bản gửi lên Thừa ty, 1 bản gửi lên quan huyện.",
+          "score": 0.25589691813432824
+        },
+        {
+          "han_start": 3,
+          "han_end": 5,
+          "vi_start": 5,
+          "vi_end": 5,
+          "han_text": "至景治年间朝廷厌其圓還類數 始差分行勘定通併各社人丁田產量補率效立為平例 生者不計耗者不除首法遂廢",
+          "vietnamese_text": "Đến khoảng đời Cảnh Trị, triểu đình cho duyệt tuyển là phiển mới sai quan chia đi khám thực, tính suốt cä nhân định điền sản các xã, lượng bổ số suất, đặt làm bình lệ, người sinh ra không kể, người hụt đi không trừ, phép cũ bèn bãi bỏ.",
+          "score": 0.3119039075175111
+        },
+        {
+          "han_start": 6,
+          "han_end": 6,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "阮氏族守廣順傳習家久兵民田效租炫一遵洪德規例非有異也",
+          "vietnamese_text": "Họ Nguyễn đóng giữ xứ Thuận Quảng, truyền nối lâu đời, sổ binh đân, ruộng đất, tô thuế, tất cả theo qui lệ đời Hồng Đức, không khác.",
+          "score": 0.2619668943479968
+        },
+        {
+          "han_start": 7,
+          "han_end": 7,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "此法照軍項進取可謂兵效多矣",
+          "vietnamese_text": "Phép ấy chiếu hạng quân mà tuyển lấy có thể được số quân nhiều.",
+          "score": 0.37354474146862404
+        },
+        {
+          "han_start": 8,
+          "han_end": 8,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "唐太遣使點中男入庫者亦兆此",
+          "vietnamese_text": "Thái Tông nhà Đường sai sứ điểm hạng trung nam sung làm quân thì cũng như thế.",
+          "score": 0.2792039595285064
+        },
+        {
+          "han_start": 9,
+          "han_end": 12,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "且在家則出孫無殺徵英為併兌祖強亦古者寓兵主整之意 玄另頭常如應多已除外不計 至如照丁口等策以差次出賦味示不至有偏 若祥酒是生生老成北仍其成例",
+          "vietnamese_text": "Vả khi ở nhà thì nộp tiền để được miễn địch, khi đòi ra thì được miễn cả tô phú, đó cũng là ý ngụ bình ư nông của đời xưa.",
+          "score": 0.13892761920572616
+        },
+        {
+          "han_start": 13,
+          "han_end": 16,
+          "vi_start": 10,
+          "vi_end": 10,
+          "han_text": "雜中各色量加裁減於微員目渠八省約郎一方之民巳沐膏澤而兵財自足國課亦有餘矣 廣順六年一選場正月差官六月選風香柔奏田富榮三縣一場在辯擂下處 登昌海陵明天三縣一場康祿 正麗水南南政各縣各一場廣南九縣九暢",
+          "vietnamese_text": "Hạng lính thường phục dịch đã trừ ra không kể, còn như chiếu theo đẳng hạng số đinh, theo thứ bậc mà nộp tiền thuế thì cũng không có bên nhẹ bên nặng.",
+          "score": 0.0898151487391574
+        },
+        {
+          "han_start": 18,
+          "han_end": 21,
+          "vi_start": 11,
+          "vi_end": 11,
+          "han_text": "頗落只責人效增減以收其稅非是遂另 但如另兵有欲則户部後落照落克補 廣順蕭狀自端國公至壽國公七世間 徐五年內各縣士人有就本次嘗官",
+          "vietnamese_text": "Mở sổ ra xem, số dân rõ ràng, rất dễ tra xét.",
+          "score": -0.05416720224634566
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 4235
+}

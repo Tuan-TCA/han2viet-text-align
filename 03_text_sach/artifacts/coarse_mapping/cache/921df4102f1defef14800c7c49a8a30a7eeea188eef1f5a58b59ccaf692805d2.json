@@ -1,0 +1,123 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "921df4102f1defef14800c7c49a8a30a7eeea188eef1f5a58b59ccaf692805d2",
+  "payload": {
+    "han": "一無诚意罪益彰於致放忠又發於欺天\n祗今幫戶外家思祿九重之委寄\n不即擇除元悉昌寧二處三楊按出繼之責矣\n辭謙亂之師可丞是後郊之龍驅生力之兵\n舳肆橫江民迅誓傳之揖旌旗蔽日\n雲無直指5之不先去強臣次平點賊\n除殘去暴扦國爾于方混續德固存延先公之世祀\n卦推塞由義牽棄危非有貪心\n二必官員豪目策率是王臣頗為民望目亦家之急進方思室亂花危\n覩有旅之前來須要乾誠效順\n轉相告教咸自激即致玄黃紫食以迎師辛部曲親明而從事\n勇者獻力智去獻谋左袒輸悉\n用軫俯殄振之惡藥同施應義壽清海靈之妖家\n會朝早彥膚公格外定蒙厚賞\n凡百君子尚一乃心偏或坐昧天機於迷異議\n阿張氏強梁之然致阮家星卵之危\n坚守孤城敢因旅拒即係不恭之當定干無教之誅\n靜負安危成敗之机早辨福福吉凶之發\n其年十一月阮福淳進敬方物表之畧曰順化為南等必也\n臣元祿淳謹卷皇上夢三吳去年秋西山記刼未格于階仰蒙皇上軫及動臣餘裔特差声機",
+    "vi": "Vò chứa heo thơm chín; Chén đầy móc đượm nhuần.\nMen hông dâng ở tịch\"; Kiến lục hiến giai thân”.\nBan ơn rót ba chén; Mừng uui trải hơi tuần.\nChéh tế?” dâng chúc thọ; Thêm ngọc ugn niên xuân.\n(Khâu Đình Quỹbái lục). ổ Vị cách trần phân uiễn, Ứng liên khúc kinh trường.\nVụ hồi sơn thế bão; Đà ly trúc uiên tùng.\nHạc bộ đài ngân hợp; Xuân qui hoa khí hương.\nBản kiều lưu thuỷ ngoại, Biệt hữu độc thư đường.\nVì xa cách bụi trần, Nên sợ đường cong đài, Ngoắt ngoéo ôm thế núi; Quanh co bọc lu? trẻ.\nDấu rêu đầy bước hạc; Xuân uề khí hoa thơm."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 0,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"一無诚意罪益彰於致放忠又發於欺天\",\n        \"vietnamese_text\": \"Vò chứa heo thơm chín; Chén đầy móc đượm nhuần.\",\n        \"score\": 0.042471772475831684\n      },\n      {\n        \"han_start\": 1,\n        \"han_end\": 3,\n        \"vi_start\": 1,\n        \"vi_end\": 2,\n        \"han_text\": \"祗今幫戶外家思祿九重之委寄 不即擇除元悉昌寧二處三楊按出繼之責矣 辭謙亂之師可丞是後郊之龍驅生力之兵\",\n        \"vietnamese_text\": \"Men hông dâng ở tịch\\\"; Kiến lục hiến giai thân”. Ban ơn rót ba chén; Mừng uui trải hơi tuần.\",\n        \"score\": 0.15169006358078174\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 4,\n        \"vi_start\": 3,\n        \"vi_end\": 4,\n        \"han_text\": \"舳肆橫江民迅誓傳之揖旌旗蔽日\",\n        \"vietnamese_text\": \"Chéh tế? ” dâng chúc thọ; Thêm ngọc ugn niên xuân.\",\n        \"score\": 0.038813136848041496\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 5,\n        \"vi_start\": 5,\n        \"vi_end\": 5,\n        \"han_text\": \"雲無直指5之不先去強臣次平點賊\",\n        \"vietnamese_text\": \"(Khâu Đình Quỹbái lục).\",\n        \"score\": 0.048553217877080536\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 7,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"除殘去暴扦國爾于方混續德固存延先公之世祀 卦推塞由義牽棄危非有貪心\",\n        \"vietnamese_text\": \"ổ Vị cách trần phân uiễn, Ứng liên khúc kinh trường.\",\n        \"score\": 0.13615054000108062\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 9,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"二必官員豪目策率是王臣頗為民望目亦家之急進方思室亂花危 覩有旅之前來須要乾誠效順\",\n        \"vietnamese_text\": \"Vụ hồi sơn thế bão; Đà ly trúc uiên tùng.\",\n        \"score\": 0.08171980583100358\n      },\n      {\n        \"han_start\": 10,\n        \"han_end\": 10,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"轉相告教咸自激即致玄黃紫食以迎師辛部曲親明而從事\",\n        \"vietnamese_text\": \"Hạc bộ đài ngân hợp; Xuân qui hoa khí hương.\",\n        \"score\": 0.10815472038385553\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 12,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"勇者獻力智去獻谋左袒輸悉 用軫俯殄振之惡藥同施應義壽清海靈之妖家\",\n        \"vietnamese_text\": \"Bản kiều lưu thuỷ ngoại, Biệt hữu độc thư đường.\",\n        \"score\": 0.04388182088872027\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 16,\n        \"vi_start\": 10,\n        \"vi_end\": 10,\n        \"han_text\": \"會朝早彥膚公格外定蒙厚賞 凡百君子尚一乃心偏或坐昧天機於迷異議 阿張氏強梁之然致阮家星卵之危 坚守孤城敢因旅拒即係不恭之當定干無教之誅\",\n        \"vietnamese_text\": \"Vì xa cách bụi trần, Nên sợ đường cong đài, Ngoắt ngoéo ôm thế núi; Quanh co bọc lu?\",\n        \"score\": 0.15628759138950918\n      },\n      {\n        \"han_start\": 17,\n        \"han_end\": 17,\n        \"vi_start\": 11,\n        \"vi_end\": 11,\n        \"han_text\": \"靜負安危成敗之机早辨福福吉凶之發\",\n        \"vietnamese_text\": \"trẻ.\",\n        \"score\": -0.00045999056839243085\n      },\n      {\n        \"han_start\": 18,\n        \"han_end\": 19,\n        \"vi_start\": 12,\n        \"vi_end\": 12,\n        \"han_text\": \"其年十一月阮福淳進敬方物表之畧曰順化為南等必也 臣元祿淳謹卷皇上夢三吳去年秋西山記刼未格于階仰蒙皇上軫及動臣餘裔特差声機\",\n        \"vietnamese_text\": \"Dấu rêu đầy bước hạc; Xuân uề khí hoa thơm.\",\n        \"score\": 0.09595259254815028\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 0,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "一無诚意罪益彰於致放忠又發於欺天",
+          "vietnamese_text": "Vò chứa heo thơm chín; Chén đầy móc đượm nhuần.",
+          "score": 0.042471772475831684
+        },
+        {
+          "han_start": 1,
+          "han_end": 3,
+          "vi_start": 1,
+          "vi_end": 2,
+          "han_text": "祗今幫戶外家思祿九重之委寄 不即擇除元悉昌寧二處三楊按出繼之責矣 辭謙亂之師可丞是後郊之龍驅生力之兵",
+          "vietnamese_text": "Men hông dâng ở tịch\"; Kiến lục hiến giai thân”. Ban ơn rót ba chén; Mừng uui trải hơi tuần.",
+          "score": 0.15169006358078174
+        },
+        {
+          "han_start": 4,
+          "han_end": 4,
+          "vi_start": 3,
+          "vi_end": 4,
+          "han_text": "舳肆橫江民迅誓傳之揖旌旗蔽日",
+          "vietnamese_text": "Chéh tế? ” dâng chúc thọ; Thêm ngọc ugn niên xuân.",
+          "score": 0.038813136848041496
+        },
+        {
+          "han_start": 5,
+          "han_end": 5,
+          "vi_start": 5,
+          "vi_end": 5,
+          "han_text": "雲無直指5之不先去強臣次平點賊",
+          "vietnamese_text": "(Khâu Đình Quỹbái lục).",
+          "score": 0.048553217877080536
+        },
+        {
+          "han_start": 6,
+          "han_end": 7,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "除殘去暴扦國爾于方混續德固存延先公之世祀 卦推塞由義牽棄危非有貪心",
+          "vietnamese_text": "ổ Vị cách trần phân uiễn, Ứng liên khúc kinh trường.",
+          "score": 0.13615054000108062
+        },
+        {
+          "han_start": 8,
+          "han_end": 9,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "二必官員豪目策率是王臣頗為民望目亦家之急進方思室亂花危 覩有旅之前來須要乾誠效順",
+          "vietnamese_text": "Vụ hồi sơn thế bão; Đà ly trúc uiên tùng.",
+          "score": 0.08171980583100358
+        },
+        {
+          "han_start": 10,
+          "han_end": 10,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "轉相告教咸自激即致玄黃紫食以迎師辛部曲親明而從事",
+          "vietnamese_text": "Hạc bộ đài ngân hợp; Xuân qui hoa khí hương.",
+          "score": 0.10815472038385553
+        },
+        {
+          "han_start": 11,
+          "han_end": 12,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "勇者獻力智去獻谋左袒輸悉 用軫俯殄振之惡藥同施應義壽清海靈之妖家",
+          "vietnamese_text": "Bản kiều lưu thuỷ ngoại, Biệt hữu độc thư đường.",
+          "score": 0.04388182088872027
+        },
+        {
+          "han_start": 13,
+          "han_end": 16,
+          "vi_start": 10,
+          "vi_end": 10,
+          "han_text": "會朝早彥膚公格外定蒙厚賞 凡百君子尚一乃心偏或坐昧天機於迷異議 阿張氏強梁之然致阮家星卵之危 坚守孤城敢因旅拒即係不恭之當定干無教之誅",
+          "vietnamese_text": "Vì xa cách bụi trần, Nên sợ đường cong đài, Ngoắt ngoéo ôm thế núi; Quanh co bọc lu?",
+          "score": 0.15628759138950918
+        },
+        {
+          "han_start": 17,
+          "han_end": 17,
+          "vi_start": 11,
+          "vi_end": 11,
+          "han_text": "靜負安危成敗之机早辨福福吉凶之發",
+          "vietnamese_text": "trẻ.",
+          "score": -0.00045999056839243085
+        },
+        {
+          "han_start": 18,
+          "han_end": 19,
+          "vi_start": 12,
+          "vi_end": 12,
+          "han_text": "其年十一月阮福淳進敬方物表之畧曰順化為南等必也 臣元祿淳謹卷皇上夢三吳去年秋西山記刼未格于階仰蒙皇上軫及動臣餘裔特差声機",
+          "vietnamese_text": "Dấu rêu đầy bước hạc; Xuân uề khí hoa thơm.",
+          "score": 0.09595259254815028
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 2047
+}

@@ -1,0 +1,105 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "6fd6aef84b89049d6fd6d7e9789017f693773753454de160fd7460bbdb157bec",
+  "payload": {
+    "han": "新二新三三船有關水隊所屋\n從一抗二提三三船有及危陽所屋清一清二清三三般\n有左提隊所丞壯一壯二壯三三般\n有右提隊所云號一強二強三三般同字古爭心\n有前提隊所云雄一雄二雄三三般\n有被提陽所云堅一坐二里三三船同字\n初為江前直处此十二船四船五十人\n並則土民免立御米正次隊長並許便宜充補\n定遠世意湖當有相說隊而麼\n魏一機二飛三三船有從步隊到雲安一無安三安四安五\n五船有張步隊所云稅一發二強三三般有巽明隊所至明一明二明三三龍有部勝陽所五乎一平二平三三般吞五十人免去底米立高禍周盡所庚諸將為之分置法衙\n有文臣管知各務有知祠於有率象焉有後庫粟有分任水纔危枝按柯揮朱南榮各火兵效不併河仙訣營有里一里里二坚刀里仍美勝里跨龍旌壯鏡一船德兵管六侯沙知记各一\n有勝水隊所座三般有雄靈隊到至三般\n左水右水筆陽以上各奇陽解\n除上兵免搜辛庚米而給糧外並欲糧在官庫\n其守各欠兵夜升奠二府新安庫有安一般\n廣義府安康思恭二庫有平一般富改庫有安一般\n歸仁府時富庫有新一般淡水庫有美一般\n乾陽庫有美一般川上船各五十人\n富春府春臺庫有安二般二十人\n安全庫有安一船",
+    "vi": "Dinh Bình Thuận có Trung cơ, thuộc về đấy là các thuyền Hữu trạch, Đao nhất, Bình nhất, Bình nhị, Tiền trạch, Tân bính, Hậu trạch, Định nhất 7 thuyền, cùng mã đội.\n(Cai đội kiêm khám đoán quản 4 thuyền, Phiên vương” quản 2 thuyền Đao nhất, Bình nhất, cai bạ quản thuyền Bình nhị, ký lục quản thuyển Tiển trạch), Có đội Bình thuỷ, thuộc về đấy là các thuyền Tả kiên thuỷ, Hữu kiên thuỷ, 2 thuyền, để canh giữ cửa Mù U. Có đội Súng bộ, thuộc về đấy là các thuyền Nghĩa nhất, Nghĩa nhị, Hậu súng, 3 thuyền.\nCó đội Tuyển phong, thuộc về đấy là các thuyền Trạch nhất, Trạch nhị.\n9 thuyền.\nLại có 3 thuyền tạm binh để phòng giữ giặc biển.\nCó thuyền Tiền thuận, thuộc Chiêm Thành, chỉ miễn cho tiển gạo, không cấp lương tiển.\nCòn thuộc về Phiên vương trấn Thuận Thành thì có 1 viên cai cơ, 1 viên cai đội, đều cho dùng thổ quan, lấy thổ binh, số bình không tính.\nĐịnh Trấn Biên phủ Gia Định có Trung cơ, thuộc về đấy là các thuyền Kiên bính, Kiên súng, Tả nhưng súng, Hữu nhưng súng, Hữu thắng súng, Xung đao tam, Trắng thuận tứ, 8 thuyền (Lưu thủ quản 7 thuyền, ký lục quản 1 thuyền).\nCó đội Bình bộ, thuộc về đấy là các thuyền Kiên đao, Xung đao nhất, Tả thắng súng 3 thuyền.\nCó đội Súng bộ, thuộc về đấy là các thuyền Tả kiên súng, Hữu kiên súng, Xung đao nhị, 3 thuyền."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 3,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"新二新三三船有關水隊所屋 從一抗二提三三船有及危陽所屋清一清二清三三般 有左提隊所丞壯一壯二壯三三般 有右提隊所云號一強二強三三般同字古爭心\",\n        \"vietnamese_text\": \"Dinh Bình Thuận có Trung cơ, thuộc về đấy là các thuyền Hữu trạch, Đao nhất, Bình nhất, Bình nhị, Tiền trạch, Tân bính, Hậu trạch, Định nhất 7 thuyền, cùng mã đội.\",\n        \"score\": 0.16532728841445757\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 7,\n        \"vi_start\": 1,\n        \"vi_end\": 1,\n        \"han_text\": \"有前提隊所云雄一雄二雄三三般 有被提陽所云堅一坐二里三三船同字 初為江前直处此十二船四船五十人 並則土民免立御米正次隊長並許便宜充補\",\n        \"vietnamese_text\": \"(Cai đội kiêm khám đoán quản 4 thuyền, Phiên vương” quản 2 thuyền Đao nhất, Bình nhất, cai bạ quản thuyền Bình nhị, ký lục quản thuyển Tiển trạch), Có đội Bình thuỷ, thuộc về đấy là các thuyền Tả kiên thuỷ, Hữu kiên thuỷ, 2 thuyền, để canh giữ cửa Mù U.\",\n        \"score\": 0.14604032738431202\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 10,\n        \"vi_start\": 2,\n        \"vi_end\": 3,\n        \"han_text\": \"定遠世意湖當有相說隊而麼 魏一機二飛三三船有從步隊到雲安一無安三安四安五 五船有張步隊所云稅一發二強三三般有巽明隊所至明一明二明三三龍有部勝陽所五乎一平二平三三般吞五十人免去底米立高禍周盡所庚諸將為之分置法衙\",\n        \"vietnamese_text\": \"Có đội Súng bộ, thuộc về đấy là các thuyền Nghĩa nhất, Nghĩa nhị, Hậu súng, 3 thuyền. Có đội Tuyển phong, thuộc về đấy là các thuyền Trạch nhất, Trạch nhị.\",\n        \"score\": 0.18020737772344722\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 11,\n        \"vi_start\": 4,\n        \"vi_end\": 4,\n        \"han_text\": \"有文臣管知各務有知祠於有率象焉有後庫粟有分任水纔危枝按柯揮朱南榮各火兵效不併河仙訣營有里一里里二坚刀里仍美勝里跨龍旌壯鏡一船德兵管六侯沙知记各一\",\n        \"vietnamese_text\": \"9 thuyền.\",\n        \"score\": -0.005110188760203488\n      },\n      {\n        \"han_start\": 12,\n        \"han_end\": 12,\n        \"vi_start\": 5,\n        \"vi_end\": 5,\n        \"han_text\": \"有勝水隊所座三般有雄靈隊到至三般\",\n        \"vietnamese_text\": \"Lại có 3 thuyền tạm binh để phòng giữ giặc biển.\",\n        \"score\": 0.16282062613428142\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 14,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"左水右水筆陽以上各奇陽解 除上兵免搜辛庚米而給糧外並欲糧在官庫\",\n        \"vietnamese_text\": \"Có thuyền Tiền thuận, thuộc Chiêm Thành, chỉ miễn cho tiển gạo, không cấp lương tiển.\",\n        \"score\": 0.1661876771639283\n      },\n      {\n        \"han_start\": 15,\n        \"han_end\": 16,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"其守各欠兵夜升奠二府新安庫有安一般 廣義府安康思恭二庫有平一般富改庫有安一般\",\n        \"vietnamese_text\": \"Còn thuộc về Phiên vương trấn Thuận Thành thì có 1 viên cai cơ, 1 viên cai đội, đều cho dùng thổ quan, lấy thổ binh, số bình không tính.\",\n        \"score\": 0.09468874744208378\n      },\n      {\n        \"han_start\": 17,\n        \"han_end\": 17,\n        \"vi_start\": 8,\n        \"vi_end\": 9,\n        \"han_text\": \"歸仁府時富庫有新一般淡水庫有美一般\",\n        \"vietnamese_text\": \"Định Trấn Biên phủ Gia Định có Trung cơ, thuộc về đấy là các thuyền Kiên bính, Kiên súng, Tả nhưng súng, Hữu nhưng súng, Hữu thắng súng, Xung đao tam, Trắng thuận tứ, 8 thuyền (Lưu thủ quản 7 thuyền, ký lục quản 1 thuyền). Có đội Bình bộ, thuộc về đấy là các thuyền Kiên đao, Xung đao nhất, Tả thắng súng 3 thuyền.\",\n        \"score\": 0.004271827675436626\n      },\n      {\n        \"han_start\": 18,\n        \"han_end\": 20,\n        \"vi_start\": 10,\n        \"vi_end\": 10,\n        \"han_text\": \"乾陽庫有美一般川上船各五十人 富春府春臺庫有安二般二十人 安全庫有安一船\",\n        \"vietnamese_text\": \"Có đội Súng bộ, thuộc về đấy là các thuyền Tả kiên súng, Hữu kiên súng, Xung đao nhị, 3 thuyền.\",\n        \"score\": 0.09594113693107881\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 3,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "新二新三三船有關水隊所屋 從一抗二提三三船有及危陽所屋清一清二清三三般 有左提隊所丞壯一壯二壯三三般 有右提隊所云號一強二強三三般同字古爭心",
+          "vietnamese_text": "Dinh Bình Thuận có Trung cơ, thuộc về đấy là các thuyền Hữu trạch, Đao nhất, Bình nhất, Bình nhị, Tiền trạch, Tân bính, Hậu trạch, Định nhất 7 thuyền, cùng mã đội.",
+          "score": 0.16532728841445757
+        },
+        {
+          "han_start": 4,
+          "han_end": 7,
+          "vi_start": 1,
+          "vi_end": 1,
+          "han_text": "有前提隊所云雄一雄二雄三三般 有被提陽所云堅一坐二里三三船同字 初為江前直处此十二船四船五十人 並則土民免立御米正次隊長並許便宜充補",
+          "vietnamese_text": "(Cai đội kiêm khám đoán quản 4 thuyền, Phiên vương” quản 2 thuyền Đao nhất, Bình nhất, cai bạ quản thuyền Bình nhị, ký lục quản thuyển Tiển trạch), Có đội Bình thuỷ, thuộc về đấy là các thuyền Tả kiên thuỷ, Hữu kiên thuỷ, 2 thuyền, để canh giữ cửa Mù U.",
+          "score": 0.14604032738431202
+        },
+        {
+          "han_start": 8,
+          "han_end": 10,
+          "vi_start": 2,
+          "vi_end": 3,
+          "han_text": "定遠世意湖當有相說隊而麼 魏一機二飛三三船有從步隊到雲安一無安三安四安五 五船有張步隊所云稅一發二強三三般有巽明隊所至明一明二明三三龍有部勝陽所五乎一平二平三三般吞五十人免去底米立高禍周盡所庚諸將為之分置法衙",
+          "vietnamese_text": "Có đội Súng bộ, thuộc về đấy là các thuyền Nghĩa nhất, Nghĩa nhị, Hậu súng, 3 thuyền. Có đội Tuyển phong, thuộc về đấy là các thuyền Trạch nhất, Trạch nhị.",
+          "score": 0.18020737772344722
+        },
+        {
+          "han_start": 11,
+          "han_end": 11,
+          "vi_start": 4,
+          "vi_end": 4,
+          "han_text": "有文臣管知各務有知祠於有率象焉有後庫粟有分任水纔危枝按柯揮朱南榮各火兵效不併河仙訣營有里一里里二坚刀里仍美勝里跨龍旌壯鏡一船德兵管六侯沙知记各一",
+          "vietnamese_text": "9 thuyền.",
+          "score": -0.005110188760203488
+        },
+        {
+          "han_start": 12,
+          "han_end": 12,
+          "vi_start": 5,
+          "vi_end": 5,
+          "han_text": "有勝水隊所座三般有雄靈隊到至三般",
+          "vietnamese_text": "Lại có 3 thuyền tạm binh để phòng giữ giặc biển.",
+          "score": 0.16282062613428142
+        },
+        {
+          "han_start": 13,
+          "han_end": 14,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "左水右水筆陽以上各奇陽解 除上兵免搜辛庚米而給糧外並欲糧在官庫",
+          "vietnamese_text": "Có thuyền Tiền thuận, thuộc Chiêm Thành, chỉ miễn cho tiển gạo, không cấp lương tiển.",
+          "score": 0.1661876771639283
+        },
+        {
+          "han_start": 15,
+          "han_end": 16,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "其守各欠兵夜升奠二府新安庫有安一般 廣義府安康思恭二庫有平一般富改庫有安一般",
+          "vietnamese_text": "Còn thuộc về Phiên vương trấn Thuận Thành thì có 1 viên cai cơ, 1 viên cai đội, đều cho dùng thổ quan, lấy thổ binh, số bình không tính.",
+          "score": 0.09468874744208378
+        },
+        {
+          "han_start": 17,
+          "han_end": 17,
+          "vi_start": 8,
+          "vi_end": 9,
+          "han_text": "歸仁府時富庫有新一般淡水庫有美一般",
+          "vietnamese_text": "Định Trấn Biên phủ Gia Định có Trung cơ, thuộc về đấy là các thuyền Kiên bính, Kiên súng, Tả nhưng súng, Hữu nhưng súng, Hữu thắng súng, Xung đao tam, Trắng thuận tứ, 8 thuyền (Lưu thủ quản 7 thuyền, ký lục quản 1 thuyền). Có đội Bình bộ, thuộc về đấy là các thuyền Kiên đao, Xung đao nhất, Tả thắng súng 3 thuyền.",
+          "score": 0.004271827675436626
+        },
+        {
+          "han_start": 18,
+          "han_end": 20,
+          "vi_start": 10,
+          "vi_end": 10,
+          "han_text": "乾陽庫有美一般川上船各五十人 富春府春臺庫有安二般二十人 安全庫有安一船",
+          "vietnamese_text": "Có đội Súng bộ, thuộc về đấy là các thuyền Tả kiên súng, Hữu kiên súng, Xung đao nhị, 3 thuyền.",
+          "score": 0.09594113693107881
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 3672
+}

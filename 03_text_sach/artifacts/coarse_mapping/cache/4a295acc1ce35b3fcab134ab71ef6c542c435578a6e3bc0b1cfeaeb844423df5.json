@@ -1,0 +1,159 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "4a295acc1ce35b3fcab134ab71ef6c542c435578a6e3bc0b1cfeaeb844423df5",
+  "payload": {
+    "han": "就無恒心船一百五十人共軍數七十船\n是受替另八千八百五十人止餘民數八千九百六人\n其內寓祿餘拾并屬軍庫另饒夫以行不併富安府民效一方四千士百四十八人\n除內府各社無另一弓九百七十一人\n本百民寔受另三千六百七十七人\n四指隊并附水縣廣南宮十昭內水附水四般\n共軍數十四報民數受替另一千六百八千人孫民故一千九百九十七人\n其內富祿餘招并產兵庫另以行餘夫不併其民\n應平廉平順右定四府並行地方官取在民為本\n狹兵無送循分營奇隊舶順化有獲義侯既居貞者\n翰治之不也晚國公称王改令為垂\n又邊撫辛未年曾有陳民同困廿之狀以民為本之不安國亦不安\n平居之日未有以固結民心有事之時將何倚恃\n窃念民同变廿已甚如安常守首\n不因的損益立經陳祀以治一新\n尚不可行况亥一府廿民之事\n以給另武象內按三者為首按其他冗實过例甚多\n此事者夾兩坎不可越\n厭言事清以耽分內言之廢文之民\n統羞多方悅受令各衡差餘場\n又受令各衙田租場又受令各衙别歲別納\n又受令各衙義員子又受令各員差員源頭\n又受令各看又受令衙門官更又受令各義人又受令畋釋\n如模告非十年九牧貧困失業殊為可侗就而恒心",
+    "vi": "Số dân, số miễn lính đi lính cùng số trừ của năm phủ xứ Quang Nam về mùa đông năm Quý Dậu, Cảnh Hưng thứ 14. Số đân năm phủ cộng 152.370 người, trong số đó lấy binh lính 91.396 người.\nSố dân phủ Thăng Hoa là 43.796 người, trừ các xã thuộc Nội phủ không phải lính 5.202 người, dân nội vi tử 7.077 người, đân nhiêu phu 2.272 người, chịu lính một nửa dân bản phủ 22.94ã người chịu lính tất cả.\nSố dân phủ Điện Bàn 27.481 người, trừ các xã thuộc Nội phủ và phụ luỹ không phải lính 1.515 người, thuộc Tịch Tượng thuộc Hoa Châu không phải lính 7.318 người, dân nội vì tử 8.620 người, dân nhiêu phu 145 người, chịu lính một nửa, dân bản phủ 15.883 người, chịu lính tất cả.\nBinh lính thực chịu lính của hai phủ ấy là 50.884 người, để cấp cho 38 cơ đội, cho các cơ Tả, Hữu,Trung 19 thuyền, các cơ Tả kiên, Hữu kiên, 21 thuyền, bốn cơ Trung bộ 40 thuyền, các cơ Tả bộ, Hữu bộ, Nội bộ 12 thuyền.\nBa dinh Cựu Dinh, Lưu Đồn, Quảng Bình, cộng 112 thuyền, mỗi thuyền 120 người.\nBốn dực cơ 19 đội, ngoại xã 4 thuyền, đội Tam thuỷ 12 thuyền, mỗi thuyển 150 người.\nCộng số quân là 238 thuyền, số dân chịu lính là 29.280 người, chỉ dư số dân là 21.604 người, trong đó số đân cấp ngụ lộc dư cùng số thuộc binh, lính kho, nhiêu phu tòng hành không tính.\nSố dân phủ Quảng Ngãi là 28.677 người, trừ các xã thuộc Nội phủ không phải lính 7.634 người, dân nội vi tử ð.378 người, dân nhiêu phu 531 người, chịu lính một nửa, dân bản phủ 16.114 người, chịu lính tất cả; dân phủ ấy thực chịu lính cộng 19.079 người, để cấp cho 20 cơ đội, 4 đội Trung bộ 20 thuyền, 4 đội Nội bộ 20 thuyền, 2 đội bộ ð thuyền, ngoại xã 1 thuyền, 4 đội súng 20 thuyền, các cơ Tiền, Hậu, Nội bộ 20 thuyền, các thuyền trên mỗi thuyền 120 người, cộng số 97 thuyền, đân phải thế lính là 11.640 người, chỉ dư số dân là 7.439 người, trong đó số dân cấp ngụ lộc dư cùng số thuộc bình, lính kho, nhiêu phu tòng hành không tính.\nSố dân phủ Quy Nhơn là 26.769 người, trừ các xã thuộc Nội phủ không phải lính 12.545 người, dân nội vi tử 10.904 người, dân nhiêu phu 3.033 người, chịu lính một nửa, dân bản phủ 11.287 người, chịu lính tất cả; dân phủ ấy thực chịu lính cộng 17.756 người, để cấp cho 7 cơ đội và các thuyển Thuộc kiên và Phụ thuỷ, bốn cơ Nhuệ thuỷ 24 thuyền, Phụ thuỷ 16 thuyền, Thuộc kiên 12 thuyền, các thuyền trên mỗi thuyền 120 người.\nDinh Quảng Nam 18 thuyền, mỗi thuyền 150 người."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 0,\n        \"vi_start\": 0,\n        \"vi_end\": 3,\n        \"han_text\": \"就無恒心船一百五十人共軍數七十船\",\n        \"vietnamese_text\": \"Số dân, số miễn lính đi lính cùng số trừ của năm phủ xứ Quang Nam về mùa đông năm Quý Dậu, Cảnh Hưng thứ 14. Số đân năm phủ cộng 152. 370 người, trong số đó lấy binh lính 91. 396 người.\",\n        \"score\": -0.07139178419333125\n      },\n      {\n        \"han_start\": 1,\n        \"han_end\": 1,\n        \"vi_start\": 5,\n        \"vi_end\": 8,\n        \"han_text\": \"是受替另八千八百五十人止餘民數八千九百六人\",\n        \"vietnamese_text\": \"796 người, trừ các xã thuộc Nội phủ không phải lính 5. 202 người, dân nội vi tử 7. 077 người, đân nhiêu phu 2. 272 người, chịu lính một nửa dân bản phủ 22.\",\n        \"score\": 0.15301438197913772\n      },\n      {\n        \"han_start\": 2,\n        \"han_end\": 2,\n        \"vi_start\": 9,\n        \"vi_end\": 12,\n        \"han_text\": \"其內寓祿餘拾并屬軍庫另饒夫以行不併富安府民效一方四千士百四十八人\",\n        \"vietnamese_text\": \"94ã người chịu lính tất cả. Số dân phủ Điện Bàn 27. 481 người, trừ các xã thuộc Nội phủ và phụ luỹ không phải lính 1. 515 người, thuộc Tịch Tượng thuộc Hoa Châu không phải lính 7.\",\n        \"score\": 0.11642431536201135\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 3,\n        \"vi_start\": 14,\n        \"vi_end\": 17,\n        \"han_text\": \"除內府各社無另一弓九百七十一人\",\n        \"vietnamese_text\": \"620 người, dân nhiêu phu 145 người, chịu lính một nửa, dân bản phủ 15. 883 người, chịu lính tất cả. Binh lính thực chịu lính của hai phủ ấy là 50. 884 người, để cấp cho 38 cơ đội, cho các cơ Tả, Hữu,Trung 19 thuyền, các cơ Tả kiên, Hữu kiên, 21 thuyền, bốn cơ Trung bộ 40 thuyền, các cơ Tả bộ, Hữu bộ, Nội bộ 12 thuyền.\",\n        \"score\": 0.006493936041143723\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 5,\n        \"vi_start\": 18,\n        \"vi_end\": 20,\n        \"han_text\": \"本百民寔受另三千六百七十七人 四指隊并附水縣廣南宮十昭內水附水四般\",\n        \"vietnamese_text\": \"Ba dinh Cựu Dinh, Lưu Đồn, Quảng Bình, cộng 112 thuyền, mỗi thuyền 120 người. Bốn dực cơ 19 đội, ngoại xã 4 thuyền, đội Tam thuỷ 12 thuyền, mỗi thuyển 150 người. Cộng số quân là 238 thuyền, số dân chịu lính là 29.\",\n        \"score\": 0.047047297025366835\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 7,\n        \"vi_start\": 21,\n        \"vi_end\": 22,\n        \"han_text\": \"共軍數十四報民數受替另一千六百八千人孫民故一千九百九十七人 其內富祿餘招并產兵庫另以行餘夫不併其民\",\n        \"vietnamese_text\": \"280 người, chỉ dư số dân là 21. 604 người, trong đó số đân cấp ngụ lộc dư cùng số thuộc binh, lính kho, nhiêu phu tòng hành không tính.\",\n        \"score\": 0.16975999467854191\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 8,\n        \"vi_start\": 23,\n        \"vi_end\": 23,\n        \"han_text\": \"應平廉平順右定四府並行地方官取在民為本\",\n        \"vietnamese_text\": \"Số dân phủ Quảng Ngãi là 28.\",\n        \"score\": 0.027263623973108622\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 10,\n        \"vi_start\": 24,\n        \"vi_end\": 26,\n        \"han_text\": \"狹兵無送循分營奇隊舶順化有獲義侯既居貞者 翰治之不也晚國公称王改令為垂\",\n        \"vietnamese_text\": \"677 người, trừ các xã thuộc Nội phủ không phải lính 7. 634 người, dân nội vi tử ð. 378 người, dân nhiêu phu 531 người, chịu lính một nửa, dân bản phủ 16.\",\n        \"score\": 0.0797832132319749\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 13,\n        \"vi_start\": 27,\n        \"vi_end\": 28,\n        \"han_text\": \"又邊撫辛未年曾有陳民同困廿之狀以民為本之不安國亦不安 平居之日未有以固結民心有事之時將何倚恃 窃念民同变廿已甚如安常守首\",\n        \"vietnamese_text\": \"114 người, chịu lính tất cả; dân phủ ấy thực chịu lính cộng 19. 079 người, để cấp cho 20 cơ đội, 4 đội Trung bộ 20 thuyền, 4 đội Nội bộ 20 thuyền, 2 đội bộ ð thuyền, ngoại xã 1 thuyền, 4 đội súng 20 thuyền, các cơ Tiền, Hậu, Nội bộ 20 thuyền, các thuyền trên mỗi thuyền 120 người, cộng số 97 thuyền, đân phải thế lính là 11.\",\n        \"score\": 0.08375120988355003\n      },\n      {\n        \"han_start\": 14,\n        \"han_end\": 14,\n        \"vi_start\": 29,\n        \"vi_end\": 29,\n        \"han_text\": \"不因的損益立經陳祀以治一新\",\n        \"vietnamese_text\": \"640 người, chỉ dư số dân là 7.\",\n        \"score\": 0.008501860981545532\n      },\n      {\n        \"han_start\": 15,\n        \"han_end\": 17,\n        \"vi_start\": 30,\n        \"vi_end\": 31,\n        \"han_text\": \"尚不可行况亥一府廿民之事 以給另武象內按三者為首按其他冗實过例甚多 此事者夾兩坎不可越\",\n        \"vietnamese_text\": \"439 người, trong đó số dân cấp ngụ lộc dư cùng số thuộc bình, lính kho, nhiêu phu tòng hành không tính. Số dân phủ Quy Nhơn là 26.\",\n        \"score\": 0.05101671251725257\n      },\n      {\n        \"han_start\": 18,\n        \"han_end\": 18,\n        \"vi_start\": 32,\n        \"vi_end\": 33,\n        \"han_text\": \"厭言事清以耽分內言之廢文之民\",\n        \"vietnamese_text\": \"769 người, trừ các xã thuộc Nội phủ không phải lính 12. 545 người, dân nội vi tử 10.\",\n        \"score\": 0.15904600278247358\n      },\n      {\n        \"han_start\": 19,\n        \"han_end\": 19,\n        \"vi_start\": 34,\n        \"vi_end\": 35,\n        \"han_text\": \"統羞多方悅受令各衡差餘場\",\n        \"vietnamese_text\": \"904 người, dân nhiêu phu 3. 033 người, chịu lính một nửa, dân bản phủ 11.\",\n        \"score\": -0.029274389809589317\n      },\n      {\n        \"han_start\": 20,\n        \"han_end\": 22,\n        \"vi_start\": 36,\n        \"vi_end\": 37,\n        \"han_text\": \"又受令各衙田租場又受令各衙别歲別納 又受令各衙義員子又受令各員差員源頭 又受令各看又受令衙門官更又受令各義人又受令畋釋\",\n        \"vietnamese_text\": \"287 người, chịu lính tất cả; dân phủ ấy thực chịu lính cộng 17. 756 người, để cấp cho 7 cơ đội và các thuyển Thuộc kiên và Phụ thuỷ, bốn cơ Nhuệ thuỷ 24 thuyền, Phụ thuỷ 16 thuyền, Thuộc kiên 12 thuyền, các thuyền trên mỗi thuyền 120 người.\",\n        \"score\": 0.15683219566978504\n      },\n      {\n        \"han_start\": 23,\n        \"han_end\": 23,\n        \"vi_start\": 38,\n        \"vi_end\": 38,\n        \"han_text\": \"如模告非十年九牧貧困失業殊為可侗就而恒心\",\n        \"vietnamese_text\": \"Dinh Quảng Nam 18 thuyền, mỗi thuyền 150 người.\",\n        \"score\": -0.03699460601732625\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 0,
+          "vi_start": 0,
+          "vi_end": 3,
+          "han_text": "就無恒心船一百五十人共軍數七十船",
+          "vietnamese_text": "Số dân, số miễn lính đi lính cùng số trừ của năm phủ xứ Quang Nam về mùa đông năm Quý Dậu, Cảnh Hưng thứ 14. Số đân năm phủ cộng 152. 370 người, trong số đó lấy binh lính 91. 396 người.",
+          "score": -0.07139178419333125
+        },
+        {
+          "han_start": 1,
+          "han_end": 1,
+          "vi_start": 5,
+          "vi_end": 8,
+          "han_text": "是受替另八千八百五十人止餘民數八千九百六人",
+          "vietnamese_text": "796 người, trừ các xã thuộc Nội phủ không phải lính 5. 202 người, dân nội vi tử 7. 077 người, đân nhiêu phu 2. 272 người, chịu lính một nửa dân bản phủ 22.",
+          "score": 0.15301438197913772
+        },
+        {
+          "han_start": 2,
+          "han_end": 2,
+          "vi_start": 9,
+          "vi_end": 12,
+          "han_text": "其內寓祿餘拾并屬軍庫另饒夫以行不併富安府民效一方四千士百四十八人",
+          "vietnamese_text": "94ã người chịu lính tất cả. Số dân phủ Điện Bàn 27. 481 người, trừ các xã thuộc Nội phủ và phụ luỹ không phải lính 1. 515 người, thuộc Tịch Tượng thuộc Hoa Châu không phải lính 7.",
+          "score": 0.11642431536201135
+        },
+        {
+          "han_start": 3,
+          "han_end": 3,
+          "vi_start": 14,
+          "vi_end": 17,
+          "han_text": "除內府各社無另一弓九百七十一人",
+          "vietnamese_text": "620 người, dân nhiêu phu 145 người, chịu lính một nửa, dân bản phủ 15. 883 người, chịu lính tất cả. Binh lính thực chịu lính của hai phủ ấy là 50. 884 người, để cấp cho 38 cơ đội, cho các cơ Tả, Hữu,Trung 19 thuyền, các cơ Tả kiên, Hữu kiên, 21 thuyền, bốn cơ Trung bộ 40 thuyền, các cơ Tả bộ, Hữu bộ, Nội bộ 12 thuyền.",
+          "score": 0.006493936041143723
+        },
+        {
+          "han_start": 4,
+          "han_end": 5,
+          "vi_start": 18,
+          "vi_end": 20,
+          "han_text": "本百民寔受另三千六百七十七人 四指隊并附水縣廣南宮十昭內水附水四般",
+          "vietnamese_text": "Ba dinh Cựu Dinh, Lưu Đồn, Quảng Bình, cộng 112 thuyền, mỗi thuyền 120 người. Bốn dực cơ 19 đội, ngoại xã 4 thuyền, đội Tam thuỷ 12 thuyền, mỗi thuyển 150 người. Cộng số quân là 238 thuyền, số dân chịu lính là 29.",
+          "score": 0.047047297025366835
+        },
+        {
+          "han_start": 6,
+          "han_end": 7,
+          "vi_start": 21,
+          "vi_end": 22,
+          "han_text": "共軍數十四報民數受替另一千六百八千人孫民故一千九百九十七人 其內富祿餘招并產兵庫另以行餘夫不併其民",
+          "vietnamese_text": "280 người, chỉ dư số dân là 21. 604 người, trong đó số đân cấp ngụ lộc dư cùng số thuộc binh, lính kho, nhiêu phu tòng hành không tính.",
+          "score": 0.16975999467854191
+        },
+        {
+          "han_start": 8,
+          "han_end": 8,
+          "vi_start": 23,
+          "vi_end": 23,
+          "han_text": "應平廉平順右定四府並行地方官取在民為本",
+          "vietnamese_text": "Số dân phủ Quảng Ngãi là 28.",
+          "score": 0.027263623973108622
+        },
+        {
+          "han_start": 9,
+          "han_end": 10,
+          "vi_start": 24,
+          "vi_end": 26,
+          "han_text": "狹兵無送循分營奇隊舶順化有獲義侯既居貞者 翰治之不也晚國公称王改令為垂",
+          "vietnamese_text": "677 người, trừ các xã thuộc Nội phủ không phải lính 7. 634 người, dân nội vi tử ð. 378 người, dân nhiêu phu 531 người, chịu lính một nửa, dân bản phủ 16.",
+          "score": 0.0797832132319749
+        },
+        {
+          "han_start": 11,
+          "han_end": 13,
+          "vi_start": 27,
+          "vi_end": 28,
+          "han_text": "又邊撫辛未年曾有陳民同困廿之狀以民為本之不安國亦不安 平居之日未有以固結民心有事之時將何倚恃 窃念民同变廿已甚如安常守首",
+          "vietnamese_text": "114 người, chịu lính tất cả; dân phủ ấy thực chịu lính cộng 19. 079 người, để cấp cho 20 cơ đội, 4 đội Trung bộ 20 thuyền, 4 đội Nội bộ 20 thuyền, 2 đội bộ ð thuyền, ngoại xã 1 thuyền, 4 đội súng 20 thuyền, các cơ Tiền, Hậu, Nội bộ 20 thuyền, các thuyền trên mỗi thuyền 120 người, cộng số 97 thuyền, đân phải thế lính là 11.",
+          "score": 0.08375120988355003
+        },
+        {
+          "han_start": 14,
+          "han_end": 14,
+          "vi_start": 29,
+          "vi_end": 29,
+          "han_text": "不因的損益立經陳祀以治一新",
+          "vietnamese_text": "640 người, chỉ dư số dân là 7.",
+          "score": 0.008501860981545532
+        },
+        {
+          "han_start": 15,
+          "han_end": 17,
+          "vi_start": 30,
+          "vi_end": 31,
+          "han_text": "尚不可行况亥一府廿民之事 以給另武象內按三者為首按其他冗實过例甚多 此事者夾兩坎不可越",
+          "vietnamese_text": "439 người, trong đó số dân cấp ngụ lộc dư cùng số thuộc bình, lính kho, nhiêu phu tòng hành không tính. Số dân phủ Quy Nhơn là 26.",
+          "score": 0.05101671251725257
+        },
+        {
+          "han_start": 18,
+          "han_end": 18,
+          "vi_start": 32,
+          "vi_end": 33,
+          "han_text": "厭言事清以耽分內言之廢文之民",
+          "vietnamese_text": "769 người, trừ các xã thuộc Nội phủ không phải lính 12. 545 người, dân nội vi tử 10.",
+          "score": 0.15904600278247358
+        },
+        {
+          "han_start": 19,
+          "han_end": 19,
+          "vi_start": 34,
+          "vi_end": 35,
+          "han_text": "統羞多方悅受令各衡差餘場",
+          "vietnamese_text": "904 người, dân nhiêu phu 3. 033 người, chịu lính một nửa, dân bản phủ 11.",
+          "score": -0.029274389809589317
+        },
+        {
+          "han_start": 20,
+          "han_end": 22,
+          "vi_start": 36,
+          "vi_end": 37,
+          "han_text": "又受令各衙田租場又受令各衙别歲別納 又受令各衙義員子又受令各員差員源頭 又受令各看又受令衙門官更又受令各義人又受令畋釋",
+          "vietnamese_text": "287 người, chịu lính tất cả; dân phủ ấy thực chịu lính cộng 17. 756 người, để cấp cho 7 cơ đội và các thuyển Thuộc kiên và Phụ thuỷ, bốn cơ Nhuệ thuỷ 24 thuyền, Phụ thuỷ 16 thuyền, Thuộc kiên 12 thuyền, các thuyền trên mỗi thuyền 120 người.",
+          "score": 0.15683219566978504
+        },
+        {
+          "han_start": 23,
+          "han_end": 23,
+          "vi_start": 38,
+          "vi_end": 38,
+          "han_text": "如模告非十年九牧貧困失業殊為可侗就而恒心",
+          "vietnamese_text": "Dinh Quảng Nam 18 thuyền, mỗi thuyền 150 người.",
+          "score": -0.03699460601732625
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 3500
+}

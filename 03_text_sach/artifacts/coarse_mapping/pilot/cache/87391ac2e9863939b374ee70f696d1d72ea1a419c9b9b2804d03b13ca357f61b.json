@@ -1,0 +1,114 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "87391ac2e9863939b374ee70f696d1d72ea1a419c9b9b2804d03b13ca357f61b",
+  "payload": {
+    "han": "索封西祀成何來誰必真尊向上直其詠制真豐詩云\n晚霞世思屬董念誰向新臺發陸沉伯哉不嘗句鄉胆父臺寸屈敬擾\n百年帝業分光景六月王師豐好音\n十二金牌千古恨小天如若同微欽其詠意\n尊詩云火輪隱約五更霜半壁山河入醉鄉\n斷授已甘游汴水孤招誰料失襄陽\n秋尼城闕排寫贊落日樓臺奏鳳凰\n笑殺近亭無片張半間花草為平章\n阮光前題阮氏釋香家有句云\n素榆長掛千秋鑑金母據森步壽觴\n其錦堂春曲云備户好迎睿日\n珠簾初捲秋集但春秋渾差誅宜夏又宜冬\n夢葉都兩煦育群生咸被悔憾\n且喜清辰何以祝旺相又如松其詠少如風云\n風姨十八正停之到處生潼到處迎\n江上凌波空婉轉枝頭孝舞自控盈\n珠簾繡圍長為伴瑤草琪花首有情\n模樣指將傳入曰是空是色昼推成\n曾闻有人言祚國公有通天朝魏\n而應德寶官銀五夢兩求封貢\n氣照雜正二朝皇帝知是如南蘭臣却而不許未知的否\n今見阮先前家首編乃知果有是事\n順化與",
+    "vi": "Chẳng những xuân thu uẫn thế nhữ Lại còn nghỉ hạ uới nghị đông.\nMuôn uật đều uề nuôi nấng; Quần sinh cùng được bao dung.\nMừng buổi thanh thời, lấy gì chúc?\nNhư bách lại như tùng.\n® Kim mẫu: vàng dùng để luyện thuốc trường sinh. 'ình 'thiếu trữ pÍontg\" Phong dì thập bát chính đình đình.\nĐáo xứ sinh nhai đáo xứ nghĩnh, Giang thượng lắng ba không uyển chuyển; Chỉ đầu học uũ tự khinh doanh.\nChâu liêm tú sát trường uì bạn, Đao thảo kỳ hoa cựu hữu tình.\nMô dạng nghĩ tương truyền nhập hoa, Thị không thị sắc, hoạ nan thành!\n1⁄;mh gió thiếu nữ (g1ó nhỏ) Dì gió tuổi chừng hai chín đây.\nTói đâu người cũng đón. mời ngay, Trên sông lướt sóng quanh co lượn; Học múa đầu cành thoảng nhẹ bay."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 2,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"索封西祀成何來誰必真尊向上直其詠制真豐詩云 晚霞世思屬董念誰向新臺發陸沉伯哉不嘗句鄉胆父臺寸屈敬擾 百年帝業分光景六月王師豐好音\",\n        \"vietnamese_text\": \"Chẳng những xuân thu uẫn thế nhữ Lại còn nghỉ hạ uới nghị đông.\",\n        \"score\": 0.05697040027594248\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 5,\n        \"vi_start\": 1,\n        \"vi_end\": 1,\n        \"han_text\": \"十二金牌千古恨小天如若同微欽其詠意 尊詩云火輪隱約五更霜半壁山河入醉鄉 斷授已甘游汴水孤招誰料失襄陽\",\n        \"vietnamese_text\": \"Muôn uật đều uề nuôi nấng; Quần sinh cùng được bao dung.\",\n        \"score\": -0.052314410773909824\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 7,\n        \"vi_start\": 2,\n        \"vi_end\": 3,\n        \"han_text\": \"秋尼城闕排寫贊落日樓臺奏鳳凰 笑殺近亭無片張半間花草為平章\",\n        \"vietnamese_text\": \"Mừng buổi thanh thời, lấy gì chúc? Như bách lại như tùng.\",\n        \"score\": 0.14930201498769402\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 9,\n        \"vi_start\": 4,\n        \"vi_end\": 4,\n        \"han_text\": \"阮光前題阮氏釋香家有句云 素榆長掛千秋鑑金母據森步壽觴\",\n        \"vietnamese_text\": \"® Kim mẫu: vàng dùng để luyện thuốc trường sinh.\",\n        \"score\": 0.029602286892044246\n      },\n      {\n        \"han_start\": 10,\n        \"han_end\": 11,\n        \"vi_start\": 5,\n        \"vi_end\": 5,\n        \"han_text\": \"其錦堂春曲云備户好迎睿日 珠簾初捲秋集但春秋渾差誅宜夏又宜冬\",\n        \"vietnamese_text\": \"'ình 'thiếu trữ pÍontg\\\" Phong dì thập bát chính đình đình.\",\n        \"score\": 0.02881846928680785\n      },\n      {\n        \"han_start\": 12,\n        \"han_end\": 15,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"夢葉都兩煦育群生咸被悔憾 且喜清辰何以祝旺相又如松其詠少如風云 風姨十八正停之到處生潼到處迎 江上凌波空婉轉枝頭孝舞自控盈\",\n        \"vietnamese_text\": \"Đáo xứ sinh nhai đáo xứ nghĩnh, Giang thượng lắng ba không uyển chuyển; Chỉ đầu học uũ tự khinh doanh.\",\n        \"score\": 0.14376861168244787\n      },\n      {\n        \"han_start\": 16,\n        \"han_end\": 16,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"珠簾繡圍長為伴瑤草琪花首有情\",\n        \"vietnamese_text\": \"Châu liêm tú sát trường uì bạn, Đao thảo kỳ hoa cựu hữu tình.\",\n        \"score\": 0.13368210524702154\n      },\n      {\n        \"han_start\": 17,\n        \"han_end\": 18,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"模樣指將傳入曰是空是色昼推成 曾闻有人言祚國公有通天朝魏\",\n        \"vietnamese_text\": \"Mô dạng nghĩ tương truyền nhập hoa, Thị không thị sắc, hoạ nan thành!\",\n        \"score\": 0.20947336043244177\n      },\n      {\n        \"han_start\": 19,\n        \"han_end\": 19,\n        \"vi_start\": 9,\n        \"vi_end\": 10,\n        \"han_text\": \"而應德寶官銀五夢兩求封貢\",\n        \"vietnamese_text\": \"1⁄;mh gió thiếu nữ (g1ó nhỏ) Dì gió tuổi chừng hai chín đây. Tói đâu người cũng đón.\",\n        \"score\": -0.019565999197451733\n      },\n      {\n        \"han_start\": 20,\n        \"han_end\": 22,\n        \"vi_start\": 11,\n        \"vi_end\": 11,\n        \"han_text\": \"氣照雜正二朝皇帝知是如南蘭臣却而不許未知的否 今見阮先前家首編乃知果有是事 順化與\",\n        \"vietnamese_text\": \"mời ngay, Trên sông lướt sóng quanh co lượn; Học múa đầu cành thoảng nhẹ bay.\",\n        \"score\": 0.10867445324488392\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 2,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "索封西祀成何來誰必真尊向上直其詠制真豐詩云 晚霞世思屬董念誰向新臺發陸沉伯哉不嘗句鄉胆父臺寸屈敬擾 百年帝業分光景六月王師豐好音",
+          "vietnamese_text": "Chẳng những xuân thu uẫn thế nhữ Lại còn nghỉ hạ uới nghị đông.",
+          "score": 0.05697040027594248
+        },
+        {
+          "han_start": 3,
+          "han_end": 5,
+          "vi_start": 1,
+          "vi_end": 1,
+          "han_text": "十二金牌千古恨小天如若同微欽其詠意 尊詩云火輪隱約五更霜半壁山河入醉鄉 斷授已甘游汴水孤招誰料失襄陽",
+          "vietnamese_text": "Muôn uật đều uề nuôi nấng; Quần sinh cùng được bao dung.",
+          "score": -0.052314410773909824
+        },
+        {
+          "han_start": 6,
+          "han_end": 7,
+          "vi_start": 2,
+          "vi_end": 3,
+          "han_text": "秋尼城闕排寫贊落日樓臺奏鳳凰 笑殺近亭無片張半間花草為平章",
+          "vietnamese_text": "Mừng buổi thanh thời, lấy gì chúc? Như bách lại như tùng.",
+          "score": 0.14930201498769402
+        },
+        {
+          "han_start": 8,
+          "han_end": 9,
+          "vi_start": 4,
+          "vi_end": 4,
+          "han_text": "阮光前題阮氏釋香家有句云 素榆長掛千秋鑑金母據森步壽觴",
+          "vietnamese_text": "® Kim mẫu: vàng dùng để luyện thuốc trường sinh.",
+          "score": 0.029602286892044246
+        },
+        {
+          "han_start": 10,
+          "han_end": 11,
+          "vi_start": 5,
+          "vi_end": 5,
+          "han_text": "其錦堂春曲云備户好迎睿日 珠簾初捲秋集但春秋渾差誅宜夏又宜冬",
+          "vietnamese_text": "'ình 'thiếu trữ pÍontg\" Phong dì thập bát chính đình đình.",
+          "score": 0.02881846928680785
+        },
+        {
+          "han_start": 12,
+          "han_end": 15,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "夢葉都兩煦育群生咸被悔憾 且喜清辰何以祝旺相又如松其詠少如風云 風姨十八正停之到處生潼到處迎 江上凌波空婉轉枝頭孝舞自控盈",
+          "vietnamese_text": "Đáo xứ sinh nhai đáo xứ nghĩnh, Giang thượng lắng ba không uyển chuyển; Chỉ đầu học uũ tự khinh doanh.",
+          "score": 0.14376861168244787
+        },
+        {
+          "han_start": 16,
+          "han_end": 16,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "珠簾繡圍長為伴瑤草琪花首有情",
+          "vietnamese_text": "Châu liêm tú sát trường uì bạn, Đao thảo kỳ hoa cựu hữu tình.",
+          "score": 0.13368210524702154
+        },
+        {
+          "han_start": 17,
+          "han_end": 18,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "模樣指將傳入曰是空是色昼推成 曾闻有人言祚國公有通天朝魏",
+          "vietnamese_text": "Mô dạng nghĩ tương truyền nhập hoa, Thị không thị sắc, hoạ nan thành!",
+          "score": 0.20947336043244177
+        },
+        {
+          "han_start": 19,
+          "han_end": 19,
+          "vi_start": 9,
+          "vi_end": 10,
+          "han_text": "而應德寶官銀五夢兩求封貢",
+          "vietnamese_text": "1⁄;mh gió thiếu nữ (g1ó nhỏ) Dì gió tuổi chừng hai chín đây. Tói đâu người cũng đón.",
+          "score": -0.019565999197451733
+        },
+        {
+          "han_start": 20,
+          "han_end": 22,
+          "vi_start": 11,
+          "vi_end": 11,
+          "han_text": "氣照雜正二朝皇帝知是如南蘭臣却而不許未知的否 今見阮先前家首編乃知果有是事 順化與",
+          "vietnamese_text": "mời ngay, Trên sông lướt sóng quanh co lượn; Học múa đầu cành thoảng nhẹ bay.",
+          "score": 0.10867445324488392
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 2141
+}

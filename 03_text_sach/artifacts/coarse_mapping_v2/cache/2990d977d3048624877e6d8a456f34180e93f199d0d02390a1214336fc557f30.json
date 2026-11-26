@@ -1,0 +1,87 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "2990d977d3048624877e6d8a456f34180e93f199d0d02390a1214336fc557f30",
+  "payload": {
+    "han": "臺洲東審社有期八百六以供忌臘路每斤二十四文無税例\n二洲社臣造小糖沙藏吳約各色共四步八千三百二十斥皆差孫孫紅密出乾美學義立村茂納差孫孫并牌朱節料搜另19若共二千七百五十三埕替田租歲七百三十四星徐給侯場官祿二十埕\n順化撼田租香萊縣商美村歲稅二十二卷富榮學編場奉正二社第稅五十七娄旺灵星春絹社卷税一百六十八卷又礼五卷疏綸社等稅六十卷\n又礼五卷康祿縣渠河社三陽壇田祿紫稅八十四善十三升平福陽第税七十七卷二十七升\n鎮寧場步龍八十二卷十五升\n又有社十六卷\n壇丁税都香茶學傳何社已丑年約九百九十卷\n又礼五姜後登坊是年納一千五十卷\n又礼十五姜順化兆附之餘方民未復常業\n虛炉夜依富春左側村市之人\n多以船往海口載爾小滿效十龍而為入\n大龍賁千涕取其乾結成虛徒費乘炭色暗味苦動強石食\n而中春設撫鎮衙門始作同許曉",
+    "vi": "Hai châu và xã ấy có thể làm đường phèn, đường cát, mỗi năm nộp các thứ đường ấy cộng 48.320 cân thay tiền sai dư.\nMật mía sản ở thôn Nghĩa Lập, huyện Chương Nghĩa, hàng năm nộp sai dư, cước mẽ, tiết liệu, sưu lính là 2.753 chĩnh, thay tô ruộng 734 chĩnh, ngoài ra cấp ngụ lộc cho quan cai trường 20 chĩnh.\nThuế ruộng muối Thuận Hoá, phường Khánh Mỹ huyện Hương Trà hàng năm nộp thuế 22 sọt, lễ 2 sọt.\nHai xã Diêm Trường và Phụng Chính huyện Phú Vang mỗi năm nộp thuế 57 sọt, lễ 4 sọt.\nXã Xuân My huyện Minh Linh mỗi năm nộp thuế 168 sọt, lễ 5 sọt.\nXã DI Loan mỗi năm thuế 60 sọt, lễ 5 sọt.\nXã Cừ Hà, “huyện Khang Lộc, trường ruộng muối của ba phường môi năm thuế 84 sọt 13 cân, trường Bình Phúc mỗi năm 77 sọt 20 chưa trở lại nghề nghiệp thường, lò nấu muối bỏ hư, người các thôn chợ ở tä hữu thành Phú Xuân nhiều người đem thuyển ra cửa biển chở nước mặn đẩy vài mươi chum, đem về cho vào cái chảo lớn nấu cho sôi, khô kết thành muối, chỉ tốn củi than, nhưng sắc đen mùi đắng, miễn cưỡng mà ăn.\nMùa xuân năm Bính Thân, đặt nha môn Trấn thủ, mới ra hiểu dụ, cho dân đều theo nghề cũ làm ăn, cấm bắt kẻ quấy nhiễu, rộng tha thuế má giao dịch cho được thông hành buôn bán, từ đó những xã thôn ở kể biển dẫn mở lò nấu.\nNhững ruộng cát đất mặn lần lượt được khẩn trị, muối ngọt mà trắng, không khác các xứ.\nĐầu mùa xuân mỗi chén nhỏ muối giá 30 đồng, sau đầu mùa thu giá chỉ còn 6 đồng."
+  },
+  "attempt": 3,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 0,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"臺洲東審社有期八百六以供忌臘路每斤二十四文無税例\",\n        \"vietnamese_text\": \"Hai châu và xã ấy có thể làm đường phèn, đường cát, mỗi năm nộp các thứ đường ấy cộng 48.\",\n        \"score\": 0.017309722014583907\n      },\n      {\n        \"han_start\": 1,\n        \"han_end\": 1,\n        \"vi_start\": 1,\n        \"vi_end\": 3,\n        \"han_text\": \"二洲社臣造小糖沙藏吳約各色共四步八千三百二十斥皆差孫孫紅密出乾美學義立村茂納差孫孫并牌朱節料搜另19若共二千七百五十三埕替田租歲七百三十四星徐給侯場官祿二十埕\",\n        \"vietnamese_text\": \"320 cân thay tiền sai dư. Mật mía sản ở thôn Nghĩa Lập, huyện Chương Nghĩa, hàng năm nộp sai dư, cước mẽ, tiết liệu, sưu lính là 2. 753 chĩnh, thay tô ruộng 734 chĩnh, ngoài ra cấp ngụ lộc cho quan cai trường 20 chĩnh.\",\n        \"score\": 0.053279012662999996\n      },\n      {\n        \"han_start\": 2,\n        \"han_end\": 2,\n        \"vi_start\": 4,\n        \"vi_end\": 7,\n        \"han_text\": \"順化撼田租香萊縣商美村歲稅二十二卷富榮學編場奉正二社第稅五十七娄旺灵星春絹社卷税一百六十八卷又礼五卷疏綸社等稅六十卷\",\n        \"vietnamese_text\": \"Thuế ruộng muối Thuận Hoá, phường Khánh Mỹ huyện Hương Trà hàng năm nộp thuế 22 sọt, lễ 2 sọt. Hai xã Diêm Trường và Phụng Chính huyện Phú Vang mỗi năm nộp thuế 57 sọt, lễ 4 sọt. Xã Xuân My huyện Minh Linh mỗi năm nộp thuế 168 sọt, lễ 5 sọt. Xã DI Loan mỗi năm thuế 60 sọt, lễ 5 sọt.\",\n        \"score\": 0.16654016879406008\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 6,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"又礼五卷康祿縣渠河社三陽壇田祿紫稅八十四善十三升平福陽第税七十七卷二十七升 鎮寧場步龍八十二卷十五升 又有社十六卷 壇丁税都香茶學傳何社已丑年約九百九十卷\",\n        \"vietnamese_text\": \"Xã Cừ Hà, “huyện Khang Lộc, trường ruộng muối của ba phường môi năm thuế 84 sọt 13 cân, trường Bình Phúc mỗi năm 77 sọt 20 chưa trở lại nghề nghiệp thường, lò nấu muối bỏ hư, người các thôn chợ ở tä hữu thành Phú Xuân nhiều người đem thuyển ra cửa biển chở nước mặn đẩy vài mươi chum, đem về cho vào cái chảo lớn nấu cho sôi, khô kết thành muối, chỉ tốn củi than, nhưng sắc đen mùi đắng, miễn cưỡng mà ăn.\",\n        \"score\": 0.1114806280016512\n      },\n      {\n        \"han_start\": 7,\n        \"han_end\": 10,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"又礼五姜後登坊是年納一千五十卷 又礼十五姜順化兆附之餘方民未復常業 虛炉夜依富春左側村市之人 多以船往海口載爾小滿效十龍而為入\",\n        \"vietnamese_text\": \"Mùa xuân năm Bính Thân, đặt nha môn Trấn thủ, mới ra hiểu dụ, cho dân đều theo nghề cũ làm ăn, cấm bắt kẻ quấy nhiễu, rộng tha thuế má giao dịch cho được thông hành buôn bán, từ đó những xã thôn ở kể biển dẫn mở lò nấu.\",\n        \"score\": 0.17252734346998552\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 11,\n        \"vi_start\": 10,\n        \"vi_end\": 10,\n        \"han_text\": \"大龍賁千涕取其乾結成虛徒費乘炭色暗味苦動強石食\",\n        \"vietnamese_text\": \"Những ruộng cát đất mặn lần lượt được khẩn trị, muối ngọt mà trắng, không khác các xứ.\",\n        \"score\": 0.1679869531378743\n      },\n      {\n        \"han_start\": 12,\n        \"han_end\": 12,\n        \"vi_start\": 11,\n        \"vi_end\": 11,\n        \"han_text\": \"而中春設撫鎮衙門始作同許曉\",\n        \"vietnamese_text\": \"Đầu mùa xuân mỗi chén nhỏ muối giá 30 đồng, sau đầu mùa thu giá chỉ còn 6 đồng.\",\n        \"score\": 0.1352577520326214\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 0,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "臺洲東審社有期八百六以供忌臘路每斤二十四文無税例",
+          "vietnamese_text": "Hai châu và xã ấy có thể làm đường phèn, đường cát, mỗi năm nộp các thứ đường ấy cộng 48.",
+          "score": 0.017309722014583907
+        },
+        {
+          "han_start": 1,
+          "han_end": 1,
+          "vi_start": 1,
+          "vi_end": 3,
+          "han_text": "二洲社臣造小糖沙藏吳約各色共四步八千三百二十斥皆差孫孫紅密出乾美學義立村茂納差孫孫并牌朱節料搜另19若共二千七百五十三埕替田租歲七百三十四星徐給侯場官祿二十埕",
+          "vietnamese_text": "320 cân thay tiền sai dư. Mật mía sản ở thôn Nghĩa Lập, huyện Chương Nghĩa, hàng năm nộp sai dư, cước mẽ, tiết liệu, sưu lính là 2. 753 chĩnh, thay tô ruộng 734 chĩnh, ngoài ra cấp ngụ lộc cho quan cai trường 20 chĩnh.",
+          "score": 0.053279012662999996
+        },
+        {
+          "han_start": 2,
+          "han_end": 2,
+          "vi_start": 4,
+          "vi_end": 7,
+          "han_text": "順化撼田租香萊縣商美村歲稅二十二卷富榮學編場奉正二社第稅五十七娄旺灵星春絹社卷税一百六十八卷又礼五卷疏綸社等稅六十卷",
+          "vietnamese_text": "Thuế ruộng muối Thuận Hoá, phường Khánh Mỹ huyện Hương Trà hàng năm nộp thuế 22 sọt, lễ 2 sọt. Hai xã Diêm Trường và Phụng Chính huyện Phú Vang mỗi năm nộp thuế 57 sọt, lễ 4 sọt. Xã Xuân My huyện Minh Linh mỗi năm nộp thuế 168 sọt, lễ 5 sọt. Xã DI Loan mỗi năm thuế 60 sọt, lễ 5 sọt.",
+          "score": 0.16654016879406008
+        },
+        {
+          "han_start": 3,
+          "han_end": 6,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "又礼五卷康祿縣渠河社三陽壇田祿紫稅八十四善十三升平福陽第税七十七卷二十七升 鎮寧場步龍八十二卷十五升 又有社十六卷 壇丁税都香茶學傳何社已丑年約九百九十卷",
+          "vietnamese_text": "Xã Cừ Hà, “huyện Khang Lộc, trường ruộng muối của ba phường môi năm thuế 84 sọt 13 cân, trường Bình Phúc mỗi năm 77 sọt 20 chưa trở lại nghề nghiệp thường, lò nấu muối bỏ hư, người các thôn chợ ở tä hữu thành Phú Xuân nhiều người đem thuyển ra cửa biển chở nước mặn đẩy vài mươi chum, đem về cho vào cái chảo lớn nấu cho sôi, khô kết thành muối, chỉ tốn củi than, nhưng sắc đen mùi đắng, miễn cưỡng mà ăn.",
+          "score": 0.1114806280016512
+        },
+        {
+          "han_start": 7,
+          "han_end": 10,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "又礼五姜後登坊是年納一千五十卷 又礼十五姜順化兆附之餘方民未復常業 虛炉夜依富春左側村市之人 多以船往海口載爾小滿效十龍而為入",
+          "vietnamese_text": "Mùa xuân năm Bính Thân, đặt nha môn Trấn thủ, mới ra hiểu dụ, cho dân đều theo nghề cũ làm ăn, cấm bắt kẻ quấy nhiễu, rộng tha thuế má giao dịch cho được thông hành buôn bán, từ đó những xã thôn ở kể biển dẫn mở lò nấu.",
+          "score": 0.17252734346998552
+        },
+        {
+          "han_start": 11,
+          "han_end": 11,
+          "vi_start": 10,
+          "vi_end": 10,
+          "han_text": "大龍賁千涕取其乾結成虛徒費乘炭色暗味苦動強石食",
+          "vietnamese_text": "Những ruộng cát đất mặn lần lượt được khẩn trị, muối ngọt mà trắng, không khác các xứ.",
+          "score": 0.1679869531378743
+        },
+        {
+          "han_start": 12,
+          "han_end": 12,
+          "vi_start": 11,
+          "vi_end": 11,
+          "han_text": "而中春設撫鎮衙門始作同許曉",
+          "vietnamese_text": "Đầu mùa xuân mỗi chén nhỏ muối giá 30 đồng, sau đầu mùa thu giá chỉ còn 6 đồng.",
+          "score": 0.1352577520326214
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 45625
+}

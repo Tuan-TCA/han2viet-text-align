@@ -1,0 +1,96 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "1fe3a1ea8c97cf29ed515a179362ab67040566eafc92327df3c61e2c0c68b14d",
+  "payload": {
+    "han": "生日銀礼二十五第三月一八三分一皇皆八五百八十二六二四三文芙錄十亥阮氏先世讳日六礼有礼銀七易三月六六分一釐\n又礼十六為二月五八六分五至四礼十八第八月一八七分一星孔十第三開一八三分一星夕礼十八易六兩六74分一至\n又礼十七為二月五七分一屋亦皆舊嶽銀占兩皆三亥三而芙乳每礼者十宏至舍差司亦約迎年正旦生日并諱日\n若礼銀三第二月八小皆八七十五六四酉二十四文\n順化每年十二月若營法物有進臘礼方餅一盤\n贊錢八宗猪肉一盤皆寶五貞OV圓化有猶膏花已丑年\n肇豐府名縣社村坊尙各市豬膏在法记府一百六十四埕\n其餘亦有代納每堤傍三陌\n意南亦有待膏花一切代術每埕花八五商\n順化庚寅年正旦其公族該奇二貞每賀礼務二貞讓像十員名猶一正替孫十宗美卷一刻諸將外左一員掌奇四員名猶一口\n其美新十宗五預病奇十員只美孫若二宗該隊二十八員\n四公族礼侯家文班五疾員只美若二定金如名奇隊船辦",
+    "vi": "Quan Lại bộ (?) cai trưng cũng có lễ, cau khô, rượu, mật, thay tiền 30 quan.\nĐến như phủ Quảng Ngãi thì ký lục lễ bất quá gạo 2 bao, rượu mật đều 10 chĩnh, tiền trầu 2 quan.\nPhủ Điện Bàn lấy cau thay mật, số lễ cũng như thế.\nPhủ Quy Nhơn cũng vậy, chỉ có 2 lễ ký lục và để đốc, ngoài ra thì không.\nTrường tô ruộng các phủ huyện cũng không có.\nĐến như lễ tết mỗi năm thì cũng chỉ quan lại dinh Quảng Nam là nhiều.\nLễ Chính Đán thì bạc 25 nén 5 lạng 8 tiền 8 ly, thay tiền 588 quan 3 tiền 36 đồng, tiền trầu 10 quan; lễ Sinh nhật thì bạc 25 nén 3 lạng 1 tiền 3 phân 3 ly, thay tiền 582 quan 2 tiền 3 đồng, tiền trầu 10 quan; ngày huý tiên thế của họ Nguyễn có lễ 7 hốt 3 lạng 6 tiền 6 phân 1 ly, có lễ 16 nén 2 lạng 5 tiền 6 phân 5 ly, có lễ 18 nén 7 lạng 1 tiền 7 phân 1 ly, có lễ 10 nén 3 lạng 1 tiền 3 phân 1 ly, có lễ 28 nén 6 lạng 7 tiền 6 phân 1 ly, có lễ 17 nén 2 lạng 5 tiền 7 phân 1 ly, cũng đều thay tiền, bạc mỗi lạng thay 2 quan 3 tiển, tiển trầu mỗi lễ 10 quan.\nCho đến ty Xá sai hàng năm cũng nộp bạc các lễ Chính Đán, Sinh nhật và Huý nhật 3 nén 2 lạng 8 tiền, thay tiền 75 quan 4 tiền 24 đồng.\nXứ Thuận Hoá hàng năm tháng 12, chư tướng của các định có lễ Tiến Lạp, bánh chưng một mâm, thay tiền 8 quan, thịt lợn một mâm, thay tiền 5 quan.\nXứ Thuận Hoá có thuế mỡ lợn."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 0,\n        \"vi_start\": 0,\n        \"vi_end\": 1,\n        \"han_text\": \"生日銀礼二十五第三月一八三分一皇皆八五百八十二六二四三文芙錄十亥阮氏先世讳日六礼有礼銀七易三月六六分一釐\",\n        \"vietnamese_text\": \"Quan Lại bộ (? ) cai trưng cũng có lễ, cau khô, rượu, mật, thay tiền 30 quan.\",\n        \"score\": 0.025088458915688356\n      },\n      {\n        \"han_start\": 1,\n        \"han_end\": 1,\n        \"vi_start\": 2,\n        \"vi_end\": 2,\n        \"han_text\": \"又礼十六為二月五八六分五至四礼十八第八月一八七分一星孔十第三開一八三分一星夕礼十八易六兩六74分一至\",\n        \"vietnamese_text\": \"Đến như phủ Quảng Ngãi thì ký lục lễ bất quá gạo 2 bao, rượu mật đều 10 chĩnh, tiền trầu 2 quan.\",\n        \"score\": -0.02490854770641881\n      },\n      {\n        \"han_start\": 2,\n        \"han_end\": 2,\n        \"vi_start\": 3,\n        \"vi_end\": 4,\n        \"han_text\": \"又礼十七為二月五七分一屋亦皆舊嶽銀占兩皆三亥三而芙乳每礼者十宏至舍差司亦約迎年正旦生日并諱日\",\n        \"vietnamese_text\": \"Phủ Điện Bàn lấy cau thay mật, số lễ cũng như thế. Phủ Quy Nhơn cũng vậy, chỉ có 2 lễ ký lục và để đốc, ngoài ra thì không.\",\n        \"score\": 0.18452109543434764\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 3,\n        \"vi_start\": 5,\n        \"vi_end\": 5,\n        \"han_text\": \"若礼銀三第二月八小皆八七十五六四酉二十四文\",\n        \"vietnamese_text\": \"Trường tô ruộng các phủ huyện cũng không có.\",\n        \"score\": 0.0013802384826077812\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 4,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"順化每年十二月若營法物有進臘礼方餅一盤\",\n        \"vietnamese_text\": \"Đến như lễ tết mỗi năm thì cũng chỉ quan lại dinh Quảng Nam là nhiều.\",\n        \"score\": 0.1691108492807414\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 7,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"贊錢八宗猪肉一盤皆寶五貞OV圓化有猶膏花已丑年 肇豐府名縣社村坊尙各市豬膏在法记府一百六十四埕 其餘亦有代納每堤傍三陌\",\n        \"vietnamese_text\": \"Lễ Chính Đán thì bạc 25 nén 5 lạng 8 tiền 8 ly, thay tiền 588 quan 3 tiền 36 đồng, tiền trầu 10 quan; lễ Sinh nhật thì bạc 25 nén 3 lạng 1 tiền 3 phân 3 ly, thay tiền 582 quan 2 tiền 3 đồng, tiền trầu 10 quan; ngày huý tiên thế của họ Nguyễn có lễ 7 hốt 3 lạng 6 tiền 6 phân 1 ly, có lễ 16 nén 2 lạng 5 tiền 6 phân 5 ly, có lễ 18 nén 7 lạng 1 tiền 7 phân 1 ly, có lễ 10 nén 3 lạng 1 tiền 3 phân 1 ly, có lễ 28 nén 6 lạng 7 tiền 6 phân 1 ly, có lễ 17 nén 2 lạng 5 tiền 7 phân 1 ly, cũng đều thay tiền, bạc mỗi lạng thay 2 quan 3 tiển, tiển trầu mỗi lễ 10 quan.\",\n        \"score\": 0.05766644694260256\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 10,\n        \"vi_start\": 8,\n        \"vi_end\": 9,\n        \"han_text\": \"意南亦有待膏花一切代術每埕花八五商 順化庚寅年正旦其公族該奇二貞每賀礼務二貞讓像十員名猶一正替孫十宗美卷一刻諸將外左一員掌奇四員名猶一口 其美新十宗五預病奇十員只美孫若二宗該隊二十八員\",\n        \"vietnamese_text\": \"Cho đến ty Xá sai hàng năm cũng nộp bạc các lễ Chính Đán, Sinh nhật và Huý nhật 3 nén 2 lạng 8 tiền, thay tiền 75 quan 4 tiền 24 đồng. Xứ Thuận Hoá hàng năm tháng 12, chư tướng của các định có lễ Tiến Lạp, bánh chưng một mâm, thay tiền 8 quan, thịt lợn một mâm, thay tiền 5 quan.\",\n        \"score\": 0.22666442579130572\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 11,\n        \"vi_start\": 10,\n        \"vi_end\": 10,\n        \"han_text\": \"四公族礼侯家文班五疾員只美若二定金如名奇隊船辦\",\n        \"vietnamese_text\": \"Xứ Thuận Hoá có thuế mỡ lợn.\",\n        \"score\": 0.008063180738547083\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 0,
+          "vi_start": 0,
+          "vi_end": 1,
+          "han_text": "生日銀礼二十五第三月一八三分一皇皆八五百八十二六二四三文芙錄十亥阮氏先世讳日六礼有礼銀七易三月六六分一釐",
+          "vietnamese_text": "Quan Lại bộ (? ) cai trưng cũng có lễ, cau khô, rượu, mật, thay tiền 30 quan.",
+          "score": 0.025088458915688356
+        },
+        {
+          "han_start": 1,
+          "han_end": 1,
+          "vi_start": 2,
+          "vi_end": 2,
+          "han_text": "又礼十六為二月五八六分五至四礼十八第八月一八七分一星孔十第三開一八三分一星夕礼十八易六兩六74分一至",
+          "vietnamese_text": "Đến như phủ Quảng Ngãi thì ký lục lễ bất quá gạo 2 bao, rượu mật đều 10 chĩnh, tiền trầu 2 quan.",
+          "score": -0.02490854770641881
+        },
+        {
+          "han_start": 2,
+          "han_end": 2,
+          "vi_start": 3,
+          "vi_end": 4,
+          "han_text": "又礼十七為二月五七分一屋亦皆舊嶽銀占兩皆三亥三而芙乳每礼者十宏至舍差司亦約迎年正旦生日并諱日",
+          "vietnamese_text": "Phủ Điện Bàn lấy cau thay mật, số lễ cũng như thế. Phủ Quy Nhơn cũng vậy, chỉ có 2 lễ ký lục và để đốc, ngoài ra thì không.",
+          "score": 0.18452109543434764
+        },
+        {
+          "han_start": 3,
+          "han_end": 3,
+          "vi_start": 5,
+          "vi_end": 5,
+          "han_text": "若礼銀三第二月八小皆八七十五六四酉二十四文",
+          "vietnamese_text": "Trường tô ruộng các phủ huyện cũng không có.",
+          "score": 0.0013802384826077812
+        },
+        {
+          "han_start": 4,
+          "han_end": 4,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "順化每年十二月若營法物有進臘礼方餅一盤",
+          "vietnamese_text": "Đến như lễ tết mỗi năm thì cũng chỉ quan lại dinh Quảng Nam là nhiều.",
+          "score": 0.1691108492807414
+        },
+        {
+          "han_start": 5,
+          "han_end": 7,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "贊錢八宗猪肉一盤皆寶五貞OV圓化有猶膏花已丑年 肇豐府名縣社村坊尙各市豬膏在法记府一百六十四埕 其餘亦有代納每堤傍三陌",
+          "vietnamese_text": "Lễ Chính Đán thì bạc 25 nén 5 lạng 8 tiền 8 ly, thay tiền 588 quan 3 tiền 36 đồng, tiền trầu 10 quan; lễ Sinh nhật thì bạc 25 nén 3 lạng 1 tiền 3 phân 3 ly, thay tiền 582 quan 2 tiền 3 đồng, tiền trầu 10 quan; ngày huý tiên thế của họ Nguyễn có lễ 7 hốt 3 lạng 6 tiền 6 phân 1 ly, có lễ 16 nén 2 lạng 5 tiền 6 phân 5 ly, có lễ 18 nén 7 lạng 1 tiền 7 phân 1 ly, có lễ 10 nén 3 lạng 1 tiền 3 phân 1 ly, có lễ 28 nén 6 lạng 7 tiền 6 phân 1 ly, có lễ 17 nén 2 lạng 5 tiền 7 phân 1 ly, cũng đều thay tiền, bạc mỗi lạng thay 2 quan 3 tiển, tiển trầu mỗi lễ 10 quan.",
+          "score": 0.05766644694260256
+        },
+        {
+          "han_start": 8,
+          "han_end": 10,
+          "vi_start": 8,
+          "vi_end": 9,
+          "han_text": "意南亦有待膏花一切代術每埕花八五商 順化庚寅年正旦其公族該奇二貞每賀礼務二貞讓像十員名猶一正替孫十宗美卷一刻諸將外左一員掌奇四員名猶一口 其美新十宗五預病奇十員只美孫若二宗該隊二十八員",
+          "vietnamese_text": "Cho đến ty Xá sai hàng năm cũng nộp bạc các lễ Chính Đán, Sinh nhật và Huý nhật 3 nén 2 lạng 8 tiền, thay tiền 75 quan 4 tiền 24 đồng. Xứ Thuận Hoá hàng năm tháng 12, chư tướng của các định có lễ Tiến Lạp, bánh chưng một mâm, thay tiền 8 quan, thịt lợn một mâm, thay tiền 5 quan.",
+          "score": 0.22666442579130572
+        },
+        {
+          "han_start": 11,
+          "han_end": 11,
+          "vi_start": 10,
+          "vi_end": 10,
+          "han_text": "四公族礼侯家文班五疾員只美若二定金如名奇隊船辦",
+          "vietnamese_text": "Xứ Thuận Hoá có thuế mỡ lợn.",
+          "score": 0.008063180738547083
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 11875
+}

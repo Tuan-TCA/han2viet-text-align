@@ -1,0 +1,105 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "e46834a96a92eb68c72e8e92a9b9f2bc705c8e1cf8dde70a4c3679eba7856616",
+  "payload": {
+    "han": "五文\n新立始立新會屋會客戶各項每人脚朱侯三十六文\n壯項軍項老項不具官員子孫前敢各項\n每人米五亦脚生成每升六文外一支附二改\n餘户别載别納正戶百人米五升每升代祔侯三十文\n白絲每人一亦代納辰四十五人\n席匠屬稅例全納席稅差孫脚朱\n節料廓朱等項一頂每人白席八延\n二項每人白席六双三項每人自席四及年項四尺\n臣项老项每人三天不具每人二及新到每人三致吃回每人四穴前年新到初年庫頂前年始四知年民旺頂其字每人一四十八文\n內三禮搜序每人二改蘇料例稅是納四人白席二政各卿例稅準錢夫須屬夫四人三項每四叛二頃二人百六双共白席二十四\n郊祀而夫三人全三項每人四政共白帝十二雙\n將臣軍民客戶二人自席七\n奴壯長夫辰客二人白席六改此奠盤一鼎五縣與各金丁田土產諸稅之常例\n會坊雲南人在順化者方民物產者甚說此例亦不為過重\n旦徑外已定義祥白亦易輸納\n但言吏該徵各衙官次員效之群繁每一場徵取不下效十人\n書催曾刷甚吏鑿掩又追核外編用情增減生爭極民耳\n廣義府三縣差縣例稅正戶落戶並倍房府屯田屬餘亦依谷府\n惟節料每人代歲納四為三十文\n又例載船六隻三十貞雇借咏十長\n其官府會納在場有納更歲每百貞詠一貴加征期將鄉下般每五貞孫前三縣節料端例稅竹物",
+    "vi": "Tính cả hạng tráng là 20 người, cộng số vàng là 8 lạng 3 phân.\nDo cai quan đặt ra lệ ấy.\nKhách tiền suất mỗi người 36 đồng: các hạng tráng, hạng quân, hạng mới về, hạng mới tục, mỗi người gạo 6 thưng, tiền cước mỗi thưng 3 đồng; tiền ngoại mỗi quan phụ thêm 2 tiền; mỗi người các hạng tiền cước 22 đồng, gạo tám mỗi người 1 thưng, tiền biếu 6 đồng.\nCác hạng con cháu quan viên, chức cũ, dân đinh, mỗi người gạo 4 thưng, tiền cước mỗi thưng 3 đồng; tiền ngoại giống như trên; lại tiền cước và gạo tám giống như trên.\nHạng dân, hạng lão, hạng bất cụ, mỗi người gạo 4 thưng, tiền cước mỗi thưng 3 đồng; tiền ngoại giống như trên; tiền cước mỗi người 18 đồng.\nHạng cùng, hạng đào được miễn gạo.\nBinh thuyền Kim súng được miễn tiển tết và tiền suất.\nHễ là tiết liệu (tết) thì gạo mỗi bao 40 thưng, gạo tám mỗi bao 3ð thưng, tiền biếu mỗi thưng 45 đồng.\nCác hạng khách hộ ở các thuộc Tân Lập, Thuỷ Lập, Tân Hội mỗi người tiền gạo cước 36 đồng.\nCác hạng tráng, hạng quân, hạng lão, bất cụ, con chầu quan viên, chức cũ, mỗi người gạo ð thưng, tiền cước mỗi thưng 6 đồng, tiển ngoại 1 quan phụ thêm 2 tiển."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 1,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"五文 新立始立新會屋會客戶各項每人脚朱侯三十六文\",\n        \"vietnamese_text\": \"Tính cả hạng tráng là 20 người, cộng số vàng là 8 lạng 3 phân.\",\n        \"score\": 0.023083344219198026\n      },\n      {\n        \"han_start\": 2,\n        \"han_end\": 2,\n        \"vi_start\": 1,\n        \"vi_end\": 1,\n        \"han_text\": \"壯項軍項老項不具官員子孫前敢各項\",\n        \"vietnamese_text\": \"Do cai quan đặt ra lệ ấy.\",\n        \"score\": -0.04696023960174569\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 5,\n        \"vi_start\": 2,\n        \"vi_end\": 2,\n        \"han_text\": \"每人米五亦脚生成每升六文外一支附二改 餘户别載别納正戶百人米五升每升代祔侯三十文 白絲每人一亦代納辰四十五人\",\n        \"vietnamese_text\": \"Khách tiền suất mỗi người 36 đồng: các hạng tráng, hạng quân, hạng mới về, hạng mới tục, mỗi người gạo 6 thưng, tiền cước mỗi thưng 3 đồng; tiền ngoại mỗi quan phụ thêm 2 tiền; mỗi người các hạng tiền cước 22 đồng, gạo tám mỗi người 1 thưng, tiền biếu 6 đồng.\",\n        \"score\": 0.16355632105715434\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 9,\n        \"vi_start\": 3,\n        \"vi_end\": 3,\n        \"han_text\": \"席匠屬稅例全納席稅差孫脚朱 節料廓朱等項一頂每人白席八延 二項每人白席六双三項每人自席四及年項四尺 臣项老项每人三天不具每人二及新到每人三致吃回每人四穴前年新到初年庫頂前年始四知年民旺頂其字每人一四十八文\",\n        \"vietnamese_text\": \"Các hạng con cháu quan viên, chức cũ, dân đinh, mỗi người gạo 4 thưng, tiền cước mỗi thưng 3 đồng; tiền ngoại giống như trên; lại tiền cước và gạo tám giống như trên.\",\n        \"score\": 0.09009339908888665\n      },\n      {\n        \"han_start\": 10,\n        \"han_end\": 11,\n        \"vi_start\": 4,\n        \"vi_end\": 4,\n        \"han_text\": \"內三禮搜序每人二改蘇料例稅是納四人白席二政各卿例稅準錢夫須屬夫四人三項每四叛二頃二人百六双共白席二十四 郊祀而夫三人全三項每人四政共白帝十二雙\",\n        \"vietnamese_text\": \"Hạng dân, hạng lão, hạng bất cụ, mỗi người gạo 4 thưng, tiền cước mỗi thưng 3 đồng; tiền ngoại giống như trên; tiền cước mỗi người 18 đồng.\",\n        \"score\": 0.18083065063748746\n      },\n      {\n        \"han_start\": 12,\n        \"han_end\": 13,\n        \"vi_start\": 5,\n        \"vi_end\": 6,\n        \"han_text\": \"將臣軍民客戶二人自席七 奴壯長夫辰客二人白席六改此奠盤一鼎五縣與各金丁田土產諸稅之常例\",\n        \"vietnamese_text\": \"Hạng cùng, hạng đào được miễn gạo. Binh thuyền Kim súng được miễn tiển tết và tiền suất.\",\n        \"score\": 0.180851541400813\n      },\n      {\n        \"han_start\": 14,\n        \"han_end\": 17,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"會坊雲南人在順化者方民物產者甚說此例亦不為過重 旦徑外已定義祥白亦易輸納 但言吏該徵各衙官次員效之群繁每一場徵取不下效十人 書催曾刷甚吏鑿掩又追核外編用情增減生爭極民耳\",\n        \"vietnamese_text\": \"Hễ là tiết liệu (tết) thì gạo mỗi bao 40 thưng, gạo tám mỗi bao 3ð thưng, tiền biếu mỗi thưng 45 đồng.\",\n        \"score\": -0.00818219066254758\n      },\n      {\n        \"han_start\": 18,\n        \"han_end\": 19,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"廣義府三縣差縣例稅正戶落戶並倍房府屯田屬餘亦依谷府 惟節料每人代歲納四為三十文\",\n        \"vietnamese_text\": \"Các hạng khách hộ ở các thuộc Tân Lập, Thuỷ Lập, Tân Hội mỗi người tiền gạo cước 36 đồng.\",\n        \"score\": 0.21387234432163194\n      },\n      {\n        \"han_start\": 20,\n        \"han_end\": 21,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"又例載船六隻三十貞雇借咏十長 其官府會納在場有納更歲每百貞詠一貴加征期將鄉下般每五貞孫前三縣節料端例稅竹物\",\n        \"vietnamese_text\": \"Các hạng tráng, hạng quân, hạng lão, bất cụ, con chầu quan viên, chức cũ, mỗi người gạo ð thưng, tiền cước mỗi thưng 6 đồng, tiển ngoại 1 quan phụ thêm 2 tiển.\",\n        \"score\": 0.1929644648766417\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 1,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "五文 新立始立新會屋會客戶各項每人脚朱侯三十六文",
+          "vietnamese_text": "Tính cả hạng tráng là 20 người, cộng số vàng là 8 lạng 3 phân.",
+          "score": 0.023083344219198026
+        },
+        {
+          "han_start": 2,
+          "han_end": 2,
+          "vi_start": 1,
+          "vi_end": 1,
+          "han_text": "壯項軍項老項不具官員子孫前敢各項",
+          "vietnamese_text": "Do cai quan đặt ra lệ ấy.",
+          "score": -0.04696023960174569
+        },
+        {
+          "han_start": 3,
+          "han_end": 5,
+          "vi_start": 2,
+          "vi_end": 2,
+          "han_text": "每人米五亦脚生成每升六文外一支附二改 餘户别載别納正戶百人米五升每升代祔侯三十文 白絲每人一亦代納辰四十五人",
+          "vietnamese_text": "Khách tiền suất mỗi người 36 đồng: các hạng tráng, hạng quân, hạng mới về, hạng mới tục, mỗi người gạo 6 thưng, tiền cước mỗi thưng 3 đồng; tiền ngoại mỗi quan phụ thêm 2 tiền; mỗi người các hạng tiền cước 22 đồng, gạo tám mỗi người 1 thưng, tiền biếu 6 đồng.",
+          "score": 0.16355632105715434
+        },
+        {
+          "han_start": 6,
+          "han_end": 9,
+          "vi_start": 3,
+          "vi_end": 3,
+          "han_text": "席匠屬稅例全納席稅差孫脚朱 節料廓朱等項一頂每人白席八延 二項每人白席六双三項每人自席四及年項四尺 臣项老项每人三天不具每人二及新到每人三致吃回每人四穴前年新到初年庫頂前年始四知年民旺頂其字每人一四十八文",
+          "vietnamese_text": "Các hạng con cháu quan viên, chức cũ, dân đinh, mỗi người gạo 4 thưng, tiền cước mỗi thưng 3 đồng; tiền ngoại giống như trên; lại tiền cước và gạo tám giống như trên.",
+          "score": 0.09009339908888665
+        },
+        {
+          "han_start": 10,
+          "han_end": 11,
+          "vi_start": 4,
+          "vi_end": 4,
+          "han_text": "內三禮搜序每人二改蘇料例稅是納四人白席二政各卿例稅準錢夫須屬夫四人三項每四叛二頃二人百六双共白席二十四 郊祀而夫三人全三項每人四政共白帝十二雙",
+          "vietnamese_text": "Hạng dân, hạng lão, hạng bất cụ, mỗi người gạo 4 thưng, tiền cước mỗi thưng 3 đồng; tiền ngoại giống như trên; tiền cước mỗi người 18 đồng.",
+          "score": 0.18083065063748746
+        },
+        {
+          "han_start": 12,
+          "han_end": 13,
+          "vi_start": 5,
+          "vi_end": 6,
+          "han_text": "將臣軍民客戶二人自席七 奴壯長夫辰客二人白席六改此奠盤一鼎五縣與各金丁田土產諸稅之常例",
+          "vietnamese_text": "Hạng cùng, hạng đào được miễn gạo. Binh thuyền Kim súng được miễn tiển tết và tiền suất.",
+          "score": 0.180851541400813
+        },
+        {
+          "han_start": 14,
+          "han_end": 17,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "會坊雲南人在順化者方民物產者甚說此例亦不為過重 旦徑外已定義祥白亦易輸納 但言吏該徵各衙官次員效之群繁每一場徵取不下效十人 書催曾刷甚吏鑿掩又追核外編用情增減生爭極民耳",
+          "vietnamese_text": "Hễ là tiết liệu (tết) thì gạo mỗi bao 40 thưng, gạo tám mỗi bao 3ð thưng, tiền biếu mỗi thưng 45 đồng.",
+          "score": -0.00818219066254758
+        },
+        {
+          "han_start": 18,
+          "han_end": 19,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "廣義府三縣差縣例稅正戶落戶並倍房府屯田屬餘亦依谷府 惟節料每人代歲納四為三十文",
+          "vietnamese_text": "Các hạng khách hộ ở các thuộc Tân Lập, Thuỷ Lập, Tân Hội mỗi người tiền gạo cước 36 đồng.",
+          "score": 0.21387234432163194
+        },
+        {
+          "han_start": 20,
+          "han_end": 21,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "又例載船六隻三十貞雇借咏十長 其官府會納在場有納更歲每百貞詠一貴加征期將鄉下般每五貞孫前三縣節料端例稅竹物",
+          "vietnamese_text": "Các hạng tráng, hạng quân, hạng lão, bất cụ, con chầu quan viên, chức cũ, mỗi người gạo ð thưng, tiền cước mỗi thưng 6 đồng, tiển ngoại 1 quan phụ thêm 2 tiển.",
+          "score": 0.1929644648766417
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 2313
+}

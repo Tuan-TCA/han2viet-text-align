@@ -1,0 +1,120 @@
+{
+  "config_sha256": "8d67d5ad5fb109e1ee77f2dd3d1135f2c1f646dc918c06de884d787b533d79e9",
+  "config": {
+    "benchmark": {
+      "cap": "Cap_01",
+      "pages": [
+        1,
+        2
+      ],
+      "viet_pages": [
+        186,
+        188
+      ]
+    },
+    "window_pages": 2,
+    "context_margin": 1,
+    "grid_step": 9,
+    "max_han_chars": 250,
+    "max_vi_merge": 3,
+    "max_han_skip": 4,
+    "repair_max_units": 4,
+    "heldout_page_count_per_cap": 5,
+    "semantic_batch": 16,
+    "semantic_token_limit": 256,
+    "semantic_model": "OmniAlign/OmniAlign",
+    "api_delay": 0.8,
+    "api_timeout": 90,
+    "api_retries": 2,
+    "genre": "history"
+  },
+  "mode": "heldout",
+  "no_model": false,
+  "method": "M1",
+  "windows": [
+    "Cap_01-030-031",
+    "Cap_01-038-039",
+    "Cap_01-053-053",
+    "Cap_02-013-014",
+    "Cap_02-015-016",
+    "Cap_02-051-051"
+  ],
+  "heldout": [
+    [
+      "Cap_01",
+      [
+        30,
+        31
+      ]
+    ],
+    [
+      "Cap_01",
+      [
+        38,
+        39
+      ]
+    ],
+    [
+      "Cap_01",
+      [
+        53
+      ]
+    ],
+    [
+      "Cap_02",
+      [
+        13,
+        14
+      ]
+    ],
+    [
+      "Cap_02",
+      [
+        15,
+        16
+      ]
+    ],
+    [
+      "Cap_02",
+      [
+        51
+      ]
+    ]
+  ],
+  "source_sha256": "f5098f4f1e4e8762e1acf21644368ff81d561c3fca5e7fd0b747e539b61c75e6",
+  "length_model": {
+    "ratio": 1.5253522280471823,
+    "samples": [
+      {
+        "cap": "Cap_01",
+        "page": 27,
+        "ratio": 1.6018808777429467
+      },
+      {
+        "cap": "Cap_01",
+        "page": 52,
+        "ratio": 1.2249240121580547
+      },
+      {
+        "cap": "Cap_02",
+        "page": 1,
+        "ratio": 1.3636363636363635
+      },
+      {
+        "cap": "Cap_02",
+        "page": 2,
+        "ratio": 2.6333333333333333
+      },
+      {
+        "cap": "Cap_02",
+        "page": 26,
+        "ratio": 1.5596330275229358
+      },
+      {
+        "cap": "Cap_02",
+        "page": 50,
+        "ratio": 1.4910714285714286
+      }
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+{"benchmark_cap":"Cap_01","benchmark_pages":[1,2],"benchmark_vi_pages":[186,188],"sizes":[5,10,15,20,30],"api_delay":0.8,"api_timeout":90,"api_retries":2,"genre":"history","fresh_pairs_per_cap":2,"default_method":"S4"}

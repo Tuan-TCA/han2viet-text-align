@@ -1,0 +1,168 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "6fd495242bc9c3c7fea79f682a918ee16a78d41ac53904e2fecabc301bf7344e",
+  "payload": {
+    "han": "嘗新米臣每代納侯二貫每升世文\n自此至延憂平康平順嘉定四府各例視大槩畧曰富春同<C巳丑年廣南一處卷庫歲奠盤府四縣二千二百二十二長七四冊八文\n斤年府四千三長一四十三文\n廣義府二千八百十六三七四十八文\n歸仁府三千九百十四五附五十九文\n富劉府六百三十五長二四四十一文八一萬三千五百九十二六四四十九文\n此雲平康平順嘉定而之景興年年巳丑者\n南天九府二十五縣一卅人數及宿例稅底并土產稅例\n奠盤府新福要農和帝延度四縣\n及各至一弓九千三百五十一人\n除從高祿員安府务堂公司二弓四千九百十六支二百廿九文\n米一千八百二十六百十三升五合\n富洲人數七千三百八人除各或各另富巡薩夫存相稅五千八十六人\n收社花三十三色絹二十二百五十八尺二十四尺\n五十郡五千十五貫三十九文\n米四百五色廿六六度匠属人數一千人\n除各耿谷另穷逊份綱例七百五十九文\n收白席五千三百十一尺鄉七百六十六六一四三十四文\n附坊艮二百七十二人除上項石內稅二百二十一人\n收孫五百九十三一門卅六文春臺洲人\n故五百四十九人除耶色存寔納稅三百三千九人例四千四百三十二長九陽四文\n收冰禮一弓五千九百二十六",
+    "vi": "Hạng cố là bao nhiêu, trong đó người ở làng mà nghèo khổ quá không có nhà là bao nhiêu, xin xuống hạng cùng là: Nguyễn Văn Mỗ...; trong đó xiêu tân không thấy mặt phải đền là bao Biến xin xuống hạng đào là: Nguyễn Văn Mỗ (do đào năm nào).\nHạng tiêu sai bao nhiêu, lánh ngoại bao nhiêu, quan viên bao nhiêu, hạng tráng, hạng lão, bất cụ, nhiêu tật bao nhiêu người.\nLại trong tờ đoan, các hạng ở bản xã, nếu người nào đủ ăn mà không trả về hạng tráng, sau có người nào tố cáo. thì những người ký đơn và bản xã cam chịu tội nặng.\nNay đoan.\n(Các chức có người mất bằng mà khai ở sổ gọi là lánh ngoại).\nLệ phú thuế ở xứ Quảng Nam khác với xứ Thuận Hoá.\nSự trưng thu so với Thuận Hoá hơi nặng, cho nên kho tàng thu vào rất nhiều, bổng lộc quan lại rất nhiều, mà dân địa phương ấy nổi loạn trước cả cũng vì có Ấy.\nMỗi phủ tiền sai dư, tiển thường tân, tiền tết, thóc tô ruộng, chia là bốn trường, lệ cũng không giống nhau.\nNhư phủ Điện Bàn, lệ thuế trường sai dư là: Chính hộ mỗi 100 người thì trong đó cho 10 người hạng cố, chia ra ba hạng, hạng nhất 1 quan 5 tiền, hạng nhì 1 quan, hạng ba 7 tiền, cho 10 người hạng cùng và 15 người hạng đào; hạng quan viên tráng, mỗi người 2 quan; hạng quân, hạng mới về, mỗi người 1 quan 7 tiền, hạng dân mỗi người 8 tiền, hạng lão mỗi người 9 tiền, hạng đân định mỗi người 6 tiển (một năm không phải gạo cước, phải tiền thường tân và tiền tết, năm sau trả về hạng đân, có gạo cước, không phải tiền thường tân và tiền tết); hạng bất cụ mỗi người 6 tiền; tướng thần cũ mỗi người 1 quan õ tiền, tướng thần đình việc mỗi người 1 quan 2 tiền, lính cũ mỗi người 1 quan 2 tiển; lính ưu eũ mỗi người 1 quan 2 tiển; xã trưởng cũ và xã trưởng đình việc, sinh để cũ, con cháu quan viên, mỗi người 9 tiển, thứ đội trưởng bản phủ đình việc, thứ đội trưởng bản phú cũ, mỗi người 1 quan 1 tiền; duyện lại cũ, từ thừa cũ, mỗi người 1 quan; hạng càng 3 tiền; hạng đào 2 tiền.\nChính hộ, tiển thập vật, mỗi người 1 tiền 18 đồng, lễ trình điện trong nội thu mỗi người 2 tiền (trước kia thu 1 tiển giao tại quan công đường Quảng Nam, sau theo như thế).\nKhách hộ, mỗi 100 người cho khấu thiếu 20 người, chia làm ba hạng, hạng nhất 8 tiền, hạng nhì 6 tiền, hạng ba 4 tiền, trong đó cho hạng cùng và hạng đào 25 người; hạng quan viên tráng mỗi người 1 quan 2 tiển; hạng quân mỗi người 1 quan; hạng dân, hạng lão mỗi người 6 tiền; hạng dân đỉnh mỗi người 5 tiền (một năm không phải gạo cước, năm sau trả về hạng dân có gạo cước); con cháu quan viên mỗi người 8 tiền (được miễn sưu); bất cụ mỗi người 4 tiển, tướng thần đình việc mỗi người 1 quan, tướng thần cũ và thứ đội trưởng đình việc. xã trưởng cũ, mỗi người 8 tiền, lính ưu cũ mỗi người 6 tiền: người mới đến mỗi người 6 tiền (năm sau trả về bạng quần, năm sau nữa trả về hạng tráng); các hạng cùng, hạng đào không phải nộp tiền.\nLệ thuế trường thường tân.\nChính hộ, hạng quan viên trắng, mỗi người gạo 7 thưng, hạng quân, hạng mới về, mỗi người 6 thưng, hạng dân hạng lão mỗi người 5 thưng, hạng bất cụ, mỗi người õ thưng, thứ đội trưởng ban phủ cũ và thứ đội trưởng đình việc, tướng thần cũ và tướng thần đình việc, lính cũ và lính ưu cũ, mỗi người 6 thưng, xã trưởng cũ và xã trưởng đình việc, duyện lại cũ và duyện lại đình việc, hạng cố hạng nhất, mỗi người 5 thưng, hạng cố hạng nhì mỗi người 4 thưng, hạng cố hạng ba mỗi người 3 thưng, con cháu quan viên và sinh đồ cũ, mỗi người 5 thưng.\nLệ phu của các viên khám lý, đề đốc bản phủ và của tướng thần, xã trưởng, mỗi phu hoặc 5 thưng hoặc 6 thưng, đều miễn thu; Chính hộ tiền thập vật mỗi người 1 tiền (trong đó có hai lễ, cai trưng 6 đồng, bản phủ 6 đồng).\nLệ thuế trường tiết liệu (tết) Chính hộ, hạng quan viên trắng, mỗi người nộp gạo 7 thưng, hạng quân, hạng mới về, mỗi người 6 thưng, hạng cố hạng nhất, mỗi người ö thưng, hạng cố hạng nhì, mỗi người 4 thưng, hạng cố hạng ba, mỗi người 3 thưng, hạng dân, hạng lão, mỗi người ð thưng, tướng thần cũ và tướng thần đình việc, mỗi người 6 thưng, bất cụ, mỗi người 4 thưng, con cháu quan viên, mỗi người 5 thưng, lính cũ, lính ưu cũ, mỗi người 6 thưng, dân đỉnh mỗi người 5 thưng (lệ thường tân được miễn gạo), xã trưởng cũ và xã trưởng đình việc, môi người 5 thưng, thứ đội trưởng bản phủ cũ và thứ đội trưởng đình việc, mỗi người 6 thưng.\nCác hạng gạo lệ nộp thay mỗi thưng 30 đồng, gạo cước mỗi người 18 đồng, gạo cánh trắng mỗi người 1 thưng, tiển gạo cánh 6 đồng.\nChính hộ, tiền thập vật, mỗi người 36 đồng.\nLệ cho phát còn lại bao nhiêu chia làm 3 phần, cai lại được 2 phần.\nKhách hộ các hạng tráng, hạng quân, hạng dân, hạng lão, hạng bất cụ, hạng mới về, hạng mới tục, hạng mới đến, mỗi người ð thưng.\nKhách hộ ở thuộc Tân Phúc và thuộc Tân Dân cũng thế.\nTiền gạo cước, gạo cánh và thập vật cũng như chính hộ.\nNhững người ở ngụ tại ba thuộc Hương Du, Giáo Phường, Xuân Xướng, nộp thay mỗi người 4 tiền; thuộc Tân Khang mỗi người nộp thay 3 tiền 46 đồng, có năm cũng lượng thu gạo.\nCòn lệ phu của các viên bản phủ và của tướng thần, xã trưởng thì hoặc phu 30 người, gạo 165 thưng, hoặc phu 20 người, gạo 110 thưng trở xuống, đều miễn thu.\nLệ thuế sở tô ruộng.\nĐầu mẫu mỗi hộc thu gạo 1 thưng, tiền 4 đồng rưõỡi, mỗi 100 cân thu gạo 2 thưng, tiền 9 đồng.\nChính hộ, thóc cung đốn 3.000 thưng gọi là hạng lớn (đại mể), gạo 15 thưng, tiển 3 tiền, theo thế: hạng lớn mỗi thưng 12 đồng.\nThóc 3.000 thưng gọi là hạng vừa, gạo 12 thưng, tiền 2 tiền, theo thế; hạng vừa mỗi thưng 10 đồng.\nThóc 1.000 thưng gọi là hạng bé, gạo 8 thưng, tiền 1 tiền, theo thế: hạng bé mỗi thưng 8 đồng.\nThóc 500 thưng, gạo 4 thưng, tiển 30 đồng, theo thế, mỗi thưng 8 đồng.\nThóc 400 thưng trở xuống, mỗi 100 thưng thì gạo 1 thưng, tiển 8 đồng."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 1,\n        \"vi_start\": 0,\n        \"vi_end\": 1,\n        \"han_text\": \"嘗新米臣每代納侯二貫每升世文 自此至延憂平康平順嘉定四府各例視大槩畧曰富春同<C巳丑年廣南一處卷庫歲奠盤府四縣二千二百二十二長七四冊八文\",\n        \"vietnamese_text\": \"Hạng cố là bao nhiêu, trong đó người ở làng mà nghèo khổ quá không có nhà là bao nhiêu, xin xuống hạng cùng là: Nguyễn Văn Mỗ. .\",\n        \"score\": 0.03995060439656357\n      },\n      {\n        \"han_start\": 2,\n        \"han_end\": 3,\n        \"vi_start\": 2,\n        \"vi_end\": 2,\n        \"han_text\": \"斤年府四千三長一四十三文 廣義府二千八百十六三七四十八文\",\n        \"vietnamese_text\": \".\",\n        \"score\": 9.071441672581747E-05\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 4,\n        \"vi_start\": 3,\n        \"vi_end\": 3,\n        \"han_text\": \"歸仁府三千九百十四五附五十九文\",\n        \"vietnamese_text\": \"; trong đó xiêu tân không thấy mặt phải đền là bao Biến xin xuống hạng đào là: Nguyễn Văn Mỗ (do đào năm nào).\",\n        \"score\": 0.031453655813386265\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 5,\n        \"vi_start\": 4,\n        \"vi_end\": 5,\n        \"han_text\": \"富劉府六百三十五長二四四十一文八一萬三千五百九十二六四四十九文\",\n        \"vietnamese_text\": \"Hạng tiêu sai bao nhiêu, lánh ngoại bao nhiêu, quan viên bao nhiêu, hạng tráng, hạng lão, bất cụ, nhiêu tật bao nhiêu người. Lại trong tờ đoan, các hạng ở bản xã, nếu người nào đủ ăn mà không trả về hạng tráng, sau có người nào tố cáo.\",\n        \"score\": 0.07481287932653216\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 6,\n        \"vi_start\": 6,\n        \"vi_end\": 7,\n        \"han_text\": \"此雲平康平順嘉定而之景興年年巳丑者\",\n        \"vietnamese_text\": \"thì những người ký đơn và bản xã cam chịu tội nặng. Nay đoan.\",\n        \"score\": 0.023740376914271975\n      },\n      {\n        \"han_start\": 7,\n        \"han_end\": 7,\n        \"vi_start\": 8,\n        \"vi_end\": 10,\n        \"han_text\": \"南天九府二十五縣一卅人數及宿例稅底并土產稅例\",\n        \"vietnamese_text\": \"(Các chức có người mất bằng mà khai ở sổ gọi là lánh ngoại). Lệ phú thuế ở xứ Quảng Nam khác với xứ Thuận Hoá. Sự trưng thu so với Thuận Hoá hơi nặng, cho nên kho tàng thu vào rất nhiều, bổng lộc quan lại rất nhiều, mà dân địa phương ấy nổi loạn trước cả cũng vì có Ấy.\",\n        \"score\": 0.12953154293840582\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 8,\n        \"vi_start\": 11,\n        \"vi_end\": 11,\n        \"han_text\": \"奠盤府新福要農和帝延度四縣\",\n        \"vietnamese_text\": \"Mỗi phủ tiền sai dư, tiển thường tân, tiền tết, thóc tô ruộng, chia là bốn trường, lệ cũng không giống nhau.\",\n        \"score\": 0.1135890041953747\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 10,\n        \"vi_start\": 12,\n        \"vi_end\": 13,\n        \"han_text\": \"及各至一弓九千三百五十一人 除從高祿員安府务堂公司二弓四千九百十六支二百廿九文\",\n        \"vietnamese_text\": \"Như phủ Điện Bàn, lệ thuế trường sai dư là: Chính hộ mỗi 100 người thì trong đó cho 10 người hạng cố, chia ra ba hạng, hạng nhất 1 quan 5 tiền, hạng nhì 1 quan, hạng ba 7 tiền, cho 10 người hạng cùng và 15 người hạng đào; hạng quan viên tráng, mỗi người 2 quan; hạng quân, hạng mới về, mỗi người 1 quan 7 tiền, hạng dân mỗi người 8 tiền, hạng lão mỗi người 9 tiền, hạng đân định mỗi người 6 tiển (một năm không phải gạo cước, phải tiền thường tân và tiền tết, năm sau trả về hạng đân, có gạo cước, không phải tiền thường tân và tiền tết); hạng bất cụ mỗi người 6 tiền; tướng thần cũ mỗi người 1 quan õ tiền, tướng thần đình việc mỗi người 1 quan 2 tiền, lính cũ mỗi người 1 quan 2 tiển; lính ưu eũ mỗi người 1 quan 2 tiển; xã trưởng cũ và xã trưởng đình việc, sinh để cũ, con cháu quan viên, mỗi người 9 tiển, thứ đội trưởng bản phủ đình việc, thứ đội trưởng bản phú cũ, mỗi người 1 quan 1 tiền; duyện lại cũ, từ thừa cũ, mỗi người 1 quan; hạng càng 3 tiền; hạng đào 2 tiền. Chính hộ, tiển thập vật, mỗi người 1 tiền 18 đồng, lễ trình điện trong nội thu mỗi người 2 tiền (trước kia thu 1 tiển giao tại quan công đường Quảng Nam, sau theo như thế).\",\n        \"score\": 0.03591293705029676\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 13,\n        \"vi_start\": 14,\n        \"vi_end\": 15,\n        \"han_text\": \"米一千八百二十六百十三升五合 富洲人數七千三百八人除各或各另富巡薩夫存相稅五千八十六人 收社花三十三色絹二十二百五十八尺二十四尺\",\n        \"vietnamese_text\": \"Khách hộ, mỗi 100 người cho khấu thiếu 20 người, chia làm ba hạng, hạng nhất 8 tiền, hạng nhì 6 tiền, hạng ba 4 tiền, trong đó cho hạng cùng và hạng đào 25 người; hạng quan viên tráng mỗi người 1 quan 2 tiển; hạng quân mỗi người 1 quan; hạng dân, hạng lão mỗi người 6 tiền; hạng dân đỉnh mỗi người 5 tiền (một năm không phải gạo cước, năm sau trả về hạng dân có gạo cước); con cháu quan viên mỗi người 8 tiền (được miễn sưu); bất cụ mỗi người 4 tiển, tướng thần đình việc mỗi người 1 quan, tướng thần cũ và thứ đội trưởng đình việc. xã trưởng cũ, mỗi người 8 tiền, lính ưu cũ mỗi người 6 tiền: người mới đến mỗi người 6 tiền (năm sau trả về bạng quần, năm sau nữa trả về hạng tráng); các hạng cùng, hạng đào không phải nộp tiền.\",\n        \"score\": 0.19346351543937482\n      },\n      {\n        \"han_start\": 14,\n        \"han_end\": 14,\n        \"vi_start\": 16,\n        \"vi_end\": 19,\n        \"han_text\": \"五十郡五千十五貫三十九文\",\n        \"vietnamese_text\": \"Lệ thuế trường thường tân. Chính hộ, hạng quan viên trắng, mỗi người gạo 7 thưng, hạng quân, hạng mới về, mỗi người 6 thưng, hạng dân hạng lão mỗi người 5 thưng, hạng bất cụ, mỗi người õ thưng, thứ đội trưởng ban phủ cũ và thứ đội trưởng đình việc, tướng thần cũ và tướng thần đình việc, lính cũ và lính ưu cũ, mỗi người 6 thưng, xã trưởng cũ và xã trưởng đình việc, duyện lại cũ và duyện lại đình việc, hạng cố hạng nhất, mỗi người 5 thưng, hạng cố hạng nhì mỗi người 4 thưng, hạng cố hạng ba mỗi người 3 thưng, con cháu quan viên và sinh đồ cũ, mỗi người 5 thưng. Lệ phu của các viên khám lý, đề đốc bản phủ và của tướng thần, xã trưởng, mỗi phu hoặc 5 thưng hoặc 6 thưng, đều miễn thu; Chính hộ tiền thập vật mỗi người 1 tiền (trong đó có hai lễ, cai trưng 6 đồng, bản phủ 6 đồng). Lệ thuế trường tiết liệu (tết) Chính hộ, hạng quan viên trắng, mỗi người nộp gạo 7 thưng, hạng quân, hạng mới về, mỗi người 6 thưng, hạng cố hạng nhất, mỗi người ö thưng, hạng cố hạng nhì, mỗi người 4 thưng, hạng cố hạng ba, mỗi người 3 thưng, hạng dân, hạng lão, mỗi người ð thưng, tướng thần cũ và tướng thần đình việc, mỗi người 6 thưng, bất cụ, mỗi người 4 thưng, con cháu quan viên, mỗi người 5 thưng, lính cũ, lính ưu cũ, mỗi người 6 thưng, dân đỉnh mỗi người 5 thưng (lệ thường tân được miễn gạo), xã trưởng cũ và xã trưởng đình việc, môi người 5 thưng, thứ đội trưởng bản phủ cũ và thứ đội trưởng đình việc, mỗi người 6 thưng.\",\n        \"score\": 0.010370659453912679\n      },\n      {\n        \"han_start\": 15,\n        \"han_end\": 15,\n        \"vi_start\": 20,\n        \"vi_end\": 23,\n        \"han_text\": \"米四百五色廿六六度匠属人數一千人\",\n        \"vietnamese_text\": \"Các hạng gạo lệ nộp thay mỗi thưng 30 đồng, gạo cước mỗi người 18 đồng, gạo cánh trắng mỗi người 1 thưng, tiển gạo cánh 6 đồng. Chính hộ, tiền thập vật, mỗi người 36 đồng. Lệ cho phát còn lại bao nhiêu chia làm 3 phần, cai lại được 2 phần. Khách hộ các hạng tráng, hạng quân, hạng dân, hạng lão, hạng bất cụ, hạng mới về, hạng mới tục, hạng mới đến, mỗi người ð thưng.\",\n        \"score\": 0.08021740568000117\n      },\n      {\n        \"han_start\": 16,\n        \"han_end\": 16,\n        \"vi_start\": 24,\n        \"vi_end\": 24,\n        \"han_text\": \"除各耿谷另穷逊份綱例七百五十九文\",\n        \"vietnamese_text\": \"Khách hộ ở thuộc Tân Phúc và thuộc Tân Dân cũng thế.\",\n        \"score\": -0.007117193637733654\n      },\n      {\n        \"han_start\": 17,\n        \"han_end\": 17,\n        \"vi_start\": 25,\n        \"vi_end\": 26,\n        \"han_text\": \"收白席五千三百十一尺鄉七百六十六六一四三十四文\",\n        \"vietnamese_text\": \"Tiền gạo cước, gạo cánh và thập vật cũng như chính hộ. Những người ở ngụ tại ba thuộc Hương Du, Giáo Phường, Xuân Xướng, nộp thay mỗi người 4 tiền; thuộc Tân Khang mỗi người nộp thay 3 tiền 46 đồng, có năm cũng lượng thu gạo.\",\n        \"score\": 0.05007915790677495\n      },\n      {\n        \"han_start\": 18,\n        \"han_end\": 18,\n        \"vi_start\": 27,\n        \"vi_end\": 30,\n        \"han_text\": \"附坊艮二百七十二人除上項石內稅二百二十一人\",\n        \"vietnamese_text\": \"Còn lệ phu của các viên bản phủ và của tướng thần, xã trưởng thì hoặc phu 30 người, gạo 165 thưng, hoặc phu 20 người, gạo 110 thưng trở xuống, đều miễn thu. Lệ thuế sở tô ruộng. Đầu mẫu mỗi hộc thu gạo 1 thưng, tiền 4 đồng rưõỡi, mỗi 100 cân thu gạo 2 thưng, tiền 9 đồng. Chính hộ, thóc cung đốn 3.\",\n        \"score\": 0.12167260608463361\n      },\n      {\n        \"han_start\": 19,\n        \"han_end\": 19,\n        \"vi_start\": 31,\n        \"vi_end\": 34,\n        \"han_text\": \"收孫五百九十三一門卅六文春臺洲人\",\n        \"vietnamese_text\": \"000 thưng gọi là hạng lớn (đại mể), gạo 15 thưng, tiển 3 tiền, theo thế: hạng lớn mỗi thưng 12 đồng. Thóc 3. 000 thưng gọi là hạng vừa, gạo 12 thưng, tiền 2 tiền, theo thế; hạng vừa mỗi thưng 10 đồng. Thóc 1.\",\n        \"score\": -0.03874434570403232\n      },\n      {\n        \"han_start\": 20,\n        \"han_end\": 21,\n        \"vi_start\": 35,\n        \"vi_end\": 37,\n        \"han_text\": \"故五百四十九人除耶色存寔納稅三百三千九人例四千四百三十二長九陽四文 收冰禮一弓五千九百二十六\",\n        \"vietnamese_text\": \"000 thưng gọi là hạng bé, gạo 8 thưng, tiền 1 tiền, theo thế: hạng bé mỗi thưng 8 đồng. Thóc 500 thưng, gạo 4 thưng, tiển 30 đồng, theo thế, mỗi thưng 8 đồng. Thóc 400 thưng trở xuống, mỗi 100 thưng thì gạo 1 thưng, tiển 8 đồng.\",\n        \"score\": 0.13001382325898503\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 1,
+          "vi_start": 0,
+          "vi_end": 1,
+          "han_text": "嘗新米臣每代納侯二貫每升世文 自此至延憂平康平順嘉定四府各例視大槩畧曰富春同<C巳丑年廣南一處卷庫歲奠盤府四縣二千二百二十二長七四冊八文",
+          "vietnamese_text": "Hạng cố là bao nhiêu, trong đó người ở làng mà nghèo khổ quá không có nhà là bao nhiêu, xin xuống hạng cùng là: Nguyễn Văn Mỗ. .",
+          "score": 0.03995060439656357
+        },
+        {
+          "han_start": 2,
+          "han_end": 3,
+          "vi_start": 2,
+          "vi_end": 2,
+          "han_text": "斤年府四千三長一四十三文 廣義府二千八百十六三七四十八文",
+          "vietnamese_text": ".",
+          "score": 9.071441672581747e-05
+        },
+        {
+          "han_start": 4,
+          "han_end": 4,
+          "vi_start": 3,
+          "vi_end": 3,
+          "han_text": "歸仁府三千九百十四五附五十九文",
+          "vietnamese_text": "; trong đó xiêu tân không thấy mặt phải đền là bao Biến xin xuống hạng đào là: Nguyễn Văn Mỗ (do đào năm nào).",
+          "score": 0.031453655813386265
+        },
+        {
+          "han_start": 5,
+          "han_end": 5,
+          "vi_start": 4,
+          "vi_end": 5,
+          "han_text": "富劉府六百三十五長二四四十一文八一萬三千五百九十二六四四十九文",
+          "vietnamese_text": "Hạng tiêu sai bao nhiêu, lánh ngoại bao nhiêu, quan viên bao nhiêu, hạng tráng, hạng lão, bất cụ, nhiêu tật bao nhiêu người. Lại trong tờ đoan, các hạng ở bản xã, nếu người nào đủ ăn mà không trả về hạng tráng, sau có người nào tố cáo.",
+          "score": 0.07481287932653216
+        },
+        {
+          "han_start": 6,
+          "han_end": 6,
+          "vi_start": 6,
+          "vi_end": 7,
+          "han_text": "此雲平康平順嘉定而之景興年年巳丑者",
+          "vietnamese_text": "thì những người ký đơn và bản xã cam chịu tội nặng. Nay đoan.",
+          "score": 0.023740376914271975
+        },
+        {
+          "han_start": 7,
+          "han_end": 7,
+          "vi_start": 8,
+          "vi_end": 10,
+          "han_text": "南天九府二十五縣一卅人數及宿例稅底并土產稅例",
+          "vietnamese_text": "(Các chức có người mất bằng mà khai ở sổ gọi là lánh ngoại). Lệ phú thuế ở xứ Quảng Nam khác với xứ Thuận Hoá. Sự trưng thu so với Thuận Hoá hơi nặng, cho nên kho tàng thu vào rất nhiều, bổng lộc quan lại rất nhiều, mà dân địa phương ấy nổi loạn trước cả cũng vì có Ấy.",
+          "score": 0.12953154293840582
+        },
+        {
+          "han_start": 8,
+          "han_end": 8,
+          "vi_start": 11,
+          "vi_end": 11,
+          "han_text": "奠盤府新福要農和帝延度四縣",
+          "vietnamese_text": "Mỗi phủ tiền sai dư, tiển thường tân, tiền tết, thóc tô ruộng, chia là bốn trường, lệ cũng không giống nhau.",
+          "score": 0.1135890041953747
+        },
+        {
+          "han_start": 9,
+          "han_end": 10,
+          "vi_start": 12,
+          "vi_end": 13,
+          "han_text": "及各至一弓九千三百五十一人 除從高祿員安府务堂公司二弓四千九百十六支二百廿九文",
+          "vietnamese_text": "Như phủ Điện Bàn, lệ thuế trường sai dư là: Chính hộ mỗi 100 người thì trong đó cho 10 người hạng cố, chia ra ba hạng, hạng nhất 1 quan 5 tiền, hạng nhì 1 quan, hạng ba 7 tiền, cho 10 người hạng cùng và 15 người hạng đào; hạng quan viên tráng, mỗi người 2 quan; hạng quân, hạng mới về, mỗi người 1 quan 7 tiền, hạng dân mỗi người 8 tiền, hạng lão mỗi người 9 tiền, hạng đân định mỗi người 6 tiển (một năm không phải gạo cước, phải tiền thường tân và tiền tết, năm sau trả về hạng đân, có gạo cước, không phải tiền thường tân và tiền tết); hạng bất cụ mỗi người 6 tiền; tướng thần cũ mỗi người 1 quan õ tiền, tướng thần đình việc mỗi người 1 quan 2 tiền, lính cũ mỗi người 1 quan 2 tiển; lính ưu eũ mỗi người 1 quan 2 tiển; xã trưởng cũ và xã trưởng đình việc, sinh để cũ, con cháu quan viên, mỗi người 9 tiển, thứ đội trưởng bản phủ đình việc, thứ đội trưởng bản phú cũ, mỗi người 1 quan 1 tiền; duyện lại cũ, từ thừa cũ, mỗi người 1 quan; hạng càng 3 tiền; hạng đào 2 tiền. Chính hộ, tiển thập vật, mỗi người 1 tiền 18 đồng, lễ trình điện trong nội thu mỗi người 2 tiền (trước kia thu 1 tiển giao tại quan công đường Quảng Nam, sau theo như thế).",
+          "score": 0.03591293705029676
+        },
+        {
+          "han_start": 11,
+          "han_end": 13,
+          "vi_start": 14,
+          "vi_end": 15,
+          "han_text": "米一千八百二十六百十三升五合 富洲人數七千三百八人除各或各另富巡薩夫存相稅五千八十六人 收社花三十三色絹二十二百五十八尺二十四尺",
+          "vietnamese_text": "Khách hộ, mỗi 100 người cho khấu thiếu 20 người, chia làm ba hạng, hạng nhất 8 tiền, hạng nhì 6 tiền, hạng ba 4 tiền, trong đó cho hạng cùng và hạng đào 25 người; hạng quan viên tráng mỗi người 1 quan 2 tiển; hạng quân mỗi người 1 quan; hạng dân, hạng lão mỗi người 6 tiền; hạng dân đỉnh mỗi người 5 tiền (một năm không phải gạo cước, năm sau trả về hạng dân có gạo cước); con cháu quan viên mỗi người 8 tiền (được miễn sưu); bất cụ mỗi người 4 tiển, tướng thần đình việc mỗi người 1 quan, tướng thần cũ và thứ đội trưởng đình việc. xã trưởng cũ, mỗi người 8 tiền, lính ưu cũ mỗi người 6 tiền: người mới đến mỗi người 6 tiền (năm sau trả về bạng quần, năm sau nữa trả về hạng tráng); các hạng cùng, hạng đào không phải nộp tiền.",
+          "score": 0.19346351543937482
+        },
+        {
+          "han_start": 14,
+          "han_end": 14,
+          "vi_start": 16,
+          "vi_end": 19,
+          "han_text": "五十郡五千十五貫三十九文",
+          "vietnamese_text": "Lệ thuế trường thường tân. Chính hộ, hạng quan viên trắng, mỗi người gạo 7 thưng, hạng quân, hạng mới về, mỗi người 6 thưng, hạng dân hạng lão mỗi người 5 thưng, hạng bất cụ, mỗi người õ thưng, thứ đội trưởng ban phủ cũ và thứ đội trưởng đình việc, tướng thần cũ và tướng thần đình việc, lính cũ và lính ưu cũ, mỗi người 6 thưng, xã trưởng cũ và xã trưởng đình việc, duyện lại cũ và duyện lại đình việc, hạng cố hạng nhất, mỗi người 5 thưng, hạng cố hạng nhì mỗi người 4 thưng, hạng cố hạng ba mỗi người 3 thưng, con cháu quan viên và sinh đồ cũ, mỗi người 5 thưng. Lệ phu của các viên khám lý, đề đốc bản phủ và của tướng thần, xã trưởng, mỗi phu hoặc 5 thưng hoặc 6 thưng, đều miễn thu; Chính hộ tiền thập vật mỗi người 1 tiền (trong đó có hai lễ, cai trưng 6 đồng, bản phủ 6 đồng). Lệ thuế trường tiết liệu (tết) Chính hộ, hạng quan viên trắng, mỗi người nộp gạo 7 thưng, hạng quân, hạng mới về, mỗi người 6 thưng, hạng cố hạng nhất, mỗi người ö thưng, hạng cố hạng nhì, mỗi người 4 thưng, hạng cố hạng ba, mỗi người 3 thưng, hạng dân, hạng lão, mỗi người ð thưng, tướng thần cũ và tướng thần đình việc, mỗi người 6 thưng, bất cụ, mỗi người 4 thưng, con cháu quan viên, mỗi người 5 thưng, lính cũ, lính ưu cũ, mỗi người 6 thưng, dân đỉnh mỗi người 5 thưng (lệ thường tân được miễn gạo), xã trưởng cũ và xã trưởng đình việc, môi người 5 thưng, thứ đội trưởng bản phủ cũ và thứ đội trưởng đình việc, mỗi người 6 thưng.",
+          "score": 0.010370659453912679
+        },
+        {
+          "han_start": 15,
+          "han_end": 15,
+          "vi_start": 20,
+          "vi_end": 23,
+          "han_text": "米四百五色廿六六度匠属人數一千人",
+          "vietnamese_text": "Các hạng gạo lệ nộp thay mỗi thưng 30 đồng, gạo cước mỗi người 18 đồng, gạo cánh trắng mỗi người 1 thưng, tiển gạo cánh 6 đồng. Chính hộ, tiền thập vật, mỗi người 36 đồng. Lệ cho phát còn lại bao nhiêu chia làm 3 phần, cai lại được 2 phần. Khách hộ các hạng tráng, hạng quân, hạng dân, hạng lão, hạng bất cụ, hạng mới về, hạng mới tục, hạng mới đến, mỗi người ð thưng.",
+          "score": 0.08021740568000117
+        },
+        {
+          "han_start": 16,
+          "han_end": 16,
+          "vi_start": 24,
+          "vi_end": 24,
+          "han_text": "除各耿谷另穷逊份綱例七百五十九文",
+          "vietnamese_text": "Khách hộ ở thuộc Tân Phúc và thuộc Tân Dân cũng thế.",
+          "score": -0.007117193637733654
+        },
+        {
+          "han_start": 17,
+          "han_end": 17,
+          "vi_start": 25,
+          "vi_end": 26,
+          "han_text": "收白席五千三百十一尺鄉七百六十六六一四三十四文",
+          "vietnamese_text": "Tiền gạo cước, gạo cánh và thập vật cũng như chính hộ. Những người ở ngụ tại ba thuộc Hương Du, Giáo Phường, Xuân Xướng, nộp thay mỗi người 4 tiền; thuộc Tân Khang mỗi người nộp thay 3 tiền 46 đồng, có năm cũng lượng thu gạo.",
+          "score": 0.05007915790677495
+        },
+        {
+          "han_start": 18,
+          "han_end": 18,
+          "vi_start": 27,
+          "vi_end": 30,
+          "han_text": "附坊艮二百七十二人除上項石內稅二百二十一人",
+          "vietnamese_text": "Còn lệ phu của các viên bản phủ và của tướng thần, xã trưởng thì hoặc phu 30 người, gạo 165 thưng, hoặc phu 20 người, gạo 110 thưng trở xuống, đều miễn thu. Lệ thuế sở tô ruộng. Đầu mẫu mỗi hộc thu gạo 1 thưng, tiền 4 đồng rưõỡi, mỗi 100 cân thu gạo 2 thưng, tiền 9 đồng. Chính hộ, thóc cung đốn 3.",
+          "score": 0.12167260608463361
+        },
+        {
+          "han_start": 19,
+          "han_end": 19,
+          "vi_start": 31,
+          "vi_end": 34,
+          "han_text": "收孫五百九十三一門卅六文春臺洲人",
+          "vietnamese_text": "000 thưng gọi là hạng lớn (đại mể), gạo 15 thưng, tiển 3 tiền, theo thế: hạng lớn mỗi thưng 12 đồng. Thóc 3. 000 thưng gọi là hạng vừa, gạo 12 thưng, tiền 2 tiền, theo thế; hạng vừa mỗi thưng 10 đồng. Thóc 1.",
+          "score": -0.03874434570403232
+        },
+        {
+          "han_start": 20,
+          "han_end": 21,
+          "vi_start": 35,
+          "vi_end": 37,
+          "han_text": "故五百四十九人除耶色存寔納稅三百三千九人例四千四百三十二長九陽四文 收冰禮一弓五千九百二十六",
+          "vietnamese_text": "000 thưng gọi là hạng bé, gạo 8 thưng, tiền 1 tiền, theo thế: hạng bé mỗi thưng 8 đồng. Thóc 500 thưng, gạo 4 thưng, tiển 30 đồng, theo thế, mỗi thưng 8 đồng. Thóc 400 thưng trở xuống, mỗi 100 thưng thì gạo 1 thưng, tiển 8 đồng.",
+          "score": 0.13001382325898503
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 2250
+}

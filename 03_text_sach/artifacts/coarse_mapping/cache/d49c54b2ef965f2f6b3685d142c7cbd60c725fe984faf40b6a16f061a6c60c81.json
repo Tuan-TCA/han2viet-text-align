@@ -1,0 +1,96 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "d49c54b2ef965f2f6b3685d142c7cbd60c725fe984faf40b6a16f061a6c60c81",
+  "payload": {
+    "han": "粟般亦爭而卦京無此\n開不傷財又不害民故凌宣帝一立此法而人皆便之也\n曉國公祿王芳辰改立象府西\n長樂殿在室春城上流河之右\n甲戌歲其臣陳天祿於步嘉無茲國法\n令書于牆堆垂石灰以成字道媚大逾二寸\n今其殿已毀笙字猶存\n其詩云羽林仙伏遶尊萊一藏筆龍拂曙未宸坐高臨南極向爐人不數五雲聞目步輪常抱干秋捲露當事遙添夢壽杯\n最是侍臣留蜜渥鳴珂尽向宴延啟\n鳳輩初回仁路平虎困朝啟曙華生瑤徧尾度雲香紀關塵香浮烟玉几橫徐繞\n星文玩北極應熱天语下西慎卡生經衛慚亦補何幸傳年侍產明\n天堵未許等间聲忽報傳喧近老顏雲書樣臺如圓下斗同圓國\n九龜還酉意香霧迷花輩搖界旌旗勸笠班\n臨幸儀洲初步日丹墀舊首壽鳴山玉輩初四歲年通\n彭朝昧舞日睡脆驚承口勅意坪下新換頭衙觀葉中知過自全憑至主迁餘曾不待山公\n恩深7未於消埃報感陽交迎有寸冊衷參次甲申時洗月瀚於長步殿之東軒碧桃除處",
+    "vi": "Liễu nhiễu uân tỉnh hoàn bắc cực; Ân cần thiên ngữ hạ tây thanh, Thư sinh binh thuật tâm uô bố; Hà hạnh thanh niên thị thúnh mình.\nXe phượng uừa uê đường tiên phẳng; Màn hổ điện châu đêu rực rỡ ánh sảng buổi mai.\nGió qua sách ngọc, thoảng mùi hương cô uân”: Khói toa ngôi cao nghĩ ngút ngang ghế ngọc.\nNhững uăn tỉnh” quây quân quanh bắc cực\"; Lời ân cần ban xuống chốn tây thành\".\nThư sinh theẹn học thuật không gì bổ ích, May tuổi trẻ được gặp đấng thánh mình.\nThiên giai uị hứa đẳng nhàn phan, Hết báo truyền huyện cận thánh nhan.\nVân lý lâu đài song phượng hạ; Điểu gian xương hợp cửu trùng hoòn.\nNhân huân hương uụ mê hoa liên; Dao duệ tỉnh kỳ động duẩn ban.\nLâm hạnh Doanh châu sơ bộ nhật, Đan trì khể thủ tái hô san.\nThêm trời chưa dễ leo lên được; Bỗng được tin truyền đến châu uua."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 3,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"粟般亦爭而卦京無此 開不傷財又不害民故凌宣帝一立此法而人皆便之也 曉國公祿王芳辰改立象府西 長樂殿在室春城上流河之右\",\n        \"vietnamese_text\": \"Liễu nhiễu uân tỉnh hoàn bắc cực; Ân cần thiên ngữ hạ tây thanh, Thư sinh binh thuật tâm uô bố; Hà hạnh thanh niên thị thúnh mình.\",\n        \"score\": 0.1357324219357319\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 4,\n        \"vi_start\": 1,\n        \"vi_end\": 1,\n        \"han_text\": \"甲戌歲其臣陳天祿於步嘉無茲國法\",\n        \"vietnamese_text\": \"Xe phượng uừa uê đường tiên phẳng; Màn hổ điện châu đêu rực rỡ ánh sảng buổi mai.\",\n        \"score\": -0.014800115896331475\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 7,\n        \"vi_start\": 2,\n        \"vi_end\": 3,\n        \"han_text\": \"令書于牆堆垂石灰以成字道媚大逾二寸 今其殿已毀笙字猶存 其詩云羽林仙伏遶尊萊一藏筆龍拂曙未宸坐高臨南極向爐人不數五雲聞目步輪常抱干秋捲露當事遙添夢壽杯\",\n        \"vietnamese_text\": \"Gió qua sách ngọc, thoảng mùi hương cô uân”: Khói toa ngôi cao nghĩ ngút ngang ghế ngọc. Những uăn tỉnh” quây quân quanh bắc cực\\\"; Lời ân cần ban xuống chốn tây thành\\\".\",\n        \"score\": 0.33254354193605795\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 10,\n        \"vi_start\": 4,\n        \"vi_end\": 4,\n        \"han_text\": \"最是侍臣留蜜渥鳴珂尽向宴延啟 鳳輩初回仁路平虎困朝啟曙華生瑤徧尾度雲香紀關塵香浮烟玉几橫徐繞 星文玩北極應熱天语下西慎卡生經衛慚亦補何幸傳年侍產明\",\n        \"vietnamese_text\": \"Thư sinh theẹn học thuật không gì bổ ích, May tuổi trẻ được gặp đấng thánh mình.\",\n        \"score\": -0.012127725879643305\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 11,\n        \"vi_start\": 5,\n        \"vi_end\": 5,\n        \"han_text\": \"天堵未許等间聲忽報傳喧近老顏雲書樣臺如圓下斗同圓國\",\n        \"vietnamese_text\": \"Thiên giai uị hứa đẳng nhàn phan, Hết báo truyền huyện cận thánh nhan.\",\n        \"score\": 0.16552861083581044\n      },\n      {\n        \"han_start\": 12,\n        \"han_end\": 12,\n        \"vi_start\": 6,\n        \"vi_end\": 7,\n        \"han_text\": \"九龜還酉意香霧迷花輩搖界旌旗勸笠班\",\n        \"vietnamese_text\": \"Vân lý lâu đài song phượng hạ; Điểu gian xương hợp cửu trùng hoòn. Nhân huân hương uụ mê hoa liên; Dao duệ tỉnh kỳ động duẩn ban.\",\n        \"score\": 0.02433273455914397\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 13,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"臨幸儀洲初步日丹墀舊首壽鳴山玉輩初四歲年通\",\n        \"vietnamese_text\": \"Lâm hạnh Doanh châu sơ bộ nhật, Đan trì khể thủ tái hô san.\",\n        \"score\": 0.23002841549153188\n      },\n      {\n        \"han_start\": 14,\n        \"han_end\": 15,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"彭朝昧舞日睡脆驚承口勅意坪下新換頭衙觀葉中知過自全憑至主迁餘曾不待山公 恩深7未於消埃報感陽交迎有寸冊衷參次甲申時洗月瀚於長步殿之東軒碧桃除處\",\n        \"vietnamese_text\": \"Thêm trời chưa dễ leo lên được; Bỗng được tin truyền đến châu uua.\",\n        \"score\": -0.011898929990176532\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 3,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "粟般亦爭而卦京無此 開不傷財又不害民故凌宣帝一立此法而人皆便之也 曉國公祿王芳辰改立象府西 長樂殿在室春城上流河之右",
+          "vietnamese_text": "Liễu nhiễu uân tỉnh hoàn bắc cực; Ân cần thiên ngữ hạ tây thanh, Thư sinh binh thuật tâm uô bố; Hà hạnh thanh niên thị thúnh mình.",
+          "score": 0.1357324219357319
+        },
+        {
+          "han_start": 4,
+          "han_end": 4,
+          "vi_start": 1,
+          "vi_end": 1,
+          "han_text": "甲戌歲其臣陳天祿於步嘉無茲國法",
+          "vietnamese_text": "Xe phượng uừa uê đường tiên phẳng; Màn hổ điện châu đêu rực rỡ ánh sảng buổi mai.",
+          "score": -0.014800115896331475
+        },
+        {
+          "han_start": 5,
+          "han_end": 7,
+          "vi_start": 2,
+          "vi_end": 3,
+          "han_text": "令書于牆堆垂石灰以成字道媚大逾二寸 今其殿已毀笙字猶存 其詩云羽林仙伏遶尊萊一藏筆龍拂曙未宸坐高臨南極向爐人不數五雲聞目步輪常抱干秋捲露當事遙添夢壽杯",
+          "vietnamese_text": "Gió qua sách ngọc, thoảng mùi hương cô uân”: Khói toa ngôi cao nghĩ ngút ngang ghế ngọc. Những uăn tỉnh” quây quân quanh bắc cực\"; Lời ân cần ban xuống chốn tây thành\".",
+          "score": 0.33254354193605795
+        },
+        {
+          "han_start": 8,
+          "han_end": 10,
+          "vi_start": 4,
+          "vi_end": 4,
+          "han_text": "最是侍臣留蜜渥鳴珂尽向宴延啟 鳳輩初回仁路平虎困朝啟曙華生瑤徧尾度雲香紀關塵香浮烟玉几橫徐繞 星文玩北極應熱天语下西慎卡生經衛慚亦補何幸傳年侍產明",
+          "vietnamese_text": "Thư sinh theẹn học thuật không gì bổ ích, May tuổi trẻ được gặp đấng thánh mình.",
+          "score": -0.012127725879643305
+        },
+        {
+          "han_start": 11,
+          "han_end": 11,
+          "vi_start": 5,
+          "vi_end": 5,
+          "han_text": "天堵未許等间聲忽報傳喧近老顏雲書樣臺如圓下斗同圓國",
+          "vietnamese_text": "Thiên giai uị hứa đẳng nhàn phan, Hết báo truyền huyện cận thánh nhan.",
+          "score": 0.16552861083581044
+        },
+        {
+          "han_start": 12,
+          "han_end": 12,
+          "vi_start": 6,
+          "vi_end": 7,
+          "han_text": "九龜還酉意香霧迷花輩搖界旌旗勸笠班",
+          "vietnamese_text": "Vân lý lâu đài song phượng hạ; Điểu gian xương hợp cửu trùng hoòn. Nhân huân hương uụ mê hoa liên; Dao duệ tỉnh kỳ động duẩn ban.",
+          "score": 0.02433273455914397
+        },
+        {
+          "han_start": 13,
+          "han_end": 13,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "臨幸儀洲初步日丹墀舊首壽鳴山玉輩初四歲年通",
+          "vietnamese_text": "Lâm hạnh Doanh châu sơ bộ nhật, Đan trì khể thủ tái hô san.",
+          "score": 0.23002841549153188
+        },
+        {
+          "han_start": 14,
+          "han_end": 15,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "彭朝昧舞日睡脆驚承口勅意坪下新換頭衙觀葉中知過自全憑至主迁餘曾不待山公 恩深7未於消埃報感陽交迎有寸冊衷參次甲申時洗月瀚於長步殿之東軒碧桃除處",
+          "vietnamese_text": "Thêm trời chưa dễ leo lên được; Bỗng được tin truyền đến châu uua.",
+          "score": -0.011898929990176532
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 3610
+}

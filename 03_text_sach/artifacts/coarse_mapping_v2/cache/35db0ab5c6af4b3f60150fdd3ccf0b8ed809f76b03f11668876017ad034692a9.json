@@ -1,0 +1,96 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "35db0ab5c6af4b3f60150fdd3ccf0b8ed809f76b03f11668876017ad034692a9",
+  "payload": {
+    "han": "年畢務即還他田\n其招土耕過而鞠得播禾隨即鋤道三月未生亦貴\n土俗艮有牡牢具耕止一乳牛且二牛並耕為辰物價騰貴\n大牛至鉛錢一百二十兌方銅錢四十穴耳\n小者亦八十家方親錢五十定二十六耳\n各學皆幾惟香菜此独而貴爾我康祿二鼎公田指辰借志\n一欽一務不遇四五貫亦乃設錢二十宗方調錢六之三\n謂間亦年有許都此義人多田少心次分冷每人不過五六\n高德食力以遠多願西兵易敬增給三分者耳\n嘉定府同泥地自并除案提大小谷\n海日入金是林莽幾千餘里為阮氏興高綿相故取得之\n昭招募廟南必及升華氣垂為\n又為仁等府諸民有物力發居於同兆地\n傳有欠牛耕田策差官給發俾之剪伐林木同闢荒蒸\n自此至茲尽為平地水土肥沃任民自占植柳園結屋舍\n又收源頭人諸棄人男女賣之使為奴\n深黑大卷黑乙靈種價我二十定\n肥白人焉京禮價我五六十宗",
+    "vi": "Huyện Khang Lộc, lúa tẻ thì nhiều lúa chiên thông, cấy ruộng cát ruộng bùn đều được; lại nhiều lúa nước mặn.\nLúa nếp thì đều giếng huyện Lệ Thuỷ, chỉ không có hai thứ bầu hương và nếp chăm mà thôi.\nTổng Bái Trời và xã Mai Xá thuộc huyện Minh Lãnh, đất đều quan điền.\nKỳ này người ta mướn ruộng để cày, một mẫu phải trả đến 50, 60 quan tiền kẽm, ngang với 17, 18 hay 20 quan tiền đồng.\nMột năm hết vụ thì trả lại ruộng.\nĐất. khô thì cày qua lên mà bừa, rồi vãi trồng, theo đó mà bừa qua, 5 ngày lúa mọc.\nTheo tục dân địa phương, trâu đực thì cày chỉ một con, trâu cái thì hai con cùng cày.\nThời này giá đất, trâu lớn đến 120 quan tiền kẽm, ngang với 40 quan tiền đồng, trâu nhỏ cũng phải 80 quan tiền kẽm, ngang với 27 quan tiền đồng.\nCác huyện đều thế, huyện Hương Trà đắt nhất.\nCông điền ở Lệ Thuỷ và Khang Lộc, thời cũ mướn để cày một mẫu một vụ bất quá 3, 4 quan, nay đến 20 quan tiền kẽm, ngang với 6 quan 3 tiền tiền đồng, cũng ít người cho mướn, vì người nhiều ruộng ít, theo lượt chia cấp, mỗi người bất quá 5, 6 sào, vừa đủ làm ăn, do đó nhiều người xin làm lính là muốn được cấp thêm ba phân vậy."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 0,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"年畢務即還他田\",\n        \"vietnamese_text\": \"Huyện Khang Lộc, lúa tẻ thì nhiều lúa chiên thông, cấy ruộng cát ruộng bùn đều được; lại nhiều lúa nước mặn.\",\n        \"score\": -0.024516107941275702\n      },\n      {\n        \"han_start\": 1,\n        \"han_end\": 2,\n        \"vi_start\": 1,\n        \"vi_end\": 2,\n        \"han_text\": \"其招土耕過而鞠得播禾隨即鋤道三月未生亦貴 土俗艮有牡牢具耕止一乳牛且二牛並耕為辰物價騰貴\",\n        \"vietnamese_text\": \"Lúa nếp thì đều giếng huyện Lệ Thuỷ, chỉ không có hai thứ bầu hương và nếp chăm mà thôi. Tổng Bái Trời và xã Mai Xá thuộc huyện Minh Lãnh, đất đều quan điền.\",\n        \"score\": 0.1922009517120066\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 4,\n        \"vi_start\": 3,\n        \"vi_end\": 3,\n        \"han_text\": \"大牛至鉛錢一百二十兌方銅錢四十穴耳 小者亦八十家方親錢五十定二十六耳\",\n        \"vietnamese_text\": \"Kỳ này người ta mướn ruộng để cày, một mẫu phải trả đến 50, 60 quan tiền kẽm, ngang với 17, 18 hay 20 quan tiền đồng.\",\n        \"score\": 0.20745280353147083\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 6,\n        \"vi_start\": 4,\n        \"vi_end\": 5,\n        \"han_text\": \"各學皆幾惟香菜此独而貴爾我康祿二鼎公田指辰借志 一欽一務不遇四五貫亦乃設錢二十宗方調錢六之三\",\n        \"vietnamese_text\": \"Một năm hết vụ thì trả lại ruộng. Đất.\",\n        \"score\": -0.025055529140266184\n      },\n      {\n        \"han_start\": 7,\n        \"han_end\": 9,\n        \"vi_start\": 6,\n        \"vi_end\": 7,\n        \"han_text\": \"謂間亦年有許都此義人多田少心次分冷每人不過五六 高德食力以遠多願西兵易敬增給三分者耳 嘉定府同泥地自并除案提大小谷\",\n        \"vietnamese_text\": \"khô thì cày qua lên mà bừa, rồi vãi trồng, theo đó mà bừa qua, 5 ngày lúa mọc. Theo tục dân địa phương, trâu đực thì cày chỉ một con, trâu cái thì hai con cùng cày.\",\n        \"score\": 0.1273690499507558\n      },\n      {\n        \"han_start\": 10,\n        \"han_end\": 11,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"海日入金是林莽幾千餘里為阮氏興高綿相故取得之 昭招募廟南必及升華氣垂為\",\n        \"vietnamese_text\": \"Thời này giá đất, trâu lớn đến 120 quan tiền kẽm, ngang với 40 quan tiền đồng, trâu nhỏ cũng phải 80 quan tiền kẽm, ngang với 27 quan tiền đồng.\",\n        \"score\": 0.01012224181218948\n      },\n      {\n        \"han_start\": 12,\n        \"han_end\": 12,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"又為仁等府諸民有物力發居於同兆地\",\n        \"vietnamese_text\": \"Các huyện đều thế, huyện Hương Trà đắt nhất.\",\n        \"score\": 0.1368865438297348\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 16,\n        \"vi_start\": 10,\n        \"vi_end\": 10,\n        \"han_text\": \"傳有欠牛耕田策差官給發俾之剪伐林木同闢荒蒸 自此至茲尽為平地水土肥沃任民自占植柳園結屋舍 又收源頭人諸棄人男女賣之使為奴 深黑大卷黑乙靈種價我二十定\",\n        \"vietnamese_text\": \"Công điền ở Lệ Thuỷ và Khang Lộc, thời cũ mướn để cày một mẫu một vụ bất quá 3, 4 quan, nay đến 20 quan tiền kẽm, ngang với 6 quan 3 tiền tiền đồng, cũng ít người cho mướn, vì người nhiều ruộng ít, theo lượt chia cấp, mỗi người bất quá 5, 6 sào, vừa đủ làm ăn, do đó nhiều người xin làm lính là muốn được cấp thêm ba phân vậy.\",\n        \"score\": 0.17966132613529268\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 0,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "年畢務即還他田",
+          "vietnamese_text": "Huyện Khang Lộc, lúa tẻ thì nhiều lúa chiên thông, cấy ruộng cát ruộng bùn đều được; lại nhiều lúa nước mặn.",
+          "score": -0.024516107941275702
+        },
+        {
+          "han_start": 1,
+          "han_end": 2,
+          "vi_start": 1,
+          "vi_end": 2,
+          "han_text": "其招土耕過而鞠得播禾隨即鋤道三月未生亦貴 土俗艮有牡牢具耕止一乳牛且二牛並耕為辰物價騰貴",
+          "vietnamese_text": "Lúa nếp thì đều giếng huyện Lệ Thuỷ, chỉ không có hai thứ bầu hương và nếp chăm mà thôi. Tổng Bái Trời và xã Mai Xá thuộc huyện Minh Lãnh, đất đều quan điền.",
+          "score": 0.1922009517120066
+        },
+        {
+          "han_start": 3,
+          "han_end": 4,
+          "vi_start": 3,
+          "vi_end": 3,
+          "han_text": "大牛至鉛錢一百二十兌方銅錢四十穴耳 小者亦八十家方親錢五十定二十六耳",
+          "vietnamese_text": "Kỳ này người ta mướn ruộng để cày, một mẫu phải trả đến 50, 60 quan tiền kẽm, ngang với 17, 18 hay 20 quan tiền đồng.",
+          "score": 0.20745280353147083
+        },
+        {
+          "han_start": 5,
+          "han_end": 6,
+          "vi_start": 4,
+          "vi_end": 5,
+          "han_text": "各學皆幾惟香菜此独而貴爾我康祿二鼎公田指辰借志 一欽一務不遇四五貫亦乃設錢二十宗方調錢六之三",
+          "vietnamese_text": "Một năm hết vụ thì trả lại ruộng. Đất.",
+          "score": -0.025055529140266184
+        },
+        {
+          "han_start": 7,
+          "han_end": 9,
+          "vi_start": 6,
+          "vi_end": 7,
+          "han_text": "謂間亦年有許都此義人多田少心次分冷每人不過五六 高德食力以遠多願西兵易敬增給三分者耳 嘉定府同泥地自并除案提大小谷",
+          "vietnamese_text": "khô thì cày qua lên mà bừa, rồi vãi trồng, theo đó mà bừa qua, 5 ngày lúa mọc. Theo tục dân địa phương, trâu đực thì cày chỉ một con, trâu cái thì hai con cùng cày.",
+          "score": 0.1273690499507558
+        },
+        {
+          "han_start": 10,
+          "han_end": 11,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "海日入金是林莽幾千餘里為阮氏興高綿相故取得之 昭招募廟南必及升華氣垂為",
+          "vietnamese_text": "Thời này giá đất, trâu lớn đến 120 quan tiền kẽm, ngang với 40 quan tiền đồng, trâu nhỏ cũng phải 80 quan tiền kẽm, ngang với 27 quan tiền đồng.",
+          "score": 0.01012224181218948
+        },
+        {
+          "han_start": 12,
+          "han_end": 12,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "又為仁等府諸民有物力發居於同兆地",
+          "vietnamese_text": "Các huyện đều thế, huyện Hương Trà đắt nhất.",
+          "score": 0.1368865438297348
+        },
+        {
+          "han_start": 13,
+          "han_end": 16,
+          "vi_start": 10,
+          "vi_end": 10,
+          "han_text": "傳有欠牛耕田策差官給發俾之剪伐林木同闢荒蒸 自此至茲尽為平地水土肥沃任民自占植柳園結屋舍 又收源頭人諸棄人男女賣之使為奴 深黑大卷黑乙靈種價我二十定",
+          "vietnamese_text": "Công điền ở Lệ Thuỷ và Khang Lộc, thời cũ mướn để cày một mẫu một vụ bất quá 3, 4 quan, nay đến 20 quan tiền kẽm, ngang với 6 quan 3 tiền tiền đồng, cũng ít người cho mướn, vì người nhiều ruộng ít, theo lượt chia cấp, mỗi người bất quá 5, 6 sào, vừa đủ làm ăn, do đó nhiều người xin làm lính là muốn được cấp thêm ba phân vậy.",
+          "score": 0.17966132613529268
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 8000
+}

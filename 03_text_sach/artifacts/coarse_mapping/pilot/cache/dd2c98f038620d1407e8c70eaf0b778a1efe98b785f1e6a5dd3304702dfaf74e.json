@@ -1,0 +1,105 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "dd2c98f038620d1407e8c70eaf0b778a1efe98b785f1e6a5dd3304702dfaf74e",
+  "payload": {
+    "han": "撫邊雜錄卷之五RiG6823人才何代無之順化\n在同胡辰有鄧悉父子以將無顯\n若其在十國闕\n順天洪德间則阮子雍五年師裴音材登進士\n偽莫辰有楊文中高美作鳥卅宜錄目\n本朝中與初為郡公入鎮終嗣強德筆藏私相傳書自署官更\n於是烏里士人莫不隨芳以能功\n豈而說家所攜部曲多陶凶之人優居附買\n其子祿有材藝見說或以世荫無或以考武用亦復不少\n結百徐年未其姓若無焉於上國\n然不可謂亦人末之天啟治平久分復合九重依撫念深\n方欲尚迪泊臣而實此新俊安知承麻後志之去\n不忻之然而出以見中朝之光年盛美都矣\n前功氏壽命一方止有秋誠\n但壽用吏賈不尚文學鮮有搜操俊黑一有考成\n所有中文學生五倍於上途之權要之地\n一委族戚典司而華佐之取申秩武之人\n其始為府縣則止知訟事其次為記錄則惟職催科\n大計大議了無詢同小學秘生\n亦不見欲養作成之寡一方文禮乃綿不絕是可称也",
+    "vi": "Nhân tài đời nào là không có.\nĐất Thuận Hoá, ở thời Nhuận Hồ có cha con Đặng Tất vì tài tướng văn tướng võ mà nổi danh.\nỞ quốc triều, vào khoảng Thuận Thiên Hồng Đức thì có Nguyễn Tử Hoan làm quân sư, Bùi Dục Tài đỗ tiến sĩ; thời Nguy Mạc thì có Dương Văn An đỗ cao, làm sách Ô Châu cận lục; từ đầu thời Trung hưng của bản triều, Đoan quốc công vào trấn, đời sau nối nhau giữ việc quân, truyển tập riêng nhau, tự đặt quan lại, do đó nhân sĩ châu Ô, châu Lý không ai là không theo thời thế mà lập công danh, mà những người bộ khúc họ Nguyễn mang theo, phần nhiều là người Thanh Nghệ, kiều cư ngụ quán, con cháu họ có tài nghệ kiến thức, hoặc do tập ấm mà tiến lên, hoặc đo thi cử mà bổ dụng, cũng lại không ít.\nTuy hơn một trăm năm tới nay, họ tên của họ chưa vang thượng quốc, nhưng không thể bảo là không có nhân tài được.\nTrời mở cuộc trị bình, chia lâu lại hợp, cửu trùng sâu nghĩ về cách vỗ về, đương muốn kén dùng quan cũ và thi cử lấy người tuấn nhã, biết đâu những kẻ sĩ nhờ ơn chờ đợi không ai là không hớn hở tiến ra để đón lấy cái vẻ vang tốt đẹp của trung triều!\nHọ Nguyễn trước chuyên giữ một phương chỉ mở thì Hương, song chuyên dùng lại tư, không chuộng văn học, ít thu lượm được người tuấn dị.\nMỗi khi có khảo thí thì lấy học sinh hoa văn nhiều gấp năm lần chính đồ và những nơi quan yếu thì uỷ cho họ hàng coi giữ mà cho người đậu hoa văn giúp việc.\nNgười đậu thi Hương, bắt đầu bổ làm tri phủ, tri huyện, chỉ coi việc kiện tụng, thứ nữa là làm ký lục thì chỉ giữ việc đòi thu thuế khoá, những kế lớn mưu lớn thì không hỏi han gì đến, còn bọn tiểu học hậu sinh thì cũng không thấy có sự nuôi dạy tác thành.\nThế mà văn mạch một phương, dằng đặc không đứt, thực đáng khen lắm!\nNguyễn Cư Trình hiệu là Đạm Am, người làng An Hoà huyện Hương Trà."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 0,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"撫邊雜錄卷之五RiG6823人才何代無之順化\",\n        \"vietnamese_text\": \"Nhân tài đời nào là không có.\",\n        \"score\": 0.03689575972956259\n      },\n      {\n        \"han_start\": 1,\n        \"han_end\": 2,\n        \"vi_start\": 1,\n        \"vi_end\": 1,\n        \"han_text\": \"在同胡辰有鄧悉父子以將無顯 若其在十國闕\",\n        \"vietnamese_text\": \"Đất Thuận Hoá, ở thời Nhuận Hồ có cha con Đặng Tất vì tài tướng văn tướng võ mà nổi danh.\",\n        \"score\": 0.2645981035130421\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 6,\n        \"vi_start\": 2,\n        \"vi_end\": 2,\n        \"han_text\": \"順天洪德间則阮子雍五年師裴音材登進士 偽莫辰有楊文中高美作鳥卅宜錄目 本朝中與初為郡公入鎮終嗣強德筆藏私相傳書自署官更 於是烏里士人莫不隨芳以能功\",\n        \"vietnamese_text\": \"Ở quốc triều, vào khoảng Thuận Thiên Hồng Đức thì có Nguyễn Tử Hoan làm quân sư, Bùi Dục Tài đỗ tiến sĩ; thời Nguy Mạc thì có Dương Văn An đỗ cao, làm sách Ô Châu cận lục; từ đầu thời Trung hưng của bản triều, Đoan quốc công vào trấn, đời sau nối nhau giữ việc quân, truyển tập riêng nhau, tự đặt quan lại, do đó nhân sĩ châu Ô, châu Lý không ai là không theo thời thế mà lập công danh, mà những người bộ khúc họ Nguyễn mang theo, phần nhiều là người Thanh Nghệ, kiều cư ngụ quán, con cháu họ có tài nghệ kiến thức, hoặc do tập ấm mà tiến lên, hoặc đo thi cử mà bổ dụng, cũng lại không ít.\",\n        \"score\": 0.2505501337780325\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 9,\n        \"vi_start\": 3,\n        \"vi_end\": 3,\n        \"han_text\": \"其子祿有材藝見說或以世荫無或以考武用亦復不少 結百徐年未其姓若無焉於上國\",\n        \"vietnamese_text\": \"Tuy hơn một trăm năm tới nay, họ tên của họ chưa vang thượng quốc, nhưng không thể bảo là không có nhân tài được.\",\n        \"score\": 0.18809941687964127\n      },\n      {\n        \"han_start\": 10,\n        \"han_end\": 12,\n        \"vi_start\": 4,\n        \"vi_end\": 4,\n        \"han_text\": \"然不可謂亦人末之天啟治平久分復合九重依撫念深 方欲尚迪泊臣而實此新俊安知承麻後志之去 不忻之然而出以見中朝之光年盛美都矣\",\n        \"vietnamese_text\": \"Trời mở cuộc trị bình, chia lâu lại hợp, cửu trùng sâu nghĩ về cách vỗ về, đương muốn kén dùng quan cũ và thi cử lấy người tuấn nhã, biết đâu những kẻ sĩ nhờ ơn chờ đợi không ai là không hớn hở tiến ra để đón lấy cái vẻ vang tốt đẹp của trung triều!\",\n        \"score\": 0.16234756169514186\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 14,\n        \"vi_start\": 5,\n        \"vi_end\": 5,\n        \"han_text\": \"前功氏壽命一方止有秋誠 但壽用吏賈不尚文學鮮有搜操俊黑一有考成\",\n        \"vietnamese_text\": \"Họ Nguyễn trước chuyên giữ một phương chỉ mở thì Hương, song chuyên dùng lại tư, không chuộng văn học, ít thu lượm được người tuấn dị.\",\n        \"score\": 0.180164963786934\n      },\n      {\n        \"han_start\": 15,\n        \"han_end\": 15,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"所有中文學生五倍於上途之權要之地\",\n        \"vietnamese_text\": \"Mỗi khi có khảo thí thì lấy học sinh hoa văn nhiều gấp năm lần chính đồ và những nơi quan yếu thì uỷ cho họ hàng coi giữ mà cho người đậu hoa văn giúp việc.\",\n        \"score\": 0.19496913991953202\n      },\n      {\n        \"han_start\": 16,\n        \"han_end\": 18,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"一委族戚典司而華佐之取申秩武之人 其始為府縣則止知訟事其次為記錄則惟職催科 大計大議了無詢同小學秘生\",\n        \"vietnamese_text\": \"Người đậu thi Hương, bắt đầu bổ làm tri phủ, tri huyện, chỉ coi việc kiện tụng, thứ nữa là làm ký lục thì chỉ giữ việc đòi thu thuế khoá, những kế lớn mưu lớn thì không hỏi han gì đến, còn bọn tiểu học hậu sinh thì cũng không thấy có sự nuôi dạy tác thành.\",\n        \"score\": 0.3809600880912208\n      },\n      {\n        \"han_start\": 19,\n        \"han_end\": 19,\n        \"vi_start\": 8,\n        \"vi_end\": 9,\n        \"han_text\": \"亦不見欲養作成之寡一方文禮乃綿不絕是可称也\",\n        \"vietnamese_text\": \"Thế mà văn mạch một phương, dằng đặc không đứt, thực đáng khen lắm! Nguyễn Cư Trình hiệu là Đạm Am, người làng An Hoà huyện Hương Trà.\",\n        \"score\": 0.19560201730974502\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 0,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "撫邊雜錄卷之五RiG6823人才何代無之順化",
+          "vietnamese_text": "Nhân tài đời nào là không có.",
+          "score": 0.03689575972956259
+        },
+        {
+          "han_start": 1,
+          "han_end": 2,
+          "vi_start": 1,
+          "vi_end": 1,
+          "han_text": "在同胡辰有鄧悉父子以將無顯 若其在十國闕",
+          "vietnamese_text": "Đất Thuận Hoá, ở thời Nhuận Hồ có cha con Đặng Tất vì tài tướng văn tướng võ mà nổi danh.",
+          "score": 0.2645981035130421
+        },
+        {
+          "han_start": 3,
+          "han_end": 6,
+          "vi_start": 2,
+          "vi_end": 2,
+          "han_text": "順天洪德间則阮子雍五年師裴音材登進士 偽莫辰有楊文中高美作鳥卅宜錄目 本朝中與初為郡公入鎮終嗣強德筆藏私相傳書自署官更 於是烏里士人莫不隨芳以能功",
+          "vietnamese_text": "Ở quốc triều, vào khoảng Thuận Thiên Hồng Đức thì có Nguyễn Tử Hoan làm quân sư, Bùi Dục Tài đỗ tiến sĩ; thời Nguy Mạc thì có Dương Văn An đỗ cao, làm sách Ô Châu cận lục; từ đầu thời Trung hưng của bản triều, Đoan quốc công vào trấn, đời sau nối nhau giữ việc quân, truyển tập riêng nhau, tự đặt quan lại, do đó nhân sĩ châu Ô, châu Lý không ai là không theo thời thế mà lập công danh, mà những người bộ khúc họ Nguyễn mang theo, phần nhiều là người Thanh Nghệ, kiều cư ngụ quán, con cháu họ có tài nghệ kiến thức, hoặc do tập ấm mà tiến lên, hoặc đo thi cử mà bổ dụng, cũng lại không ít.",
+          "score": 0.2505501337780325
+        },
+        {
+          "han_start": 8,
+          "han_end": 9,
+          "vi_start": 3,
+          "vi_end": 3,
+          "han_text": "其子祿有材藝見說或以世荫無或以考武用亦復不少 結百徐年未其姓若無焉於上國",
+          "vietnamese_text": "Tuy hơn một trăm năm tới nay, họ tên của họ chưa vang thượng quốc, nhưng không thể bảo là không có nhân tài được.",
+          "score": 0.18809941687964127
+        },
+        {
+          "han_start": 10,
+          "han_end": 12,
+          "vi_start": 4,
+          "vi_end": 4,
+          "han_text": "然不可謂亦人末之天啟治平久分復合九重依撫念深 方欲尚迪泊臣而實此新俊安知承麻後志之去 不忻之然而出以見中朝之光年盛美都矣",
+          "vietnamese_text": "Trời mở cuộc trị bình, chia lâu lại hợp, cửu trùng sâu nghĩ về cách vỗ về, đương muốn kén dùng quan cũ và thi cử lấy người tuấn nhã, biết đâu những kẻ sĩ nhờ ơn chờ đợi không ai là không hớn hở tiến ra để đón lấy cái vẻ vang tốt đẹp của trung triều!",
+          "score": 0.16234756169514186
+        },
+        {
+          "han_start": 13,
+          "han_end": 14,
+          "vi_start": 5,
+          "vi_end": 5,
+          "han_text": "前功氏壽命一方止有秋誠 但壽用吏賈不尚文學鮮有搜操俊黑一有考成",
+          "vietnamese_text": "Họ Nguyễn trước chuyên giữ một phương chỉ mở thì Hương, song chuyên dùng lại tư, không chuộng văn học, ít thu lượm được người tuấn dị.",
+          "score": 0.180164963786934
+        },
+        {
+          "han_start": 15,
+          "han_end": 15,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "所有中文學生五倍於上途之權要之地",
+          "vietnamese_text": "Mỗi khi có khảo thí thì lấy học sinh hoa văn nhiều gấp năm lần chính đồ và những nơi quan yếu thì uỷ cho họ hàng coi giữ mà cho người đậu hoa văn giúp việc.",
+          "score": 0.19496913991953202
+        },
+        {
+          "han_start": 16,
+          "han_end": 18,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "一委族戚典司而華佐之取申秩武之人 其始為府縣則止知訟事其次為記錄則惟職催科 大計大議了無詢同小學秘生",
+          "vietnamese_text": "Người đậu thi Hương, bắt đầu bổ làm tri phủ, tri huyện, chỉ coi việc kiện tụng, thứ nữa là làm ký lục thì chỉ giữ việc đòi thu thuế khoá, những kế lớn mưu lớn thì không hỏi han gì đến, còn bọn tiểu học hậu sinh thì cũng không thấy có sự nuôi dạy tác thành.",
+          "score": 0.3809600880912208
+        },
+        {
+          "han_start": 19,
+          "han_end": 19,
+          "vi_start": 8,
+          "vi_end": 9,
+          "han_text": "亦不見欲養作成之寡一方文禮乃綿不絕是可称也",
+          "vietnamese_text": "Thế mà văn mạch một phương, dằng đặc không đứt, thực đáng khen lắm! Nguyễn Cư Trình hiệu là Đạm Am, người làng An Hoà huyện Hương Trà.",
+          "score": 0.19560201730974502
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 3687
+}

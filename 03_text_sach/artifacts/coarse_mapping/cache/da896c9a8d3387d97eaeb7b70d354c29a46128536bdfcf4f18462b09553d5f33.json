@@ -1,0 +1,96 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "da896c9a8d3387d97eaeb7b70d354c29a46128536bdfcf4f18462b09553d5f33",
+  "payload": {
+    "han": "應察於臺者蔽於形且於棄者石去見云\n思不出乎其位之微此則買侯之諸鉴又不之知安矣\n顧乃責糶於石田而藏若虛責獻於渴色而有若無\n得怨節之困於名之君子多乎赤\n末生則本搖內繁則外由匱而有是9之淳之勤之\n故曰責之者所心殺之也已鄙也\n今焉合年衫主亦弋無慮\n辰燕望見敢佈腹心\n又有答河仙協鎮瑛德侯法云夫存心為志寓意為詩\n人有淺深故詩有隱顯博約之不同\n辰有升障故诗有初盛中號之有異\n德之不外乎忠厚為本含義為義\n平淺為工而文之以齋麗鑑之以聽巧\n特六義之外篇五際之餘事去也\n心者進潤之物泄之為詩而成乎句章\n詩之可讀者要於一字至有三年復得千祀而菲解\n余是推之\n况少存涉獵未它\n窃思於經緣長闕慷切猶希名於之字以故平生佳作辨矣\n制乃金河玉塞步里之情三華之務\n其生暇及乎從有癸祿一二亦善\n勉由人初非尽出已興\n律之不益長亦多輜\n惟善為我意不足与人道之",
+    "vi": "Đăn uợ hen tơ cua phối chứa”; Đất con roi trúc Sò gũy mai.\nChén bầu tế xà lòng chay sạch; Có đất khai hoang ngang sức cày.\nCách mệnh chờ khi ba độ đón”; Nem cày đem sức cứu đau thương.\nChăn trầu Sừng trâu treo sách” học bên khe.\nĐá trắng thông xanh bóng xế tây.\nTơ buộc quanh hồ chơi mộc điểu”?); Sáo uang đồng ruộng chọi sa bế”.\nBầu treo đất Bắc ra phò Hán”; Đất hút non Nam chứa giúp TẾ”.\nCách mệnh chăn trâu thường làm được; Đũa que mâm gỗ cũng không nề.\nNghĩ hoạ nguyên vận bài thơ của Đường Trường Khanh qua nhà Giả Nghị.\nBằng điểu\"' cũng nên hỏi chóng chây."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 2,\n        \"vi_start\": 0,\n        \"vi_end\": 1,\n        \"han_text\": \"應察於臺者蔽於形且於棄者石去見云 思不出乎其位之微此則買侯之諸鉴又不之知安矣 顧乃責糶於石田而藏若虛責獻於渴色而有若無\",\n        \"vietnamese_text\": \"Đăn uợ hen tơ cua phối chứa”; Đất con roi trúc Sò gũy mai. Chén bầu tế xà lòng chay sạch; Có đất khai hoang ngang sức cày.\",\n        \"score\": 0.17019239463237082\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 5,\n        \"vi_start\": 2,\n        \"vi_end\": 3,\n        \"han_text\": \"得怨節之困於名之君子多乎赤 末生則本搖內繁則外由匱而有是9之淳之勤之 故曰責之者所心殺之也已鄙也\",\n        \"vietnamese_text\": \"Cách mệnh chờ khi ba độ đón”; Nem cày đem sức cứu đau thương. Chăn trầu Sừng trâu treo sách” học bên khe.\",\n        \"score\": 0.09116537812021107\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 8,\n        \"vi_start\": 4,\n        \"vi_end\": 5,\n        \"han_text\": \"今焉合年衫主亦弋無慮 辰燕望見敢佈腹心 又有答河仙協鎮瑛德侯法云夫存心為志寓意為詩\",\n        \"vietnamese_text\": \"Đá trắng thông xanh bóng xế tây. Tơ buộc quanh hồ chơi mộc điểu”?\",\n        \"score\": 0.08232304957690807\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 11,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"人有淺深故詩有隱顯博約之不同 辰有升障故诗有初盛中號之有異 德之不外乎忠厚為本含義為義\",\n        \"vietnamese_text\": \"); Sáo uang đồng ruộng chọi sa bế”.\",\n        \"score\": -0.015472505096164513\n      },\n      {\n        \"han_start\": 12,\n        \"han_end\": 14,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"平淺為工而文之以齋麗鑑之以聽巧 特六義之外篇五際之餘事去也 心者進潤之物泄之為詩而成乎句章\",\n        \"vietnamese_text\": \"Bầu treo đất Bắc ra phò Hán”; Đất hút non Nam chứa giúp TẾ”.\",\n        \"score\": 0.11309040531391913\n      },\n      {\n        \"han_start\": 15,\n        \"han_end\": 17,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"詩之可讀者要於一字至有三年復得千祀而菲解 余是推之 况少存涉獵未它\",\n        \"vietnamese_text\": \"Cách mệnh chăn trâu thường làm được; Đũa que mâm gỗ cũng không nề.\",\n        \"score\": 0.0338425659937306\n      },\n      {\n        \"han_start\": 18,\n        \"han_end\": 19,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"窃思於經緣長闕慷切猶希名於之字以故平生佳作辨矣 制乃金河玉塞步里之情三華之務\",\n        \"vietnamese_text\": \"Nghĩ hoạ nguyên vận bài thơ của Đường Trường Khanh qua nhà Giả Nghị.\",\n        \"score\": 0.28442807836529416\n      },\n      {\n        \"han_start\": 20,\n        \"han_end\": 23,\n        \"vi_start\": 10,\n        \"vi_end\": 10,\n        \"han_text\": \"其生暇及乎從有癸祿一二亦善 勉由人初非尽出已興 律之不益長亦多輜 惟善為我意不足与人道之\",\n        \"vietnamese_text\": \"Bằng điểu\\\"' cũng nên hỏi chóng chây.\",\n        \"score\": -0.04374301375395279\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 2,
+          "vi_start": 0,
+          "vi_end": 1,
+          "han_text": "應察於臺者蔽於形且於棄者石去見云 思不出乎其位之微此則買侯之諸鉴又不之知安矣 顧乃責糶於石田而藏若虛責獻於渴色而有若無",
+          "vietnamese_text": "Đăn uợ hen tơ cua phối chứa”; Đất con roi trúc Sò gũy mai. Chén bầu tế xà lòng chay sạch; Có đất khai hoang ngang sức cày.",
+          "score": 0.17019239463237082
+        },
+        {
+          "han_start": 3,
+          "han_end": 5,
+          "vi_start": 2,
+          "vi_end": 3,
+          "han_text": "得怨節之困於名之君子多乎赤 末生則本搖內繁則外由匱而有是9之淳之勤之 故曰責之者所心殺之也已鄙也",
+          "vietnamese_text": "Cách mệnh chờ khi ba độ đón”; Nem cày đem sức cứu đau thương. Chăn trầu Sừng trâu treo sách” học bên khe.",
+          "score": 0.09116537812021107
+        },
+        {
+          "han_start": 6,
+          "han_end": 8,
+          "vi_start": 4,
+          "vi_end": 5,
+          "han_text": "今焉合年衫主亦弋無慮 辰燕望見敢佈腹心 又有答河仙協鎮瑛德侯法云夫存心為志寓意為詩",
+          "vietnamese_text": "Đá trắng thông xanh bóng xế tây. Tơ buộc quanh hồ chơi mộc điểu”?",
+          "score": 0.08232304957690807
+        },
+        {
+          "han_start": 9,
+          "han_end": 11,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "人有淺深故詩有隱顯博約之不同 辰有升障故诗有初盛中號之有異 德之不外乎忠厚為本含義為義",
+          "vietnamese_text": "); Sáo uang đồng ruộng chọi sa bế”.",
+          "score": -0.015472505096164513
+        },
+        {
+          "han_start": 12,
+          "han_end": 14,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "平淺為工而文之以齋麗鑑之以聽巧 特六義之外篇五際之餘事去也 心者進潤之物泄之為詩而成乎句章",
+          "vietnamese_text": "Bầu treo đất Bắc ra phò Hán”; Đất hút non Nam chứa giúp TẾ”.",
+          "score": 0.11309040531391913
+        },
+        {
+          "han_start": 15,
+          "han_end": 17,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "詩之可讀者要於一字至有三年復得千祀而菲解 余是推之 况少存涉獵未它",
+          "vietnamese_text": "Cách mệnh chăn trâu thường làm được; Đũa que mâm gỗ cũng không nề.",
+          "score": 0.0338425659937306
+        },
+        {
+          "han_start": 18,
+          "han_end": 19,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "窃思於經緣長闕慷切猶希名於之字以故平生佳作辨矣 制乃金河玉塞步里之情三華之務",
+          "vietnamese_text": "Nghĩ hoạ nguyên vận bài thơ của Đường Trường Khanh qua nhà Giả Nghị.",
+          "score": 0.28442807836529416
+        },
+        {
+          "han_start": 20,
+          "han_end": 23,
+          "vi_start": 10,
+          "vi_end": 10,
+          "han_text": "其生暇及乎從有癸祿一二亦善 勉由人初非尽出已興 律之不益長亦多輜 惟善為我意不足与人道之",
+          "vietnamese_text": "Bằng điểu\"' cũng nên hỏi chóng chây.",
+          "score": -0.04374301375395279
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 9407
+}

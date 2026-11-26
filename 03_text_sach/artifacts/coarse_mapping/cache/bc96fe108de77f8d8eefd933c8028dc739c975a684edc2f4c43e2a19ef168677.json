@@ -1,0 +1,132 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "bc96fe108de77f8d8eefd933c8028dc739c975a684edc2f4c43e2a19ef168677",
+  "payload": {
+    "han": "丙申年發撫官令各縣社類同旨另漂流不併其無者註例\n無另彞旨另見存者往川見存羽香茶卷一千六十一人\n富榮縣四百四十七人\n廣曰縣十千四百八十二人海陵縣一百九十五人\n登昌縣一百十人明艮縣三百五十七人\n麗水縣六百四人康祿縣首另与新另應各共一千四百三人\n南而政卅二百四十五人亥五千四百四人\n但如首另诸局匠守城守寨酒夫皆名居其太半\n其首屬吳各昭戰船戰兵者無幾\n順化處香茶廣田富榮酒陵登昌明靈士縣首例給草象\n草馬廠另係每社人效一百人給草象及草馬另二人人故五十人給草象另人某往不備五十人以下\n令其出歲莊內每人三十文納在管象馬人以買藤油皮修補嘗船之用\n其發內府各社已受官殺並免廠船另例\n其各社草象草馬另輪審應發一人一年\n或願田家任其出底許官人雇借\n其給艚船另不泥不滿人效常伏出底納\n在祿徵官豈諸公參不止修層一壓也\n癸未年阮家差刷\n自甲戌至庚辰年順化六縣層船守寔歲一萬二百八十五\n貴二兩內一年或圭千五百餘貫或一千\n三前院武結各船另競夫在各縣為寓祿其搜底再猶入庫北已丑年四",
+    "vi": "Nhưng Cư Trinh đổi bỏ cái tệ nhiều quan nhiễu dân, mà lại muốn uỷ cho quan huyện trưng thu các thuế, sợ chưa ổn thoả.\nVả lại quan huyện vị thấp quyền khinh, phận hèn lộc ít, sao có thể giải quyết mọi việc được; không bằng chuyên giao cho trấn quan mới là tiện.\nNăm Bính Thân, ty Trấn phủ sai các huyện xã kê khai lính cũ, người xiêu tán không tính, xã nào không có thì chua lệ không có suất lính, xã nào lính cũ hiện còn thì chua là hiện còn.\nNhư huyện Hương Trà 1.061 người, huyện Phú Vang 447 người, huyện Quảng Điển 1.482 người, huyện Hải Lăng 195 người, huyện Đăng Xương 110 người, huyện Minh Lĩnh 357 người, huyện Lệ Thuỷ 604 người, huyện Khang Lộc lính cũ và lính mới ứng vụ cộng 1.403 người, châu Nam Bố Chính 24ã người, cộng 5.404 người.\nNhưng lính cũ ấy thì những người thợ các cục, giữ thành, giữ mộ, sái phu, có đến quá nửa, còn chiến bình cũ thuộc các thuyển thuỷ bộ và các chiến thuyền thì không có mấy.\nXứ Thuận Hoá, sáu huyện Hương Trà, Quảng Điền, Phú Vang, Hải Lãng, Đăng Xương, Minh Lãnh, theo lệ cũ cấp lính cất cỏ voi có ngựa và lính tàu vơi tàu ngựa, hễ mỗi xã số người 100 người thì cấp lính cỏ voi cỏ ngựa 9 người, số người 50 người, cấp lính cổ vơi 1 người, xã nào không đủ 50 người trở xuống thì cho nộp tiển, mỗi người trong xã 30 đồng, nộp ở người quản tượng quản mã, để dùng mua mây, dầu và sửa sang các tàu, còn các xã thuộc Nội phủ đã chịu việc quan thì đều miễn lệ lính tàu.\nVề lính cắt cỏ vơi có ngựa ở các xã thì chia phiên mà làm việc, mỗi người một năm hoặc muốn về nhà thì cho nộp tiền, để người quản thuê mướn.\nVề lính các tàu (voi ngựa) thì không câu nệ số người không đủ, thường cho xuất tiển nộp ở quan cai trưng, phát chi các việc công, không những chỉ sửa tàu voi tàu ngựa.\nNăm Quí Mùi, họ Nguyễn sai soát sổ tàu vơi tàu ngựa của sáu huyện xứ Thuận Hoá từ năm Giáp Tuất đến năm Canh Thìn, được thực tiền 10.285 quan 9 tiền, trong ấy một năm hoặc hơn 1.500 quan, hoặc hơn 1.300 hay 1.400 quan,\nTrước họ Nguyễn cấp nhiêu phu ở các huyện xã làm ngụ lộc cho lính các thuyền, thì tiền sưu lại nộp vào kho, như năm Kỷ Sửu, hai thuyền Nội thuy, Kiên nhị được cấp nhiêu phu 360 người, hoặc mỗi xã lấy 28 người, đều nộp mỗi người tiền sưu nửa phần là 1 tiền, thuyền Tả thủy được cấp nhiêu phu 262 người, nộp mỗi người tiền sưu 3 tiền, thuyền An nhất được cấp nhiêu phu 80 người, thuyền Hải Châu được cấp nhiêu phu 370 người, đều nộp mỗi người tiền sưu 3 tiền."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 0,\n        \"vi_start\": 0,\n        \"vi_end\": 2,\n        \"han_text\": \"丙申年發撫官令各縣社類同旨另漂流不併其無者註例\",\n        \"vietnamese_text\": \"Nhưng Cư Trinh đổi bỏ cái tệ nhiều quan nhiễu dân, mà lại muốn uỷ cho quan huyện trưng thu các thuế, sợ chưa ổn thoả. Vả lại quan huyện vị thấp quyền khinh, phận hèn lộc ít, sao có thể giải quyết mọi việc được; không bằng chuyên giao cho trấn quan mới là tiện. Năm Bính Thân, ty Trấn phủ sai các huyện xã kê khai lính cũ, người xiêu tán không tính, xã nào không có thì chua lệ không có suất lính, xã nào lính cũ hiện còn thì chua là hiện còn.\",\n        \"score\": 0.08936367843258036\n      },\n      {\n        \"han_start\": 1,\n        \"han_end\": 1,\n        \"vi_start\": 3,\n        \"vi_end\": 3,\n        \"han_text\": \"無另彞旨另見存者往川見存羽香茶卷一千六十一人\",\n        \"vietnamese_text\": \"Như huyện Hương Trà 1.\",\n        \"score\": -0.01646046773685612\n      },\n      {\n        \"han_start\": 2,\n        \"han_end\": 2,\n        \"vi_start\": 4,\n        \"vi_end\": 4,\n        \"han_text\": \"富榮縣四百四十七人\",\n        \"vietnamese_text\": \"061 người, huyện Phú Vang 447 người, huyện Quảng Điển 1.\",\n        \"score\": 0.10874086690046714\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 5,\n        \"vi_start\": 5,\n        \"vi_end\": 5,\n        \"han_text\": \"廣曰縣十千四百八十二人海陵縣一百九十五人 登昌縣一百十人明艮縣三百五十七人 麗水縣六百四人康祿縣首另与新另應各共一千四百三人\",\n        \"vietnamese_text\": \"482 người, huyện Hải Lăng 195 người, huyện Đăng Xương 110 người, huyện Minh Lĩnh 357 người, huyện Lệ Thuỷ 604 người, huyện Khang Lộc lính cũ và lính mới ứng vụ cộng 1.\",\n        \"score\": 0.12258687896826265\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 6,\n        \"vi_start\": 6,\n        \"vi_end\": 7,\n        \"han_text\": \"南而政卅二百四十五人亥五千四百四人\",\n        \"vietnamese_text\": \"403 người, châu Nam Bố Chính 24ã người, cộng 5. 404 người.\",\n        \"score\": 0.18421956897546105\n      },\n      {\n        \"han_start\": 7,\n        \"han_end\": 8,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"但如首另诸局匠守城守寨酒夫皆名居其太半 其首屬吳各昭戰船戰兵者無幾\",\n        \"vietnamese_text\": \"Nhưng lính cũ ấy thì những người thợ các cục, giữ thành, giữ mộ, sái phu, có đến quá nửa, còn chiến bình cũ thuộc các thuyển thuỷ bộ và các chiến thuyền thì không có mấy.\",\n        \"score\": 0.3644270956696316\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 12,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"順化處香茶廣田富榮酒陵登昌明靈士縣首例給草象 草馬廠另係每社人效一百人給草象及草馬另二人人故五十人給草象另人某往不備五十人以下 令其出歲莊內每人三十文納在管象馬人以買藤油皮修補嘗船之用 其發內府各社已受官殺並免廠船另例\",\n        \"vietnamese_text\": \"Xứ Thuận Hoá, sáu huyện Hương Trà, Quảng Điền, Phú Vang, Hải Lãng, Đăng Xương, Minh Lãnh, theo lệ cũ cấp lính cất cỏ voi có ngựa và lính tàu vơi tàu ngựa, hễ mỗi xã số người 100 người thì cấp lính cỏ voi cỏ ngựa 9 người, số người 50 người, cấp lính cổ vơi 1 người, xã nào không đủ 50 người trở xuống thì cho nộp tiển, mỗi người trong xã 30 đồng, nộp ở người quản tượng quản mã, để dùng mua mây, dầu và sửa sang các tàu, còn các xã thuộc Nội phủ đã chịu việc quan thì đều miễn lệ lính tàu.\",\n        \"score\": 0.28416218744637634\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 14,\n        \"vi_start\": 10,\n        \"vi_end\": 10,\n        \"han_text\": \"其各社草象草馬另輪審應發一人一年 或願田家任其出底許官人雇借\",\n        \"vietnamese_text\": \"Về lính cắt cỏ vơi có ngựa ở các xã thì chia phiên mà làm việc, mỗi người một năm hoặc muốn về nhà thì cho nộp tiền, để người quản thuê mướn.\",\n        \"score\": 0.35452639630883304\n      },\n      {\n        \"han_start\": 15,\n        \"han_end\": 16,\n        \"vi_start\": 11,\n        \"vi_end\": 11,\n        \"han_text\": \"其給艚船另不泥不滿人效常伏出底納 在祿徵官豈諸公參不止修層一壓也\",\n        \"vietnamese_text\": \"Về lính các tàu (voi ngựa) thì không câu nệ số người không đủ, thường cho xuất tiển nộp ở quan cai trưng, phát chi các việc công, không những chỉ sửa tàu voi tàu ngựa.\",\n        \"score\": 0.3104047580336375\n      },\n      {\n        \"han_start\": 17,\n        \"han_end\": 18,\n        \"vi_start\": 12,\n        \"vi_end\": 12,\n        \"han_text\": \"癸未年阮家差刷 自甲戌至庚辰年順化六縣層船守寔歲一萬二百八十五\",\n        \"vietnamese_text\": \"Năm Quí Mùi, họ Nguyễn sai soát sổ tàu vơi tàu ngựa của sáu huyện xứ Thuận Hoá từ năm Giáp Tuất đến năm Canh Thìn, được thực tiền 10.\",\n        \"score\": 0.2645644164686368\n      },\n      {\n        \"han_start\": 19,\n        \"han_end\": 19,\n        \"vi_start\": 13,\n        \"vi_end\": 16,\n        \"han_text\": \"貴二兩內一年或圭千五百餘貫或一千\",\n        \"vietnamese_text\": \"285 quan 9 tiền, trong ấy một năm hoặc hơn 1. 500 quan, hoặc hơn 1. 300 hay 1. 400 quan,\",\n        \"score\": 0.3677973122695463\n      },\n      {\n        \"han_start\": 20,\n        \"han_end\": 20,\n        \"vi_start\": 17,\n        \"vi_end\": 17,\n        \"han_text\": \"三前院武結各船另競夫在各縣為寓祿其搜底再猶入庫北已丑年四\",\n        \"vietnamese_text\": \"Trước họ Nguyễn cấp nhiêu phu ở các huyện xã làm ngụ lộc cho lính các thuyền, thì tiền sưu lại nộp vào kho, như năm Kỷ Sửu, hai thuyền Nội thuy, Kiên nhị được cấp nhiêu phu 360 người, hoặc mỗi xã lấy 28 người, đều nộp mỗi người tiền sưu nửa phần là 1 tiền, thuyền Tả thủy được cấp nhiêu phu 262 người, nộp mỗi người tiền sưu 3 tiền, thuyền An nhất được cấp nhiêu phu 80 người, thuyền Hải Châu được cấp nhiêu phu 370 người, đều nộp mỗi người tiền sưu 3 tiền.\",\n        \"score\": 0.035771715402357275\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 0,
+          "vi_start": 0,
+          "vi_end": 2,
+          "han_text": "丙申年發撫官令各縣社類同旨另漂流不併其無者註例",
+          "vietnamese_text": "Nhưng Cư Trinh đổi bỏ cái tệ nhiều quan nhiễu dân, mà lại muốn uỷ cho quan huyện trưng thu các thuế, sợ chưa ổn thoả. Vả lại quan huyện vị thấp quyền khinh, phận hèn lộc ít, sao có thể giải quyết mọi việc được; không bằng chuyên giao cho trấn quan mới là tiện. Năm Bính Thân, ty Trấn phủ sai các huyện xã kê khai lính cũ, người xiêu tán không tính, xã nào không có thì chua lệ không có suất lính, xã nào lính cũ hiện còn thì chua là hiện còn.",
+          "score": 0.08936367843258036
+        },
+        {
+          "han_start": 1,
+          "han_end": 1,
+          "vi_start": 3,
+          "vi_end": 3,
+          "han_text": "無另彞旨另見存者往川見存羽香茶卷一千六十一人",
+          "vietnamese_text": "Như huyện Hương Trà 1.",
+          "score": -0.01646046773685612
+        },
+        {
+          "han_start": 2,
+          "han_end": 2,
+          "vi_start": 4,
+          "vi_end": 4,
+          "han_text": "富榮縣四百四十七人",
+          "vietnamese_text": "061 người, huyện Phú Vang 447 người, huyện Quảng Điển 1.",
+          "score": 0.10874086690046714
+        },
+        {
+          "han_start": 3,
+          "han_end": 5,
+          "vi_start": 5,
+          "vi_end": 5,
+          "han_text": "廣曰縣十千四百八十二人海陵縣一百九十五人 登昌縣一百十人明艮縣三百五十七人 麗水縣六百四人康祿縣首另与新另應各共一千四百三人",
+          "vietnamese_text": "482 người, huyện Hải Lăng 195 người, huyện Đăng Xương 110 người, huyện Minh Lĩnh 357 người, huyện Lệ Thuỷ 604 người, huyện Khang Lộc lính cũ và lính mới ứng vụ cộng 1.",
+          "score": 0.12258687896826265
+        },
+        {
+          "han_start": 6,
+          "han_end": 6,
+          "vi_start": 6,
+          "vi_end": 7,
+          "han_text": "南而政卅二百四十五人亥五千四百四人",
+          "vietnamese_text": "403 người, châu Nam Bố Chính 24ã người, cộng 5. 404 người.",
+          "score": 0.18421956897546105
+        },
+        {
+          "han_start": 7,
+          "han_end": 8,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "但如首另诸局匠守城守寨酒夫皆名居其太半 其首屬吳各昭戰船戰兵者無幾",
+          "vietnamese_text": "Nhưng lính cũ ấy thì những người thợ các cục, giữ thành, giữ mộ, sái phu, có đến quá nửa, còn chiến bình cũ thuộc các thuyển thuỷ bộ và các chiến thuyền thì không có mấy.",
+          "score": 0.3644270956696316
+        },
+        {
+          "han_start": 9,
+          "han_end": 12,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "順化處香茶廣田富榮酒陵登昌明靈士縣首例給草象 草馬廠另係每社人效一百人給草象及草馬另二人人故五十人給草象另人某往不備五十人以下 令其出歲莊內每人三十文納在管象馬人以買藤油皮修補嘗船之用 其發內府各社已受官殺並免廠船另例",
+          "vietnamese_text": "Xứ Thuận Hoá, sáu huyện Hương Trà, Quảng Điền, Phú Vang, Hải Lãng, Đăng Xương, Minh Lãnh, theo lệ cũ cấp lính cất cỏ voi có ngựa và lính tàu vơi tàu ngựa, hễ mỗi xã số người 100 người thì cấp lính cỏ voi cỏ ngựa 9 người, số người 50 người, cấp lính cổ vơi 1 người, xã nào không đủ 50 người trở xuống thì cho nộp tiển, mỗi người trong xã 30 đồng, nộp ở người quản tượng quản mã, để dùng mua mây, dầu và sửa sang các tàu, còn các xã thuộc Nội phủ đã chịu việc quan thì đều miễn lệ lính tàu.",
+          "score": 0.28416218744637634
+        },
+        {
+          "han_start": 13,
+          "han_end": 14,
+          "vi_start": 10,
+          "vi_end": 10,
+          "han_text": "其各社草象草馬另輪審應發一人一年 或願田家任其出底許官人雇借",
+          "vietnamese_text": "Về lính cắt cỏ vơi có ngựa ở các xã thì chia phiên mà làm việc, mỗi người một năm hoặc muốn về nhà thì cho nộp tiền, để người quản thuê mướn.",
+          "score": 0.35452639630883304
+        },
+        {
+          "han_start": 15,
+          "han_end": 16,
+          "vi_start": 11,
+          "vi_end": 11,
+          "han_text": "其給艚船另不泥不滿人效常伏出底納 在祿徵官豈諸公參不止修層一壓也",
+          "vietnamese_text": "Về lính các tàu (voi ngựa) thì không câu nệ số người không đủ, thường cho xuất tiển nộp ở quan cai trưng, phát chi các việc công, không những chỉ sửa tàu voi tàu ngựa.",
+          "score": 0.3104047580336375
+        },
+        {
+          "han_start": 17,
+          "han_end": 18,
+          "vi_start": 12,
+          "vi_end": 12,
+          "han_text": "癸未年阮家差刷 自甲戌至庚辰年順化六縣層船守寔歲一萬二百八十五",
+          "vietnamese_text": "Năm Quí Mùi, họ Nguyễn sai soát sổ tàu vơi tàu ngựa của sáu huyện xứ Thuận Hoá từ năm Giáp Tuất đến năm Canh Thìn, được thực tiền 10.",
+          "score": 0.2645644164686368
+        },
+        {
+          "han_start": 19,
+          "han_end": 19,
+          "vi_start": 13,
+          "vi_end": 16,
+          "han_text": "貴二兩內一年或圭千五百餘貫或一千",
+          "vietnamese_text": "285 quan 9 tiền, trong ấy một năm hoặc hơn 1. 500 quan, hoặc hơn 1. 300 hay 1. 400 quan,",
+          "score": 0.3677973122695463
+        },
+        {
+          "han_start": 20,
+          "han_end": 20,
+          "vi_start": 17,
+          "vi_end": 17,
+          "han_text": "三前院武結各船另競夫在各縣為寓祿其搜底再猶入庫北已丑年四",
+          "vietnamese_text": "Trước họ Nguyễn cấp nhiêu phu ở các huyện xã làm ngụ lộc cho lính các thuyền, thì tiền sưu lại nộp vào kho, như năm Kỷ Sửu, hai thuyền Nội thuy, Kiên nhị được cấp nhiêu phu 360 người, hoặc mỗi xã lấy 28 người, đều nộp mỗi người tiền sưu nửa phần là 1 tiền, thuyền Tả thủy được cấp nhiêu phu 262 người, nộp mỗi người tiền sưu 3 tiền, thuyền An nhất được cấp nhiêu phu 80 người, thuyền Hải Châu được cấp nhiêu phu 370 người, đều nộp mỗi người tiền sưu 3 tiền.",
+          "score": 0.035771715402357275
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 5765
+}

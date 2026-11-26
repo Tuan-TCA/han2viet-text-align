@@ -1,0 +1,87 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "0eb903e194db42d633054947da15e1d48f667f14e5cf756b7e362f3c8798d653",
+  "payload": {
+    "han": "刻十二壺癸丁同一位一金在西南順行而左旋\n丑未同一位二厘在東地艮坤同一位在下\n六金乙辛同一位七金在東北辰開同一位八金無乾同一位九歷在已刻同一位十卷兩丁同一位\n十一風在東南復至於子午為磁臣中心由針外針亦如前式\n內卦行到某辰大鐘依走故而打到至子\n子至癸之中日並有花點內針行至鐘\n亦打一聲以辨辰之首尾二十四辰皆然\n郡臣之外二水晶忘銅包真左為樞以便同用\n銅壺之中心選圓臣帝銅板內外三層\n皆釘為一內大藏二藏小輪十韓橫直小柱\n嚴靈於入韓叛相日又有鐵橫軸上\n磁臣穿孔道通於餅軸有不行鐵鑰揮入轉挂而自行其工\n狄進以形狀上大鐘一以打辰刻祕有長更銅鬆轉事不傳\n以節銅韓之重行叙而一銅臣左樞右韓之以同同焉\n意古之璿璣亦不遇以此文該亦亡修之無有守幾\n但此若置平則行少不平行助才圓化\n有鶴頂玉似象牙而黃微有赤點\n細爾光洞發香蠟盒及作陰珠帶之辟除蛇虺\n此自洋鵝照到非土產",
+    "vi": "Chất đồng tốt mà chạm vẽ rất khéo.\nTrong rỗng mà hình vòng tròn.\nMặt trước là một tấm tròn tráng men, vành ngoài khắc chữ tây, vành trong thì khắc số tiếng chuông của 24 giờ.\nTý và ngọ cùng một vị ở trên, khắc 12 vạch; quí và đỉnh cùng một vị, 1 vạch, ở Tây Nam; thuận hành chuyển sang bên tả thì sửu và mùi cùng một vị, 2 vạch, cấn và khôn cùng một vị, 3 vạch, đần và thân cùng một vị, 4 vạch, giáp và canh cùng một vị, 5 vạch, ở Tây Bắc; mão và đậu cùng một vị, 6 vạch, ở đưới, ất và tân cùng một vỊ, 7 vạch, ở Đông Bắc, thìn và tuất cùng một vị.\n8 vạch, tốn và càn cùng một vị, 9 vạch, ty và hợi cùng một vị, 10 vạch, bính và nhâm cùng một vị, 11 vạch, ở Đông Nam; lại đến tý và ngọ.\nGiữa tấm trắng men có kim trong kim ngoài, cũng như kiểu trên.\nKim trong đi đến giồ nào thì chuông lớn theo số giờ mà đánh.\nGiữa khoảng từ nhâm đến tý, tý đến quý thì đều có vạch.\nKhi kim trong đi đến chỗ 1 vạch thì chuông đánh 1 tiếng, đến chỗ 12 vạch thì chuông đánh 12 tiếng, để phân biệt đầu giờ và cuối gIỜ, vòng quanh các giờ đều thế, Ngoài tấm tráng men lại còn có một tấm thuỷ tỉnh, có vòng đồng bọc chung quanh, bên tả thì có chốt để tiện mở đóng.\nỞ trung tâm đồng hồ treo những tấm đồng đẹt và tròn."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 0,\n        \"vi_start\": 0,\n        \"vi_end\": 2,\n        \"han_text\": \"刻十二壺癸丁同一位一金在西南順行而左旋\",\n        \"vietnamese_text\": \"Chất đồng tốt mà chạm vẽ rất khéo. Trong rỗng mà hình vòng tròn. Mặt trước là một tấm tròn tráng men, vành ngoài khắc chữ tây, vành trong thì khắc số tiếng chuông của 24 giờ.\",\n        \"score\": -0.00447150638414417\n      },\n      {\n        \"han_start\": 1,\n        \"han_end\": 4,\n        \"vi_start\": 3,\n        \"vi_end\": 3,\n        \"han_text\": \"丑未同一位二厘在東地艮坤同一位在下 六金乙辛同一位七金在東北辰開同一位八金無乾同一位九歷在已刻同一位十卷兩丁同一位 十一風在東南復至於子午為磁臣中心由針外針亦如前式 內卦行到某辰大鐘依走故而打到至子\",\n        \"vietnamese_text\": \"Tý và ngọ cùng một vị ở trên, khắc 12 vạch; quí và đỉnh cùng một vị, 1 vạch, ở Tây Nam; thuận hành chuyển sang bên tả thì sửu và mùi cùng một vị, 2 vạch, cấn và khôn cùng một vị, 3 vạch, đần và thân cùng một vị, 4 vạch, giáp và canh cùng một vị, 5 vạch, ở Tây Bắc; mão và đậu cùng một vị, 6 vạch, ở đưới, ất và tân cùng một vỊ, 7 vạch, ở Đông Bắc, thìn và tuất cùng một vị.\",\n        \"score\": 0.30907301104844087\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 7,\n        \"vi_start\": 4,\n        \"vi_end\": 4,\n        \"han_text\": \"子至癸之中日並有花點內針行至鐘 亦打一聲以辨辰之首尾二十四辰皆然 郡臣之外二水晶忘銅包真左為樞以便同用\",\n        \"vietnamese_text\": \"8 vạch, tốn và càn cùng một vị, 9 vạch, ty và hợi cùng một vị, 10 vạch, bính và nhâm cùng một vị, 11 vạch, ở Đông Nam; lại đến tý và ngọ.\",\n        \"score\": 0.07381171084487743\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 8,\n        \"vi_start\": 5,\n        \"vi_end\": 5,\n        \"han_text\": \"銅壺之中心選圓臣帝銅板內外三層\",\n        \"vietnamese_text\": \"Giữa tấm trắng men có kim trong kim ngoài, cũng như kiểu trên.\",\n        \"score\": 0.15817826522173048\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 10,\n        \"vi_start\": 6,\n        \"vi_end\": 7,\n        \"han_text\": \"皆釘為一內大藏二藏小輪十韓橫直小柱 嚴靈於入韓叛相日又有鐵橫軸上\",\n        \"vietnamese_text\": \"Kim trong đi đến giồ nào thì chuông lớn theo số giờ mà đánh. Giữa khoảng từ nhâm đến tý, tý đến quý thì đều có vạch.\",\n        \"score\": 0.14708104643705625\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 14,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"磁臣穿孔道通於餅軸有不行鐵鑰揮入轉挂而自行其工 狄進以形狀上大鐘一以打辰刻祕有長更銅鬆轉事不傳 以節銅韓之重行叙而一銅臣左樞右韓之以同同焉 意古之璿璣亦不遇以此文該亦亡修之無有守幾\",\n        \"vietnamese_text\": \"Khi kim trong đi đến chỗ 1 vạch thì chuông đánh 1 tiếng, đến chỗ 12 vạch thì chuông đánh 12 tiếng, để phân biệt đầu giờ và cuối gIỜ, vòng quanh các giờ đều thế, Ngoài tấm tráng men lại còn có một tấm thuỷ tỉnh, có vòng đồng bọc chung quanh, bên tả thì có chốt để tiện mở đóng.\",\n        \"score\": 0.18467824924087156\n      },\n      {\n        \"han_start\": 15,\n        \"han_end\": 18,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"但此若置平則行少不平行助才圓化 有鶴頂玉似象牙而黃微有赤點 細爾光洞發香蠟盒及作陰珠帶之辟除蛇虺 此自洋鵝照到非土產\",\n        \"vietnamese_text\": \"Ở trung tâm đồng hồ treo những tấm đồng đẹt và tròn.\",\n        \"score\": 0.03299807384187655\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 0,
+          "vi_start": 0,
+          "vi_end": 2,
+          "han_text": "刻十二壺癸丁同一位一金在西南順行而左旋",
+          "vietnamese_text": "Chất đồng tốt mà chạm vẽ rất khéo. Trong rỗng mà hình vòng tròn. Mặt trước là một tấm tròn tráng men, vành ngoài khắc chữ tây, vành trong thì khắc số tiếng chuông của 24 giờ.",
+          "score": -0.00447150638414417
+        },
+        {
+          "han_start": 1,
+          "han_end": 4,
+          "vi_start": 3,
+          "vi_end": 3,
+          "han_text": "丑未同一位二厘在東地艮坤同一位在下 六金乙辛同一位七金在東北辰開同一位八金無乾同一位九歷在已刻同一位十卷兩丁同一位 十一風在東南復至於子午為磁臣中心由針外針亦如前式 內卦行到某辰大鐘依走故而打到至子",
+          "vietnamese_text": "Tý và ngọ cùng một vị ở trên, khắc 12 vạch; quí và đỉnh cùng một vị, 1 vạch, ở Tây Nam; thuận hành chuyển sang bên tả thì sửu và mùi cùng một vị, 2 vạch, cấn và khôn cùng một vị, 3 vạch, đần và thân cùng một vị, 4 vạch, giáp và canh cùng một vị, 5 vạch, ở Tây Bắc; mão và đậu cùng một vị, 6 vạch, ở đưới, ất và tân cùng một vỊ, 7 vạch, ở Đông Bắc, thìn và tuất cùng một vị.",
+          "score": 0.30907301104844087
+        },
+        {
+          "han_start": 5,
+          "han_end": 7,
+          "vi_start": 4,
+          "vi_end": 4,
+          "han_text": "子至癸之中日並有花點內針行至鐘 亦打一聲以辨辰之首尾二十四辰皆然 郡臣之外二水晶忘銅包真左為樞以便同用",
+          "vietnamese_text": "8 vạch, tốn và càn cùng một vị, 9 vạch, ty và hợi cùng một vị, 10 vạch, bính và nhâm cùng một vị, 11 vạch, ở Đông Nam; lại đến tý và ngọ.",
+          "score": 0.07381171084487743
+        },
+        {
+          "han_start": 8,
+          "han_end": 8,
+          "vi_start": 5,
+          "vi_end": 5,
+          "han_text": "銅壺之中心選圓臣帝銅板內外三層",
+          "vietnamese_text": "Giữa tấm trắng men có kim trong kim ngoài, cũng như kiểu trên.",
+          "score": 0.15817826522173048
+        },
+        {
+          "han_start": 9,
+          "han_end": 10,
+          "vi_start": 6,
+          "vi_end": 7,
+          "han_text": "皆釘為一內大藏二藏小輪十韓橫直小柱 嚴靈於入韓叛相日又有鐵橫軸上",
+          "vietnamese_text": "Kim trong đi đến giồ nào thì chuông lớn theo số giờ mà đánh. Giữa khoảng từ nhâm đến tý, tý đến quý thì đều có vạch.",
+          "score": 0.14708104643705625
+        },
+        {
+          "han_start": 11,
+          "han_end": 14,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "磁臣穿孔道通於餅軸有不行鐵鑰揮入轉挂而自行其工 狄進以形狀上大鐘一以打辰刻祕有長更銅鬆轉事不傳 以節銅韓之重行叙而一銅臣左樞右韓之以同同焉 意古之璿璣亦不遇以此文該亦亡修之無有守幾",
+          "vietnamese_text": "Khi kim trong đi đến chỗ 1 vạch thì chuông đánh 1 tiếng, đến chỗ 12 vạch thì chuông đánh 12 tiếng, để phân biệt đầu giờ và cuối gIỜ, vòng quanh các giờ đều thế, Ngoài tấm tráng men lại còn có một tấm thuỷ tỉnh, có vòng đồng bọc chung quanh, bên tả thì có chốt để tiện mở đóng.",
+          "score": 0.18467824924087156
+        },
+        {
+          "han_start": 15,
+          "han_end": 18,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "但此若置平則行少不平行助才圓化 有鶴頂玉似象牙而黃微有赤點 細爾光洞發香蠟盒及作陰珠帶之辟除蛇虺 此自洋鵝照到非土產",
+          "vietnamese_text": "Ở trung tâm đồng hồ treo những tấm đồng đẹt và tròn.",
+          "score": 0.03299807384187655
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 9813
+}

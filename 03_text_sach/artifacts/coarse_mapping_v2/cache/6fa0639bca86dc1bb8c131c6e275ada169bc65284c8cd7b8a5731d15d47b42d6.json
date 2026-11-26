@@ -1,0 +1,105 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "6fa0639bca86dc1bb8c131c6e275ada169bc65284c8cd7b8a5731d15d47b42d6",
+  "payload": {
+    "han": "好貨見利爭先家積金銀財帛\n無故尚不辰足尚往二舅一分掌小奇阮聽好酒\n終日酣醉世事金無知說一分\n右中奇阮撮好色取妾二百四十人\n秋房珠翠滿遂搗鹹百步斛而胡椒外二步斛放微加此\n又令各鼎立字\n春一伴每伴五十人稅新人一貫以為佳會轍難之樂\n灵晓王有子長成十五人童幼外三十人\n長子福吳曰德媒早卒\n次子掌瑪次掌文\n其福厚年尚幼少其母同堂兄昧\n故陰養似宮不立為嗣德媒有子福暘\n曰姊鵝曉主亦立之欲立掌殤以厲內左慤知侯保而養云\n乙丑年五月聰王薨其太靈禱分侯其內左於慎侯詐侍遺命於左外\n張福垂密以福厚馬嗣遂捕因掌穩而殺懿力侯曉王等\n常融公若掌瑾為福垂所忌令人告其谋反從之無跡\n以私作鏡一口為证因之效年疽發皆卒\n西山賊泛之岳起僞貴半參谋佐并偽作福峦詞謂陰使作亂\n參谋佐以報掌文言於福淳令說接诸將同查福垂力辨較點非实\n不之罪福垂兮參谋佐亦作召回揚打不招殺之",
+    "vi": "Đàn bà con gái thì đều mặc áo the là và hàng hoa, thêu hoa ở eổ tròn, Co vàng bạc như cát, thóc gạo như bùn, xa xỉ rất mực.\nCựu tham mưu họ Nguyễn là Lê Công Ninh nói rằng những người Nguyễn Phúc Thuần tin dừng, thứ nhất là quốc phó Trương Phúc Loan tham của, thấy lợi thì tranh trước, nhà chứa vàng bạc của cải vô số mà còn không vừa; lại dùng hai người cậu, một là Chưởng thuỷ cơ Nguyễn Noãn, thích rượu. suốt ngày say sưa, việc đời không biết gì cả. hai là Hữu trung cơ Nguyễn Nghiễm, mê gái, lấy 120 người vợ lẽ, buồng sau chứa đầy châu ngọc, mắm muối trăm vạn thạch, hồ tiêu ngoài hai vạn hộc.\nDùng người như thế, hỏi sao không mất nước!\nNăm Kỷ Sửu, Nguyễn Phúc Thuần hạ lệnh cho các huyện lập một bạn du xuân, mỗi bạn 50 người, tiền thuế mỗi người 1 quan, để khi có hội hè thì làm trò vui đánh đu, phóng trưởng là Phúc Hiệu xưng là Đức Mụ, chết sớm, thứ là Chưởng Võ và Chưởng Văn; Nguyễn Phúc Thuần tuổi hơi nhỏ và mẹ Phúc Thuần với Phúc Khoát là anh em họ đồng đường, cho nên ngầm nuôi ở hậu cung, không lập làm kế tự.\nCon Đức Mụ là Phúc Dương gọi là chị Dương, Phúc Khoát cũng không lập, muốn lập Chưởng Võ, cho nội hữu Ý Đức hầu giữ nuôi.\nNăm Ất Dậu tháng 5ö Phúc Khoát mất, thái giám Chử Đức hầu và nội tả Thận Kính hầu giả đi mệnh cho ngoại tả Trương Phúc Loan lấy Phúc Thuần là kế tự, bèn bắt giam Chưởng Võ mà giết Ỹ Đức hầu.\nEm Phúc Khoát là Thường quận công tên là Chưởng Vàng bị Phúc Loan ghét, sai ngươi vu cho tội mưu phân, xét không có hình tích, lấy một khẩu súng riêng làm chứng, bỏ tù mấy năm, phát bệnh ung thư ö lưng mà chết.\nNăm Qúy Ty, giặc Tây Sơn Nguyễn Văn Nhạc nổi đậy, gửi thư cho tham mưu Tá và giả làm lời của Phúc Loan ngầm sai nổi loạn.\nTham mưu Tá đem báo cho Chưởng Văn.\nVăn nói với Nguyễn Phúc Thuần sai các tướng họ Nguyễn cùng tra xét."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 1,\n        \"vi_start\": 0,\n        \"vi_end\": 1,\n        \"han_text\": \"好貨見利爭先家積金銀財帛 無故尚不辰足尚往二舅一分掌小奇阮聽好酒\",\n        \"vietnamese_text\": \"Đàn bà con gái thì đều mặc áo the là và hàng hoa, thêu hoa ở eổ tròn, Co vàng bạc như cát, thóc gạo như bùn, xa xỉ rất mực. Cựu tham mưu họ Nguyễn là Lê Công Ninh nói rằng những người Nguyễn Phúc Thuần tin dừng, thứ nhất là quốc phó Trương Phúc Loan tham của, thấy lợi thì tranh trước, nhà chứa vàng bạc của cải vô số mà còn không vừa; lại dùng hai người cậu, một là Chưởng thuỷ cơ Nguyễn Noãn, thích rượu.\",\n        \"score\": 0.05733146694935793\n      },\n      {\n        \"han_start\": 2,\n        \"han_end\": 2,\n        \"vi_start\": 2,\n        \"vi_end\": 2,\n        \"han_text\": \"終日酣醉世事金無知說一分\",\n        \"vietnamese_text\": \"suốt ngày say sưa, việc đời không biết gì cả.\",\n        \"score\": 0.30326099597714123\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 4,\n        \"vi_start\": 3,\n        \"vi_end\": 4,\n        \"han_text\": \"右中奇阮撮好色取妾二百四十人 秋房珠翠滿遂搗鹹百步斛而胡椒外二步斛放微加此\",\n        \"vietnamese_text\": \"hai là Hữu trung cơ Nguyễn Nghiễm, mê gái, lấy 120 người vợ lẽ, buồng sau chứa đầy châu ngọc, mắm muối trăm vạn thạch, hồ tiêu ngoài hai vạn hộc. Dùng người như thế, hỏi sao không mất nước!\",\n        \"score\": 0.3148929831218308\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 8,\n        \"vi_start\": 5,\n        \"vi_end\": 5,\n        \"han_text\": \"又令各鼎立字 春一伴每伴五十人稅新人一貫以為佳會轍難之樂 灵晓王有子長成十五人童幼外三十人 長子福吳曰德媒早卒\",\n        \"vietnamese_text\": \"Năm Kỷ Sửu, Nguyễn Phúc Thuần hạ lệnh cho các huyện lập một bạn du xuân, mỗi bạn 50 người, tiền thuế mỗi người 1 quan, để khi có hội hè thì làm trò vui đánh đu, phóng trưởng là Phúc Hiệu xưng là Đức Mụ, chết sớm, thứ là Chưởng Võ và Chưởng Văn; Nguyễn Phúc Thuần tuổi hơi nhỏ và mẹ Phúc Thuần với Phúc Khoát là anh em họ đồng đường, cho nên ngầm nuôi ở hậu cung, không lập làm kế tự.\",\n        \"score\": 0.2605620419995461\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 12,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"次子掌瑪次掌文 其福厚年尚幼少其母同堂兄昧 故陰養似宮不立為嗣德媒有子福暘 曰姊鵝曉主亦立之欲立掌殤以厲內左慤知侯保而養云\",\n        \"vietnamese_text\": \"Con Đức Mụ là Phúc Dương gọi là chị Dương, Phúc Khoát cũng không lập, muốn lập Chưởng Võ, cho nội hữu Ý Đức hầu giữ nuôi.\",\n        \"score\": 0.06322425006024636\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 14,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"乙丑年五月聰王薨其太靈禱分侯其內左於慎侯詐侍遺命於左外 張福垂密以福厚馬嗣遂捕因掌穩而殺懿力侯曉王等\",\n        \"vietnamese_text\": \"Năm Ất Dậu tháng 5ö Phúc Khoát mất, thái giám Chử Đức hầu và nội tả Thận Kính hầu giả đi mệnh cho ngoại tả Trương Phúc Loan lấy Phúc Thuần là kế tự, bèn bắt giam Chưởng Võ mà giết Ỹ Đức hầu.\",\n        \"score\": 0.3341485607058794\n      },\n      {\n        \"han_start\": 15,\n        \"han_end\": 16,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"常融公若掌瑾為福垂所忌令人告其谋反從之無跡 以私作鏡一口為证因之效年疽發皆卒\",\n        \"vietnamese_text\": \"Em Phúc Khoát là Thường quận công tên là Chưởng Vàng bị Phúc Loan ghét, sai ngươi vu cho tội mưu phân, xét không có hình tích, lấy một khẩu súng riêng làm chứng, bỏ tù mấy năm, phát bệnh ung thư ö lưng mà chết.\",\n        \"score\": 0.18094829850285038\n      },\n      {\n        \"han_start\": 17,\n        \"han_end\": 17,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"西山賊泛之岳起僞貴半參谋佐并偽作福峦詞謂陰使作亂\",\n        \"vietnamese_text\": \"Năm Qúy Ty, giặc Tây Sơn Nguyễn Văn Nhạc nổi đậy, gửi thư cho tham mưu Tá và giả làm lời của Phúc Loan ngầm sai nổi loạn.\",\n        \"score\": 0.1254310151834591\n      },\n      {\n        \"han_start\": 18,\n        \"han_end\": 19,\n        \"vi_start\": 10,\n        \"vi_end\": 11,\n        \"han_text\": \"參谋佐以報掌文言於福淳令說接诸將同查福垂力辨較點非实 不之罪福垂兮參谋佐亦作召回揚打不招殺之\",\n        \"vietnamese_text\": \"Tham mưu Tá đem báo cho Chưởng Văn. Văn nói với Nguyễn Phúc Thuần sai các tướng họ Nguyễn cùng tra xét.\",\n        \"score\": 0.16135096394564324\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 1,
+          "vi_start": 0,
+          "vi_end": 1,
+          "han_text": "好貨見利爭先家積金銀財帛 無故尚不辰足尚往二舅一分掌小奇阮聽好酒",
+          "vietnamese_text": "Đàn bà con gái thì đều mặc áo the là và hàng hoa, thêu hoa ở eổ tròn, Co vàng bạc như cát, thóc gạo như bùn, xa xỉ rất mực. Cựu tham mưu họ Nguyễn là Lê Công Ninh nói rằng những người Nguyễn Phúc Thuần tin dừng, thứ nhất là quốc phó Trương Phúc Loan tham của, thấy lợi thì tranh trước, nhà chứa vàng bạc của cải vô số mà còn không vừa; lại dùng hai người cậu, một là Chưởng thuỷ cơ Nguyễn Noãn, thích rượu.",
+          "score": 0.05733146694935793
+        },
+        {
+          "han_start": 2,
+          "han_end": 2,
+          "vi_start": 2,
+          "vi_end": 2,
+          "han_text": "終日酣醉世事金無知說一分",
+          "vietnamese_text": "suốt ngày say sưa, việc đời không biết gì cả.",
+          "score": 0.30326099597714123
+        },
+        {
+          "han_start": 3,
+          "han_end": 4,
+          "vi_start": 3,
+          "vi_end": 4,
+          "han_text": "右中奇阮撮好色取妾二百四十人 秋房珠翠滿遂搗鹹百步斛而胡椒外二步斛放微加此",
+          "vietnamese_text": "hai là Hữu trung cơ Nguyễn Nghiễm, mê gái, lấy 120 người vợ lẽ, buồng sau chứa đầy châu ngọc, mắm muối trăm vạn thạch, hồ tiêu ngoài hai vạn hộc. Dùng người như thế, hỏi sao không mất nước!",
+          "score": 0.3148929831218308
+        },
+        {
+          "han_start": 5,
+          "han_end": 8,
+          "vi_start": 5,
+          "vi_end": 5,
+          "han_text": "又令各鼎立字 春一伴每伴五十人稅新人一貫以為佳會轍難之樂 灵晓王有子長成十五人童幼外三十人 長子福吳曰德媒早卒",
+          "vietnamese_text": "Năm Kỷ Sửu, Nguyễn Phúc Thuần hạ lệnh cho các huyện lập một bạn du xuân, mỗi bạn 50 người, tiền thuế mỗi người 1 quan, để khi có hội hè thì làm trò vui đánh đu, phóng trưởng là Phúc Hiệu xưng là Đức Mụ, chết sớm, thứ là Chưởng Võ và Chưởng Văn; Nguyễn Phúc Thuần tuổi hơi nhỏ và mẹ Phúc Thuần với Phúc Khoát là anh em họ đồng đường, cho nên ngầm nuôi ở hậu cung, không lập làm kế tự.",
+          "score": 0.2605620419995461
+        },
+        {
+          "han_start": 9,
+          "han_end": 12,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "次子掌瑪次掌文 其福厚年尚幼少其母同堂兄昧 故陰養似宮不立為嗣德媒有子福暘 曰姊鵝曉主亦立之欲立掌殤以厲內左慤知侯保而養云",
+          "vietnamese_text": "Con Đức Mụ là Phúc Dương gọi là chị Dương, Phúc Khoát cũng không lập, muốn lập Chưởng Võ, cho nội hữu Ý Đức hầu giữ nuôi.",
+          "score": 0.06322425006024636
+        },
+        {
+          "han_start": 13,
+          "han_end": 14,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "乙丑年五月聰王薨其太靈禱分侯其內左於慎侯詐侍遺命於左外 張福垂密以福厚馬嗣遂捕因掌穩而殺懿力侯曉王等",
+          "vietnamese_text": "Năm Ất Dậu tháng 5ö Phúc Khoát mất, thái giám Chử Đức hầu và nội tả Thận Kính hầu giả đi mệnh cho ngoại tả Trương Phúc Loan lấy Phúc Thuần là kế tự, bèn bắt giam Chưởng Võ mà giết Ỹ Đức hầu.",
+          "score": 0.3341485607058794
+        },
+        {
+          "han_start": 15,
+          "han_end": 16,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "常融公若掌瑾為福垂所忌令人告其谋反從之無跡 以私作鏡一口為证因之效年疽發皆卒",
+          "vietnamese_text": "Em Phúc Khoát là Thường quận công tên là Chưởng Vàng bị Phúc Loan ghét, sai ngươi vu cho tội mưu phân, xét không có hình tích, lấy một khẩu súng riêng làm chứng, bỏ tù mấy năm, phát bệnh ung thư ö lưng mà chết.",
+          "score": 0.18094829850285038
+        },
+        {
+          "han_start": 17,
+          "han_end": 17,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "西山賊泛之岳起僞貴半參谋佐并偽作福峦詞謂陰使作亂",
+          "vietnamese_text": "Năm Qúy Ty, giặc Tây Sơn Nguyễn Văn Nhạc nổi đậy, gửi thư cho tham mưu Tá và giả làm lời của Phúc Loan ngầm sai nổi loạn.",
+          "score": 0.1254310151834591
+        },
+        {
+          "han_start": 18,
+          "han_end": 19,
+          "vi_start": 10,
+          "vi_end": 11,
+          "han_text": "參谋佐以報掌文言於福淳令說接诸將同查福垂力辨較點非实 不之罪福垂兮參谋佐亦作召回揚打不招殺之",
+          "vietnamese_text": "Tham mưu Tá đem báo cho Chưởng Văn. Văn nói với Nguyễn Phúc Thuần sai các tướng họ Nguyễn cùng tra xét.",
+          "score": 0.16135096394564324
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 6328
+}

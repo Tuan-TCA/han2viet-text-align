@@ -1,0 +1,96 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "18eb21b2720174514fc35abcea643d70f6056e56e55604f3a3a4c300d69a7892",
+  "payload": {
+    "han": "詩花樣制至道中望之霖微加玄映穀人多以號珀鞠穎嵌作帽頂\n索祿見萬墨皆爾市不識者一二社亦義\n小學平舍武舍二社並衛循為業\n1景此五年甲子晓因公因凶如人傳言\n謝云八世還中都以自為國公至已適方八世\n乃時王芳取三才圓繪中冠服倭製為武令\n武自掌嘗聖侯隊之自管部至占候利尊各依新樣\n民皆用絲織貴者用蟒袍小波其飭帽以金魏\n又令二處男女改用北國衣裳帶禮以示变異\n至侯婦人皆穿神短衣加男衣則北國亦無也\n三十餘年人良慣習忘其本族\n王師入境登昌鼎人陳惟忠敵詩有八世厭看秦法令\n百年浪覩義衣冠之旬兩申春設鎮撫衙月七月始曉\n論以本國衣服自又制度從前本國亦惟慶用國儉其更製此不得僭用為恭\n奉上德寧聲沈方邊中外混同\n政欲所雪看一譜見常存服客樣衣裙\n應改德國俗條製其更制無仍依國俗通用白布惟有官職方許耳",
+    "vi": "Thuận Hoá có thợ đệt gấm, chăng qua hơn 10 người, chiếu theo số người, mỗi người phải sản ra 4 bức, đội Tiểu sai thu vào kho, gấm vuông giá 9 tiền, gấm dày giá 6 tiền, gấm mỏng giá õ tiền.\nCũng có năm cho nộp tiền thay.\nXứ Thuận Hoá mỗi năm đến tết Nguyên Đán thì tri bạ tàu lễ nhiễu đỏ một tấm, lĩnh trắng hoa tròn 1 tấm (nộp thay tiền 10 quan); mỗi năm ngày Sinh nhật cũng lễ như thế.\nCai bạ tàu chỉ có lễ ngày Sinh nhật 1 tấm đoạn chân kim (thay tiền 17 quan), 1 tấm hồng phương ty (thay tiền ð quan), 1 tấm bạch phương ty (thay tiền 5 quan).\nDinh Quảng Nam có thợ đệt lãnh bóng, mỗi năm nộp thay thuế sai dư, thường tân, tiết liệu bằng lĩnh bóng 46 tấm.\nPhủ Quảng Ngãi, huyện Mộ Hoa, xã Thanh Hảo mỗi năm nộp thay sưu lính 1.170 tấm vải trắng, Huyện Phú Vang các xã Đồng Di, Dương Nỗ, Quân Lỗ sản xuất vải nhỏ, xã An Lưu sản xuất lụa vàng, lụa trắng.\nPhú Vang có thợ thêu gấm rất khéo, kiểu hoa thưa hay dày, khác vẻ mà cùng đẹp; đàn bà hay thêu ở cổ áo và thêu túi trầu.\nHuyện Hương Trà, người xã Quảng Xuyên khéo dệt mũ mã vĩ (đuôi ngựa), có thể làm các hoa rồng phượng, vạn thọ, tam sơn, bát bửu, chế làm mũ đạo sĩ, trông lóng lánh nhỏ mịn như sa đen, người ta lấy hột hổ phách khảm vào chỏm mũ.\nCả huyện Khang Lộc đều dệt vải, không dệt chỉ có một vài xã thôi.\nCác xã Bình Xá, Võ Xá huyện Lệ Thuỷ thì đều dệt lụa làm nghề."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 2,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"詩花樣制至道中望之霖微加玄映穀人多以號珀鞠穎嵌作帽頂 索祿見萬墨皆爾市不識者一二社亦義 小學平舍武舍二社並衛循為業\",\n        \"vietnamese_text\": \"Thuận Hoá có thợ đệt gấm, chăng qua hơn 10 người, chiếu theo số người, mỗi người phải sản ra 4 bức, đội Tiểu sai thu vào kho, gấm vuông giá 9 tiền, gấm dày giá 6 tiền, gấm mỏng giá õ tiền.\",\n        \"score\": 0.09275524092025807\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 4,\n        \"vi_start\": 1,\n        \"vi_end\": 3,\n        \"han_text\": \"1景此五年甲子晓因公因凶如人傳言 謝云八世還中都以自為國公至已適方八世\",\n        \"vietnamese_text\": \"Cũng có năm cho nộp tiền thay. Xứ Thuận Hoá mỗi năm đến tết Nguyên Đán thì tri bạ tàu lễ nhiễu đỏ một tấm, lĩnh trắng hoa tròn 1 tấm (nộp thay tiền 10 quan); mỗi năm ngày Sinh nhật cũng lễ như thế. Cai bạ tàu chỉ có lễ ngày Sinh nhật 1 tấm đoạn chân kim (thay tiền 17 quan), 1 tấm hồng phương ty (thay tiền ð quan), 1 tấm bạch phương ty (thay tiền 5 quan).\",\n        \"score\": 0.07280222923632941\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 6,\n        \"vi_start\": 4,\n        \"vi_end\": 5,\n        \"han_text\": \"乃時王芳取三才圓繪中冠服倭製為武令 武自掌嘗聖侯隊之自管部至占候利尊各依新樣\",\n        \"vietnamese_text\": \"Dinh Quảng Nam có thợ đệt lãnh bóng, mỗi năm nộp thay thuế sai dư, thường tân, tiết liệu bằng lĩnh bóng 46 tấm. Phủ Quảng Ngãi, huyện Mộ Hoa, xã Thanh Hảo mỗi năm nộp thay sưu lính 1.\",\n        \"score\": 0.15095286770077612\n      },\n      {\n        \"han_start\": 7,\n        \"han_end\": 8,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"民皆用絲織貴者用蟒袍小波其飭帽以金魏 又令二處男女改用北國衣裳帶禮以示变異\",\n        \"vietnamese_text\": \"170 tấm vải trắng, Huyện Phú Vang các xã Đồng Di, Dương Nỗ, Quân Lỗ sản xuất vải nhỏ, xã An Lưu sản xuất lụa vàng, lụa trắng.\",\n        \"score\": 0.06342762155126615\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 9,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"至侯婦人皆穿神短衣加男衣則北國亦無也\",\n        \"vietnamese_text\": \"Phú Vang có thợ thêu gấm rất khéo, kiểu hoa thưa hay dày, khác vẻ mà cùng đẹp; đàn bà hay thêu ở cổ áo và thêu túi trầu.\",\n        \"score\": 0.07475541011068979\n      },\n      {\n        \"han_start\": 10,\n        \"han_end\": 12,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"三十餘年人良慣習忘其本族 王師入境登昌鼎人陳惟忠敵詩有八世厭看秦法令 百年浪覩義衣冠之旬兩申春設鎮撫衙月七月始曉\",\n        \"vietnamese_text\": \"Huyện Hương Trà, người xã Quảng Xuyên khéo dệt mũ mã vĩ (đuôi ngựa), có thể làm các hoa rồng phượng, vạn thọ, tam sơn, bát bửu, chế làm mũ đạo sĩ, trông lóng lánh nhỏ mịn như sa đen, người ta lấy hột hổ phách khảm vào chỏm mũ.\",\n        \"score\": 0.13596582639334323\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 13,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"論以本國衣服自又制度從前本國亦惟慶用國儉其更製此不得僭用為恭\",\n        \"vietnamese_text\": \"Cả huyện Khang Lộc đều dệt vải, không dệt chỉ có một vài xã thôi.\",\n        \"score\": 0.10192667750632182\n      },\n      {\n        \"han_start\": 14,\n        \"han_end\": 16,\n        \"vi_start\": 10,\n        \"vi_end\": 10,\n        \"han_text\": \"奉上德寧聲沈方邊中外混同 政欲所雪看一譜見常存服客樣衣裙 應改德國俗條製其更制無仍依國俗通用白布惟有官職方許耳\",\n        \"vietnamese_text\": \"Các xã Bình Xá, Võ Xá huyện Lệ Thuỷ thì đều dệt lụa làm nghề.\",\n        \"score\": -0.0026577029848679156\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 2,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "詩花樣制至道中望之霖微加玄映穀人多以號珀鞠穎嵌作帽頂 索祿見萬墨皆爾市不識者一二社亦義 小學平舍武舍二社並衛循為業",
+          "vietnamese_text": "Thuận Hoá có thợ đệt gấm, chăng qua hơn 10 người, chiếu theo số người, mỗi người phải sản ra 4 bức, đội Tiểu sai thu vào kho, gấm vuông giá 9 tiền, gấm dày giá 6 tiền, gấm mỏng giá õ tiền.",
+          "score": 0.09275524092025807
+        },
+        {
+          "han_start": 3,
+          "han_end": 4,
+          "vi_start": 1,
+          "vi_end": 3,
+          "han_text": "1景此五年甲子晓因公因凶如人傳言 謝云八世還中都以自為國公至已適方八世",
+          "vietnamese_text": "Cũng có năm cho nộp tiền thay. Xứ Thuận Hoá mỗi năm đến tết Nguyên Đán thì tri bạ tàu lễ nhiễu đỏ một tấm, lĩnh trắng hoa tròn 1 tấm (nộp thay tiền 10 quan); mỗi năm ngày Sinh nhật cũng lễ như thế. Cai bạ tàu chỉ có lễ ngày Sinh nhật 1 tấm đoạn chân kim (thay tiền 17 quan), 1 tấm hồng phương ty (thay tiền ð quan), 1 tấm bạch phương ty (thay tiền 5 quan).",
+          "score": 0.07280222923632941
+        },
+        {
+          "han_start": 5,
+          "han_end": 6,
+          "vi_start": 4,
+          "vi_end": 5,
+          "han_text": "乃時王芳取三才圓繪中冠服倭製為武令 武自掌嘗聖侯隊之自管部至占候利尊各依新樣",
+          "vietnamese_text": "Dinh Quảng Nam có thợ đệt lãnh bóng, mỗi năm nộp thay thuế sai dư, thường tân, tiết liệu bằng lĩnh bóng 46 tấm. Phủ Quảng Ngãi, huyện Mộ Hoa, xã Thanh Hảo mỗi năm nộp thay sưu lính 1.",
+          "score": 0.15095286770077612
+        },
+        {
+          "han_start": 7,
+          "han_end": 8,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "民皆用絲織貴者用蟒袍小波其飭帽以金魏 又令二處男女改用北國衣裳帶禮以示变異",
+          "vietnamese_text": "170 tấm vải trắng, Huyện Phú Vang các xã Đồng Di, Dương Nỗ, Quân Lỗ sản xuất vải nhỏ, xã An Lưu sản xuất lụa vàng, lụa trắng.",
+          "score": 0.06342762155126615
+        },
+        {
+          "han_start": 9,
+          "han_end": 9,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "至侯婦人皆穿神短衣加男衣則北國亦無也",
+          "vietnamese_text": "Phú Vang có thợ thêu gấm rất khéo, kiểu hoa thưa hay dày, khác vẻ mà cùng đẹp; đàn bà hay thêu ở cổ áo và thêu túi trầu.",
+          "score": 0.07475541011068979
+        },
+        {
+          "han_start": 10,
+          "han_end": 12,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "三十餘年人良慣習忘其本族 王師入境登昌鼎人陳惟忠敵詩有八世厭看秦法令 百年浪覩義衣冠之旬兩申春設鎮撫衙月七月始曉",
+          "vietnamese_text": "Huyện Hương Trà, người xã Quảng Xuyên khéo dệt mũ mã vĩ (đuôi ngựa), có thể làm các hoa rồng phượng, vạn thọ, tam sơn, bát bửu, chế làm mũ đạo sĩ, trông lóng lánh nhỏ mịn như sa đen, người ta lấy hột hổ phách khảm vào chỏm mũ.",
+          "score": 0.13596582639334323
+        },
+        {
+          "han_start": 13,
+          "han_end": 13,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "論以本國衣服自又制度從前本國亦惟慶用國儉其更製此不得僭用為恭",
+          "vietnamese_text": "Cả huyện Khang Lộc đều dệt vải, không dệt chỉ có một vài xã thôi.",
+          "score": 0.10192667750632182
+        },
+        {
+          "han_start": 14,
+          "han_end": 16,
+          "vi_start": 10,
+          "vi_end": 10,
+          "han_text": "奉上德寧聲沈方邊中外混同 政欲所雪看一譜見常存服客樣衣裙 應改德國俗條製其更制無仍依國俗通用白布惟有官職方許耳",
+          "vietnamese_text": "Các xã Bình Xá, Võ Xá huyện Lệ Thuỷ thì đều dệt lụa làm nghề.",
+          "score": -0.0026577029848679156
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 9250
+}

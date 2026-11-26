@@ -1,0 +1,105 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "ff177259276f1933664f0997d193d481c5fd1888ea7a3bd881549f9f4be661c1",
+  "payload": {
+    "han": "標竹五十核先交圓使付貢船上付監生黃辰\n僧鼎微且金廟東督按備題替臣題定\n臣祖尊有光蜜哀懇產天子天地載三靈與臣微心許臣向化\n若蒙皇恩俯賜御翰墨寶命允而誠臣然殺敢遺陪臣貴表祿謝\n臣無任貼天仰產惶慄之至謹有書下國以聞\n大清左祖仁皇帝不允\n茲正二年甲辰五月祚王公阮福凋時書于天朝廟东\n巡撫都察院老憲產阁下\n伏以產過中天人依翠裁阜財解慢\n在產天子方按五弦之琴滌煩祛等惟老憲臺當作步家之廈\n恭惟河下河馬圖灵津意劍棄員爾世之偉畧遲此功熱\n挺念世之环才瑩為圭璧\n富孝著盛辰之策高標貌清代之民備文武之資作銓衢之字\n粵東幸觀福星\n日南欣舊膏雨\n喜地古称順化故都同奉天朝\n尊虛殺於當年通舟也於此日\n肩吝通得力政祥雲独覩儀正\n某景仰翔切之辰之\n伏願大放章門使滄浪而達碧落恒通雲路伴區壤以接中華\n權丑臨無私普天常振化鈞陶独運亦區陬更沐仁尾寸機附送微識殊除廢舍",
+    "vi": "Lại có thư điếu tế quan Tổng đốc rằng: \"An Nam Thuận Hoá đẳng xứ Tiết chế thái phó Tộ quốc công Nguyễn Phúc Chu kính dâng 100 lạng bạc, lòng thành lễ mọn, kính tế vong linh của Thiên triều tiền Lưỡng Quảng tổng đốc Dương đại tư mã lão Hiến đài, văn điếu rằng: \"Chính khí Trung nguyên; bàng bạc Liêu dương.\nNúi vuông làm thành, nước biếc làm hào; non sông tốt đẹp, sinh người hiền lương; xem Đương công ta, ngào ngạt nức hương; đủ cả văn võ, tài đúc kiêm trường; tiết chế Lưỡng Việt, ơn tới viễn phương...\nThời Hiểu quốc công xưng vương hiệu, người Phúc Kiến là bọn Lý Văn Quang làm loạn ở Gia Định, bắt được đầu số và đồ đảng đưa về nội địa Trung Quốc, công văn gửi cho quan tổng đốc rằng: \"An Nam quốc Thuận Hoá, Quảng Nam đẳng xứ tư mục Nguyễn Bất Nịnh bái thư gửi Thiên triều Mân Chiết tổng đốc Thái tử thái bảo lão hiến đài các hạ.\nTrộm nghe: Núi sông bờ cõi ghì ở bản đồ, Nam Bắc khác nhau, nhưng lễ nhạc chính hình, theo các điển tịch, thì gần xa thường không cách mấy.\nBất Nịnh tôi, xa giữ đất Việt, chút hiểu\n3ã9 văn Đường, cũng là nhờ thanh giáo tới kịp, Nay Thiên triểu có thánh thiên tử, bốn biển một nhà, tám phương cùng lối; trong thì Ngu bệ” ngốn ngang những Cao Quỷ”; ngoài thì Chu phiên?” đầy dẫy toàn Tề Lỗ\".\nKính nghĩ Lão hiến đài các hạ, phượng múa thời lành, rồng. bay thời thịnh.\nKhuê chương chứa kín, trăng soi đất cửu khanh; then khoá giữ gìn, mây mở trời nửa vách.\nHá chỉ rọi đức giáo cho trong nước, mà còn gieo thanh danh tới cối ngoài.\nKhoảng năm Định Mão, bọn Lý Văn Quang, Hà Huy, Tạ Tứ, qua chợi đất hẹp của tôi, ngầm mang lòng xằng, lấn vào trong cõi Gia Định, nhóm họp hơn trăm, càn rỡ tự tôn tự đại, hoặc xưng đô đốc, hoặc xưng quân sư, ngoài ra đều theo thứ bậc mà đặt trộm tên, toan cướp chiếm ấp tôi, bừa giết biên thần."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 1,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"標竹五十核先交圓使付貢船上付監生黃辰 僧鼎微且金廟東督按備題替臣題定\",\n        \"vietnamese_text\": \"Lại có thư điếu tế quan Tổng đốc rằng: \\\"An Nam Thuận Hoá đẳng xứ Tiết chế thái phó Tộ quốc công Nguyễn Phúc Chu kính dâng 100 lạng bạc, lòng thành lễ mọn, kính tế vong linh của Thiên triều tiền Lưỡng Quảng tổng đốc Dương đại tư mã lão Hiến đài, văn điếu rằng: \\\"Chính khí Trung nguyên; bàng bạc Liêu dương.\",\n        \"score\": 0.11211613361178048\n      },\n      {\n        \"han_start\": 2,\n        \"han_end\": 3,\n        \"vi_start\": 1,\n        \"vi_end\": 3,\n        \"han_text\": \"臣祖尊有光蜜哀懇產天子天地載三靈與臣微心許臣向化 若蒙皇恩俯賜御翰墨寶命允而誠臣然殺敢遺陪臣貴表祿謝\",\n        \"vietnamese_text\": \"Núi vuông làm thành, nước biếc làm hào; non sông tốt đẹp, sinh người hiền lương; xem Đương công ta, ngào ngạt nức hương; đủ cả văn võ, tài đúc kiêm trường; tiết chế Lưỡng Việt, ơn tới viễn phương. . .\",\n        \"score\": 0.1416842063308418\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 7,\n        \"vi_start\": 4,\n        \"vi_end\": 4,\n        \"han_text\": \"臣無任貼天仰產惶慄之至謹有書下國以聞 大清左祖仁皇帝不允 茲正二年甲辰五月祚王公阮福凋時書于天朝廟东 巡撫都察院老憲產阁下\",\n        \"vietnamese_text\": \"Thời Hiểu quốc công xưng vương hiệu, người Phúc Kiến là bọn Lý Văn Quang làm loạn ở Gia Định, bắt được đầu số và đồ đảng đưa về nội địa Trung Quốc, công văn gửi cho quan tổng đốc rằng: \\\"An Nam quốc Thuận Hoá, Quảng Nam đẳng xứ tư mục Nguyễn Bất Nịnh bái thư gửi Thiên triều Mân Chiết tổng đốc Thái tử thái bảo lão hiến đài các hạ.\",\n        \"score\": 0.3094216383834386\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 8,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"伏以產過中天人依翠裁阜財解慢\",\n        \"vietnamese_text\": \"Bất Nịnh tôi, xa giữ đất Việt, chút hiểu\",\n        \"score\": 0.1332036418255115\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 10,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"在產天子方按五弦之琴滌煩祛等惟老憲臺當作步家之廈 恭惟河下河馬圖灵津意劍棄員爾世之偉畧遲此功熱\",\n        \"vietnamese_text\": \"3ã9 văn Đường, cũng là nhờ thanh giáo tới kịp, Nay Thiên triểu có thánh thiên tử, bốn biển một nhà, tám phương cùng lối; trong thì Ngu bệ” ngốn ngang những Cao Quỷ”; ngoài thì Chu phiên?\",\n        \"score\": 0.21734819677017134\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 11,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"挺念世之环才瑩為圭璧\",\n        \"vietnamese_text\": \"” đầy dẫy toàn Tề Lỗ\\\".\",\n        \"score\": -0.005707669064915847\n      },\n      {\n        \"han_start\": 12,\n        \"han_end\": 13,\n        \"vi_start\": 9,\n        \"vi_end\": 11,\n        \"han_text\": \"富孝著盛辰之策高標貌清代之民備文武之資作銓衢之字 粵東幸觀福星\",\n        \"vietnamese_text\": \"Kính nghĩ Lão hiến đài các hạ, phượng múa thời lành, rồng. bay thời thịnh. Khuê chương chứa kín, trăng soi đất cửu khanh; then khoá giữ gìn, mây mở trời nửa vách.\",\n        \"score\": 0.23302259791006244\n      },\n      {\n        \"han_start\": 14,\n        \"han_end\": 17,\n        \"vi_start\": 12,\n        \"vi_end\": 12,\n        \"han_text\": \"日南欣舊膏雨 喜地古称順化故都同奉天朝 尊虛殺於當年通舟也於此日 肩吝通得力政祥雲独覩儀正\",\n        \"vietnamese_text\": \"Há chỉ rọi đức giáo cho trong nước, mà còn gieo thanh danh tới cối ngoài.\",\n        \"score\": -0.003683345179448746\n      },\n      {\n        \"han_start\": 18,\n        \"han_end\": 20,\n        \"vi_start\": 13,\n        \"vi_end\": 13,\n        \"han_text\": \"某景仰翔切之辰之 伏願大放章門使滄浪而達碧落恒通雲路伴區壤以接中華 權丑臨無私普天常振化鈞陶独運亦區陬更沐仁尾寸機附送微識殊除廢舍\",\n        \"vietnamese_text\": \"Khoảng năm Định Mão, bọn Lý Văn Quang, Hà Huy, Tạ Tứ, qua chợi đất hẹp của tôi, ngầm mang lòng xằng, lấn vào trong cõi Gia Định, nhóm họp hơn trăm, càn rỡ tự tôn tự đại, hoặc xưng đô đốc, hoặc xưng quân sư, ngoài ra đều theo thứ bậc mà đặt trộm tên, toan cướp chiếm ấp tôi, bừa giết biên thần.\",\n        \"score\": 0.16463392930223894\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 1,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "標竹五十核先交圓使付貢船上付監生黃辰 僧鼎微且金廟東督按備題替臣題定",
+          "vietnamese_text": "Lại có thư điếu tế quan Tổng đốc rằng: \"An Nam Thuận Hoá đẳng xứ Tiết chế thái phó Tộ quốc công Nguyễn Phúc Chu kính dâng 100 lạng bạc, lòng thành lễ mọn, kính tế vong linh của Thiên triều tiền Lưỡng Quảng tổng đốc Dương đại tư mã lão Hiến đài, văn điếu rằng: \"Chính khí Trung nguyên; bàng bạc Liêu dương.",
+          "score": 0.11211613361178048
+        },
+        {
+          "han_start": 2,
+          "han_end": 3,
+          "vi_start": 1,
+          "vi_end": 3,
+          "han_text": "臣祖尊有光蜜哀懇產天子天地載三靈與臣微心許臣向化 若蒙皇恩俯賜御翰墨寶命允而誠臣然殺敢遺陪臣貴表祿謝",
+          "vietnamese_text": "Núi vuông làm thành, nước biếc làm hào; non sông tốt đẹp, sinh người hiền lương; xem Đương công ta, ngào ngạt nức hương; đủ cả văn võ, tài đúc kiêm trường; tiết chế Lưỡng Việt, ơn tới viễn phương. . .",
+          "score": 0.1416842063308418
+        },
+        {
+          "han_start": 4,
+          "han_end": 7,
+          "vi_start": 4,
+          "vi_end": 4,
+          "han_text": "臣無任貼天仰產惶慄之至謹有書下國以聞 大清左祖仁皇帝不允 茲正二年甲辰五月祚王公阮福凋時書于天朝廟东 巡撫都察院老憲產阁下",
+          "vietnamese_text": "Thời Hiểu quốc công xưng vương hiệu, người Phúc Kiến là bọn Lý Văn Quang làm loạn ở Gia Định, bắt được đầu số và đồ đảng đưa về nội địa Trung Quốc, công văn gửi cho quan tổng đốc rằng: \"An Nam quốc Thuận Hoá, Quảng Nam đẳng xứ tư mục Nguyễn Bất Nịnh bái thư gửi Thiên triều Mân Chiết tổng đốc Thái tử thái bảo lão hiến đài các hạ.",
+          "score": 0.3094216383834386
+        },
+        {
+          "han_start": 8,
+          "han_end": 8,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "伏以產過中天人依翠裁阜財解慢",
+          "vietnamese_text": "Bất Nịnh tôi, xa giữ đất Việt, chút hiểu",
+          "score": 0.1332036418255115
+        },
+        {
+          "han_start": 9,
+          "han_end": 10,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "在產天子方按五弦之琴滌煩祛等惟老憲臺當作步家之廈 恭惟河下河馬圖灵津意劍棄員爾世之偉畧遲此功熱",
+          "vietnamese_text": "3ã9 văn Đường, cũng là nhờ thanh giáo tới kịp, Nay Thiên triểu có thánh thiên tử, bốn biển một nhà, tám phương cùng lối; trong thì Ngu bệ” ngốn ngang những Cao Quỷ”; ngoài thì Chu phiên?",
+          "score": 0.21734819677017134
+        },
+        {
+          "han_start": 11,
+          "han_end": 11,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "挺念世之环才瑩為圭璧",
+          "vietnamese_text": "” đầy dẫy toàn Tề Lỗ\".",
+          "score": -0.005707669064915847
+        },
+        {
+          "han_start": 12,
+          "han_end": 13,
+          "vi_start": 9,
+          "vi_end": 11,
+          "han_text": "富孝著盛辰之策高標貌清代之民備文武之資作銓衢之字 粵東幸觀福星",
+          "vietnamese_text": "Kính nghĩ Lão hiến đài các hạ, phượng múa thời lành, rồng. bay thời thịnh. Khuê chương chứa kín, trăng soi đất cửu khanh; then khoá giữ gìn, mây mở trời nửa vách.",
+          "score": 0.23302259791006244
+        },
+        {
+          "han_start": 14,
+          "han_end": 17,
+          "vi_start": 12,
+          "vi_end": 12,
+          "han_text": "日南欣舊膏雨 喜地古称順化故都同奉天朝 尊虛殺於當年通舟也於此日 肩吝通得力政祥雲独覩儀正",
+          "vietnamese_text": "Há chỉ rọi đức giáo cho trong nước, mà còn gieo thanh danh tới cối ngoài.",
+          "score": -0.003683345179448746
+        },
+        {
+          "han_start": 18,
+          "han_end": 20,
+          "vi_start": 13,
+          "vi_end": 13,
+          "han_text": "某景仰翔切之辰之 伏願大放章門使滄浪而達碧落恒通雲路伴區壤以接中華 權丑臨無私普天常振化鈞陶独運亦區陬更沐仁尾寸機附送微識殊除廢舍",
+          "vietnamese_text": "Khoảng năm Định Mão, bọn Lý Văn Quang, Hà Huy, Tạ Tứ, qua chợi đất hẹp của tôi, ngầm mang lòng xằng, lấn vào trong cõi Gia Định, nhóm họp hơn trăm, càn rỡ tự tôn tự đại, hoặc xưng đô đốc, hoặc xưng quân sư, ngoài ra đều theo thứ bậc mà đặt trộm tên, toan cướp chiếm ấp tôi, bừa giết biên thần.",
+          "score": 0.16463392930223894
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 2547
+}

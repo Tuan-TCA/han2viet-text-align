@@ -1,0 +1,2963 @@
+{
+ "stage03_identity": {
+  "source_sha256": "f5098f4f1e4e8762e1acf21644368ff81d561c3fca5e7fd0b747e539b61c75e6",
+  "config": {
+   "benchmark_cap": "Cap_01",
+   "benchmark_pages": [
+    1,
+    2
+   ],
+   "benchmark_vi_pages": [
+    186,
+    188
+   ],
+   "sizes": [
+    5,
+    10,
+    15,
+    20,
+    30
+   ],
+   "api_delay": 0.8,
+   "api_timeout": 90,
+   "api_retries": 2,
+   "genre": "history",
+   "fresh_pairs_per_cap": 2,
+   "default_method": "S4"
+  },
+  "method": "S4",
+  "vi": "T1",
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/separate-sentences",
+  "code_sha256": "416f026fed2d656933ec62aa667b2c25580f99c191c4eef7a1e0392abe4bc1e8"
+ },
+ "production_reader_verified": true,
+ "seed_source_traces": [
+  {
+   "window": "Cap_01-027-028",
+   "id": "Cap_01-VI-0220-010",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 298
+   },
+   "anchor": {
+    "viet_pdf_page": 220,
+    "trang_in": 223,
+    "so_muc_ghep_cham_trang": 11,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 2,
+    "han_cua_so_den": 27,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_01-027-028",
+   "id": "Cap_01-VI-0221-001",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 299
+   },
+   "anchor": {
+    "viet_pdf_page": 221,
+    "trang_in": 224,
+    "so_muc_ghep_cham_trang": 11,
+    "han_trang_co_moc": "27",
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 2,
+    "han_cua_so_den": 52,
+    "trang_thai_moc": "đã xác minh mốc",
+    "can_cu": "Hán 27: 4.307 người — Số người của sáu huyện phủ Thăng Hoa và các thuộc."
+   }
+  },
+  {
+   "window": "Cap_01-027-028",
+   "id": "Cap_01-VI-0221-002",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 300
+   },
+   "anchor": {
+    "viet_pdf_page": 221,
+    "trang_in": 224,
+    "so_muc_ghep_cham_trang": 11,
+    "han_trang_co_moc": "27",
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 2,
+    "han_cua_so_den": 52,
+    "trang_thai_moc": "đã xác minh mốc",
+    "can_cu": "Hán 27: 4.307 người — Số người của sáu huyện phủ Thăng Hoa và các thuộc."
+   }
+  },
+  {
+   "window": "Cap_01-027-028",
+   "id": "Cap_01-VI-0221-003",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 301
+   },
+   "anchor": {
+    "viet_pdf_page": 221,
+    "trang_in": 224,
+    "so_muc_ghep_cham_trang": 11,
+    "han_trang_co_moc": "27",
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 2,
+    "han_cua_so_den": 52,
+    "trang_thai_moc": "đã xác minh mốc",
+    "can_cu": "Hán 27: 4.307 người — Số người của sáu huyện phủ Thăng Hoa và các thuộc."
+   }
+  },
+  {
+   "window": "Cap_01-027-028",
+   "id": "Cap_01-VI-0221-004",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 302
+   },
+   "anchor": {
+    "viet_pdf_page": 221,
+    "trang_in": 224,
+    "so_muc_ghep_cham_trang": 11,
+    "han_trang_co_moc": "27",
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 2,
+    "han_cua_so_den": 52,
+    "trang_thai_moc": "đã xác minh mốc",
+    "can_cu": "Hán 27: 4.307 người — Số người của sáu huyện phủ Thăng Hoa và các thuộc."
+   }
+  },
+  {
+   "window": "Cap_01-027-028",
+   "id": "Cap_01-VI-0221-005",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 303
+   },
+   "anchor": {
+    "viet_pdf_page": 221,
+    "trang_in": 224,
+    "so_muc_ghep_cham_trang": 11,
+    "han_trang_co_moc": "27",
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 2,
+    "han_cua_so_den": 52,
+    "trang_thai_moc": "đã xác minh mốc",
+    "can_cu": "Hán 27: 4.307 người — Số người của sáu huyện phủ Thăng Hoa và các thuộc."
+   }
+  },
+  {
+   "window": "Cap_01-027-028",
+   "id": "Cap_01-VI-0221-006",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 304
+   },
+   "anchor": {
+    "viet_pdf_page": 221,
+    "trang_in": 224,
+    "so_muc_ghep_cham_trang": 11,
+    "han_trang_co_moc": "27",
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 2,
+    "han_cua_so_den": 52,
+    "trang_thai_moc": "đã xác minh mốc",
+    "can_cu": "Hán 27: 4.307 người — Số người của sáu huyện phủ Thăng Hoa và các thuộc."
+   }
+  },
+  {
+   "window": "Cap_01-027-028",
+   "id": "Cap_01-VI-0221-007",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 305
+   },
+   "anchor": {
+    "viet_pdf_page": 221,
+    "trang_in": 224,
+    "so_muc_ghep_cham_trang": 11,
+    "han_trang_co_moc": "27",
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 2,
+    "han_cua_so_den": 52,
+    "trang_thai_moc": "đã xác minh mốc",
+    "can_cu": "Hán 27: 4.307 người — Số người của sáu huyện phủ Thăng Hoa và các thuộc."
+   }
+  },
+  {
+   "window": "Cap_01-027-028",
+   "id": "Cap_01-VI-0221-008",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 306
+   },
+   "anchor": {
+    "viet_pdf_page": 221,
+    "trang_in": 224,
+    "so_muc_ghep_cham_trang": 11,
+    "han_trang_co_moc": "27",
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 2,
+    "han_cua_so_den": 52,
+    "trang_thai_moc": "đã xác minh mốc",
+    "can_cu": "Hán 27: 4.307 người — Số người của sáu huyện phủ Thăng Hoa và các thuộc."
+   }
+  },
+  {
+   "window": "Cap_01-027-028",
+   "id": "Cap_01-VI-0221-009",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 307
+   },
+   "anchor": {
+    "viet_pdf_page": 221,
+    "trang_in": 224,
+    "so_muc_ghep_cham_trang": 11,
+    "han_trang_co_moc": "27",
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 2,
+    "han_cua_so_den": 52,
+    "trang_thai_moc": "đã xác minh mốc",
+    "can_cu": "Hán 27: 4.307 người — Số người của sáu huyện phủ Thăng Hoa và các thuộc."
+   }
+  },
+  {
+   "window": "Cap_01-027-028",
+   "id": "Cap_01-VI-0221-010",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 308
+   },
+   "anchor": {
+    "viet_pdf_page": 221,
+    "trang_in": 224,
+    "so_muc_ghep_cham_trang": 11,
+    "han_trang_co_moc": "27",
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 2,
+    "han_cua_so_den": 52,
+    "trang_thai_moc": "đã xác minh mốc",
+    "can_cu": "Hán 27: 4.307 người — Số người của sáu huyện phủ Thăng Hoa và các thuộc."
+   }
+  },
+  {
+   "window": "Cap_01-027-028",
+   "id": "Cap_01-VI-0222-001",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 309
+   },
+   "anchor": {
+    "viet_pdf_page": 222,
+    "trang_in": 225,
+    "so_muc_ghep_cham_trang": 11,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 27,
+    "han_cua_so_den": 52,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_01-027-028",
+   "id": "Cap_01-VI-0222-002",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 310
+   },
+   "anchor": {
+    "viet_pdf_page": 222,
+    "trang_in": 225,
+    "so_muc_ghep_cham_trang": 11,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 27,
+    "han_cua_so_den": 52,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_01-027-028",
+   "id": "Cap_01-VI-0222-003",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 311
+   },
+   "anchor": {
+    "viet_pdf_page": 222,
+    "trang_in": 225,
+    "so_muc_ghep_cham_trang": 11,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 27,
+    "han_cua_so_den": 52,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_01-027-028",
+   "id": "Cap_01-VI-0222-004",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 312
+   },
+   "anchor": {
+    "viet_pdf_page": 222,
+    "trang_in": 225,
+    "so_muc_ghep_cham_trang": 11,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 27,
+    "han_cua_so_den": 52,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_01-027-028",
+   "id": "Cap_01-VI-0222-005",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 313
+   },
+   "anchor": {
+    "viet_pdf_page": 222,
+    "trang_in": 225,
+    "so_muc_ghep_cham_trang": 11,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 27,
+    "han_cua_so_den": 52,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_01-027-028",
+   "id": "Cap_01-VI-0222-006",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 314
+   },
+   "anchor": {
+    "viet_pdf_page": 222,
+    "trang_in": 225,
+    "so_muc_ghep_cham_trang": 11,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 27,
+    "han_cua_so_den": 52,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_01-027-028",
+   "id": "Cap_01-VI-0222-007",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 315
+   },
+   "anchor": {
+    "viet_pdf_page": 222,
+    "trang_in": 225,
+    "so_muc_ghep_cham_trang": 11,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 27,
+    "han_cua_so_den": 52,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_01-027-028",
+   "id": "Cap_01-VI-0222-008",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 316
+   },
+   "anchor": {
+    "viet_pdf_page": 222,
+    "trang_in": 225,
+    "so_muc_ghep_cham_trang": 11,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 27,
+    "han_cua_so_den": 52,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_01-027-028",
+   "id": "Cap_01-VI-0222-009",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 317
+   },
+   "anchor": {
+    "viet_pdf_page": 222,
+    "trang_in": 225,
+    "so_muc_ghep_cham_trang": 11,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 27,
+    "han_cua_so_den": 52,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_01-047-048",
+   "id": "Cap_01-VI-0244-005",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 708
+   },
+   "anchor": {
+    "viet_pdf_page": 244,
+    "trang_in": 247,
+    "so_muc_ghep_cham_trang": 13,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 27,
+    "han_cua_so_den": 52,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_01-047-048",
+   "id": "Cap_01-VI-0244-006",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 709
+   },
+   "anchor": {
+    "viet_pdf_page": 244,
+    "trang_in": 247,
+    "so_muc_ghep_cham_trang": 13,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 27,
+    "han_cua_so_den": 52,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_01-047-048",
+   "id": "Cap_01-VI-0244-009",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 712
+   },
+   "anchor": {
+    "viet_pdf_page": 244,
+    "trang_in": 247,
+    "so_muc_ghep_cham_trang": 13,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 27,
+    "han_cua_so_den": 52,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_01-047-048",
+   "id": "Cap_01-VI-0244-010",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 713
+   },
+   "anchor": {
+    "viet_pdf_page": 244,
+    "trang_in": 247,
+    "so_muc_ghep_cham_trang": 13,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 27,
+    "han_cua_so_den": 52,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_01-047-048",
+   "id": "Cap_01-VI-0244-011",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 714
+   },
+   "anchor": {
+    "viet_pdf_page": 244,
+    "trang_in": 247,
+    "so_muc_ghep_cham_trang": 13,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 27,
+    "han_cua_so_den": 52,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_01-047-048",
+   "id": "Cap_01-VI-0244-012",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 715
+   },
+   "anchor": {
+    "viet_pdf_page": 244,
+    "trang_in": 247,
+    "so_muc_ghep_cham_trang": 13,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 27,
+    "han_cua_so_den": 52,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_01-047-048",
+   "id": "Cap_01-VI-0244-014",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 717
+   },
+   "anchor": {
+    "viet_pdf_page": 244,
+    "trang_in": 247,
+    "so_muc_ghep_cham_trang": 13,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 27,
+    "han_cua_so_den": 52,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_01-047-048",
+   "id": "Cap_01-VI-0244-015",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 718
+   },
+   "anchor": {
+    "viet_pdf_page": 244,
+    "trang_in": 247,
+    "so_muc_ghep_cham_trang": 13,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 27,
+    "han_cua_so_den": 52,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_01-047-048",
+   "id": "Cap_01-VI-0245-001",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 730
+   },
+   "anchor": {
+    "viet_pdf_page": 245,
+    "trang_in": 248,
+    "so_muc_ghep_cham_trang": 9,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 27,
+    "han_cua_so_den": 52,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_01-047-048",
+   "id": "Cap_01-VI-0245-002",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 731
+   },
+   "anchor": {
+    "viet_pdf_page": 245,
+    "trang_in": 248,
+    "so_muc_ghep_cham_trang": 9,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 27,
+    "han_cua_so_den": 52,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_01-047-048",
+   "id": "Cap_01-VI-0245-003",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 732
+   },
+   "anchor": {
+    "viet_pdf_page": 245,
+    "trang_in": 248,
+    "so_muc_ghep_cham_trang": 9,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 27,
+    "han_cua_so_den": 52,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_01-047-048",
+   "id": "Cap_01-VI-0245-004",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 733
+   },
+   "anchor": {
+    "viet_pdf_page": 245,
+    "trang_in": 248,
+    "so_muc_ghep_cham_trang": 9,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 27,
+    "han_cua_so_den": 52,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_01-047-048",
+   "id": "Cap_01-VI-0245-005",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 734
+   },
+   "anchor": {
+    "viet_pdf_page": 245,
+    "trang_in": 248,
+    "so_muc_ghep_cham_trang": 9,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 27,
+    "han_cua_so_den": 52,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_01-047-048",
+   "id": "Cap_01-VI-0245-006",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 735
+   },
+   "anchor": {
+    "viet_pdf_page": 245,
+    "trang_in": 248,
+    "so_muc_ghep_cham_trang": 9,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 27,
+    "han_cua_so_den": 52,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_01-047-048",
+   "id": "Cap_01-VI-0245-007",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 736
+   },
+   "anchor": {
+    "viet_pdf_page": 245,
+    "trang_in": 248,
+    "so_muc_ghep_cham_trang": 9,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 27,
+    "han_cua_so_den": 52,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_01-047-048",
+   "id": "Cap_01-VI-0245-008",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 737
+   },
+   "anchor": {
+    "viet_pdf_page": 245,
+    "trang_in": 248,
+    "so_muc_ghep_cham_trang": 9,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 27,
+    "han_cua_so_den": 52,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_01-051-052",
+   "id": "Cap_01-VI-0249-006",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 775
+   },
+   "anchor": {
+    "viet_pdf_page": 249,
+    "trang_in": 252,
+    "so_muc_ghep_cham_trang": 12,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 27,
+    "han_cua_so_den": 52,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_01-051-052",
+   "id": "Cap_01-VI-0249-007",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 776
+   },
+   "anchor": {
+    "viet_pdf_page": 249,
+    "trang_in": 252,
+    "so_muc_ghep_cham_trang": 12,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 27,
+    "han_cua_so_den": 52,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_01-051-052",
+   "id": "Cap_01-VI-0249-008",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 777
+   },
+   "anchor": {
+    "viet_pdf_page": 249,
+    "trang_in": 252,
+    "so_muc_ghep_cham_trang": 12,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 27,
+    "han_cua_so_den": 52,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_01-051-052",
+   "id": "Cap_01-VI-0249-009",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 778
+   },
+   "anchor": {
+    "viet_pdf_page": 249,
+    "trang_in": 252,
+    "so_muc_ghep_cham_trang": 12,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 27,
+    "han_cua_so_den": 52,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_01-051-052",
+   "id": "Cap_01-VI-0249-010",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 779
+   },
+   "anchor": {
+    "viet_pdf_page": 249,
+    "trang_in": 252,
+    "so_muc_ghep_cham_trang": 12,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 27,
+    "han_cua_so_den": 52,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_01-051-052",
+   "id": "Cap_01-VI-0249-011",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 780
+   },
+   "anchor": {
+    "viet_pdf_page": 249,
+    "trang_in": 252,
+    "so_muc_ghep_cham_trang": 12,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 27,
+    "han_cua_so_den": 52,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_01-051-052",
+   "id": "Cap_01-VI-0250-001",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 781
+   },
+   "anchor": {
+    "viet_pdf_page": 250,
+    "trang_in": 253,
+    "so_muc_ghep_cham_trang": 7,
+    "han_trang_co_moc": "52",
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 27,
+    "han_cua_so_den": 53,
+    "trang_thai_moc": "đã xác minh mốc",
+    "can_cu": "Hán 52: 10.285 quan — Sổ tiền tàu voi, ngựa ở sáu huyện Thuận Hoá."
+   }
+  },
+  {
+   "window": "Cap_01-051-052",
+   "id": "Cap_01-VI-0250-002",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 782
+   },
+   "anchor": {
+    "viet_pdf_page": 250,
+    "trang_in": 253,
+    "so_muc_ghep_cham_trang": 7,
+    "han_trang_co_moc": "52",
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 27,
+    "han_cua_so_den": 53,
+    "trang_thai_moc": "đã xác minh mốc",
+    "can_cu": "Hán 52: 10.285 quan — Sổ tiền tàu voi, ngựa ở sáu huyện Thuận Hoá."
+   }
+  },
+  {
+   "window": "Cap_01-051-052",
+   "id": "Cap_01-VI-0250-003",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 783
+   },
+   "anchor": {
+    "viet_pdf_page": 250,
+    "trang_in": 253,
+    "so_muc_ghep_cham_trang": 7,
+    "han_trang_co_moc": "52",
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 27,
+    "han_cua_so_den": 53,
+    "trang_thai_moc": "đã xác minh mốc",
+    "can_cu": "Hán 52: 10.285 quan — Sổ tiền tàu voi, ngựa ở sáu huyện Thuận Hoá."
+   }
+  },
+  {
+   "window": "Cap_01-051-052",
+   "id": "Cap_01-VI-0250-004",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 784
+   },
+   "anchor": {
+    "viet_pdf_page": 250,
+    "trang_in": 253,
+    "so_muc_ghep_cham_trang": 7,
+    "han_trang_co_moc": "52",
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 27,
+    "han_cua_so_den": 53,
+    "trang_thai_moc": "đã xác minh mốc",
+    "can_cu": "Hán 52: 10.285 quan — Sổ tiền tàu voi, ngựa ở sáu huyện Thuận Hoá."
+   }
+  },
+  {
+   "window": "Cap_01-051-052",
+   "id": "Cap_01-VI-0250-005",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 785
+   },
+   "anchor": {
+    "viet_pdf_page": 250,
+    "trang_in": 253,
+    "so_muc_ghep_cham_trang": 7,
+    "han_trang_co_moc": "52",
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 27,
+    "han_cua_so_den": 53,
+    "trang_thai_moc": "đã xác minh mốc",
+    "can_cu": "Hán 52: 10.285 quan — Sổ tiền tàu voi, ngựa ở sáu huyện Thuận Hoá."
+   }
+  },
+  {
+   "window": "Cap_01-051-052",
+   "id": "Cap_01-VI-0250-006",
+   "source": {
+    "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 786
+   },
+   "anchor": {
+    "viet_pdf_page": 250,
+    "trang_in": 253,
+    "so_muc_ghep_cham_trang": 7,
+    "han_trang_co_moc": "52",
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 27,
+    "han_cua_so_den": 53,
+    "trang_thai_moc": "đã xác minh mốc",
+    "can_cu": "Hán 52: 10.285 quan — Sổ tiền tàu voi, ngựa ở sáu huyện Thuận Hoá."
+   }
+  },
+  {
+   "window": "Cap_02-009-010",
+   "id": "Cap_02-VI-0017-009",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 218
+   },
+   "anchor": {
+    "viet_pdf_page": 17,
+    "trang_in": 320,
+    "so_muc_ghep_cham_trang": 4,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 2,
+    "han_cua_so_den": 26,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-009-010",
+   "id": "Cap_02-VI-0017-010",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 219
+   },
+   "anchor": {
+    "viet_pdf_page": 17,
+    "trang_in": 320,
+    "so_muc_ghep_cham_trang": 4,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 2,
+    "han_cua_so_den": 26,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-009-010",
+   "id": "Cap_02-VI-0017-011",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 220
+   },
+   "anchor": {
+    "viet_pdf_page": 17,
+    "trang_in": 320,
+    "so_muc_ghep_cham_trang": 4,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 2,
+    "han_cua_so_den": 26,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-009-010",
+   "id": "Cap_02-VI-0018-008",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 233
+   },
+   "anchor": {
+    "viet_pdf_page": 18,
+    "trang_in": 321,
+    "so_muc_ghep_cham_trang": 5,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 2,
+    "han_cua_so_den": 26,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-009-010",
+   "id": "Cap_02-VI-0018-009",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 234
+   },
+   "anchor": {
+    "viet_pdf_page": 18,
+    "trang_in": 321,
+    "so_muc_ghep_cham_trang": 5,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 2,
+    "han_cua_so_den": 26,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-009-010",
+   "id": "Cap_02-VI-0018-010",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 235
+   },
+   "anchor": {
+    "viet_pdf_page": 18,
+    "trang_in": 321,
+    "so_muc_ghep_cham_trang": 5,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 2,
+    "han_cua_so_den": 26,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-009-010",
+   "id": "Cap_02-VI-0018-011",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 236
+   },
+   "anchor": {
+    "viet_pdf_page": 18,
+    "trang_in": 321,
+    "so_muc_ghep_cham_trang": 5,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 2,
+    "han_cua_so_den": 26,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-009-010",
+   "id": "Cap_02-VI-0018-012",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 237
+   },
+   "anchor": {
+    "viet_pdf_page": 18,
+    "trang_in": 321,
+    "so_muc_ghep_cham_trang": 5,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 2,
+    "han_cua_so_den": 26,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-009-010",
+   "id": "Cap_02-VI-0019-001",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 245
+   },
+   "anchor": {
+    "viet_pdf_page": 19,
+    "trang_in": 322,
+    "so_muc_ghep_cham_trang": 5,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 2,
+    "han_cua_so_den": 26,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-009-010",
+   "id": "Cap_02-VI-0019-008",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 252
+   },
+   "anchor": {
+    "viet_pdf_page": 19,
+    "trang_in": 322,
+    "so_muc_ghep_cham_trang": 5,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 2,
+    "han_cua_so_den": 26,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-009-010",
+   "id": "Cap_02-VI-0019-009",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 253
+   },
+   "anchor": {
+    "viet_pdf_page": 19,
+    "trang_in": 322,
+    "so_muc_ghep_cham_trang": 5,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 2,
+    "han_cua_so_den": 26,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-009-010",
+   "id": "Cap_02-VI-0019-010",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 254
+   },
+   "anchor": {
+    "viet_pdf_page": 19,
+    "trang_in": 322,
+    "so_muc_ghep_cham_trang": 5,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 2,
+    "han_cua_so_den": 26,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-009-010",
+   "id": "Cap_02-VI-0019-011",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 255
+   },
+   "anchor": {
+    "viet_pdf_page": 19,
+    "trang_in": 322,
+    "so_muc_ghep_cham_trang": 5,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 2,
+    "han_cua_so_den": 26,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-009-010",
+   "id": "Cap_02-VI-0020-008",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 272
+   },
+   "anchor": {
+    "viet_pdf_page": 20,
+    "trang_in": 323,
+    "so_muc_ghep_cham_trang": 4,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 2,
+    "han_cua_so_den": 26,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-009-010",
+   "id": "Cap_02-VI-0020-009",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 273
+   },
+   "anchor": {
+    "viet_pdf_page": 20,
+    "trang_in": 323,
+    "so_muc_ghep_cham_trang": 4,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 2,
+    "han_cua_so_den": 26,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-009-010",
+   "id": "Cap_02-VI-0020-010",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 274
+   },
+   "anchor": {
+    "viet_pdf_page": 20,
+    "trang_in": 323,
+    "so_muc_ghep_cham_trang": 4,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 2,
+    "han_cua_so_den": 26,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-009-010",
+   "id": "Cap_02-VI-0020-011",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 275
+   },
+   "anchor": {
+    "viet_pdf_page": 20,
+    "trang_in": 323,
+    "so_muc_ghep_cham_trang": 4,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 2,
+    "han_cua_so_den": 26,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-009-010",
+   "id": "Cap_02-VI-0021-001",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 276
+   },
+   "anchor": {
+    "viet_pdf_page": 21,
+    "trang_in": 324,
+    "so_muc_ghep_cham_trang": 15,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 2,
+    "han_cua_so_den": 26,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-009-010",
+   "id": "Cap_02-VI-0021-002",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 277
+   },
+   "anchor": {
+    "viet_pdf_page": 21,
+    "trang_in": 324,
+    "so_muc_ghep_cham_trang": 15,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 2,
+    "han_cua_so_den": 26,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-026-027",
+   "id": "Cap_02-VI-0052-014",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 687
+   },
+   "anchor": {
+    "viet_pdf_page": 52,
+    "trang_in": 355,
+    "so_muc_ghep_cham_trang": 12,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 2,
+    "han_cua_so_den": 26,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-026-027",
+   "id": "Cap_02-VI-0053-001",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 688
+   },
+   "anchor": {
+    "viet_pdf_page": 53,
+    "trang_in": 356,
+    "so_muc_ghep_cham_trang": 13,
+    "han_trang_co_moc": "26",
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 2,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "đã xác minh mốc",
+    "can_cu": "Hán 26: 5 vạn lạng bạc — Cuối nửa trái Hán trang 26: chuyện thời Tộ quốc công và tổng đốc Lưỡng Quảng."
+   }
+  },
+  {
+   "window": "Cap_02-026-027",
+   "id": "Cap_02-VI-0053-002",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 689
+   },
+   "anchor": {
+    "viet_pdf_page": 53,
+    "trang_in": 356,
+    "so_muc_ghep_cham_trang": 13,
+    "han_trang_co_moc": "26",
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 2,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "đã xác minh mốc",
+    "can_cu": "Hán 26: 5 vạn lạng bạc — Cuối nửa trái Hán trang 26: chuyện thời Tộ quốc công và tổng đốc Lưỡng Quảng."
+   }
+  },
+  {
+   "window": "Cap_02-026-027",
+   "id": "Cap_02-VI-0053-003",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 690
+   },
+   "anchor": {
+    "viet_pdf_page": 53,
+    "trang_in": 356,
+    "so_muc_ghep_cham_trang": 13,
+    "han_trang_co_moc": "26",
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 2,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "đã xác minh mốc",
+    "can_cu": "Hán 26: 5 vạn lạng bạc — Cuối nửa trái Hán trang 26: chuyện thời Tộ quốc công và tổng đốc Lưỡng Quảng."
+   }
+  },
+  {
+   "window": "Cap_02-026-027",
+   "id": "Cap_02-VI-0053-005",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 692
+   },
+   "anchor": {
+    "viet_pdf_page": 53,
+    "trang_in": 356,
+    "so_muc_ghep_cham_trang": 13,
+    "han_trang_co_moc": "26",
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 2,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "đã xác minh mốc",
+    "can_cu": "Hán 26: 5 vạn lạng bạc — Cuối nửa trái Hán trang 26: chuyện thời Tộ quốc công và tổng đốc Lưỡng Quảng."
+   }
+  },
+  {
+   "window": "Cap_02-026-027",
+   "id": "Cap_02-VI-0053-006",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 693
+   },
+   "anchor": {
+    "viet_pdf_page": 53,
+    "trang_in": 356,
+    "so_muc_ghep_cham_trang": 13,
+    "han_trang_co_moc": "26",
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 2,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "đã xác minh mốc",
+    "can_cu": "Hán 26: 5 vạn lạng bạc — Cuối nửa trái Hán trang 26: chuyện thời Tộ quốc công và tổng đốc Lưỡng Quảng."
+   }
+  },
+  {
+   "window": "Cap_02-026-027",
+   "id": "Cap_02-VI-0053-007",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 694
+   },
+   "anchor": {
+    "viet_pdf_page": 53,
+    "trang_in": 356,
+    "so_muc_ghep_cham_trang": 13,
+    "han_trang_co_moc": "26",
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 2,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "đã xác minh mốc",
+    "can_cu": "Hán 26: 5 vạn lạng bạc — Cuối nửa trái Hán trang 26: chuyện thời Tộ quốc công và tổng đốc Lưỡng Quảng."
+   }
+  },
+  {
+   "window": "Cap_02-026-027",
+   "id": "Cap_02-VI-0053-008",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 695
+   },
+   "anchor": {
+    "viet_pdf_page": 53,
+    "trang_in": 356,
+    "so_muc_ghep_cham_trang": 13,
+    "han_trang_co_moc": "26",
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 2,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "đã xác minh mốc",
+    "can_cu": "Hán 26: 5 vạn lạng bạc — Cuối nửa trái Hán trang 26: chuyện thời Tộ quốc công và tổng đốc Lưỡng Quảng."
+   }
+  },
+  {
+   "window": "Cap_02-026-027",
+   "id": "Cap_02-VI-0053-009",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 696
+   },
+   "anchor": {
+    "viet_pdf_page": 53,
+    "trang_in": 356,
+    "so_muc_ghep_cham_trang": 13,
+    "han_trang_co_moc": "26",
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 2,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "đã xác minh mốc",
+    "can_cu": "Hán 26: 5 vạn lạng bạc — Cuối nửa trái Hán trang 26: chuyện thời Tộ quốc công và tổng đốc Lưỡng Quảng."
+   }
+  },
+  {
+   "window": "Cap_02-026-027",
+   "id": "Cap_02-VI-0053-010",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 697
+   },
+   "anchor": {
+    "viet_pdf_page": 53,
+    "trang_in": 356,
+    "so_muc_ghep_cham_trang": 13,
+    "han_trang_co_moc": "26",
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 2,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "đã xác minh mốc",
+    "can_cu": "Hán 26: 5 vạn lạng bạc — Cuối nửa trái Hán trang 26: chuyện thời Tộ quốc công và tổng đốc Lưỡng Quảng."
+   }
+  },
+  {
+   "window": "Cap_02-026-027",
+   "id": "Cap_02-VI-0053-011",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 698
+   },
+   "anchor": {
+    "viet_pdf_page": 53,
+    "trang_in": 356,
+    "so_muc_ghep_cham_trang": 13,
+    "han_trang_co_moc": "26",
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 2,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "đã xác minh mốc",
+    "can_cu": "Hán 26: 5 vạn lạng bạc — Cuối nửa trái Hán trang 26: chuyện thời Tộ quốc công và tổng đốc Lưỡng Quảng."
+   }
+  },
+  {
+   "window": "Cap_02-026-027",
+   "id": "Cap_02-VI-0053-012",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 699
+   },
+   "anchor": {
+    "viet_pdf_page": 53,
+    "trang_in": 356,
+    "so_muc_ghep_cham_trang": 13,
+    "han_trang_co_moc": "26",
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 2,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "đã xác minh mốc",
+    "can_cu": "Hán 26: 5 vạn lạng bạc — Cuối nửa trái Hán trang 26: chuyện thời Tộ quốc công và tổng đốc Lưỡng Quảng."
+   }
+  },
+  {
+   "window": "Cap_02-026-027",
+   "id": "Cap_02-VI-0053-013",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 700
+   },
+   "anchor": {
+    "viet_pdf_page": 53,
+    "trang_in": 356,
+    "so_muc_ghep_cham_trang": 13,
+    "han_trang_co_moc": "26",
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 2,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "đã xác minh mốc",
+    "can_cu": "Hán 26: 5 vạn lạng bạc — Cuối nửa trái Hán trang 26: chuyện thời Tộ quốc công và tổng đốc Lưỡng Quảng."
+   }
+  },
+  {
+   "window": "Cap_02-026-027",
+   "id": "Cap_02-VI-0055-002",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 712
+   },
+   "anchor": {
+    "viet_pdf_page": 55,
+    "trang_in": 358,
+    "so_muc_ghep_cham_trang": 15,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 26,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-026-027",
+   "id": "Cap_02-VI-0055-003",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 713
+   },
+   "anchor": {
+    "viet_pdf_page": 55,
+    "trang_in": 358,
+    "so_muc_ghep_cham_trang": 15,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 26,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-026-027",
+   "id": "Cap_02-VI-0055-004",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 714
+   },
+   "anchor": {
+    "viet_pdf_page": 55,
+    "trang_in": 358,
+    "so_muc_ghep_cham_trang": 15,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 26,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-026-027",
+   "id": "Cap_02-VI-0055-005",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 715
+   },
+   "anchor": {
+    "viet_pdf_page": 55,
+    "trang_in": 358,
+    "so_muc_ghep_cham_trang": 15,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 26,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-026-027",
+   "id": "Cap_02-VI-0055-006",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 716
+   },
+   "anchor": {
+    "viet_pdf_page": 55,
+    "trang_in": 358,
+    "so_muc_ghep_cham_trang": 15,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 26,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-026-027",
+   "id": "Cap_02-VI-0055-007",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 717
+   },
+   "anchor": {
+    "viet_pdf_page": 55,
+    "trang_in": 358,
+    "so_muc_ghep_cham_trang": 15,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 26,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-026-027",
+   "id": "Cap_02-VI-0055-008",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 718
+   },
+   "anchor": {
+    "viet_pdf_page": 55,
+    "trang_in": 358,
+    "so_muc_ghep_cham_trang": 15,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 26,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-026-027",
+   "id": "Cap_02-VI-0055-009",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 719
+   },
+   "anchor": {
+    "viet_pdf_page": 55,
+    "trang_in": 358,
+    "so_muc_ghep_cham_trang": 15,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 26,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-026-027",
+   "id": "Cap_02-VI-0055-010",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 720
+   },
+   "anchor": {
+    "viet_pdf_page": 55,
+    "trang_in": 358,
+    "so_muc_ghep_cham_trang": 15,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 26,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-026-027",
+   "id": "Cap_02-VI-0055-011",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 721
+   },
+   "anchor": {
+    "viet_pdf_page": 55,
+    "trang_in": 358,
+    "so_muc_ghep_cham_trang": 15,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 26,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-047-048",
+   "id": "Cap_02-VI-0097-011",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 1253
+   },
+   "anchor": {
+    "viet_pdf_page": 97,
+    "trang_in": 400,
+    "so_muc_ghep_cham_trang": 17,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 26,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-047-048",
+   "id": "Cap_02-VI-0097-012",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 1254
+   },
+   "anchor": {
+    "viet_pdf_page": 97,
+    "trang_in": 400,
+    "so_muc_ghep_cham_trang": 17,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 26,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-047-048",
+   "id": "Cap_02-VI-0097-013",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 1255
+   },
+   "anchor": {
+    "viet_pdf_page": 97,
+    "trang_in": 400,
+    "so_muc_ghep_cham_trang": 17,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 26,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-047-048",
+   "id": "Cap_02-VI-0097-014",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 1256
+   },
+   "anchor": {
+    "viet_pdf_page": 97,
+    "trang_in": 400,
+    "so_muc_ghep_cham_trang": 17,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 26,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-047-048",
+   "id": "Cap_02-VI-0097-015",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 1257
+   },
+   "anchor": {
+    "viet_pdf_page": 97,
+    "trang_in": 400,
+    "so_muc_ghep_cham_trang": 17,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 26,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-047-048",
+   "id": "Cap_02-VI-0097-016",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 1258
+   },
+   "anchor": {
+    "viet_pdf_page": 97,
+    "trang_in": 400,
+    "so_muc_ghep_cham_trang": 17,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 26,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-047-048",
+   "id": "Cap_02-VI-0098-001",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 1263
+   },
+   "anchor": {
+    "viet_pdf_page": 98,
+    "trang_in": 401,
+    "so_muc_ghep_cham_trang": 15,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 26,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-047-048",
+   "id": "Cap_02-VI-0098-002",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 1264
+   },
+   "anchor": {
+    "viet_pdf_page": 98,
+    "trang_in": 401,
+    "so_muc_ghep_cham_trang": 15,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 26,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-047-048",
+   "id": "Cap_02-VI-0098-003",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 1265
+   },
+   "anchor": {
+    "viet_pdf_page": 98,
+    "trang_in": 401,
+    "so_muc_ghep_cham_trang": 15,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 26,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-047-048",
+   "id": "Cap_02-VI-0098-004",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 1266
+   },
+   "anchor": {
+    "viet_pdf_page": 98,
+    "trang_in": 401,
+    "so_muc_ghep_cham_trang": 15,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 26,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-047-048",
+   "id": "Cap_02-VI-0098-005",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 1267
+   },
+   "anchor": {
+    "viet_pdf_page": 98,
+    "trang_in": 401,
+    "so_muc_ghep_cham_trang": 15,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 26,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-047-048",
+   "id": "Cap_02-VI-0098-006",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 1268
+   },
+   "anchor": {
+    "viet_pdf_page": 98,
+    "trang_in": 401,
+    "so_muc_ghep_cham_trang": 15,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 26,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-047-048",
+   "id": "Cap_02-VI-0098-007",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 1269
+   },
+   "anchor": {
+    "viet_pdf_page": 98,
+    "trang_in": 401,
+    "so_muc_ghep_cham_trang": 15,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 26,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-047-048",
+   "id": "Cap_02-VI-0098-008",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 1270
+   },
+   "anchor": {
+    "viet_pdf_page": 98,
+    "trang_in": 401,
+    "so_muc_ghep_cham_trang": 15,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 26,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-047-048",
+   "id": "Cap_02-VI-0098-009",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 1271
+   },
+   "anchor": {
+    "viet_pdf_page": 98,
+    "trang_in": 401,
+    "so_muc_ghep_cham_trang": 15,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 26,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-047-048",
+   "id": "Cap_02-VI-0098-010",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 1272
+   },
+   "anchor": {
+    "viet_pdf_page": 98,
+    "trang_in": 401,
+    "so_muc_ghep_cham_trang": 15,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 26,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-047-048",
+   "id": "Cap_02-VI-0100-006",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 1295
+   },
+   "anchor": {
+    "viet_pdf_page": 100,
+    "trang_in": 403,
+    "so_muc_ghep_cham_trang": 14,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 26,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-047-048",
+   "id": "Cap_02-VI-0100-007",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 1296
+   },
+   "anchor": {
+    "viet_pdf_page": 100,
+    "trang_in": 403,
+    "so_muc_ghep_cham_trang": 14,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 26,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-047-048",
+   "id": "Cap_02-VI-0100-008",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 1297
+   },
+   "anchor": {
+    "viet_pdf_page": 100,
+    "trang_in": 403,
+    "so_muc_ghep_cham_trang": 14,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 26,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-047-048",
+   "id": "Cap_02-VI-0100-009",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 1298
+   },
+   "anchor": {
+    "viet_pdf_page": 100,
+    "trang_in": 403,
+    "so_muc_ghep_cham_trang": 14,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 26,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-047-048",
+   "id": "Cap_02-VI-0100-011",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 1300
+   },
+   "anchor": {
+    "viet_pdf_page": 100,
+    "trang_in": 403,
+    "so_muc_ghep_cham_trang": 14,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 26,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-047-048",
+   "id": "Cap_02-VI-0100-012",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 1301
+   },
+   "anchor": {
+    "viet_pdf_page": 100,
+    "trang_in": 403,
+    "so_muc_ghep_cham_trang": 14,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 26,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-047-048",
+   "id": "Cap_02-VI-0100-013",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 1302
+   },
+   "anchor": {
+    "viet_pdf_page": 100,
+    "trang_in": 403,
+    "so_muc_ghep_cham_trang": 14,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 26,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-047-048",
+   "id": "Cap_02-VI-0100-014",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 1303
+   },
+   "anchor": {
+    "viet_pdf_page": 100,
+    "trang_in": 403,
+    "so_muc_ghep_cham_trang": 14,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 26,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-047-048",
+   "id": "Cap_02-VI-0100-015",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 1304
+   },
+   "anchor": {
+    "viet_pdf_page": 100,
+    "trang_in": 403,
+    "so_muc_ghep_cham_trang": 14,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 26,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-047-048",
+   "id": "Cap_02-VI-0100-016",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 1305
+   },
+   "anchor": {
+    "viet_pdf_page": 100,
+    "trang_in": 403,
+    "so_muc_ghep_cham_trang": 14,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 26,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-047-048",
+   "id": "Cap_02-VI-0100-017",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 1306
+   },
+   "anchor": {
+    "viet_pdf_page": 100,
+    "trang_in": 403,
+    "so_muc_ghep_cham_trang": 14,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 26,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-047-048",
+   "id": "Cap_02-VI-0101-001",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 1308
+   },
+   "anchor": {
+    "viet_pdf_page": 101,
+    "trang_in": 404,
+    "so_muc_ghep_cham_trang": 10,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 26,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-047-048",
+   "id": "Cap_02-VI-0101-002",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 1309
+   },
+   "anchor": {
+    "viet_pdf_page": 101,
+    "trang_in": 404,
+    "so_muc_ghep_cham_trang": 10,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 26,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-047-048",
+   "id": "Cap_02-VI-0101-003",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 1310
+   },
+   "anchor": {
+    "viet_pdf_page": 101,
+    "trang_in": 404,
+    "so_muc_ghep_cham_trang": 10,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 26,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-047-048",
+   "id": "Cap_02-VI-0101-004",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 1311
+   },
+   "anchor": {
+    "viet_pdf_page": 101,
+    "trang_in": 404,
+    "so_muc_ghep_cham_trang": 10,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 26,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  },
+  {
+   "window": "Cap_02-047-048",
+   "id": "Cap_02-VI-0101-005",
+   "source": {
+    "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+    "sheet": "CAU_VIET",
+    "row": 1312
+   },
+   "anchor": {
+    "viet_pdf_page": 101,
+    "trang_in": 404,
+    "so_muc_ghep_cham_trang": 10,
+    "han_trang_co_moc": null,
+    "han_trang_ung_vien": null,
+    "han_cua_so_tu": 26,
+    "han_cua_so_den": 50,
+    "trang_thai_moc": "chưa xác minh",
+    "can_cu": null
+   }
+  }
+ ],
+ "extended_fixture_checks": [
+  {
+   "group": "V4-009",
+   "method": "baseline",
+   "exact": false,
+   "span": [
+    545,
+    647
+   ]
+  },
+  {
+   "group": "V4-009",
+   "method": "v4",
+   "exact": false,
+   "span": [
+    545,
+    647
+   ]
+  },
+  {
+   "group": "V4-010",
+   "method": "baseline",
+   "exact": true,
+   "span": [
+    647,
+    664
+   ]
+  },
+  {
+   "group": "V4-010",
+   "method": "v4",
+   "exact": true,
+   "span": [
+    647,
+    664
+   ]
+  },
+  {
+   "group": "V4-011",
+   "method": "baseline",
+   "exact": false,
+   "span": [
+    664,
+    731
+   ]
+  },
+  {
+   "group": "V4-011",
+   "method": "v4",
+   "exact": false,
+   "span": [
+    664,
+    731
+   ]
+  },
+  {
+   "group": "V4-012",
+   "method": "baseline",
+   "exact": false,
+   "span": [
+    731,
+    893
+   ]
+  },
+  {
+   "group": "V4-012",
+   "method": "v4",
+   "exact": false,
+   "span": [
+    731,
+    893
+   ]
+  },
+  {
+   "group": "V4-EXT-001",
+   "method": "baseline",
+   "exact": false,
+   "span": [
+    893,
+    1044
+   ]
+  },
+  {
+   "group": "V4-EXT-001",
+   "method": "v4",
+   "exact": false,
+   "span": [
+    893,
+    1044
+   ]
+  },
+  {
+   "group": "V4-EXT-002",
+   "method": "baseline",
+   "exact": false,
+   "span": [
+    1044,
+    1175
+   ]
+  },
+  {
+   "group": "V4-EXT-002",
+   "method": "v4",
+   "exact": false,
+   "span": [
+    1044,
+    1175
+   ]
+  },
+  {
+   "group": "V4-EXT-003",
+   "method": "baseline",
+   "exact": false,
+   "span": [
+    1175,
+    1274
+   ]
+  },
+  {
+   "group": "V4-EXT-003",
+   "method": "v4",
+   "exact": false,
+   "span": [
+    1175,
+    1274
+   ]
+  },
+  {
+   "group": "V4-EXT-004",
+   "method": "baseline",
+   "exact": false,
+   "span": [
+    1274,
+    1293
+   ]
+  },
+  {
+   "group": "V4-EXT-004",
+   "method": "v4",
+   "exact": false,
+   "span": [
+    1274,
+    1293
+   ]
+  },
+  {
+   "group": "V4-EXT-005",
+   "method": "baseline",
+   "exact": false,
+   "span": [
+    1293,
+    1404
+   ]
+  },
+  {
+   "group": "V4-EXT-005",
+   "method": "v4",
+   "exact": false,
+   "span": [
+    1293,
+    1404
+   ]
+  },
+  {
+   "group": "V4-EXT-006",
+   "method": "baseline",
+   "exact": false,
+   "span": [
+    1404,
+    1426
+   ]
+  },
+  {
+   "group": "V4-EXT-006",
+   "method": "v4",
+   "exact": false,
+   "span": [
+    1404,
+    1426
+   ]
+  },
+  {
+   "group": "V4-EXT-007",
+   "method": "baseline",
+   "exact": true,
+   "span": [
+    1426,
+    1473
+   ]
+  },
+  {
+   "group": "V4-EXT-007",
+   "method": "v4",
+   "exact": true,
+   "span": [
+    1426,
+    1473
+   ]
+  },
+  {
+   "group": "V4-EXT-008",
+   "method": "baseline",
+   "exact": true,
+   "span": [
+    1473,
+    1499
+   ]
+  },
+  {
+   "group": "V4-EXT-008",
+   "method": "v4",
+   "exact": true,
+   "span": [
+    1473,
+    1499
+   ]
+  }
+ ],
+ "pilot_archive_members": [
+  "Stage04_V4/stage04_v4.py",
+  "Stage04_V4/test_stage04_v4.py",
+  "Stage04_V4/v4_alignment.json",
+  "Stage04_V4/v4_alignment.xlsx",
+  "Stage04_V4/v4_comparison.xlsx",
+  "Stage04_V4/v4_report.md",
+  "Stage04_V4/README.md"
+ ],
+ "prior_v4_comparison": [
+  {
+   "Version": "V0 frozen API",
+   "Groups": 15,
+   "Han aligned chars": 834,
+   "Han unresolved chars": 71,
+   "Han aligned coverage": 0.9215469613259668,
+   "VI IDs assigned": 16,
+   "VI IDs unresolved": 0,
+   "Provisional label counts": "5 TRUE / 8 FALSE / 2 UNKNOWN (review workbook)",
+   "Interpretation": "All VI IDs appear assigned, but several assignments are demonstrably wrong; row-level review also has an internal SEM-011 contradiction."
+  },
+  {
+   "Version": "V3 offline candidate",
+   "Groups": 12,
+   "Han aligned chars": 893,
+   "Han unresolved chars": 12,
+   "Han aligned coverage": 0.9867403314917127,
+   "VI IDs assigned": 12,
+   "VI IDs unresolved": 4,
+   "Provisional label counts": "4 TRUE / 1 FALSE / 7 UNKNOWN (provisional)",
+   "Interpretation": "Recovered missing Han spans and reallocated groups; left page-3 continuation out of the two-page window."
+  },
+  {
+   "Version": "V4 source-grounded candidate",
+   "Groups": 12,
+   "Han aligned chars": 893,
+   "Han unresolved chars": 12,
+   "Han aligned coverage": 0.9867403314917127,
+   "VI IDs assigned": 12,
+   "VI IDs unresolved": 4,
+   "Provisional label counts": "5 TRUE / 1 FALSE / 6 UNKNOWN",
+   "Interpretation": "V4 keeps V3's safe span geometry, explicitly flags source-review conflicts, corrects the annual-gifts boundary, and marks all semantic labels UNKNOWN for Gold purposes."
+  },
+  {
+   "Version": null,
+   "Groups": null,
+   "Han aligned chars": null,
+   "Han unresolved chars": null,
+   "Han aligned coverage": null,
+   "VI IDs assigned": null,
+   "VI IDs unresolved": null,
+   "Provisional label counts": null,
+   "Interpretation": null
+  },
+  {
+   "Version": "Decision",
+   "Groups": "V4 is the best current pilot candidate, not a production-ready full-corpus alignment.",
+   "Han aligned chars": null,
+   "Han unresolved chars": null,
+   "Han aligned coverage": null,
+   "VI IDs assigned": null,
+   "VI IDs unresolved": null,
+   "Provisional label counts": null,
+   "Interpretation": null
+  },
+  {
+   "Version": "Key unresolved",
+   "Groups": "Repeated boats/certificate clause at the fee transition; number-heavy OCR in 0186-003, 0187-001/002 and 0188-004; Han page-3 continuation for VI 0189-001..004.",
+   "Han aligned chars": null,
+   "Han unresolved chars": null,
+   "Han aligned coverage": null,
+   "VI IDs assigned": null,
+   "VI IDs unresolved": null,
+   "Provisional label counts": null,
+   "Interpretation": null
+  },
+  {
+   "Version": "Next required validation",
+   "Groups": "Run the same frozen rules on fresh held-out windows in both Caps; independently adjudicate all changed groups before production integration.",
+   "Han aligned chars": null,
+   "Han unresolved chars": null,
+   "Han aligned coverage": null,
+   "VI IDs assigned": null,
+   "VI IDs unresolved": null,
+   "Provisional label counts": null,
+   "Interpretation": null
+  }
+ ],
+ "offline_variants": [
+  {
+   "version": "V0",
+   "groups": 15
+  },
+  {
+   "version": "V1",
+   "groups": 15
+  },
+  {
+   "version": "V2",
+   "groups": 15
+  },
+  {
+   "version": "V3",
+   "groups": 12
+  }
+ ],
+ "offline_replay_exact": true,
+ "offline_comparison_payload_matches": 0,
+ "prior_correction_cases": [
+  {
+   "Case": "A",
+   "Result": "Detected and proposed [[55, 213]]; totals 278, 213, 2727 support the continuation.",
+   "Han_Intervals": [
+    [
+     55,
+     166
+    ],
+    [
+     166,
+     213
+    ]
+   ],
+   "Han_Evidence": " 中等记函七兩米十年下等祀丞六四米八詩各斬共二百七十八人成共二百十三貞七門米共二千七百二十七年",
+   "Semantic_Assessment": "UNKNOWN"
+  },
+  {
+   "Case": "B",
+   "Result": "Proposed [[372, 545]]. Scan/OCR places 有印 at 545; 547 cuts after 有印 inside the next seal-fee opening. The repeated tail and OCR prevent semantic adjudication.",
+   "Han_Intervals": [
+    [
+     372,
+     396
+    ],
+    [
+     531,
+     545
+    ],
+    [
+     545,
+     547
+    ]
+   ],
+   "Han_Evidence": "各船社坊有換懸新禮各一支一陌有印侯并美成各營侯奇該合賦",
+   "Semantic_Assessment": "UNKNOWN"
+  },
+  {
+   "Case": "C",
+   "Result": "Two distinct matches on the same VI PDF page under different fee descriptions; not a duplicate workbook offset or segmentation overlap. Their Han allocation and completeness remain uncertain.",
+   "PDF_Matches": [
+    {
+     "VI_ID": "Cap_01-VI-0187-005",
+     "Workbook_span": [
+      700,
+      771
+     ],
+     "Workbook_row": {
+      "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+      "sheet": "CAU_VIET",
+      "row": 9
+     },
+     "PDF_page": 188,
+     "PDF_normalized_span": [
+      76,
+      147
+     ],
+     "Text": "các thuyền, các xã, các phường, có đổi bằng mới, đều nộp 1 quan 1 tiển."
+    },
+    {
+     "VI_ID": "Cap_01-VI-0188-001",
+     "Workbook_span": [
+      533,
+      608
+     ],
+     "Workbook_row": {
+      "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+      "sheet": "CAU_VIET",
+      "row": 11
+     },
+     "PDF_page": 188,
+     "PDF_normalized_span": [
+      681,
+      756
+     ],
+     "Text": "các thuyển, các xã, thôn, phường, đổi bằng mới đều mỗi người l quan 1 tiền."
+    }
+   ],
+   "Semantic_Assessment": "UNKNOWN"
+  },
+  {
+   "Case": "D",
+   "Result": "Baseline [664,727) preserved. Separate candidate [[664, 731]]; the scan puts the memorial-day clause immediately before the selection passage.",
+   "Han_Intervals": [
+    [
+     664,
+     727
+    ],
+    [
+     727,
+     731
+    ]
+   ],
+   "Han_Evidence": "諱日亦照",
+   "VI_Evidence": "ngày ky cũng thế.",
+   "Semantic_Assessment": "UNKNOWN"
+  },
+  {
+   "Case": "E",
+   "Result": "Combined proposal [[731, 893]]; [893,905) starts a new case. The shared closing total is structural evidence; component OCR amounts still require adjudication.",
+   "Han_Intervals": [
+    [
+     731,
+     893
+    ],
+    [
+     893,
+     905
+    ]
+   ],
+   "Han_Evidence": "共城六百六十四長三四女文雜川人阮金珠同春人陳文見",
+   "Semantic_Assessment": "UNKNOWN"
+  },
+  {
+   "Case": "F",
+   "Result": "Scan and OCR show Duy Xuyên/Đông Xuân continuing on page 3, then Minh Lành and Phú Châu. Do not align these VI rows wholly to Han pages 1–2.",
+   "Continuation": [
+    {
+     "Cue": "duy_xuyen",
+     "Han_Start": 893,
+     "Han_Page": 2,
+     "Han_Text": "雜川人阮金珠",
+     "VI_PDF_normalized_span": [
+      5291,
+      5327
+     ],
+     "VI_Text": "Người ở Duy Xuyên là Nguyễn Kim Châu"
+    },
+    {
+     "Cue": "minh_lanh",
+     "Han_Start": 1044,
+     "Han_Page": 3,
+     "Han_Text": "明灵縣人楊伯錫",
+     "VI_PDF_normalized_span": [
+      5948,
+      5986
+     ],
+     "VI_Text": "Người huyện Minh Lành là Dương Bá Tích"
+    },
+    {
+     "Cue": "phu_chau",
+     "Han_Start": 1175,
+     "Han_Page": 3,
+     "Han_Text": "富洲人陳文情",
+     "VI_PDF_normalized_span": [
+      6508,
+      6541
+     ],
+     "VI_Text": "Người ở Phú Châu là Trần Văn Tình"
+    }
+   ],
+   "Han_Page_3_Span": [
+    905,
+    1371
+   ],
+   "Han_Evidence": "陞记縣上禮精限八笏五兩替余二百十二長五門又重升限四兩二歲五分替底十貞云門十五文内禮精限二笏",
+   "Semantic_Assessment": "UNKNOWN"
+  }
+ ],
+ "extracted_ocr_chars": 1412,
+ "printed_page_extract_chars": 3715
+}

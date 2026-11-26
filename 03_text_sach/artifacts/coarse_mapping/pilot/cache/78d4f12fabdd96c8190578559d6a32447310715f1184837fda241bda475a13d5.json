@@ -1,0 +1,168 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "78d4f12fabdd96c8190578559d6a32447310715f1184837fda241bda475a13d5",
+  "payload": {
+    "han": "價成一千一百十四長五四廿四文百升四十二\n三人法增七千九百六十升\n徑底三百十八長四每廿四文絹三十九疋二十一尺六寸\n東審祇三百三十六人除宮近存寔狗二百七十七人\n收非擔二四千四百三十八千九兩\n八鄉二分\n先明更社二百三十二人除另外穷近存寔油稅一百八十四人\n收成六百五十之五門廿八文花稜綵三十尺\n平順安絹坊五十六人收白稍五十一尺十五尺三寸\n九亥新福縣担扣泡僅花山秩人殺一百四十九人\n除取另存酒稅一百五人收成一百八十四長四的四十七文花洲五原安門人\n故四百五十二人除所另石猶稅一百八十二人\n收五百十四長絹十尺十五尺不升\n華府河東醴陽維川正新云縣及各至之效言四千三百七人\n除員子賦另稱差存彻稅一弓一千二百三十七人\n收金四歲七星絹一千五百四十五尺二十三尺一寸八分\n成三方八千九十二長七四五十七文\n米二千八百四十八色十八升一合\n清安絹方四十五人除穷處召三十六人收白絹四十四足八尺八寸\n春星所人效四十四人除消差存三十三人\n收玄纁綵稅三十三尺尺玄纁素一匠十人收孫十尺七尺五寸素五尺尺開花孫匠一隊人效五十人例祿二百五貞\n收柳次秩六十八尺徑侯二十一長二四四十\n又之胡吳絲二十尺價成五十二亥六四四十文尺 度長四—祿五尺\n鄉十三長一百四十文\n祖螭絲七尺價底十八長四四十文共祿一百疋\n埔花孫匠二隊人效五十人例底二百九六收汝操六十四尺經一百十四一四卅文尺降長七四趣保十疋二十六貴三四二十文祖蹤徐四尺便十長五內廿文",
+    "vi": "Lệ thuế điển bộ nộp thay bằng tiền mỗi mẫu 3 tiển; tiền suất mỗi mẫu 24 đồng: ngụ lộc của cai thu mỗi mẫu 12 đồng, gạo 1 thưng.\nLệ thuế giáp Đông xã Phúc Toàn thuộc Nội phủ. tô ruộng nộp thay bằng tiền mỗi hộc 1 quan 6 tiển, mỗi thưng 12 đồng 8 phân; gạo đầu mẫu mỗi bao nộp thay bằng tiền 2 quan, mỗi thưng 30 đồng; gạo tám cung đốn nộp thay bằng tiền mỗi bát 20 đồng: gạo thường tân mỗi bao nộp thay bằng tiển 2 quan, mỗi thưng 30 đồng.\nTừ đấy cho đến bốn phủ Diên Khánh, Bình Khang.\nBình Thuận, Gia Định, lệ thuế đại khái cũng giống Phú Yên.\nTiền khoán khố một xứ Quảng Nam về năm Kỷ Sửu:\nphủ Thăng Hoa 4.003 quan 1 tiền 13 đồng: phủ Quảng Ngãi 2.816 quan 7 tiền 18 đồng; phủ Qui Nhơn 3.914 quan 5 tiền 59 đồng, phủ Phú Yên 63ã quan 9 tiền 41 đồng: cộng 13.592 quan 4 tiển 49 đồng.\nCác phủ Diên Khánh, Bình Khang, Bình Thuận, Gia Định không phải nộp tiển ấy.\nSố người uà các tiên thuế uà lệ thuế thổ sản của 9 phủ 25 huyện 1 châu xứ Quang Nam, năm Ky Sửu, Canh hưng thư 30. Phủ Điện Bàn, 4 huyện Tân Phúc, An Nông, Hoà Vang, Diên Khánh và các thuộc số người 19.351 người, trừ vi tử cấp ngụ lộc các chức, các lính, các thuyền, các hạng nhiêu phu, tiêu sai, cùng, đào, khách hộ, thực còn nộp thuế 9.545 người, thu các tiền là 24.916 quan 2 tiền 29 đồng, gạo 1.826 bao 23 thưng ð cáp.\nHuyện Phú Châu, số người 7.308 người, trừ các chức, các lính, các hạng cùng, đào, nhiêu phu, còn nộp thuế 5.086 người, thu hồng hoa 33 bao, lụa 2.258 tấm 24 thước ð tấc, tiền 5.015 quan 39 đồng. gạo 405 bao 36 thưng.\nThuộc Tịch Tượng, số người 1.000 người, trừ các chức, các lính, các hạng cùng, đào, còn nộp thuế 759 quan, thu chiếu trơn 5.311 đôi, tiển 766 quan 1 tiền 34 đồng.\nDân phụ phường 272 người, trừ thượng hạng, còn nộp thuế 221 người, thu tiền ð90 quan 1 tiền 36 đồng.\nChâu Xuân Đài, số người 549 người, trừ chức sắc, còn thực nộp thuế 339 người. tiền lệ là 1.432 quan 9 tiền 24 đồng. thu đường phèn 15.922 cân, giá tiền 1.114 quan ð tiền 24 đồng, mỗi cân là 49 đồng, đường cát 7.960 cân, giá tiền 318 quan 4 tiền, mỗi cân là 34 đồng, lụa 39 tấm 21 thước 6 tấc.\nXã Đông Phiên, 336 người, trừ các hạng cùng, đào. còn thực nộp 277 người, thu đường phèn 24.438 cân 9 lạng 8 đồng cân 9 phân.\nXã Quang Minh Đông 233 người, trừ các hạng cùng, đào, lánh ngoại, còn thực nộp 184 người, thu tiển 6ã4 quan ð tiền 28 đồng, lĩnh hoa, lụa hoa 30 tấm.\nPhường đệt lụa Bình An ö6 người, thu lụa trắng 51 tấm 15 thước 3 tấc 9 phân.\nCác xã Bào Nghị, Hoà Sơn chuyên việc đài tải thuộc huyện Tân Phúc, số người 149 người, trừ các chức, các lính, còn nộp thuế 105 người, thu tiển 184 quan 4 tiền 47 đồng."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 0,\n        \"vi_start\": 3,\n        \"vi_end\": 6,\n        \"han_text\": \"價成一千一百十四長五四廿四文百升四十二\",\n        \"vietnamese_text\": \"Từ đấy cho đến bốn phủ Diên Khánh, Bình Khang. Bình Thuận, Gia Định, lệ thuế đại khái cũng giống Phú Yên. Tiền khoán khố một xứ Quảng Nam về năm Kỷ Sửu: phủ Thăng Hoa 4.\",\n        \"score\": 0.0695615170537992\n      },\n      {\n        \"han_start\": 1,\n        \"han_end\": 1,\n        \"vi_start\": 7,\n        \"vi_end\": 10,\n        \"han_text\": \"三人法增七千九百六十升\",\n        \"vietnamese_text\": \"003 quan 1 tiền 13 đồng: phủ Quảng Ngãi 2. 816 quan 7 tiền 18 đồng; phủ Qui Nhơn 3. 914 quan 5 tiền 59 đồng, phủ Phú Yên 63ã quan 9 tiền 41 đồng: cộng 13. 592 quan 4 tiển 49 đồng.\",\n        \"score\": 0.024096042558989\n      },\n      {\n        \"han_start\": 2,\n        \"han_end\": 2,\n        \"vi_start\": 12,\n        \"vi_end\": 15,\n        \"han_text\": \"徑底三百十八長四每廿四文絹三十九疋二十一尺六寸\",\n        \"vietnamese_text\": \"Số người uà các tiên thuế uà lệ thuế thổ sản của 9 phủ 25 huyện 1 châu xứ Quang Nam, năm Ky Sửu, Canh hưng thư 30. Phủ Điện Bàn, 4 huyện Tân Phúc, An Nông, Hoà Vang, Diên Khánh và các thuộc số người 19. 351 người, trừ vi tử cấp ngụ lộc các chức, các lính, các thuyền, các hạng nhiêu phu, tiêu sai, cùng, đào, khách hộ, thực còn nộp thuế 9. 545 người, thu các tiền là 24.\",\n        \"score\": -0.005047370063499198\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 3,\n        \"vi_start\": 16,\n        \"vi_end\": 19,\n        \"han_text\": \"東審祇三百三十六人除宮近存寔狗二百七十七人\",\n        \"vietnamese_text\": \"916 quan 2 tiền 29 đồng, gạo 1. 826 bao 23 thưng ð cáp. Huyện Phú Châu, số người 7. 308 người, trừ các chức, các lính, các hạng cùng, đào, nhiêu phu, còn nộp thuế 5.\",\n        \"score\": -0.0077658496879787825\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 4,\n        \"vi_start\": 20,\n        \"vi_end\": 21,\n        \"han_text\": \"收非擔二四千四百三十八千九兩\",\n        \"vietnamese_text\": \"086 người, thu hồng hoa 33 bao, lụa 2. 258 tấm 24 thước ð tấc, tiền 5.\",\n        \"score\": 0.20125205870853782\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 5,\n        \"vi_start\": 22,\n        \"vi_end\": 22,\n        \"han_text\": \"八鄉二分\",\n        \"vietnamese_text\": \"015 quan 39 đồng.\",\n        \"score\": 0.06786301431654612\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 7,\n        \"vi_start\": 23,\n        \"vi_end\": 25,\n        \"han_text\": \"先明更社二百三十二人除另外穷近存寔油稅一百八十四人 收成六百五十之五門廿八文花稜綵三十尺\",\n        \"vietnamese_text\": \"gạo 405 bao 36 thưng. Thuộc Tịch Tượng, số người 1. 000 người, trừ các chức, các lính, các hạng cùng, đào, còn nộp thuế 759 quan, thu chiếu trơn 5.\",\n        \"score\": 0.21478386955117496\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 8,\n        \"vi_start\": 26,\n        \"vi_end\": 26,\n        \"han_text\": \"平順安絹坊五十六人收白稍五十一尺十五尺三寸\",\n        \"vietnamese_text\": \"311 đôi, tiển 766 quan 1 tiền 34 đồng.\",\n        \"score\": 0.029001203408420873\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 11,\n        \"vi_start\": 27,\n        \"vi_end\": 28,\n        \"han_text\": \"九亥新福縣担扣泡僅花山秩人殺一百四十九人 除取另存酒稅一百五人收成一百八十四長四的四十七文花洲五原安門人 故四百五十二人除所另石猶稅一百八十二人\",\n        \"vietnamese_text\": \"Dân phụ phường 272 người, trừ thượng hạng, còn nộp thuế 221 người, thu tiền ð90 quan 1 tiền 36 đồng. Châu Xuân Đài, số người 549 người, trừ chức sắc, còn thực nộp thuế 339 người.\",\n        \"score\": 0.23282859969912986\n      },\n      {\n        \"han_start\": 12,\n        \"han_end\": 14,\n        \"vi_start\": 29,\n        \"vi_end\": 29,\n        \"han_text\": \"收五百十四長絹十尺十五尺不升 華府河東醴陽維川正新云縣及各至之效言四千三百七人 除員子賦另稱差存彻稅一弓一千二百三十七人\",\n        \"vietnamese_text\": \"tiền lệ là 1.\",\n        \"score\": -0.010864984300053481\n      },\n      {\n        \"han_start\": 15,\n        \"han_end\": 16,\n        \"vi_start\": 30,\n        \"vi_end\": 31,\n        \"han_text\": \"收金四歲七星絹一千五百四十五尺二十三尺一寸八分 成三方八千九十二長七四五十七文\",\n        \"vietnamese_text\": \"432 quan 9 tiền 24 đồng. thu đường phèn 15.\",\n        \"score\": 0.031232970198739027\n      },\n      {\n        \"han_start\": 17,\n        \"han_end\": 18,\n        \"vi_start\": 32,\n        \"vi_end\": 34,\n        \"han_text\": \"米二千八百四十八色十八升一合 清安絹方四十五人除穷處召三十六人收白絹四十四足八尺八寸\",\n        \"vietnamese_text\": \"922 cân, giá tiền 1. 114 quan ð tiền 24 đồng, mỗi cân là 49 đồng, đường cát 7. 960 cân, giá tiền 318 quan 4 tiền, mỗi cân là 34 đồng, lụa 39 tấm 21 thước 6 tấc.\",\n        \"score\": 0.2379619211706295\n      },\n      {\n        \"han_start\": 19,\n        \"han_end\": 19,\n        \"vi_start\": 35,\n        \"vi_end\": 35,\n        \"han_text\": \"春星所人效四十四人除消差存三十三人\",\n        \"vietnamese_text\": \"Xã Đông Phiên, 336 người, trừ các hạng cùng, đào.\",\n        \"score\": 0.0573098474734638\n      },\n      {\n        \"han_start\": 20,\n        \"han_end\": 23,\n        \"vi_start\": 36,\n        \"vi_end\": 36,\n        \"han_text\": \"收玄纁綵稅三十三尺尺玄纁素一匠十人收孫十尺七尺五寸素五尺尺開花孫匠一隊人效五十人例祿二百五貞 收柳次秩六十八尺徑侯二十一長二四四十 又之胡吳絲二十尺價成五十二亥六四四十文尺 度長四—祿五尺 鄉十三長一百四十文\",\n        \"vietnamese_text\": \"còn thực nộp 277 người, thu đường phèn 24.\",\n        \"score\": 0.0039820334178797935\n      },\n      {\n        \"han_start\": 24,\n        \"han_end\": 24,\n        \"vi_start\": 37,\n        \"vi_end\": 37,\n        \"han_text\": \"祖螭絲七尺價底十八長四四十文共祿一百疋\",\n        \"vietnamese_text\": \"438 cân 9 lạng 8 đồng cân 9 phân.\",\n        \"score\": 0.05135627189616511\n      },\n      {\n        \"han_start\": 25,\n        \"han_end\": 25,\n        \"vi_start\": 38,\n        \"vi_end\": 40,\n        \"han_text\": \"埔花孫匠二隊人效五十人例底二百九六收汝操六十四尺經一百十四一四卅文尺降長七四趣保十疋二十六貴三四二十文祖蹤徐四尺便十長五內廿文\",\n        \"vietnamese_text\": \"Xã Quang Minh Đông 233 người, trừ các hạng cùng, đào, lánh ngoại, còn thực nộp 184 người, thu tiển 6ã4 quan ð tiền 28 đồng, lĩnh hoa, lụa hoa 30 tấm. Phường đệt lụa Bình An ö6 người, thu lụa trắng 51 tấm 15 thước 3 tấc 9 phân. Các xã Bào Nghị, Hoà Sơn chuyên việc đài tải thuộc huyện Tân Phúc, số người 149 người, trừ các chức, các lính, còn nộp thuế 105 người, thu tiển 184 quan 4 tiền 47 đồng.\",\n        \"score\": 0.1896230083983912\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 0,
+          "vi_start": 3,
+          "vi_end": 6,
+          "han_text": "價成一千一百十四長五四廿四文百升四十二",
+          "vietnamese_text": "Từ đấy cho đến bốn phủ Diên Khánh, Bình Khang. Bình Thuận, Gia Định, lệ thuế đại khái cũng giống Phú Yên. Tiền khoán khố một xứ Quảng Nam về năm Kỷ Sửu: phủ Thăng Hoa 4.",
+          "score": 0.0695615170537992
+        },
+        {
+          "han_start": 1,
+          "han_end": 1,
+          "vi_start": 7,
+          "vi_end": 10,
+          "han_text": "三人法增七千九百六十升",
+          "vietnamese_text": "003 quan 1 tiền 13 đồng: phủ Quảng Ngãi 2. 816 quan 7 tiền 18 đồng; phủ Qui Nhơn 3. 914 quan 5 tiền 59 đồng, phủ Phú Yên 63ã quan 9 tiền 41 đồng: cộng 13. 592 quan 4 tiển 49 đồng.",
+          "score": 0.024096042558989
+        },
+        {
+          "han_start": 2,
+          "han_end": 2,
+          "vi_start": 12,
+          "vi_end": 15,
+          "han_text": "徑底三百十八長四每廿四文絹三十九疋二十一尺六寸",
+          "vietnamese_text": "Số người uà các tiên thuế uà lệ thuế thổ sản của 9 phủ 25 huyện 1 châu xứ Quang Nam, năm Ky Sửu, Canh hưng thư 30. Phủ Điện Bàn, 4 huyện Tân Phúc, An Nông, Hoà Vang, Diên Khánh và các thuộc số người 19. 351 người, trừ vi tử cấp ngụ lộc các chức, các lính, các thuyền, các hạng nhiêu phu, tiêu sai, cùng, đào, khách hộ, thực còn nộp thuế 9. 545 người, thu các tiền là 24.",
+          "score": -0.005047370063499198
+        },
+        {
+          "han_start": 3,
+          "han_end": 3,
+          "vi_start": 16,
+          "vi_end": 19,
+          "han_text": "東審祇三百三十六人除宮近存寔狗二百七十七人",
+          "vietnamese_text": "916 quan 2 tiền 29 đồng, gạo 1. 826 bao 23 thưng ð cáp. Huyện Phú Châu, số người 7. 308 người, trừ các chức, các lính, các hạng cùng, đào, nhiêu phu, còn nộp thuế 5.",
+          "score": -0.0077658496879787825
+        },
+        {
+          "han_start": 4,
+          "han_end": 4,
+          "vi_start": 20,
+          "vi_end": 21,
+          "han_text": "收非擔二四千四百三十八千九兩",
+          "vietnamese_text": "086 người, thu hồng hoa 33 bao, lụa 2. 258 tấm 24 thước ð tấc, tiền 5.",
+          "score": 0.20125205870853782
+        },
+        {
+          "han_start": 5,
+          "han_end": 5,
+          "vi_start": 22,
+          "vi_end": 22,
+          "han_text": "八鄉二分",
+          "vietnamese_text": "015 quan 39 đồng.",
+          "score": 0.06786301431654612
+        },
+        {
+          "han_start": 6,
+          "han_end": 7,
+          "vi_start": 23,
+          "vi_end": 25,
+          "han_text": "先明更社二百三十二人除另外穷近存寔油稅一百八十四人 收成六百五十之五門廿八文花稜綵三十尺",
+          "vietnamese_text": "gạo 405 bao 36 thưng. Thuộc Tịch Tượng, số người 1. 000 người, trừ các chức, các lính, các hạng cùng, đào, còn nộp thuế 759 quan, thu chiếu trơn 5.",
+          "score": 0.21478386955117496
+        },
+        {
+          "han_start": 8,
+          "han_end": 8,
+          "vi_start": 26,
+          "vi_end": 26,
+          "han_text": "平順安絹坊五十六人收白稍五十一尺十五尺三寸",
+          "vietnamese_text": "311 đôi, tiển 766 quan 1 tiền 34 đồng.",
+          "score": 0.029001203408420873
+        },
+        {
+          "han_start": 9,
+          "han_end": 11,
+          "vi_start": 27,
+          "vi_end": 28,
+          "han_text": "九亥新福縣担扣泡僅花山秩人殺一百四十九人 除取另存酒稅一百五人收成一百八十四長四的四十七文花洲五原安門人 故四百五十二人除所另石猶稅一百八十二人",
+          "vietnamese_text": "Dân phụ phường 272 người, trừ thượng hạng, còn nộp thuế 221 người, thu tiền ð90 quan 1 tiền 36 đồng. Châu Xuân Đài, số người 549 người, trừ chức sắc, còn thực nộp thuế 339 người.",
+          "score": 0.23282859969912986
+        },
+        {
+          "han_start": 12,
+          "han_end": 14,
+          "vi_start": 29,
+          "vi_end": 29,
+          "han_text": "收五百十四長絹十尺十五尺不升 華府河東醴陽維川正新云縣及各至之效言四千三百七人 除員子賦另稱差存彻稅一弓一千二百三十七人",
+          "vietnamese_text": "tiền lệ là 1.",
+          "score": -0.010864984300053481
+        },
+        {
+          "han_start": 15,
+          "han_end": 16,
+          "vi_start": 30,
+          "vi_end": 31,
+          "han_text": "收金四歲七星絹一千五百四十五尺二十三尺一寸八分 成三方八千九十二長七四五十七文",
+          "vietnamese_text": "432 quan 9 tiền 24 đồng. thu đường phèn 15.",
+          "score": 0.031232970198739027
+        },
+        {
+          "han_start": 17,
+          "han_end": 18,
+          "vi_start": 32,
+          "vi_end": 34,
+          "han_text": "米二千八百四十八色十八升一合 清安絹方四十五人除穷處召三十六人收白絹四十四足八尺八寸",
+          "vietnamese_text": "922 cân, giá tiền 1. 114 quan ð tiền 24 đồng, mỗi cân là 49 đồng, đường cát 7. 960 cân, giá tiền 318 quan 4 tiền, mỗi cân là 34 đồng, lụa 39 tấm 21 thước 6 tấc.",
+          "score": 0.2379619211706295
+        },
+        {
+          "han_start": 19,
+          "han_end": 19,
+          "vi_start": 35,
+          "vi_end": 35,
+          "han_text": "春星所人效四十四人除消差存三十三人",
+          "vietnamese_text": "Xã Đông Phiên, 336 người, trừ các hạng cùng, đào.",
+          "score": 0.0573098474734638
+        },
+        {
+          "han_start": 20,
+          "han_end": 23,
+          "vi_start": 36,
+          "vi_end": 36,
+          "han_text": "收玄纁綵稅三十三尺尺玄纁素一匠十人收孫十尺七尺五寸素五尺尺開花孫匠一隊人效五十人例祿二百五貞 收柳次秩六十八尺徑侯二十一長二四四十 又之胡吳絲二十尺價成五十二亥六四四十文尺 度長四—祿五尺 鄉十三長一百四十文",
+          "vietnamese_text": "còn thực nộp 277 người, thu đường phèn 24.",
+          "score": 0.0039820334178797935
+        },
+        {
+          "han_start": 24,
+          "han_end": 24,
+          "vi_start": 37,
+          "vi_end": 37,
+          "han_text": "祖螭絲七尺價底十八長四四十文共祿一百疋",
+          "vietnamese_text": "438 cân 9 lạng 8 đồng cân 9 phân.",
+          "score": 0.05135627189616511
+        },
+        {
+          "han_start": 25,
+          "han_end": 25,
+          "vi_start": 38,
+          "vi_end": 40,
+          "han_text": "埔花孫匠二隊人效五十人例底二百九六收汝操六十四尺經一百十四一四卅文尺降長七四趣保十疋二十六貴三四二十文祖蹤徐四尺便十長五內廿文",
+          "vietnamese_text": "Xã Quang Minh Đông 233 người, trừ các hạng cùng, đào, lánh ngoại, còn thực nộp 184 người, thu tiển 6ã4 quan ð tiền 28 đồng, lĩnh hoa, lụa hoa 30 tấm. Phường đệt lụa Bình An ö6 người, thu lụa trắng 51 tấm 15 thước 3 tấc 9 phân. Các xã Bào Nghị, Hoà Sơn chuyên việc đài tải thuộc huyện Tân Phúc, số người 149 người, trừ các chức, các lính, còn nộp thuế 105 người, thu tiển 184 quan 4 tiền 47 đồng.",
+          "score": 0.1896230083983912
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 8140
+}

@@ -1,0 +1,105 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "02f45395eb993da728e77f35deb04c6fa22e6c3963d74169e441008734fb2e86",
+  "payload": {
+    "han": "康謂知耻近乎勇同是耻其不臣堯去已私以至產買地位也\n今人多以言语不臣屈服得人意無不亡\n凌乱得人憤怨嘗欲不忘直意用法無耻\n夫不知此乃孝者之為止君子之所宜深耻者\n古之大臣更不称便智谋才畧只是一个妨\n三乎無他枝休之有容而已\n孝者須是克去已私直至得所之休之休隱方亡康\n請得天下拖回三代之治方是不員\n吾君不枉此出世一嘗遇也\n吳世璘又有佛錄弊一劄兌福淳不之省其言曰\n窃闻自先君啟字地尚狹艮尚稀\n南未有知定之地北尚有橫山之攬黎\n專年兵華而民無飢璧國有餘焉\n今天下承平日久地廣民藩生穀之土已尽蠻\n山澤之利已尽出加之以為宏龍湖之田又無天災焦潦之亥無終\n自成子以來業價隱孺\n莽臣飢璧其故傳素\n臣窃忠非柔之少也在鉛錢之所致也\n夫民之勢利獨小之能下其葉不可過\n故雖深山有瘴煙之毒虎狼之惡\n大恣有此波之險鯨雖之暴而人常履之而不畏者見其利而忘其害也\n况鑄鉛錢之利其利要倍於他而無產烟虎狼",
+    "vi": "Rồi ngủ bởi không tài.\nCha Bản cố thành hoải cổ Tò dương đình mã uọng; Vô hạn phế hưng tình.\nTung uyên tăng u¡ tự; Cung đình mục tự canh.\nTùn sơn dư cổ tháp; Thặng thuy thoán hoang thành.\nThần đạo nguyên 0ô cứ, Tây quan mạn khắc mình.\nThan cũ chà Bản Roât cổ: Bóng tà dừng ngựa chứng, Man mác nỗi hưng rụng.\nLĩĩng uyển làm chùa Phật; Cung đình thành ruộng cày.\nNúi tàn trở tháp cổ; Nước củ hiện thành hoang.\nThần đạo nguyên 0ô cứ.\nCủc tây tràn khắc bia. ⁄4nh ®hùng ?(oan, Điền môn thực bhúách mạn phân phân."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 3,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"康謂知耻近乎勇同是耻其不臣堯去已私以至產買地位也 今人多以言语不臣屈服得人意無不亡 凌乱得人憤怨嘗欲不忘直意用法無耻 夫不知此乃孝者之為止君子之所宜深耻者\",\n        \"vietnamese_text\": \"Rồi ngủ bởi không tài.\",\n        \"score\": 0.006584684253028493\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 6,\n        \"vi_start\": 1,\n        \"vi_end\": 1,\n        \"han_text\": \"古之大臣更不称便智谋才畧只是一个妨 三乎無他枝休之有容而已 孝者須是克去已私直至得所之休之休隱方亡康\",\n        \"vietnamese_text\": \"Cha Bản cố thành hoải cổ Tò dương đình mã uọng; Vô hạn phế hưng tình.\",\n        \"score\": 0.1808797249738656\n      },\n      {\n        \"han_start\": 7,\n        \"han_end\": 8,\n        \"vi_start\": 2,\n        \"vi_end\": 2,\n        \"han_text\": \"請得天下拖回三代之治方是不員 吾君不枉此出世一嘗遇也\",\n        \"vietnamese_text\": \"Tung uyên tăng u¡ tự; Cung đình mục tự canh.\",\n        \"score\": -0.05559329578371649\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 11,\n        \"vi_start\": 3,\n        \"vi_end\": 4,\n        \"han_text\": \"吳世璘又有佛錄弊一劄兌福淳不之省其言曰 窃闻自先君啟字地尚狹艮尚稀 南未有知定之地北尚有橫山之攬黎\",\n        \"vietnamese_text\": \"Tùn sơn dư cổ tháp; Thặng thuy thoán hoang thành. Thần đạo nguyên 0ô cứ, Tây quan mạn khắc mình.\",\n        \"score\": 0.21131757678498092\n      },\n      {\n        \"han_start\": 12,\n        \"han_end\": 12,\n        \"vi_start\": 5,\n        \"vi_end\": 5,\n        \"han_text\": \"專年兵華而民無飢璧國有餘焉\",\n        \"vietnamese_text\": \"Than cũ chà Bản Roât cổ: Bóng tà dừng ngựa chứng, Man mác nỗi hưng rụng.\",\n        \"score\": 0.00556214357279249\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 15,\n        \"vi_start\": 6,\n        \"vi_end\": 7,\n        \"han_text\": \"今天下承平日久地廣民藩生穀之土已尽蠻 山澤之利已尽出加之以為宏龍湖之田又無天災焦潦之亥無終 自成子以來業價隱孺\",\n        \"vietnamese_text\": \"Lĩĩng uyển làm chùa Phật; Cung đình thành ruộng cày. Núi tàn trở tháp cổ; Nước củ hiện thành hoang.\",\n        \"score\": 0.20744378157508164\n      },\n      {\n        \"han_start\": 16,\n        \"han_end\": 17,\n        \"vi_start\": 8,\n        \"vi_end\": 9,\n        \"han_text\": \"莽臣飢璧其故傳素 臣窃忠非柔之少也在鉛錢之所致也\",\n        \"vietnamese_text\": \"Thần đạo nguyên 0ô cứ. Củc tây tràn khắc bia.\",\n        \"score\": 0.14388238087459643\n      },\n      {\n        \"han_start\": 18,\n        \"han_end\": 20,\n        \"vi_start\": 10,\n        \"vi_end\": 10,\n        \"han_text\": \"夫民之勢利獨小之能下其葉不可過 故雖深山有瘴煙之毒虎狼之惡 大恣有此波之險鯨雖之暴而人常履之而不畏者見其利而忘其害也\",\n        \"vietnamese_text\": \"⁄4nh ®hùng ?\",\n        \"score\": -0.0038164914571518663\n      },\n      {\n        \"han_start\": 21,\n        \"han_end\": 21,\n        \"vi_start\": 11,\n        \"vi_end\": 11,\n        \"han_text\": \"况鑄鉛錢之利其利要倍於他而無產烟虎狼\",\n        \"vietnamese_text\": \"(oan, Điền môn thực bhúách mạn phân phân.\",\n        \"score\": 0.02775631452259745\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 3,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "康謂知耻近乎勇同是耻其不臣堯去已私以至產買地位也 今人多以言语不臣屈服得人意無不亡 凌乱得人憤怨嘗欲不忘直意用法無耻 夫不知此乃孝者之為止君子之所宜深耻者",
+          "vietnamese_text": "Rồi ngủ bởi không tài.",
+          "score": 0.006584684253028493
+        },
+        {
+          "han_start": 4,
+          "han_end": 6,
+          "vi_start": 1,
+          "vi_end": 1,
+          "han_text": "古之大臣更不称便智谋才畧只是一个妨 三乎無他枝休之有容而已 孝者須是克去已私直至得所之休之休隱方亡康",
+          "vietnamese_text": "Cha Bản cố thành hoải cổ Tò dương đình mã uọng; Vô hạn phế hưng tình.",
+          "score": 0.1808797249738656
+        },
+        {
+          "han_start": 7,
+          "han_end": 8,
+          "vi_start": 2,
+          "vi_end": 2,
+          "han_text": "請得天下拖回三代之治方是不員 吾君不枉此出世一嘗遇也",
+          "vietnamese_text": "Tung uyên tăng u¡ tự; Cung đình mục tự canh.",
+          "score": -0.05559329578371649
+        },
+        {
+          "han_start": 9,
+          "han_end": 11,
+          "vi_start": 3,
+          "vi_end": 4,
+          "han_text": "吳世璘又有佛錄弊一劄兌福淳不之省其言曰 窃闻自先君啟字地尚狹艮尚稀 南未有知定之地北尚有橫山之攬黎",
+          "vietnamese_text": "Tùn sơn dư cổ tháp; Thặng thuy thoán hoang thành. Thần đạo nguyên 0ô cứ, Tây quan mạn khắc mình.",
+          "score": 0.21131757678498092
+        },
+        {
+          "han_start": 12,
+          "han_end": 12,
+          "vi_start": 5,
+          "vi_end": 5,
+          "han_text": "專年兵華而民無飢璧國有餘焉",
+          "vietnamese_text": "Than cũ chà Bản Roât cổ: Bóng tà dừng ngựa chứng, Man mác nỗi hưng rụng.",
+          "score": 0.00556214357279249
+        },
+        {
+          "han_start": 13,
+          "han_end": 15,
+          "vi_start": 6,
+          "vi_end": 7,
+          "han_text": "今天下承平日久地廣民藩生穀之土已尽蠻 山澤之利已尽出加之以為宏龍湖之田又無天災焦潦之亥無終 自成子以來業價隱孺",
+          "vietnamese_text": "Lĩĩng uyển làm chùa Phật; Cung đình thành ruộng cày. Núi tàn trở tháp cổ; Nước củ hiện thành hoang.",
+          "score": 0.20744378157508164
+        },
+        {
+          "han_start": 16,
+          "han_end": 17,
+          "vi_start": 8,
+          "vi_end": 9,
+          "han_text": "莽臣飢璧其故傳素 臣窃忠非柔之少也在鉛錢之所致也",
+          "vietnamese_text": "Thần đạo nguyên 0ô cứ. Củc tây tràn khắc bia.",
+          "score": 0.14388238087459643
+        },
+        {
+          "han_start": 18,
+          "han_end": 20,
+          "vi_start": 10,
+          "vi_end": 10,
+          "han_text": "夫民之勢利獨小之能下其葉不可過 故雖深山有瘴煙之毒虎狼之惡 大恣有此波之險鯨雖之暴而人常履之而不畏者見其利而忘其害也",
+          "vietnamese_text": "⁄4nh ®hùng ?",
+          "score": -0.0038164914571518663
+        },
+        {
+          "han_start": 21,
+          "han_end": 21,
+          "vi_start": 11,
+          "vi_end": 11,
+          "han_text": "况鑄鉛錢之利其利要倍於他而無產烟虎狼",
+          "vietnamese_text": "(oan, Điền môn thực bhúách mạn phân phân.",
+          "score": 0.02775631452259745
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 2594
+}

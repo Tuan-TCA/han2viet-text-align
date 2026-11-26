@@ -1,0 +1,105 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "572b14d743b6c7051756444e4d6006fd5c4cb9a9442ec64224d55a99d9486457",
+  "payload": {
+    "han": "就無恒心船一百五十人共軍數七十船\n是受替另八千八百五十人止餘民數八千九百六人\n其內寓祿餘拾并屬軍庫另饒夫以行不併富安府民效一方四千士百四十八人\n除內府各社無另一弓九百七十一人\n本百民寔受另三千六百七十七人\n四指隊并附水縣廣南宮十昭內水附水四般\n共軍數十四報民數受替另一千六百八千人孫民故一千九百九十七人\n其內富祿餘招并產兵庫另以行餘夫不併其民\n應平廉平順右定四府並行地方官取在民為本\n狹兵無送循分營奇隊舶順化有獲義侯既居貞者\n翰治之不也晚國公称王改令為垂\n又邊撫辛未年曾有陳民同困廿之狀以民為本之不安國亦不安\n平居之日未有以固結民心有事之時將何倚恃\n窃念民同变廿已甚如安常守首\n不因的損益立經陳祀以治一新\n尚不可行况亥一府廿民之事\n以給另武象內按三者為首按其他冗實过例甚多\n此事者夾兩坎不可越\n厭言事清以耽分內言之廢文之民\n統羞多方悅受令各衡差餘場\n又受令各衙田租場又受令各衙别歲別納\n又受令各衙義員子又受令各員差員源頭\n又受令各看又受令衙門官更又受令各義人又受令畋釋\n如模告非十年九牧貧困失業殊為可侗就而恒心",
+    "vi": "Xin từ nay trơ đi, lệ thuế tiền thóc sai dư, điển tô, biệt tái, biệt nạp, ngụ lộc các nha, thuế đầu nguồn, tất cả giao 2. Quan phủ huyện từ trước đến giờ chỉ trông vào bất bớ tra hỏi mà lấy lộc, khiến của dân càng hao, tục dân càng bạc.\nXin định cấp lộc thường và lấy lêm tham chăm lười mà thăng giáng.\n3. Dân lậu có hai hạng, có người tránh việc trốn thuế mà đi lang thang, có người đói rét thiết thân mà xiêu tán, nay không chia đẳng hạng, vào số thu thuế tất cả, chúng tất sợ hãi, hoặc đi trộm cướp, bản xã lại phải bồi thuế nhà nước, đân sao chịu nổi?\nXin từ nay hề đỉnh lậu, người có sinh kế thì thu thuế như lệ, người đói rét khốn cùng thì vẫn miễn thuế cho, tuỳ cách vỗ nuôi, cho dân cùng được nhờ sống.\n4. Dân nên để cho yên, không nên làm cho động, động thì đễ loạn, yên thì dễ trị.\nNay sai người đi săn bắn ở rừng núi, tìm gà đòi ngựa, bọn ấy không theo được ý tốt của bể trên mà quấy rối dân địa phương, lại nhiều kẻ giả mạo, đến đâu cũng hiếp tróc, đân ta oán lắm.\nXin từ nay trở đi, sai người làm việc gì, đều có bằng tích, đi về trình ở quan địa phương, để có thể xét rõ phải trái thực giả; nếu có nhiễu hại đến dân, xin được tiện nghỉ xử trị, hoặc đem việc tâu lên, ngõ hầu lòng đân được yên, khỏi đến dao động.\nSố ấy rất là tha thiết, cuối cùng không thấy được theo.\nSau hơn hai mươi năm, quả có loạn Tây Sơn, lời nói nghiệm lắm.\nNhưng Cư Trinh đổi bỏ cái tệ nhiều quan nhiễu dân, mà lại muốn uỷ cho quan huyện trưng thu các thuế, sợ chưa ổn thoả.\nVả lại quan huyện vị thấp quyền khinh, phận hèn lộc ít, sao có thể giải quyết mọi việc được; không bằng chuyên giao cho trấn quan mới là tiện.\nNăm Bính Thân, ty Trấn phủ sai các huyện xã kê khai lính cũ, người xiêu tán không tính, xã nào không có thì chua lệ không có suất lính, xã nào lính cũ hiện còn thì chua là hiện còn."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 1,\n        \"han_end\": 3,\n        \"vi_start\": 0,\n        \"vi_end\": 1,\n        \"han_text\": \"是受替另八千八百五十人止餘民數八千九百六人 其內寓祿餘拾并屬軍庫另饒夫以行不併富安府民效一方四千士百四十八人 除內府各社無另一弓九百七十一人\",\n        \"vietnamese_text\": \"Xin từ nay trơ đi, lệ thuế tiền thóc sai dư, điển tô, biệt tái, biệt nạp, ngụ lộc các nha, thuế đầu nguồn, tất cả giao 2. Quan phủ huyện từ trước đến giờ chỉ trông vào bất bớ tra hỏi mà lấy lộc, khiến của dân càng hao, tục dân càng bạc.\",\n        \"score\": 0.1965488813015032\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 5,\n        \"vi_start\": 2,\n        \"vi_end\": 3,\n        \"han_text\": \"本百民寔受另三千六百七十七人 四指隊并附水縣廣南宮十昭內水附水四般\",\n        \"vietnamese_text\": \"Xin định cấp lộc thường và lấy lêm tham chăm lười mà thăng giáng. 3.\",\n        \"score\": 0.08535656894616404\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 7,\n        \"vi_start\": 4,\n        \"vi_end\": 4,\n        \"han_text\": \"共軍數十四報民數受替另一千六百八千人孫民故一千九百九十七人 其內富祿餘招并產兵庫另以行餘夫不併其民\",\n        \"vietnamese_text\": \"Dân lậu có hai hạng, có người tránh việc trốn thuế mà đi lang thang, có người đói rét thiết thân mà xiêu tán, nay không chia đẳng hạng, vào số thu thuế tất cả, chúng tất sợ hãi, hoặc đi trộm cướp, bản xã lại phải bồi thuế nhà nước, đân sao chịu nổi?\",\n        \"score\": 0.1293733297221054\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 10,\n        \"vi_start\": 5,\n        \"vi_end\": 6,\n        \"han_text\": \"應平廉平順右定四府並行地方官取在民為本 狹兵無送循分營奇隊舶順化有獲義侯既居貞者 翰治之不也晚國公称王改令為垂\",\n        \"vietnamese_text\": \"Xin từ nay hề đỉnh lậu, người có sinh kế thì thu thuế như lệ, người đói rét khốn cùng thì vẫn miễn thuế cho, tuỳ cách vỗ nuôi, cho dân cùng được nhờ sống. 4.\",\n        \"score\": 0.08502239417580576\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 13,\n        \"vi_start\": 7,\n        \"vi_end\": 8,\n        \"han_text\": \"又邊撫辛未年曾有陳民同困廿之狀以民為本之不安國亦不安 平居之日未有以固結民心有事之時將何倚恃 窃念民同变廿已甚如安常守首\",\n        \"vietnamese_text\": \"Dân nên để cho yên, không nên làm cho động, động thì đễ loạn, yên thì dễ trị. Nay sai người đi săn bắn ở rừng núi, tìm gà đòi ngựa, bọn ấy không theo được ý tốt của bể trên mà quấy rối dân địa phương, lại nhiều kẻ giả mạo, đến đâu cũng hiếp tróc, đân ta oán lắm.\",\n        \"score\": 0.20221553530665565\n      },\n      {\n        \"han_start\": 14,\n        \"han_end\": 16,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"不因的損益立經陳祀以治一新 尚不可行况亥一府廿民之事 以給另武象內按三者為首按其他冗實过例甚多\",\n        \"vietnamese_text\": \"Xin từ nay trở đi, sai người làm việc gì, đều có bằng tích, đi về trình ở quan địa phương, để có thể xét rõ phải trái thực giả; nếu có nhiễu hại đến dân, xin được tiện nghỉ xử trị, hoặc đem việc tâu lên, ngõ hầu lòng đân được yên, khỏi đến dao động.\",\n        \"score\": 0.12198727020925994\n      },\n      {\n        \"han_start\": 17,\n        \"han_end\": 17,\n        \"vi_start\": 10,\n        \"vi_end\": 10,\n        \"han_text\": \"此事者夾兩坎不可越\",\n        \"vietnamese_text\": \"Số ấy rất là tha thiết, cuối cùng không thấy được theo.\",\n        \"score\": 0.0356192841571405\n      },\n      {\n        \"han_start\": 18,\n        \"han_end\": 20,\n        \"vi_start\": 11,\n        \"vi_end\": 12,\n        \"han_text\": \"厭言事清以耽分內言之廢文之民 統羞多方悅受令各衡差餘場 又受令各衙田租場又受令各衙别歲別納\",\n        \"vietnamese_text\": \"Sau hơn hai mươi năm, quả có loạn Tây Sơn, lời nói nghiệm lắm. Nhưng Cư Trinh đổi bỏ cái tệ nhiều quan nhiễu dân, mà lại muốn uỷ cho quan huyện trưng thu các thuế, sợ chưa ổn thoả.\",\n        \"score\": 0.12828023483531545\n      },\n      {\n        \"han_start\": 21,\n        \"han_end\": 23,\n        \"vi_start\": 13,\n        \"vi_end\": 14,\n        \"han_text\": \"又受令各衙義員子又受令各員差員源頭 又受令各看又受令衙門官更又受令各義人又受令畋釋 如模告非十年九牧貧困失業殊為可侗就而恒心\",\n        \"vietnamese_text\": \"Vả lại quan huyện vị thấp quyền khinh, phận hèn lộc ít, sao có thể giải quyết mọi việc được; không bằng chuyên giao cho trấn quan mới là tiện. Năm Bính Thân, ty Trấn phủ sai các huyện xã kê khai lính cũ, người xiêu tán không tính, xã nào không có thì chua lệ không có suất lính, xã nào lính cũ hiện còn thì chua là hiện còn.\",\n        \"score\": 0.1329829787902257\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 1,
+          "han_end": 3,
+          "vi_start": 0,
+          "vi_end": 1,
+          "han_text": "是受替另八千八百五十人止餘民數八千九百六人 其內寓祿餘拾并屬軍庫另饒夫以行不併富安府民效一方四千士百四十八人 除內府各社無另一弓九百七十一人",
+          "vietnamese_text": "Xin từ nay trơ đi, lệ thuế tiền thóc sai dư, điển tô, biệt tái, biệt nạp, ngụ lộc các nha, thuế đầu nguồn, tất cả giao 2. Quan phủ huyện từ trước đến giờ chỉ trông vào bất bớ tra hỏi mà lấy lộc, khiến của dân càng hao, tục dân càng bạc.",
+          "score": 0.1965488813015032
+        },
+        {
+          "han_start": 4,
+          "han_end": 5,
+          "vi_start": 2,
+          "vi_end": 3,
+          "han_text": "本百民寔受另三千六百七十七人 四指隊并附水縣廣南宮十昭內水附水四般",
+          "vietnamese_text": "Xin định cấp lộc thường và lấy lêm tham chăm lười mà thăng giáng. 3.",
+          "score": 0.08535656894616404
+        },
+        {
+          "han_start": 6,
+          "han_end": 7,
+          "vi_start": 4,
+          "vi_end": 4,
+          "han_text": "共軍數十四報民數受替另一千六百八千人孫民故一千九百九十七人 其內富祿餘招并產兵庫另以行餘夫不併其民",
+          "vietnamese_text": "Dân lậu có hai hạng, có người tránh việc trốn thuế mà đi lang thang, có người đói rét thiết thân mà xiêu tán, nay không chia đẳng hạng, vào số thu thuế tất cả, chúng tất sợ hãi, hoặc đi trộm cướp, bản xã lại phải bồi thuế nhà nước, đân sao chịu nổi?",
+          "score": 0.1293733297221054
+        },
+        {
+          "han_start": 8,
+          "han_end": 10,
+          "vi_start": 5,
+          "vi_end": 6,
+          "han_text": "應平廉平順右定四府並行地方官取在民為本 狹兵無送循分營奇隊舶順化有獲義侯既居貞者 翰治之不也晚國公称王改令為垂",
+          "vietnamese_text": "Xin từ nay hề đỉnh lậu, người có sinh kế thì thu thuế như lệ, người đói rét khốn cùng thì vẫn miễn thuế cho, tuỳ cách vỗ nuôi, cho dân cùng được nhờ sống. 4.",
+          "score": 0.08502239417580576
+        },
+        {
+          "han_start": 11,
+          "han_end": 13,
+          "vi_start": 7,
+          "vi_end": 8,
+          "han_text": "又邊撫辛未年曾有陳民同困廿之狀以民為本之不安國亦不安 平居之日未有以固結民心有事之時將何倚恃 窃念民同变廿已甚如安常守首",
+          "vietnamese_text": "Dân nên để cho yên, không nên làm cho động, động thì đễ loạn, yên thì dễ trị. Nay sai người đi săn bắn ở rừng núi, tìm gà đòi ngựa, bọn ấy không theo được ý tốt của bể trên mà quấy rối dân địa phương, lại nhiều kẻ giả mạo, đến đâu cũng hiếp tróc, đân ta oán lắm.",
+          "score": 0.20221553530665565
+        },
+        {
+          "han_start": 14,
+          "han_end": 16,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "不因的損益立經陳祀以治一新 尚不可行况亥一府廿民之事 以給另武象內按三者為首按其他冗實过例甚多",
+          "vietnamese_text": "Xin từ nay trở đi, sai người làm việc gì, đều có bằng tích, đi về trình ở quan địa phương, để có thể xét rõ phải trái thực giả; nếu có nhiễu hại đến dân, xin được tiện nghỉ xử trị, hoặc đem việc tâu lên, ngõ hầu lòng đân được yên, khỏi đến dao động.",
+          "score": 0.12198727020925994
+        },
+        {
+          "han_start": 17,
+          "han_end": 17,
+          "vi_start": 10,
+          "vi_end": 10,
+          "han_text": "此事者夾兩坎不可越",
+          "vietnamese_text": "Số ấy rất là tha thiết, cuối cùng không thấy được theo.",
+          "score": 0.0356192841571405
+        },
+        {
+          "han_start": 18,
+          "han_end": 20,
+          "vi_start": 11,
+          "vi_end": 12,
+          "han_text": "厭言事清以耽分內言之廢文之民 統羞多方悅受令各衡差餘場 又受令各衙田租場又受令各衙别歲別納",
+          "vietnamese_text": "Sau hơn hai mươi năm, quả có loạn Tây Sơn, lời nói nghiệm lắm. Nhưng Cư Trinh đổi bỏ cái tệ nhiều quan nhiễu dân, mà lại muốn uỷ cho quan huyện trưng thu các thuế, sợ chưa ổn thoả.",
+          "score": 0.12828023483531545
+        },
+        {
+          "han_start": 21,
+          "han_end": 23,
+          "vi_start": 13,
+          "vi_end": 14,
+          "han_text": "又受令各衙義員子又受令各員差員源頭 又受令各看又受令衙門官更又受令各義人又受令畋釋 如模告非十年九牧貧困失業殊為可侗就而恒心",
+          "vietnamese_text": "Vả lại quan huyện vị thấp quyền khinh, phận hèn lộc ít, sao có thể giải quyết mọi việc được; không bằng chuyên giao cho trấn quan mới là tiện. Năm Bính Thân, ty Trấn phủ sai các huyện xã kê khai lính cũ, người xiêu tán không tính, xã nào không có thì chua lệ không có suất lính, xã nào lính cũ hiện còn thì chua là hiện còn.",
+          "score": 0.1329829787902257
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 2563
+}

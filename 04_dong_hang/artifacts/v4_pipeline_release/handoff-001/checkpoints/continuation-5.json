@@ -1,0 +1,647 @@
+{
+ "window": "continuation",
+ "cap": "Cap_01",
+ "pages": [
+  2,
+  3,
+  4
+ ],
+ "context": 5,
+ "full": false,
+ "ids": [
+  "Cap_01-VI-0187-003",
+  "Cap_01-VI-0187-004",
+  "Cap_01-VI-0187-005",
+  "Cap_01-VI-0188-001",
+  "Cap_01-VI-0188-002"
+ ],
+ "han": [
+  [
+   396,
+   452
+  ],
+  [
+   452,
+   458
+  ],
+  [
+   458,
+   513
+  ],
+  [
+   513,
+   531
+  ],
+  [
+   531,
+   558
+  ],
+  [
+   558,
+   571
+  ],
+  [
+   571,
+   638
+  ],
+  [
+   638,
+   647
+  ],
+  [
+   647,
+   664
+  ],
+  [
+   664,
+   678
+  ],
+  [
+   678,
+   710
+  ],
+  [
+   710,
+   727
+  ],
+  [
+   727,
+   758
+  ],
+  [
+   758,
+   780
+  ],
+  [
+   780,
+   795
+  ],
+  [
+   795,
+   808
+  ],
+  [
+   808,
+   822
+  ],
+  [
+   822,
+   839
+  ],
+  [
+   839,
+   881
+  ],
+  [
+   881,
+   905
+  ],
+  [
+   905,
+   931
+  ],
+  [
+   931,
+   952
+  ],
+  [
+   952,
+   976
+  ],
+  [
+   976,
+   994
+  ],
+  [
+   994,
+   1010
+  ],
+  [
+   1010,
+   1030
+  ],
+  [
+   1030,
+   1044
+  ],
+  [
+   1044,
+   1088
+  ],
+  [
+   1088,
+   1100
+  ],
+  [
+   1100,
+   1114
+  ],
+  [
+   1114,
+   1131
+  ],
+  [
+   1131,
+   1147
+  ],
+  [
+   1147,
+   1163
+  ],
+  [
+   1163,
+   1175
+  ],
+  [
+   1175,
+   1192
+  ],
+  [
+   1192,
+   1274
+  ],
+  [
+   1274,
+   1293
+  ],
+  [
+   1293,
+   1307
+  ],
+  [
+   1307,
+   1319
+  ],
+  [
+   1319,
+   1343
+  ],
+  [
+   1343,
+   1397
+  ],
+  [
+   1397,
+   1411
+  ],
+  [
+   1411,
+   1426
+  ],
+  [
+   1426,
+   1439
+  ],
+  [
+   1439,
+   1461
+  ],
+  [
+   1461,
+   1473
+  ],
+  [
+   1473,
+   1499
+  ],
+  [
+   1499,
+   1512
+  ],
+  [
+   1512,
+   1525
+  ],
+  [
+   1525,
+   1549
+  ],
+  [
+   1549,
+   1561
+  ],
+  [
+   1561,
+   1579
+  ],
+  [
+   1579,
+   1592
+  ],
+  [
+   1592,
+   1628
+  ],
+  [
+   1628,
+   1658
+  ],
+  [
+   1658,
+   1670
+  ],
+  [
+   1670,
+   1687
+  ],
+  [
+   1687,
+   1704
+  ],
+  [
+   1704,
+   1720
+  ],
+  [
+   1720,
+   1735
+  ],
+  [
+   1735,
+   1750
+  ],
+  [
+   1750,
+   1764
+  ]
+ ],
+ "key": "b700dae60c51f2008bf8b7b1d87669e16d28f890f281b82fefad32221ce6b9e9",
+ "status": "success",
+ "baseline": [
+  {
+   "Han_Start": 839,
+   "Han_End": 952,
+   "Han_Text": "并榕限四兩替九辰武陌又重升限二鄉階陳四阳卅六文美底六阪餘祫內堂呈而禮并鬼子承柳之三頭共城六百六十四長三四女文雜川人阮金珠同春人陳文見陞记縣上禮精限八笏五兩替余二百十二長五門又重升限四兩二歲五分替底十貞云門十五文内禮精限二笏七兩",
+   "VI_IDs": [
+    "Cap_01-VI-0187-003"
+   ],
+   "Vietnamese_Text": "Không riêng một xứ Quảng Nam, xứ Thuận Hoá cũng thế, rất là tủn mủn.",
+   "Alignment_Type": "N-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "continuation-5",
+   "API_Response_ID": "R0002",
+   "Validation_Status": "mapped",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "indices_text",
+   "Han_Units": [
+    18,
+    19,
+    20,
+    21
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_01-VI-0187-003",
+     0,
+     68
+    ]
+   ],
+   "Score": 0.009728557549659197,
+   "Row": 0,
+   "Source_Rows": [
+    {
+     "response": "R0002",
+     "row": 0
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 18,
+     "han_end": 21,
+     "vi_start": 0,
+     "vi_end": 0,
+     "han_text": "并榕限四兩替九辰武陌又重升限二鄉階陳四阳卅六文美底六阪餘祫內堂呈而禮并鬼子承柳之三頭 共城六百六十四長三四女文雜川人阮金珠同春人陳文見 陞记縣上禮精限八笏五兩替余二百十二長五門又重升限四兩 二歲五分替底十貞云門十五文内禮精限二笏七兩",
+     "vietnamese_text": "Không riêng một xứ Quảng Nam, xứ Thuận Hoá cũng thế, rất là tủn mủn.",
+     "score": 0.009728557549659197
+    }
+   ],
+   "Cap": "Cap_01",
+   "Han_IDs": [
+    "Cap_01-001-002-S4-0039",
+    "Cap_01-001-002-S4-0040",
+    "Cap_01-003-004-S4-0001",
+    "Cap_01-003-004-S4-0002"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_01-VI-0187-003",
+     0,
+     68
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 7
+    }
+   ],
+   "Request_Key": "b700dae60c51f2008bf8b7b1d87669e16d28f890f281b82fefad32221ce6b9e9",
+   "Context_Evidence": 1,
+   "API_Score": 0.009728557549659197,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 1010,
+   "Han_End": 1100,
+   "Han_Text": "并成六陽深祔内堂呈面礼并兒子孫各五長武四共城二百七十七貫一門四十五文明灵縣人楊伯錫川官員子隆欣穩上礼精限世易替詠二百二十五之又重升限二兩五分替歲長二門三十文内礼精限一易替孫二十五貞",
+   "VI_IDs": [
+    "Cap_01-VI-0187-004"
+   ],
+   "Vietnamese_Text": "Các dinh ở Thuận Quảng đặt ty lại và chức sắc bản đường các phủ huyện, số người rất nhiều, khiến họ thu tiền thóc đình điền, lấy ở các lại các chức cũng không phải nhẹ.",
+   "Alignment_Type": "N-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "continuation-5",
+   "API_Response_ID": "R0002",
+   "Validation_Status": "mapped",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "indices_text",
+   "Han_Units": [
+    25,
+    26,
+    27,
+    28
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_01-VI-0187-004",
+     0,
+     168
+    ]
+   ],
+   "Score": 0.13836505900851132,
+   "Row": 1,
+   "Source_Rows": [
+    {
+     "response": "R0002",
+     "row": 1
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 25,
+     "han_end": 28,
+     "vi_start": 1,
+     "vi_end": 1,
+     "han_text": "并成六陽深祔内堂呈面礼并兒子孫各五長武四 共城二百七十七貫一門四十五文 明灵縣人楊伯錫川官員子隆欣穩上礼精限世易替詠二百二十五之又重升限二兩五分替歲長二門三十文 内礼精限一易替孫二十五貞",
+     "vietnamese_text": "Các dinh ở Thuận Quảng đặt ty lại và chức sắc bản đường các phủ huyện, số người rất nhiều, khiến họ thu tiền thóc đình điền, lấy ở các lại các chức cũng không phải nhẹ.",
+     "score": 0.13836505900851132
+    }
+   ],
+   "Cap": "Cap_01",
+   "Han_IDs": [
+    "Cap_01-003-004-S4-0006",
+    "Cap_01-003-004-S4-0007",
+    "Cap_01-003-004-S4-0008",
+    "Cap_01-003-004-S4-0009"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_01-VI-0187-004",
+     0,
+     168
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 8
+    }
+   ],
+   "Request_Key": "b700dae60c51f2008bf8b7b1d87669e16d28f890f281b82fefad32221ce6b9e9",
+   "Context_Evidence": 1,
+   "API_Score": 0.13836505900851132,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 1163,
+   "Han_End": 1293,
+   "Han_Text": "共一百六十五貫二兩十五文富洲人陳文情為祿夾上禮限二笏五兩替康云十二長五門五重升限一兩二庚五分替歲三長一陌十五文内禮精限五兩替脉十二長五門五重行根二歲五亥替詠六陌十五文美祿六除拾內堂呈面禮并免子底三長一四共縣八十二四四三十文這五若成數一千四百六十六貫三四二十一文",
+   "VI_IDs": [
+    "Cap_01-VI-0187-005"
+   ],
+   "Vietnamese_Text": "Như có lệ nộp tiền lĩnh bằng, tiền trầu và tiền thế bạc thì ở các định, cai hợp, thủ hợp tuỳ chỗ nhiều việc ít việc, chỗ nhiều việc thì hoặc tiền là 13 quan, bạc lá để\" 2 hốt, chỗ vừa thì tiền 6 quan, bạc 8 lạng, chỗ ít thì tiển 2 quan bạc 1 lạng ð đồng cân, ty lại 2 quan, cai án trấn 8 quan, đề lĩnh kho và cai quan trấn tuần nguồn 14 quan, đội trưởng kho 8 quan ð tiền, cai trường, cai thuộc mỗi người 8 quan, _ký phủ 10 quan, ký huyện, ký thuộc, cai tổng, cai xã mỗi người 4 quan ð tiền, để lại 3 quan ð tiền, từ thừa, lệnh sử, xá lại thuộc 1 quan 1 tiền, thứ đội trưởng từ đường, thứ đội trưởng tuần khố và các đội thổ sản mỗi người 2 quan, thông lại, duyện lại mỗi người 1 quan 5 tiền, cho đến các thuyền, các xã, các phường, có đổi bằng mới, đều nộp 1 quan 1 tiển.",
+   "Alignment_Type": "N-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "continuation-5",
+   "API_Response_ID": "R0002",
+   "Validation_Status": "mapped",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "indices_text",
+   "Han_Units": [
+    33,
+    34,
+    35,
+    36
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_01-VI-0187-005",
+     0,
+     771
+    ]
+   ],
+   "Score": 0.05783041624528745,
+   "Row": 2,
+   "Source_Rows": [
+    {
+     "response": "R0002",
+     "row": 2
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 33,
+     "han_end": 36,
+     "vi_start": 2,
+     "vi_end": 2,
+     "han_text": "共一百六十五貫二兩十五文 富洲人陳文情為祿夾上禮限二笏五兩替 康云十二長五門五重升限一兩二庚五分替歲三長一陌十五文内禮精限五兩替脉十二長五門五重行根二歲五亥替詠六陌十五文美祿六除拾內堂呈面禮并免子底三長一四共縣八十二四四三十文 這五若成數一千四百六十六貫三四二十一文",
+     "vietnamese_text": "Như có lệ nộp tiền lĩnh bằng, tiền trầu và tiền thế bạc thì ở các định, cai hợp, thủ hợp tuỳ chỗ nhiều việc ít việc, chỗ nhiều việc thì hoặc tiền là 13 quan, bạc lá để\" 2 hốt, chỗ vừa thì tiền 6 quan, bạc 8 lạng, chỗ ít thì tiển 2 quan bạc 1 lạng ð đồng cân, ty lại 2 quan, cai án trấn 8 quan, đề lĩnh kho và cai quan trấn tuần nguồn 14 quan, đội trưởng kho 8 quan ð tiền, cai trường, cai thuộc mỗi người 8 quan, _ký phủ 10 quan, ký huyện, ký thuộc, cai tổng, cai xã mỗi người 4 quan ð tiền, để lại 3 quan ð tiền, từ thừa, lệnh sử, xá lại thuộc 1 quan 1 tiền, thứ đội trưởng từ đường, thứ đội trưởng tuần khố và các đội thổ sản mỗi người 2 quan, thông lại, duyện lại mỗi người 1 quan 5 tiền, cho đến các thuyền, các xã, các phường, có đổi bằng mới, đều nộp 1 quan 1 tiển.",
+     "score": 0.05783041624528745
+    }
+   ],
+   "Cap": "Cap_01",
+   "Han_IDs": [
+    "Cap_01-003-004-S4-0014",
+    "Cap_01-003-004-S4-0015",
+    "Cap_01-003-004-S4-0016",
+    "Cap_01-003-004-S4-0017"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_01-VI-0187-005",
+     0,
+     771
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 9
+    }
+   ],
+   "Request_Key": "b700dae60c51f2008bf8b7b1d87669e16d28f890f281b82fefad32221ce6b9e9",
+   "Context_Evidence": 1,
+   "API_Score": 0.05783041624528745,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 1319,
+   "Han_End": 1426,
+   "Han_Text": "大欒四改三年一小造六年一大修差官圓還令各聰社類同正容云先試士子中者饒孝欽者查所色登前說查民丁分為旺頂年民頂老頂穷疾頊各色老說別併漂流近别者出淺長成至紫者入澤附善者為附社類落四本一席工進一方迎戶部一本送丞司一本送縣官",
+   "VI_IDs": [
+    "Cap_01-VI-0188-001"
+   ],
+   "Vietnamese_Text": "Có lệ nộp tiền ấn và tiển trầu ở các dinh, cai hợp, thủ hợp tuỳ chỗ nhiều việc ít việc, hoặc 1 quan 9 tiền, hoặc 1 quan 9 tiển, hoặc 1 quan 1 tiền, ty lại 5 tiển, cai án, cai thu, trấn thuộc mỗi người I quan 6 tiển, cai quan trấn tuần nguồn 3 quan 4 tiền, cai phủ, ty quan 1 quan 9 tiền, ký huyện, ký thuộc cai tổng, cai xã, đề lại mỗi người 1 quan 3 tiền, từ thừa, lệnh sử, xá lại thuộc 1 quan 7 tiền, thứ đội trưởng từ đường, tuần, khố 8 tiền, thông lại, duyện lại, viên tử, nhiêu phu, tướng thần lại, xã trưởng, mỗi người 5 tiền, các thuyển, các xã, thôn, phường, đổi bằng mới đều mỗi người l quan 1 tiền.",
+   "Alignment_Type": "N-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "continuation-5",
+   "API_Response_ID": "R0002",
+   "Validation_Status": "mapped",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "indices_text",
+   "Han_Units": [
+    39,
+    40,
+    41,
+    42
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_01-VI-0188-001",
+     0,
+     608
+    ]
+   ],
+   "Score": 0.091003440280821,
+   "Row": 3,
+   "Source_Rows": [
+    {
+     "response": "R0002",
+     "row": 3
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 39,
+     "han_end": 42,
+     "vi_start": 3,
+     "vi_end": 3,
+     "han_text": "大欒四改三年一小造六年一大修差官圓還令各聰社類同 正容云先試士子中者饒孝欽者查所色登前說查民丁分為旺頂年民頂老頂穷疾頊各色老說別併漂流近别者出淺長成至紫者入澤 附善者為附社類落四本一席工進 一方迎戶部一本送丞司一本送縣官",
+     "vietnamese_text": "Có lệ nộp tiền ấn và tiển trầu ở các dinh, cai hợp, thủ hợp tuỳ chỗ nhiều việc ít việc, hoặc 1 quan 9 tiền, hoặc 1 quan 9 tiển, hoặc 1 quan 1 tiền, ty lại 5 tiển, cai án, cai thu, trấn thuộc mỗi người I quan 6 tiển, cai quan trấn tuần nguồn 3 quan 4 tiền, cai phủ, ty quan 1 quan 9 tiền, ký huyện, ký thuộc cai tổng, cai xã, đề lại mỗi người 1 quan 3 tiền, từ thừa, lệnh sử, xá lại thuộc 1 quan 7 tiền, thứ đội trưởng từ đường, tuần, khố 8 tiền, thông lại, duyện lại, viên tử, nhiêu phu, tướng thần lại, xã trưởng, mỗi người 5 tiền, các thuyển, các xã, thôn, phường, đổi bằng mới đều mỗi người l quan 1 tiền.",
+     "score": 0.091003440280821
+    }
+   ],
+   "Cap": "Cap_01",
+   "Han_IDs": [
+    "Cap_01-003-004-S4-0020",
+    "Cap_01-003-004-S4-0021",
+    "Cap_01-003-004-S4-0022",
+    "Cap_01-003-004-S4-0023"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_01-VI-0188-001",
+     0,
+     608
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 11
+    }
+   ],
+   "Request_Key": "b700dae60c51f2008bf8b7b1d87669e16d28f890f281b82fefad32221ce6b9e9",
+   "Context_Evidence": 1,
+   "API_Score": 0.091003440280821,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 1499,
+   "Han_End": 1561,
+   "Han_Text": "此法照軍項進取可謂兵效多矣唐太遣使點中男入庫者亦兆此且在家則出孫無殺徵英為併兌祖強亦古者寓兵主整之意玄另頭常如應多已除外不計",
+   "VI_IDs": [
+    "Cap_01-VI-0188-002"
+   ],
+   "Vietnamese_Text": "Đó là lộc của thị nữ nội phòng, cùng các quan nội ngoại tả hữu, Lại bộ, LỄ bộ.",
+   "Alignment_Type": "N-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "continuation-5",
+   "API_Response_ID": "R0002",
+   "Validation_Status": "mapped",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "indices_text",
+   "Han_Units": [
+    47,
+    48,
+    49,
+    50
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_01-VI-0188-002",
+     0,
+     78
+    ]
+   ],
+   "Score": 0.10087271173894898,
+   "Row": 4,
+   "Source_Rows": [
+    {
+     "response": "R0002",
+     "row": 4
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 47,
+     "han_end": 50,
+     "vi_start": 4,
+     "vi_end": 4,
+     "han_text": "此法照軍項進取可謂兵效多矣 唐太遣使點中男入庫者亦兆此 且在家則出孫無殺徵英為併兌祖強亦古者寓兵主整之意 玄另頭常如應多已除外不計",
+     "vietnamese_text": "Đó là lộc của thị nữ nội phòng, cùng các quan nội ngoại tả hữu, Lại bộ, LỄ bộ.",
+     "score": 0.10087271173894898
+    }
+   ],
+   "Cap": "Cap_01",
+   "Han_IDs": [
+    "Cap_01-003-004-S4-0028",
+    "Cap_01-003-004-S4-0029",
+    "Cap_01-003-004-S4-0030",
+    "Cap_01-003-004-S4-0031"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_01-VI-0188-002",
+     0,
+     78
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 12
+    }
+   ],
+   "Request_Key": "b700dae60c51f2008bf8b7b1d87669e16d28f890f281b82fefad32221ce6b9e9",
+   "Context_Evidence": 1,
+   "API_Score": 0.10087271173894898,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  }
+ ]
+}

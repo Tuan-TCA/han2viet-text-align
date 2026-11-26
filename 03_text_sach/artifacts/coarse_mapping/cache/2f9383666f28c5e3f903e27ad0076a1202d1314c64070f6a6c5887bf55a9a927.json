@@ -1,0 +1,105 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "2f9383666f28c5e3f903e27ad0076a1202d1314c64070f6a6c5887bf55a9a927",
+  "payload": {
+    "han": "兩國維爾如同一玉\n送往迎來悠遠調同\n正更累世谷依素遠交薄之道\n欽承王念修文咨會恭上國主安南\n陛下夢春無繇矜宥\n周書表除前蒙御旨於金蕃殿前宮中羅列持謨垂馬可得沙提叨照疏珀力赤慮文宴薛穹坤玉千歲夸明金森列撼謹竟馬魔正吸地照如花甫嵩吧陰安馬虎伯述藏勅撐馬虎陸坤司尤特野普埃主詔曰\n主器馬查章遠方策宜親懷隣邦通安和好\n昔吾國嘗要良骥舍式山門信於如南其欽悉秋\n凡有先南於務通行或上用一切書文至國者亦此事\n環正兩國親蒙四同天地悠久無義\n但吾國每差船往來看门家波虧東貿易\n探買庫用而帆海路多有收尾港口安南呂必地方\n合註浴文移會懇德國主安南王令葉昌又司官等抽分餉費遲國差般規例此商容唐民同云\n抑凡圗船紅被皆由庫帑上發辨上用差使\n皆吾收尾船售此費地方規傷官派錢糧花頃一陡\n具告乞免其徵收或憑其交同\n或咱將原船登還你乃安南盛邦",
+    "vi": "Qua lại không khách tạp, khó làm nên cửa trắng trong; cười nói có nho sù, trộm mến những nhà thơm sạch.\nTuy phân phù” chửa rỗi, việc thuộc năm đinh; mà ôm lọ” không lo, tình say ba luống”, Ngờ đâu nay gặp cố nhân, nói cốt lời sâu, lọ là ngồi lắm.\nMuốn kéo trời mà không được; phải nối bóng để bù vào.\nChút ấm lòng ông: giúp tôi khỏi bí.\nNói sao cho hết; tình hiện ra thơ.\nTùng trúc độ qui cố lý tài.\nTố lý uị nghị nhu lữ phục; Thôi đăng thú công khúnh dư bôi.\nDương quan đổi thử tình uô hạn, NhẤt Tych thắng như nhất quyển khơi.\nNgồi giận quang âm béo chẳng uê.\nMưa dầm uô cố cứ lê thê, Giáo chiêng đã rửa từ năm trước; Tùng trúc uui giồng ở cảnh quê.\nYên phận chưa nên dâm áo khách; Khêu đèn xin cạn chén xuân khuyd.\nDương quan nơi ấy tình chan chứa, Một tốt xem hơn một tập thị.\nNguyễn Cư Trinh có thư đáp lại Mạc tổng binh Tông Đức hầu ở Hà Tiên rằng: \"Vừa đây tiếp được thư hay khuyên đọc sách phải có sở đắc, và báo có điều gì cần thiết thì cứ gửi thư rồi sẽ trả lời, đặn dò như thế, có ý để dạy dỗ cho.\nTấm lòng săn sóc ân cần ấy của ông, tôi bất giác vừa cảm vừa thẹn.\nNgười ăn cá tươi ở đầm ao cũng còn nhớ ơn kẻ đan lưới, nếm quả ngọt ở vườn tược cũng còn nhớ ơn kẻ trổng cây, đó là được thì nhỏ mà lợi thì to vậy.\nHuống chi cho người ta mượn cái đồ kinh vĩ, ông lấy đạo nghĩa giúp cho mà lại quên cái lợi được tự đấy sao?"
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 0,\n        \"vi_start\": 0,\n        \"vi_end\": 3,\n        \"han_text\": \"兩國維爾如同一玉\",\n        \"vietnamese_text\": \"Qua lại không khách tạp, khó làm nên cửa trắng trong; cười nói có nho sù, trộm mến những nhà thơm sạch. Tuy phân phù” chửa rỗi, việc thuộc năm đinh; mà ôm lọ” không lo, tình say ba luống”, Ngờ đâu nay gặp cố nhân, nói cốt lời sâu, lọ là ngồi lắm. Muốn kéo trời mà không được; phải nối bóng để bù vào. Chút ấm lòng ông: giúp tôi khỏi bí.\",\n        \"score\": 0.0073373469064481655\n      },\n      {\n        \"han_start\": 1,\n        \"han_end\": 1,\n        \"vi_start\": 4,\n        \"vi_end\": 4,\n        \"han_text\": \"送往迎來悠遠調同\",\n        \"vietnamese_text\": \"Nói sao cho hết; tình hiện ra thơ.\",\n        \"score\": 0.03651870098307641\n      },\n      {\n        \"han_start\": 2,\n        \"han_end\": 3,\n        \"vi_start\": 5,\n        \"vi_end\": 7,\n        \"han_text\": \"正更累世谷依素遠交薄之道 欽承王念修文咨會恭上國主安南\",\n        \"vietnamese_text\": \"Tùng trúc độ qui cố lý tài. Tố lý uị nghị nhu lữ phục; Thôi đăng thú công khúnh dư bôi. Dương quan đổi thử tình uô hạn, NhẤt Tych thắng như nhất quyển khơi.\",\n        \"score\": 0.1515492820170999\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 5,\n        \"vi_start\": 8,\n        \"vi_end\": 10,\n        \"han_text\": \"陛下夢春無繇矜宥 周書表除前蒙御旨於金蕃殿前宮中羅列持謨垂馬可得沙提叨照疏珀力赤慮文宴薛穹坤玉千歲夸明金森列撼謹竟馬魔正吸地照如花甫嵩吧陰安馬虎伯述藏勅撐馬虎陸坤司尤特野普埃主詔曰\",\n        \"vietnamese_text\": \"Ngồi giận quang âm béo chẳng uê. Mưa dầm uô cố cứ lê thê, Giáo chiêng đã rửa từ năm trước; Tùng trúc uui giồng ở cảnh quê. Yên phận chưa nên dâm áo khách; Khêu đèn xin cạn chén xuân khuyd.\",\n        \"score\": 0.1995198971966265\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 6,\n        \"vi_start\": 11,\n        \"vi_end\": 11,\n        \"han_text\": \"主器馬查章遠方策宜親懷隣邦通安和好\",\n        \"vietnamese_text\": \"Dương quan nơi ấy tình chan chứa, Một tốt xem hơn một tập thị.\",\n        \"score\": 0.08417437560848991\n      },\n      {\n        \"han_start\": 7,\n        \"han_end\": 8,\n        \"vi_start\": 12,\n        \"vi_end\": 12,\n        \"han_text\": \"昔吾國嘗要良骥舍式山門信於如南其欽悉秋 凡有先南於務通行或上用一切書文至國者亦此事\",\n        \"vietnamese_text\": \"Nguyễn Cư Trinh có thư đáp lại Mạc tổng binh Tông Đức hầu ở Hà Tiên rằng: \\\"Vừa đây tiếp được thư hay khuyên đọc sách phải có sở đắc, và báo có điều gì cần thiết thì cứ gửi thư rồi sẽ trả lời, đặn dò như thế, có ý để dạy dỗ cho.\",\n        \"score\": 0.15523082895813856\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 9,\n        \"vi_start\": 13,\n        \"vi_end\": 13,\n        \"han_text\": \"環正兩國親蒙四同天地悠久無義\",\n        \"vietnamese_text\": \"Tấm lòng săn sóc ân cần ấy của ông, tôi bất giác vừa cảm vừa thẹn.\",\n        \"score\": 0.08337473202484791\n      },\n      {\n        \"han_start\": 10,\n        \"han_end\": 13,\n        \"vi_start\": 14,\n        \"vi_end\": 14,\n        \"han_text\": \"但吾國每差船往來看门家波虧東貿易 探買庫用而帆海路多有收尾港口安南呂必地方 合註浴文移會懇德國主安南王令葉昌又司官等抽分餉費遲國差般規例此商容唐民同云 抑凡圗船紅被皆由庫帑上發辨上用差使\",\n        \"vietnamese_text\": \"Người ăn cá tươi ở đầm ao cũng còn nhớ ơn kẻ đan lưới, nếm quả ngọt ở vườn tược cũng còn nhớ ơn kẻ trổng cây, đó là được thì nhỏ mà lợi thì to vậy.\",\n        \"score\": 0.08792942246634662\n      },\n      {\n        \"han_start\": 14,\n        \"han_end\": 16,\n        \"vi_start\": 15,\n        \"vi_end\": 15,\n        \"han_text\": \"皆吾收尾船售此費地方規傷官派錢糧花頃一陡 具告乞免其徵收或憑其交同 或咱將原船登還你乃安南盛邦\",\n        \"vietnamese_text\": \"Huống chi cho người ta mượn cái đồ kinh vĩ, ông lấy đạo nghĩa giúp cho mà lại quên cái lợi được tự đấy sao?\",\n        \"score\": 0.08710252088427332\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 0,
+          "vi_start": 0,
+          "vi_end": 3,
+          "han_text": "兩國維爾如同一玉",
+          "vietnamese_text": "Qua lại không khách tạp, khó làm nên cửa trắng trong; cười nói có nho sù, trộm mến những nhà thơm sạch. Tuy phân phù” chửa rỗi, việc thuộc năm đinh; mà ôm lọ” không lo, tình say ba luống”, Ngờ đâu nay gặp cố nhân, nói cốt lời sâu, lọ là ngồi lắm. Muốn kéo trời mà không được; phải nối bóng để bù vào. Chút ấm lòng ông: giúp tôi khỏi bí.",
+          "score": 0.0073373469064481655
+        },
+        {
+          "han_start": 1,
+          "han_end": 1,
+          "vi_start": 4,
+          "vi_end": 4,
+          "han_text": "送往迎來悠遠調同",
+          "vietnamese_text": "Nói sao cho hết; tình hiện ra thơ.",
+          "score": 0.03651870098307641
+        },
+        {
+          "han_start": 2,
+          "han_end": 3,
+          "vi_start": 5,
+          "vi_end": 7,
+          "han_text": "正更累世谷依素遠交薄之道 欽承王念修文咨會恭上國主安南",
+          "vietnamese_text": "Tùng trúc độ qui cố lý tài. Tố lý uị nghị nhu lữ phục; Thôi đăng thú công khúnh dư bôi. Dương quan đổi thử tình uô hạn, NhẤt Tych thắng như nhất quyển khơi.",
+          "score": 0.1515492820170999
+        },
+        {
+          "han_start": 4,
+          "han_end": 5,
+          "vi_start": 8,
+          "vi_end": 10,
+          "han_text": "陛下夢春無繇矜宥 周書表除前蒙御旨於金蕃殿前宮中羅列持謨垂馬可得沙提叨照疏珀力赤慮文宴薛穹坤玉千歲夸明金森列撼謹竟馬魔正吸地照如花甫嵩吧陰安馬虎伯述藏勅撐馬虎陸坤司尤特野普埃主詔曰",
+          "vietnamese_text": "Ngồi giận quang âm béo chẳng uê. Mưa dầm uô cố cứ lê thê, Giáo chiêng đã rửa từ năm trước; Tùng trúc uui giồng ở cảnh quê. Yên phận chưa nên dâm áo khách; Khêu đèn xin cạn chén xuân khuyd.",
+          "score": 0.1995198971966265
+        },
+        {
+          "han_start": 6,
+          "han_end": 6,
+          "vi_start": 11,
+          "vi_end": 11,
+          "han_text": "主器馬查章遠方策宜親懷隣邦通安和好",
+          "vietnamese_text": "Dương quan nơi ấy tình chan chứa, Một tốt xem hơn một tập thị.",
+          "score": 0.08417437560848991
+        },
+        {
+          "han_start": 7,
+          "han_end": 8,
+          "vi_start": 12,
+          "vi_end": 12,
+          "han_text": "昔吾國嘗要良骥舍式山門信於如南其欽悉秋 凡有先南於務通行或上用一切書文至國者亦此事",
+          "vietnamese_text": "Nguyễn Cư Trinh có thư đáp lại Mạc tổng binh Tông Đức hầu ở Hà Tiên rằng: \"Vừa đây tiếp được thư hay khuyên đọc sách phải có sở đắc, và báo có điều gì cần thiết thì cứ gửi thư rồi sẽ trả lời, đặn dò như thế, có ý để dạy dỗ cho.",
+          "score": 0.15523082895813856
+        },
+        {
+          "han_start": 9,
+          "han_end": 9,
+          "vi_start": 13,
+          "vi_end": 13,
+          "han_text": "環正兩國親蒙四同天地悠久無義",
+          "vietnamese_text": "Tấm lòng săn sóc ân cần ấy của ông, tôi bất giác vừa cảm vừa thẹn.",
+          "score": 0.08337473202484791
+        },
+        {
+          "han_start": 10,
+          "han_end": 13,
+          "vi_start": 14,
+          "vi_end": 14,
+          "han_text": "但吾國每差船往來看门家波虧東貿易 探買庫用而帆海路多有收尾港口安南呂必地方 合註浴文移會懇德國主安南王令葉昌又司官等抽分餉費遲國差般規例此商容唐民同云 抑凡圗船紅被皆由庫帑上發辨上用差使",
+          "vietnamese_text": "Người ăn cá tươi ở đầm ao cũng còn nhớ ơn kẻ đan lưới, nếm quả ngọt ở vườn tược cũng còn nhớ ơn kẻ trổng cây, đó là được thì nhỏ mà lợi thì to vậy.",
+          "score": 0.08792942246634662
+        },
+        {
+          "han_start": 14,
+          "han_end": 16,
+          "vi_start": 15,
+          "vi_end": 15,
+          "han_text": "皆吾收尾船售此費地方規傷官派錢糧花頃一陡 具告乞免其徵收或憑其交同 或咱將原船登還你乃安南盛邦",
+          "vietnamese_text": "Huống chi cho người ta mượn cái đồ kinh vĩ, ông lấy đạo nghĩa giúp cho mà lại quên cái lợi được tự đấy sao?",
+          "score": 0.08710252088427332
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 3234
+}

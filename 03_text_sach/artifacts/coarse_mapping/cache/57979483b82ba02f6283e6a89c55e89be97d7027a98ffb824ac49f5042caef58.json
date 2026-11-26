@@ -1,0 +1,132 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "57979483b82ba02f6283e6a89c55e89be97d7027a98ffb824ac49f5042caef58",
+  "payload": {
+    "han": "天生人人成天位定然無定形分之而三木令之而六藉\n又人於此或卷而約之或舒而博云夫誰曰不宜自人負之固\n故有正得有奇得之無求而不得\n有溲無注而不得道一也名之不同位之浪也\n昔有簡焉友善進對畔而而後歧一兼者也\n石者薦之曰高生惠我以清人者\n其中、汽牛酒牛浪馬勃永天之哉\n吾其永之赤藥者推之貴之以得搜數衣之牛\n遺壽諾之養於雜夫接數之於医\n非可治之收之舍之於馬勒其位之若自翁社奉先人之貴編\n宿累世之精精一得意商茗止健\n第則膺之不已又從而幸之而弦之曰遲吾往也\n院仕則弦者韋三者弦斷而半矣\n今且不忘以一三均之\n是人也曾未五十既胡然而其又胡德而畢似非位之級而何\n賈侯謙義土之義復焚券之值\n貴為失重然诺廉秘合而應已律小白之正於周勤都誠而賞罰義苑直之忠於處\n智微為規誰使圓云\n義微為矩誰使能之\n終一言而百議終一行而群發且不膚挖不掣觀\n既而不司滿足不停報讀一善而來春臺登則非鄙也之可臣得也\n不惟不可生恐之而定不周因之而不及書者也\n何則\n涯於嘗者龍皆於",
+    "vi": "1‡nÑ đổi gát rửa chân” Đứơo điên bày trước ghẹo anh hùng.\nMột cặp hông quân rửa gót ông, Ngồi xổm, chân rồng uừa nhúng ướt; Nước người, mặt ngọc uấn bề bên.\nTướng quân” nếu giữ nho sinh bhí, Đình trưởng” khôn thu Lý Giám\" công.\nĐại để thư ông nhờ uó ngựa”), Ủng dung không có đế uương phong”.\nThơ vịnh tứ thú thì có các bài:\n3(át củi Tiếng búa uàng choang choảng cách khe.\nĐó rừng uưđn hạc bạn đông tây, Đường tô phút rắm quang sơn huỷ” Đần trúc phá rừng - ruổi da bế” Bầu chở có người, nguy Vì Hiếu” Đúát sinh không chốn, đói Di Tế” Đổi ngày rét mười mong ngày ấm, Lối tắt đi qua khóc lẫn cười.\n®i cây Bừa uàng chân dâm ruông bờ khe, Ngàn đa treo tơi bóng xế tây.\nĐăn uợ hen tơ cua phối chứa”; Đất con roi trúc Sò gũy mai.\nChén bầu tế xà lòng chay sạch; Có đất khai hoang ngang sức cày.\nCách mệnh chờ khi ba độ đón”; Nem cày đem sức cứu đau thương.\nChăn trầu Sừng trâu treo sách” học bên khe.\nĐá trắng thông xanh bóng xế tây.\nTơ buộc quanh hồ chơi mộc điểu”?); Sáo uang đồng ruộng chọi sa bế”.\nBầu treo đất Bắc ra phò Hán”; Đất hút non Nam chứa giúp TẾ”.\nCách mệnh chăn trâu thường làm được; Đũa que mâm gỗ cũng không nề."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 1,\n        \"vi_start\": 1,\n        \"vi_end\": 2,\n        \"han_text\": \"天生人人成天位定然無定形分之而三木令之而六藉 又人於此或卷而約之或舒而博云夫誰曰不宜自人負之固\",\n        \"vietnamese_text\": \"Một cặp hông quân rửa gót ông, Ngồi xổm, chân rồng uừa nhúng ướt; Nước người, mặt ngọc uấn bề bên. Tướng quân” nếu giữ nho sinh bhí, Đình trưởng” khôn thu Lý Giám\\\" công.\",\n        \"score\": 0.17348468653546442\n      },\n      {\n        \"han_start\": 2,\n        \"han_end\": 3,\n        \"vi_start\": 3,\n        \"vi_end\": 5,\n        \"han_text\": \"故有正得有奇得之無求而不得 有溲無注而不得道一也名之不同位之浪也\",\n        \"vietnamese_text\": \"Đại để thư ông nhờ uó ngựa”), Ủng dung không có đế uương phong”. Thơ vịnh tứ thú thì có các bài: 3(át củi Tiếng búa uàng choang choảng cách khe.\",\n        \"score\": 0.14150993657242825\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 7,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"昔有簡焉友善進對畔而而後歧一兼者也 石者薦之曰高生惠我以清人者 其中、汽牛酒牛浪馬勃永天之哉 吾其永之赤藥者推之貴之以得搜數衣之牛\",\n        \"vietnamese_text\": \"Đó rừng uưđn hạc bạn đông tây, Đường tô phút rắm quang sơn huỷ” Đần trúc phá rừng - ruổi da bế” Bầu chở có người, nguy Vì Hiếu” Đúát sinh không chốn, đói Di Tế” Đổi ngày rét mười mong ngày ấm, Lối tắt đi qua khóc lẫn cười.\",\n        \"score\": 0.2040045284212818\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 9,\n        \"vi_start\": 7,\n        \"vi_end\": 8,\n        \"han_text\": \"遺壽諾之養於雜夫接數之於医 非可治之收之舍之於馬勒其位之若自翁社奉先人之貴編\",\n        \"vietnamese_text\": \"®i cây Bừa uàng chân dâm ruông bờ khe, Ngàn đa treo tơi bóng xế tây. Đăn uợ hen tơ cua phối chứa”; Đất con roi trúc Sò gũy mai.\",\n        \"score\": 0.07804761459321635\n      },\n      {\n        \"han_start\": 10,\n        \"han_end\": 10,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"宿累世之精精一得意商茗止健\",\n        \"vietnamese_text\": \"Chén bầu tế xà lòng chay sạch; Có đất khai hoang ngang sức cày.\",\n        \"score\": 0.0225674368801316\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 11,\n        \"vi_start\": 10,\n        \"vi_end\": 10,\n        \"han_text\": \"第則膺之不已又從而幸之而弦之曰遲吾往也\",\n        \"vietnamese_text\": \"Cách mệnh chờ khi ba độ đón”; Nem cày đem sức cứu đau thương.\",\n        \"score\": 0.1411567430190296\n      },\n      {\n        \"han_start\": 12,\n        \"han_end\": 12,\n        \"vi_start\": 11,\n        \"vi_end\": 11,\n        \"han_text\": \"院仕則弦者韋三者弦斷而半矣\",\n        \"vietnamese_text\": \"Chăn trầu Sừng trâu treo sách” học bên khe.\",\n        \"score\": 0.13621953436553408\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 13,\n        \"vi_start\": 12,\n        \"vi_end\": 12,\n        \"han_text\": \"今且不忘以一三均之\",\n        \"vietnamese_text\": \"Đá trắng thông xanh bóng xế tây.\",\n        \"score\": 0.1160920949631514\n      },\n      {\n        \"han_start\": 14,\n        \"han_end\": 14,\n        \"vi_start\": 13,\n        \"vi_end\": 13,\n        \"han_text\": \"是人也曾未五十既胡然而其又胡德而畢似非位之級而何\",\n        \"vietnamese_text\": \"Tơ buộc quanh hồ chơi mộc điểu”?\",\n        \"score\": 0.024714696678558253\n      },\n      {\n        \"han_start\": 15,\n        \"han_end\": 15,\n        \"vi_start\": 14,\n        \"vi_end\": 14,\n        \"han_text\": \"賈侯謙義土之義復焚券之值\",\n        \"vietnamese_text\": \"); Sáo uang đồng ruộng chọi sa bế”.\",\n        \"score\": 0.1353636088617471\n      },\n      {\n        \"han_start\": 16,\n        \"han_end\": 19,\n        \"vi_start\": 15,\n        \"vi_end\": 15,\n        \"han_text\": \"貴為失重然诺廉秘合而應已律小白之正於周勤都誠而賞罰義苑直之忠於處 智微為規誰使圓云 義微為矩誰使能之 終一言而百議終一行而群發且不膚挖不掣觀\",\n        \"vietnamese_text\": \"Bầu treo đất Bắc ra phò Hán”; Đất hút non Nam chứa giúp TẾ”.\",\n        \"score\": -0.03149517389704907\n      },\n      {\n        \"han_start\": 20,\n        \"han_end\": 23,\n        \"vi_start\": 16,\n        \"vi_end\": 16,\n        \"han_text\": \"既而不司滿足不停報讀一善而來春臺登則非鄙也之可臣得也 不惟不可生恐之而定不周因之而不及書者也 何則 涯於嘗者龍皆於\",\n        \"vietnamese_text\": \"Cách mệnh chăn trâu thường làm được; Đũa que mâm gỗ cũng không nề.\",\n        \"score\": 0.08545181391759542\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 1,
+          "vi_start": 1,
+          "vi_end": 2,
+          "han_text": "天生人人成天位定然無定形分之而三木令之而六藉 又人於此或卷而約之或舒而博云夫誰曰不宜自人負之固",
+          "vietnamese_text": "Một cặp hông quân rửa gót ông, Ngồi xổm, chân rồng uừa nhúng ướt; Nước người, mặt ngọc uấn bề bên. Tướng quân” nếu giữ nho sinh bhí, Đình trưởng” khôn thu Lý Giám\" công.",
+          "score": 0.17348468653546442
+        },
+        {
+          "han_start": 2,
+          "han_end": 3,
+          "vi_start": 3,
+          "vi_end": 5,
+          "han_text": "故有正得有奇得之無求而不得 有溲無注而不得道一也名之不同位之浪也",
+          "vietnamese_text": "Đại để thư ông nhờ uó ngựa”), Ủng dung không có đế uương phong”. Thơ vịnh tứ thú thì có các bài: 3(át củi Tiếng búa uàng choang choảng cách khe.",
+          "score": 0.14150993657242825
+        },
+        {
+          "han_start": 4,
+          "han_end": 7,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "昔有簡焉友善進對畔而而後歧一兼者也 石者薦之曰高生惠我以清人者 其中、汽牛酒牛浪馬勃永天之哉 吾其永之赤藥者推之貴之以得搜數衣之牛",
+          "vietnamese_text": "Đó rừng uưđn hạc bạn đông tây, Đường tô phút rắm quang sơn huỷ” Đần trúc phá rừng - ruổi da bế” Bầu chở có người, nguy Vì Hiếu” Đúát sinh không chốn, đói Di Tế” Đổi ngày rét mười mong ngày ấm, Lối tắt đi qua khóc lẫn cười.",
+          "score": 0.2040045284212818
+        },
+        {
+          "han_start": 8,
+          "han_end": 9,
+          "vi_start": 7,
+          "vi_end": 8,
+          "han_text": "遺壽諾之養於雜夫接數之於医 非可治之收之舍之於馬勒其位之若自翁社奉先人之貴編",
+          "vietnamese_text": "®i cây Bừa uàng chân dâm ruông bờ khe, Ngàn đa treo tơi bóng xế tây. Đăn uợ hen tơ cua phối chứa”; Đất con roi trúc Sò gũy mai.",
+          "score": 0.07804761459321635
+        },
+        {
+          "han_start": 10,
+          "han_end": 10,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "宿累世之精精一得意商茗止健",
+          "vietnamese_text": "Chén bầu tế xà lòng chay sạch; Có đất khai hoang ngang sức cày.",
+          "score": 0.0225674368801316
+        },
+        {
+          "han_start": 11,
+          "han_end": 11,
+          "vi_start": 10,
+          "vi_end": 10,
+          "han_text": "第則膺之不已又從而幸之而弦之曰遲吾往也",
+          "vietnamese_text": "Cách mệnh chờ khi ba độ đón”; Nem cày đem sức cứu đau thương.",
+          "score": 0.1411567430190296
+        },
+        {
+          "han_start": 12,
+          "han_end": 12,
+          "vi_start": 11,
+          "vi_end": 11,
+          "han_text": "院仕則弦者韋三者弦斷而半矣",
+          "vietnamese_text": "Chăn trầu Sừng trâu treo sách” học bên khe.",
+          "score": 0.13621953436553408
+        },
+        {
+          "han_start": 13,
+          "han_end": 13,
+          "vi_start": 12,
+          "vi_end": 12,
+          "han_text": "今且不忘以一三均之",
+          "vietnamese_text": "Đá trắng thông xanh bóng xế tây.",
+          "score": 0.1160920949631514
+        },
+        {
+          "han_start": 14,
+          "han_end": 14,
+          "vi_start": 13,
+          "vi_end": 13,
+          "han_text": "是人也曾未五十既胡然而其又胡德而畢似非位之級而何",
+          "vietnamese_text": "Tơ buộc quanh hồ chơi mộc điểu”?",
+          "score": 0.024714696678558253
+        },
+        {
+          "han_start": 15,
+          "han_end": 15,
+          "vi_start": 14,
+          "vi_end": 14,
+          "han_text": "賈侯謙義土之義復焚券之值",
+          "vietnamese_text": "); Sáo uang đồng ruộng chọi sa bế”.",
+          "score": 0.1353636088617471
+        },
+        {
+          "han_start": 16,
+          "han_end": 19,
+          "vi_start": 15,
+          "vi_end": 15,
+          "han_text": "貴為失重然诺廉秘合而應已律小白之正於周勤都誠而賞罰義苑直之忠於處 智微為規誰使圓云 義微為矩誰使能之 終一言而百議終一行而群發且不膚挖不掣觀",
+          "vietnamese_text": "Bầu treo đất Bắc ra phò Hán”; Đất hút non Nam chứa giúp TẾ”.",
+          "score": -0.03149517389704907
+        },
+        {
+          "han_start": 20,
+          "han_end": 23,
+          "vi_start": 16,
+          "vi_end": 16,
+          "han_text": "既而不司滿足不停報讀一善而來春臺登則非鄙也之可臣得也 不惟不可生恐之而定不周因之而不及書者也 何則 涯於嘗者龍皆於",
+          "vietnamese_text": "Cách mệnh chăn trâu thường làm được; Đũa que mâm gỗ cũng không nề.",
+          "score": 0.08545181391759542
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 3797
+}

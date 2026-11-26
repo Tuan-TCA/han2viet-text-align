@@ -1,0 +1,1099 @@
+{
+  "status": "PASS",
+  "cap_page_counts": {
+    "Cap_01": 53,
+    "Cap_02": 92
+  },
+  "source_char_counts": {
+    "Cap_01": 23738,
+    "Cap_02": 29590,
+    "total": 53328
+  },
+  "s4_segment_counts": {
+    "Cap_01": 1146,
+    "Cap_02": 1662,
+    "total": 2808
+  },
+  "global_offset_mismatches": 0,
+  "source_file_slice_mismatches": 0,
+  "offset_contract": "global_raw_span indexes concatenated edge-trimmed page bodies, Cap_01 then Cap_02, with no inserted separator; spans are [start,end) Unicode code points.",
+  "page_offsets": [
+    {
+      "cap": "Cap_01",
+      "page": 1,
+      "global_start": 0,
+      "global_end": 446,
+      "char_count": 446
+    },
+    {
+      "cap": "Cap_01",
+      "page": 2,
+      "global_start": 446,
+      "global_end": 905,
+      "char_count": 459
+    },
+    {
+      "cap": "Cap_01",
+      "page": 3,
+      "global_start": 905,
+      "global_end": 1371,
+      "char_count": 466
+    },
+    {
+      "cap": "Cap_01",
+      "page": 4,
+      "global_start": 1371,
+      "global_end": 1764,
+      "char_count": 393
+    },
+    {
+      "cap": "Cap_01",
+      "page": 5,
+      "global_start": 1764,
+      "global_end": 2207,
+      "char_count": 443
+    },
+    {
+      "cap": "Cap_01",
+      "page": 6,
+      "global_start": 2207,
+      "global_end": 2693,
+      "char_count": 486
+    },
+    {
+      "cap": "Cap_01",
+      "page": 7,
+      "global_start": 2693,
+      "global_end": 3169,
+      "char_count": 476
+    },
+    {
+      "cap": "Cap_01",
+      "page": 8,
+      "global_start": 3169,
+      "global_end": 3624,
+      "char_count": 455
+    },
+    {
+      "cap": "Cap_01",
+      "page": 9,
+      "global_start": 3624,
+      "global_end": 4078,
+      "char_count": 454
+    },
+    {
+      "cap": "Cap_01",
+      "page": 10,
+      "global_start": 4078,
+      "global_end": 4526,
+      "char_count": 448
+    },
+    {
+      "cap": "Cap_01",
+      "page": 11,
+      "global_start": 4526,
+      "global_end": 4912,
+      "char_count": 386
+    },
+    {
+      "cap": "Cap_01",
+      "page": 12,
+      "global_start": 4912,
+      "global_end": 5335,
+      "char_count": 423
+    },
+    {
+      "cap": "Cap_01",
+      "page": 13,
+      "global_start": 5335,
+      "global_end": 5824,
+      "char_count": 489
+    },
+    {
+      "cap": "Cap_01",
+      "page": 14,
+      "global_start": 5824,
+      "global_end": 6306,
+      "char_count": 482
+    },
+    {
+      "cap": "Cap_01",
+      "page": 15,
+      "global_start": 6306,
+      "global_end": 6787,
+      "char_count": 481
+    },
+    {
+      "cap": "Cap_01",
+      "page": 16,
+      "global_start": 6787,
+      "global_end": 7243,
+      "char_count": 456
+    },
+    {
+      "cap": "Cap_01",
+      "page": 17,
+      "global_start": 7243,
+      "global_end": 7680,
+      "char_count": 437
+    },
+    {
+      "cap": "Cap_01",
+      "page": 18,
+      "global_start": 7680,
+      "global_end": 8138,
+      "char_count": 458
+    },
+    {
+      "cap": "Cap_01",
+      "page": 19,
+      "global_start": 8138,
+      "global_end": 8609,
+      "char_count": 471
+    },
+    {
+      "cap": "Cap_01",
+      "page": 20,
+      "global_start": 8609,
+      "global_end": 9061,
+      "char_count": 452
+    },
+    {
+      "cap": "Cap_01",
+      "page": 21,
+      "global_start": 9061,
+      "global_end": 9506,
+      "char_count": 445
+    },
+    {
+      "cap": "Cap_01",
+      "page": 22,
+      "global_start": 9506,
+      "global_end": 9975,
+      "char_count": 469
+    },
+    {
+      "cap": "Cap_01",
+      "page": 23,
+      "global_start": 9975,
+      "global_end": 10439,
+      "char_count": 464
+    },
+    {
+      "cap": "Cap_01",
+      "page": 24,
+      "global_start": 10439,
+      "global_end": 10892,
+      "char_count": 453
+    },
+    {
+      "cap": "Cap_01",
+      "page": 25,
+      "global_start": 10892,
+      "global_end": 11328,
+      "char_count": 436
+    },
+    {
+      "cap": "Cap_01",
+      "page": 26,
+      "global_start": 11328,
+      "global_end": 11767,
+      "char_count": 439
+    },
+    {
+      "cap": "Cap_01",
+      "page": 27,
+      "global_start": 11767,
+      "global_end": 12280,
+      "char_count": 513
+    },
+    {
+      "cap": "Cap_01",
+      "page": 28,
+      "global_start": 12280,
+      "global_end": 12765,
+      "char_count": 485
+    },
+    {
+      "cap": "Cap_01",
+      "page": 29,
+      "global_start": 12765,
+      "global_end": 13271,
+      "char_count": 506
+    },
+    {
+      "cap": "Cap_01",
+      "page": 30,
+      "global_start": 13271,
+      "global_end": 13777,
+      "char_count": 506
+    },
+    {
+      "cap": "Cap_01",
+      "page": 31,
+      "global_start": 13777,
+      "global_end": 14286,
+      "char_count": 509
+    },
+    {
+      "cap": "Cap_01",
+      "page": 32,
+      "global_start": 14286,
+      "global_end": 14720,
+      "char_count": 434
+    },
+    {
+      "cap": "Cap_01",
+      "page": 33,
+      "global_start": 14720,
+      "global_end": 15145,
+      "char_count": 425
+    },
+    {
+      "cap": "Cap_01",
+      "page": 34,
+      "global_start": 15145,
+      "global_end": 15651,
+      "char_count": 506
+    },
+    {
+      "cap": "Cap_01",
+      "page": 35,
+      "global_start": 15651,
+      "global_end": 16142,
+      "char_count": 491
+    },
+    {
+      "cap": "Cap_01",
+      "page": 36,
+      "global_start": 16142,
+      "global_end": 16607,
+      "char_count": 465
+    },
+    {
+      "cap": "Cap_01",
+      "page": 37,
+      "global_start": 16607,
+      "global_end": 17075,
+      "char_count": 468
+    },
+    {
+      "cap": "Cap_01",
+      "page": 38,
+      "global_start": 17075,
+      "global_end": 17546,
+      "char_count": 471
+    },
+    {
+      "cap": "Cap_01",
+      "page": 39,
+      "global_start": 17546,
+      "global_end": 18016,
+      "char_count": 470
+    },
+    {
+      "cap": "Cap_01",
+      "page": 40,
+      "global_start": 18016,
+      "global_end": 18469,
+      "char_count": 453
+    },
+    {
+      "cap": "Cap_01",
+      "page": 41,
+      "global_start": 18469,
+      "global_end": 18922,
+      "char_count": 453
+    },
+    {
+      "cap": "Cap_01",
+      "page": 42,
+      "global_start": 18922,
+      "global_end": 19371,
+      "char_count": 449
+    },
+    {
+      "cap": "Cap_01",
+      "page": 43,
+      "global_start": 19371,
+      "global_end": 19787,
+      "char_count": 416
+    },
+    {
+      "cap": "Cap_01",
+      "page": 44,
+      "global_start": 19787,
+      "global_end": 20215,
+      "char_count": 428
+    },
+    {
+      "cap": "Cap_01",
+      "page": 45,
+      "global_start": 20215,
+      "global_end": 20632,
+      "char_count": 417
+    },
+    {
+      "cap": "Cap_01",
+      "page": 46,
+      "global_start": 20632,
+      "global_end": 21073,
+      "char_count": 441
+    },
+    {
+      "cap": "Cap_01",
+      "page": 47,
+      "global_start": 21073,
+      "global_end": 21509,
+      "char_count": 436
+    },
+    {
+      "cap": "Cap_01",
+      "page": 48,
+      "global_start": 21509,
+      "global_end": 21986,
+      "char_count": 477
+    },
+    {
+      "cap": "Cap_01",
+      "page": 49,
+      "global_start": 21986,
+      "global_end": 22414,
+      "char_count": 428
+    },
+    {
+      "cap": "Cap_01",
+      "page": 50,
+      "global_start": 22414,
+      "global_end": 22842,
+      "char_count": 428
+    },
+    {
+      "cap": "Cap_01",
+      "page": 51,
+      "global_start": 22842,
+      "global_end": 23251,
+      "char_count": 409
+    },
+    {
+      "cap": "Cap_01",
+      "page": 52,
+      "global_start": 23251,
+      "global_end": 23654,
+      "char_count": 403
+    },
+    {
+      "cap": "Cap_01",
+      "page": 53,
+      "global_start": 23654,
+      "global_end": 23738,
+      "char_count": 84
+    },
+    {
+      "cap": "Cap_02",
+      "page": 1,
+      "global_start": 23738,
+      "global_end": 24068,
+      "char_count": 330
+    },
+    {
+      "cap": "Cap_02",
+      "page": 2,
+      "global_start": 24068,
+      "global_end": 24384,
+      "char_count": 316
+    },
+    {
+      "cap": "Cap_02",
+      "page": 3,
+      "global_start": 24384,
+      "global_end": 24737,
+      "char_count": 353
+    },
+    {
+      "cap": "Cap_02",
+      "page": 4,
+      "global_start": 24737,
+      "global_end": 25105,
+      "char_count": 368
+    },
+    {
+      "cap": "Cap_02",
+      "page": 5,
+      "global_start": 25105,
+      "global_end": 25459,
+      "char_count": 354
+    },
+    {
+      "cap": "Cap_02",
+      "page": 6,
+      "global_start": 25459,
+      "global_end": 25813,
+      "char_count": 354
+    },
+    {
+      "cap": "Cap_02",
+      "page": 7,
+      "global_start": 25813,
+      "global_end": 26170,
+      "char_count": 357
+    },
+    {
+      "cap": "Cap_02",
+      "page": 8,
+      "global_start": 26170,
+      "global_end": 26543,
+      "char_count": 373
+    },
+    {
+      "cap": "Cap_02",
+      "page": 9,
+      "global_start": 26543,
+      "global_end": 26878,
+      "char_count": 335
+    },
+    {
+      "cap": "Cap_02",
+      "page": 10,
+      "global_start": 26878,
+      "global_end": 27203,
+      "char_count": 325
+    },
+    {
+      "cap": "Cap_02",
+      "page": 11,
+      "global_start": 27203,
+      "global_end": 27538,
+      "char_count": 335
+    },
+    {
+      "cap": "Cap_02",
+      "page": 12,
+      "global_start": 27538,
+      "global_end": 27889,
+      "char_count": 351
+    },
+    {
+      "cap": "Cap_02",
+      "page": 13,
+      "global_start": 27889,
+      "global_end": 28231,
+      "char_count": 342
+    },
+    {
+      "cap": "Cap_02",
+      "page": 14,
+      "global_start": 28231,
+      "global_end": 28571,
+      "char_count": 340
+    },
+    {
+      "cap": "Cap_02",
+      "page": 15,
+      "global_start": 28571,
+      "global_end": 28912,
+      "char_count": 341
+    },
+    {
+      "cap": "Cap_02",
+      "page": 16,
+      "global_start": 28912,
+      "global_end": 29255,
+      "char_count": 343
+    },
+    {
+      "cap": "Cap_02",
+      "page": 17,
+      "global_start": 29255,
+      "global_end": 29604,
+      "char_count": 349
+    },
+    {
+      "cap": "Cap_02",
+      "page": 18,
+      "global_start": 29604,
+      "global_end": 29961,
+      "char_count": 357
+    },
+    {
+      "cap": "Cap_02",
+      "page": 19,
+      "global_start": 29961,
+      "global_end": 30299,
+      "char_count": 338
+    },
+    {
+      "cap": "Cap_02",
+      "page": 20,
+      "global_start": 30299,
+      "global_end": 30655,
+      "char_count": 356
+    },
+    {
+      "cap": "Cap_02",
+      "page": 21,
+      "global_start": 30655,
+      "global_end": 31003,
+      "char_count": 348
+    },
+    {
+      "cap": "Cap_02",
+      "page": 22,
+      "global_start": 31003,
+      "global_end": 31342,
+      "char_count": 339
+    },
+    {
+      "cap": "Cap_02",
+      "page": 23,
+      "global_start": 31342,
+      "global_end": 31685,
+      "char_count": 343
+    },
+    {
+      "cap": "Cap_02",
+      "page": 24,
+      "global_start": 31685,
+      "global_end": 32036,
+      "char_count": 351
+    },
+    {
+      "cap": "Cap_02",
+      "page": 25,
+      "global_start": 32036,
+      "global_end": 32381,
+      "char_count": 345
+    },
+    {
+      "cap": "Cap_02",
+      "page": 26,
+      "global_start": 32381,
+      "global_end": 32721,
+      "char_count": 340
+    },
+    {
+      "cap": "Cap_02",
+      "page": 27,
+      "global_start": 32721,
+      "global_end": 33061,
+      "char_count": 340
+    },
+    {
+      "cap": "Cap_02",
+      "page": 28,
+      "global_start": 33061,
+      "global_end": 33391,
+      "char_count": 330
+    },
+    {
+      "cap": "Cap_02",
+      "page": 29,
+      "global_start": 33391,
+      "global_end": 33729,
+      "char_count": 338
+    },
+    {
+      "cap": "Cap_02",
+      "page": 30,
+      "global_start": 33729,
+      "global_end": 34068,
+      "char_count": 339
+    },
+    {
+      "cap": "Cap_02",
+      "page": 31,
+      "global_start": 34068,
+      "global_end": 34393,
+      "char_count": 325
+    },
+    {
+      "cap": "Cap_02",
+      "page": 32,
+      "global_start": 34393,
+      "global_end": 34753,
+      "char_count": 360
+    },
+    {
+      "cap": "Cap_02",
+      "page": 33,
+      "global_start": 34753,
+      "global_end": 35098,
+      "char_count": 345
+    },
+    {
+      "cap": "Cap_02",
+      "page": 34,
+      "global_start": 35098,
+      "global_end": 35440,
+      "char_count": 342
+    },
+    {
+      "cap": "Cap_02",
+      "page": 35,
+      "global_start": 35440,
+      "global_end": 35786,
+      "char_count": 346
+    },
+    {
+      "cap": "Cap_02",
+      "page": 36,
+      "global_start": 35786,
+      "global_end": 36118,
+      "char_count": 332
+    },
+    {
+      "cap": "Cap_02",
+      "page": 37,
+      "global_start": 36118,
+      "global_end": 36431,
+      "char_count": 313
+    },
+    {
+      "cap": "Cap_02",
+      "page": 38,
+      "global_start": 36431,
+      "global_end": 36776,
+      "char_count": 345
+    },
+    {
+      "cap": "Cap_02",
+      "page": 39,
+      "global_start": 36776,
+      "global_end": 37102,
+      "char_count": 326
+    },
+    {
+      "cap": "Cap_02",
+      "page": 40,
+      "global_start": 37102,
+      "global_end": 37438,
+      "char_count": 336
+    },
+    {
+      "cap": "Cap_02",
+      "page": 41,
+      "global_start": 37438,
+      "global_end": 37752,
+      "char_count": 314
+    },
+    {
+      "cap": "Cap_02",
+      "page": 42,
+      "global_start": 37752,
+      "global_end": 38068,
+      "char_count": 316
+    },
+    {
+      "cap": "Cap_02",
+      "page": 43,
+      "global_start": 38068,
+      "global_end": 38387,
+      "char_count": 319
+    },
+    {
+      "cap": "Cap_02",
+      "page": 44,
+      "global_start": 38387,
+      "global_end": 38726,
+      "char_count": 339
+    },
+    {
+      "cap": "Cap_02",
+      "page": 45,
+      "global_start": 38726,
+      "global_end": 39057,
+      "char_count": 331
+    },
+    {
+      "cap": "Cap_02",
+      "page": 46,
+      "global_start": 39057,
+      "global_end": 39393,
+      "char_count": 336
+    },
+    {
+      "cap": "Cap_02",
+      "page": 47,
+      "global_start": 39393,
+      "global_end": 39740,
+      "char_count": 347
+    },
+    {
+      "cap": "Cap_02",
+      "page": 48,
+      "global_start": 39740,
+      "global_end": 40071,
+      "char_count": 331
+    },
+    {
+      "cap": "Cap_02",
+      "page": 49,
+      "global_start": 40071,
+      "global_end": 40407,
+      "char_count": 336
+    },
+    {
+      "cap": "Cap_02",
+      "page": 50,
+      "global_start": 40407,
+      "global_end": 40741,
+      "char_count": 334
+    },
+    {
+      "cap": "Cap_02",
+      "page": 51,
+      "global_start": 40741,
+      "global_end": 40943,
+      "char_count": 202
+    },
+    {
+      "cap": "Cap_02",
+      "page": 52,
+      "global_start": 40943,
+      "global_end": 41261,
+      "char_count": 318
+    },
+    {
+      "cap": "Cap_02",
+      "page": 53,
+      "global_start": 41261,
+      "global_end": 41576,
+      "char_count": 315
+    },
+    {
+      "cap": "Cap_02",
+      "page": 54,
+      "global_start": 41576,
+      "global_end": 41885,
+      "char_count": 309
+    },
+    {
+      "cap": "Cap_02",
+      "page": 55,
+      "global_start": 41885,
+      "global_end": 42182,
+      "char_count": 297
+    },
+    {
+      "cap": "Cap_02",
+      "page": 56,
+      "global_start": 42182,
+      "global_end": 42487,
+      "char_count": 305
+    },
+    {
+      "cap": "Cap_02",
+      "page": 57,
+      "global_start": 42487,
+      "global_end": 42819,
+      "char_count": 332
+    },
+    {
+      "cap": "Cap_02",
+      "page": 58,
+      "global_start": 42819,
+      "global_end": 43150,
+      "char_count": 331
+    },
+    {
+      "cap": "Cap_02",
+      "page": 59,
+      "global_start": 43150,
+      "global_end": 43470,
+      "char_count": 320
+    },
+    {
+      "cap": "Cap_02",
+      "page": 60,
+      "global_start": 43470,
+      "global_end": 43816,
+      "char_count": 346
+    },
+    {
+      "cap": "Cap_02",
+      "page": 61,
+      "global_start": 43816,
+      "global_end": 44122,
+      "char_count": 306
+    },
+    {
+      "cap": "Cap_02",
+      "page": 62,
+      "global_start": 44122,
+      "global_end": 44463,
+      "char_count": 341
+    },
+    {
+      "cap": "Cap_02",
+      "page": 63,
+      "global_start": 44463,
+      "global_end": 44807,
+      "char_count": 344
+    },
+    {
+      "cap": "Cap_02",
+      "page": 64,
+      "global_start": 44807,
+      "global_end": 45152,
+      "char_count": 345
+    },
+    {
+      "cap": "Cap_02",
+      "page": 65,
+      "global_start": 45152,
+      "global_end": 45504,
+      "char_count": 352
+    },
+    {
+      "cap": "Cap_02",
+      "page": 66,
+      "global_start": 45504,
+      "global_end": 45832,
+      "char_count": 328
+    },
+    {
+      "cap": "Cap_02",
+      "page": 67,
+      "global_start": 45832,
+      "global_end": 46164,
+      "char_count": 332
+    },
+    {
+      "cap": "Cap_02",
+      "page": 68,
+      "global_start": 46164,
+      "global_end": 46501,
+      "char_count": 337
+    },
+    {
+      "cap": "Cap_02",
+      "page": 69,
+      "global_start": 46501,
+      "global_end": 46806,
+      "char_count": 305
+    },
+    {
+      "cap": "Cap_02",
+      "page": 70,
+      "global_start": 46806,
+      "global_end": 47099,
+      "char_count": 293
+    },
+    {
+      "cap": "Cap_02",
+      "page": 71,
+      "global_start": 47099,
+      "global_end": 47413,
+      "char_count": 314
+    },
+    {
+      "cap": "Cap_02",
+      "page": 72,
+      "global_start": 47413,
+      "global_end": 47725,
+      "char_count": 312
+    },
+    {
+      "cap": "Cap_02",
+      "page": 73,
+      "global_start": 47725,
+      "global_end": 48069,
+      "char_count": 344
+    },
+    {
+      "cap": "Cap_02",
+      "page": 74,
+      "global_start": 48069,
+      "global_end": 48417,
+      "char_count": 348
+    },
+    {
+      "cap": "Cap_02",
+      "page": 75,
+      "global_start": 48417,
+      "global_end": 48751,
+      "char_count": 334
+    },
+    {
+      "cap": "Cap_02",
+      "page": 76,
+      "global_start": 48751,
+      "global_end": 49107,
+      "char_count": 356
+    },
+    {
+      "cap": "Cap_02",
+      "page": 77,
+      "global_start": 49107,
+      "global_end": 49454,
+      "char_count": 347
+    },
+    {
+      "cap": "Cap_02",
+      "page": 78,
+      "global_start": 49454,
+      "global_end": 49755,
+      "char_count": 301
+    },
+    {
+      "cap": "Cap_02",
+      "page": 79,
+      "global_start": 49755,
+      "global_end": 50075,
+      "char_count": 320
+    },
+    {
+      "cap": "Cap_02",
+      "page": 80,
+      "global_start": 50075,
+      "global_end": 50391,
+      "char_count": 316
+    },
+    {
+      "cap": "Cap_02",
+      "page": 81,
+      "global_start": 50391,
+      "global_end": 50698,
+      "char_count": 307
+    },
+    {
+      "cap": "Cap_02",
+      "page": 82,
+      "global_start": 50698,
+      "global_end": 51041,
+      "char_count": 343
+    },
+    {
+      "cap": "Cap_02",
+      "page": 83,
+      "global_start": 51041,
+      "global_end": 51372,
+      "char_count": 331
+    },
+    {
+      "cap": "Cap_02",
+      "page": 84,
+      "global_start": 51372,
+      "global_end": 51689,
+      "char_count": 317
+    },
+    {
+      "cap": "Cap_02",
+      "page": 85,
+      "global_start": 51689,
+      "global_end": 51999,
+      "char_count": 310
+    },
+    {
+      "cap": "Cap_02",
+      "page": 86,
+      "global_start": 51999,
+      "global_end": 52335,
+      "char_count": 336
+    },
+    {
+      "cap": "Cap_02",
+      "page": 87,
+      "global_start": 52335,
+      "global_end": 52431,
+      "char_count": 96
+    },
+    {
+      "cap": "Cap_02",
+      "page": 88,
+      "global_start": 52431,
+      "global_end": 52744,
+      "char_count": 313
+    },
+    {
+      "cap": "Cap_02",
+      "page": 89,
+      "global_start": 52744,
+      "global_end": 53042,
+      "char_count": 298
+    },
+    {
+      "cap": "Cap_02",
+      "page": 90,
+      "global_start": 53042,
+      "global_end": 53320,
+      "char_count": 278
+    },
+    {
+      "cap": "Cap_02",
+      "page": 91,
+      "global_start": 53320,
+      "global_end": 53326,
+      "char_count": 6
+    },
+    {
+      "cap": "Cap_02",
+      "page": 92,
+      "global_start": 53326,
+      "global_end": 53328,
+      "char_count": 2
+    }
+  ],
+  "key_page_offsets": {
+    "Cap_01_page_1": [
+      0,
+      446
+    ],
+    "Cap_01_page_2": [
+      446,
+      905
+    ],
+    "Cap_01_page_3": [
+      905,
+      1371
+    ],
+    "Cap_01_page_4": [
+      1371,
+      1764
+    ]
+  },
+  "key_candidate_offsets": {
+    "0189-001+002": [
+      893,
+      1044
+    ],
+    "0189-003": [
+      1044,
+      1175
+    ],
+    "0189-004": [
+      1175,
+      1274
+    ],
+    "0190-001": [
+      1274,
+      1293
+    ],
+    "0190-002": [
+      1293,
+      1404
+    ],
+    "0190-003": [
+      1404,
+      1426
+    ],
+    "0190-004": [
+      1426,
+      1473
+    ],
+    "0190-005": [
+      1473,
+      1499
+    ]
+  },
+  "hashes": {
+    "han_segments_full": "8db9a10b6406d18d9a52254e35d0bab29cc090332abf98ed96e981c46f94282e",
+    "window_context_refined": "78a172a45f61751b8815781e3e7cbb88b6af089b9ec7b4237b1edba98fd383ac",
+    "page_mapping_refined": "77063618e67607fc5ec69cfac0ab5a66f0b91b6fb67214eb46ba6ebaead816a3",
+    "cap01_han_ocr": "3599b9de2d6c2b0963d8714a976b395f1bb08f59ce3cf2e0c1bfebe0f1018ad6",
+    "cap02_han_ocr": "336d63c3f980313452b5bea490b263b8c80bd7240b23f4fd467fa2f49a865b08",
+    "vi_cap01_workbook": "9d1985457cc49179eeef6731d49c639edfea6d545d1b673365597a185dbc0939",
+    "vi_cap02_workbook": "d1f7e9ea71ee8ad99454b972b6944f74416430515fdb1c0fc9ac6eda141c5221",
+    "verified_review_v2": "4e4ad625b7b16366e5f24331748e8dd8f97b1a94c81dadc3362808f7e7f2b715"
+  }
+}

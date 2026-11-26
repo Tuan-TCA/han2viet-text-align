@@ -1,0 +1,105 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "6ddcb9ecd0426dccb75b8dfa16f0694f045eee1e997777b490781b218cf67201",
+  "payload": {
+    "han": "已為拘自不遺將貴國未及登放耶\n抑彼等有何事故而見留數\n此吾之所未解也\n且夫所發回五十四名者本國之年長也\n而級水年及漂長泯亦本國之事民也\n均是吾之赤子蒼生國宜一例而見愛\n未審貴國之一湘一放一毫何寬於彼何密於此也又回第有云\n昔年安南並未有為非作反沿海打刼\n故年來每侵犯邊器刼掠居民\n吾覓至此不竟\n燦然曰吾耳中從來未嘗聞此语\n國家自有法意豈容鬼鄉之兆頗弄吾憲章\n若果有之是守將葉戢三陳也\n海天融邈吾安得圓知耶\n以而國相親相照之情安有坐視為玉之民\n曜刼掠于天地之慘而置之度外乎\n想貴國此意言葉暴睦鄰之月\n一心也今自無勑沿邊守悔並宜業載處長\n不得刼掠洋勞诸國商般善痛紐商用實之無憲斯無控寶\n且貴國尚憫流民之漂泊發回虛籍\n吾豈忘繼沿海無觀之徒攬想貴鄰之赤子\n取且回第中故语不能無可議\n都姑五國王言云四云安南向化深為可嶽\n又云安南進貢向化以誠\n此等言语不知遲而視吾安南五何等目耶\n此吾之所未解",
+    "vi": "Phàm vương giả dụng binh là để vớt kẻ đuối cứu kẻ cháy, dẹp kẻ loạn giết kẻ bạo, nên vua Văn vương giận kẻ bất cung, vua Tuyên hậu đánh kẻ chỉnh cư, đó không phải là thích chiến tranh đâu, chỉ là bất đắc di vậy.\nNước Cao Mền nhỏ kia hẻo lánh trong rừng rậm, ví như nước Đằng ở len vào giữa nước Sở và nước Tể.\nNó đã nương nhờ quý quốc mà cũng phục sự bản triểu, xét sơ tâm của nó thì cũng chẳng có gì khác là mong có hai trời vậy.\nTrước đây Ông Thâm lỡ bước, nhờ quý quốc dìu dắt, đã được trở về đất cũ.\nNgoái sợ quân nước tôi ở gần, không đám ở yên, nên trông ngóng khuyết đình, cầu thương sinh mệnh.\nBản triều thương cá gặp cạn mà tìm nước, chỉm cánh yếu đã về rừng, chứa giấu bụi nhơ, chia cỏ cho đất, cho làm phên giậu mà đời đời dâng chức cống.\nĐó là nước Cao Mên trước thì nhờ quý quốc ra ơn ấp ủ, sau thì nhờ bản triểu giúp đức dưỡng nuôi, đáng lẽ nên bảo toàn thuỷ chung, sợ trời thờ nước lớn, nộp con tin dâng ngọc báu để tỏ lòng kính trọng, lấy yên dân giữ cõi làm trung, thế mới không mất chức phận của kẻ phiên thần.\nKhông ngờ Ông Thâm sinh tính chó đê, mang lòng rắn lợn, nhóm họp bọn hung cừ, xâm lấn nơi bờ cõi.\nBản quốc cho đó là Qui Phương vô đạo, Hiểm Doãn” bất cung, bèn sai để binh hỏi tội, để răn bọn phiên thần không giữ lễ.\nVà theo phép Xuân thu thì những kẻ loạn thần tặc tử, ai cũng được phép giết, huống chi là người có nước?"
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 3,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"已為拘自不遺將貴國未及登放耶 抑彼等有何事故而見留數 此吾之所未解也 且夫所發回五十四名者本國之年長也\",\n        \"vietnamese_text\": \"Phàm vương giả dụng binh là để vớt kẻ đuối cứu kẻ cháy, dẹp kẻ loạn giết kẻ bạo, nên vua Văn vương giận kẻ bất cung, vua Tuyên hậu đánh kẻ chỉnh cư, đó không phải là thích chiến tranh đâu, chỉ là bất đắc di vậy.\",\n        \"score\": 0.05974115484931252\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 6,\n        \"vi_start\": 1,\n        \"vi_end\": 2,\n        \"han_text\": \"而級水年及漂長泯亦本國之事民也 均是吾之赤子蒼生國宜一例而見愛 未審貴國之一湘一放一毫何寬於彼何密於此也又回第有云\",\n        \"vietnamese_text\": \"Nước Cao Mền nhỏ kia hẻo lánh trong rừng rậm, ví như nước Đằng ở len vào giữa nước Sở và nước Tể. Nó đã nương nhờ quý quốc mà cũng phục sự bản triểu, xét sơ tâm của nó thì cũng chẳng có gì khác là mong có hai trời vậy.\",\n        \"score\": 0.290853397865875\n      },\n      {\n        \"han_start\": 7,\n        \"han_end\": 8,\n        \"vi_start\": 3,\n        \"vi_end\": 3,\n        \"han_text\": \"昔年安南並未有為非作反沿海打刼 故年來每侵犯邊器刼掠居民\",\n        \"vietnamese_text\": \"Trước đây Ông Thâm lỡ bước, nhờ quý quốc dìu dắt, đã được trở về đất cũ.\",\n        \"score\": 0.055976571428858556\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 11,\n        \"vi_start\": 4,\n        \"vi_end\": 4,\n        \"han_text\": \"吾覓至此不竟 燦然曰吾耳中從來未嘗聞此语 國家自有法意豈容鬼鄉之兆頗弄吾憲章\",\n        \"vietnamese_text\": \"Ngoái sợ quân nước tôi ở gần, không đám ở yên, nên trông ngóng khuyết đình, cầu thương sinh mệnh.\",\n        \"score\": 0.11054226487510492\n      },\n      {\n        \"han_start\": 12,\n        \"han_end\": 13,\n        \"vi_start\": 5,\n        \"vi_end\": 5,\n        \"han_text\": \"若果有之是守將葉戢三陳也 海天融邈吾安得圓知耶\",\n        \"vietnamese_text\": \"Bản triều thương cá gặp cạn mà tìm nước, chỉm cánh yếu đã về rừng, chứa giấu bụi nhơ, chia cỏ cho đất, cho làm phên giậu mà đời đời dâng chức cống.\",\n        \"score\": -0.014737751968094666\n      },\n      {\n        \"han_start\": 14,\n        \"han_end\": 17,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"以而國相親相照之情安有坐視為玉之民 曜刼掠于天地之慘而置之度外乎 想貴國此意言葉暴睦鄰之月 一心也今自無勑沿邊守悔並宜業載處長\",\n        \"vietnamese_text\": \"Đó là nước Cao Mên trước thì nhờ quý quốc ra ơn ấp ủ, sau thì nhờ bản triểu giúp đức dưỡng nuôi, đáng lẽ nên bảo toàn thuỷ chung, sợ trời thờ nước lớn, nộp con tin dâng ngọc báu để tỏ lòng kính trọng, lấy yên dân giữ cõi làm trung, thế mới không mất chức phận của kẻ phiên thần.\",\n        \"score\": 0.1704420941978513\n      },\n      {\n        \"han_start\": 18,\n        \"han_end\": 20,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"不得刼掠洋勞诸國商般善痛紐商用實之無憲斯無控寶 且貴國尚憫流民之漂泊發回虛籍 吾豈忘繼沿海無觀之徒攬想貴鄰之赤子\",\n        \"vietnamese_text\": \"Không ngờ Ông Thâm sinh tính chó đê, mang lòng rắn lợn, nhóm họp bọn hung cừ, xâm lấn nơi bờ cõi.\",\n        \"score\": 0.06580275817722865\n      },\n      {\n        \"han_start\": 21,\n        \"han_end\": 22,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"取且回第中故语不能無可議 都姑五國王言云四云安南向化深為可嶽\",\n        \"vietnamese_text\": \"Bản quốc cho đó là Qui Phương vô đạo, Hiểm Doãn” bất cung, bèn sai để binh hỏi tội, để răn bọn phiên thần không giữ lễ.\",\n        \"score\": 0.18288990399221391\n      },\n      {\n        \"han_start\": 23,\n        \"han_end\": 25,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"又云安南進貢向化以誠 此等言语不知遲而視吾安南五何等目耶 此吾之所未解\",\n        \"vietnamese_text\": \"Và theo phép Xuân thu thì những kẻ loạn thần tặc tử, ai cũng được phép giết, huống chi là người có nước?\",\n        \"score\": -0.041239782220442785\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 3,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "已為拘自不遺將貴國未及登放耶 抑彼等有何事故而見留數 此吾之所未解也 且夫所發回五十四名者本國之年長也",
+          "vietnamese_text": "Phàm vương giả dụng binh là để vớt kẻ đuối cứu kẻ cháy, dẹp kẻ loạn giết kẻ bạo, nên vua Văn vương giận kẻ bất cung, vua Tuyên hậu đánh kẻ chỉnh cư, đó không phải là thích chiến tranh đâu, chỉ là bất đắc di vậy.",
+          "score": 0.05974115484931252
+        },
+        {
+          "han_start": 4,
+          "han_end": 6,
+          "vi_start": 1,
+          "vi_end": 2,
+          "han_text": "而級水年及漂長泯亦本國之事民也 均是吾之赤子蒼生國宜一例而見愛 未審貴國之一湘一放一毫何寬於彼何密於此也又回第有云",
+          "vietnamese_text": "Nước Cao Mền nhỏ kia hẻo lánh trong rừng rậm, ví như nước Đằng ở len vào giữa nước Sở và nước Tể. Nó đã nương nhờ quý quốc mà cũng phục sự bản triểu, xét sơ tâm của nó thì cũng chẳng có gì khác là mong có hai trời vậy.",
+          "score": 0.290853397865875
+        },
+        {
+          "han_start": 7,
+          "han_end": 8,
+          "vi_start": 3,
+          "vi_end": 3,
+          "han_text": "昔年安南並未有為非作反沿海打刼 故年來每侵犯邊器刼掠居民",
+          "vietnamese_text": "Trước đây Ông Thâm lỡ bước, nhờ quý quốc dìu dắt, đã được trở về đất cũ.",
+          "score": 0.055976571428858556
+        },
+        {
+          "han_start": 9,
+          "han_end": 11,
+          "vi_start": 4,
+          "vi_end": 4,
+          "han_text": "吾覓至此不竟 燦然曰吾耳中從來未嘗聞此语 國家自有法意豈容鬼鄉之兆頗弄吾憲章",
+          "vietnamese_text": "Ngoái sợ quân nước tôi ở gần, không đám ở yên, nên trông ngóng khuyết đình, cầu thương sinh mệnh.",
+          "score": 0.11054226487510492
+        },
+        {
+          "han_start": 12,
+          "han_end": 13,
+          "vi_start": 5,
+          "vi_end": 5,
+          "han_text": "若果有之是守將葉戢三陳也 海天融邈吾安得圓知耶",
+          "vietnamese_text": "Bản triều thương cá gặp cạn mà tìm nước, chỉm cánh yếu đã về rừng, chứa giấu bụi nhơ, chia cỏ cho đất, cho làm phên giậu mà đời đời dâng chức cống.",
+          "score": -0.014737751968094666
+        },
+        {
+          "han_start": 14,
+          "han_end": 17,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "以而國相親相照之情安有坐視為玉之民 曜刼掠于天地之慘而置之度外乎 想貴國此意言葉暴睦鄰之月 一心也今自無勑沿邊守悔並宜業載處長",
+          "vietnamese_text": "Đó là nước Cao Mên trước thì nhờ quý quốc ra ơn ấp ủ, sau thì nhờ bản triểu giúp đức dưỡng nuôi, đáng lẽ nên bảo toàn thuỷ chung, sợ trời thờ nước lớn, nộp con tin dâng ngọc báu để tỏ lòng kính trọng, lấy yên dân giữ cõi làm trung, thế mới không mất chức phận của kẻ phiên thần.",
+          "score": 0.1704420941978513
+        },
+        {
+          "han_start": 18,
+          "han_end": 20,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "不得刼掠洋勞诸國商般善痛紐商用實之無憲斯無控寶 且貴國尚憫流民之漂泊發回虛籍 吾豈忘繼沿海無觀之徒攬想貴鄰之赤子",
+          "vietnamese_text": "Không ngờ Ông Thâm sinh tính chó đê, mang lòng rắn lợn, nhóm họp bọn hung cừ, xâm lấn nơi bờ cõi.",
+          "score": 0.06580275817722865
+        },
+        {
+          "han_start": 21,
+          "han_end": 22,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "取且回第中故语不能無可議 都姑五國王言云四云安南向化深為可嶽",
+          "vietnamese_text": "Bản quốc cho đó là Qui Phương vô đạo, Hiểm Doãn” bất cung, bèn sai để binh hỏi tội, để răn bọn phiên thần không giữ lễ.",
+          "score": 0.18288990399221391
+        },
+        {
+          "han_start": 23,
+          "han_end": 25,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "又云安南進貢向化以誠 此等言语不知遲而視吾安南五何等目耶 此吾之所未解",
+          "vietnamese_text": "Và theo phép Xuân thu thì những kẻ loạn thần tặc tử, ai cũng được phép giết, huống chi là người có nước?",
+          "score": -0.041239782220442785
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 2406
+}

@@ -1,0 +1,114 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "0662cf6fb876f0badd64d93cc0f1792798ca50933f37484d70fbdd559a38c654",
+  "payload": {
+    "han": "設或差人貪祿微收遇例方此之辰亦不開報告\n且本國三壽一考讀自有常與\n豈容貪昌之人歲華翰到日追完\n原來且老者云亡罪者見點事經豈月兩無患\n據其能乎\n豈其然乎\n姑置勿龍\n又癸自年楊成章船隻云從塵東來\n內船貨物俱無18不許入港\n此本國之常規之彼自懇訴四入港例之司微收正越乎此豈有他赤\n設若彼苦釐尽所貴不出於舞姑歌見\n則入於贈墟酒店而帆之日欺以其方是無稽之言之而咱一邊之说索迹銀之事\n諺云張公訖酒李公顛\n此書之所未解\n以國王嚴下之明蒼素聽意何必深辨\n况本國所習者孔亟豈不知交鄰又道以為利矢但矣\n中所云有司非輔相才益徵賦啟\n不知以吾國有司為何如人之云權視吾是使成仇敵何為出此言哉\n且為國以信義相交文盡相期\n假使差人見利特細故取安有以費銀之細故而反坚金三大好耶\n若夫懇諸竟辭十張任其往來\n今年如此明年又四此年之不絕一而足\n氣何用多非為此見惡厚之儀已徑收入但所漂之居民當見留於腔\n國貴信有厚情可",
+    "vi": "Đó là điều chúng tôi chưa hiểu được.\nLấy thông minh của quốc vương điện hạ thì xanh trắng đen vàng hẳn rõ, cần chi phải biện nữa.\nNước chúng tôi học tập Khổng Mạnh, há không giao thiệp với nước láng giềng phải có đạo và lấy nghĩa làm lợi hay sao?\nNhưng trong thư có nói hữu ty không có tài giúp vua, chỉ thu thuế nặng nề, thì không biết xem hữu ty nước tôi là người thế nào?\nLại nói coi rẻ nước Xiêm, gây nên cừu địch, sao lại nói ra câu ấy?\nVà hai nước lấy tín nghĩa giao kết với nhau đã từ lâu xa, giả sử kẻ sai nhân thấy lợi mà làm sai thì cũng chỉ là việc nhỏ thôi, có lẽ nào vì cớ nhỏ tốn bạc mà bỏ nghĩa lớn bền như vàng.\nĐến như việc xin cho mười cái thẻ long bài thì có cho cũng chẳng hại gì đâu, nhưng được nhiều long bài chỉ sợ thuyền chủ lại dẫm theo vết xe của Dương Thành Chương, lấy tư mà hại công, lấy lợi mà hại nghĩa.\nVậy hãy gứi một tờ dùng để đi lại Năm nay như thế, sang năm lại như thế, năm này nầm khác không dứt, thì một cái cũng đủ, cần gì phải dùng nhiều.\nNhững nghi phẩm đem tặng đã vâng thu nhận.\nNhưng các quân dân bị xiêu hãy còn bị giữ ở quý quốc, nếu có hậu tình thì nên đưa hết thảy trả về.\nMục lân hậu như thế thì chẳng gì hậu bằng.\nNghĩa đó tình đó, tốt đẹp lâu dài.\nNay kính đưa những vật thổ sản giao cho sứ thần đệ tiến lên quốc vương điện tiền, kính mong thu nhận, ngõ hầu tỏ được tình nghĩa tương thông.\nNay phục thư\".\nThuận Hoá năm ấy có thư trả lời người Xiêm, không thấy thư người Xiêm gửi đến thế nào.\nXem kỹ bức thư trả lời đó cũng đủ thấy được cái thói tự tôn tự đại.\nThư rằng: \"Vua nước An Nam kính trả lời vua nước Xiêm biết rõ: mùa thu năm nay, bọn Cai Trí, Thủ Trương về, đem bẩm bức thư trả lời của quý quốc và lễ hậu đáp lại, cùng đanh sách những người trả về là bọn Cai Ý và đội Tiệp nhất cùng dân bị xiêu giạt cộng 54 tên, đủ thấy tình cao của nước láng giềng, tấm tắc hồi lâu."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 3,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"設或差人貪祿微收遇例方此之辰亦不開報告 且本國三壽一考讀自有常與 豈容貪昌之人歲華翰到日追完 原來且老者云亡罪者見點事經豈月兩無患\",\n        \"vietnamese_text\": \"Đó là điều chúng tôi chưa hiểu được.\",\n        \"score\": -0.007134496772172792\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 7,\n        \"vi_start\": 1,\n        \"vi_end\": 1,\n        \"han_text\": \"據其能乎 豈其然乎 姑置勿龍 又癸自年楊成章船隻云從塵東來\",\n        \"vietnamese_text\": \"Lấy thông minh của quốc vương điện hạ thì xanh trắng đen vàng hẳn rõ, cần chi phải biện nữa.\",\n        \"score\": 0.13626116166278848\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 10,\n        \"vi_start\": 2,\n        \"vi_end\": 3,\n        \"han_text\": \"內船貨物俱無18不許入港 此本國之常規之彼自懇訴四入港例之司微收正越乎此豈有他赤 設若彼苦釐尽所貴不出於舞姑歌見\",\n        \"vietnamese_text\": \"Nước chúng tôi học tập Khổng Mạnh, há không giao thiệp với nước láng giềng phải có đạo và lấy nghĩa làm lợi hay sao? Nhưng trong thư có nói hữu ty không có tài giúp vua, chỉ thu thuế nặng nề, thì không biết xem hữu ty nước tôi là người thế nào?\",\n        \"score\": 0.23344139123133503\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 13,\n        \"vi_start\": 4,\n        \"vi_end\": 5,\n        \"han_text\": \"則入於贈墟酒店而帆之日欺以其方是無稽之言之而咱一邊之说索迹銀之事 諺云張公訖酒李公顛 此書之所未解\",\n        \"vietnamese_text\": \"Lại nói coi rẻ nước Xiêm, gây nên cừu địch, sao lại nói ra câu ấy? Và hai nước lấy tín nghĩa giao kết với nhau đã từ lâu xa, giả sử kẻ sai nhân thấy lợi mà làm sai thì cũng chỉ là việc nhỏ thôi, có lẽ nào vì cớ nhỏ tốn bạc mà bỏ nghĩa lớn bền như vàng.\",\n        \"score\": 0.11826565127354449\n      },\n      {\n        \"han_start\": 14,\n        \"han_end\": 16,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"以國王嚴下之明蒼素聽意何必深辨 况本國所習者孔亟豈不知交鄰又道以為利矢但矣 中所云有司非輔相才益徵賦啟\",\n        \"vietnamese_text\": \"Đến như việc xin cho mười cái thẻ long bài thì có cho cũng chẳng hại gì đâu, nhưng được nhiều long bài chỉ sợ thuyền chủ lại dẫm theo vết xe của Dương Thành Chương, lấy tư mà hại công, lấy lợi mà hại nghĩa.\",\n        \"score\": 0.06817958780177423\n      },\n      {\n        \"han_start\": 17,\n        \"han_end\": 17,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"不知以吾國有司為何如人之云權視吾是使成仇敵何為出此言哉\",\n        \"vietnamese_text\": \"Vậy hãy gứi một tờ dùng để đi lại Năm nay như thế, sang năm lại như thế, năm này nầm khác không dứt, thì một cái cũng đủ, cần gì phải dùng nhiều.\",\n        \"score\": 0.051876846734556906\n      },\n      {\n        \"han_start\": 18,\n        \"han_end\": 20,\n        \"vi_start\": 8,\n        \"vi_end\": 9,\n        \"han_text\": \"且為國以信義相交文盡相期 假使差人見利特細故取安有以費銀之細故而反坚金三大好耶 若夫懇諸竟辭十張任其往來\",\n        \"vietnamese_text\": \"Những nghi phẩm đem tặng đã vâng thu nhận. Nhưng các quân dân bị xiêu hãy còn bị giữ ở quý quốc, nếu có hậu tình thì nên đưa hết thảy trả về.\",\n        \"score\": 0.15990142198924007\n      },\n      {\n        \"han_start\": 21,\n        \"han_end\": 21,\n        \"vi_start\": 10,\n        \"vi_end\": 11,\n        \"han_text\": \"今年如此明年又四此年之不絕一而足\",\n        \"vietnamese_text\": \"Mục lân hậu như thế thì chẳng gì hậu bằng. Nghĩa đó tình đó, tốt đẹp lâu dài.\",\n        \"score\": 0.28992961014588875\n      },\n      {\n        \"han_start\": 22,\n        \"han_end\": 22,\n        \"vi_start\": 12,\n        \"vi_end\": 12,\n        \"han_text\": \"氣何用多非為此見惡厚之儀已徑收入但所漂之居民當見留於腔\",\n        \"vietnamese_text\": \"Nay kính đưa những vật thổ sản giao cho sứ thần đệ tiến lên quốc vương điện tiền, kính mong thu nhận, ngõ hầu tỏ được tình nghĩa tương thông.\",\n        \"score\": 0.049460160019246094\n      },\n      {\n        \"han_start\": 23,\n        \"han_end\": 23,\n        \"vi_start\": 13,\n        \"vi_end\": 16,\n        \"han_text\": \"國貴信有厚情可\",\n        \"vietnamese_text\": \"Nay phục thư\\\". Thuận Hoá năm ấy có thư trả lời người Xiêm, không thấy thư người Xiêm gửi đến thế nào. Xem kỹ bức thư trả lời đó cũng đủ thấy được cái thói tự tôn tự đại. Thư rằng: \\\"Vua nước An Nam kính trả lời vua nước Xiêm biết rõ: mùa thu năm nay, bọn Cai Trí, Thủ Trương về, đem bẩm bức thư trả lời của quý quốc và lễ hậu đáp lại, cùng đanh sách những người trả về là bọn Cai Ý và đội Tiệp nhất cùng dân bị xiêu giạt cộng 54 tên, đủ thấy tình cao của nước láng giềng, tấm tắc hồi lâu.\",\n        \"score\": 0.008644423343667926\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 3,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "設或差人貪祿微收遇例方此之辰亦不開報告 且本國三壽一考讀自有常與 豈容貪昌之人歲華翰到日追完 原來且老者云亡罪者見點事經豈月兩無患",
+          "vietnamese_text": "Đó là điều chúng tôi chưa hiểu được.",
+          "score": -0.007134496772172792
+        },
+        {
+          "han_start": 4,
+          "han_end": 7,
+          "vi_start": 1,
+          "vi_end": 1,
+          "han_text": "據其能乎 豈其然乎 姑置勿龍 又癸自年楊成章船隻云從塵東來",
+          "vietnamese_text": "Lấy thông minh của quốc vương điện hạ thì xanh trắng đen vàng hẳn rõ, cần chi phải biện nữa.",
+          "score": 0.13626116166278848
+        },
+        {
+          "han_start": 8,
+          "han_end": 10,
+          "vi_start": 2,
+          "vi_end": 3,
+          "han_text": "內船貨物俱無18不許入港 此本國之常規之彼自懇訴四入港例之司微收正越乎此豈有他赤 設若彼苦釐尽所貴不出於舞姑歌見",
+          "vietnamese_text": "Nước chúng tôi học tập Khổng Mạnh, há không giao thiệp với nước láng giềng phải có đạo và lấy nghĩa làm lợi hay sao? Nhưng trong thư có nói hữu ty không có tài giúp vua, chỉ thu thuế nặng nề, thì không biết xem hữu ty nước tôi là người thế nào?",
+          "score": 0.23344139123133503
+        },
+        {
+          "han_start": 11,
+          "han_end": 13,
+          "vi_start": 4,
+          "vi_end": 5,
+          "han_text": "則入於贈墟酒店而帆之日欺以其方是無稽之言之而咱一邊之说索迹銀之事 諺云張公訖酒李公顛 此書之所未解",
+          "vietnamese_text": "Lại nói coi rẻ nước Xiêm, gây nên cừu địch, sao lại nói ra câu ấy? Và hai nước lấy tín nghĩa giao kết với nhau đã từ lâu xa, giả sử kẻ sai nhân thấy lợi mà làm sai thì cũng chỉ là việc nhỏ thôi, có lẽ nào vì cớ nhỏ tốn bạc mà bỏ nghĩa lớn bền như vàng.",
+          "score": 0.11826565127354449
+        },
+        {
+          "han_start": 14,
+          "han_end": 16,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "以國王嚴下之明蒼素聽意何必深辨 况本國所習者孔亟豈不知交鄰又道以為利矢但矣 中所云有司非輔相才益徵賦啟",
+          "vietnamese_text": "Đến như việc xin cho mười cái thẻ long bài thì có cho cũng chẳng hại gì đâu, nhưng được nhiều long bài chỉ sợ thuyền chủ lại dẫm theo vết xe của Dương Thành Chương, lấy tư mà hại công, lấy lợi mà hại nghĩa.",
+          "score": 0.06817958780177423
+        },
+        {
+          "han_start": 17,
+          "han_end": 17,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "不知以吾國有司為何如人之云權視吾是使成仇敵何為出此言哉",
+          "vietnamese_text": "Vậy hãy gứi một tờ dùng để đi lại Năm nay như thế, sang năm lại như thế, năm này nầm khác không dứt, thì một cái cũng đủ, cần gì phải dùng nhiều.",
+          "score": 0.051876846734556906
+        },
+        {
+          "han_start": 18,
+          "han_end": 20,
+          "vi_start": 8,
+          "vi_end": 9,
+          "han_text": "且為國以信義相交文盡相期 假使差人見利特細故取安有以費銀之細故而反坚金三大好耶 若夫懇諸竟辭十張任其往來",
+          "vietnamese_text": "Những nghi phẩm đem tặng đã vâng thu nhận. Nhưng các quân dân bị xiêu hãy còn bị giữ ở quý quốc, nếu có hậu tình thì nên đưa hết thảy trả về.",
+          "score": 0.15990142198924007
+        },
+        {
+          "han_start": 21,
+          "han_end": 21,
+          "vi_start": 10,
+          "vi_end": 11,
+          "han_text": "今年如此明年又四此年之不絕一而足",
+          "vietnamese_text": "Mục lân hậu như thế thì chẳng gì hậu bằng. Nghĩa đó tình đó, tốt đẹp lâu dài.",
+          "score": 0.28992961014588875
+        },
+        {
+          "han_start": 22,
+          "han_end": 22,
+          "vi_start": 12,
+          "vi_end": 12,
+          "han_text": "氣何用多非為此見惡厚之儀已徑收入但所漂之居民當見留於腔",
+          "vietnamese_text": "Nay kính đưa những vật thổ sản giao cho sứ thần đệ tiến lên quốc vương điện tiền, kính mong thu nhận, ngõ hầu tỏ được tình nghĩa tương thông.",
+          "score": 0.049460160019246094
+        },
+        {
+          "han_start": 23,
+          "han_end": 23,
+          "vi_start": 13,
+          "vi_end": 16,
+          "han_text": "國貴信有厚情可",
+          "vietnamese_text": "Nay phục thư\". Thuận Hoá năm ấy có thư trả lời người Xiêm, không thấy thư người Xiêm gửi đến thế nào. Xem kỹ bức thư trả lời đó cũng đủ thấy được cái thói tự tôn tự đại. Thư rằng: \"Vua nước An Nam kính trả lời vua nước Xiêm biết rõ: mùa thu năm nay, bọn Cai Trí, Thủ Trương về, đem bẩm bức thư trả lời của quý quốc và lễ hậu đáp lại, cùng đanh sách những người trả về là bọn Cai Ý và đội Tiệp nhất cùng dân bị xiêu giạt cộng 54 tên, đủ thấy tình cao của nước láng giềng, tấm tắc hồi lâu.",
+          "score": 0.008644423343667926
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 2469
+}

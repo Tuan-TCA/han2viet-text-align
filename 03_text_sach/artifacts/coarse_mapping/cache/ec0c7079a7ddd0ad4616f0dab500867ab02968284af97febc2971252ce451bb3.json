@@ -1,0 +1,159 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "ec0c7079a7ddd0ad4616f0dab500867ab02968284af97febc2971252ce451bb3",
+  "payload": {
+    "han": "有釋水隊所屬威一明二二船五辛共一百十人\n有里象奇管收并射年三十人以上\n各共戰兵一千百二十八人至加供雜殺差遣与更守者\n有內府各隊船把令一把令二二隔各二十八人\n新一船八十人新二船一百人志一船八千五人\n志二船九十四人\n新茶船八全人新定船八十九人\n有四馬船医一人草馬十八人\n有字名祠堂老般新安廉安齋二三船共九十一人\n有天兆寺酒夫廿五人有宋各府\n金危府水船十一人隔春府富二般六十六人\n新富船四十人有舉若康庫老說四十人\n安一船六十人有守各陵墓老貌一般\n共一百六十九人新三新壯里壯三般共七十四人\n有文庙字城隊二十六人\n有中象奇分為卒四隊每限七八九人或十人共五百九十人\n有四象為官医四人\n有盈局睹問司京人三十人內貌臣司三十四人\n治匠司五十八人漆匠司六二人\n治蓋械匠司六人渠紫梗司九人\n庶司尾一船十人屬內二船四十人\n鞍馬匠二人火攻匠司八人火輪匠二人\n木匠司安木船五六人\n右匠司卷本船五十六人果難正四人\n舟匠司二十人卯馬匠四人全象司四十人\n助予臣三人內府司匠七人內琬象匠司三人\n内房医隊十二人禪隊三十一人\n内謗鏡匠一人内紅花匠司二人內雜褪匠一人解匠司四人\n首營石扛庫有康一船三十一人\n四上各先雜兵二千五百十九人\n並領月糧在富春府此在內之無也",
+    "vi": "Thắng trụ (mỗi thuyền 50 người).\nKiên đao nhất, Kiên đao nhị (mỗi thuyền 19 người), Ta súng.\nTiển súng, (mỗi thuyển 45 người).\n6 thuyển cộng 288 người.\nCó các cơ Ta kiên, Hữu kiên.\nTiền kiên.\nHậu Riên. môi cợ đều ð thuyền (mỗi thuyền 15 người). cộng 225 người.\n20 thuyển cộng 900 người, Có đội Thắng Thuỷ. thuộc về đấy là 9 thuyển Ủy nhất, Minh nhị (mỗi thuyển 5ã người), cộng 110 người.\nCó cơ Riên tượng. quản mục và quân bắn 30 người.\nCác chiến bình trên đây cộng 1.328 người.\nCòn như quân để sai khiến việc vặt và canh giữ, thì có các đội thuyền Nội phu. hai đội Bả lệnh nhất.\nBa lệnh nhị. mỗi đội 38 người, thuyển Tân nhất 80 người. thuyền Tân nhị 100 người. thuyền Chí nhất 8ã người. thuyền Chí nhị 94 người, thuyên Tân Sài 1 người, thuyền Tân định 89 người, có lương y nội mã 1 người, cắt có ngựa 18 người.\nCó lão thuyền giữ các từ đường, ba thuyền Tân An, Khang nhất, Khang nhị. cộng 91 người.\nCó sái phu chùa Thiên Mụ 2ã người.\nCó các thuyển giữ các phủ, thuy thuyển phủ Kim Long 11 người, thuyền Phú Nhị phủ Dương Xuân 60 người. thuyền Phú tam Phủ Cam 61 người, thuyển Phú nhất Phủ Ao 63 người.\nCó các thuyền giữ các vươn. thuyền Định nhị vườn Khang thượng 16 người. thuyên Tần phú 40 người."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 0,\n        \"vi_start\": 0,\n        \"vi_end\": 3,\n        \"han_text\": \"有釋水隊所屬威一明二二船五辛共一百十人\",\n        \"vietnamese_text\": \"Thắng trụ (mỗi thuyền 50 người). Kiên đao nhất, Kiên đao nhị (mỗi thuyền 19 người), Ta súng. Tiển súng, (mỗi thuyển 45 người). 6 thuyển cộng 288 người.\",\n        \"score\": 0.06085380522039505\n      },\n      {\n        \"han_start\": 1,\n        \"han_end\": 1,\n        \"vi_start\": 4,\n        \"vi_end\": 7,\n        \"han_text\": \"有里象奇管收并射年三十人以上\",\n        \"vietnamese_text\": \"Có các cơ Ta kiên, Hữu kiên. Tiền kiên. Hậu Riên. môi cợ đều ð thuyền (mỗi thuyền 15 người).\",\n        \"score\": -0.022807062150042554\n      },\n      {\n        \"han_start\": 2,\n        \"han_end\": 2,\n        \"vi_start\": 8,\n        \"vi_end\": 9,\n        \"han_text\": \"各共戰兵一千百二十八人至加供雜殺差遣与更守者\",\n        \"vietnamese_text\": \"cộng 225 người. 20 thuyển cộng 900 người, Có đội Thắng Thuỷ.\",\n        \"score\": 0.1667596339086614\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 4,\n        \"vi_start\": 10,\n        \"vi_end\": 12,\n        \"han_text\": \"有內府各隊船把令一把令二二隔各二十八人 新一船八十人新二船一百人志一船八千五人\",\n        \"vietnamese_text\": \"thuộc về đấy là 9 thuyển Ủy nhất, Minh nhị (mỗi thuyển 5ã người), cộng 110 người. Có cơ Riên tượng. quản mục và quân bắn 30 người.\",\n        \"score\": 0.13040752999303884\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 5,\n        \"vi_start\": 13,\n        \"vi_end\": 16,\n        \"han_text\": \"志二船九十四人\",\n        \"vietnamese_text\": \"Các chiến bình trên đây cộng 1. 328 người. Còn như quân để sai khiến việc vặt và canh giữ, thì có các đội thuyền Nội phu. hai đội Bả lệnh nhất.\",\n        \"score\": -0.0034790809656463258\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 7,\n        \"vi_start\": 17,\n        \"vi_end\": 18,\n        \"han_text\": \"新茶船八全人新定船八十九人 有四馬船医一人草馬十八人\",\n        \"vietnamese_text\": \"Ba lệnh nhị. mỗi đội 38 người, thuyển Tân nhất 80 người.\",\n        \"score\": 0.15809075806104153\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 8,\n        \"vi_start\": 19,\n        \"vi_end\": 20,\n        \"han_text\": \"有字名祠堂老般新安廉安齋二三船共九十一人\",\n        \"vietnamese_text\": \"thuyền Tân nhị 100 người. thuyền Chí nhất 8ã người.\",\n        \"score\": 0.15586965211587284\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 10,\n        \"vi_start\": 21,\n        \"vi_end\": 21,\n        \"han_text\": \"有天兆寺酒夫廿五人有宋各府 金危府水船十一人隔春府富二般六十六人\",\n        \"vietnamese_text\": \"thuyền Chí nhị 94 người, thuyên Tân Sài 1 người, thuyền Tân định 89 người, có lương y nội mã 1 người, cắt có ngựa 18 người.\",\n        \"score\": 0.02356669523015836\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 12,\n        \"vi_start\": 22,\n        \"vi_end\": 22,\n        \"han_text\": \"新富船四十人有舉若康庫老說四十人 安一船六十人有守各陵墓老貌一般\",\n        \"vietnamese_text\": \"Có lão thuyền giữ các từ đường, ba thuyền Tân An, Khang nhất, Khang nhị.\",\n        \"score\": 0.19682348055981053\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 15,\n        \"vi_start\": 23,\n        \"vi_end\": 23,\n        \"han_text\": \"共一百六十九人新三新壯里壯三般共七十四人 有文庙字城隊二十六人 有中象奇分為卒四隊每限七八九人或十人共五百九十人\",\n        \"vietnamese_text\": \"cộng 91 người.\",\n        \"score\": 0.01338213002447824\n      },\n      {\n        \"han_start\": 16,\n        \"han_end\": 17,\n        \"vi_start\": 24,\n        \"vi_end\": 24,\n        \"han_text\": \"有四象為官医四人 有盈局睹問司京人三十人內貌臣司三十四人\",\n        \"vietnamese_text\": \"Có sái phu chùa Thiên Mụ 2ã người.\",\n        \"score\": 0.08744858690985392\n      },\n      {\n        \"han_start\": 18,\n        \"han_end\": 21,\n        \"vi_start\": 25,\n        \"vi_end\": 25,\n        \"han_text\": \"治匠司五十八人漆匠司六二人 治蓋械匠司六人渠紫梗司九人 庶司尾一船十人屬內二船四十人 鞍馬匠二人火攻匠司八人火輪匠二人\",\n        \"vietnamese_text\": \"Có các thuyển giữ các phủ, thuy thuyển phủ Kim Long 11 người, thuyền Phú Nhị phủ Dương Xuân 60 người.\",\n        \"score\": 0.11932365241170514\n      },\n      {\n        \"han_start\": 22,\n        \"han_end\": 23,\n        \"vi_start\": 26,\n        \"vi_end\": 26,\n        \"han_text\": \"木匠司安木船五六人 右匠司卷本船五十六人果難正四人\",\n        \"vietnamese_text\": \"thuyền Phú tam Phủ Cam 61 người, thuyển Phú nhất Phủ Ao 63 người.\",\n        \"score\": 0.1979719467587575\n      },\n      {\n        \"han_start\": 24,\n        \"han_end\": 27,\n        \"vi_start\": 27,\n        \"vi_end\": 27,\n        \"han_text\": \"舟匠司二十人卯馬匠四人全象司四十人 助予臣三人內府司匠七人內琬象匠司三人 内房医隊十二人禪隊三十一人 内謗鏡匠一人内紅花匠司二人內雜褪匠一人解匠司四人\",\n        \"vietnamese_text\": \"Có các thuyền giữ các vươn.\",\n        \"score\": -0.02593861307558988\n      },\n      {\n        \"han_start\": 28,\n        \"han_end\": 29,\n        \"vi_start\": 28,\n        \"vi_end\": 29,\n        \"han_text\": \"首營石扛庫有康一船三十一人 四上各先雜兵二千五百十九人\",\n        \"vietnamese_text\": \"thuyền Định nhị vườn Khang thượng 16 người. thuyên Tần phú 40 người.\",\n        \"score\": 0.3002564564438228\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 0,
+          "vi_start": 0,
+          "vi_end": 3,
+          "han_text": "有釋水隊所屬威一明二二船五辛共一百十人",
+          "vietnamese_text": "Thắng trụ (mỗi thuyền 50 người). Kiên đao nhất, Kiên đao nhị (mỗi thuyền 19 người), Ta súng. Tiển súng, (mỗi thuyển 45 người). 6 thuyển cộng 288 người.",
+          "score": 0.06085380522039505
+        },
+        {
+          "han_start": 1,
+          "han_end": 1,
+          "vi_start": 4,
+          "vi_end": 7,
+          "han_text": "有里象奇管收并射年三十人以上",
+          "vietnamese_text": "Có các cơ Ta kiên, Hữu kiên. Tiền kiên. Hậu Riên. môi cợ đều ð thuyền (mỗi thuyền 15 người).",
+          "score": -0.022807062150042554
+        },
+        {
+          "han_start": 2,
+          "han_end": 2,
+          "vi_start": 8,
+          "vi_end": 9,
+          "han_text": "各共戰兵一千百二十八人至加供雜殺差遣与更守者",
+          "vietnamese_text": "cộng 225 người. 20 thuyển cộng 900 người, Có đội Thắng Thuỷ.",
+          "score": 0.1667596339086614
+        },
+        {
+          "han_start": 3,
+          "han_end": 4,
+          "vi_start": 10,
+          "vi_end": 12,
+          "han_text": "有內府各隊船把令一把令二二隔各二十八人 新一船八十人新二船一百人志一船八千五人",
+          "vietnamese_text": "thuộc về đấy là 9 thuyển Ủy nhất, Minh nhị (mỗi thuyển 5ã người), cộng 110 người. Có cơ Riên tượng. quản mục và quân bắn 30 người.",
+          "score": 0.13040752999303884
+        },
+        {
+          "han_start": 5,
+          "han_end": 5,
+          "vi_start": 13,
+          "vi_end": 16,
+          "han_text": "志二船九十四人",
+          "vietnamese_text": "Các chiến bình trên đây cộng 1. 328 người. Còn như quân để sai khiến việc vặt và canh giữ, thì có các đội thuyền Nội phu. hai đội Bả lệnh nhất.",
+          "score": -0.0034790809656463258
+        },
+        {
+          "han_start": 6,
+          "han_end": 7,
+          "vi_start": 17,
+          "vi_end": 18,
+          "han_text": "新茶船八全人新定船八十九人 有四馬船医一人草馬十八人",
+          "vietnamese_text": "Ba lệnh nhị. mỗi đội 38 người, thuyển Tân nhất 80 người.",
+          "score": 0.15809075806104153
+        },
+        {
+          "han_start": 8,
+          "han_end": 8,
+          "vi_start": 19,
+          "vi_end": 20,
+          "han_text": "有字名祠堂老般新安廉安齋二三船共九十一人",
+          "vietnamese_text": "thuyền Tân nhị 100 người. thuyền Chí nhất 8ã người.",
+          "score": 0.15586965211587284
+        },
+        {
+          "han_start": 9,
+          "han_end": 10,
+          "vi_start": 21,
+          "vi_end": 21,
+          "han_text": "有天兆寺酒夫廿五人有宋各府 金危府水船十一人隔春府富二般六十六人",
+          "vietnamese_text": "thuyền Chí nhị 94 người, thuyên Tân Sài 1 người, thuyền Tân định 89 người, có lương y nội mã 1 người, cắt có ngựa 18 người.",
+          "score": 0.02356669523015836
+        },
+        {
+          "han_start": 11,
+          "han_end": 12,
+          "vi_start": 22,
+          "vi_end": 22,
+          "han_text": "新富船四十人有舉若康庫老說四十人 安一船六十人有守各陵墓老貌一般",
+          "vietnamese_text": "Có lão thuyền giữ các từ đường, ba thuyền Tân An, Khang nhất, Khang nhị.",
+          "score": 0.19682348055981053
+        },
+        {
+          "han_start": 13,
+          "han_end": 15,
+          "vi_start": 23,
+          "vi_end": 23,
+          "han_text": "共一百六十九人新三新壯里壯三般共七十四人 有文庙字城隊二十六人 有中象奇分為卒四隊每限七八九人或十人共五百九十人",
+          "vietnamese_text": "cộng 91 người.",
+          "score": 0.01338213002447824
+        },
+        {
+          "han_start": 16,
+          "han_end": 17,
+          "vi_start": 24,
+          "vi_end": 24,
+          "han_text": "有四象為官医四人 有盈局睹問司京人三十人內貌臣司三十四人",
+          "vietnamese_text": "Có sái phu chùa Thiên Mụ 2ã người.",
+          "score": 0.08744858690985392
+        },
+        {
+          "han_start": 18,
+          "han_end": 21,
+          "vi_start": 25,
+          "vi_end": 25,
+          "han_text": "治匠司五十八人漆匠司六二人 治蓋械匠司六人渠紫梗司九人 庶司尾一船十人屬內二船四十人 鞍馬匠二人火攻匠司八人火輪匠二人",
+          "vietnamese_text": "Có các thuyển giữ các phủ, thuy thuyển phủ Kim Long 11 người, thuyền Phú Nhị phủ Dương Xuân 60 người.",
+          "score": 0.11932365241170514
+        },
+        {
+          "han_start": 22,
+          "han_end": 23,
+          "vi_start": 26,
+          "vi_end": 26,
+          "han_text": "木匠司安木船五六人 右匠司卷本船五十六人果難正四人",
+          "vietnamese_text": "thuyền Phú tam Phủ Cam 61 người, thuyển Phú nhất Phủ Ao 63 người.",
+          "score": 0.1979719467587575
+        },
+        {
+          "han_start": 24,
+          "han_end": 27,
+          "vi_start": 27,
+          "vi_end": 27,
+          "han_text": "舟匠司二十人卯馬匠四人全象司四十人 助予臣三人內府司匠七人內琬象匠司三人 内房医隊十二人禪隊三十一人 内謗鏡匠一人内紅花匠司二人內雜褪匠一人解匠司四人",
+          "vietnamese_text": "Có các thuyền giữ các vươn.",
+          "score": -0.02593861307558988
+        },
+        {
+          "han_start": 28,
+          "han_end": 29,
+          "vi_start": 28,
+          "vi_end": 29,
+          "han_text": "首營石扛庫有康一船三十一人 四上各先雜兵二千五百十九人",
+          "vietnamese_text": "thuyền Định nhị vườn Khang thượng 16 người. thuyên Tần phú 40 người.",
+          "score": 0.3002564564438228
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 2469
+}

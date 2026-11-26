@@ -1,0 +1,105 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "24b0c327f884ba4bcdcd1313c9bf59937adeb695d87c9f780522218142c6c6fe",
+  "payload": {
+    "han": "謹書\n又有書吊祭德督官云安南玉順化等\n必節制太德祚玉公說福周謹具白金一百兩\n心代生芻教祭于天朝前西廟德督楊大司馬老憲臺之灵曰中原正氣磅礙遼陽\n方山為城缘水為隍\n山岳機秀產此買良貼被楊公濯\n其若乃文乃武才力兼長節制而粵深及遐方\n保顯同禁業遠斯張\n先皇託重功業煌之鳴字楊公\n三郭奇士上國灵靈\n心公令方孰為其宗\n近祿朝范韋比夏意\n唐白傳家礼義尊崇\n播流善政直近悔檬\n新君蜜屋報國粹忠\n某居海甸風仰意尾\n正方眷注身变衰德\n鳴呼楊公\n雜終卷之未接信典型之可傳\n嗟夜生之長往\n覩雲物之雲然散薩露之茲節\n忍含淚主長嗟生芻一來步里呈將\n惟昭三之鉴格表恋主收曉玉公祿\n王辰福建人李文光等作乱於前定捕慈渠党送由地有公文貴德督官云安南玉順化廟南等如司牧院\n不佞時書于天朝因湘德督太子太傳老憲陰國下富焉\n封域詳于國誌南北名殊礼步刑政稽諸典墳亦區因日\n不佞遙司新壤器解唐文亦座設之所歷之",
+    "vi": "Đến như tính âm u có thể luyện được tục, tính thanh bạch có thể rửa được phiền, càng ra càng lạ, càng kêu mà càng chẳng hết, cũng là do chỗ vô tâm mà điệu ứng với gió vậy.\nTuy thế, nhưng sở dĩ xướng phát thiện cơ, du dương chân vận, thì cũng là ở chỗ người nghe nhận lấy thôi, chứ nhã nhặn hay tục tằn, xấu xa hay lành tốt thì có dự gì đến trúc.\nÔi!\nTrúc ơi!\nTrúc ơi!\nTa có sở đắc ở trúc đấy\".\nCó bạn người huyện Duy Xuyên, phủ Thăng Hoa, tên là Nguyễn Dưỡng Hào làm bài tựa rằng: \"Tiếng của muôn vật thì nhiều lắm, có loại thuộc về tiếng nguyên chất, có loại thuộc về tiếng rườm rà.\nTiếng nguyên chất là tiếng của trời, tiếng rườm rà là tiếng của người, cho nên tiếng người thì phân biệt tà chính, mà tiếng trời thì không có chính tà.\nPhàm tiếng người mà cầu cho chính như tiếng trời thì phải là hấp thuần cáo địch”, cung thương tiếp nhau, mà xếp đặt rõ ràng không rối, vui cười giận mắng, đụng vật là nên thơ, mà tính tình đều được đúng đắn, đó là tiếng trời của người vậy.\nVí bằng ai mà đến thương tâm, vui mà đến say đấm, như tiếng trong dâu trên bộc, đó là tiếng người của người vậy."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 2,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"謹書 又有書吊祭德督官云安南玉順化等 必節制太德祚玉公說福周謹具白金一百兩\",\n        \"vietnamese_text\": \"Đến như tính âm u có thể luyện được tục, tính thanh bạch có thể rửa được phiền, càng ra càng lạ, càng kêu mà càng chẳng hết, cũng là do chỗ vô tâm mà điệu ứng với gió vậy.\",\n        \"score\": 0.09803234802887452\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 5,\n        \"vi_start\": 1,\n        \"vi_end\": 1,\n        \"han_text\": \"心代生芻教祭于天朝前西廟德督楊大司馬老憲臺之灵曰中原正氣磅礙遼陽 方山為城缘水為隍 山岳機秀產此買良貼被楊公濯\",\n        \"vietnamese_text\": \"Tuy thế, nhưng sở dĩ xướng phát thiện cơ, du dương chân vận, thì cũng là ở chỗ người nghe nhận lấy thôi, chứ nhã nhặn hay tục tằn, xấu xa hay lành tốt thì có dự gì đến trúc.\",\n        \"score\": 0.11447308422721722\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 8,\n        \"vi_start\": 2,\n        \"vi_end\": 2,\n        \"han_text\": \"其若乃文乃武才力兼長節制而粵深及遐方 保顯同禁業遠斯張 先皇託重功業煌之鳴字楊公\",\n        \"vietnamese_text\": \"Ôi!\",\n        \"score\": -0.004805673457581617\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 9,\n        \"vi_start\": 3,\n        \"vi_end\": 4,\n        \"han_text\": \"三郭奇士上國灵靈\",\n        \"vietnamese_text\": \"Trúc ơi! Trúc ơi!\",\n        \"score\": 0.15413236191508053\n      },\n      {\n        \"han_start\": 10,\n        \"han_end\": 13,\n        \"vi_start\": 5,\n        \"vi_end\": 5,\n        \"han_text\": \"心公令方孰為其宗 近祿朝范韋比夏意 唐白傳家礼義尊崇 播流善政直近悔檬\",\n        \"vietnamese_text\": \"Ta có sở đắc ở trúc đấy\\\".\",\n        \"score\": -0.008650278752003025\n      },\n      {\n        \"han_start\": 14,\n        \"han_end\": 17,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"新君蜜屋報國粹忠 某居海甸風仰意尾 正方眷注身变衰德 鳴呼楊公\",\n        \"vietnamese_text\": \"Có bạn người huyện Duy Xuyên, phủ Thăng Hoa, tên là Nguyễn Dưỡng Hào làm bài tựa rằng: \\\"Tiếng của muôn vật thì nhiều lắm, có loại thuộc về tiếng nguyên chất, có loại thuộc về tiếng rườm rà.\",\n        \"score\": 0.03913201308797663\n      },\n      {\n        \"han_start\": 18,\n        \"han_end\": 20,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"雜終卷之未接信典型之可傳 嗟夜生之長往 覩雲物之雲然散薩露之茲節\",\n        \"vietnamese_text\": \"Tiếng nguyên chất là tiếng của trời, tiếng rườm rà là tiếng của người, cho nên tiếng người thì phân biệt tà chính, mà tiếng trời thì không có chính tà.\",\n        \"score\": 0.03042061965995223\n      },\n      {\n        \"han_start\": 21,\n        \"han_end\": 24,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"忍含淚主長嗟生芻一來步里呈將 惟昭三之鉴格表恋主收曉玉公祿 王辰福建人李文光等作乱於前定捕慈渠党送由地有公文貴德督官云安南玉順化廟南等如司牧院 不佞時書于天朝因湘德督太子太傳老憲陰國下富焉\",\n        \"vietnamese_text\": \"Phàm tiếng người mà cầu cho chính như tiếng trời thì phải là hấp thuần cáo địch”, cung thương tiếp nhau, mà xếp đặt rõ ràng không rối, vui cười giận mắng, đụng vật là nên thơ, mà tính tình đều được đúng đắn, đó là tiếng trời của người vậy.\",\n        \"score\": 0.0937936016347411\n      },\n      {\n        \"han_start\": 25,\n        \"han_end\": 26,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"封域詳于國誌南北名殊礼步刑政稽諸典墳亦區因日 不佞遙司新壤器解唐文亦座設之所歷之\",\n        \"vietnamese_text\": \"Ví bằng ai mà đến thương tâm, vui mà đến say đấm, như tiếng trong dâu trên bộc, đó là tiếng người của người vậy.\",\n        \"score\": 0.010005319715278668\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 2,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "謹書 又有書吊祭德督官云安南玉順化等 必節制太德祚玉公說福周謹具白金一百兩",
+          "vietnamese_text": "Đến như tính âm u có thể luyện được tục, tính thanh bạch có thể rửa được phiền, càng ra càng lạ, càng kêu mà càng chẳng hết, cũng là do chỗ vô tâm mà điệu ứng với gió vậy.",
+          "score": 0.09803234802887452
+        },
+        {
+          "han_start": 3,
+          "han_end": 5,
+          "vi_start": 1,
+          "vi_end": 1,
+          "han_text": "心代生芻教祭于天朝前西廟德督楊大司馬老憲臺之灵曰中原正氣磅礙遼陽 方山為城缘水為隍 山岳機秀產此買良貼被楊公濯",
+          "vietnamese_text": "Tuy thế, nhưng sở dĩ xướng phát thiện cơ, du dương chân vận, thì cũng là ở chỗ người nghe nhận lấy thôi, chứ nhã nhặn hay tục tằn, xấu xa hay lành tốt thì có dự gì đến trúc.",
+          "score": 0.11447308422721722
+        },
+        {
+          "han_start": 6,
+          "han_end": 8,
+          "vi_start": 2,
+          "vi_end": 2,
+          "han_text": "其若乃文乃武才力兼長節制而粵深及遐方 保顯同禁業遠斯張 先皇託重功業煌之鳴字楊公",
+          "vietnamese_text": "Ôi!",
+          "score": -0.004805673457581617
+        },
+        {
+          "han_start": 9,
+          "han_end": 9,
+          "vi_start": 3,
+          "vi_end": 4,
+          "han_text": "三郭奇士上國灵靈",
+          "vietnamese_text": "Trúc ơi! Trúc ơi!",
+          "score": 0.15413236191508053
+        },
+        {
+          "han_start": 10,
+          "han_end": 13,
+          "vi_start": 5,
+          "vi_end": 5,
+          "han_text": "心公令方孰為其宗 近祿朝范韋比夏意 唐白傳家礼義尊崇 播流善政直近悔檬",
+          "vietnamese_text": "Ta có sở đắc ở trúc đấy\".",
+          "score": -0.008650278752003025
+        },
+        {
+          "han_start": 14,
+          "han_end": 17,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "新君蜜屋報國粹忠 某居海甸風仰意尾 正方眷注身变衰德 鳴呼楊公",
+          "vietnamese_text": "Có bạn người huyện Duy Xuyên, phủ Thăng Hoa, tên là Nguyễn Dưỡng Hào làm bài tựa rằng: \"Tiếng của muôn vật thì nhiều lắm, có loại thuộc về tiếng nguyên chất, có loại thuộc về tiếng rườm rà.",
+          "score": 0.03913201308797663
+        },
+        {
+          "han_start": 18,
+          "han_end": 20,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "雜終卷之未接信典型之可傳 嗟夜生之長往 覩雲物之雲然散薩露之茲節",
+          "vietnamese_text": "Tiếng nguyên chất là tiếng của trời, tiếng rườm rà là tiếng của người, cho nên tiếng người thì phân biệt tà chính, mà tiếng trời thì không có chính tà.",
+          "score": 0.03042061965995223
+        },
+        {
+          "han_start": 21,
+          "han_end": 24,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "忍含淚主長嗟生芻一來步里呈將 惟昭三之鉴格表恋主收曉玉公祿 王辰福建人李文光等作乱於前定捕慈渠党送由地有公文貴德督官云安南玉順化廟南等如司牧院 不佞時書于天朝因湘德督太子太傳老憲陰國下富焉",
+          "vietnamese_text": "Phàm tiếng người mà cầu cho chính như tiếng trời thì phải là hấp thuần cáo địch”, cung thương tiếp nhau, mà xếp đặt rõ ràng không rối, vui cười giận mắng, đụng vật là nên thơ, mà tính tình đều được đúng đắn, đó là tiếng trời của người vậy.",
+          "score": 0.0937936016347411
+        },
+        {
+          "han_start": 25,
+          "han_end": 26,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "封域詳于國誌南北名殊礼步刑政稽諸典墳亦區因日 不佞遙司新壤器解唐文亦座設之所歷之",
+          "vietnamese_text": "Ví bằng ai mà đến thương tâm, vui mà đến say đấm, như tiếng trong dâu trên bộc, đó là tiếng người của người vậy.",
+          "score": 0.010005319715278668
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 2297
+}

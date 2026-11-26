@@ -1,0 +1,177 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "ee1065f665b95db37ddb76fa7640776abcde431550aa818a0d6015d8e9bd1685",
+  "payload": {
+    "han": "其孫未之效示隨人效色年有增有減\n語華千貴百升之间而有定准\n至於源所追度市館諸稅与長船船隻例底家納之效並別\n順化宿軍副一是社民加正營及各奇營陽投兵額姓名貴址\n推併兵效照其遠近雅四社謂之行祇其船有淘汰徼\n而後官呈司官查冥呈公堂官推併淮拾\n責令將臣社長及原社定贊交与後差人明處月為期差人回拿\n另兵投大中小就大壯自百人上許取行書侯一長\n中社自五十人以上行取五限\n小社自五十人以下行取三限差三\n四拿处另伊社收在舉族计差人行李五狗同官案以四月查各船此另若不脩澤以知多處\n一寬民力\n孫始四新到之民酌免三年碑安生業方莊母之那拿稽另滿限替\n一禁隱牖\n孫正營及各營内吳外水奇陽某名有男子十八矣\n其房船當年查一例著名入波\n七月祐呈批從行社某名有子隱漏\n查寔給主原另其小志小柄二船有欠呈有司官投為郎\n在各船係清華人急子某名點給為兵\n私拿者隊長位長並點下次\n其左馬右馬全一全二四船他年府同刻官員前代脚註祖文年犯及身材壯族或早小案\n四月內俗在公堂官如四船有欠\n另祐呈點招付繳四拿許追取在伊族另員賀飯行李鄉照玄遠近升華\n每各孫二長度美為仁孫三貞富安四長差人",
+    "vi": "Châu Định Viễn và các thuộc. số người 3.297 người. trừ các chức. các lính và cùng. đào, còn nộp thuế 3.834 người. thu các tiền 2.974 quan.\nKhách hộ mới và cũ 135 người. thu tiền 183 quan 2 tiển 30 đồng.\nThuyền Ô Tất (ấy sơn đen) 11 đội 200 người, trừ tiêu sai và cùng, đào. còn 4ã2 người. thu sơn 6.528 cân, Tổng cộng số người là 165.069 người. một năm nộp vàng cộng 56 hốt 2 lạng 6 đồng cân 7 phân 8 ly 3 hào. tiền 241.995 quan 6 tiển.\n10 đồng. gạo 18.390 bao 77 cân ö cấp 3 thược và 136 bát 6 cáp, hàng tơ 363 tấm 9 tấc. lụa 1.017 tấm 108 thước 4 tấc, vải trắng 1.170 thước, hỏng hoa 993 bao, các hạng chiếu 5460 đôi, các thứ đường 48.320 cân 9 lạng § đồng cân. mật mía 5.300 chĩnh. các hạng dầu 8.477 lường, sơn sống 6.528 cân, tạp vật cũng nhiều.\nĐó là đại khái của cái thuế má ở xứ Quảng Nam.\nCác số tiển gạo cùng tuỳ theo số người, hàng năm có thưng, không có định chuẩn.\nCòn như các thuế đầu nguồn, tuần, đò, chợ, quán và tiển lệ thuế thuyền, số nộp hàng năm đều tính riêng.\nCHIA ĐẶT QUÂN HIỆU\nQuân chế cũ của xứ Thuận Hoä: 1/ Định xã bình.\nNhư các cơ đội Chính Dinh và các định. cứ theo ngạch bình, lấy họ tên quê quán mà suy tính số bình, chiếu theo xa gần mà cấp về bạn xã, gọi là hàng xã, thuyển nào có người trốn hay bị thai, thì báo rõ cho sai quản trình ty quan xét thực, trình lên quan công đường. suy tính cho cấp, rồi bắt tướng thần, xã trưởng và bản xã định người thay thể, giao cho sai nhân điệu về. hàng năm cứ lấy tháng 8 làm kỳ hạn."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 0,\n        \"vi_start\": 0,\n        \"vi_end\": 1,\n        \"han_text\": \"其孫未之效示隨人效色年有增有減\",\n        \"vietnamese_text\": \"Châu Định Viễn và các thuộc. số người 3.\",\n        \"score\": 0.10632729297367617\n      },\n      {\n        \"han_start\": 1,\n        \"han_end\": 1,\n        \"vi_start\": 2,\n        \"vi_end\": 2,\n        \"han_text\": \"語華千貴百升之间而有定准\",\n        \"vietnamese_text\": \"297 người.\",\n        \"score\": 0.005299857361632468\n      },\n      {\n        \"han_start\": 2,\n        \"han_end\": 2,\n        \"vi_start\": 3,\n        \"vi_end\": 5,\n        \"han_text\": \"至於源所追度市館諸稅与長船船隻例底家納之效並別\",\n        \"vietnamese_text\": \"trừ các chức. các lính và cùng. đào, còn nộp thuế 3.\",\n        \"score\": 0.20118981132964048\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 4,\n        \"vi_start\": 6,\n        \"vi_end\": 7,\n        \"han_text\": \"順化宿軍副一是社民加正營及各奇營陽投兵額姓名貴址 推併兵效照其遠近雅四社謂之行祇其船有淘汰徼\",\n        \"vietnamese_text\": \"834 người. thu các tiền 2.\",\n        \"score\": -0.008940968329000407\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 5,\n        \"vi_start\": 8,\n        \"vi_end\": 10,\n        \"han_text\": \"而後官呈司官查冥呈公堂官推併淮拾\",\n        \"vietnamese_text\": \"974 quan. Khách hộ mới và cũ 135 người. thu tiền 183 quan 2 tiển 30 đồng.\",\n        \"score\": 0.039071737079215685\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 6,\n        \"vi_start\": 11,\n        \"vi_end\": 13,\n        \"han_text\": \"責令將臣社長及原社定贊交与後差人明處月為期差人回拿\",\n        \"vietnamese_text\": \"Thuyền Ô Tất (ấy sơn đen) 11 đội 200 người, trừ tiêu sai và cùng, đào. còn 4ã2 người. thu sơn 6.\",\n        \"score\": 0.023457962549625615\n      },\n      {\n        \"han_start\": 7,\n        \"han_end\": 7,\n        \"vi_start\": 14,\n        \"vi_end\": 17,\n        \"han_text\": \"另兵投大中小就大壯自百人上許取行書侯一長\",\n        \"vietnamese_text\": \"528 cân, Tổng cộng số người là 165. 069 người. một năm nộp vàng cộng 56 hốt 2 lạng 6 đồng cân 7 phân 8 ly 3 hào. tiền 241.\",\n        \"score\": 0.06332649729336265\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 8,\n        \"vi_start\": 18,\n        \"vi_end\": 20,\n        \"han_text\": \"中社自五十人以上行取五限\",\n        \"vietnamese_text\": \"995 quan 6 tiển. 10 đồng. gạo 18.\",\n        \"score\": 0.09014708533440884\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 9,\n        \"vi_start\": 21,\n        \"vi_end\": 22,\n        \"han_text\": \"小社自五十人以下行取三限差三\",\n        \"vietnamese_text\": \"390 bao 77 cân ö cấp 3 thược và 136 bát 6 cáp, hàng tơ 363 tấm 9 tấc. lụa 1.\",\n        \"score\": 0.018330946298631256\n      },\n      {\n        \"han_start\": 10,\n        \"han_end\": 10,\n        \"vi_start\": 23,\n        \"vi_end\": 26,\n        \"han_text\": \"四拿处另伊社收在舉族计差人行李五狗同官案以四月查各船此另若不脩澤以知多處\",\n        \"vietnamese_text\": \"017 tấm 108 thước 4 tấc, vải trắng 1. 170 thước, hỏng hoa 993 bao, các hạng chiếu 5460 đôi, các thứ đường 48. 320 cân 9 lạng § đồng cân. mật mía 5.\",\n        \"score\": 0.11062531290538528\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 11,\n        \"vi_start\": 27,\n        \"vi_end\": 30,\n        \"han_text\": \"一寬民力\",\n        \"vietnamese_text\": \"300 chĩnh. các hạng dầu 8. 477 lường, sơn sống 6. 528 cân, tạp vật cũng nhiều.\",\n        \"score\": -0.008849949457182319\n      },\n      {\n        \"han_start\": 12,\n        \"han_end\": 12,\n        \"vi_start\": 31,\n        \"vi_end\": 33,\n        \"han_text\": \"孫始四新到之民酌免三年碑安生業方莊母之那拿稽另滿限替\",\n        \"vietnamese_text\": \"Đó là đại khái của cái thuế má ở xứ Quảng Nam. Các số tiển gạo cùng tuỳ theo số người, hàng năm có thưng, không có định chuẩn. Còn như các thuế đầu nguồn, tuần, đò, chợ, quán và tiển lệ thuế thuyền, số nộp hàng năm đều tính riêng.\",\n        \"score\": 0.016191060790979726\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 13,\n        \"vi_start\": 34,\n        \"vi_end\": 34,\n        \"han_text\": \"一禁隱牖\",\n        \"vietnamese_text\": \"CHIA ĐẶT QUÂN HIỆU\",\n        \"score\": 0.11938791556857979\n      },\n      {\n        \"han_start\": 14,\n        \"han_end\": 14,\n        \"vi_start\": 35,\n        \"vi_end\": 36,\n        \"han_text\": \"孫正營及各營内吳外水奇陽某名有男子十八矣\",\n        \"vietnamese_text\": \"Quân chế cũ của xứ Thuận Hoä: 1/ Định xã bình. Như các cơ đội Chính Dinh và các định.\",\n        \"score\": 0.11613752066688737\n      },\n      {\n        \"han_start\": 15,\n        \"han_end\": 18,\n        \"vi_start\": 37,\n        \"vi_end\": 37,\n        \"han_text\": \"其房船當年查一例著名入波 七月祐呈批從行社某名有子隱漏 查寔給主原另其小志小柄二船有欠呈有司官投為郎 在各船係清華人急子某名點給為兵\",\n        \"vietnamese_text\": \"cứ theo ngạch bình, lấy họ tên quê quán mà suy tính số bình, chiếu theo xa gần mà cấp về bạn xã, gọi là hàng xã, thuyển nào có người trốn hay bị thai, thì báo rõ cho sai quản trình ty quan xét thực, trình lên quan công đường.\",\n        \"score\": 0.11641720218522214\n      },\n      {\n        \"han_start\": 19,\n        \"han_end\": 20,\n        \"vi_start\": 38,\n        \"vi_end\": 38,\n        \"han_text\": \"私拿者隊長位長並點下次 其左馬右馬全一全二四船他年府同刻官員前代脚註祖文年犯及身材壯族或早小案\",\n        \"vietnamese_text\": \"suy tính cho cấp, rồi bắt tướng thần, xã trưởng và bản xã định người thay thể, giao cho sai nhân điệu về.\",\n        \"score\": 0.23277548060288575\n      },\n      {\n        \"han_start\": 21,\n        \"han_end\": 23,\n        \"vi_start\": 39,\n        \"vi_end\": 39,\n        \"han_text\": \"四月內俗在公堂官如四船有欠 另祐呈點招付繳四拿許追取在伊族另員賀飯行李鄉照玄遠近升華 每各孫二長度美為仁孫三貞富安四長差人\",\n        \"vietnamese_text\": \"hàng năm cứ lấy tháng 8 làm kỳ hạn.\",\n        \"score\": 0.0103900596612704\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 0,
+          "vi_start": 0,
+          "vi_end": 1,
+          "han_text": "其孫未之效示隨人效色年有增有減",
+          "vietnamese_text": "Châu Định Viễn và các thuộc. số người 3.",
+          "score": 0.10632729297367617
+        },
+        {
+          "han_start": 1,
+          "han_end": 1,
+          "vi_start": 2,
+          "vi_end": 2,
+          "han_text": "語華千貴百升之间而有定准",
+          "vietnamese_text": "297 người.",
+          "score": 0.005299857361632468
+        },
+        {
+          "han_start": 2,
+          "han_end": 2,
+          "vi_start": 3,
+          "vi_end": 5,
+          "han_text": "至於源所追度市館諸稅与長船船隻例底家納之效並別",
+          "vietnamese_text": "trừ các chức. các lính và cùng. đào, còn nộp thuế 3.",
+          "score": 0.20118981132964048
+        },
+        {
+          "han_start": 3,
+          "han_end": 4,
+          "vi_start": 6,
+          "vi_end": 7,
+          "han_text": "順化宿軍副一是社民加正營及各奇營陽投兵額姓名貴址 推併兵效照其遠近雅四社謂之行祇其船有淘汰徼",
+          "vietnamese_text": "834 người. thu các tiền 2.",
+          "score": -0.008940968329000407
+        },
+        {
+          "han_start": 5,
+          "han_end": 5,
+          "vi_start": 8,
+          "vi_end": 10,
+          "han_text": "而後官呈司官查冥呈公堂官推併淮拾",
+          "vietnamese_text": "974 quan. Khách hộ mới và cũ 135 người. thu tiền 183 quan 2 tiển 30 đồng.",
+          "score": 0.039071737079215685
+        },
+        {
+          "han_start": 6,
+          "han_end": 6,
+          "vi_start": 11,
+          "vi_end": 13,
+          "han_text": "責令將臣社長及原社定贊交与後差人明處月為期差人回拿",
+          "vietnamese_text": "Thuyền Ô Tất (ấy sơn đen) 11 đội 200 người, trừ tiêu sai và cùng, đào. còn 4ã2 người. thu sơn 6.",
+          "score": 0.023457962549625615
+        },
+        {
+          "han_start": 7,
+          "han_end": 7,
+          "vi_start": 14,
+          "vi_end": 17,
+          "han_text": "另兵投大中小就大壯自百人上許取行書侯一長",
+          "vietnamese_text": "528 cân, Tổng cộng số người là 165. 069 người. một năm nộp vàng cộng 56 hốt 2 lạng 6 đồng cân 7 phân 8 ly 3 hào. tiền 241.",
+          "score": 0.06332649729336265
+        },
+        {
+          "han_start": 8,
+          "han_end": 8,
+          "vi_start": 18,
+          "vi_end": 20,
+          "han_text": "中社自五十人以上行取五限",
+          "vietnamese_text": "995 quan 6 tiển. 10 đồng. gạo 18.",
+          "score": 0.09014708533440884
+        },
+        {
+          "han_start": 9,
+          "han_end": 9,
+          "vi_start": 21,
+          "vi_end": 22,
+          "han_text": "小社自五十人以下行取三限差三",
+          "vietnamese_text": "390 bao 77 cân ö cấp 3 thược và 136 bát 6 cáp, hàng tơ 363 tấm 9 tấc. lụa 1.",
+          "score": 0.018330946298631256
+        },
+        {
+          "han_start": 10,
+          "han_end": 10,
+          "vi_start": 23,
+          "vi_end": 26,
+          "han_text": "四拿处另伊社收在舉族计差人行李五狗同官案以四月查各船此另若不脩澤以知多處",
+          "vietnamese_text": "017 tấm 108 thước 4 tấc, vải trắng 1. 170 thước, hỏng hoa 993 bao, các hạng chiếu 5460 đôi, các thứ đường 48. 320 cân 9 lạng § đồng cân. mật mía 5.",
+          "score": 0.11062531290538528
+        },
+        {
+          "han_start": 11,
+          "han_end": 11,
+          "vi_start": 27,
+          "vi_end": 30,
+          "han_text": "一寬民力",
+          "vietnamese_text": "300 chĩnh. các hạng dầu 8. 477 lường, sơn sống 6. 528 cân, tạp vật cũng nhiều.",
+          "score": -0.008849949457182319
+        },
+        {
+          "han_start": 12,
+          "han_end": 12,
+          "vi_start": 31,
+          "vi_end": 33,
+          "han_text": "孫始四新到之民酌免三年碑安生業方莊母之那拿稽另滿限替",
+          "vietnamese_text": "Đó là đại khái của cái thuế má ở xứ Quảng Nam. Các số tiển gạo cùng tuỳ theo số người, hàng năm có thưng, không có định chuẩn. Còn như các thuế đầu nguồn, tuần, đò, chợ, quán và tiển lệ thuế thuyền, số nộp hàng năm đều tính riêng.",
+          "score": 0.016191060790979726
+        },
+        {
+          "han_start": 13,
+          "han_end": 13,
+          "vi_start": 34,
+          "vi_end": 34,
+          "han_text": "一禁隱牖",
+          "vietnamese_text": "CHIA ĐẶT QUÂN HIỆU",
+          "score": 0.11938791556857979
+        },
+        {
+          "han_start": 14,
+          "han_end": 14,
+          "vi_start": 35,
+          "vi_end": 36,
+          "han_text": "孫正營及各營内吳外水奇陽某名有男子十八矣",
+          "vietnamese_text": "Quân chế cũ của xứ Thuận Hoä: 1/ Định xã bình. Như các cơ đội Chính Dinh và các định.",
+          "score": 0.11613752066688737
+        },
+        {
+          "han_start": 15,
+          "han_end": 18,
+          "vi_start": 37,
+          "vi_end": 37,
+          "han_text": "其房船當年查一例著名入波 七月祐呈批從行社某名有子隱漏 查寔給主原另其小志小柄二船有欠呈有司官投為郎 在各船係清華人急子某名點給為兵",
+          "vietnamese_text": "cứ theo ngạch bình, lấy họ tên quê quán mà suy tính số bình, chiếu theo xa gần mà cấp về bạn xã, gọi là hàng xã, thuyển nào có người trốn hay bị thai, thì báo rõ cho sai quản trình ty quan xét thực, trình lên quan công đường.",
+          "score": 0.11641720218522214
+        },
+        {
+          "han_start": 19,
+          "han_end": 20,
+          "vi_start": 38,
+          "vi_end": 38,
+          "han_text": "私拿者隊長位長並點下次 其左馬右馬全一全二四船他年府同刻官員前代脚註祖文年犯及身材壯族或早小案",
+          "vietnamese_text": "suy tính cho cấp, rồi bắt tướng thần, xã trưởng và bản xã định người thay thể, giao cho sai nhân điệu về.",
+          "score": 0.23277548060288575
+        },
+        {
+          "han_start": 21,
+          "han_end": 23,
+          "vi_start": 39,
+          "vi_end": 39,
+          "han_text": "四月內俗在公堂官如四船有欠 另祐呈點招付繳四拿許追取在伊族另員賀飯行李鄉照玄遠近升華 每各孫二長度美為仁孫三貞富安四長差人",
+          "vietnamese_text": "hàng năm cứ lấy tháng 8 làm kỳ hạn.",
+          "score": 0.0103900596612704
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 2657
+}

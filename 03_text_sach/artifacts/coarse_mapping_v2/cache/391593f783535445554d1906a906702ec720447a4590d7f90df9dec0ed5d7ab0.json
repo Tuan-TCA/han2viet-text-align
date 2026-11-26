@@ -1,0 +1,87 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "391593f783535445554d1906a906702ec720447a4590d7f90df9dec0ed5d7ab0",
+  "payload": {
+    "han": "網岸混操塞船鑄漏如其坚如反來不敢穿前\n阮氏置油漆二隊合六十人取各鼎社填克免其差\n餘脚米搜役\n若穢許代納二百五十六量\n四赫七分量似升而稍高一量\n準除掛七百常價一量孫三定56油灝木出登山見甘露市知之\n原頭楷大故國葉似舊五六月小所樹成孔道\n燒為令東無以器承之油脂為注策中三日一取一二歲而止\n待樹皮完令復研別孔取之\n其油色白而粘可以點燈無税顏而仁\n富安亦產此木其油色黑而稠勝於甘靈\n八鉛飭粉可以虧物\n前阮氏有河渠社祠安村禮例據人放一人辛歲油七十赫兑\n其另搜各役卷勞竹出廬南隴川興忠祿社安豐縣降異社矣\n谷為一百五十束每来五十株小束每束一百株\n胡椒土旺美縣拜丞德各坊時\n故舍社種植滿林夢附衆木而生\n九月有花十月結实五月採之寸六月全收\n初種者摘椒之憂之正出直上者第一龍鑿坎于樹",
+    "vi": "Từ tháng giêng năm Ất Mùi, quan quân đóng đồn, tướng sĩ và binh lính theo làm việc có hơn 3 vạn người, mặc ý đi lấy củi, lâu ngày phá rỡ, dân gian nhân đó mà lấy trộm cũng không ngăn cấm, mấy năm đốt cháy, không những gỗ kiển kiển, gỗ sao, đến cả gỗ trắc và gỗ giáng hương chứa đây một gian để làm củi.\nMùa xuân năm Bính Thân mở trường đúc tiền, lại lấy để làm than.\nLập dinh trấn thủ, lại lấy để làm phòng ốc cho các cơ đội các quân, dùng hãy còn thừa.\nĐến tháng 5 mới sai các quân đi lấy củi ở núi Hòn Chén, cấm không được đỡ nhà quan cũ nữa.\nNhưng trường tiền đốt than một lần đã dõ đến bốn năm chục gian chưa thôi.\nNgói đá gạch chum thì kể có hàng vạn, không thể tính xiết.\nHai xứ Thuận Quảng cho loại gỗ tốt nhất là gỗ hoa lê, tục gọi là trắc mật, thớ nhỏ mịn, có mùi thơm như mía nướng, màu sắc trước đỏ sau đen, tính bền không mọt, người ta phần nhiều dùng làm rương, hòm, ghế, bàn, đòn kiệu và các đồ dùng; có thứ tên là thai bài, sắc trắng như ngà voi, uốn không gãy, có thể làm cán giáo và làm côn dài rất tốt.\nGỗ hồng, tục gọi là gỗ sơn, sắc đỏ vàng như sơn dầu, bền chắc mềm mịn; gỗ giáng hương keo thì sắc tía vàng, tính rất bền, hoa văn xoáy tròn, có khi như xoáy trôn ốc, tiện làm đồ dùng, cưa làm rương hòm đều tốt.\nGỗ đầu sơn sẵn ở tổng Bái Trời, huyện Minh Linh, do nhà dân trồng, cây giống như cây phiên đào (cây ổï), lá tựa lá trầu mà dày, có ba khía nhọn sắc, quả như quả hồng, da xù xì, có bốn hột, đầu mùa xuân thì hái bóc lấy hột, giã nhỏ, chưng qua, rồi ép thành đầu, sắc vàng mà sáng, chuột bọ không dám ăn.\nCó dùng để sơn đồ vật thì chưng lại như cao, cho trần hoàng vào (tàu Trung Quốc chở sang, chất mềm sắc vàng) thì thành sắc vàng; cho ngân châu vào thì thành sắc son, trộn với vôi và vỏ tre non cạo nhỏ mà giã thành cao, lấy đẻ lưới rách nhào lẫn vào, dùng để xảm lỗ thuyền rò thì rắn như đá, trùng không thể đục được."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 3,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"網岸混操塞船鑄漏如其坚如反來不敢穿前 阮氏置油漆二隊合六十人取各鼎社填克免其差 餘脚米搜役 若穢許代納二百五十六量\",\n        \"vietnamese_text\": \"Từ tháng giêng năm Ất Mùi, quan quân đóng đồn, tướng sĩ và binh lính theo làm việc có hơn 3 vạn người, mặc ý đi lấy củi, lâu ngày phá rỡ, dân gian nhân đó mà lấy trộm cũng không ngăn cấm, mấy năm đốt cháy, không những gỗ kiển kiển, gỗ sao, đến cả gỗ trắc và gỗ giáng hương chứa đây một gian để làm củi.\",\n        \"score\": 0.062241242787921605\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 5,\n        \"vi_start\": 1,\n        \"vi_end\": 1,\n        \"han_text\": \"四赫七分量似升而稍高一量 準除掛七百常價一量孫三定56油灝木出登山見甘露市知之\",\n        \"vietnamese_text\": \"Mùa xuân năm Bính Thân mở trường đúc tiền, lại lấy để làm than.\",\n        \"score\": 0.003757382908680762\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 7,\n        \"vi_start\": 2,\n        \"vi_end\": 4,\n        \"han_text\": \"原頭楷大故國葉似舊五六月小所樹成孔道 燒為令東無以器承之油脂為注策中三日一取一二歲而止\",\n        \"vietnamese_text\": \"Lập dinh trấn thủ, lại lấy để làm phòng ốc cho các cơ đội các quân, dùng hãy còn thừa. Đến tháng 5 mới sai các quân đi lấy củi ở núi Hòn Chén, cấm không được đỡ nhà quan cũ nữa. Nhưng trường tiền đốt than một lần đã dõ đến bốn năm chục gian chưa thôi.\",\n        \"score\": 0.20449844342632365\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 8,\n        \"vi_start\": 5,\n        \"vi_end\": 5,\n        \"han_text\": \"待樹皮完令復研別孔取之\",\n        \"vietnamese_text\": \"Ngói đá gạch chum thì kể có hàng vạn, không thể tính xiết.\",\n        \"score\": -0.002685497522948925\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 12,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"其油色白而粘可以點燈無税顏而仁 富安亦產此木其油色黑而稠勝於甘靈 八鉛飭粉可以虧物 前阮氏有河渠社祠安村禮例據人放一人辛歲油七十赫兑\",\n        \"vietnamese_text\": \"Hai xứ Thuận Quảng cho loại gỗ tốt nhất là gỗ hoa lê, tục gọi là trắc mật, thớ nhỏ mịn, có mùi thơm như mía nướng, màu sắc trước đỏ sau đen, tính bền không mọt, người ta phần nhiều dùng làm rương, hòm, ghế, bàn, đòn kiệu và các đồ dùng; có thứ tên là thai bài, sắc trắng như ngà voi, uốn không gãy, có thể làm cán giáo và làm côn dài rất tốt.\",\n        \"score\": 0.2387488068110036\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 15,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"其另搜各役卷勞竹出廬南隴川興忠祿社安豐縣降異社矣 谷為一百五十束每来五十株小束每束一百株 胡椒土旺美縣拜丞德各坊時\",\n        \"vietnamese_text\": \"Gỗ hồng, tục gọi là gỗ sơn, sắc đỏ vàng như sơn dầu, bền chắc mềm mịn; gỗ giáng hương keo thì sắc tía vàng, tính rất bền, hoa văn xoáy tròn, có khi như xoáy trôn ốc, tiện làm đồ dùng, cưa làm rương hòm đều tốt.\",\n        \"score\": 0.061540829042835136\n      },\n      {\n        \"han_start\": 16,\n        \"han_end\": 18,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"故舍社種植滿林夢附衆木而生 九月有花十月結实五月採之寸六月全收 初種者摘椒之憂之正出直上者第一龍鑿坎于樹\",\n        \"vietnamese_text\": \"Gỗ đầu sơn sẵn ở tổng Bái Trời, huyện Minh Linh, do nhà dân trồng, cây giống như cây phiên đào (cây ổï), lá tựa lá trầu mà dày, có ba khía nhọn sắc, quả như quả hồng, da xù xì, có bốn hột, đầu mùa xuân thì hái bóc lấy hột, giã nhỏ, chưng qua, rồi ép thành đầu, sắc vàng mà sáng, chuột bọ không dám ăn.\",\n        \"score\": 0.1757346996224986\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 3,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "網岸混操塞船鑄漏如其坚如反來不敢穿前 阮氏置油漆二隊合六十人取各鼎社填克免其差 餘脚米搜役 若穢許代納二百五十六量",
+          "vietnamese_text": "Từ tháng giêng năm Ất Mùi, quan quân đóng đồn, tướng sĩ và binh lính theo làm việc có hơn 3 vạn người, mặc ý đi lấy củi, lâu ngày phá rỡ, dân gian nhân đó mà lấy trộm cũng không ngăn cấm, mấy năm đốt cháy, không những gỗ kiển kiển, gỗ sao, đến cả gỗ trắc và gỗ giáng hương chứa đây một gian để làm củi.",
+          "score": 0.062241242787921605
+        },
+        {
+          "han_start": 4,
+          "han_end": 5,
+          "vi_start": 1,
+          "vi_end": 1,
+          "han_text": "四赫七分量似升而稍高一量 準除掛七百常價一量孫三定56油灝木出登山見甘露市知之",
+          "vietnamese_text": "Mùa xuân năm Bính Thân mở trường đúc tiền, lại lấy để làm than.",
+          "score": 0.003757382908680762
+        },
+        {
+          "han_start": 6,
+          "han_end": 7,
+          "vi_start": 2,
+          "vi_end": 4,
+          "han_text": "原頭楷大故國葉似舊五六月小所樹成孔道 燒為令東無以器承之油脂為注策中三日一取一二歲而止",
+          "vietnamese_text": "Lập dinh trấn thủ, lại lấy để làm phòng ốc cho các cơ đội các quân, dùng hãy còn thừa. Đến tháng 5 mới sai các quân đi lấy củi ở núi Hòn Chén, cấm không được đỡ nhà quan cũ nữa. Nhưng trường tiền đốt than một lần đã dõ đến bốn năm chục gian chưa thôi.",
+          "score": 0.20449844342632365
+        },
+        {
+          "han_start": 8,
+          "han_end": 8,
+          "vi_start": 5,
+          "vi_end": 5,
+          "han_text": "待樹皮完令復研別孔取之",
+          "vietnamese_text": "Ngói đá gạch chum thì kể có hàng vạn, không thể tính xiết.",
+          "score": -0.002685497522948925
+        },
+        {
+          "han_start": 9,
+          "han_end": 12,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "其油色白而粘可以點燈無税顏而仁 富安亦產此木其油色黑而稠勝於甘靈 八鉛飭粉可以虧物 前阮氏有河渠社祠安村禮例據人放一人辛歲油七十赫兑",
+          "vietnamese_text": "Hai xứ Thuận Quảng cho loại gỗ tốt nhất là gỗ hoa lê, tục gọi là trắc mật, thớ nhỏ mịn, có mùi thơm như mía nướng, màu sắc trước đỏ sau đen, tính bền không mọt, người ta phần nhiều dùng làm rương, hòm, ghế, bàn, đòn kiệu và các đồ dùng; có thứ tên là thai bài, sắc trắng như ngà voi, uốn không gãy, có thể làm cán giáo và làm côn dài rất tốt.",
+          "score": 0.2387488068110036
+        },
+        {
+          "han_start": 13,
+          "han_end": 15,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "其另搜各役卷勞竹出廬南隴川興忠祿社安豐縣降異社矣 谷為一百五十束每来五十株小束每束一百株 胡椒土旺美縣拜丞德各坊時",
+          "vietnamese_text": "Gỗ hồng, tục gọi là gỗ sơn, sắc đỏ vàng như sơn dầu, bền chắc mềm mịn; gỗ giáng hương keo thì sắc tía vàng, tính rất bền, hoa văn xoáy tròn, có khi như xoáy trôn ốc, tiện làm đồ dùng, cưa làm rương hòm đều tốt.",
+          "score": 0.061540829042835136
+        },
+        {
+          "han_start": 16,
+          "han_end": 18,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "故舍社種植滿林夢附衆木而生 九月有花十月結实五月採之寸六月全收 初種者摘椒之憂之正出直上者第一龍鑿坎于樹",
+          "vietnamese_text": "Gỗ đầu sơn sẵn ở tổng Bái Trời, huyện Minh Linh, do nhà dân trồng, cây giống như cây phiên đào (cây ổï), lá tựa lá trầu mà dày, có ba khía nhọn sắc, quả như quả hồng, da xù xì, có bốn hột, đầu mùa xuân thì hái bóc lấy hột, giã nhỏ, chưng qua, rồi ép thành đầu, sắc vàng mà sáng, chuột bọ không dám ăn.",
+          "score": 0.1757346996224986
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 984
+}

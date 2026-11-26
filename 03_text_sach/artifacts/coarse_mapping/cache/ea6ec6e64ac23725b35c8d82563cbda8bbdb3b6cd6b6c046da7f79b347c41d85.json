@@ -1,0 +1,114 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "ea6ec6e64ac23725b35c8d82563cbda8bbdb3b6cd6b6c046da7f79b347c41d85",
+  "payload": {
+    "han": "十人有右中與為所壓\n左中鏡石中稅前中稅\n初中說左校抗前樹稅行校說左刀\n右刀前刀等十船共四百五十人\n有前中步奇所云古貌左貌前稅杯稅左柱右柱初里左稅刀\n右稅刀前刀等千船其四百五十人\n有行明坐壽而發左說右視前說初說前坚刀\n從坚刀右柱等十般共四百五十人\n有五地災隊的金壯說前擇鏡\n左坚稅反分等五船共二百二十五人\n有右中步隊所云壯稅右說右坐觀\n左里刀等五船共二百二十五人\n有前明定隊所云五例藐右仍稅擇一左觀右刀等\n以數有柄中災隊屋前堅貌初里統前說私稅矣\n一刀等五般數上有左巽災隊初金\n左視東山右視刀等三船長一百三十五人\n有古巽步隊所強說一右里刀右視等三船生一百三十五人有四\n右內前內初內貌右鏡前鏡杖左步右災前步十二隊\n每隊五般各二百二十三人共二千七百人\n有左翼右翼前翼 翼四奇四奇五船\n内一船四十五人四船谷三十六\n各二百千一人共一千一百二十四人\n有左水右水二隊每隊五般四船老五十九人\n内一船四十五人人各五百六十二人共一千一百廿四人\n前水反水二隊每隊五船四船同船谷二百八十五人共五百七十二人\n有左内步右内失前内災奴内步前藐\n又說六乘名各二百七十人共二千一百六十人\n有左步隊所屬 一船五十人\n餘九船皆船四十五人共四百五十五人\n有左欄隊所屬左獲一十五人\n此一壯二壯三各六十人四船共二百二千五人",
+    "vi": "Tả đao.\nHữu chí, Chính đại.\nHậu nhất.\nHậu nhị.\nHữu Rhuông.\nTrạch nhất, Trạch nhị.\nHữu súng.\nHữu dao.\nTiển dao.\nHậu đao, Hữu trạch. tất ca 14 thuyền (hoặc 30 người. hoặc 74 người), công 779 người."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 1,\n        \"vi_start\": 0,\n        \"vi_end\": 1,\n        \"han_text\": \"十人有右中與為所壓 左中鏡石中稅前中稅\",\n        \"vietnamese_text\": \"Tả đao. Hữu chí, Chính đại.\",\n        \"score\": 0.009583141850398108\n      },\n      {\n        \"han_start\": 2,\n        \"han_end\": 4,\n        \"vi_start\": 2,\n        \"vi_end\": 3,\n        \"han_text\": \"初中說左校抗前樹稅行校說左刀 右刀前刀等十船共四百五十人 有前中步奇所云古貌左貌前稅杯稅左柱右柱初里左稅刀\",\n        \"vietnamese_text\": \"Hậu nhất. Hậu nhị.\",\n        \"score\": 0.09048248297523057\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 5,\n        \"vi_start\": 4,\n        \"vi_end\": 4,\n        \"han_text\": \"右稅刀前刀等千船其四百五十人\",\n        \"vietnamese_text\": \"Hữu Rhuông.\",\n        \"score\": -0.05813476705220857\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 9,\n        \"vi_start\": 5,\n        \"vi_end\": 5,\n        \"han_text\": \"有行明坐壽而發左說右視前說初說前坚刀 從坚刀右柱等十般共四百五十人 有五地災隊的金壯說前擇鏡 左坚稅反分等五船共二百二十五人\",\n        \"vietnamese_text\": \"Trạch nhất, Trạch nhị.\",\n        \"score\": 0.10002978728232781\n      },\n      {\n        \"han_start\": 10,\n        \"han_end\": 13,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"有右中步隊所云壯稅右說右坐觀 左里刀等五船共二百二十五人 有前明定隊所云五例藐右仍稅擇一左觀右刀等 以數有柄中災隊屋前堅貌初里統前說私稅矣\",\n        \"vietnamese_text\": \"Hữu súng.\",\n        \"score\": -0.03291204117370369\n      },\n      {\n        \"han_start\": 14,\n        \"han_end\": 14,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"一刀等五般數上有左巽災隊初金\",\n        \"vietnamese_text\": \"Hữu dao.\",\n        \"score\": 0.085694006416\n      },\n      {\n        \"han_start\": 15,\n        \"han_end\": 18,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"左視東山右視刀等三船長一百三十五人 有古巽步隊所強說一右里刀右視等三船生一百三十五人有四 右內前內初內貌右鏡前鏡杖左步右災前步十二隊 每隊五般各二百二十三人共二千七百人\",\n        \"vietnamese_text\": \"Tiển dao.\",\n        \"score\": -0.01887210711826192\n      },\n      {\n        \"han_start\": 19,\n        \"han_end\": 22,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"有左翼右翼前翼 翼四奇四奇五船 内一船四十五人四船谷三十六 各二百千一人共一千一百二十四人 有左水右水二隊每隊五般四船老五十九人\",\n        \"vietnamese_text\": \"Hậu đao, Hữu trạch.\",\n        \"score\": -0.03465264383547745\n      },\n      {\n        \"han_start\": 23,\n        \"han_end\": 26,\n        \"vi_start\": 10,\n        \"vi_end\": 10,\n        \"han_text\": \"内一船四十五人人各五百六十二人共一千一百廿四人 前水反水二隊每隊五船四船同船谷二百八十五人共五百七十二人 有左内步右内失前内災奴内步前藐 又說六乘名各二百七十人共二千一百六十人\",\n        \"vietnamese_text\": \"tất ca 14 thuyền (hoặc 30 người.\",\n        \"score\": 0.08571829880879593\n      },\n      {\n        \"han_start\": 27,\n        \"han_end\": 30,\n        \"vi_start\": 11,\n        \"vi_end\": 11,\n        \"han_text\": \"有左步隊所屬 一船五十人 餘九船皆船四十五人共四百五十五人 有左欄隊所屬左獲一十五人 此一壯二壯三各六十人四船共二百二千五人\",\n        \"vietnamese_text\": \"hoặc 74 người), công 779 người.\",\n        \"score\": -0.06649584344119036\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 1,
+          "vi_start": 0,
+          "vi_end": 1,
+          "han_text": "十人有右中與為所壓 左中鏡石中稅前中稅",
+          "vietnamese_text": "Tả đao. Hữu chí, Chính đại.",
+          "score": 0.009583141850398108
+        },
+        {
+          "han_start": 2,
+          "han_end": 4,
+          "vi_start": 2,
+          "vi_end": 3,
+          "han_text": "初中說左校抗前樹稅行校說左刀 右刀前刀等十船共四百五十人 有前中步奇所云古貌左貌前稅杯稅左柱右柱初里左稅刀",
+          "vietnamese_text": "Hậu nhất. Hậu nhị.",
+          "score": 0.09048248297523057
+        },
+        {
+          "han_start": 5,
+          "han_end": 5,
+          "vi_start": 4,
+          "vi_end": 4,
+          "han_text": "右稅刀前刀等千船其四百五十人",
+          "vietnamese_text": "Hữu Rhuông.",
+          "score": -0.05813476705220857
+        },
+        {
+          "han_start": 6,
+          "han_end": 9,
+          "vi_start": 5,
+          "vi_end": 5,
+          "han_text": "有行明坐壽而發左說右視前說初說前坚刀 從坚刀右柱等十般共四百五十人 有五地災隊的金壯說前擇鏡 左坚稅反分等五船共二百二十五人",
+          "vietnamese_text": "Trạch nhất, Trạch nhị.",
+          "score": 0.10002978728232781
+        },
+        {
+          "han_start": 10,
+          "han_end": 13,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "有右中步隊所云壯稅右說右坐觀 左里刀等五船共二百二十五人 有前明定隊所云五例藐右仍稅擇一左觀右刀等 以數有柄中災隊屋前堅貌初里統前說私稅矣",
+          "vietnamese_text": "Hữu súng.",
+          "score": -0.03291204117370369
+        },
+        {
+          "han_start": 14,
+          "han_end": 14,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "一刀等五般數上有左巽災隊初金",
+          "vietnamese_text": "Hữu dao.",
+          "score": 0.085694006416
+        },
+        {
+          "han_start": 15,
+          "han_end": 18,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "左視東山右視刀等三船長一百三十五人 有古巽步隊所強說一右里刀右視等三船生一百三十五人有四 右內前內初內貌右鏡前鏡杖左步右災前步十二隊 每隊五般各二百二十三人共二千七百人",
+          "vietnamese_text": "Tiển dao.",
+          "score": -0.01887210711826192
+        },
+        {
+          "han_start": 19,
+          "han_end": 22,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "有左翼右翼前翼 翼四奇四奇五船 内一船四十五人四船谷三十六 各二百千一人共一千一百二十四人 有左水右水二隊每隊五般四船老五十九人",
+          "vietnamese_text": "Hậu đao, Hữu trạch.",
+          "score": -0.03465264383547745
+        },
+        {
+          "han_start": 23,
+          "han_end": 26,
+          "vi_start": 10,
+          "vi_end": 10,
+          "han_text": "内一船四十五人人各五百六十二人共一千一百廿四人 前水反水二隊每隊五船四船同船谷二百八十五人共五百七十二人 有左内步右内失前内災奴内步前藐 又說六乘名各二百七十人共二千一百六十人",
+          "vietnamese_text": "tất ca 14 thuyền (hoặc 30 người.",
+          "score": 0.08571829880879593
+        },
+        {
+          "han_start": 27,
+          "han_end": 30,
+          "vi_start": 11,
+          "vi_end": 11,
+          "han_text": "有左步隊所屬 一船五十人 餘九船皆船四十五人共四百五十五人 有左欄隊所屬左獲一十五人 此一壯二壯三各六十人四船共二百二千五人",
+          "vietnamese_text": "hoặc 74 người), công 779 người.",
+          "score": -0.06649584344119036
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 1641
+}

@@ -1,0 +1,123 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "f1b3f016a79481537a37b8da71a27a2c72fe0dac65789027bc2a07d8073ffd1d",
+  "payload": {
+    "han": "臣元祿淳謹卷皇上夢三吳去年秋西山記刼未格于階仰蒙皇上軫及動臣餘裔特差声機\n前已稍平稍復亦由仗產明之方\n群公之力也謹具菲礼聊以昧謝\n上答天閶地齋之仁告育海涵三靈冰龍在念步望準納\n臣前惶誠恐不勝意微之聖\n謹彥上進黃金三十笏啟文曰\n順化廣南半父力臣阮祿淳謹啟\n王上高聰玉寬臣家嘗不意赤子弄兵\n多蒙王上闢及商屬差兵聲接茲園動臣復刼党消息\n亦相王上極清扶持之力敢賣蕩礼康表微惟以答無私無義之恩為祈收納\n臣不勝飄仰之至\n謹啟\n恭進金二十易\n又答縣公書云惻廣等處泰國獻元福宮爾星上國上將軍國老占前電照\n自昔先公尚封入鎮望六七世書職莅事二百孫年各安境土\n世道及師旅之事亦由仰蒙皇上軫及熟臣餘裔不忍苛責\n色紫無去之仁興天罔極\n王上顧及同宗闕屬不丞相視彤創舍弘之德二天雍名\n以故順產之民各安耕鑿亦事干是虛王之蒼生亦相上國之周旋之\n今泰爾以襁祿任事凡",
+    "vi": "Vua gửi biên thư, liền sai xe tướng.\nVớt chìm chữa cháy, vịnh thơ Lục nguyệt ra quân; chống giặc chung thù, theo nghĩa Xuân thu làm việc.\nLão phu này nghĩa vâng đức ý, từng gửi thư sang.\nMở rộng lòng thành, nói hết ý thương người tai nạn; cầm quân phòng bị, toan dùng mưu gở mối nguy nan.\nNgờ đâu càn nghĩ thành điên, không trung với chủ.\nBản ý muốn thông cùng quốc thích; tay kia lại đáp thư mình.\nĐã đùa với giặc ở trong, không chút tính toán; lại còn đặt lời múa mép, ngăn trở viện binh.\nGiận kẻ gian thần, lầm người chước lớn.\nNghĩa không nên đứt, ân cần lại gửi lời ngay!\nTối chẳng nghĩ ra, nhởn nhơ vẫn theo thói cũ.\nCố giữ lòng ngờ hoặc, dám làm chước dối gian.\nĐất đai Thuận Quảng mất rồi, dám nói tám chín phần lấy lại; giặc Nhạc tung hoành như cũ, bảo còn một hai xứ nữa thôi.\nThư gửi lại chỉ nói hàm hồ; lời và ý chút không thành thực.\nTôi đã rõ là rước giặc; ác lại nặng hơn dối trời.\nKính nay giúp đỡ ngoại gia; lo xứng cửu trùng phó thác.\nCần phải quét trừ thủ ác, đẹp yên hai xứ rối ren."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 1,\n        \"vi_start\": 0,\n        \"vi_end\": 2,\n        \"han_text\": \"臣元祿淳謹卷皇上夢三吳去年秋西山記刼未格于階仰蒙皇上軫及動臣餘裔特差声機 前已稍平稍復亦由仗產明之方\",\n        \"vietnamese_text\": \"Vua gửi biên thư, liền sai xe tướng. Vớt chìm chữa cháy, vịnh thơ Lục nguyệt ra quân; chống giặc chung thù, theo nghĩa Xuân thu làm việc. Lão phu này nghĩa vâng đức ý, từng gửi thư sang.\",\n        \"score\": 0.27522211097413307\n      },\n      {\n        \"han_start\": 2,\n        \"han_end\": 3,\n        \"vi_start\": 3,\n        \"vi_end\": 3,\n        \"han_text\": \"群公之力也謹具菲礼聊以昧謝 上答天閶地齋之仁告育海涵三靈冰龍在念步望準納\",\n        \"vietnamese_text\": \"Mở rộng lòng thành, nói hết ý thương người tai nạn; cầm quân phòng bị, toan dùng mưu gở mối nguy nan.\",\n        \"score\": 0.1517380644867562\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 4,\n        \"vi_start\": 4,\n        \"vi_end\": 4,\n        \"han_text\": \"臣前惶誠恐不勝意微之聖\",\n        \"vietnamese_text\": \"Ngờ đâu càn nghĩ thành điên, không trung với chủ.\",\n        \"score\": 0.09816745029252584\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 6,\n        \"vi_start\": 5,\n        \"vi_end\": 5,\n        \"han_text\": \"謹彥上進黃金三十笏啟文曰 順化廣南半父力臣阮祿淳謹啟\",\n        \"vietnamese_text\": \"Bản ý muốn thông cùng quốc thích; tay kia lại đáp thư mình.\",\n        \"score\": 0.05448729886295235\n      },\n      {\n        \"han_start\": 7,\n        \"han_end\": 8,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"王上高聰玉寬臣家嘗不意赤子弄兵 多蒙王上闢及商屬差兵聲接茲園動臣復刼党消息\",\n        \"vietnamese_text\": \"Đã đùa với giặc ở trong, không chút tính toán; lại còn đặt lời múa mép, ngăn trở viện binh.\",\n        \"score\": 0.0806672146690898\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 9,\n        \"vi_start\": 7,\n        \"vi_end\": 8,\n        \"han_text\": \"亦相王上極清扶持之力敢賣蕩礼康表微惟以答無私無義之恩為祈收納\",\n        \"vietnamese_text\": \"Giận kẻ gian thần, lầm người chước lớn. Nghĩa không nên đứt, ân cần lại gửi lời ngay!\",\n        \"score\": 0.1282965729760443\n      },\n      {\n        \"han_start\": 10,\n        \"han_end\": 10,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"臣不勝飄仰之至\",\n        \"vietnamese_text\": \"Tối chẳng nghĩ ra, nhởn nhơ vẫn theo thói cũ.\",\n        \"score\": 0.01473537319662331\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 12,\n        \"vi_start\": 10,\n        \"vi_end\": 10,\n        \"han_text\": \"謹啟 恭進金二十易\",\n        \"vietnamese_text\": \"Cố giữ lòng ngờ hoặc, dám làm chước dối gian.\",\n        \"score\": 0.049876573055955366\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 14,\n        \"vi_start\": 11,\n        \"vi_end\": 11,\n        \"han_text\": \"又答縣公書云惻廣等處泰國獻元福宮爾星上國上將軍國老占前電照 自昔先公尚封入鎮望六七世書職莅事二百孫年各安境土\",\n        \"vietnamese_text\": \"Đất đai Thuận Quảng mất rồi, dám nói tám chín phần lấy lại; giặc Nhạc tung hoành như cũ, bảo còn một hai xứ nữa thôi.\",\n        \"score\": 0.1535989667363156\n      },\n      {\n        \"han_start\": 15,\n        \"han_end\": 17,\n        \"vi_start\": 12,\n        \"vi_end\": 13,\n        \"han_text\": \"世道及師旅之事亦由仰蒙皇上軫及熟臣餘裔不忍苛責 色紫無去之仁興天罔極 王上顧及同宗闕屬不丞相視彤創舍弘之德二天雍名\",\n        \"vietnamese_text\": \"Thư gửi lại chỉ nói hàm hồ; lời và ý chút không thành thực. Tôi đã rõ là rước giặc; ác lại nặng hơn dối trời.\",\n        \"score\": 0.10136898103599641\n      },\n      {\n        \"han_start\": 18,\n        \"han_end\": 19,\n        \"vi_start\": 14,\n        \"vi_end\": 15,\n        \"han_text\": \"以故順產之民各安耕鑿亦事干是虛王之蒼生亦相上國之周旋之 今泰爾以襁祿任事凡\",\n        \"vietnamese_text\": \"Kính nay giúp đỡ ngoại gia; lo xứng cửu trùng phó thác. Cần phải quét trừ thủ ác, đẹp yên hai xứ rối ren.\",\n        \"score\": 0.17340876663120558\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 1,
+          "vi_start": 0,
+          "vi_end": 2,
+          "han_text": "臣元祿淳謹卷皇上夢三吳去年秋西山記刼未格于階仰蒙皇上軫及動臣餘裔特差声機 前已稍平稍復亦由仗產明之方",
+          "vietnamese_text": "Vua gửi biên thư, liền sai xe tướng. Vớt chìm chữa cháy, vịnh thơ Lục nguyệt ra quân; chống giặc chung thù, theo nghĩa Xuân thu làm việc. Lão phu này nghĩa vâng đức ý, từng gửi thư sang.",
+          "score": 0.27522211097413307
+        },
+        {
+          "han_start": 2,
+          "han_end": 3,
+          "vi_start": 3,
+          "vi_end": 3,
+          "han_text": "群公之力也謹具菲礼聊以昧謝 上答天閶地齋之仁告育海涵三靈冰龍在念步望準納",
+          "vietnamese_text": "Mở rộng lòng thành, nói hết ý thương người tai nạn; cầm quân phòng bị, toan dùng mưu gở mối nguy nan.",
+          "score": 0.1517380644867562
+        },
+        {
+          "han_start": 4,
+          "han_end": 4,
+          "vi_start": 4,
+          "vi_end": 4,
+          "han_text": "臣前惶誠恐不勝意微之聖",
+          "vietnamese_text": "Ngờ đâu càn nghĩ thành điên, không trung với chủ.",
+          "score": 0.09816745029252584
+        },
+        {
+          "han_start": 5,
+          "han_end": 6,
+          "vi_start": 5,
+          "vi_end": 5,
+          "han_text": "謹彥上進黃金三十笏啟文曰 順化廣南半父力臣阮祿淳謹啟",
+          "vietnamese_text": "Bản ý muốn thông cùng quốc thích; tay kia lại đáp thư mình.",
+          "score": 0.05448729886295235
+        },
+        {
+          "han_start": 7,
+          "han_end": 8,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "王上高聰玉寬臣家嘗不意赤子弄兵 多蒙王上闢及商屬差兵聲接茲園動臣復刼党消息",
+          "vietnamese_text": "Đã đùa với giặc ở trong, không chút tính toán; lại còn đặt lời múa mép, ngăn trở viện binh.",
+          "score": 0.0806672146690898
+        },
+        {
+          "han_start": 9,
+          "han_end": 9,
+          "vi_start": 7,
+          "vi_end": 8,
+          "han_text": "亦相王上極清扶持之力敢賣蕩礼康表微惟以答無私無義之恩為祈收納",
+          "vietnamese_text": "Giận kẻ gian thần, lầm người chước lớn. Nghĩa không nên đứt, ân cần lại gửi lời ngay!",
+          "score": 0.1282965729760443
+        },
+        {
+          "han_start": 10,
+          "han_end": 10,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "臣不勝飄仰之至",
+          "vietnamese_text": "Tối chẳng nghĩ ra, nhởn nhơ vẫn theo thói cũ.",
+          "score": 0.01473537319662331
+        },
+        {
+          "han_start": 11,
+          "han_end": 12,
+          "vi_start": 10,
+          "vi_end": 10,
+          "han_text": "謹啟 恭進金二十易",
+          "vietnamese_text": "Cố giữ lòng ngờ hoặc, dám làm chước dối gian.",
+          "score": 0.049876573055955366
+        },
+        {
+          "han_start": 13,
+          "han_end": 14,
+          "vi_start": 11,
+          "vi_end": 11,
+          "han_text": "又答縣公書云惻廣等處泰國獻元福宮爾星上國上將軍國老占前電照 自昔先公尚封入鎮望六七世書職莅事二百孫年各安境土",
+          "vietnamese_text": "Đất đai Thuận Quảng mất rồi, dám nói tám chín phần lấy lại; giặc Nhạc tung hoành như cũ, bảo còn một hai xứ nữa thôi.",
+          "score": 0.1535989667363156
+        },
+        {
+          "han_start": 15,
+          "han_end": 17,
+          "vi_start": 12,
+          "vi_end": 13,
+          "han_text": "世道及師旅之事亦由仰蒙皇上軫及熟臣餘裔不忍苛責 色紫無去之仁興天罔極 王上顧及同宗闕屬不丞相視彤創舍弘之德二天雍名",
+          "vietnamese_text": "Thư gửi lại chỉ nói hàm hồ; lời và ý chút không thành thực. Tôi đã rõ là rước giặc; ác lại nặng hơn dối trời.",
+          "score": 0.10136898103599641
+        },
+        {
+          "han_start": 18,
+          "han_end": 19,
+          "vi_start": 14,
+          "vi_end": 15,
+          "han_text": "以故順產之民各安耕鑿亦事干是虛王之蒼生亦相上國之周旋之 今泰爾以襁祿任事凡",
+          "vietnamese_text": "Kính nay giúp đỡ ngoại gia; lo xứng cửu trùng phó thác. Cần phải quét trừ thủ ác, đẹp yên hai xứ rối ren.",
+          "score": 0.17340876663120558
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 3875
+}

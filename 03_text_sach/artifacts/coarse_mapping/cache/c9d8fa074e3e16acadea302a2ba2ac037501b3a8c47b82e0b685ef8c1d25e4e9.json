@@ -1,0 +1,105 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "c9d8fa074e3e16acadea302a2ba2ac037501b3a8c47b82e0b685ef8c1d25e4e9",
+  "payload": {
+    "han": "周景陽孫夫珍孫瑞孫李歲共二十六人\n南玉卻事山藩天廣阮儀陳貞\n鄧旺本莫朝直共六人和預集中共三百二十篇\n天鵝序之曰安南河仁鎮古雷羌陬\n自先君西創以來三十孫年而民始發安居稍知肅植\n乙卯貞先君捐館余纜承241先緣於治之暇\n日興文人談史海诗而辰春粵索陳子淮水船海至此余待為上實\n每花晨月夕吟咏不輟因悔可仁\n趙十景相屬初陳子樹幟鷄按首倡尾雅\n及其反禪珠江分題白社承諸公不棄\n如題詠德黨成一弟遙寄于余因付亂親\n是知山川得先民化之行增其壯麗\n復得諸呂士邑顯益游其灵秀\n此特不独為海國生色亦可方河仁誥乘云耳\n丁已季夏上洗勸城知夫賜士麟反自序于樹力軒\n其誌今錄效篇\n玉昶和金嶼攔濤詩慧背芙睿鎖翠烟夕阳人立思悠然\n誰移來海三山五自孤者南滇一掌天肅郊小痕潮有信撼殘足力浪無權半生独抱梯杭志空対文潤榄硯田乎來聚和奔山魯翠詩\n美蓉甚削出雲霄环列如屏入望遙一書山光橫翠黛參重雨",
+    "vi": "Đành phó (sông) Lạc (khe) Sàn nước chủy xuôi.\nđð1 4†nh Tống Chân 'Tông Tân Nguy điêu linh ước thệ trần.\nÂu ca hữu thuộc đế đồ xuân, Miếu đường hắc bạch mê tang phủ; Cung quán đan thanh tín quÌ thần.\nBất chỉnh can qua thụ cố nhưỡng; Không tương bim tệ kết cường lân.\nĐông phong tây tự thành hà sự?\nThuy uị Chân tông uấn Thượng chân.\nTần Nguy tiêu điều tước thệ phai.\nĐế đồ từng đã ngợi ca xuân, Miếu đường đen trắng mê lành dữ; Cung quán đan thanh tín qui thần.\nChẳng sửa can qua thu đất cũ; Chỉ đem uàng lụa lễ cường lân.\nĐông tây cúng tế nào nên uiệc, Ai uị Chân Tông hỏi Thượng Chân? %†nh Tống Cao Tông Văn hà thế giới thuộc hoàng câm (kim)."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 0,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"周景陽孫夫珍孫瑞孫李歲共二十六人\",\n        \"vietnamese_text\": \"Đành phó (sông) Lạc (khe) Sàn nước chủy xuôi.\",\n        \"score\": -0.01714412556072236\n      },\n      {\n        \"han_start\": 1,\n        \"han_end\": 2,\n        \"vi_start\": 1,\n        \"vi_end\": 1,\n        \"han_text\": \"南玉卻事山藩天廣阮儀陳貞 鄧旺本莫朝直共六人和預集中共三百二十篇\",\n        \"vietnamese_text\": \"đð1 4†nh Tống Chân 'Tông Tân Nguy điêu linh ước thệ trần.\",\n        \"score\": 0.09444023810311794\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 5,\n        \"vi_start\": 2,\n        \"vi_end\": 3,\n        \"han_text\": \"天鵝序之曰安南河仁鎮古雷羌陬 自先君西創以來三十孫年而民始發安居稍知肅植 乙卯貞先君捐館余纜承241先緣於治之暇\",\n        \"vietnamese_text\": \"Âu ca hữu thuộc đế đồ xuân, Miếu đường hắc bạch mê tang phủ; Cung quán đan thanh tín quÌ thần. Bất chỉnh can qua thụ cố nhưỡng; Không tương bim tệ kết cường lân.\",\n        \"score\": 0.12913282724244685\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 7,\n        \"vi_start\": 4,\n        \"vi_end\": 4,\n        \"han_text\": \"日興文人談史海诗而辰春粵索陳子淮水船海至此余待為上實 每花晨月夕吟咏不輟因悔可仁\",\n        \"vietnamese_text\": \"Đông phong tây tự thành hà sự?\",\n        \"score\": 0.04359258933430646\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 8,\n        \"vi_start\": 5,\n        \"vi_end\": 5,\n        \"han_text\": \"趙十景相屬初陳子樹幟鷄按首倡尾雅\",\n        \"vietnamese_text\": \"Thuy uị Chân tông uấn Thượng chân.\",\n        \"score\": 0.12775795868114095\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 9,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"及其反禪珠江分題白社承諸公不棄\",\n        \"vietnamese_text\": \"Tần Nguy tiêu điều tước thệ phai.\",\n        \"score\": 0.09750474719582174\n      },\n      {\n        \"han_start\": 10,\n        \"han_end\": 12,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"如題詠德黨成一弟遙寄于余因付亂親 是知山川得先民化之行增其壯麗 復得諸呂士邑顯益游其灵秀\",\n        \"vietnamese_text\": \"Đế đồ từng đã ngợi ca xuân, Miếu đường đen trắng mê lành dữ; Cung quán đan thanh tín qui thần.\",\n        \"score\": 0.05824225039519298\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 15,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"此特不独為海國生色亦可方河仁誥乘云耳 丁已季夏上洗勸城知夫賜士麟反自序于樹力軒 其誌今錄效篇\",\n        \"vietnamese_text\": \"Chẳng sửa can qua thu đất cũ; Chỉ đem uàng lụa lễ cường lân.\",\n        \"score\": 0.12149449611347213\n      },\n      {\n        \"han_start\": 16,\n        \"han_end\": 18,\n        \"vi_start\": 9,\n        \"vi_end\": 10,\n        \"han_text\": \"玉昶和金嶼攔濤詩慧背芙睿鎖翠烟夕阳人立思悠然 誰移來海三山五自孤者南滇一掌天肅郊小痕潮有信撼殘足力浪無權半生独抱梯杭志空対文潤榄硯田乎來聚和奔山魯翠詩 美蓉甚削出雲霄环列如屏入望遙一書山光橫翠黛參重雨\",\n        \"vietnamese_text\": \"Đông tây cúng tế nào nên uiệc, Ai uị Chân Tông hỏi Thượng Chân? %†nh Tống Cao Tông Văn hà thế giới thuộc hoàng câm (kim).\",\n        \"score\": 0.15422327743217584\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 0,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "周景陽孫夫珍孫瑞孫李歲共二十六人",
+          "vietnamese_text": "Đành phó (sông) Lạc (khe) Sàn nước chủy xuôi.",
+          "score": -0.01714412556072236
+        },
+        {
+          "han_start": 1,
+          "han_end": 2,
+          "vi_start": 1,
+          "vi_end": 1,
+          "han_text": "南玉卻事山藩天廣阮儀陳貞 鄧旺本莫朝直共六人和預集中共三百二十篇",
+          "vietnamese_text": "đð1 4†nh Tống Chân 'Tông Tân Nguy điêu linh ước thệ trần.",
+          "score": 0.09444023810311794
+        },
+        {
+          "han_start": 3,
+          "han_end": 5,
+          "vi_start": 2,
+          "vi_end": 3,
+          "han_text": "天鵝序之曰安南河仁鎮古雷羌陬 自先君西創以來三十孫年而民始發安居稍知肅植 乙卯貞先君捐館余纜承241先緣於治之暇",
+          "vietnamese_text": "Âu ca hữu thuộc đế đồ xuân, Miếu đường hắc bạch mê tang phủ; Cung quán đan thanh tín quÌ thần. Bất chỉnh can qua thụ cố nhưỡng; Không tương bim tệ kết cường lân.",
+          "score": 0.12913282724244685
+        },
+        {
+          "han_start": 6,
+          "han_end": 7,
+          "vi_start": 4,
+          "vi_end": 4,
+          "han_text": "日興文人談史海诗而辰春粵索陳子淮水船海至此余待為上實 每花晨月夕吟咏不輟因悔可仁",
+          "vietnamese_text": "Đông phong tây tự thành hà sự?",
+          "score": 0.04359258933430646
+        },
+        {
+          "han_start": 8,
+          "han_end": 8,
+          "vi_start": 5,
+          "vi_end": 5,
+          "han_text": "趙十景相屬初陳子樹幟鷄按首倡尾雅",
+          "vietnamese_text": "Thuy uị Chân tông uấn Thượng chân.",
+          "score": 0.12775795868114095
+        },
+        {
+          "han_start": 9,
+          "han_end": 9,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "及其反禪珠江分題白社承諸公不棄",
+          "vietnamese_text": "Tần Nguy tiêu điều tước thệ phai.",
+          "score": 0.09750474719582174
+        },
+        {
+          "han_start": 10,
+          "han_end": 12,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "如題詠德黨成一弟遙寄于余因付亂親 是知山川得先民化之行增其壯麗 復得諸呂士邑顯益游其灵秀",
+          "vietnamese_text": "Đế đồ từng đã ngợi ca xuân, Miếu đường đen trắng mê lành dữ; Cung quán đan thanh tín qui thần.",
+          "score": 0.05824225039519298
+        },
+        {
+          "han_start": 13,
+          "han_end": 15,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "此特不独為海國生色亦可方河仁誥乘云耳 丁已季夏上洗勸城知夫賜士麟反自序于樹力軒 其誌今錄效篇",
+          "vietnamese_text": "Chẳng sửa can qua thu đất cũ; Chỉ đem uàng lụa lễ cường lân.",
+          "score": 0.12149449611347213
+        },
+        {
+          "han_start": 16,
+          "han_end": 18,
+          "vi_start": 9,
+          "vi_end": 10,
+          "han_text": "玉昶和金嶼攔濤詩慧背芙睿鎖翠烟夕阳人立思悠然 誰移來海三山五自孤者南滇一掌天肅郊小痕潮有信撼殘足力浪無權半生独抱梯杭志空対文潤榄硯田乎來聚和奔山魯翠詩 美蓉甚削出雲霄环列如屏入望遙一書山光橫翠黛參重雨",
+          "vietnamese_text": "Đông tây cúng tế nào nên uiệc, Ai uị Chân Tông hỏi Thượng Chân? %†nh Tống Cao Tông Văn hà thế giới thuộc hoàng câm (kim).",
+          "score": 0.15422327743217584
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 7031
+}

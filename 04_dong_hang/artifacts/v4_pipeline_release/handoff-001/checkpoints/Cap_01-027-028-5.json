@@ -1,0 +1,1070 @@
+{
+ "window": "Cap_01-027-028",
+ "cap": "Cap_01",
+ "pages": [
+  27,
+  28
+ ],
+ "context": 5,
+ "full": false,
+ "ids": [
+  "Cap_01-VI-0221-003",
+  "Cap_01-VI-0221-004",
+  "Cap_01-VI-0221-005",
+  "Cap_01-VI-0221-006",
+  "Cap_01-VI-0221-007"
+ ],
+ "han": [
+  [
+   11767,
+   11786
+  ],
+  [
+   11786,
+   11797
+  ],
+  [
+   11797,
+   11820
+  ],
+  [
+   11820,
+   11841
+  ],
+  [
+   11841,
+   11855
+  ],
+  [
+   11855,
+   11859
+  ],
+  [
+   11859,
+   11884
+  ],
+  [
+   11884,
+   11902
+  ],
+  [
+   11902,
+   11923
+  ],
+  [
+   11923,
+   11943
+  ],
+  [
+   11943,
+   11974
+  ],
+  [
+   11974,
+   11993
+  ],
+  [
+   11993,
+   12007
+  ],
+  [
+   12007,
+   12031
+  ],
+  [
+   12031,
+   12051
+  ],
+  [
+   12051,
+   12074
+  ],
+  [
+   12074,
+   12089
+  ],
+  [
+   12089,
+   12103
+  ],
+  [
+   12103,
+   12130
+  ],
+  [
+   12130,
+   12147
+  ],
+  [
+   12147,
+   12193
+  ],
+  [
+   12193,
+   12211
+  ],
+  [
+   12211,
+   12239
+  ],
+  [
+   12239,
+   12248
+  ],
+  [
+   12248,
+   12267
+  ],
+  [
+   12267,
+   12330
+  ],
+  [
+   12330,
+   12343
+  ],
+  [
+   12343,
+   12404
+  ],
+  [
+   12404,
+   12419
+  ],
+  [
+   12419,
+   12449
+  ],
+  [
+   12449,
+   12475
+  ],
+  [
+   12475,
+   12487
+  ],
+  [
+   12487,
+   12501
+  ],
+  [
+   12501,
+   12527
+  ],
+  [
+   12527,
+   12559
+  ],
+  [
+   12559,
+   12575
+  ],
+  [
+   12575,
+   12599
+  ],
+  [
+   12599,
+   12611
+  ],
+  [
+   12611,
+   12632
+  ],
+  [
+   12632,
+   12644
+  ],
+  [
+   12644,
+   12677
+  ],
+  [
+   12677,
+   12687
+  ],
+  [
+   12687,
+   12705
+  ],
+  [
+   12705,
+   12732
+  ],
+  [
+   12732,
+   12747
+  ],
+  [
+   12747,
+   12765
+  ]
+ ],
+ "key": "29c59081e6e47256d65c53417238c8a16db25b3d76edecb5bff18db09709d4d9",
+ "status": "success",
+ "baseline": [
+  {
+   "Han_Start": 11767,
+   "Han_End": 11820,
+   "Han_Text": "價成一千一百十四長五四廿四文百升四十二三人法增七千九百六十升徑底三百十八長四每廿四文絹三十九疋二十一尺六寸",
+   "VI_IDs": [
+    "Cap_01-VI-0221-003"
+   ],
+   "Vietnamese_Text": "Dân phụ phường 272 người, trừ thượng hạng, còn nộp thuế 221 người, thu tiền ð90 quan 1 tiền 36 đồng.",
+   "Alignment_Type": "N-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "Cap_01-027-028-5",
+   "API_Response_ID": "R0006",
+   "Validation_Status": "mapped",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "indices_text",
+   "Han_Units": [
+    0,
+    1,
+    2
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_01-VI-0221-003",
+     0,
+     100
+    ]
+   ],
+   "Score": -0.012635674968635746,
+   "Row": 0,
+   "Source_Rows": [
+    {
+     "response": "R0006",
+     "row": 0
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 0,
+     "han_end": 2,
+     "vi_start": 0,
+     "vi_end": 0,
+     "han_text": "價成一千一百十四長五四廿四文百升四十二 三人法增七千九百六十升 徑底三百十八長四每廿四文絹三十九疋二十一尺六寸",
+     "vietnamese_text": "Dân phụ phường 272 người, trừ thượng hạng, còn nộp thuế 221 người, thu tiền ð90 quan 1 tiền 36 đồng.",
+     "score": -0.012635674968635746
+    }
+   ],
+   "Cap": "Cap_01",
+   "Han_IDs": [
+    "Cap_01-027-028-S4-0001",
+    "Cap_01-027-028-S4-0002",
+    "Cap_01-027-028-S4-0003"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_01-VI-0221-003",
+     0,
+     100
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 301
+    }
+   ],
+   "Request_Key": "29c59081e6e47256d65c53417238c8a16db25b3d76edecb5bff18db09709d4d9",
+   "Context_Evidence": 1,
+   "API_Score": -0.012635674968635746,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 11820,
+   "Han_End": 11884,
+   "Han_Text": "東審祇三百三十六人除宮近存寔狗二百七十七人收非擔二四千四百三十八千九兩八鄉二分先明更社二百三十二人除另外穷近存寔油稅一百八十四人",
+   "VI_IDs": [
+    "Cap_01-VI-0221-004"
+   ],
+   "Vietnamese_Text": "Châu Xuân Đài, số người 549 người, trừ chức sắc, còn thực nộp thuế 339 người.",
+   "Alignment_Type": "N-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "Cap_01-027-028-5",
+   "API_Response_ID": "R0006",
+   "Validation_Status": "partial_viet",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "exact_text_fallback",
+   "Han_Units": [
+    3,
+    4,
+    5,
+    6
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_01-VI-0221-004",
+     0,
+     77
+    ]
+   ],
+   "Score": 0.14779341285554737,
+   "Row": 1,
+   "Source_Rows": [
+    {
+     "response": "R0006",
+     "row": 1
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 3,
+     "han_end": 6,
+     "vi_start": 1,
+     "vi_end": 1,
+     "han_text": "東審祇三百三十六人除宮近存寔狗二百七十七人 收非擔二四千四百三十八千九兩 八鄉二分 先明更社二百三十二人除另外穷近存寔油稅一百八十四人",
+     "vietnamese_text": "Châu Xuân Đài, số người 549 người, trừ chức sắc, còn thực nộp thuế 339 người.",
+     "score": 0.14779341285554737
+    }
+   ],
+   "Cap": "Cap_01",
+   "Han_IDs": [
+    "Cap_01-027-028-S4-0004",
+    "Cap_01-027-028-S4-0005",
+    "Cap_01-027-028-S4-0006",
+    "Cap_01-027-028-S4-0007"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_01-VI-0221-004",
+     0,
+     77
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 302
+    }
+   ],
+   "Request_Key": "29c59081e6e47256d65c53417238c8a16db25b3d76edecb5bff18db09709d4d9",
+   "Context_Evidence": 1,
+   "API_Score": 0.14779341285554737,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 11884,
+   "Han_End": 11974,
+   "Han_Text": "收成六百五十之五門廿八文花稜綵三十尺平順安絹坊五十六人收白稍五十一尺十五尺三寸九亥新福縣担扣泡僅花山秩人殺一百四十九人除取另存酒稅一百五人收成一百八十四長四的四十七文花洲五原安門人",
+   "VI_IDs": [
+    "Cap_01-VI-0221-004"
+   ],
+   "Vietnamese_Text": "tiền lệ là 1.",
+   "Alignment_Type": "N-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "Cap_01-027-028-5",
+   "API_Response_ID": "R0006",
+   "Validation_Status": "partial_viet",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "exact_text_fallback",
+   "Han_Units": [
+    7,
+    8,
+    9,
+    10
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_01-VI-0221-004",
+     78,
+     91
+    ]
+   ],
+   "Score": -0.04940450847313035,
+   "Row": 2,
+   "Source_Rows": [
+    {
+     "response": "R0006",
+     "row": 2
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 7,
+     "han_end": 10,
+     "vi_start": 2,
+     "vi_end": 2,
+     "han_text": "收成六百五十之五門廿八文花稜綵三十尺 平順安絹坊五十六人收白稍五十一尺十五尺三寸 九亥新福縣担扣泡僅花山秩人殺一百四十九人 除取另存酒稅一百五人收成一百八十四長四的四十七文花洲五原安門人",
+     "vietnamese_text": "tiền lệ là 1.",
+     "score": -0.04940450847313035
+    }
+   ],
+   "Cap": "Cap_01",
+   "Han_IDs": [
+    "Cap_01-027-028-S4-0008",
+    "Cap_01-027-028-S4-0009",
+    "Cap_01-027-028-S4-0010",
+    "Cap_01-027-028-S4-0011"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_01-VI-0221-004",
+     78,
+     91
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 302
+    }
+   ],
+   "Request_Key": "29c59081e6e47256d65c53417238c8a16db25b3d76edecb5bff18db09709d4d9",
+   "Context_Evidence": 1,
+   "API_Score": -0.04940450847313035,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 11974,
+   "Han_End": 11993,
+   "Han_Text": "故四百五十二人除所另石猶稅一百八十二人",
+   "VI_IDs": [],
+   "Vietnamese_Text": "",
+   "Alignment_Type": "1-0",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "Cap_01-027-028-5",
+   "API_Response_ID": "R0006",
+   "Validation_Status": "untraceable",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "text_mismatch",
+   "Han_Units": [
+    11
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [],
+   "Score": 0.16213879156490477,
+   "Row": 3,
+   "Source_Rows": [
+    {
+     "response": "R0006",
+     "row": 3
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 11,
+     "han_end": 11,
+     "vi_start": 3,
+     "vi_end": 3,
+     "han_text": "故四百五十二人除所另石猶稅一百八十二人",
+     "vietnamese_text": "432 quan 9 tiền 24 đồng.",
+     "score": 0.16213879156490477
+    }
+   ],
+   "Cap": "Cap_01",
+   "Han_IDs": [
+    "Cap_01-027-028-S4-0012"
+   ],
+   "VI_Payload_Spans": [],
+   "VI_Source_Rows": [],
+   "Request_Key": "29c59081e6e47256d65c53417238c8a16db25b3d76edecb5bff18db09709d4d9",
+   "Context_Evidence": 1,
+   "API_Score": 0.16213879156490477,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 11993,
+   "Han_End": 12074,
+   "Han_Text": "收五百十四長絹十尺十五尺不升華府河東醴陽維川正新云縣及各至之效言四千三百七人除員子賦另稱差存彻稅一弓一千二百三十七人收金四歲七星絹一千五百四十五尺二十三尺一寸八分",
+   "VI_IDs": [
+    "Cap_01-VI-0221-004"
+   ],
+   "Vietnamese_Text": "thu đường phèn 15.",
+   "Alignment_Type": "N-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "Cap_01-027-028-5",
+   "API_Response_ID": "R0006",
+   "Validation_Status": "partial_viet",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "exact_text_fallback",
+   "Han_Units": [
+    12,
+    13,
+    14,
+    15
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_01-VI-0221-004",
+     116,
+     134
+    ]
+   ],
+   "Score": -0.013017473507131025,
+   "Row": 4,
+   "Source_Rows": [
+    {
+     "response": "R0006",
+     "row": 4
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 12,
+     "han_end": 15,
+     "vi_start": 4,
+     "vi_end": 4,
+     "han_text": "收五百十四長絹十尺十五尺不升 華府河東醴陽維川正新云縣及各至之效言四千三百七人 除員子賦另稱差存彻稅一弓一千二百三十七人 收金四歲七星絹一千五百四十五尺二十三尺一寸八分",
+     "vietnamese_text": "thu đường phèn 15.",
+     "score": -0.013017473507131025
+    }
+   ],
+   "Cap": "Cap_01",
+   "Han_IDs": [
+    "Cap_01-027-028-S4-0013",
+    "Cap_01-027-028-S4-0014",
+    "Cap_01-027-028-S4-0015",
+    "Cap_01-027-028-S4-0016"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_01-VI-0221-004",
+     116,
+     134
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 302
+    }
+   ],
+   "Request_Key": "29c59081e6e47256d65c53417238c8a16db25b3d76edecb5bff18db09709d4d9",
+   "Context_Evidence": 1,
+   "API_Score": -0.013017473507131025,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 12074,
+   "Han_End": 12103,
+   "Han_Text": "成三方八千九十二長七四五十七文米二千八百四十八色十八升一合",
+   "VI_IDs": [],
+   "Vietnamese_Text": "",
+   "Alignment_Type": "1-0",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "Cap_01-027-028-5",
+   "API_Response_ID": "R0006",
+   "Validation_Status": "untraceable",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "text_mismatch",
+   "Han_Units": [
+    16,
+    17
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [],
+   "Score": 0.09762489019168098,
+   "Row": 5,
+   "Source_Rows": [
+    {
+     "response": "R0006",
+     "row": 5
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 16,
+     "han_end": 17,
+     "vi_start": 5,
+     "vi_end": 5,
+     "han_text": "成三方八千九十二長七四五十七文 米二千八百四十八色十八升一合",
+     "vietnamese_text": "922 cân, giá tiền 1.",
+     "score": 0.09762489019168098
+    }
+   ],
+   "Cap": "Cap_01",
+   "Han_IDs": [
+    "Cap_01-027-028-S4-0017",
+    "Cap_01-027-028-S4-0018"
+   ],
+   "VI_Payload_Spans": [],
+   "VI_Source_Rows": [],
+   "Request_Key": "29c59081e6e47256d65c53417238c8a16db25b3d76edecb5bff18db09709d4d9",
+   "Context_Evidence": 1,
+   "API_Score": 0.09762489019168098,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 12103,
+   "Han_End": 12211,
+   "Han_Text": "清安絹方四十五人除穷處召三十六人收白絹四十四足八尺八寸春星所人效四十四人除消差存三十三人收玄纁綵稅三十三尺尺玄纁素一匠十人收孫十尺七尺五寸素五尺尺開花孫匠一隊人效五十人例祿二百五貞收柳次秩六十八尺徑侯二十一長二四四十",
+   "VI_IDs": [],
+   "Vietnamese_Text": "",
+   "Alignment_Type": "1-0",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "Cap_01-027-028-5",
+   "API_Response_ID": "R0006",
+   "Validation_Status": "untraceable",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "text_mismatch",
+   "Han_Units": [
+    18,
+    19,
+    20,
+    21
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [],
+   "Score": 0.02915376529843389,
+   "Row": 6,
+   "Source_Rows": [
+    {
+     "response": "R0006",
+     "row": 6
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 18,
+     "han_end": 21,
+     "vi_start": 6,
+     "vi_end": 6,
+     "han_text": "清安絹方四十五人除穷處召三十六人收白絹四十四足八尺八寸 春星所人效四十四人除消差存三十三人 收玄纁綵稅三十三尺尺玄纁素一匠十人收孫十尺七尺五寸素五尺尺開花孫匠一隊人效五十人例祿二百五貞 收柳次秩六十八尺徑侯二十一長二四四十",
+     "vietnamese_text": "114 quan ð tiền 24 đồng, mỗi cân là 49 đồng, đường cát 7.",
+     "score": 0.02915376529843389
+    }
+   ],
+   "Cap": "Cap_01",
+   "Han_IDs": [
+    "Cap_01-027-028-S4-0019",
+    "Cap_01-027-028-S4-0020",
+    "Cap_01-027-028-S4-0021",
+    "Cap_01-027-028-S4-0022"
+   ],
+   "VI_Payload_Spans": [],
+   "VI_Source_Rows": [],
+   "Request_Key": "29c59081e6e47256d65c53417238c8a16db25b3d76edecb5bff18db09709d4d9",
+   "Context_Evidence": 1,
+   "API_Score": 0.02915376529843389,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 12211,
+   "Han_End": 12330,
+   "Han_Text": "又之胡吳絲二十尺價成五十二亥六四四十文尺 度長四—祿五尺鄉十三長一百四十文祖螭絲七尺價底十八長四四十文共祿一百疋埔花孫匠二隊人效五十人例底二百九六收汝操六十四尺經一百十四一四卅文尺降長七四趣保十疋二十六貴三四二十文祖蹤徐四尺便十長五內廿文",
+   "VI_IDs": [],
+   "Vietnamese_Text": "",
+   "Alignment_Type": "1-0",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "Cap_01-027-028-5",
+   "API_Response_ID": "R0006",
+   "Validation_Status": "untraceable",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "text_mismatch",
+   "Han_Units": [
+    22,
+    23,
+    24,
+    25
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [],
+   "Score": 0.14887689932564527,
+   "Row": 7,
+   "Source_Rows": [
+    {
+     "response": "R0006",
+     "row": 7
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 22,
+     "han_end": 25,
+     "vi_start": 7,
+     "vi_end": 7,
+     "han_text": "又之胡吳絲二十尺價成五十二亥六四四十文尺 度長四—祿五尺 鄉十三長一百四十文 祖螭絲七尺價底十八長四四十文共祿一百疋 埔花孫匠二隊人效五十人例底二百九六收汝操六十四尺經一百十四一四卅文尺降長七四趣保十疋二十六貴三四二十文祖蹤徐四尺便十長五內廿文",
+     "vietnamese_text": "960 cân, giá tiền 318 quan 4 tiền, mỗi cân là 34 đồng, lụa 39 tấm 21 thước 6 tấc.",
+     "score": 0.14887689932564527
+    }
+   ],
+   "Cap": "Cap_01",
+   "Han_IDs": [
+    "Cap_01-027-028-S4-0023",
+    "Cap_01-027-028-S4-0024",
+    "Cap_01-027-028-S4-0025",
+    "Cap_01-027-028-S4-0026"
+   ],
+   "VI_Payload_Spans": [],
+   "VI_Source_Rows": [],
+   "Request_Key": "29c59081e6e47256d65c53417238c8a16db25b3d76edecb5bff18db09709d4d9",
+   "Context_Evidence": 1,
+   "API_Score": 0.14887689932564527,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 12330,
+   "Han_End": 12449,
+   "Han_Text": "花後祿四尺價底十長五阿廿文花稜胡巽絲十八尺徑庚四十七四四世祿九十九尺花稜匠人數二十人收花後孫四十古尺二尺尺稍匠人效二十三人收四起深四十尺十四尺起花洲強雲塔洲替搜另精油五百八十二埕忠祿陷吳二秋思旁四百八十不河伯歷勾菜五色獵戶金五千四百十四人",
+   "VI_IDs": [
+    "Cap_01-VI-0221-005"
+   ],
+   "Vietnamese_Text": "Xã Đông Phiên, 336 người, trừ các hạng cùng, đào.",
+   "Alignment_Type": "N-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "Cap_01-027-028-5",
+   "API_Response_ID": "R0006",
+   "Validation_Status": "partial_viet",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "exact_text_fallback",
+   "Han_Units": [
+    26,
+    27,
+    28,
+    29
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_01-VI-0221-005",
+     0,
+     49
+    ]
+   ],
+   "Score": -0.10334646979898457,
+   "Row": 8,
+   "Source_Rows": [
+    {
+     "response": "R0006",
+     "row": 8
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 26,
+     "han_end": 29,
+     "vi_start": 8,
+     "vi_end": 8,
+     "han_text": "花後祿四尺價底十長五阿廿文 花稜胡巽絲十八尺徑庚四十七四四世祿九十九尺花稜匠人數二十人收花後孫四十古尺二尺尺稍匠人效二十三人收四起深四十尺十四尺起花洲 強雲塔洲替搜另精油五百八十二埕 忠祿陷吳二秋思旁四百八十不河伯歷勾菜五色獵戶金五千四百十四人",
+     "vietnamese_text": "Xã Đông Phiên, 336 người, trừ các hạng cùng, đào.",
+     "score": -0.10334646979898457
+    }
+   ],
+   "Cap": "Cap_01",
+   "Han_IDs": [
+    "Cap_01-027-028-S4-0027",
+    "Cap_01-027-028-S4-0028",
+    "Cap_01-027-028-S4-0029",
+    "Cap_01-027-028-S4-0030"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_01-VI-0221-005",
+     0,
+     49
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 303
+    }
+   ],
+   "Request_Key": "29c59081e6e47256d65c53417238c8a16db25b3d76edecb5bff18db09709d4d9",
+   "Context_Evidence": 1,
+   "API_Score": -0.10334646979898457,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 12449,
+   "Han_End": 12527,
+   "Han_Text": "除給寓祿員子与各賦另項饒夫窮處等頭存一千二百四十二人收金二十四易八兩七分七分郡一千六百六十三長米一百十二卷十四升廣義府平山朝美嘉年三縣并冬為一弓八千七十二人",
+   "VI_IDs": [
+    "Cap_01-VI-0221-005"
+   ],
+   "Vietnamese_Text": "còn thực nộp 277 người, thu đường phèn 24.",
+   "Alignment_Type": "N-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "Cap_01-027-028-5",
+   "API_Response_ID": "R0006",
+   "Validation_Status": "partial_viet",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "exact_text_fallback",
+   "Han_Units": [
+    30,
+    31,
+    32,
+    33
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_01-VI-0221-005",
+     50,
+     92
+    ]
+   ],
+   "Score": 0.05926308926650326,
+   "Row": 9,
+   "Source_Rows": [
+    {
+     "response": "R0006",
+     "row": 9
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 30,
+     "han_end": 33,
+     "vi_start": 9,
+     "vi_end": 9,
+     "han_text": "除給寓祿員子与各賦另項饒夫窮處等頭存一千二百四十二人 收金二十四易八兩七分七分 郡一千六百六十三長米一百十二 卷十四升廣義府平山朝美嘉年三縣并冬為一弓八千七十二人",
+     "vietnamese_text": "còn thực nộp 277 người, thu đường phèn 24.",
+     "score": 0.05926308926650326
+    }
+   ],
+   "Cap": "Cap_01",
+   "Han_IDs": [
+    "Cap_01-027-028-S4-0031",
+    "Cap_01-027-028-S4-0032",
+    "Cap_01-027-028-S4-0033",
+    "Cap_01-027-028-S4-0034"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_01-VI-0221-005",
+     50,
+     92
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 303
+    }
+   ],
+   "Request_Key": "29c59081e6e47256d65c53417238c8a16db25b3d76edecb5bff18db09709d4d9",
+   "Context_Evidence": 1,
+   "API_Score": 0.05926308926650326,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 12527,
+   "Han_End": 12611,
+   "Han_Text": "除給員深平子冷学公公园千七百二十二色三十六升九合色田在二年十一人除另項窮頂存猶稅一千五百二十七人收成三千三百六長九四三十文義立村人故二百三十六人除宮與存內稅一百七十四人",
+   "VI_IDs": [],
+   "Vietnamese_Text": "",
+   "Alignment_Type": "1-0",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "Cap_01-027-028-5",
+   "API_Response_ID": "R0006",
+   "Validation_Status": "untraceable",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "text_mismatch",
+   "Han_Units": [
+    34,
+    35,
+    36,
+    37
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [],
+   "Score": -0.06877592839525848,
+   "Row": 10,
+   "Source_Rows": [
+    {
+     "response": "R0006",
+     "row": 10
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 34,
+     "han_end": 37,
+     "vi_start": 10,
+     "vi_end": 10,
+     "han_text": "除給員深平子冷学公公园千七百二十二色三十六升九合色田在二年十一人 除另項窮頂存猶稅一千五百二十七人 收成三千三百六長九四三十文義立村人故二百三十六人 除宮與存內稅一百七十四人",
+     "vietnamese_text": "438 cân 9 lạng 8 đồng cân 9 phân.",
+     "score": -0.06877592839525848
+    }
+   ],
+   "Cap": "Cap_01",
+   "Han_IDs": [
+    "Cap_01-027-028-S4-0035",
+    "Cap_01-027-028-S4-0036",
+    "Cap_01-027-028-S4-0037",
+    "Cap_01-027-028-S4-0038"
+   ],
+   "VI_Payload_Spans": [],
+   "VI_Source_Rows": [],
+   "Request_Key": "29c59081e6e47256d65c53417238c8a16db25b3d76edecb5bff18db09709d4d9",
+   "Context_Evidence": 1,
+   "API_Score": -0.06877592839525848,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 12611,
+   "Han_End": 12687,
+   "Han_Text": "收紅密五千三程纂花縣清游狂人效一千三百四人除另外今此8存一千十六人收各六二千四百二十七長三四一文米一百七十二巳三十八十十九餘七合替搜另百市一千一百七千尺",
+   "VI_IDs": [
+    "Cap_01-VI-0221-006"
+   ],
+   "Vietnamese_Text": "Xã Quang Minh Đông 233 người, trừ các hạng cùng, đào, lánh ngoại, còn thực nộp 184 người, thu tiển 6ã4 quan ð tiền 28 đồng, lĩnh hoa, lụa hoa 30 tấm.",
+   "Alignment_Type": "N-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "Cap_01-027-028-5",
+   "API_Response_ID": "R0006",
+   "Validation_Status": "mapped",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "exact_text_fallback",
+   "Han_Units": [
+    38,
+    39,
+    40,
+    41
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_01-VI-0221-006",
+     0,
+     149
+    ]
+   ],
+   "Score": 0.02648232230317019,
+   "Row": 11,
+   "Source_Rows": [
+    {
+     "response": "R0006",
+     "row": 11
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 38,
+     "han_end": 41,
+     "vi_start": 11,
+     "vi_end": 11,
+     "han_text": "收紅密五千三程纂花縣清游狂人效一千三百四人 除另外今此8存一千十六人 收各六二千四百二十七長三四一文米一百七十二巳三十八十十九餘七合替搜 另百市一千一百七千尺",
+     "vietnamese_text": "Xã Quang Minh Đông 233 người, trừ các hạng cùng, đào, lánh ngoại, còn thực nộp 184 người, thu tiển 6ã4 quan ð tiền 28 đồng, lĩnh hoa, lụa hoa 30 tấm.",
+     "score": 0.02648232230317019
+    }
+   ],
+   "Cap": "Cap_01",
+   "Han_IDs": [
+    "Cap_01-027-028-S4-0039",
+    "Cap_01-027-028-S4-0040",
+    "Cap_01-027-028-S4-0041",
+    "Cap_01-027-028-S4-0042"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_01-VI-0221-006",
+     0,
+     149
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 304
+    }
+   ],
+   "Request_Key": "29c59081e6e47256d65c53417238c8a16db25b3d76edecb5bff18db09709d4d9",
+   "Context_Evidence": 1,
+   "API_Score": 0.02648232230317019,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 12687,
+   "Han_End": 12765,
+   "Han_Text": "酒五埕林安忠安五縣東四社共六百十三人除另外窮與存油税四百千人收祿共一千八百二十五亥七四七文米一十六百八十九升一合七夕替搜另齋油二千七百三十六量安永社玳瑁十部",
+   "VI_IDs": [
+    "Cap_01-VI-0221-007"
+   ],
+   "Vietnamese_Text": "Phường đệt lụa Bình An ö6 người, thu lụa trắng 51 tấm 15 thước 3 tấc 9 phân.",
+   "Alignment_Type": "N-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "Cap_01-027-028-5",
+   "API_Response_ID": "R0006",
+   "Validation_Status": "mapped",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "exact_text_fallback",
+   "Han_Units": [
+    42,
+    43,
+    44,
+    45
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_01-VI-0221-007",
+     0,
+     76
+    ]
+   ],
+   "Score": 0.08016263509949377,
+   "Row": 12,
+   "Source_Rows": [
+    {
+     "response": "R0006",
+     "row": 12
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 42,
+     "han_end": 45,
+     "vi_start": 12,
+     "vi_end": 12,
+     "han_text": "酒五埕林安忠安五縣東四社共六百十三人 除另外窮與存油税四百千人收祿共一千八百二十五亥七四七文 米一十六百八十九升一合七夕替搜 另齋油二千七百三十六量安永社玳瑁十部",
+     "vietnamese_text": "Phường đệt lụa Bình An ö6 người, thu lụa trắng 51 tấm 15 thước 3 tấc 9 phân.",
+     "score": 0.08016263509949377
+    }
+   ],
+   "Cap": "Cap_01",
+   "Han_IDs": [
+    "Cap_01-027-028-S4-0043",
+    "Cap_01-027-028-S4-0044",
+    "Cap_01-027-028-S4-0045",
+    "Cap_01-027-028-S4-0046"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_01-VI-0221-007",
+     0,
+     76
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 305
+    }
+   ],
+   "Request_Key": "29c59081e6e47256d65c53417238c8a16db25b3d76edecb5bff18db09709d4d9",
+   "Context_Evidence": 1,
+   "API_Score": 0.08016263509949377,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  }
+ ]
+}

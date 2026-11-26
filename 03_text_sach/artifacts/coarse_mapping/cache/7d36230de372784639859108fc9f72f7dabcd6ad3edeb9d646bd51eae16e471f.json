@@ -1,0 +1,114 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "7d36230de372784639859108fc9f72f7dabcd6ad3edeb9d646bd51eae16e471f",
+  "payload": {
+    "han": "車二隊三十人來格安宅二庵安般各三十二人共一千二百二十二人\n有至步奇所屬左一庚一前望鏡競二船二五安共二百五十人\n有左里奇所奏\n然視宙一宿二安一里左五般共二百四十九人\n有在坚奇所云左雄右雄左志\n里柱初刀等五般苦二百四十八人\n有雄步隊志四船各五十人\n有在吳祿四船各五十人\n有中黃限里一里二二船次隊長二人有雄徒奇\n大安新志三船共九十九人有里二奇廉二仙\n二厚水坐水各五十七人四船共二百四十人康平水當無有此二奇\n五視視五十人歲一突水\n新康齋三塔四船共二百八十七人有五二奇\n一按一祿二船共二百十四人\n有在二奇石金船五十七人有水隊属河般五十七\n右政州飛當有地奇所屬左柱\n右柱市一南二安謨奇華為義美\n一東山仍頭獵刀志一里一里前坚鏡級雄谷五十人馬隊五\n一右刀各四十九人共十八隊\n船与管牧草象四十二人共九百三十九人\n有及勝隊所座\n右貌堅柱後聖刀三船共一百四十九人\n有右勝隊所屬\n右該柱稅新一三船共一百四十九文\n有前勝祿所屬稅視差柱突三等三般共一百四十九人\n有行勝隊所屬右里貌前柱右刃等三船亥一百四十人\n左迎河奇所座\n左右前行四里般与金坚船芝一百四十七人\n右迎內奇所屬左右前勝四奴船與金勝船效同上",
+    "vi": "Có cơ Tả bộ, thuộc về đấy là các thuyền Tả nhất, Quảng nhất, Tiền kiên súng, Súng nhị, Án nhị, 5 thuyền cộng 148 người.\nCó cơ Hữu bộ, thuộc về đấy là các thuyền Nhuệ súng, Tráng súng, Kiên súng, Chí nhất, Chí nhị, 5 thuyền cộng 250 người.\nCó cơ Tả kiên, thuộc về đấy là các thuyển Hậu súng, Phú nhất, Phú nhị, An nhất, Kiên tả, 5 thuyền cộng 249 người.\nCó cơ Hữu kiên, thuộc về đấy là các thuyền Tả hùng, Hữu hùng, Tả chí, Kiên trụ, Hậu đao, 5 thuyền cộng 248 ngươi.\nCó đội Tả bộ, 4 thuyền Chí mỗi thuyền 50 người.\nCó đội Hữu bộ, 2 thuyền Kiên nhất, Kiên nhị, thứ đội trưởng 32 người.\nCó cơ Tả tiệp, 2 thuyền Đại an, Tân chí cộng 99 người.\nCó cơ Kiên nhị, 4 thuyển Khang nhị, Ngũ nhị, Hậu thuỷ, Kiên thuỷ (mỗi thuyền 57 người), cộng 248 người.\nQuân Thủy dinh Quảng Bình, có cơ Tráng nhị, thuộc về đấy là các thuyền Tả nhuệ súng (50 người), Quảng nhất, Đột thuỷ, Tân khang, Khang nhị, 5 thuyền (mỗi thuyền 57 người), cộng 278 người.\nCó cơ Tả nhị, thuộc về đấy là các thuyển Thắng nhất, Tuy lộc, 2 thuyền cộng 214 người."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 1,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"車二隊三十人來格安宅二庵安般各三十二人共一千二百二十二人 有至步奇所屬左一庚一前望鏡競二船二五安共二百五十人\",\n        \"vietnamese_text\": \"Có cơ Tả bộ, thuộc về đấy là các thuyền Tả nhất, Quảng nhất, Tiền kiên súng, Súng nhị, Án nhị, 5 thuyền cộng 148 người.\",\n        \"score\": 0.1923846811393099\n      },\n      {\n        \"han_start\": 2,\n        \"han_end\": 4,\n        \"vi_start\": 1,\n        \"vi_end\": 1,\n        \"han_text\": \"有左里奇所奏 然視宙一宿二安一里左五般共二百四十九人 有在坚奇所云左雄右雄左志\",\n        \"vietnamese_text\": \"Có cơ Hữu bộ, thuộc về đấy là các thuyền Nhuệ súng, Tráng súng, Kiên súng, Chí nhất, Chí nhị, 5 thuyền cộng 250 người.\",\n        \"score\": 0.06161011858545724\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 8,\n        \"vi_start\": 2,\n        \"vi_end\": 2,\n        \"han_text\": \"里柱初刀等五般苦二百四十八人 有雄步隊志四船各五十人 有在吳祿四船各五十人 有中黃限里一里二二船次隊長二人有雄徒奇\",\n        \"vietnamese_text\": \"Có cơ Tả kiên, thuộc về đấy là các thuyển Hậu súng, Phú nhất, Phú nhị, An nhất, Kiên tả, 5 thuyền cộng 249 người.\",\n        \"score\": 0.13185909887093109\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 10,\n        \"vi_start\": 3,\n        \"vi_end\": 3,\n        \"han_text\": \"大安新志三船共九十九人有里二奇廉二仙 二厚水坐水各五十七人四船共二百四十人康平水當無有此二奇\",\n        \"vietnamese_text\": \"Có cơ Hữu kiên, thuộc về đấy là các thuyền Tả hùng, Hữu hùng, Tả chí, Kiên trụ, Hậu đao, 5 thuyền cộng 248 ngươi.\",\n        \"score\": 0.15355127523014617\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 12,\n        \"vi_start\": 4,\n        \"vi_end\": 4,\n        \"han_text\": \"五視視五十人歲一突水 新康齋三塔四船共二百八十七人有五二奇\",\n        \"vietnamese_text\": \"Có đội Tả bộ, 4 thuyền Chí mỗi thuyền 50 người.\",\n        \"score\": 0.006463951713681671\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 15,\n        \"vi_start\": 5,\n        \"vi_end\": 5,\n        \"han_text\": \"一按一祿二船共二百十四人 有在二奇石金船五十七人有水隊属河般五十七 右政州飛當有地奇所屬左柱\",\n        \"vietnamese_text\": \"Có đội Hữu bộ, 2 thuyền Kiên nhất, Kiên nhị, thứ đội trưởng 32 người.\",\n        \"score\": 0.11473922960085695\n      },\n      {\n        \"han_start\": 16,\n        \"han_end\": 17,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"右柱市一南二安謨奇華為義美 一東山仍頭獵刀志一里一里前坚鏡級雄谷五十人馬隊五\",\n        \"vietnamese_text\": \"Có cơ Tả tiệp, 2 thuyền Đại an, Tân chí cộng 99 người.\",\n        \"score\": 0.052327584521397054\n      },\n      {\n        \"han_start\": 18,\n        \"han_end\": 21,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"一右刀各四十九人共十八隊 船与管牧草象四十二人共九百三十九人 有及勝隊所座 右貌堅柱後聖刀三船共一百四十九人\",\n        \"vietnamese_text\": \"Có cơ Kiên nhị, 4 thuyển Khang nhị, Ngũ nhị, Hậu thuỷ, Kiên thuỷ (mỗi thuyền 57 người), cộng 248 người.\",\n        \"score\": 0.1893342252094564\n      },\n      {\n        \"han_start\": 22,\n        \"han_end\": 25,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"有右勝隊所屬 右該柱稅新一三船共一百四十九文 有前勝祿所屬稅視差柱突三等三般共一百四十九人 有行勝隊所屬右里貌前柱右刃等三船亥一百四十人\",\n        \"vietnamese_text\": \"Quân Thủy dinh Quảng Bình, có cơ Tráng nhị, thuộc về đấy là các thuyền Tả nhuệ súng (50 người), Quảng nhất, Đột thuỷ, Tân khang, Khang nhị, 5 thuyền (mỗi thuyền 57 người), cộng 278 người.\",\n        \"score\": 0.0718503970889268\n      },\n      {\n        \"han_start\": 27,\n        \"han_end\": 28,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"左右前行四里般与金坚船芝一百四十七人 右迎內奇所屬左右前勝四奴船與金勝船效同上\",\n        \"vietnamese_text\": \"Có cơ Tả nhị, thuộc về đấy là các thuyển Thắng nhất, Tuy lộc, 2 thuyền cộng 214 người.\",\n        \"score\": 0.14127729947836346\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 1,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "車二隊三十人來格安宅二庵安般各三十二人共一千二百二十二人 有至步奇所屬左一庚一前望鏡競二船二五安共二百五十人",
+          "vietnamese_text": "Có cơ Tả bộ, thuộc về đấy là các thuyền Tả nhất, Quảng nhất, Tiền kiên súng, Súng nhị, Án nhị, 5 thuyền cộng 148 người.",
+          "score": 0.1923846811393099
+        },
+        {
+          "han_start": 2,
+          "han_end": 4,
+          "vi_start": 1,
+          "vi_end": 1,
+          "han_text": "有左里奇所奏 然視宙一宿二安一里左五般共二百四十九人 有在坚奇所云左雄右雄左志",
+          "vietnamese_text": "Có cơ Hữu bộ, thuộc về đấy là các thuyền Nhuệ súng, Tráng súng, Kiên súng, Chí nhất, Chí nhị, 5 thuyền cộng 250 người.",
+          "score": 0.06161011858545724
+        },
+        {
+          "han_start": 5,
+          "han_end": 8,
+          "vi_start": 2,
+          "vi_end": 2,
+          "han_text": "里柱初刀等五般苦二百四十八人 有雄步隊志四船各五十人 有在吳祿四船各五十人 有中黃限里一里二二船次隊長二人有雄徒奇",
+          "vietnamese_text": "Có cơ Tả kiên, thuộc về đấy là các thuyển Hậu súng, Phú nhất, Phú nhị, An nhất, Kiên tả, 5 thuyền cộng 249 người.",
+          "score": 0.13185909887093109
+        },
+        {
+          "han_start": 9,
+          "han_end": 10,
+          "vi_start": 3,
+          "vi_end": 3,
+          "han_text": "大安新志三船共九十九人有里二奇廉二仙 二厚水坐水各五十七人四船共二百四十人康平水當無有此二奇",
+          "vietnamese_text": "Có cơ Hữu kiên, thuộc về đấy là các thuyền Tả hùng, Hữu hùng, Tả chí, Kiên trụ, Hậu đao, 5 thuyền cộng 248 ngươi.",
+          "score": 0.15355127523014617
+        },
+        {
+          "han_start": 11,
+          "han_end": 12,
+          "vi_start": 4,
+          "vi_end": 4,
+          "han_text": "五視視五十人歲一突水 新康齋三塔四船共二百八十七人有五二奇",
+          "vietnamese_text": "Có đội Tả bộ, 4 thuyền Chí mỗi thuyền 50 người.",
+          "score": 0.006463951713681671
+        },
+        {
+          "han_start": 13,
+          "han_end": 15,
+          "vi_start": 5,
+          "vi_end": 5,
+          "han_text": "一按一祿二船共二百十四人 有在二奇石金船五十七人有水隊属河般五十七 右政州飛當有地奇所屬左柱",
+          "vietnamese_text": "Có đội Hữu bộ, 2 thuyền Kiên nhất, Kiên nhị, thứ đội trưởng 32 người.",
+          "score": 0.11473922960085695
+        },
+        {
+          "han_start": 16,
+          "han_end": 17,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "右柱市一南二安謨奇華為義美 一東山仍頭獵刀志一里一里前坚鏡級雄谷五十人馬隊五",
+          "vietnamese_text": "Có cơ Tả tiệp, 2 thuyền Đại an, Tân chí cộng 99 người.",
+          "score": 0.052327584521397054
+        },
+        {
+          "han_start": 18,
+          "han_end": 21,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "一右刀各四十九人共十八隊 船与管牧草象四十二人共九百三十九人 有及勝隊所座 右貌堅柱後聖刀三船共一百四十九人",
+          "vietnamese_text": "Có cơ Kiên nhị, 4 thuyển Khang nhị, Ngũ nhị, Hậu thuỷ, Kiên thuỷ (mỗi thuyền 57 người), cộng 248 người.",
+          "score": 0.1893342252094564
+        },
+        {
+          "han_start": 22,
+          "han_end": 25,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "有右勝隊所屬 右該柱稅新一三船共一百四十九文 有前勝祿所屬稅視差柱突三等三般共一百四十九人 有行勝隊所屬右里貌前柱右刃等三船亥一百四十人",
+          "vietnamese_text": "Quân Thủy dinh Quảng Bình, có cơ Tráng nhị, thuộc về đấy là các thuyền Tả nhuệ súng (50 người), Quảng nhất, Đột thuỷ, Tân khang, Khang nhị, 5 thuyền (mỗi thuyền 57 người), cộng 278 người.",
+          "score": 0.0718503970889268
+        },
+        {
+          "han_start": 27,
+          "han_end": 28,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "左右前行四里般与金坚船芝一百四十七人 右迎內奇所屬左右前勝四奴船與金勝船效同上",
+          "vietnamese_text": "Có cơ Tả nhị, thuộc về đấy là các thuyển Thắng nhất, Tuy lộc, 2 thuyền cộng 214 người.",
+          "score": 0.14127729947836346
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 3219
+}

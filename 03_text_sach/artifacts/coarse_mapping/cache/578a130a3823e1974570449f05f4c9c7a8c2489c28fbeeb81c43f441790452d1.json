@@ -1,0 +1,96 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "578a130a3823e1974570449f05f4c9c7a8c2489c28fbeeb81c43f441790452d1",
+  "payload": {
+    "han": "國主安南王仁主聰不思素直法侯通和鄰國\n恣意微收深低推視吾運德其悔同船舊往來\n使成仇敵汝有司不亡無過乎\n豈不念三代之得天下以仁豈不忍安南主上金城于聖子孫若世基業而善盛欽非侯國家何其劉書一義生有幾16多税項\n仍其見吝而不亡容情尚有可忘有不是故乎\n但吾星國每年應需唐用修照裝貨差置\n上往天朝產東夏日家波等處貿易操買康用內務事\n至其船舊往來於海若無憑尾波龍潤未免收入安南\n若有官差所差費逐年收尼一次逐年通船一捲情宴雍堪\n該吾等诸大臣作伯所議蒙中宮王仁好生之貞\n受念鄰邦通知來歷已久不堪因小故而興謹怨\n使其生臣得以書業於感世矣\n今幸安南使念前來宜應交接通政使同通安國南翰亦虎孝士\n內阁大孝士修文特差執事臣朗玉\n文坤區沙屢叨二員賚命會同安南教使公往報知願乞國安南龜目星邦\n欽諭大臣有司官將收臣三次船多什物\n此費送玉使臣朗玉文坤區沙屡叨等照明沪送",
+    "vi": "Cộng hai lần bạc là 97 cân 16 lạng, gấm đoạn 17 tấm, đồ bạc 21 cái.\nLại năm Quý Dậu, sai bọn Dương Thành Chương làm thuyền chủ đi Quảng Đông mua hàng, khi về nước lại bị thu vào nước An Nam.\nNhững đồ bạc gấm đoạn và thập vật khố dụng, lại bị quan địa phương nuốt mất làm sở phí, phải chỏ thuyền không trở về.\nCộng tất cả ba lần tránh gió bị lấy thuế tất cả vàng bạc và các hạng đồ đạc tính thành bạc là 374 cân 13 lạng 3 thù 3 tiền, đến nỗi các quan chấp sự phải mặc luy và bị hình phạt không biết làm sao được.\nQuan đại thần nước tôi là Lãng Cải Khu 8a tâu về việc quan hữu ty An Nam cuốn chiếu đối với nước láng giềng rằng: Đội ơn Kim Loan tiền điện trung cung Phương Khôn vương sai khiến đi mua vật hạng khố dụng, ba lần thuyền bè hoá vật bị thu vào An Nam, hết sạch không còn gì, đều do sai quan lừa dối chứ có đâu mà qui lệ lương tiền thuế khoá nước An Nam thu góp lại quá như thế.\nAi chẳng vượt biển xa khơi, chẳng dân buôn của nghĩ thuyền những sóng gió hiểm nghèo mà còn quan hệ đến tài sản và tính mạng, huống chi thuyền đó là thuyền khố dụng của quốc chúa Xiêm La ta là Kim Loan tiền điện trung cụng Phương Khôn vương sai khiến đi tìm mua hàng hoá cho nội vụ, không phải như thuyền buôn của thứ dân, sao lại không nghĩ đến tình hoà hảo của hai nước, lễ nghĩa đi lại với nhau, mà lại tham lam thuế khoá, trưng thu của cải, lấy chuyện lặt vặt để làm mất thể thống và nhân chính của nước lớn.\nVâng theo lòng quốc chúa nước tôi thương mến nước An Nam, tâu rõ ở Kim Loan chính An Nam chưa được biết rõ vậy.\nCó lẽ nào hai nước hàng xóm với nhau, bên qua bên lại, giao thông hoà hậu, lại không nghĩ lấy nhân nghĩa đối với thiên hạ mà đánh thuế thuyển ghe quá nặng, rút thu tài vật nhỏ mọn như thế.\nThực vì bọn hữu ty kia không có tài khuông phù xã tắc, chăm đem chính sách trị an thiên hạ mà giúp đỗ mình quân nước Án Nam; bọn hữu ty chuyên quyền cố ý thu thuế nặng nề và che giấu không báo, không thể lòng vua An Nam là bậc nhân thánh thông minh, không nghĩ sự mềm mỏng với các chư hầu, thông hoà với nước láng giềng, mặc ý trưng thu thuế khoá, coi rẻ nước Xiêm chúng tôi, dứt đường thuyền bè qua lại trên biển mà trỏ thành cừu địch.\nBọn hữu ty ấy không thể không có lỗi vậy."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 0,\n        \"vi_start\": 0,\n        \"vi_end\": 1,\n        \"han_text\": \"國主安南王仁主聰不思素直法侯通和鄰國\",\n        \"vietnamese_text\": \"Cộng hai lần bạc là 97 cân 16 lạng, gấm đoạn 17 tấm, đồ bạc 21 cái. Lại năm Quý Dậu, sai bọn Dương Thành Chương làm thuyền chủ đi Quảng Đông mua hàng, khi về nước lại bị thu vào nước An Nam.\",\n        \"score\": 0.06469871992999426\n      },\n      {\n        \"han_start\": 1,\n        \"han_end\": 2,\n        \"vi_start\": 2,\n        \"vi_end\": 2,\n        \"han_text\": \"恣意微收深低推視吾運德其悔同船舊往來 使成仇敵汝有司不亡無過乎\",\n        \"vietnamese_text\": \"Những đồ bạc gấm đoạn và thập vật khố dụng, lại bị quan địa phương nuốt mất làm sở phí, phải chỏ thuyền không trở về.\",\n        \"score\": 0.058115926636028506\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 5,\n        \"vi_start\": 3,\n        \"vi_end\": 4,\n        \"han_text\": \"豈不念三代之得天下以仁豈不忍安南主上金城于聖子孫若世基業而善盛欽非侯國家何其劉書一義生有幾16多税項 仍其見吝而不亡容情尚有可忘有不是故乎 但吾星國每年應需唐用修照裝貨差置\",\n        \"vietnamese_text\": \"Cộng tất cả ba lần tránh gió bị lấy thuế tất cả vàng bạc và các hạng đồ đạc tính thành bạc là 374 cân 13 lạng 3 thù 3 tiền, đến nỗi các quan chấp sự phải mặc luy và bị hình phạt không biết làm sao được. Quan đại thần nước tôi là Lãng Cải Khu 8a tâu về việc quan hữu ty An Nam cuốn chiếu đối với nước láng giềng rằng: Đội ơn Kim Loan tiền điện trung cung Phương Khôn vương sai khiến đi mua vật hạng khố dụng, ba lần thuyền bè hoá vật bị thu vào An Nam, hết sạch không còn gì, đều do sai quan lừa dối chứ có đâu mà qui lệ lương tiền thuế khoá nước An Nam thu góp lại quá như thế.\",\n        \"score\": 0.257364310911167\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 8,\n        \"vi_start\": 5,\n        \"vi_end\": 5,\n        \"han_text\": \"上往天朝產東夏日家波等處貿易操買康用內務事 至其船舊往來於海若無憑尾波龍潤未免收入安南 若有官差所差費逐年收尼一次逐年通船一捲情宴雍堪\",\n        \"vietnamese_text\": \"Ai chẳng vượt biển xa khơi, chẳng dân buôn của nghĩ thuyền những sóng gió hiểm nghèo mà còn quan hệ đến tài sản và tính mạng, huống chi thuyền đó là thuyền khố dụng của quốc chúa Xiêm La ta là Kim Loan tiền điện trung cụng Phương Khôn vương sai khiến đi tìm mua hàng hoá cho nội vụ, không phải như thuyền buôn của thứ dân, sao lại không nghĩ đến tình hoà hảo của hai nước, lễ nghĩa đi lại với nhau, mà lại tham lam thuế khoá, trưng thu của cải, lấy chuyện lặt vặt để làm mất thể thống và nhân chính của nước lớn.\",\n        \"score\": 0.17676767735544607\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 9,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"該吾等诸大臣作伯所議蒙中宮王仁好生之貞\",\n        \"vietnamese_text\": \"Vâng theo lòng quốc chúa nước tôi thương mến nước An Nam, tâu rõ ở Kim Loan chính An Nam chưa được biết rõ vậy.\",\n        \"score\": 0.1672752088061487\n      },\n      {\n        \"han_start\": 10,\n        \"han_end\": 10,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"受念鄰邦通知來歷已久不堪因小故而興謹怨\",\n        \"vietnamese_text\": \"Có lẽ nào hai nước hàng xóm với nhau, bên qua bên lại, giao thông hoà hậu, lại không nghĩ lấy nhân nghĩa đối với thiên hạ mà đánh thuế thuyển ghe quá nặng, rút thu tài vật nhỏ mọn như thế.\",\n        \"score\": 0.04717623244576645\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 14,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"使其生臣得以書業於感世矣 今幸安南使念前來宜應交接通政使同通安國南翰亦虎孝士 內阁大孝士修文特差執事臣朗玉 文坤區沙屢叨二員賚命會同安南教使公往報知願乞國安南龜目星邦\",\n        \"vietnamese_text\": \"Thực vì bọn hữu ty kia không có tài khuông phù xã tắc, chăm đem chính sách trị an thiên hạ mà giúp đỗ mình quân nước Án Nam; bọn hữu ty chuyên quyền cố ý thu thuế nặng nề và che giấu không báo, không thể lòng vua An Nam là bậc nhân thánh thông minh, không nghĩ sự mềm mỏng với các chư hầu, thông hoà với nước láng giềng, mặc ý trưng thu thuế khoá, coi rẻ nước Xiêm chúng tôi, dứt đường thuyền bè qua lại trên biển mà trỏ thành cừu địch.\",\n        \"score\": 0.25870935168805165\n      },\n      {\n        \"han_start\": 15,\n        \"han_end\": 16,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"欽諭大臣有司官將收臣三次船多什物 此費送玉使臣朗玉文坤區沙屡叨等照明沪送\",\n        \"vietnamese_text\": \"Bọn hữu ty ấy không thể không có lỗi vậy.\",\n        \"score\": -0.012195089897812057\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 0,
+          "vi_start": 0,
+          "vi_end": 1,
+          "han_text": "國主安南王仁主聰不思素直法侯通和鄰國",
+          "vietnamese_text": "Cộng hai lần bạc là 97 cân 16 lạng, gấm đoạn 17 tấm, đồ bạc 21 cái. Lại năm Quý Dậu, sai bọn Dương Thành Chương làm thuyền chủ đi Quảng Đông mua hàng, khi về nước lại bị thu vào nước An Nam.",
+          "score": 0.06469871992999426
+        },
+        {
+          "han_start": 1,
+          "han_end": 2,
+          "vi_start": 2,
+          "vi_end": 2,
+          "han_text": "恣意微收深低推視吾運德其悔同船舊往來 使成仇敵汝有司不亡無過乎",
+          "vietnamese_text": "Những đồ bạc gấm đoạn và thập vật khố dụng, lại bị quan địa phương nuốt mất làm sở phí, phải chỏ thuyền không trở về.",
+          "score": 0.058115926636028506
+        },
+        {
+          "han_start": 3,
+          "han_end": 5,
+          "vi_start": 3,
+          "vi_end": 4,
+          "han_text": "豈不念三代之得天下以仁豈不忍安南主上金城于聖子孫若世基業而善盛欽非侯國家何其劉書一義生有幾16多税項 仍其見吝而不亡容情尚有可忘有不是故乎 但吾星國每年應需唐用修照裝貨差置",
+          "vietnamese_text": "Cộng tất cả ba lần tránh gió bị lấy thuế tất cả vàng bạc và các hạng đồ đạc tính thành bạc là 374 cân 13 lạng 3 thù 3 tiền, đến nỗi các quan chấp sự phải mặc luy và bị hình phạt không biết làm sao được. Quan đại thần nước tôi là Lãng Cải Khu 8a tâu về việc quan hữu ty An Nam cuốn chiếu đối với nước láng giềng rằng: Đội ơn Kim Loan tiền điện trung cung Phương Khôn vương sai khiến đi mua vật hạng khố dụng, ba lần thuyền bè hoá vật bị thu vào An Nam, hết sạch không còn gì, đều do sai quan lừa dối chứ có đâu mà qui lệ lương tiền thuế khoá nước An Nam thu góp lại quá như thế.",
+          "score": 0.257364310911167
+        },
+        {
+          "han_start": 6,
+          "han_end": 8,
+          "vi_start": 5,
+          "vi_end": 5,
+          "han_text": "上往天朝產東夏日家波等處貿易操買康用內務事 至其船舊往來於海若無憑尾波龍潤未免收入安南 若有官差所差費逐年收尼一次逐年通船一捲情宴雍堪",
+          "vietnamese_text": "Ai chẳng vượt biển xa khơi, chẳng dân buôn của nghĩ thuyền những sóng gió hiểm nghèo mà còn quan hệ đến tài sản và tính mạng, huống chi thuyền đó là thuyền khố dụng của quốc chúa Xiêm La ta là Kim Loan tiền điện trung cụng Phương Khôn vương sai khiến đi tìm mua hàng hoá cho nội vụ, không phải như thuyền buôn của thứ dân, sao lại không nghĩ đến tình hoà hảo của hai nước, lễ nghĩa đi lại với nhau, mà lại tham lam thuế khoá, trưng thu của cải, lấy chuyện lặt vặt để làm mất thể thống và nhân chính của nước lớn.",
+          "score": 0.17676767735544607
+        },
+        {
+          "han_start": 9,
+          "han_end": 9,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "該吾等诸大臣作伯所議蒙中宮王仁好生之貞",
+          "vietnamese_text": "Vâng theo lòng quốc chúa nước tôi thương mến nước An Nam, tâu rõ ở Kim Loan chính An Nam chưa được biết rõ vậy.",
+          "score": 0.1672752088061487
+        },
+        {
+          "han_start": 10,
+          "han_end": 10,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "受念鄰邦通知來歷已久不堪因小故而興謹怨",
+          "vietnamese_text": "Có lẽ nào hai nước hàng xóm với nhau, bên qua bên lại, giao thông hoà hậu, lại không nghĩ lấy nhân nghĩa đối với thiên hạ mà đánh thuế thuyển ghe quá nặng, rút thu tài vật nhỏ mọn như thế.",
+          "score": 0.04717623244576645
+        },
+        {
+          "han_start": 11,
+          "han_end": 14,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "使其生臣得以書業於感世矣 今幸安南使念前來宜應交接通政使同通安國南翰亦虎孝士 內阁大孝士修文特差執事臣朗玉 文坤區沙屢叨二員賚命會同安南教使公往報知願乞國安南龜目星邦",
+          "vietnamese_text": "Thực vì bọn hữu ty kia không có tài khuông phù xã tắc, chăm đem chính sách trị an thiên hạ mà giúp đỗ mình quân nước Án Nam; bọn hữu ty chuyên quyền cố ý thu thuế nặng nề và che giấu không báo, không thể lòng vua An Nam là bậc nhân thánh thông minh, không nghĩ sự mềm mỏng với các chư hầu, thông hoà với nước láng giềng, mặc ý trưng thu thuế khoá, coi rẻ nước Xiêm chúng tôi, dứt đường thuyền bè qua lại trên biển mà trỏ thành cừu địch.",
+          "score": 0.25870935168805165
+        },
+        {
+          "han_start": 15,
+          "han_end": 16,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "欽諭大臣有司官將收臣三次船多什物 此費送玉使臣朗玉文坤區沙屡叨等照明沪送",
+          "vietnamese_text": "Bọn hữu ty ấy không thể không có lỗi vậy.",
+          "score": -0.012195089897812057
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 6907
+}

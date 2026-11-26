@@ -1,0 +1,96 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "aa3f790163818986f3f1a6182ce22596a4c45e457b2650e89983ba6172563765",
+  "payload": {
+    "han": "不佞遙司新壤器解唐文亦座設之所歷之\n今天朝左天子四海一家八民同執\n內而童周清之舉憂外而周蘭堂之看曾恭世老憲聖洞下瑞辰儀鳳日世人電深德理\n瞻月朗九卿之地攸司鎖籀雲閑半靈之天\n豈但昭分設于宗中而又捲座名于化外\n卦之並於丁卯年李文光何釋3謝而等旅之偏邑之黃福心潛入為宏界兩烏令百徐妄司事大或祿都督或做年師\n餘谷以次盜名將因福邑接殺邊臣\n既而天本其衷一看就得得以不道死有餘辜\n然始道刑章拘而不殺者正欲投依上訴\n玉還彼等伏此常憲等恐南船浮縣靡定道達無由以至是回\n幾月彼來欽令意东分巡雷瓊兵備道按察使同金事加五役犯錄四次\n德貴爾侯差海內船長往調彼等犯民而國正刑不依\n素知彼本商人見在福邑故不控允\n今標帶兵官流神即胡廷鳳二員\n昨蜀耀凡偶來福邑迺將彼等公案各各同訂\n或交諱死或在囚死此兆亡俱有別顯\n其見在十六若者委領調四代詞棄白",
+    "vi": "Trúc không có ý với gió, nhưng gió đến thì trúc động mà sinh ra tiếng; lòng không dung vật, nhưng vật tiếp thì lòng cảm mà thành thơ.\nGió đi thì trúc lặng; việc đi thì lòng không.\nThen máy chim bay cá nhấy há có thể có cái gì mà không dung, cho nên trong các thứ tiếng như tiếng thông xanh, tiếng chim mùa xuân, tiếng trùng mùa thu, tiếng mưa tàu chuối, tiếng gió bụi tre, mà lấy riêng một thứ tiếng gió bụi tre, thì cũng giống như ý hoa mai của Khang Tiết, có sân của Liêm Khê, nhân một vật mà mổ tìm lẽ huyền bí thôi.\nVậy cho nên tập thơ đề là Phong trúc, xin tựa ở tôi, tôi thẹn là người tri âm, không thể lấy cớ quê mùa mà từ chối, bèn kính đề đầu sách, để bày tỏ với các đồng chí thích nói thơ\", Trần Thế Xương làm bài bạt rằng: “Tính ta rất yêu trúc, ở đâu cũng trồng ở trước cửa sổ để ngắm nghía.\nTrúc mà đáng yêu là vì gióng thẳng mà đốt bền, cành thưa mà lá cứng, thăng thẳng, ong óng, có vẻ chọc trời.\nCó lúc khói tản trăng lên, mưa tạnh gió thối, đủ rửa được áo bụi cho ta, khuây được lòng tục cho ta, thanh khoáng biết là nhường nào?\nNgười xưa nhiều người yêu trúc, không ngờ bạn ta là Hoàn Phác Ngô tiên sinh cũng rất yêu trúc, cùng với ta thực là đồng chí vậy.\nHoàn Phác ôm đạo tự quý, không vì vật dụng mà đắm, bụng dạ thánh thơi, mắt nhìn lòng rõ, cho nên trong khoảng trăng đêm hoa sáng, trong lúc mưa gió lạnh lùng, cảm vật mà phát ra, đụng vật mà nên thơ, thanh điệu thiên nhiên, đều được tính tình đúng đắn, cũng như trúc đối với gió vậy, tuỳ động tuỳ phát, âm vận không cùng, mà người không chán vì phiền vậy.\nNhưng gió đụng vào vật thì tự nhiên chợt đến muôn sáo đều kêu, mà sao lại lấy riêng cây trúc mà đặt tên?\nLà vì trúc là cái vật có vẻ giống như đức của người quân tử."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 0,\n        \"vi_start\": 0,\n        \"vi_end\": 1,\n        \"han_text\": \"不佞遙司新壤器解唐文亦座設之所歷之\",\n        \"vietnamese_text\": \"Trúc không có ý với gió, nhưng gió đến thì trúc động mà sinh ra tiếng; lòng không dung vật, nhưng vật tiếp thì lòng cảm mà thành thơ. Gió đi thì trúc lặng; việc đi thì lòng không.\",\n        \"score\": 0.047457538837294734\n      },\n      {\n        \"han_start\": 1,\n        \"han_end\": 3,\n        \"vi_start\": 2,\n        \"vi_end\": 2,\n        \"han_text\": \"今天朝左天子四海一家八民同執 內而童周清之舉憂外而周蘭堂之看曾恭世老憲聖洞下瑞辰儀鳳日世人電深德理 瞻月朗九卿之地攸司鎖籀雲閑半靈之天\",\n        \"vietnamese_text\": \"Then máy chim bay cá nhấy há có thể có cái gì mà không dung, cho nên trong các thứ tiếng như tiếng thông xanh, tiếng chim mùa xuân, tiếng trùng mùa thu, tiếng mưa tàu chuối, tiếng gió bụi tre, mà lấy riêng một thứ tiếng gió bụi tre, thì cũng giống như ý hoa mai của Khang Tiết, có sân của Liêm Khê, nhân một vật mà mổ tìm lẽ huyền bí thôi.\",\n        \"score\": 0.17024020202499615\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 6,\n        \"vi_start\": 3,\n        \"vi_end\": 3,\n        \"han_text\": \"豈但昭分設于宗中而又捲座名于化外 卦之並於丁卯年李文光何釋3謝而等旅之偏邑之黃福心潛入為宏界兩烏令百徐妄司事大或祿都督或做年師 餘谷以次盜名將因福邑接殺邊臣\",\n        \"vietnamese_text\": \"Vậy cho nên tập thơ đề là Phong trúc, xin tựa ở tôi, tôi thẹn là người tri âm, không thể lấy cớ quê mùa mà từ chối, bèn kính đề đầu sách, để bày tỏ với các đồng chí thích nói thơ\\\", Trần Thế Xương làm bài bạt rằng: “Tính ta rất yêu trúc, ở đâu cũng trồng ở trước cửa sổ để ngắm nghía.\",\n        \"score\": 0.10447596229758448\n      },\n      {\n        \"han_start\": 7,\n        \"han_end\": 7,\n        \"vi_start\": 4,\n        \"vi_end\": 5,\n        \"han_text\": \"既而天本其衷一看就得得以不道死有餘辜\",\n        \"vietnamese_text\": \"Trúc mà đáng yêu là vì gióng thẳng mà đốt bền, cành thưa mà lá cứng, thăng thẳng, ong óng, có vẻ chọc trời. Có lúc khói tản trăng lên, mưa tạnh gió thối, đủ rửa được áo bụi cho ta, khuây được lòng tục cho ta, thanh khoáng biết là nhường nào?\",\n        \"score\": 0.03663604920942892\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 9,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"然始道刑章拘而不殺者正欲投依上訴 玉還彼等伏此常憲等恐南船浮縣靡定道達無由以至是回\",\n        \"vietnamese_text\": \"Người xưa nhiều người yêu trúc, không ngờ bạn ta là Hoàn Phác Ngô tiên sinh cũng rất yêu trúc, cùng với ta thực là đồng chí vậy.\",\n        \"score\": 0.05849440157289265\n      },\n      {\n        \"han_start\": 10,\n        \"han_end\": 13,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"幾月彼來欽令意东分巡雷瓊兵備道按察使同金事加五役犯錄四次 德貴爾侯差海內船長往調彼等犯民而國正刑不依 素知彼本商人見在福邑故不控允 今標帶兵官流神即胡廷鳳二員\",\n        \"vietnamese_text\": \"Hoàn Phác ôm đạo tự quý, không vì vật dụng mà đắm, bụng dạ thánh thơi, mắt nhìn lòng rõ, cho nên trong khoảng trăng đêm hoa sáng, trong lúc mưa gió lạnh lùng, cảm vật mà phát ra, đụng vật mà nên thơ, thanh điệu thiên nhiên, đều được tính tình đúng đắn, cũng như trúc đối với gió vậy, tuỳ động tuỳ phát, âm vận không cùng, mà người không chán vì phiền vậy.\",\n        \"score\": 0.17236726081598405\n      },\n      {\n        \"han_start\": 14,\n        \"han_end\": 14,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"昨蜀耀凡偶來福邑迺將彼等公案各各同訂\",\n        \"vietnamese_text\": \"Nhưng gió đụng vào vật thì tự nhiên chợt đến muôn sáo đều kêu, mà sao lại lấy riêng cây trúc mà đặt tên?\",\n        \"score\": 0.027709778586519417\n      },\n      {\n        \"han_start\": 15,\n        \"han_end\": 16,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"或交諱死或在囚死此兆亡俱有別顯 其見在十六若者委領調四代詞棄白\",\n        \"vietnamese_text\": \"Là vì trúc là cái vật có vẻ giống như đức của người quân tử.\",\n        \"score\": 0.06558227985193192\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 0,
+          "vi_start": 0,
+          "vi_end": 1,
+          "han_text": "不佞遙司新壤器解唐文亦座設之所歷之",
+          "vietnamese_text": "Trúc không có ý với gió, nhưng gió đến thì trúc động mà sinh ra tiếng; lòng không dung vật, nhưng vật tiếp thì lòng cảm mà thành thơ. Gió đi thì trúc lặng; việc đi thì lòng không.",
+          "score": 0.047457538837294734
+        },
+        {
+          "han_start": 1,
+          "han_end": 3,
+          "vi_start": 2,
+          "vi_end": 2,
+          "han_text": "今天朝左天子四海一家八民同執 內而童周清之舉憂外而周蘭堂之看曾恭世老憲聖洞下瑞辰儀鳳日世人電深德理 瞻月朗九卿之地攸司鎖籀雲閑半靈之天",
+          "vietnamese_text": "Then máy chim bay cá nhấy há có thể có cái gì mà không dung, cho nên trong các thứ tiếng như tiếng thông xanh, tiếng chim mùa xuân, tiếng trùng mùa thu, tiếng mưa tàu chuối, tiếng gió bụi tre, mà lấy riêng một thứ tiếng gió bụi tre, thì cũng giống như ý hoa mai của Khang Tiết, có sân của Liêm Khê, nhân một vật mà mổ tìm lẽ huyền bí thôi.",
+          "score": 0.17024020202499615
+        },
+        {
+          "han_start": 4,
+          "han_end": 6,
+          "vi_start": 3,
+          "vi_end": 3,
+          "han_text": "豈但昭分設于宗中而又捲座名于化外 卦之並於丁卯年李文光何釋3謝而等旅之偏邑之黃福心潛入為宏界兩烏令百徐妄司事大或祿都督或做年師 餘谷以次盜名將因福邑接殺邊臣",
+          "vietnamese_text": "Vậy cho nên tập thơ đề là Phong trúc, xin tựa ở tôi, tôi thẹn là người tri âm, không thể lấy cớ quê mùa mà từ chối, bèn kính đề đầu sách, để bày tỏ với các đồng chí thích nói thơ\", Trần Thế Xương làm bài bạt rằng: “Tính ta rất yêu trúc, ở đâu cũng trồng ở trước cửa sổ để ngắm nghía.",
+          "score": 0.10447596229758448
+        },
+        {
+          "han_start": 7,
+          "han_end": 7,
+          "vi_start": 4,
+          "vi_end": 5,
+          "han_text": "既而天本其衷一看就得得以不道死有餘辜",
+          "vietnamese_text": "Trúc mà đáng yêu là vì gióng thẳng mà đốt bền, cành thưa mà lá cứng, thăng thẳng, ong óng, có vẻ chọc trời. Có lúc khói tản trăng lên, mưa tạnh gió thối, đủ rửa được áo bụi cho ta, khuây được lòng tục cho ta, thanh khoáng biết là nhường nào?",
+          "score": 0.03663604920942892
+        },
+        {
+          "han_start": 8,
+          "han_end": 9,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "然始道刑章拘而不殺者正欲投依上訴 玉還彼等伏此常憲等恐南船浮縣靡定道達無由以至是回",
+          "vietnamese_text": "Người xưa nhiều người yêu trúc, không ngờ bạn ta là Hoàn Phác Ngô tiên sinh cũng rất yêu trúc, cùng với ta thực là đồng chí vậy.",
+          "score": 0.05849440157289265
+        },
+        {
+          "han_start": 10,
+          "han_end": 13,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "幾月彼來欽令意东分巡雷瓊兵備道按察使同金事加五役犯錄四次 德貴爾侯差海內船長往調彼等犯民而國正刑不依 素知彼本商人見在福邑故不控允 今標帶兵官流神即胡廷鳳二員",
+          "vietnamese_text": "Hoàn Phác ôm đạo tự quý, không vì vật dụng mà đắm, bụng dạ thánh thơi, mắt nhìn lòng rõ, cho nên trong khoảng trăng đêm hoa sáng, trong lúc mưa gió lạnh lùng, cảm vật mà phát ra, đụng vật mà nên thơ, thanh điệu thiên nhiên, đều được tính tình đúng đắn, cũng như trúc đối với gió vậy, tuỳ động tuỳ phát, âm vận không cùng, mà người không chán vì phiền vậy.",
+          "score": 0.17236726081598405
+        },
+        {
+          "han_start": 14,
+          "han_end": 14,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "昨蜀耀凡偶來福邑迺將彼等公案各各同訂",
+          "vietnamese_text": "Nhưng gió đụng vào vật thì tự nhiên chợt đến muôn sáo đều kêu, mà sao lại lấy riêng cây trúc mà đặt tên?",
+          "score": 0.027709778586519417
+        },
+        {
+          "han_start": 15,
+          "han_end": 16,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "或交諱死或在囚死此兆亡俱有別顯 其見在十六若者委領調四代詞棄白",
+          "vietnamese_text": "Là vì trúc là cái vật có vẻ giống như đức của người quân tử.",
+          "score": 0.06558227985193192
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 3406
+}

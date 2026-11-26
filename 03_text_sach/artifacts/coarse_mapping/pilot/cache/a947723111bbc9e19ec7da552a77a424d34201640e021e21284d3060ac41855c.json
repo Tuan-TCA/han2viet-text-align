@@ -1,0 +1,105 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "a947723111bbc9e19ec7da552a77a424d34201640e021e21284d3060ac41855c",
+  "payload": {
+    "han": "亦不見欲養作成之寡一方文禮乃綿不絕是可称也\n阮知貞号澹庵香柔安和人\n六世祖索姓鄭名柑天祿縣美雷場人\n為前黎朝兵部尚半書僞莫靈避居順化\n其父登義改姓仕祚國公辰垂官知縣\n記縣居貞少能屬文中生徒補知府\n曉財公祿生号辰令為廣義府世撫志政卅記錄所言莫非忠言曉衛皆不見從\n癸酉年伐期綿國國王韻源立翰壽為王\n義定河仙稔其名望在邊十一年\n至乙丑年院福淳德書始召善五走部效年而率居貞博孝它詩在平順為定志\n嘗辰與河仙德兵琮德侯鄭夫賜以文字相贈答\n有初河仙十詠一曰金嶼欄濤\n帝怨陽侯故犯邊移將仙皇鎮前川\n波粘不拭長城面小極方知孤柱權\n精微半消御石限麗毫全穩花珠眠\n知君德是擎天物今古滔独佛然\n二曰屏山晉翠詩中分村落立為義淡墨濃青作意插\n地脉衰灵看樹石辰情愁棄向芻氣\n春垂獨幕盤我府秋起金城拱產朝此味處川人樂得芬舉不南錄洗",
+    "vi": "Người đậu thi Hương, bắt đầu bổ làm tri phủ, tri huyện, chỉ coi việc kiện tụng, thứ nữa là làm ký lục thì chỉ giữ việc đòi thu thuế khoá, những kế lớn mưu lớn thì không hỏi han gì đến, còn bọn tiểu học hậu sinh thì cũng không thấy có sự nuôi dạy tác thành.\nThế mà văn mạch một phương, dằng đặc không đứt, thực đáng khen lắm!\nNguyễn Cư Trình hiệu là Đạm Am, người làng An Hoà huyện Hương Trà.\nTổ sáu đời nguyên là họ Trịnh tên Cam, người trường Phù Lưu huyện Thiên Lộc, làm thượng thư Binh bộ triều Lê trước; gặp hồi nguy Mạc cướp ngôi, lánh ở Thuận Hoá, cha là Đăng Đệ mới đổi họ, làm quan ở thời Tộ quốc công, trải chức tri huyện, ký lục.\nCư Trinh thuở nhỏ giỏi văn chương, đỗ sinh đô, bổ tri phủ.\nThời Hiểu quốc công xưng vương, sai làm Tuần phủ Quảng Ngãi, ký lục định Bố Chính, bàn nói không gì là không mưu ngay lẽ phải, nhưng đều không được theo.\nNăm Quý Dậu đi đánh Cao Mên, sai sung chức tham mưu, điều khiển quân năm định, có cơ mưu trí lược, hay quyết đoán, trù hoạch rất rành rọt, bèn thu được ba vạn người Côn Man ở Thuận Thành, bắt vua nước Cao Mên là Ông Nguyên hàng phục, lập Ông Tôn lên thay, Gia Định Hà Tiên lẫy lừng danh vọng.\nỞ biên thuỷ 11 năm, đến năm Ất Dậu Nguyễn Phúc Thuần kế tập mới triệu về làm Lại bộ, được mấy năm thì mất.\nCư Trinh học rộng thơ hay, trong khi đóng đinh ở Bình Thuận và Gia Định, thường cùng với Tổng binh Hà Tiên là Tông Đức hầu Mạc Thiên Tứ lấy văn tự tặng đáp nhau, có hoạ mười bài thơ vịnh Hà Tiên như sau:\nTữm đư chắn sớng Vua giận Dương hầu!” quấy còi biên, Đời đem tiên đảo” chắn ngoài sông."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 0,\n        \"vi_start\": 1,\n        \"vi_end\": 1,\n        \"han_text\": \"亦不見欲養作成之寡一方文禮乃綿不絕是可称也\",\n        \"vietnamese_text\": \"Thế mà văn mạch một phương, dằng đặc không đứt, thực đáng khen lắm!\",\n        \"score\": 0.22143966470825338\n      },\n      {\n        \"han_start\": 1,\n        \"han_end\": 1,\n        \"vi_start\": 2,\n        \"vi_end\": 2,\n        \"han_text\": \"阮知貞号澹庵香柔安和人\",\n        \"vietnamese_text\": \"Nguyễn Cư Trình hiệu là Đạm Am, người làng An Hoà huyện Hương Trà.\",\n        \"score\": 0.16236989356222062\n      },\n      {\n        \"han_start\": 2,\n        \"han_end\": 4,\n        \"vi_start\": 3,\n        \"vi_end\": 3,\n        \"han_text\": \"六世祖索姓鄭名柑天祿縣美雷場人 為前黎朝兵部尚半書僞莫靈避居順化 其父登義改姓仕祚國公辰垂官知縣\",\n        \"vietnamese_text\": \"Tổ sáu đời nguyên là họ Trịnh tên Cam, người trường Phù Lưu huyện Thiên Lộc, làm thượng thư Binh bộ triều Lê trước; gặp hồi nguy Mạc cướp ngôi, lánh ở Thuận Hoá, cha là Đăng Đệ mới đổi họ, làm quan ở thời Tộ quốc công, trải chức tri huyện, ký lục.\",\n        \"score\": 0.3322036578323606\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 5,\n        \"vi_start\": 4,\n        \"vi_end\": 4,\n        \"han_text\": \"記縣居貞少能屬文中生徒補知府\",\n        \"vietnamese_text\": \"Cư Trinh thuở nhỏ giỏi văn chương, đỗ sinh đô, bổ tri phủ.\",\n        \"score\": 0.08973232190180074\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 7,\n        \"vi_start\": 5,\n        \"vi_end\": 5,\n        \"han_text\": \"曉財公祿生号辰令為廣義府世撫志政卅記錄所言莫非忠言曉衛皆不見從 癸酉年伐期綿國國王韻源立翰壽為王\",\n        \"vietnamese_text\": \"Thời Hiểu quốc công xưng vương, sai làm Tuần phủ Quảng Ngãi, ký lục định Bố Chính, bàn nói không gì là không mưu ngay lẽ phải, nhưng đều không được theo.\",\n        \"score\": 0.23147457244448685\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 8,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"義定河仙稔其名望在邊十一年\",\n        \"vietnamese_text\": \"Năm Quý Dậu đi đánh Cao Mên, sai sung chức tham mưu, điều khiển quân năm định, có cơ mưu trí lược, hay quyết đoán, trù hoạch rất rành rọt, bèn thu được ba vạn người Côn Man ở Thuận Thành, bắt vua nước Cao Mên là Ông Nguyên hàng phục, lập Ông Tôn lên thay, Gia Định Hà Tiên lẫy lừng danh vọng.\",\n        \"score\": -0.0006300156966876904\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 11,\n        \"vi_start\": 7,\n        \"vi_end\": 8,\n        \"han_text\": \"至乙丑年院福淳德書始召善五走部效年而率居貞博孝它詩在平順為定志 嘗辰與河仙德兵琮德侯鄭夫賜以文字相贈答 有初河仙十詠一曰金嶼欄濤\",\n        \"vietnamese_text\": \"Ở biên thuỷ 11 năm, đến năm Ất Dậu Nguyễn Phúc Thuần kế tập mới triệu về làm Lại bộ, được mấy năm thì mất. Cư Trinh học rộng thơ hay, trong khi đóng đinh ở Bình Thuận và Gia Định, thường cùng với Tổng binh Hà Tiên là Tông Đức hầu Mạc Thiên Tứ lấy văn tự tặng đáp nhau, có hoạ mười bài thơ vịnh Hà Tiên như sau:\",\n        \"score\": 0.2889206781845146\n      },\n      {\n        \"han_start\": 12,\n        \"han_end\": 14,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"帝怨陽侯故犯邊移將仙皇鎮前川 波粘不拭長城面小極方知孤柱權 精微半消御石限麗毫全穩花珠眠\",\n        \"vietnamese_text\": \"Tữm đư chắn sớng Vua giận Dương hầu!\",\n        \"score\": 0.04678209739445126\n      },\n      {\n        \"han_start\": 15,\n        \"han_end\": 18,\n        \"vi_start\": 10,\n        \"vi_end\": 10,\n        \"han_text\": \"知君德是擎天物今古滔独佛然 二曰屏山晉翠詩中分村落立為義淡墨濃青作意插 地脉衰灵看樹石辰情愁棄向芻氣 春垂獨幕盤我府秋起金城拱產朝此味處川人樂得芬舉不南錄洗\",\n        \"vietnamese_text\": \"” quấy còi biên, Đời đem tiên đảo” chắn ngoài sông.\",\n        \"score\": -0.0048138496962091834\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 0,
+          "vi_start": 1,
+          "vi_end": 1,
+          "han_text": "亦不見欲養作成之寡一方文禮乃綿不絕是可称也",
+          "vietnamese_text": "Thế mà văn mạch một phương, dằng đặc không đứt, thực đáng khen lắm!",
+          "score": 0.22143966470825338
+        },
+        {
+          "han_start": 1,
+          "han_end": 1,
+          "vi_start": 2,
+          "vi_end": 2,
+          "han_text": "阮知貞号澹庵香柔安和人",
+          "vietnamese_text": "Nguyễn Cư Trình hiệu là Đạm Am, người làng An Hoà huyện Hương Trà.",
+          "score": 0.16236989356222062
+        },
+        {
+          "han_start": 2,
+          "han_end": 4,
+          "vi_start": 3,
+          "vi_end": 3,
+          "han_text": "六世祖索姓鄭名柑天祿縣美雷場人 為前黎朝兵部尚半書僞莫靈避居順化 其父登義改姓仕祚國公辰垂官知縣",
+          "vietnamese_text": "Tổ sáu đời nguyên là họ Trịnh tên Cam, người trường Phù Lưu huyện Thiên Lộc, làm thượng thư Binh bộ triều Lê trước; gặp hồi nguy Mạc cướp ngôi, lánh ở Thuận Hoá, cha là Đăng Đệ mới đổi họ, làm quan ở thời Tộ quốc công, trải chức tri huyện, ký lục.",
+          "score": 0.3322036578323606
+        },
+        {
+          "han_start": 5,
+          "han_end": 5,
+          "vi_start": 4,
+          "vi_end": 4,
+          "han_text": "記縣居貞少能屬文中生徒補知府",
+          "vietnamese_text": "Cư Trinh thuở nhỏ giỏi văn chương, đỗ sinh đô, bổ tri phủ.",
+          "score": 0.08973232190180074
+        },
+        {
+          "han_start": 6,
+          "han_end": 7,
+          "vi_start": 5,
+          "vi_end": 5,
+          "han_text": "曉財公祿生号辰令為廣義府世撫志政卅記錄所言莫非忠言曉衛皆不見從 癸酉年伐期綿國國王韻源立翰壽為王",
+          "vietnamese_text": "Thời Hiểu quốc công xưng vương, sai làm Tuần phủ Quảng Ngãi, ký lục định Bố Chính, bàn nói không gì là không mưu ngay lẽ phải, nhưng đều không được theo.",
+          "score": 0.23147457244448685
+        },
+        {
+          "han_start": 8,
+          "han_end": 8,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "義定河仙稔其名望在邊十一年",
+          "vietnamese_text": "Năm Quý Dậu đi đánh Cao Mên, sai sung chức tham mưu, điều khiển quân năm định, có cơ mưu trí lược, hay quyết đoán, trù hoạch rất rành rọt, bèn thu được ba vạn người Côn Man ở Thuận Thành, bắt vua nước Cao Mên là Ông Nguyên hàng phục, lập Ông Tôn lên thay, Gia Định Hà Tiên lẫy lừng danh vọng.",
+          "score": -0.0006300156966876904
+        },
+        {
+          "han_start": 9,
+          "han_end": 11,
+          "vi_start": 7,
+          "vi_end": 8,
+          "han_text": "至乙丑年院福淳德書始召善五走部效年而率居貞博孝它詩在平順為定志 嘗辰與河仙德兵琮德侯鄭夫賜以文字相贈答 有初河仙十詠一曰金嶼欄濤",
+          "vietnamese_text": "Ở biên thuỷ 11 năm, đến năm Ất Dậu Nguyễn Phúc Thuần kế tập mới triệu về làm Lại bộ, được mấy năm thì mất. Cư Trinh học rộng thơ hay, trong khi đóng đinh ở Bình Thuận và Gia Định, thường cùng với Tổng binh Hà Tiên là Tông Đức hầu Mạc Thiên Tứ lấy văn tự tặng đáp nhau, có hoạ mười bài thơ vịnh Hà Tiên như sau:",
+          "score": 0.2889206781845146
+        },
+        {
+          "han_start": 12,
+          "han_end": 14,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "帝怨陽侯故犯邊移將仙皇鎮前川 波粘不拭長城面小極方知孤柱權 精微半消御石限麗毫全穩花珠眠",
+          "vietnamese_text": "Tữm đư chắn sớng Vua giận Dương hầu!",
+          "score": 0.04678209739445126
+        },
+        {
+          "han_start": 15,
+          "han_end": 18,
+          "vi_start": 10,
+          "vi_end": 10,
+          "han_text": "知君德是擎天物今古滔独佛然 二曰屏山晉翠詩中分村落立為義淡墨濃青作意插 地脉衰灵看樹石辰情愁棄向芻氣 春垂獨幕盤我府秋起金城拱產朝此味處川人樂得芬舉不南錄洗",
+          "vietnamese_text": "” quấy còi biên, Đời đem tiên đảo” chắn ngoài sông.",
+          "score": -0.0048138496962091834
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 3891
+}

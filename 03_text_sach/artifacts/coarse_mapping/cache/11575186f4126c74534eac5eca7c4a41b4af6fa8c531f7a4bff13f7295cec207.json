@@ -1,0 +1,123 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "11575186f4126c74534eac5eca7c4a41b4af6fa8c531f7a4bff13f7295cec207",
+  "payload": {
+    "han": "其府勘理提背軍各頂員斧將巨社長例夫\n每夫或五升或六升並免取正戶什物\n每人歲一西礼该六文方六文\n節料場稅例正戶官員壯壯項百人米七\n亦年頂招回少人米作雇一項每人米五升\n雇二項每人米四亦雇三項每人米三丈\n長項老項每人策五亦前時臣將臣行每人米六亦不具不米每人四亦官員子孫每人米五升\n前另前次在另每人米六升\n艮丁每人米六升\n四嘗 象米前社長社長行每又米五升\n子府前次隊長 欣陽長每人米六亦各項米例\n代彼每升三十文脚米每人十九文\n百經米人一亦輕祿六文\n正户什物每人三十六又例惟先止存若示分為三分孩次二交方看客五壯項軍頂臣項老项不具\n始四後到各頂每人米五升\n新福并新民屋容戶項亦同脚\n米糧米祿什物並同正戶\n其儒居番油教坊春唱三屬代納\n每人四阳新蘭至每人代禍孫三陽四十六文有年赤量收米去本府各員并將臣社長例夫三十文\n米一百六十五升或夫二十人\n朱一百十亦以下並免取田租\n場稅例田融每辭收米一升承四文年每百斤双米二亦鄉九文\n正户供顾粟三千升曰大米十五升\n孫三改倣此\n仁大每升十五文粟二千升\n曰中米十二升成二微\n此公中每升十文粟一千升\n曰小米八升庚一兩倣此\n公小萬升八文粟五百亦米四升\n康三十文倣此\n每升八文粟四百升以下每百年米一亦琢八文\n其寓祿米并首粟例美侯一兩",
+    "vi": "Hạng cố là bao nhiêu, trong đó người ở làng mà nghèo khổ quá không có nhà là bao nhiêu, xin xuống hạng cùng là: Nguyễn Văn Mỗ...; trong đó xiêu tân không thấy mặt phải đền là bao Biến xin xuống hạng đào là: Nguyễn Văn Mỗ (do đào năm nào).\nHạng tiêu sai bao nhiêu, lánh ngoại bao nhiêu, quan viên bao nhiêu, hạng tráng, hạng lão, bất cụ, nhiêu tật bao nhiêu người.\nLại trong tờ đoan, các hạng ở bản xã, nếu người nào đủ ăn mà không trả về hạng tráng, sau có người nào tố cáo. thì những người ký đơn và bản xã cam chịu tội nặng.\nNay đoan.\n(Các chức có người mất bằng mà khai ở sổ gọi là lánh ngoại).\nLệ phú thuế ở xứ Quảng Nam khác với xứ Thuận Hoá.\nSự trưng thu so với Thuận Hoá hơi nặng, cho nên kho tàng thu vào rất nhiều, bổng lộc quan lại rất nhiều, mà dân địa phương ấy nổi loạn trước cả cũng vì có Ấy.\nMỗi phủ tiền sai dư, tiển thường tân, tiền tết, thóc tô ruộng, chia là bốn trường, lệ cũng không giống nhau.\nNhư phủ Điện Bàn, lệ thuế trường sai dư là: Chính hộ mỗi 100 người thì trong đó cho 10 người hạng cố, chia ra ba hạng, hạng nhất 1 quan 5 tiền, hạng nhì 1 quan, hạng ba 7 tiền, cho 10 người hạng cùng và 15 người hạng đào; hạng quan viên tráng, mỗi người 2 quan; hạng quân, hạng mới về, mỗi người 1 quan 7 tiền, hạng dân mỗi người 8 tiền, hạng lão mỗi người 9 tiền, hạng đân định mỗi người 6 tiển (một năm không phải gạo cước, phải tiền thường tân và tiền tết, năm sau trả về hạng đân, có gạo cước, không phải tiền thường tân và tiền tết); hạng bất cụ mỗi người 6 tiền; tướng thần cũ mỗi người 1 quan õ tiền, tướng thần đình việc mỗi người 1 quan 2 tiền, lính cũ mỗi người 1 quan 2 tiển; lính ưu eũ mỗi người 1 quan 2 tiển; xã trưởng cũ và xã trưởng đình việc, sinh để cũ, con cháu quan viên, mỗi người 9 tiển, thứ đội trưởng bản phủ đình việc, thứ đội trưởng bản phú cũ, mỗi người 1 quan 1 tiền; duyện lại cũ, từ thừa cũ, mỗi người 1 quan; hạng càng 3 tiền; hạng đào 2 tiền.\nChính hộ, tiển thập vật, mỗi người 1 tiền 18 đồng, lễ trình điện trong nội thu mỗi người 2 tiền (trước kia thu 1 tiển giao tại quan công đường Quảng Nam, sau theo như thế)."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 2,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"其府勘理提背軍各頂員斧將巨社長例夫 每夫或五升或六升並免取正戶什物 每人歲一西礼该六文方六文\",\n        \"vietnamese_text\": \"Hạng cố là bao nhiêu, trong đó người ở làng mà nghèo khổ quá không có nhà là bao nhiêu, xin xuống hạng cùng là: Nguyễn Văn Mỗ.\",\n        \"score\": 0.07745056300951281\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 6,\n        \"vi_start\": 1,\n        \"vi_end\": 1,\n        \"han_text\": \"節料場稅例正戶官員壯壯項百人米七 亦年頂招回少人米作雇一項每人米五升 雇二項每人米四亦雇三項每人米三丈 長項老項每人策五亦前時臣將臣行每人米六亦不具不米每人四亦官員子孫每人米五升\",\n        \"vietnamese_text\": \".\",\n        \"score\": -0.0005996794388793318\n      },\n      {\n        \"han_start\": 7,\n        \"han_end\": 9,\n        \"vi_start\": 2,\n        \"vi_end\": 2,\n        \"han_text\": \"前另前次在另每人米六升 艮丁每人米六升 四嘗 象米前社長社長行每又米五升\",\n        \"vietnamese_text\": \".\",\n        \"score\": -7.528644826907611E-05\n      },\n      {\n        \"han_start\": 10,\n        \"han_end\": 11,\n        \"vi_start\": 3,\n        \"vi_end\": 3,\n        \"han_text\": \"子府前次隊長 欣陽長每人米六亦各項米例 代彼每升三十文脚米每人十九文\",\n        \"vietnamese_text\": \"; trong đó xiêu tân không thấy mặt phải đền là bao Biến xin xuống hạng đào là: Nguyễn Văn Mỗ (do đào năm nào).\",\n        \"score\": 0.0686312089772263\n      },\n      {\n        \"han_start\": 12,\n        \"han_end\": 14,\n        \"vi_start\": 4,\n        \"vi_end\": 5,\n        \"han_text\": \"百經米人一亦輕祿六文 正户什物每人三十六又例惟先止存若示分為三分孩次二交方看客五壯項軍頂臣項老项不具 始四後到各頂每人米五升\",\n        \"vietnamese_text\": \"Hạng tiêu sai bao nhiêu, lánh ngoại bao nhiêu, quan viên bao nhiêu, hạng tráng, hạng lão, bất cụ, nhiêu tật bao nhiêu người. Lại trong tờ đoan, các hạng ở bản xã, nếu người nào đủ ăn mà không trả về hạng tráng, sau có người nào tố cáo.\",\n        \"score\": 0.2844203011702617\n      },\n      {\n        \"han_start\": 15,\n        \"han_end\": 16,\n        \"vi_start\": 6,\n        \"vi_end\": 7,\n        \"han_text\": \"新福并新民屋容戶項亦同脚 米糧米祿什物並同正戶\",\n        \"vietnamese_text\": \"thì những người ký đơn và bản xã cam chịu tội nặng. Nay đoan.\",\n        \"score\": 0.11077972450183579\n      },\n      {\n        \"han_start\": 17,\n        \"han_end\": 19,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"其儒居番油教坊春唱三屬代納 每人四阳新蘭至每人代禍孫三陽四十六文有年赤量收米去本府各員并將臣社長例夫三十文 米一百六十五升或夫二十人\",\n        \"vietnamese_text\": \"(Các chức có người mất bằng mà khai ở sổ gọi là lánh ngoại).\",\n        \"score\": 0.010050772067391587\n      },\n      {\n        \"han_start\": 20,\n        \"han_end\": 22,\n        \"vi_start\": 9,\n        \"vi_end\": 10,\n        \"han_text\": \"朱一百十亦以下並免取田租 場稅例田融每辭收米一升承四文年每百斤双米二亦鄉九文 正户供顾粟三千升曰大米十五升\",\n        \"vietnamese_text\": \"Lệ phú thuế ở xứ Quảng Nam khác với xứ Thuận Hoá. Sự trưng thu so với Thuận Hoá hơi nặng, cho nên kho tàng thu vào rất nhiều, bổng lộc quan lại rất nhiều, mà dân địa phương ấy nổi loạn trước cả cũng vì có Ấy.\",\n        \"score\": 0.20011948501783602\n      },\n      {\n        \"han_start\": 23,\n        \"han_end\": 25,\n        \"vi_start\": 11,\n        \"vi_end\": 11,\n        \"han_text\": \"孫三改倣此 仁大每升十五文粟二千升 曰中米十二升成二微\",\n        \"vietnamese_text\": \"Mỗi phủ tiền sai dư, tiển thường tân, tiền tết, thóc tô ruộng, chia là bốn trường, lệ cũng không giống nhau.\",\n        \"score\": 0.06447157792236353\n      },\n      {\n        \"han_start\": 26,\n        \"han_end\": 28,\n        \"vi_start\": 12,\n        \"vi_end\": 12,\n        \"han_text\": \"此公中每升十文粟一千升 曰小米八升庚一兩倣此 公小萬升八文粟五百亦米四升\",\n        \"vietnamese_text\": \"Như phủ Điện Bàn, lệ thuế trường sai dư là: Chính hộ mỗi 100 người thì trong đó cho 10 người hạng cố, chia ra ba hạng, hạng nhất 1 quan 5 tiền, hạng nhì 1 quan, hạng ba 7 tiền, cho 10 người hạng cùng và 15 người hạng đào; hạng quan viên tráng, mỗi người 2 quan; hạng quân, hạng mới về, mỗi người 1 quan 7 tiền, hạng dân mỗi người 8 tiền, hạng lão mỗi người 9 tiền, hạng đân định mỗi người 6 tiển (một năm không phải gạo cước, phải tiền thường tân và tiền tết, năm sau trả về hạng đân, có gạo cước, không phải tiền thường tân và tiền tết); hạng bất cụ mỗi người 6 tiền; tướng thần cũ mỗi người 1 quan õ tiền, tướng thần đình việc mỗi người 1 quan 2 tiền, lính cũ mỗi người 1 quan 2 tiển; lính ưu eũ mỗi người 1 quan 2 tiển; xã trưởng cũ và xã trưởng đình việc, sinh để cũ, con cháu quan viên, mỗi người 9 tiển, thứ đội trưởng bản phủ đình việc, thứ đội trưởng bản phú cũ, mỗi người 1 quan 1 tiền; duyện lại cũ, từ thừa cũ, mỗi người 1 quan; hạng càng 3 tiền; hạng đào 2 tiền.\",\n        \"score\": 0.03424597210104587\n      },\n      {\n        \"han_start\": 29,\n        \"han_end\": 31,\n        \"vi_start\": 13,\n        \"vi_end\": 13,\n        \"han_text\": \"康三十文倣此 每升八文粟四百升以下每百年米一亦琢八文 其寓祿米并首粟例美侯一兩\",\n        \"vietnamese_text\": \"Chính hộ, tiển thập vật, mỗi người 1 tiền 18 đồng, lễ trình điện trong nội thu mỗi người 2 tiền (trước kia thu 1 tiển giao tại quan công đường Quảng Nam, sau theo như thế).\",\n        \"score\": 0.03863020342458537\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 2,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "其府勘理提背軍各頂員斧將巨社長例夫 每夫或五升或六升並免取正戶什物 每人歲一西礼该六文方六文",
+          "vietnamese_text": "Hạng cố là bao nhiêu, trong đó người ở làng mà nghèo khổ quá không có nhà là bao nhiêu, xin xuống hạng cùng là: Nguyễn Văn Mỗ.",
+          "score": 0.07745056300951281
+        },
+        {
+          "han_start": 3,
+          "han_end": 6,
+          "vi_start": 1,
+          "vi_end": 1,
+          "han_text": "節料場稅例正戶官員壯壯項百人米七 亦年頂招回少人米作雇一項每人米五升 雇二項每人米四亦雇三項每人米三丈 長項老項每人策五亦前時臣將臣行每人米六亦不具不米每人四亦官員子孫每人米五升",
+          "vietnamese_text": ".",
+          "score": -0.0005996794388793318
+        },
+        {
+          "han_start": 7,
+          "han_end": 9,
+          "vi_start": 2,
+          "vi_end": 2,
+          "han_text": "前另前次在另每人米六升 艮丁每人米六升 四嘗 象米前社長社長行每又米五升",
+          "vietnamese_text": ".",
+          "score": -7.528644826907611e-05
+        },
+        {
+          "han_start": 10,
+          "han_end": 11,
+          "vi_start": 3,
+          "vi_end": 3,
+          "han_text": "子府前次隊長 欣陽長每人米六亦各項米例 代彼每升三十文脚米每人十九文",
+          "vietnamese_text": "; trong đó xiêu tân không thấy mặt phải đền là bao Biến xin xuống hạng đào là: Nguyễn Văn Mỗ (do đào năm nào).",
+          "score": 0.0686312089772263
+        },
+        {
+          "han_start": 12,
+          "han_end": 14,
+          "vi_start": 4,
+          "vi_end": 5,
+          "han_text": "百經米人一亦輕祿六文 正户什物每人三十六又例惟先止存若示分為三分孩次二交方看客五壯項軍頂臣項老项不具 始四後到各頂每人米五升",
+          "vietnamese_text": "Hạng tiêu sai bao nhiêu, lánh ngoại bao nhiêu, quan viên bao nhiêu, hạng tráng, hạng lão, bất cụ, nhiêu tật bao nhiêu người. Lại trong tờ đoan, các hạng ở bản xã, nếu người nào đủ ăn mà không trả về hạng tráng, sau có người nào tố cáo.",
+          "score": 0.2844203011702617
+        },
+        {
+          "han_start": 15,
+          "han_end": 16,
+          "vi_start": 6,
+          "vi_end": 7,
+          "han_text": "新福并新民屋容戶項亦同脚 米糧米祿什物並同正戶",
+          "vietnamese_text": "thì những người ký đơn và bản xã cam chịu tội nặng. Nay đoan.",
+          "score": 0.11077972450183579
+        },
+        {
+          "han_start": 17,
+          "han_end": 19,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "其儒居番油教坊春唱三屬代納 每人四阳新蘭至每人代禍孫三陽四十六文有年赤量收米去本府各員并將臣社長例夫三十文 米一百六十五升或夫二十人",
+          "vietnamese_text": "(Các chức có người mất bằng mà khai ở sổ gọi là lánh ngoại).",
+          "score": 0.010050772067391587
+        },
+        {
+          "han_start": 20,
+          "han_end": 22,
+          "vi_start": 9,
+          "vi_end": 10,
+          "han_text": "朱一百十亦以下並免取田租 場稅例田融每辭收米一升承四文年每百斤双米二亦鄉九文 正户供顾粟三千升曰大米十五升",
+          "vietnamese_text": "Lệ phú thuế ở xứ Quảng Nam khác với xứ Thuận Hoá. Sự trưng thu so với Thuận Hoá hơi nặng, cho nên kho tàng thu vào rất nhiều, bổng lộc quan lại rất nhiều, mà dân địa phương ấy nổi loạn trước cả cũng vì có Ấy.",
+          "score": 0.20011948501783602
+        },
+        {
+          "han_start": 23,
+          "han_end": 25,
+          "vi_start": 11,
+          "vi_end": 11,
+          "han_text": "孫三改倣此 仁大每升十五文粟二千升 曰中米十二升成二微",
+          "vietnamese_text": "Mỗi phủ tiền sai dư, tiển thường tân, tiền tết, thóc tô ruộng, chia là bốn trường, lệ cũng không giống nhau.",
+          "score": 0.06447157792236353
+        },
+        {
+          "han_start": 26,
+          "han_end": 28,
+          "vi_start": 12,
+          "vi_end": 12,
+          "han_text": "此公中每升十文粟一千升 曰小米八升庚一兩倣此 公小萬升八文粟五百亦米四升",
+          "vietnamese_text": "Như phủ Điện Bàn, lệ thuế trường sai dư là: Chính hộ mỗi 100 người thì trong đó cho 10 người hạng cố, chia ra ba hạng, hạng nhất 1 quan 5 tiền, hạng nhì 1 quan, hạng ba 7 tiền, cho 10 người hạng cùng và 15 người hạng đào; hạng quan viên tráng, mỗi người 2 quan; hạng quân, hạng mới về, mỗi người 1 quan 7 tiền, hạng dân mỗi người 8 tiền, hạng lão mỗi người 9 tiền, hạng đân định mỗi người 6 tiển (một năm không phải gạo cước, phải tiền thường tân và tiền tết, năm sau trả về hạng đân, có gạo cước, không phải tiền thường tân và tiền tết); hạng bất cụ mỗi người 6 tiền; tướng thần cũ mỗi người 1 quan õ tiền, tướng thần đình việc mỗi người 1 quan 2 tiền, lính cũ mỗi người 1 quan 2 tiển; lính ưu eũ mỗi người 1 quan 2 tiển; xã trưởng cũ và xã trưởng đình việc, sinh để cũ, con cháu quan viên, mỗi người 9 tiển, thứ đội trưởng bản phủ đình việc, thứ đội trưởng bản phú cũ, mỗi người 1 quan 1 tiền; duyện lại cũ, từ thừa cũ, mỗi người 1 quan; hạng càng 3 tiền; hạng đào 2 tiền.",
+          "score": 0.03424597210104587
+        },
+        {
+          "han_start": 29,
+          "han_end": 31,
+          "vi_start": 13,
+          "vi_end": 13,
+          "han_text": "康三十文倣此 每升八文粟四百升以下每百年米一亦琢八文 其寓祿米并首粟例美侯一兩",
+          "vietnamese_text": "Chính hộ, tiển thập vật, mỗi người 1 tiền 18 đồng, lễ trình điện trong nội thu mỗi người 2 tiền (trước kia thu 1 tiển giao tại quan công đường Quảng Nam, sau theo như thế).",
+          "score": 0.03863020342458537
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 3125
+}

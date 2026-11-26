@@ -1,0 +1,105 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "3094e4ccf3e6f243f9e39cfd38fda1f9954cf6a6a86b988e6285fe0572e7650e",
+  "payload": {
+    "han": "官傳下各社村坊採買迎約或四千五百欠\n順化必人多以飭方盤圓盒巾箱\n劍把占城毫綿畫金飭碑碟則多嵌水晶\n小方盤臣青碧燥然\n玄珀出可仁鎮其塊似銅塊色黑\n四秩人云能辟民璇作子念珠事琦琦香出於廣南處平柔\n延慶二府各社山頭為第一出於富安歸仁二府為第二\n其香乃措樹心结來楮有三種\n牛舌捲朗椿為苦流臬楷為流香\n瓢椿為琦殉香人見樹老葉董而小\n樹多疵贅即知有香所同取之\n前阮氏道借山家常以歲二月操探六月而還\n其於得多少不定以白蠟色者而上\n鸭須綠色次之青蠟色亦次之\n虎斑色以下以軟如凝飭粉可切\n臣此西上里实去為下語云一白二青三黃四黑\n歡辨流香與琦南香之異但以形質無味别之\n流香星重少香色味若琦瑕烟老直上而綿洗香只亡臨金琦疏它滋中尾疾盛紫口等症\n磨小灌之并燒烟令香之入鼻立甦\n腹帳脹滿流令口化立愈\n又亡辟邪見疫去行師之所可忌紙色\n宜貯磁錫器以焦樹及巨密封",
+    "vi": "Ở Thuận Hoá người ta dùng lá mài hột hổ phách cho tròn sáng, ngậm nước nghệ phun vào, rồi sau dùng gỗ tử đàn ngâm rượu mà chưng lên, đem xâu hổ phách ngâm vào ít lâu để nhuộm thì màu nhạt đều thành màu đỏ, ngày hôm sau lấy ít đầu xát vào thì sáng bóng như chân phách.\nCây tử đàn thì Trung Quốc không có, xuất từ thuyền phiên của các nước Xiêm La, nấu bằng rượu và ngâm nước thì đỏ thẫm, có thể nhuộm được, giặt màu vẫn không phai.\nXà cừ sản ở Quảng Nam, trước không có thuế thường.\nCó dùng để trang sức thì quan Đề gia hạ lệnh cho quan công đường xứ ấy truyền cho các xã thôn phường tìm mua đệ nộp, hoặc 4.500 cái, hoặc vài nghìn cái.\nNgười xứ Thuận Hoá hay dùng để trang sức khay vuông, hộp tròn, hòm mũ, chui kiếm.\nỞ Chiêm Thành và Cao Mên, khay hộp trang sức bằng xà cừ thì khảm lẫn các mảnh thuỷ tỉnh nhỏ, xanh biếc rực rỡ.\nHuyền phách sản ở trấn Hà Tiên, có khối như khối đồng, sắc đen như sắt, người ta nói dùng nó có thể tránh Kỳnam hương xuất từ đầu núi các xã thuộc hai phủ Bình Khang và Diên Khánh xứ Quảng Nam là thứ tốt nhất; xuất tự Phú Yên và Quy Nhơn là thứ hai.\nHương ấy là do ở ruột cây gió kết thành.\nGió có ba loại: gió lưỡi trâu thì thành khổ trầm, gió niệt thì thành trầm hương, gió bầu thì thành kỳnam hương.\nNgười ta thấy cây già lá vàng mà nhỏ, thân cây nhiều u bướu, thì biết ngay là có hương, chặt mổ để lấy."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 1,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"官傳下各社村坊採買迎約或四千五百欠 順化必人多以飭方盤圓盒巾箱\",\n        \"vietnamese_text\": \"Ở Thuận Hoá người ta dùng lá mài hột hổ phách cho tròn sáng, ngậm nước nghệ phun vào, rồi sau dùng gỗ tử đàn ngâm rượu mà chưng lên, đem xâu hổ phách ngâm vào ít lâu để nhuộm thì màu nhạt đều thành màu đỏ, ngày hôm sau lấy ít đầu xát vào thì sáng bóng như chân phách.\",\n        \"score\": 0.01843507921923774\n      },\n      {\n        \"han_start\": 2,\n        \"han_end\": 4,\n        \"vi_start\": 1,\n        \"vi_end\": 1,\n        \"han_text\": \"劍把占城毫綿畫金飭碑碟則多嵌水晶 小方盤臣青碧燥然 玄珀出可仁鎮其塊似銅塊色黑\",\n        \"vietnamese_text\": \"Cây tử đàn thì Trung Quốc không có, xuất từ thuyền phiên của các nước Xiêm La, nấu bằng rượu và ngâm nước thì đỏ thẫm, có thể nhuộm được, giặt màu vẫn không phai.\",\n        \"score\": 0.14128250726841757\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 6,\n        \"vi_start\": 2,\n        \"vi_end\": 3,\n        \"han_text\": \"四秩人云能辟民璇作子念珠事琦琦香出於廣南處平柔 延慶二府各社山頭為第一出於富安歸仁二府為第二\",\n        \"vietnamese_text\": \"Xà cừ sản ở Quảng Nam, trước không có thuế thường. Có dùng để trang sức thì quan Đề gia hạ lệnh cho quan công đường xứ ấy truyền cho các xã thôn phường tìm mua đệ nộp, hoặc 4.\",\n        \"score\": 0.18336954466336028\n      },\n      {\n        \"han_start\": 7,\n        \"han_end\": 7,\n        \"vi_start\": 4,\n        \"vi_end\": 4,\n        \"han_text\": \"其香乃措樹心结來楮有三種\",\n        \"vietnamese_text\": \"500 cái, hoặc vài nghìn cái.\",\n        \"score\": 0.04820578701366516\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 11,\n        \"vi_start\": 5,\n        \"vi_end\": 5,\n        \"han_text\": \"牛舌捲朗椿為苦流臬楷為流香 瓢椿為琦殉香人見樹老葉董而小 樹多疵贅即知有香所同取之 前阮氏道借山家常以歲二月操探六月而還\",\n        \"vietnamese_text\": \"Người xứ Thuận Hoá hay dùng để trang sức khay vuông, hộp tròn, hòm mũ, chui kiếm.\",\n        \"score\": 0.05420003900337797\n      },\n      {\n        \"han_start\": 12,\n        \"han_end\": 13,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"其於得多少不定以白蠟色者而上 鸭須綠色次之青蠟色亦次之\",\n        \"vietnamese_text\": \"Ở Chiêm Thành và Cao Mên, khay hộp trang sức bằng xà cừ thì khảm lẫn các mảnh thuỷ tỉnh nhỏ, xanh biếc rực rỡ.\",\n        \"score\": 0.07441135314459926\n      },\n      {\n        \"han_start\": 14,\n        \"han_end\": 17,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"虎斑色以下以軟如凝飭粉可切 臣此西上里实去為下語云一白二青三黃四黑 歡辨流香與琦南香之異但以形質無味别之 流香星重少香色味若琦瑕烟老直上而綿洗香只亡臨金琦疏它滋中尾疾盛紫口等症\",\n        \"vietnamese_text\": \"Huyền phách sản ở trấn Hà Tiên, có khối như khối đồng, sắc đen như sắt, người ta nói dùng nó có thể tránh Kỳnam hương xuất từ đầu núi các xã thuộc hai phủ Bình Khang và Diên Khánh xứ Quảng Nam là thứ tốt nhất; xuất tự Phú Yên và Quy Nhơn là thứ hai.\",\n        \"score\": 0.15110273697059107\n      },\n      {\n        \"han_start\": 18,\n        \"han_end\": 19,\n        \"vi_start\": 8,\n        \"vi_end\": 9,\n        \"han_text\": \"磨小灌之并燒烟令香之入鼻立甦 腹帳脹滿流令口化立愈\",\n        \"vietnamese_text\": \"Hương ấy là do ở ruột cây gió kết thành. Gió có ba loại: gió lưỡi trâu thì thành khổ trầm, gió niệt thì thành trầm hương, gió bầu thì thành kỳnam hương.\",\n        \"score\": 0.08449188732299032\n      },\n      {\n        \"han_start\": 20,\n        \"han_end\": 21,\n        \"vi_start\": 10,\n        \"vi_end\": 10,\n        \"han_text\": \"又亡辟邪見疫去行師之所可忌紙色 宜貯磁錫器以焦樹及巨密封\",\n        \"vietnamese_text\": \"Người ta thấy cây già lá vàng mà nhỏ, thân cây nhiều u bướu, thì biết ngay là có hương, chặt mổ để lấy.\",\n        \"score\": 0.11265628228665217\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 1,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "官傳下各社村坊採買迎約或四千五百欠 順化必人多以飭方盤圓盒巾箱",
+          "vietnamese_text": "Ở Thuận Hoá người ta dùng lá mài hột hổ phách cho tròn sáng, ngậm nước nghệ phun vào, rồi sau dùng gỗ tử đàn ngâm rượu mà chưng lên, đem xâu hổ phách ngâm vào ít lâu để nhuộm thì màu nhạt đều thành màu đỏ, ngày hôm sau lấy ít đầu xát vào thì sáng bóng như chân phách.",
+          "score": 0.01843507921923774
+        },
+        {
+          "han_start": 2,
+          "han_end": 4,
+          "vi_start": 1,
+          "vi_end": 1,
+          "han_text": "劍把占城毫綿畫金飭碑碟則多嵌水晶 小方盤臣青碧燥然 玄珀出可仁鎮其塊似銅塊色黑",
+          "vietnamese_text": "Cây tử đàn thì Trung Quốc không có, xuất từ thuyền phiên của các nước Xiêm La, nấu bằng rượu và ngâm nước thì đỏ thẫm, có thể nhuộm được, giặt màu vẫn không phai.",
+          "score": 0.14128250726841757
+        },
+        {
+          "han_start": 5,
+          "han_end": 6,
+          "vi_start": 2,
+          "vi_end": 3,
+          "han_text": "四秩人云能辟民璇作子念珠事琦琦香出於廣南處平柔 延慶二府各社山頭為第一出於富安歸仁二府為第二",
+          "vietnamese_text": "Xà cừ sản ở Quảng Nam, trước không có thuế thường. Có dùng để trang sức thì quan Đề gia hạ lệnh cho quan công đường xứ ấy truyền cho các xã thôn phường tìm mua đệ nộp, hoặc 4.",
+          "score": 0.18336954466336028
+        },
+        {
+          "han_start": 7,
+          "han_end": 7,
+          "vi_start": 4,
+          "vi_end": 4,
+          "han_text": "其香乃措樹心结來楮有三種",
+          "vietnamese_text": "500 cái, hoặc vài nghìn cái.",
+          "score": 0.04820578701366516
+        },
+        {
+          "han_start": 8,
+          "han_end": 11,
+          "vi_start": 5,
+          "vi_end": 5,
+          "han_text": "牛舌捲朗椿為苦流臬楷為流香 瓢椿為琦殉香人見樹老葉董而小 樹多疵贅即知有香所同取之 前阮氏道借山家常以歲二月操探六月而還",
+          "vietnamese_text": "Người xứ Thuận Hoá hay dùng để trang sức khay vuông, hộp tròn, hòm mũ, chui kiếm.",
+          "score": 0.05420003900337797
+        },
+        {
+          "han_start": 12,
+          "han_end": 13,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "其於得多少不定以白蠟色者而上 鸭須綠色次之青蠟色亦次之",
+          "vietnamese_text": "Ở Chiêm Thành và Cao Mên, khay hộp trang sức bằng xà cừ thì khảm lẫn các mảnh thuỷ tỉnh nhỏ, xanh biếc rực rỡ.",
+          "score": 0.07441135314459926
+        },
+        {
+          "han_start": 14,
+          "han_end": 17,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "虎斑色以下以軟如凝飭粉可切 臣此西上里实去為下語云一白二青三黃四黑 歡辨流香與琦南香之異但以形質無味别之 流香星重少香色味若琦瑕烟老直上而綿洗香只亡臨金琦疏它滋中尾疾盛紫口等症",
+          "vietnamese_text": "Huyền phách sản ở trấn Hà Tiên, có khối như khối đồng, sắc đen như sắt, người ta nói dùng nó có thể tránh Kỳnam hương xuất từ đầu núi các xã thuộc hai phủ Bình Khang và Diên Khánh xứ Quảng Nam là thứ tốt nhất; xuất tự Phú Yên và Quy Nhơn là thứ hai.",
+          "score": 0.15110273697059107
+        },
+        {
+          "han_start": 18,
+          "han_end": 19,
+          "vi_start": 8,
+          "vi_end": 9,
+          "han_text": "磨小灌之并燒烟令香之入鼻立甦 腹帳脹滿流令口化立愈",
+          "vietnamese_text": "Hương ấy là do ở ruột cây gió kết thành. Gió có ba loại: gió lưỡi trâu thì thành khổ trầm, gió niệt thì thành trầm hương, gió bầu thì thành kỳnam hương.",
+          "score": 0.08449188732299032
+        },
+        {
+          "han_start": 20,
+          "han_end": 21,
+          "vi_start": 10,
+          "vi_end": 10,
+          "han_text": "又亡辟邪見疫去行師之所可忌紙色 宜貯磁錫器以焦樹及巨密封",
+          "vietnamese_text": "Người ta thấy cây già lá vàng mà nhỏ, thân cây nhiều u bướu, thì biết ngay là có hương, chặt mổ để lấy.",
+          "score": 0.11265628228665217
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 8313
+}

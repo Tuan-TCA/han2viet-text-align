@@ -1,0 +1,105 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "a27a3474b17830e5ec2c7bc53591f97f3742a0d228eb9723f98018069aa8bca7",
+  "payload": {
+    "han": "社亦買池子实梭貶各縣容户水\n每坊例油染參祝四十埕免其搜\n另橋道捍墨府庫草象市渡門港磚尾排表潔賞及若外物諸器香茶鼎\n扶宅社衛簡為席俗名筆席亦以作帆\n其席亦四京北廣賢牽蠡水縣福祿絲祿二社織草管席\n雲望府新福縣花山社術花奉替搜\n另係弟正旦為廣南营收款席三十五双\n教小席四双投長席一双救短席一双\n稔小席四双白連席置文庙一双\n瓔瑜席強玄德一双共五十双\n又白席各項發在伊必公堂所府及庙寺七十五双\n然花席亦有辰令廟南當官買\n或以置南寺五十二双或置宮府至三百五六十三政昆鳳五酉八花二百三十文大花席七酉意高清一双意合書一天个南仁府待離安和屬西山村共鴉翻社\n吳納席三十\n安府亦有言家幾納童席五十以連席一双\n藤花席又出圓化必谷恩之潔頭並也\n稅例海陵鼎圓卷巡弟納藤席二双\n廟南花希長五尺四寸橫四尺\n款席長七尺八寸七分橫一尺八寸八分",
+    "vi": "Xã Phù Trạch huyện Hương Trà dệt lác làm chiếu, tục gọi là chiếu đệm, cũng dùng làm buềm, chiếu ấy cũng như chiếu Quảng Lâm xứ Kinh Bác.\nHai xã Đại Phước và Tuy Lộc huyện Lệ Thuỷ thì dệt chiếu cói.\nXã Hoa Sơn huyện Tân Phúc phủ Điện Bàn nộp chiếu hoa thay cho sưu lính, hàng năm trước ngày mùng một tết, dinh Quảng Nam thu chiếu miến lớn 25 đôi, chiếu miến nhỏ ð đôi, chiếu thảm 8 đôi, chiếu phản dài 8 đôi, chiếu phản ngắn 1 đôi, chiếu nhỏ dày 4 đôi, chiếu cầu trơn trải ở Văn Miếu 1 đôi, chiếu thảm cạp lụa huyền 1 đôi, cộng 50 đôi”, lại các hạng chiếu trơn phát ở công\nt Lễ ra phải là 53 đôi mới đúng.\nĐây là sự nhầm lẫn của tác giả (NXB). đường phủ và các chùa miếu xứ ấy là 75 đôi.\nNhưng chiếu hoa cũng có khi sai quan dinh Quảng Nam mua, hoặc để ở chùa miếu 52 đôi, hoặc để ở dinh phủ đến 360 đôi.\nXã Nha Phiên huyện Phù Ly phủ Quy Nhơn có đội thợ dệt chiếu thảm (cù du), mỗi năm nộp 30 đôi.\nPhủ Phú Yên cũng có đội ấy, mỗi năm nộp chiếu rộng 50 đôi, chiếu cầu 1 đôi, chiếu hẹp 1 đôi.\nChiếu mây sản ở đầu nguồn các huyện xứ Thuận Hoá, đều không có thuế, duy tuần Viên Kiều huyện Hải Lăng mỗi năm nộp 2 đôi chiếu mây.\nXứ Quảng Nam lệ chiếu hoa dài ð thước 4 tấc, ngang 4 thước, chiếu miến dài 7 thước 8 tấc 7 phân, ngang l1 thước 8 tấc 8 phân."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 3,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"社亦買池子实梭貶各縣容户水 每坊例油染參祝四十埕免其搜 另橋道捍墨府庫草象市渡門港磚尾排表潔賞及若外物諸器香茶鼎 扶宅社衛簡為席俗名筆席亦以作帆\",\n        \"vietnamese_text\": \"Xã Phù Trạch huyện Hương Trà dệt lác làm chiếu, tục gọi là chiếu đệm, cũng dùng làm buềm, chiếu ấy cũng như chiếu Quảng Lâm xứ Kinh Bác.\",\n        \"score\": 0.0835689473165938\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 4,\n        \"vi_start\": 1,\n        \"vi_end\": 1,\n        \"han_text\": \"其席亦四京北廣賢牽蠡水縣福祿絲祿二社織草管席\",\n        \"vietnamese_text\": \"Hai xã Đại Phước và Tuy Lộc huyện Lệ Thuỷ thì dệt chiếu cói.\",\n        \"score\": 0.07869151324194482\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 8,\n        \"vi_start\": 2,\n        \"vi_end\": 2,\n        \"han_text\": \"雲望府新福縣花山社術花奉替搜 另係弟正旦為廣南营收款席三十五双 教小席四双投長席一双救短席一双 稔小席四双白連席置文庙一双\",\n        \"vietnamese_text\": \"Xã Hoa Sơn huyện Tân Phúc phủ Điện Bàn nộp chiếu hoa thay cho sưu lính, hàng năm trước ngày mùng một tết, dinh Quảng Nam thu chiếu miến lớn 25 đôi, chiếu miến nhỏ ð đôi, chiếu thảm 8 đôi, chiếu phản dài 8 đôi, chiếu phản ngắn 1 đôi, chiếu nhỏ dày 4 đôi, chiếu cầu trơn trải ở Văn Miếu 1 đôi, chiếu thảm cạp lụa huyền 1 đôi, cộng 50 đôi”, lại các hạng chiếu trơn phát ở công\",\n        \"score\": 0.14995498763745332\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 9,\n        \"vi_start\": 3,\n        \"vi_end\": 3,\n        \"han_text\": \"瓔瑜席強玄德一双共五十双\",\n        \"vietnamese_text\": \"t Lễ ra phải là 53 đôi mới đúng.\",\n        \"score\": 0.10530606965923942\n      },\n      {\n        \"han_start\": 10,\n        \"han_end\": 10,\n        \"vi_start\": 5,\n        \"vi_end\": 5,\n        \"han_text\": \"又白席各項發在伊必公堂所府及庙寺七十五双\",\n        \"vietnamese_text\": \"đường phủ và các chùa miếu xứ ấy là 75 đôi.\",\n        \"score\": 0.17215710120230102\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 13,\n        \"vi_start\": 6,\n        \"vi_end\": 7,\n        \"han_text\": \"然花席亦有辰令廟南當官買 或以置南寺五十二双或置宮府至三百五六十三政昆鳳五酉八花二百三十文大花席七酉意高清一双意合書一天个南仁府待離安和屬西山村共鴉翻社 吳納席三十\",\n        \"vietnamese_text\": \"Nhưng chiếu hoa cũng có khi sai quan dinh Quảng Nam mua, hoặc để ở chùa miếu 52 đôi, hoặc để ở dinh phủ đến 360 đôi. Xã Nha Phiên huyện Phù Ly phủ Quy Nhơn có đội thợ dệt chiếu thảm (cù du), mỗi năm nộp 30 đôi.\",\n        \"score\": 0.23004210469246017\n      },\n      {\n        \"han_start\": 14,\n        \"han_end\": 15,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"安府亦有言家幾納童席五十以連席一双 藤花席又出圓化必谷恩之潔頭並也\",\n        \"vietnamese_text\": \"Phủ Phú Yên cũng có đội ấy, mỗi năm nộp chiếu rộng 50 đôi, chiếu cầu 1 đôi, chiếu hẹp 1 đôi.\",\n        \"score\": 0.11347758971772448\n      },\n      {\n        \"han_start\": 16,\n        \"han_end\": 16,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"稅例海陵鼎圓卷巡弟納藤席二双\",\n        \"vietnamese_text\": \"Chiếu mây sản ở đầu nguồn các huyện xứ Thuận Hoá, đều không có thuế, duy tuần Viên Kiều huyện Hải Lăng mỗi năm nộp 2 đôi chiếu mây.\",\n        \"score\": 0.0842001988875858\n      },\n      {\n        \"han_start\": 17,\n        \"han_end\": 18,\n        \"vi_start\": 10,\n        \"vi_end\": 10,\n        \"han_text\": \"廟南花希長五尺四寸橫四尺 款席長七尺八寸七分橫一尺八寸八分\",\n        \"vietnamese_text\": \"Xứ Quảng Nam lệ chiếu hoa dài ð thước 4 tấc, ngang 4 thước, chiếu miến dài 7 thước 8 tấc 7 phân, ngang l1 thước 8 tấc 8 phân.\",\n        \"score\": 0.4415875861432096\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 3,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "社亦買池子实梭貶各縣容户水 每坊例油染參祝四十埕免其搜 另橋道捍墨府庫草象市渡門港磚尾排表潔賞及若外物諸器香茶鼎 扶宅社衛簡為席俗名筆席亦以作帆",
+          "vietnamese_text": "Xã Phù Trạch huyện Hương Trà dệt lác làm chiếu, tục gọi là chiếu đệm, cũng dùng làm buềm, chiếu ấy cũng như chiếu Quảng Lâm xứ Kinh Bác.",
+          "score": 0.0835689473165938
+        },
+        {
+          "han_start": 4,
+          "han_end": 4,
+          "vi_start": 1,
+          "vi_end": 1,
+          "han_text": "其席亦四京北廣賢牽蠡水縣福祿絲祿二社織草管席",
+          "vietnamese_text": "Hai xã Đại Phước và Tuy Lộc huyện Lệ Thuỷ thì dệt chiếu cói.",
+          "score": 0.07869151324194482
+        },
+        {
+          "han_start": 5,
+          "han_end": 8,
+          "vi_start": 2,
+          "vi_end": 2,
+          "han_text": "雲望府新福縣花山社術花奉替搜 另係弟正旦為廣南营收款席三十五双 教小席四双投長席一双救短席一双 稔小席四双白連席置文庙一双",
+          "vietnamese_text": "Xã Hoa Sơn huyện Tân Phúc phủ Điện Bàn nộp chiếu hoa thay cho sưu lính, hàng năm trước ngày mùng một tết, dinh Quảng Nam thu chiếu miến lớn 25 đôi, chiếu miến nhỏ ð đôi, chiếu thảm 8 đôi, chiếu phản dài 8 đôi, chiếu phản ngắn 1 đôi, chiếu nhỏ dày 4 đôi, chiếu cầu trơn trải ở Văn Miếu 1 đôi, chiếu thảm cạp lụa huyền 1 đôi, cộng 50 đôi”, lại các hạng chiếu trơn phát ở công",
+          "score": 0.14995498763745332
+        },
+        {
+          "han_start": 9,
+          "han_end": 9,
+          "vi_start": 3,
+          "vi_end": 3,
+          "han_text": "瓔瑜席強玄德一双共五十双",
+          "vietnamese_text": "t Lễ ra phải là 53 đôi mới đúng.",
+          "score": 0.10530606965923942
+        },
+        {
+          "han_start": 10,
+          "han_end": 10,
+          "vi_start": 5,
+          "vi_end": 5,
+          "han_text": "又白席各項發在伊必公堂所府及庙寺七十五双",
+          "vietnamese_text": "đường phủ và các chùa miếu xứ ấy là 75 đôi.",
+          "score": 0.17215710120230102
+        },
+        {
+          "han_start": 11,
+          "han_end": 13,
+          "vi_start": 6,
+          "vi_end": 7,
+          "han_text": "然花席亦有辰令廟南當官買 或以置南寺五十二双或置宮府至三百五六十三政昆鳳五酉八花二百三十文大花席七酉意高清一双意合書一天个南仁府待離安和屬西山村共鴉翻社 吳納席三十",
+          "vietnamese_text": "Nhưng chiếu hoa cũng có khi sai quan dinh Quảng Nam mua, hoặc để ở chùa miếu 52 đôi, hoặc để ở dinh phủ đến 360 đôi. Xã Nha Phiên huyện Phù Ly phủ Quy Nhơn có đội thợ dệt chiếu thảm (cù du), mỗi năm nộp 30 đôi.",
+          "score": 0.23004210469246017
+        },
+        {
+          "han_start": 14,
+          "han_end": 15,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "安府亦有言家幾納童席五十以連席一双 藤花席又出圓化必谷恩之潔頭並也",
+          "vietnamese_text": "Phủ Phú Yên cũng có đội ấy, mỗi năm nộp chiếu rộng 50 đôi, chiếu cầu 1 đôi, chiếu hẹp 1 đôi.",
+          "score": 0.11347758971772448
+        },
+        {
+          "han_start": 16,
+          "han_end": 16,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "稅例海陵鼎圓卷巡弟納藤席二双",
+          "vietnamese_text": "Chiếu mây sản ở đầu nguồn các huyện xứ Thuận Hoá, đều không có thuế, duy tuần Viên Kiều huyện Hải Lăng mỗi năm nộp 2 đôi chiếu mây.",
+          "score": 0.0842001988875858
+        },
+        {
+          "han_start": 17,
+          "han_end": 18,
+          "vi_start": 10,
+          "vi_end": 10,
+          "han_text": "廟南花希長五尺四寸橫四尺 款席長七尺八寸七分橫一尺八寸八分",
+          "vietnamese_text": "Xứ Quảng Nam lệ chiếu hoa dài ð thước 4 tấc, ngang 4 thước, chiếu miến dài 7 thước 8 tấc 7 phân, ngang l1 thước 8 tấc 8 phân.",
+          "score": 0.4415875861432096
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 4515
+}

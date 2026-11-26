@@ -1,0 +1,77 @@
+{
+  "range": [
+    249,
+    250
+  ],
+  "submitted_range": [
+    249,
+    251
+  ],
+  "ids": [
+    "Cap_01-VI-0249-009",
+    "Cap_01-VI-0249-010",
+    "Cap_01-VI-0249-011",
+    "Cap_01-VI-0250-001",
+    "Cap_01-VI-0250-003",
+    "Cap_01-VI-0250-004",
+    "Cap_01-VI-0250-005",
+    "Cap_01-VI-0250-006"
+  ],
+  "submitted_ids": [
+    "Cap_01-VI-0249-009",
+    "Cap_01-VI-0249-010",
+    "Cap_01-VI-0249-011",
+    "Cap_01-VI-0250-001",
+    "Cap_01-VI-0250-002",
+    "Cap_01-VI-0250-003",
+    "Cap_01-VI-0250-004",
+    "Cap_01-VI-0250-005",
+    "Cap_01-VI-0250-006",
+    "Cap_01-VI-0251-001"
+  ],
+  "han_coverage": 0.30952380952380953,
+  "vi_coverage": 0.8,
+  "missing_han": 58,
+  "duplicate_han": 0,
+  "duplicate_vi": 0,
+  "unresolved": 2,
+  "order_violations": 0,
+  "mapped_groups": 2,
+  "number_hits": 1,
+  "entity_hits": 0,
+  "weak_api_score": 0.01537092649948281,
+  "links": [
+    [
+      23654,
+      23666,
+      [
+        "Cap_01-VI-0249-009",
+        "Cap_01-VI-0249-010",
+        "Cap_01-VI-0249-011",
+        "Cap_01-VI-0250-001"
+      ]
+    ],
+    [
+      23693,
+      23707,
+      [
+        "Cap_01-VI-0250-003",
+        "Cap_01-VI-0250-004",
+        "Cap_01-VI-0250-005",
+        "Cap_01-VI-0250-006"
+      ]
+    ]
+  ],
+  "score": 0.9107016540370807,
+  "status": "ok",
+  "request_key": "ecab8562fa76ddbdea47807976433d4651512590825ac31b8c3a9e1101fd3ca3",
+  "cap": "Cap_01",
+  "han_page": 53,
+  "purpose": "production",
+  "han_ids": [
+    "Cap_01-053-053-S4-0001",
+    "Cap_01-053-053-S4-0002",
+    "Cap_01-053-053-S4-0003",
+    "Cap_01-053-053-S4-0004"
+  ]
+}

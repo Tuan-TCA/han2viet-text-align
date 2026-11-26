@@ -1,0 +1,132 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "ceafafee51896d1ca487c1b258be84357df41ad11ff818533da1686486f4cf23",
+  "payload": {
+    "han": "軍五陽之三船之四十丁漸船十五夏各海門字禦要贅海門守軍三隊\n隊三船之四十不共三百六十丁戰船九隻\n水混海日守點真海門守樣操海月守丐海日余\n清湖守亦加之的二守漸船三隻\n紅江各守禦強威守守軍五隊之三船四十下\n反須海門守守軍一隊之三般四十六\n共一百二十丁胚直海月而加之\n宜相处共七百二十六戰船十五處\n強咸守科溫字并終守誤婆稽守深陷字質莊乎亦加之\n阮家置左提右提二衙各五人\n居富春營之左石擇宋山縣亥將子孫寬之以佛若六弦隊有秩\n按此遂補立古者取世族之意\n故土俗有云文為官子為另\n但譽紀子義乎\n居安養未嘗教習致令熙可依者\n景興四年癸酉各廣南五府民效免另受差与蹤效\n後五府兵效共十五萬二千三百七十人\n内取另兵九萬一千三百九十六人\n升举府民效四萬三千七百九十六人\n除四府各社所另五千五百二人\n其內員民七千七十七人餘夫民二百二千七十二人\n並受另年分在府民二弓八千九百四十五人\n受另全分奠盤府民救二弓七千四百八十一人\n除內府附壘各莊無另一千五百十五人\n希匠座花開登無另七千三百十八人\n其四員子民八千六百廿人餘夫民一百四十五人並受半分\n六府民一萬五千八百八十三人受另全分",
+    "vi": "Các thuyề n thuộc bình được miễn tiền ggạo, chừng 20 thuyền, mỗi thuyền 50 người, cộng 1.000 người, chiến thuyề n 20 chiếc.\nTạm binh được miễn sưu chừng 100 thuyền, mỗi thuyền 40 người, cộng 4.000 người, chiến thuyền 100 chiếc, Số thôn huyện Tân Bình hơn 3ã0 thôn. số dân hơn 15.00 định. lệ thuế ruộng hơn 3.000 hộc.\nSố thôn thuộc Qui An hơn 100 thôn, số đân hơn 3.000 đình, chiến thuyền 50 chiếc, lệ thuế ruộng hơn 5.000 hộc.\nSố thôn thuộc Tam Lạch 100 thôn, số dân 4.000 đinh, chiến thuyển 70 chiếc, số ruộng hơn ð.000 thửa.\nSố thôn 3 trại Bả Canh, Bà Lai, Rạch Kiến 100 thôn, số dân 4.000 đỉnh, chiến thuyền 70 chiếc, số ruộng hơn 41.000 thửa.\nThủ cửa Soài Rạp. quân 3 đội, mỗi đội 3 thuyển, mỗi thuyền 40 người, cộng 360 người.\nThủ cửa Đồng Tranh, thủ cửa Đại cửa Tiểu, thủ cửa Bà Lai, cũng như thế."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 2,\n        \"vi_start\": 0,\n        \"vi_end\": 1,\n        \"han_text\": \"軍五陽之三船之四十丁漸船十五夏各海門字禦要贅海門守軍三隊 隊三船之四十不共三百六十丁戰船九隻 水混海日守點真海門守樣操海月守丐海日余\",\n        \"vietnamese_text\": \"Các thuyề n thuộc bình được miễn tiền ggạo, chừng 20 thuyền, mỗi thuyền 50 người, cộng 1. 000 người, chiến thuyề n 20 chiếc.\",\n        \"score\": 0.06847567383203597\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 5,\n        \"vi_start\": 2,\n        \"vi_end\": 2,\n        \"han_text\": \"清湖守亦加之的二守漸船三隻 紅江各守禦強威守守軍五隊之三船四十下 反須海門守守軍一隊之三般四十六\",\n        \"vietnamese_text\": \"Tạm binh được miễn sưu chừng 100 thuyền, mỗi thuyền 40 người, cộng 4.\",\n        \"score\": 0.15836554306006934\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 8,\n        \"vi_start\": 3,\n        \"vi_end\": 3,\n        \"han_text\": \"共一百二十丁胚直海月而加之 宜相处共七百二十六戰船十五處 強咸守科溫字并終守誤婆稽守深陷字質莊乎亦加之\",\n        \"vietnamese_text\": \"000 người, chiến thuyền 100 chiếc, Số thôn huyện Tân Bình hơn 3ã0 thôn.\",\n        \"score\": 0.07613255493121716\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 12,\n        \"vi_start\": 4,\n        \"vi_end\": 4,\n        \"han_text\": \"阮家置左提右提二衙各五人 居富春營之左石擇宋山縣亥將子孫寬之以佛若六弦隊有秩 按此遂補立古者取世族之意 故土俗有云文為官子為另\",\n        \"vietnamese_text\": \"số dân hơn 15.\",\n        \"score\": 0.013461675184779451\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 13,\n        \"vi_start\": 5,\n        \"vi_end\": 5,\n        \"han_text\": \"但譽紀子義乎\",\n        \"vietnamese_text\": \"00 định.\",\n        \"score\": 0.13399661730334245\n      },\n      {\n        \"han_start\": 14,\n        \"han_end\": 16,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"居安養未嘗教習致令熙可依者 景興四年癸酉各廣南五府民效免另受差与蹤效 後五府兵效共十五萬二千三百七十人\",\n        \"vietnamese_text\": \"lệ thuế ruộng hơn 3.\",\n        \"score\": 0.008253467249478546\n      },\n      {\n        \"han_start\": 17,\n        \"han_end\": 18,\n        \"vi_start\": 7,\n        \"vi_end\": 8,\n        \"han_text\": \"内取另兵九萬一千三百九十六人 升举府民效四萬三千七百九十六人\",\n        \"vietnamese_text\": \"000 hộc. Số thôn thuộc Qui An hơn 100 thôn, số đân hơn 3.\",\n        \"score\": 0.06673735363105475\n      },\n      {\n        \"han_start\": 19,\n        \"han_end\": 20,\n        \"vi_start\": 9,\n        \"vi_end\": 10,\n        \"han_text\": \"除四府各社所另五千五百二人 其內員民七千七十七人餘夫民二百二千七十二人\",\n        \"vietnamese_text\": \"000 đình, chiến thuyền 50 chiếc, lệ thuế ruộng hơn 5. 000 hộc.\",\n        \"score\": 0.14867612811599099\n      },\n      {\n        \"han_start\": 21,\n        \"han_end\": 21,\n        \"vi_start\": 11,\n        \"vi_end\": 11,\n        \"han_text\": \"並受另年分在府民二弓八千九百四十五人\",\n        \"vietnamese_text\": \"Số thôn thuộc Tam Lạch 100 thôn, số dân 4.\",\n        \"score\": 0.03560620715772305\n      },\n      {\n        \"han_start\": 22,\n        \"han_end\": 23,\n        \"vi_start\": 12,\n        \"vi_end\": 13,\n        \"han_text\": \"受另全分奠盤府民救二弓七千四百八十一人 除內府附壘各莊無另一千五百十五人\",\n        \"vietnamese_text\": \"000 đinh, chiến thuyển 70 chiếc, số ruộng hơn ð. 000 thửa.\",\n        \"score\": 0.10807254023269648\n      },\n      {\n        \"han_start\": 24,\n        \"han_end\": 24,\n        \"vi_start\": 14,\n        \"vi_end\": 17,\n        \"han_text\": \"希匠座花開登無另七千三百十八人\",\n        \"vietnamese_text\": \"Số thôn 3 trại Bả Canh, Bà Lai, Rạch Kiến 100 thôn, số dân 4. 000 đỉnh, chiến thuyền 70 chiếc, số ruộng hơn 41. 000 thửa. Thủ cửa Soài Rạp.\",\n        \"score\": -0.00856983504432382\n      },\n      {\n        \"han_start\": 25,\n        \"han_end\": 26,\n        \"vi_start\": 18,\n        \"vi_end\": 19,\n        \"han_text\": \"其四員子民八千六百廿人餘夫民一百四十五人並受半分 六府民一萬五千八百八十三人受另全分\",\n        \"vietnamese_text\": \"quân 3 đội, mỗi đội 3 thuyển, mỗi thuyền 40 người, cộng 360 người. Thủ cửa Đồng Tranh, thủ cửa Đại cửa Tiểu, thủ cửa Bà Lai, cũng như thế.\",\n        \"score\": 0.18047737750975465\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 2,
+          "vi_start": 0,
+          "vi_end": 1,
+          "han_text": "軍五陽之三船之四十丁漸船十五夏各海門字禦要贅海門守軍三隊 隊三船之四十不共三百六十丁戰船九隻 水混海日守點真海門守樣操海月守丐海日余",
+          "vietnamese_text": "Các thuyề n thuộc bình được miễn tiền ggạo, chừng 20 thuyền, mỗi thuyền 50 người, cộng 1. 000 người, chiến thuyề n 20 chiếc.",
+          "score": 0.06847567383203597
+        },
+        {
+          "han_start": 3,
+          "han_end": 5,
+          "vi_start": 2,
+          "vi_end": 2,
+          "han_text": "清湖守亦加之的二守漸船三隻 紅江各守禦強威守守軍五隊之三船四十下 反須海門守守軍一隊之三般四十六",
+          "vietnamese_text": "Tạm binh được miễn sưu chừng 100 thuyền, mỗi thuyền 40 người, cộng 4.",
+          "score": 0.15836554306006934
+        },
+        {
+          "han_start": 6,
+          "han_end": 8,
+          "vi_start": 3,
+          "vi_end": 3,
+          "han_text": "共一百二十丁胚直海月而加之 宜相处共七百二十六戰船十五處 強咸守科溫字并終守誤婆稽守深陷字質莊乎亦加之",
+          "vietnamese_text": "000 người, chiến thuyền 100 chiếc, Số thôn huyện Tân Bình hơn 3ã0 thôn.",
+          "score": 0.07613255493121716
+        },
+        {
+          "han_start": 9,
+          "han_end": 12,
+          "vi_start": 4,
+          "vi_end": 4,
+          "han_text": "阮家置左提右提二衙各五人 居富春營之左石擇宋山縣亥將子孫寬之以佛若六弦隊有秩 按此遂補立古者取世族之意 故土俗有云文為官子為另",
+          "vietnamese_text": "số dân hơn 15.",
+          "score": 0.013461675184779451
+        },
+        {
+          "han_start": 13,
+          "han_end": 13,
+          "vi_start": 5,
+          "vi_end": 5,
+          "han_text": "但譽紀子義乎",
+          "vietnamese_text": "00 định.",
+          "score": 0.13399661730334245
+        },
+        {
+          "han_start": 14,
+          "han_end": 16,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "居安養未嘗教習致令熙可依者 景興四年癸酉各廣南五府民效免另受差与蹤效 後五府兵效共十五萬二千三百七十人",
+          "vietnamese_text": "lệ thuế ruộng hơn 3.",
+          "score": 0.008253467249478546
+        },
+        {
+          "han_start": 17,
+          "han_end": 18,
+          "vi_start": 7,
+          "vi_end": 8,
+          "han_text": "内取另兵九萬一千三百九十六人 升举府民效四萬三千七百九十六人",
+          "vietnamese_text": "000 hộc. Số thôn thuộc Qui An hơn 100 thôn, số đân hơn 3.",
+          "score": 0.06673735363105475
+        },
+        {
+          "han_start": 19,
+          "han_end": 20,
+          "vi_start": 9,
+          "vi_end": 10,
+          "han_text": "除四府各社所另五千五百二人 其內員民七千七十七人餘夫民二百二千七十二人",
+          "vietnamese_text": "000 đình, chiến thuyền 50 chiếc, lệ thuế ruộng hơn 5. 000 hộc.",
+          "score": 0.14867612811599099
+        },
+        {
+          "han_start": 21,
+          "han_end": 21,
+          "vi_start": 11,
+          "vi_end": 11,
+          "han_text": "並受另年分在府民二弓八千九百四十五人",
+          "vietnamese_text": "Số thôn thuộc Tam Lạch 100 thôn, số dân 4.",
+          "score": 0.03560620715772305
+        },
+        {
+          "han_start": 22,
+          "han_end": 23,
+          "vi_start": 12,
+          "vi_end": 13,
+          "han_text": "受另全分奠盤府民救二弓七千四百八十一人 除內府附壘各莊無另一千五百十五人",
+          "vietnamese_text": "000 đinh, chiến thuyển 70 chiếc, số ruộng hơn ð. 000 thửa.",
+          "score": 0.10807254023269648
+        },
+        {
+          "han_start": 24,
+          "han_end": 24,
+          "vi_start": 14,
+          "vi_end": 17,
+          "han_text": "希匠座花開登無另七千三百十八人",
+          "vietnamese_text": "Số thôn 3 trại Bả Canh, Bà Lai, Rạch Kiến 100 thôn, số dân 4. 000 đỉnh, chiến thuyền 70 chiếc, số ruộng hơn 41. 000 thửa. Thủ cửa Soài Rạp.",
+          "score": -0.00856983504432382
+        },
+        {
+          "han_start": 25,
+          "han_end": 26,
+          "vi_start": 18,
+          "vi_end": 19,
+          "han_text": "其四員子民八千六百廿人餘夫民一百四十五人並受半分 六府民一萬五千八百八十三人受另全分",
+          "vietnamese_text": "quân 3 đội, mỗi đội 3 thuyển, mỗi thuyền 40 người, cộng 360 người. Thủ cửa Đồng Tranh, thủ cửa Đại cửa Tiểu, thủ cửa Bà Lai, cũng như thế.",
+          "score": 0.18047737750975465
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 2656
+}

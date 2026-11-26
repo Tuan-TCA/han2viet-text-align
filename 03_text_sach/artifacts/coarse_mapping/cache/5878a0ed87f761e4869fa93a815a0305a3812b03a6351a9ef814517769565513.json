@@ -1,0 +1,105 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "5878a0ed87f761e4869fa93a815a0305a3812b03a6351a9ef814517769565513",
+  "payload": {
+    "han": "天生人人成天位定然無定形分之而三木令之而六藉\n又人於此或卷而約之或舒而博云夫誰曰不宜自人負之固\n故有正得有奇得之無求而不得\n有溲無注而不得道一也名之不同位之浪也\n昔有簡焉友善進對畔而而後歧一兼者也\n石者薦之曰高生惠我以清人者\n其中、汽牛酒牛浪馬勃永天之哉\n吾其永之赤藥者推之貴之以得搜數衣之牛\n遺壽諾之養於雜夫接數之於医\n非可治之收之舍之於馬勒其位之若自翁社奉先人之貴編\n宿累世之精精一得意商茗止健\n第則膺之不已又從而幸之而弦之曰遲吾往也\n院仕則弦者韋三者弦斷而半矣\n今且不忘以一三均之\n是人也曾未五十既胡然而其又胡德而畢似非位之級而何\n賈侯謙義土之義復焚券之值\n貴為失重然诺廉秘合而應已律小白之正於周勤都誠而賞罰義苑直之忠於處\n智微為規誰使圓云\n義微為矩誰使能之\n終一言而百議終一行而群發且不膚挖不掣觀\n既而不司滿足不停報讀一善而來春臺登則非鄙也之可臣得也\n不惟不可生恐之而定不周因之而不及書者也\n何則\n涯於嘗者龍皆於",
+    "vi": "Ai đã buộc thuyên khi nửa tỉnh, Mới hay chiếc lá mạnh bao nhiêu!\n1‡nÑ đổi gát rửa chân” Đứơo điên bày trước ghẹo anh hùng.\nMột cặp hông quân rửa gót ông, Ngồi xổm, chân rồng uừa nhúng ướt; Nước người, mặt ngọc uấn bề bên.\nTướng quân” nếu giữ nho sinh bhí, Đình trưởng” khôn thu Lý Giám\" công.\nĐại để thư ông nhờ uó ngựa”), Ủng dung không có đế uương phong”.\nThơ vịnh tứ thú thì có các bài:\n3(át củi Tiếng búa uàng choang choảng cách khe.\nĐó rừng uưđn hạc bạn đông tây, Đường tô phút rắm quang sơn huỷ” Đần trúc phá rừng - ruổi da bế” Bầu chở có người, nguy Vì Hiếu” Đúát sinh không chốn, đói Di Tế” Đổi ngày rét mười mong ngày ấm, Lối tắt đi qua khóc lẫn cười.\n®i cây Bừa uàng chân dâm ruông bờ khe, Ngàn đa treo tơi bóng xế tây.\nĐăn uợ hen tơ cua phối chứa”; Đất con roi trúc Sò gũy mai."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 1,\n        \"han_end\": 2,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"又人於此或卷而約之或舒而博云夫誰曰不宜自人負之固 故有正得有奇得之無求而不得\",\n        \"vietnamese_text\": \"Ai đã buộc thuyên khi nửa tỉnh, Mới hay chiếc lá mạnh bao nhiêu!\",\n        \"score\": 0.2562262831669904\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 5,\n        \"vi_start\": 1,\n        \"vi_end\": 1,\n        \"han_text\": \"有溲無注而不得道一也名之不同位之浪也 昔有簡焉友善進對畔而而後歧一兼者也 石者薦之曰高生惠我以清人者\",\n        \"vietnamese_text\": \"1‡nÑ đổi gát rửa chân” Đứơo điên bày trước ghẹo anh hùng.\",\n        \"score\": 0.04398011639458212\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 8,\n        \"vi_start\": 2,\n        \"vi_end\": 2,\n        \"han_text\": \"其中、汽牛酒牛浪馬勃永天之哉 吾其永之赤藥者推之貴之以得搜數衣之牛 遺壽諾之養於雜夫接數之於医\",\n        \"vietnamese_text\": \"Một cặp hông quân rửa gót ông, Ngồi xổm, chân rồng uừa nhúng ướt; Nước người, mặt ngọc uấn bề bên.\",\n        \"score\": 0.1825655712301613\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 11,\n        \"vi_start\": 3,\n        \"vi_end\": 4,\n        \"han_text\": \"非可治之收之舍之於馬勒其位之若自翁社奉先人之貴編 宿累世之精精一得意商茗止健 第則膺之不已又從而幸之而弦之曰遲吾往也\",\n        \"vietnamese_text\": \"Tướng quân” nếu giữ nho sinh bhí, Đình trưởng” khôn thu Lý Giám\\\" công. Đại để thư ông nhờ uó ngựa”), Ủng dung không có đế uương phong”.\",\n        \"score\": 0.17198477837689105\n      },\n      {\n        \"han_start\": 12,\n        \"han_end\": 12,\n        \"vi_start\": 5,\n        \"vi_end\": 5,\n        \"han_text\": \"院仕則弦者韋三者弦斷而半矣\",\n        \"vietnamese_text\": \"Thơ vịnh tứ thú thì có các bài:\",\n        \"score\": 0.14971227983848717\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 13,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"今且不忘以一三均之\",\n        \"vietnamese_text\": \"3(át củi Tiếng búa uàng choang choảng cách khe.\",\n        \"score\": -0.0028199300821963686\n      },\n      {\n        \"han_start\": 14,\n        \"han_end\": 17,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"是人也曾未五十既胡然而其又胡德而畢似非位之級而何 賈侯謙義土之義復焚券之值 貴為失重然诺廉秘合而應已律小白之正於周勤都誠而賞罰義苑直之忠於處 智微為規誰使圓云\",\n        \"vietnamese_text\": \"Đó rừng uưđn hạc bạn đông tây, Đường tô phút rắm quang sơn huỷ” Đần trúc phá rừng - ruổi da bế” Bầu chở có người, nguy Vì Hiếu” Đúát sinh không chốn, đói Di Tế” Đổi ngày rét mười mong ngày ấm, Lối tắt đi qua khóc lẫn cười.\",\n        \"score\": 0.13040810600883246\n      },\n      {\n        \"han_start\": 18,\n        \"han_end\": 19,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"義微為矩誰使能之 終一言而百議終一行而群發且不膚挖不掣觀\",\n        \"vietnamese_text\": \"®i cây Bừa uàng chân dâm ruông bờ khe, Ngàn đa treo tơi bóng xế tây.\",\n        \"score\": 0.0353174493505745\n      },\n      {\n        \"han_start\": 20,\n        \"han_end\": 23,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"既而不司滿足不停報讀一善而來春臺登則非鄙也之可臣得也 不惟不可生恐之而定不周因之而不及書者也 何則 涯於嘗者龍皆於\",\n        \"vietnamese_text\": \"Đăn uợ hen tơ cua phối chứa”; Đất con roi trúc Sò gũy mai.\",\n        \"score\": 0.005786307427573578\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 1,
+          "han_end": 2,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "又人於此或卷而約之或舒而博云夫誰曰不宜自人負之固 故有正得有奇得之無求而不得",
+          "vietnamese_text": "Ai đã buộc thuyên khi nửa tỉnh, Mới hay chiếc lá mạnh bao nhiêu!",
+          "score": 0.2562262831669904
+        },
+        {
+          "han_start": 3,
+          "han_end": 5,
+          "vi_start": 1,
+          "vi_end": 1,
+          "han_text": "有溲無注而不得道一也名之不同位之浪也 昔有簡焉友善進對畔而而後歧一兼者也 石者薦之曰高生惠我以清人者",
+          "vietnamese_text": "1‡nÑ đổi gát rửa chân” Đứơo điên bày trước ghẹo anh hùng.",
+          "score": 0.04398011639458212
+        },
+        {
+          "han_start": 6,
+          "han_end": 8,
+          "vi_start": 2,
+          "vi_end": 2,
+          "han_text": "其中、汽牛酒牛浪馬勃永天之哉 吾其永之赤藥者推之貴之以得搜數衣之牛 遺壽諾之養於雜夫接數之於医",
+          "vietnamese_text": "Một cặp hông quân rửa gót ông, Ngồi xổm, chân rồng uừa nhúng ướt; Nước người, mặt ngọc uấn bề bên.",
+          "score": 0.1825655712301613
+        },
+        {
+          "han_start": 9,
+          "han_end": 11,
+          "vi_start": 3,
+          "vi_end": 4,
+          "han_text": "非可治之收之舍之於馬勒其位之若自翁社奉先人之貴編 宿累世之精精一得意商茗止健 第則膺之不已又從而幸之而弦之曰遲吾往也",
+          "vietnamese_text": "Tướng quân” nếu giữ nho sinh bhí, Đình trưởng” khôn thu Lý Giám\" công. Đại để thư ông nhờ uó ngựa”), Ủng dung không có đế uương phong”.",
+          "score": 0.17198477837689105
+        },
+        {
+          "han_start": 12,
+          "han_end": 12,
+          "vi_start": 5,
+          "vi_end": 5,
+          "han_text": "院仕則弦者韋三者弦斷而半矣",
+          "vietnamese_text": "Thơ vịnh tứ thú thì có các bài:",
+          "score": 0.14971227983848717
+        },
+        {
+          "han_start": 13,
+          "han_end": 13,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "今且不忘以一三均之",
+          "vietnamese_text": "3(át củi Tiếng búa uàng choang choảng cách khe.",
+          "score": -0.0028199300821963686
+        },
+        {
+          "han_start": 14,
+          "han_end": 17,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "是人也曾未五十既胡然而其又胡德而畢似非位之級而何 賈侯謙義土之義復焚券之值 貴為失重然诺廉秘合而應已律小白之正於周勤都誠而賞罰義苑直之忠於處 智微為規誰使圓云",
+          "vietnamese_text": "Đó rừng uưđn hạc bạn đông tây, Đường tô phút rắm quang sơn huỷ” Đần trúc phá rừng - ruổi da bế” Bầu chở có người, nguy Vì Hiếu” Đúát sinh không chốn, đói Di Tế” Đổi ngày rét mười mong ngày ấm, Lối tắt đi qua khóc lẫn cười.",
+          "score": 0.13040810600883246
+        },
+        {
+          "han_start": 18,
+          "han_end": 19,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "義微為矩誰使能之 終一言而百議終一行而群發且不膚挖不掣觀",
+          "vietnamese_text": "®i cây Bừa uàng chân dâm ruông bờ khe, Ngàn đa treo tơi bóng xế tây.",
+          "score": 0.0353174493505745
+        },
+        {
+          "han_start": 20,
+          "han_end": 23,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "既而不司滿足不停報讀一善而來春臺登則非鄙也之可臣得也 不惟不可生恐之而定不周因之而不及書者也 何則 涯於嘗者龍皆於",
+          "vietnamese_text": "Đăn uợ hen tơ cua phối chứa”; Đất con roi trúc Sò gũy mai.",
+          "score": 0.005786307427573578
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 5422
+}

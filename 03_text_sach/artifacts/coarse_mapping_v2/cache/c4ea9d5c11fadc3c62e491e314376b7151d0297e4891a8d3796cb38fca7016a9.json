@@ -1,0 +1,150 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "c4ea9d5c11fadc3c62e491e314376b7151d0297e4891a8d3796cb38fca7016a9",
+  "payload": {
+    "han": "官傳下各社村坊採買迎約或四千五百欠\n順化必人多以飭方盤圓盒巾箱\n劍把占城毫綿畫金飭碑碟則多嵌水晶\n小方盤臣青碧燥然\n玄珀出可仁鎮其塊似銅塊色黑\n四秩人云能辟民璇作子念珠事琦琦香出於廣南處平柔\n延慶二府各社山頭為第一出於富安歸仁二府為第二\n其香乃措樹心结來楮有三種\n牛舌捲朗椿為苦流臬楷為流香\n瓢椿為琦殉香人見樹老葉董而小\n樹多疵贅即知有香所同取之\n前阮氏道借山家常以歲二月操探六月而還\n其於得多少不定以白蠟色者而上\n鸭須綠色次之青蠟色亦次之\n虎斑色以下以軟如凝飭粉可切\n臣此西上里实去為下語云一白二青三黃四黑\n歡辨流香與琦南香之異但以形質無味别之\n流香星重少香色味若琦瑕烟老直上而綿洗香只亡臨金琦疏它滋中尾疾盛紫口等症\n磨小灌之并燒烟令香之入鼻立甦\n腹帳脹滿流令口化立愈\n又亡辟邪見疫去行師之所可忌紙色\n宜貯磁錫器以焦樹及巨密封",
+    "vi": "Xét sách Võ b¿ chí chép \"Nước Tam Phật Tế”, một bên là Cựu Cảng”, sản chim hạc đính, lớn bằng con vịt, xương óc nó dày hơn một tấc, ngoài vàng trong đỏ, tươi đẹp đáng yêu.\nNước Bôt Nê\"\" cũng có\".\nThuận Hoá có thứ ngọc gọi là hoàn chiếu, do thuyền buôn Hoà Lan đem đến, có hai sắc xanh và trắng là nhiều, sắc vàng nhạt và đỏ thì rất ít, thứ lớn thì bằng hạt ngô, thứ nhỏ thì bằng hạt đậu xanh, dùng để sức nhẫn và chỏm mũ.\nTối thì thấy sáng.\nĐể gần mắt mà nhìn thì có vẻ năm màu xanh đỏ lóng lánh.\nCho vào lửa không cháy.\nMỗi hạt trị giá tới trăm lạng bạc.\nThứ nữa đến các ngọc thuỷ soạn, hoả soạn và kim cương.\n“Người Tây Dương là Từ Tâm bá làm Thiên văn nội viện của họ Nguyễn, trước ở phường Phú Xuân đã 30 năm, sách đem theo có mấy chục, vì là chữ tây người ta không thể đọc được.\nNhà vườn sạch sẽ, bán thuốc làm nghề sinh nhai, chứa thuốc hoàn tán và rượu đều dùng bằng thưỷ tỉnh pha lê.\nY nói đá mắt rắn khẩm mặt nhân chỉ có hai màu vàng nhạt và thuần vàng là thật, các màu khác đều là ngọc giả.\nNgọc hoàn chiếu thì cho vào lửa không cháy là thật, cháy vỡ là thuỷ tinh.\nỞ Thuận Hoá người ta dùng lá mài hột hổ phách cho tròn sáng, ngậm nước nghệ phun vào, rồi sau dùng gỗ tử đàn ngâm rượu mà chưng lên, đem xâu hổ phách ngâm vào ít lâu để nhuộm thì màu nhạt đều thành màu đỏ, ngày hôm sau lấy ít đầu xát vào thì sáng bóng như chân phách.\nCây tử đàn thì Trung Quốc không có, xuất từ thuyền phiên của các nước Xiêm La, nấu bằng rượu và ngâm nước thì đỏ thẫm, có thể nhuộm được, giặt màu vẫn không phai.\nXà cừ sản ở Quảng Nam, trước không có thuế thường.\nCó dùng để trang sức thì quan Đề gia hạ lệnh cho quan công đường xứ ấy truyền cho các xã thôn phường tìm mua đệ nộp, hoặc 4.500 cái, hoặc vài nghìn cái."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 0,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"官傳下各社村坊採買迎約或四千五百欠\",\n        \"vietnamese_text\": \"Xét sách Võ b¿ chí chép \\\"Nước Tam Phật Tế”, một bên là Cựu Cảng”, sản chim hạc đính, lớn bằng con vịt, xương óc nó dày hơn một tấc, ngoài vàng trong đỏ, tươi đẹp đáng yêu.\",\n        \"score\": -0.019916643197330736\n      },\n      {\n        \"han_start\": 1,\n        \"han_end\": 2,\n        \"vi_start\": 1,\n        \"vi_end\": 1,\n        \"han_text\": \"順化必人多以飭方盤圓盒巾箱 劍把占城毫綿畫金飭碑碟則多嵌水晶\",\n        \"vietnamese_text\": \"Nước Bôt Nê\\\"\\\" cũng có\\\".\",\n        \"score\": -0.017399442943569148\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 5,\n        \"vi_start\": 2,\n        \"vi_end\": 2,\n        \"han_text\": \"小方盤臣青碧燥然 玄珀出可仁鎮其塊似銅塊色黑 四秩人云能辟民璇作子念珠事琦琦香出於廣南處平柔\",\n        \"vietnamese_text\": \"Thuận Hoá có thứ ngọc gọi là hoàn chiếu, do thuyền buôn Hoà Lan đem đến, có hai sắc xanh và trắng là nhiều, sắc vàng nhạt và đỏ thì rất ít, thứ lớn thì bằng hạt ngô, thứ nhỏ thì bằng hạt đậu xanh, dùng để sức nhẫn và chỏm mũ.\",\n        \"score\": 0.20546049497530317\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 6,\n        \"vi_start\": 3,\n        \"vi_end\": 3,\n        \"han_text\": \"延慶二府各社山頭為第一出於富安歸仁二府為第二\",\n        \"vietnamese_text\": \"Tối thì thấy sáng.\",\n        \"score\": 0.00010815802808234627\n      },\n      {\n        \"han_start\": 7,\n        \"han_end\": 7,\n        \"vi_start\": 4,\n        \"vi_end\": 4,\n        \"han_text\": \"其香乃措樹心结來楮有三種\",\n        \"vietnamese_text\": \"Để gần mắt mà nhìn thì có vẻ năm màu xanh đỏ lóng lánh.\",\n        \"score\": 0.12687748725873474\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 9,\n        \"vi_start\": 5,\n        \"vi_end\": 5,\n        \"han_text\": \"牛舌捲朗椿為苦流臬楷為流香 瓢椿為琦殉香人見樹老葉董而小\",\n        \"vietnamese_text\": \"Cho vào lửa không cháy.\",\n        \"score\": -0.019918716496435188\n      },\n      {\n        \"han_start\": 10,\n        \"han_end\": 10,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"樹多疵贅即知有香所同取之\",\n        \"vietnamese_text\": \"Mỗi hạt trị giá tới trăm lạng bạc.\",\n        \"score\": 0.09081165809980128\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 12,\n        \"vi_start\": 7,\n        \"vi_end\": 8,\n        \"han_text\": \"前阮氏道借山家常以歲二月操探六月而還 其於得多少不定以白蠟色者而上\",\n        \"vietnamese_text\": \"Thứ nữa đến các ngọc thuỷ soạn, hoả soạn và kim cương. “Người Tây Dương là Từ Tâm bá làm Thiên văn nội viện của họ Nguyễn, trước ở phường Phú Xuân đã 30 năm, sách đem theo có mấy chục, vì là chữ tây người ta không thể đọc được.\",\n        \"score\": 0.21032374174110802\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 14,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"鸭須綠色次之青蠟色亦次之 虎斑色以下以軟如凝飭粉可切\",\n        \"vietnamese_text\": \"Nhà vườn sạch sẽ, bán thuốc làm nghề sinh nhai, chứa thuốc hoàn tán và rượu đều dùng bằng thưỷ tỉnh pha lê.\",\n        \"score\": 0.07400427555899405\n      },\n      {\n        \"han_start\": 15,\n        \"han_end\": 16,\n        \"vi_start\": 10,\n        \"vi_end\": 10,\n        \"han_text\": \"臣此西上里实去為下語云一白二青三黃四黑 歡辨流香與琦南香之異但以形質無味别之\",\n        \"vietnamese_text\": \"Y nói đá mắt rắn khẩm mặt nhân chỉ có hai màu vàng nhạt và thuần vàng là thật, các màu khác đều là ngọc giả.\",\n        \"score\": 0.13617403152852536\n      },\n      {\n        \"han_start\": 17,\n        \"han_end\": 18,\n        \"vi_start\": 11,\n        \"vi_end\": 13,\n        \"han_text\": \"流香星重少香色味若琦瑕烟老直上而綿洗香只亡臨金琦疏它滋中尾疾盛紫口等症 磨小灌之并燒烟令香之入鼻立甦\",\n        \"vietnamese_text\": \"Ngọc hoàn chiếu thì cho vào lửa không cháy là thật, cháy vỡ là thuỷ tinh. Ở Thuận Hoá người ta dùng lá mài hột hổ phách cho tròn sáng, ngậm nước nghệ phun vào, rồi sau dùng gỗ tử đàn ngâm rượu mà chưng lên, đem xâu hổ phách ngâm vào ít lâu để nhuộm thì màu nhạt đều thành màu đỏ, ngày hôm sau lấy ít đầu xát vào thì sáng bóng như chân phách. Cây tử đàn thì Trung Quốc không có, xuất từ thuyền phiên của các nước Xiêm La, nấu bằng rượu và ngâm nước thì đỏ thẫm, có thể nhuộm được, giặt màu vẫn không phai.\",\n        \"score\": 0.17980860664313789\n      },\n      {\n        \"han_start\": 19,\n        \"han_end\": 19,\n        \"vi_start\": 14,\n        \"vi_end\": 14,\n        \"han_text\": \"腹帳脹滿流令口化立愈\",\n        \"vietnamese_text\": \"Xà cừ sản ở Quảng Nam, trước không có thuế thường.\",\n        \"score\": 0.07076729563992741\n      },\n      {\n        \"han_start\": 20,\n        \"han_end\": 20,\n        \"vi_start\": 15,\n        \"vi_end\": 15,\n        \"han_text\": \"又亡辟邪見疫去行師之所可忌紙色\",\n        \"vietnamese_text\": \"Có dùng để trang sức thì quan Đề gia hạ lệnh cho quan công đường xứ ấy truyền cho các xã thôn phường tìm mua đệ nộp, hoặc 4.\",\n        \"score\": 0.07863211662331249\n      },\n      {\n        \"han_start\": 21,\n        \"han_end\": 21,\n        \"vi_start\": 16,\n        \"vi_end\": 16,\n        \"han_text\": \"宜貯磁錫器以焦樹及巨密封\",\n        \"vietnamese_text\": \"500 cái, hoặc vài nghìn cái.\",\n        \"score\": 0.01428199758954093\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 0,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "官傳下各社村坊採買迎約或四千五百欠",
+          "vietnamese_text": "Xét sách Võ b¿ chí chép \"Nước Tam Phật Tế”, một bên là Cựu Cảng”, sản chim hạc đính, lớn bằng con vịt, xương óc nó dày hơn một tấc, ngoài vàng trong đỏ, tươi đẹp đáng yêu.",
+          "score": -0.019916643197330736
+        },
+        {
+          "han_start": 1,
+          "han_end": 2,
+          "vi_start": 1,
+          "vi_end": 1,
+          "han_text": "順化必人多以飭方盤圓盒巾箱 劍把占城毫綿畫金飭碑碟則多嵌水晶",
+          "vietnamese_text": "Nước Bôt Nê\"\" cũng có\".",
+          "score": -0.017399442943569148
+        },
+        {
+          "han_start": 3,
+          "han_end": 5,
+          "vi_start": 2,
+          "vi_end": 2,
+          "han_text": "小方盤臣青碧燥然 玄珀出可仁鎮其塊似銅塊色黑 四秩人云能辟民璇作子念珠事琦琦香出於廣南處平柔",
+          "vietnamese_text": "Thuận Hoá có thứ ngọc gọi là hoàn chiếu, do thuyền buôn Hoà Lan đem đến, có hai sắc xanh và trắng là nhiều, sắc vàng nhạt và đỏ thì rất ít, thứ lớn thì bằng hạt ngô, thứ nhỏ thì bằng hạt đậu xanh, dùng để sức nhẫn và chỏm mũ.",
+          "score": 0.20546049497530317
+        },
+        {
+          "han_start": 6,
+          "han_end": 6,
+          "vi_start": 3,
+          "vi_end": 3,
+          "han_text": "延慶二府各社山頭為第一出於富安歸仁二府為第二",
+          "vietnamese_text": "Tối thì thấy sáng.",
+          "score": 0.00010815802808234627
+        },
+        {
+          "han_start": 7,
+          "han_end": 7,
+          "vi_start": 4,
+          "vi_end": 4,
+          "han_text": "其香乃措樹心结來楮有三種",
+          "vietnamese_text": "Để gần mắt mà nhìn thì có vẻ năm màu xanh đỏ lóng lánh.",
+          "score": 0.12687748725873474
+        },
+        {
+          "han_start": 8,
+          "han_end": 9,
+          "vi_start": 5,
+          "vi_end": 5,
+          "han_text": "牛舌捲朗椿為苦流臬楷為流香 瓢椿為琦殉香人見樹老葉董而小",
+          "vietnamese_text": "Cho vào lửa không cháy.",
+          "score": -0.019918716496435188
+        },
+        {
+          "han_start": 10,
+          "han_end": 10,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "樹多疵贅即知有香所同取之",
+          "vietnamese_text": "Mỗi hạt trị giá tới trăm lạng bạc.",
+          "score": 0.09081165809980128
+        },
+        {
+          "han_start": 11,
+          "han_end": 12,
+          "vi_start": 7,
+          "vi_end": 8,
+          "han_text": "前阮氏道借山家常以歲二月操探六月而還 其於得多少不定以白蠟色者而上",
+          "vietnamese_text": "Thứ nữa đến các ngọc thuỷ soạn, hoả soạn và kim cương. “Người Tây Dương là Từ Tâm bá làm Thiên văn nội viện của họ Nguyễn, trước ở phường Phú Xuân đã 30 năm, sách đem theo có mấy chục, vì là chữ tây người ta không thể đọc được.",
+          "score": 0.21032374174110802
+        },
+        {
+          "han_start": 13,
+          "han_end": 14,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "鸭須綠色次之青蠟色亦次之 虎斑色以下以軟如凝飭粉可切",
+          "vietnamese_text": "Nhà vườn sạch sẽ, bán thuốc làm nghề sinh nhai, chứa thuốc hoàn tán và rượu đều dùng bằng thưỷ tỉnh pha lê.",
+          "score": 0.07400427555899405
+        },
+        {
+          "han_start": 15,
+          "han_end": 16,
+          "vi_start": 10,
+          "vi_end": 10,
+          "han_text": "臣此西上里实去為下語云一白二青三黃四黑 歡辨流香與琦南香之異但以形質無味别之",
+          "vietnamese_text": "Y nói đá mắt rắn khẩm mặt nhân chỉ có hai màu vàng nhạt và thuần vàng là thật, các màu khác đều là ngọc giả.",
+          "score": 0.13617403152852536
+        },
+        {
+          "han_start": 17,
+          "han_end": 18,
+          "vi_start": 11,
+          "vi_end": 13,
+          "han_text": "流香星重少香色味若琦瑕烟老直上而綿洗香只亡臨金琦疏它滋中尾疾盛紫口等症 磨小灌之并燒烟令香之入鼻立甦",
+          "vietnamese_text": "Ngọc hoàn chiếu thì cho vào lửa không cháy là thật, cháy vỡ là thuỷ tinh. Ở Thuận Hoá người ta dùng lá mài hột hổ phách cho tròn sáng, ngậm nước nghệ phun vào, rồi sau dùng gỗ tử đàn ngâm rượu mà chưng lên, đem xâu hổ phách ngâm vào ít lâu để nhuộm thì màu nhạt đều thành màu đỏ, ngày hôm sau lấy ít đầu xát vào thì sáng bóng như chân phách. Cây tử đàn thì Trung Quốc không có, xuất từ thuyền phiên của các nước Xiêm La, nấu bằng rượu và ngâm nước thì đỏ thẫm, có thể nhuộm được, giặt màu vẫn không phai.",
+          "score": 0.17980860664313789
+        },
+        {
+          "han_start": 19,
+          "han_end": 19,
+          "vi_start": 14,
+          "vi_end": 14,
+          "han_text": "腹帳脹滿流令口化立愈",
+          "vietnamese_text": "Xà cừ sản ở Quảng Nam, trước không có thuế thường.",
+          "score": 0.07076729563992741
+        },
+        {
+          "han_start": 20,
+          "han_end": 20,
+          "vi_start": 15,
+          "vi_end": 15,
+          "han_text": "又亡辟邪見疫去行師之所可忌紙色",
+          "vietnamese_text": "Có dùng để trang sức thì quan Đề gia hạ lệnh cho quan công đường xứ ấy truyền cho các xã thôn phường tìm mua đệ nộp, hoặc 4.",
+          "score": 0.07863211662331249
+        },
+        {
+          "han_start": 21,
+          "han_end": 21,
+          "vi_start": 16,
+          "vi_end": 16,
+          "han_text": "宜貯磁錫器以焦樹及巨密封",
+          "vietnamese_text": "500 cái, hoặc vài nghìn cái.",
+          "score": 0.01428199758954093
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 6266
+}

@@ -1,0 +1,105 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "1e6589d997212b2fb051da30648c5b51a9badecc90b7378553db9bf52c7c9e70",
+  "payload": {
+    "han": "索封西祀成何來誰必真尊向上直其詠制真豐詩云\n晚霞世思屬董念誰向新臺發陸沉伯哉不嘗句鄉胆父臺寸屈敬擾\n百年帝業分光景六月王師豐好音\n十二金牌千古恨小天如若同微欽其詠意\n尊詩云火輪隱約五更霜半壁山河入醉鄉\n斷授已甘游汴水孤招誰料失襄陽\n秋尼城闕排寫贊落日樓臺奏鳳凰\n笑殺近亭無片張半間花草為平章\n阮光前題阮氏釋香家有句云\n素榆長掛千秋鑑金母據森步壽觴\n其錦堂春曲云備户好迎睿日\n珠簾初捲秋集但春秋渾差誅宜夏又宜冬\n夢葉都兩煦育群生咸被悔憾\n且喜清辰何以祝旺相又如松其詠少如風云\n風姨十八正停之到處生潼到處迎\n江上凌波空婉轉枝頭孝舞自控盈\n珠簾繡圍長為伴瑤草琪花首有情\n模樣指將傳入曰是空是色昼推成\n曾闻有人言祚國公有通天朝魏\n而應德寶官銀五夢兩求封貢\n氣照雜正二朝皇帝知是如南蘭臣却而不許未知的否\n今見阮先前家首編乃知果有是事\n順化與",
+    "vi": "Năm Khang Hy thứ 41, Nhâm Ngọ, tháng B, có bản gửi tâu nước Đại Thanh rằng:\n\"Hải ngoại Việt quốc thảo mãng thần Nguyễn Phúc Chu cúi đầu dập đầu trăm lạy dâng nói về việc phương xa mến đức thực lòng hướng hoá như sau: Thần vâng mối thừa của tổ tông, mở mang đất đai ở ngoài biển lớn, kể đã lâu năm, cùng với các nước phương Nam, từ trước chưa từng lệ thuộc vào đâu.\nĐường sá xa xôi, đất đai nhỏ hẹp, chưa dám bày tỏ với Thiên triểu.\nCha ông thần tin Phật, đời đời tu hành.\nThầy thần là nhà sư Trường Thọ Am ở Quảng Đông là Thạch Liêm truyền dạy kinh điển.\nSau khi tụng kinh nhàn rỗi, đã thuật rõ cho thần về những tài đức thánh thần văn võ của hoàng thượng.\nLại có giám sinh ở Quảng Đông là Hoàng Thần, tăng để là Hưng Triệt, đều xưng tụng thanh giáo của hoàng đế truyền tới phương xa, khiến càng thấy ơn hoàng đế mênh mông, nghến trông giáo hoá, nhường như trông ánh sáng mặt trời mặt trăng, trộm mong được làm nước phụ dung, trên được vẻ vang cho việc thờ cúng tiên tổ, dưới được rõ ràng cho sự quan chiêm của nhân dân.\nQuỳ hoặc đốc lòng, chân thành đợi mệnh.\nChợt ngày mồng 2 tháng 9 năm ngoái, thuyền cống của Xiêm La bị bão giạt tới cõi đất nước thần, mới biết đó là thuyền đi cống Thiên triều, nên đốc lòng thành giúp đỡ việc đi cống, sửa thay chiếc thuyền, giúp dưa lương gạo để tới Quảng Đông.\nThần Phúc Chu kính đem tình do qui thành, làm bài biểu đâng, giao cho giám sinh Hoàng Thần và nhà sư Hưng Triệt mang ởi, và đem theo phương vật phụ cống, kỳ nam hương thượng hạng một khối nặng 1 cân 10 lạng, lại kỳ nam hương một khối nặng 3 cân 10 lạng, vàng sống một khối nặng 1 cân 13 lạng 5 tiền, 1 đôi vòng đồng tâm xét, 3 đôi cách sơn minh?), 2 chỉ ngà voi nặng 350 cân, 50 sợi"
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 2,\n        \"vi_start\": 0,\n        \"vi_end\": 1,\n        \"han_text\": \"索封西祀成何來誰必真尊向上直其詠制真豐詩云 晚霞世思屬董念誰向新臺發陸沉伯哉不嘗句鄉胆父臺寸屈敬擾 百年帝業分光景六月王師豐好音\",\n        \"vietnamese_text\": \"Năm Khang Hy thứ 41, Nhâm Ngọ, tháng B, có bản gửi tâu nước Đại Thanh rằng: \\\"Hải ngoại Việt quốc thảo mãng thần Nguyễn Phúc Chu cúi đầu dập đầu trăm lạy dâng nói về việc phương xa mến đức thực lòng hướng hoá như sau: Thần vâng mối thừa của tổ tông, mở mang đất đai ở ngoài biển lớn, kể đã lâu năm, cùng với các nước phương Nam, từ trước chưa từng lệ thuộc vào đâu.\",\n        \"score\": 0.141147691094035\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 3,\n        \"vi_start\": 2,\n        \"vi_end\": 2,\n        \"han_text\": \"十二金牌千古恨小天如若同微欽其詠意\",\n        \"vietnamese_text\": \"Đường sá xa xôi, đất đai nhỏ hẹp, chưa dám bày tỏ với Thiên triểu.\",\n        \"score\": 0.06660190973682804\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 7,\n        \"vi_start\": 3,\n        \"vi_end\": 3,\n        \"han_text\": \"尊詩云火輪隱約五更霜半壁山河入醉鄉 斷授已甘游汴水孤招誰料失襄陽 秋尼城闕排寫贊落日樓臺奏鳳凰 笑殺近亭無片張半間花草為平章\",\n        \"vietnamese_text\": \"Cha ông thần tin Phật, đời đời tu hành.\",\n        \"score\": -0.016999445430118918\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 9,\n        \"vi_start\": 4,\n        \"vi_end\": 5,\n        \"han_text\": \"阮光前題阮氏釋香家有句云 素榆長掛千秋鑑金母據森步壽觴\",\n        \"vietnamese_text\": \"Thầy thần là nhà sư Trường Thọ Am ở Quảng Đông là Thạch Liêm truyền dạy kinh điển. Sau khi tụng kinh nhàn rỗi, đã thuật rõ cho thần về những tài đức thánh thần văn võ của hoàng thượng.\",\n        \"score\": 0.1162561530714336\n      },\n      {\n        \"han_start\": 10,\n        \"han_end\": 13,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"其錦堂春曲云備户好迎睿日 珠簾初捲秋集但春秋渾差誅宜夏又宜冬 夢葉都兩煦育群生咸被悔憾 且喜清辰何以祝旺相又如松其詠少如風云\",\n        \"vietnamese_text\": \"Lại có giám sinh ở Quảng Đông là Hoàng Thần, tăng để là Hưng Triệt, đều xưng tụng thanh giáo của hoàng đế truyền tới phương xa, khiến càng thấy ơn hoàng đế mênh mông, nghến trông giáo hoá, nhường như trông ánh sáng mặt trời mặt trăng, trộm mong được làm nước phụ dung, trên được vẻ vang cho việc thờ cúng tiên tổ, dưới được rõ ràng cho sự quan chiêm của nhân dân.\",\n        \"score\": 0.08706286626467546\n      },\n      {\n        \"han_start\": 14,\n        \"han_end\": 14,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"風姨十八正停之到處生潼到處迎\",\n        \"vietnamese_text\": \"Quỳ hoặc đốc lòng, chân thành đợi mệnh.\",\n        \"score\": 0.08685367691230411\n      },\n      {\n        \"han_start\": 15,\n        \"han_end\": 15,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"江上凌波空婉轉枝頭孝舞自控盈\",\n        \"vietnamese_text\": \"Chợt ngày mồng 2 tháng 9 năm ngoái, thuyền cống của Xiêm La bị bão giạt tới cõi đất nước thần, mới biết đó là thuyền đi cống Thiên triều, nên đốc lòng thành giúp đỡ việc đi cống, sửa thay chiếc thuyền, giúp dưa lương gạo để tới Quảng Đông.\",\n        \"score\": 0.013949234929490469\n      },\n      {\n        \"han_start\": 16,\n        \"han_end\": 19,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"珠簾繡圍長為伴瑤草琪花首有情 模樣指將傳入曰是空是色昼推成 曾闻有人言祚國公有通天朝魏 而應德寶官銀五夢兩求封貢\",\n        \"vietnamese_text\": \"Thần Phúc Chu kính đem tình do qui thành, làm bài biểu đâng, giao cho giám sinh Hoàng Thần và nhà sư Hưng Triệt mang ởi, và đem theo phương vật phụ cống, kỳ nam hương thượng hạng một khối nặng 1 cân 10 lạng, lại kỳ nam hương một khối nặng 3 cân 10 lạng, vàng sống một khối nặng 1 cân 13 lạng 5 tiền, 1 đôi vòng đồng tâm xét, 3 đôi cách sơn minh?\",\n        \"score\": 0.14508683995933525\n      },\n      {\n        \"han_start\": 20,\n        \"han_end\": 22,\n        \"vi_start\": 10,\n        \"vi_end\": 10,\n        \"han_text\": \"氣照雜正二朝皇帝知是如南蘭臣却而不許未知的否 今見阮先前家首編乃知果有是事 順化與\",\n        \"vietnamese_text\": \"), 2 chỉ ngà voi nặng 350 cân, 50 sợi\",\n        \"score\": -0.015099945907289882\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 2,
+          "vi_start": 0,
+          "vi_end": 1,
+          "han_text": "索封西祀成何來誰必真尊向上直其詠制真豐詩云 晚霞世思屬董念誰向新臺發陸沉伯哉不嘗句鄉胆父臺寸屈敬擾 百年帝業分光景六月王師豐好音",
+          "vietnamese_text": "Năm Khang Hy thứ 41, Nhâm Ngọ, tháng B, có bản gửi tâu nước Đại Thanh rằng: \"Hải ngoại Việt quốc thảo mãng thần Nguyễn Phúc Chu cúi đầu dập đầu trăm lạy dâng nói về việc phương xa mến đức thực lòng hướng hoá như sau: Thần vâng mối thừa của tổ tông, mở mang đất đai ở ngoài biển lớn, kể đã lâu năm, cùng với các nước phương Nam, từ trước chưa từng lệ thuộc vào đâu.",
+          "score": 0.141147691094035
+        },
+        {
+          "han_start": 3,
+          "han_end": 3,
+          "vi_start": 2,
+          "vi_end": 2,
+          "han_text": "十二金牌千古恨小天如若同微欽其詠意",
+          "vietnamese_text": "Đường sá xa xôi, đất đai nhỏ hẹp, chưa dám bày tỏ với Thiên triểu.",
+          "score": 0.06660190973682804
+        },
+        {
+          "han_start": 4,
+          "han_end": 7,
+          "vi_start": 3,
+          "vi_end": 3,
+          "han_text": "尊詩云火輪隱約五更霜半壁山河入醉鄉 斷授已甘游汴水孤招誰料失襄陽 秋尼城闕排寫贊落日樓臺奏鳳凰 笑殺近亭無片張半間花草為平章",
+          "vietnamese_text": "Cha ông thần tin Phật, đời đời tu hành.",
+          "score": -0.016999445430118918
+        },
+        {
+          "han_start": 8,
+          "han_end": 9,
+          "vi_start": 4,
+          "vi_end": 5,
+          "han_text": "阮光前題阮氏釋香家有句云 素榆長掛千秋鑑金母據森步壽觴",
+          "vietnamese_text": "Thầy thần là nhà sư Trường Thọ Am ở Quảng Đông là Thạch Liêm truyền dạy kinh điển. Sau khi tụng kinh nhàn rỗi, đã thuật rõ cho thần về những tài đức thánh thần văn võ của hoàng thượng.",
+          "score": 0.1162561530714336
+        },
+        {
+          "han_start": 10,
+          "han_end": 13,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "其錦堂春曲云備户好迎睿日 珠簾初捲秋集但春秋渾差誅宜夏又宜冬 夢葉都兩煦育群生咸被悔憾 且喜清辰何以祝旺相又如松其詠少如風云",
+          "vietnamese_text": "Lại có giám sinh ở Quảng Đông là Hoàng Thần, tăng để là Hưng Triệt, đều xưng tụng thanh giáo của hoàng đế truyền tới phương xa, khiến càng thấy ơn hoàng đế mênh mông, nghến trông giáo hoá, nhường như trông ánh sáng mặt trời mặt trăng, trộm mong được làm nước phụ dung, trên được vẻ vang cho việc thờ cúng tiên tổ, dưới được rõ ràng cho sự quan chiêm của nhân dân.",
+          "score": 0.08706286626467546
+        },
+        {
+          "han_start": 14,
+          "han_end": 14,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "風姨十八正停之到處生潼到處迎",
+          "vietnamese_text": "Quỳ hoặc đốc lòng, chân thành đợi mệnh.",
+          "score": 0.08685367691230411
+        },
+        {
+          "han_start": 15,
+          "han_end": 15,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "江上凌波空婉轉枝頭孝舞自控盈",
+          "vietnamese_text": "Chợt ngày mồng 2 tháng 9 năm ngoái, thuyền cống của Xiêm La bị bão giạt tới cõi đất nước thần, mới biết đó là thuyền đi cống Thiên triều, nên đốc lòng thành giúp đỡ việc đi cống, sửa thay chiếc thuyền, giúp dưa lương gạo để tới Quảng Đông.",
+          "score": 0.013949234929490469
+        },
+        {
+          "han_start": 16,
+          "han_end": 19,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "珠簾繡圍長為伴瑤草琪花首有情 模樣指將傳入曰是空是色昼推成 曾闻有人言祚國公有通天朝魏 而應德寶官銀五夢兩求封貢",
+          "vietnamese_text": "Thần Phúc Chu kính đem tình do qui thành, làm bài biểu đâng, giao cho giám sinh Hoàng Thần và nhà sư Hưng Triệt mang ởi, và đem theo phương vật phụ cống, kỳ nam hương thượng hạng một khối nặng 1 cân 10 lạng, lại kỳ nam hương một khối nặng 3 cân 10 lạng, vàng sống một khối nặng 1 cân 13 lạng 5 tiền, 1 đôi vòng đồng tâm xét, 3 đôi cách sơn minh?",
+          "score": 0.14508683995933525
+        },
+        {
+          "han_start": 20,
+          "han_end": 22,
+          "vi_start": 10,
+          "vi_end": 10,
+          "han_text": "氣照雜正二朝皇帝知是如南蘭臣却而不許未知的否 今見阮先前家首編乃知果有是事 順化與",
+          "vietnamese_text": "), 2 chỉ ngà voi nặng 350 cân, 50 sợi",
+          "score": -0.015099945907289882
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 5469
+}

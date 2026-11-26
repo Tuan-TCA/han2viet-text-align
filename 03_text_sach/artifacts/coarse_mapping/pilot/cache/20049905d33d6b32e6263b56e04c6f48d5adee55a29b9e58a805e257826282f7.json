@@ -1,0 +1,96 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "20049905d33d6b32e6263b56e04c6f48d5adee55a29b9e58a805e257826282f7",
+  "payload": {
+    "han": "廣東寶院信使常通於肅正四十一年壬午五月為本臺寄大清曰海外贊國年\n莽臣阮註凋稽首顏首上言西遠方依方抒誠向化事\n臣事祖尊緒餘闢土巨洋之外多歷年代\n典南方諸玉經無附麗\n道里遼遠土地福小未敢弦達天朝\n臣祖父信伏世修梵行臣師廟索長壽庵僧巨義從受內典經誦之服\n為臣備述皇上產神文武加天仁德\n又廟東監生黃辰僧徒興徹同領皇天聲義\n旋及照方益委皇恩浩萬引領向化\n仰依日月富願比附來之玉\n上榮祖尊經祀下耀蔡棄見貼登薩有心而該待念\n適於去年九月初二日風親遲器副貢般抵臣國境知修財天朝處詢註貞代修船多資送糧米前卦塵東臣龍洞謹將而誠情由唐具表文付並生黃辰\n僧興徹隨身賚帶附貢方物上上琦痛香塊一斤十兩\n又琦南香一塊靈三斤一月生金一塊重一斤\n三月五謝雷公公同圖一詠爾山鳴一丈又象牙三\n故重三百五十五亦花藤五十核\n標竹五十核先交圓使付貢船上付監生黃辰",
+    "vi": "Sau khi tụng kinh nhàn rỗi, đã thuật rõ cho thần về những tài đức thánh thần văn võ của hoàng thượng.\nLại có giám sinh ở Quảng Đông là Hoàng Thần, tăng để là Hưng Triệt, đều xưng tụng thanh giáo của hoàng đế truyền tới phương xa, khiến càng thấy ơn hoàng đế mênh mông, nghến trông giáo hoá, nhường như trông ánh sáng mặt trời mặt trăng, trộm mong được làm nước phụ dung, trên được vẻ vang cho việc thờ cúng tiên tổ, dưới được rõ ràng cho sự quan chiêm của nhân dân.\nQuỳ hoặc đốc lòng, chân thành đợi mệnh.\nChợt ngày mồng 2 tháng 9 năm ngoái, thuyền cống của Xiêm La bị bão giạt tới cõi đất nước thần, mới biết đó là thuyền đi cống Thiên triều, nên đốc lòng thành giúp đỡ việc đi cống, sửa thay chiếc thuyền, giúp dưa lương gạo để tới Quảng Đông.\nThần Phúc Chu kính đem tình do qui thành, làm bài biểu đâng, giao cho giám sinh Hoàng Thần và nhà sư Hưng Triệt mang ởi, và đem theo phương vật phụ cống, kỳ nam hương thượng hạng một khối nặng 1 cân 10 lạng, lại kỳ nam hương một khối nặng 3 cân 10 lạng, vàng sống một khối nặng 1 cân 13 lạng 5 tiền, 1 đôi vòng đồng tâm xét, 3 đôi cách sơn minh?), 2 chỉ ngà voi nặng 350 cân, 50 sợi\n®' Cách sơn mình: chưa rõ là vật gì. song, 50 cây lụi, giao trước cho thuyền cống Xiêm La, phó cho giám sinh Hoàng Thần và nhà sư Hưng Triệt đem trình quan Đốc phủ Quảng Đông, để mong đề đạt thay cho thần, tổ tông thần thực sẽ được vẻ vang.\nMong nhờ ở lượng trời che đất chở của thánh thiên tử cho thần được hướng hoá.\nNếu đội được ơn hoàng đế cúi cho giấy mực và ấn ngự chuẩn cho thần được quy thành thì thần sẽ dám sai bồi thần đem dâng biểu tạ.\nThần xiết bao trông trời ngước thánh, sợ hãi chờ mệnh, kính đem bày tổ tình thực để tâu\".\nĐại Thanh Thánh tổ Nhân hoàng đế không cho.\nNăm Ủng Chính thứ 2, Giáp Thìn, tháng 5, Tộ quốc công lại có thư gửi lễ đến cho tuần phủ Quảng Đông rằng: \"An Nam đẳng xứ Tiết chế thái phó Tộ quốc công Nguyễn Phúc Chu bái thư gửi Thiên triểu Quảng Đông tuần phủ viện lão hiến đài các hạ.\nCúi nghĩ: Tiết gặp tháng hè, người nhờ bóng mát.\nCủa giàu buôn giải, đàn năm dây tháng thiên tử gáy chơi; Phiền rửa ác trừ, nhà muôn gian lão hiến đài xây dựng.\nKính nhớ các hạ: Đề thiêng Hà mã”); khí gươm Tân long” mang chước giỏi giúp đời, dựng nên công nghiệp, lấy tài lành mệnh thế, sáng tựa ngọc khuê.\nHọc giầu theo sách lược thịnh thời; nêu cao dương thói lề thạnh đại.\nKiêm tài văn võ; giữ chức thuyền hành."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 2,\n        \"vi_start\": 0,\n        \"vi_end\": 1,\n        \"han_text\": \"廣東寶院信使常通於肅正四十一年壬午五月為本臺寄大清曰海外贊國年 莽臣阮註凋稽首顏首上言西遠方依方抒誠向化事 臣事祖尊緒餘闢土巨洋之外多歷年代\",\n        \"vietnamese_text\": \"Sau khi tụng kinh nhàn rỗi, đã thuật rõ cho thần về những tài đức thánh thần văn võ của hoàng thượng. Lại có giám sinh ở Quảng Đông là Hoàng Thần, tăng để là Hưng Triệt, đều xưng tụng thanh giáo của hoàng đế truyền tới phương xa, khiến càng thấy ơn hoàng đế mênh mông, nghến trông giáo hoá, nhường như trông ánh sáng mặt trời mặt trăng, trộm mong được làm nước phụ dung, trên được vẻ vang cho việc thờ cúng tiên tổ, dưới được rõ ràng cho sự quan chiêm của nhân dân.\",\n        \"score\": 0.23744889438833175\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 4,\n        \"vi_start\": 2,\n        \"vi_end\": 3,\n        \"han_text\": \"典南方諸玉經無附麗 道里遼遠土地福小未敢弦達天朝\",\n        \"vietnamese_text\": \"Quỳ hoặc đốc lòng, chân thành đợi mệnh. Chợt ngày mồng 2 tháng 9 năm ngoái, thuyền cống của Xiêm La bị bão giạt tới cõi đất nước thần, mới biết đó là thuyền đi cống Thiên triều, nên đốc lòng thành giúp đỡ việc đi cống, sửa thay chiếc thuyền, giúp dưa lương gạo để tới Quảng Đông.\",\n        \"score\": 0.026197615267588893\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 7,\n        \"vi_start\": 4,\n        \"vi_end\": 5,\n        \"han_text\": \"臣祖父信伏世修梵行臣師廟索長壽庵僧巨義從受內典經誦之服 為臣備述皇上產神文武加天仁德 又廟東監生黃辰僧徒興徹同領皇天聲義\",\n        \"vietnamese_text\": \"Thần Phúc Chu kính đem tình do qui thành, làm bài biểu đâng, giao cho giám sinh Hoàng Thần và nhà sư Hưng Triệt mang ởi, và đem theo phương vật phụ cống, kỳ nam hương thượng hạng một khối nặng 1 cân 10 lạng, lại kỳ nam hương một khối nặng 3 cân 10 lạng, vàng sống một khối nặng 1 cân 13 lạng 5 tiền, 1 đôi vòng đồng tâm xét, 3 đôi cách sơn minh? ), 2 chỉ ngà voi nặng 350 cân, 50 sợi\",\n        \"score\": 0.3061350977656046\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 10,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"旋及照方益委皇恩浩萬引領向化 仰依日月富願比附來之玉 上榮祖尊經祀下耀蔡棄見貼登薩有心而該待念\",\n        \"vietnamese_text\": \"®' Cách sơn mình: chưa rõ là vật gì.\",\n        \"score\": -0.01904311400963864\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 12,\n        \"vi_start\": 7,\n        \"vi_end\": 9,\n        \"han_text\": \"適於去年九月初二日風親遲器副貢般抵臣國境知修財天朝處詢註貞代修船多資送糧米前卦塵東臣龍洞謹將而誠情由唐具表文付並生黃辰 僧興徹隨身賚帶附貢方物上上琦痛香塊一斤十兩\",\n        \"vietnamese_text\": \"song, 50 cây lụi, giao trước cho thuyền cống Xiêm La, phó cho giám sinh Hoàng Thần và nhà sư Hưng Triệt đem trình quan Đốc phủ Quảng Đông, để mong đề đạt thay cho thần, tổ tông thần thực sẽ được vẻ vang. Mong nhờ ở lượng trời che đất chở của thánh thiên tử cho thần được hướng hoá. Nếu đội được ơn hoàng đế cúi cho giấy mực và ấn ngự chuẩn cho thần được quy thành thì thần sẽ dám sai bồi thần đem dâng biểu tạ.\",\n        \"score\": 0.23266029468935942\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 14,\n        \"vi_start\": 10,\n        \"vi_end\": 12,\n        \"han_text\": \"又琦南香一塊靈三斤一月生金一塊重一斤 三月五謝雷公公同圖一詠爾山鳴一丈又象牙三\",\n        \"vietnamese_text\": \"Thần xiết bao trông trời ngước thánh, sợ hãi chờ mệnh, kính đem bày tổ tình thực để tâu\\\". Đại Thanh Thánh tổ Nhân hoàng đế không cho. Năm Ủng Chính thứ 2, Giáp Thìn, tháng 5, Tộ quốc công lại có thư gửi lễ đến cho tuần phủ Quảng Đông rằng: \\\"An Nam đẳng xứ Tiết chế thái phó Tộ quốc công Nguyễn Phúc Chu bái thư gửi Thiên triểu Quảng Đông tuần phủ viện lão hiến đài các hạ.\",\n        \"score\": 0.10145667842223997\n      },\n      {\n        \"han_start\": 15,\n        \"han_end\": 15,\n        \"vi_start\": 13,\n        \"vi_end\": 15,\n        \"han_text\": \"故重三百五十五亦花藤五十核\",\n        \"vietnamese_text\": \"Cúi nghĩ: Tiết gặp tháng hè, người nhờ bóng mát. Của giàu buôn giải, đàn năm dây tháng thiên tử gáy chơi; Phiền rửa ác trừ, nhà muôn gian lão hiến đài xây dựng. Kính nhớ các hạ: Đề thiêng Hà mã”); khí gươm Tân long” mang chước giỏi giúp đời, dựng nên công nghiệp, lấy tài lành mệnh thế, sáng tựa ngọc khuê.\",\n        \"score\": -0.023072537655232303\n      },\n      {\n        \"han_start\": 16,\n        \"han_end\": 16,\n        \"vi_start\": 16,\n        \"vi_end\": 17,\n        \"han_text\": \"標竹五十核先交圓使付貢船上付監生黃辰\",\n        \"vietnamese_text\": \"Học giầu theo sách lược thịnh thời; nêu cao dương thói lề thạnh đại. Kiêm tài văn võ; giữ chức thuyền hành.\",\n        \"score\": 0.08763346905866631\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 2,
+          "vi_start": 0,
+          "vi_end": 1,
+          "han_text": "廣東寶院信使常通於肅正四十一年壬午五月為本臺寄大清曰海外贊國年 莽臣阮註凋稽首顏首上言西遠方依方抒誠向化事 臣事祖尊緒餘闢土巨洋之外多歷年代",
+          "vietnamese_text": "Sau khi tụng kinh nhàn rỗi, đã thuật rõ cho thần về những tài đức thánh thần văn võ của hoàng thượng. Lại có giám sinh ở Quảng Đông là Hoàng Thần, tăng để là Hưng Triệt, đều xưng tụng thanh giáo của hoàng đế truyền tới phương xa, khiến càng thấy ơn hoàng đế mênh mông, nghến trông giáo hoá, nhường như trông ánh sáng mặt trời mặt trăng, trộm mong được làm nước phụ dung, trên được vẻ vang cho việc thờ cúng tiên tổ, dưới được rõ ràng cho sự quan chiêm của nhân dân.",
+          "score": 0.23744889438833175
+        },
+        {
+          "han_start": 3,
+          "han_end": 4,
+          "vi_start": 2,
+          "vi_end": 3,
+          "han_text": "典南方諸玉經無附麗 道里遼遠土地福小未敢弦達天朝",
+          "vietnamese_text": "Quỳ hoặc đốc lòng, chân thành đợi mệnh. Chợt ngày mồng 2 tháng 9 năm ngoái, thuyền cống của Xiêm La bị bão giạt tới cõi đất nước thần, mới biết đó là thuyền đi cống Thiên triều, nên đốc lòng thành giúp đỡ việc đi cống, sửa thay chiếc thuyền, giúp dưa lương gạo để tới Quảng Đông.",
+          "score": 0.026197615267588893
+        },
+        {
+          "han_start": 5,
+          "han_end": 7,
+          "vi_start": 4,
+          "vi_end": 5,
+          "han_text": "臣祖父信伏世修梵行臣師廟索長壽庵僧巨義從受內典經誦之服 為臣備述皇上產神文武加天仁德 又廟東監生黃辰僧徒興徹同領皇天聲義",
+          "vietnamese_text": "Thần Phúc Chu kính đem tình do qui thành, làm bài biểu đâng, giao cho giám sinh Hoàng Thần và nhà sư Hưng Triệt mang ởi, và đem theo phương vật phụ cống, kỳ nam hương thượng hạng một khối nặng 1 cân 10 lạng, lại kỳ nam hương một khối nặng 3 cân 10 lạng, vàng sống một khối nặng 1 cân 13 lạng 5 tiền, 1 đôi vòng đồng tâm xét, 3 đôi cách sơn minh? ), 2 chỉ ngà voi nặng 350 cân, 50 sợi",
+          "score": 0.3061350977656046
+        },
+        {
+          "han_start": 8,
+          "han_end": 10,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "旋及照方益委皇恩浩萬引領向化 仰依日月富願比附來之玉 上榮祖尊經祀下耀蔡棄見貼登薩有心而該待念",
+          "vietnamese_text": "®' Cách sơn mình: chưa rõ là vật gì.",
+          "score": -0.01904311400963864
+        },
+        {
+          "han_start": 11,
+          "han_end": 12,
+          "vi_start": 7,
+          "vi_end": 9,
+          "han_text": "適於去年九月初二日風親遲器副貢般抵臣國境知修財天朝處詢註貞代修船多資送糧米前卦塵東臣龍洞謹將而誠情由唐具表文付並生黃辰 僧興徹隨身賚帶附貢方物上上琦痛香塊一斤十兩",
+          "vietnamese_text": "song, 50 cây lụi, giao trước cho thuyền cống Xiêm La, phó cho giám sinh Hoàng Thần và nhà sư Hưng Triệt đem trình quan Đốc phủ Quảng Đông, để mong đề đạt thay cho thần, tổ tông thần thực sẽ được vẻ vang. Mong nhờ ở lượng trời che đất chở của thánh thiên tử cho thần được hướng hoá. Nếu đội được ơn hoàng đế cúi cho giấy mực và ấn ngự chuẩn cho thần được quy thành thì thần sẽ dám sai bồi thần đem dâng biểu tạ.",
+          "score": 0.23266029468935942
+        },
+        {
+          "han_start": 13,
+          "han_end": 14,
+          "vi_start": 10,
+          "vi_end": 12,
+          "han_text": "又琦南香一塊靈三斤一月生金一塊重一斤 三月五謝雷公公同圖一詠爾山鳴一丈又象牙三",
+          "vietnamese_text": "Thần xiết bao trông trời ngước thánh, sợ hãi chờ mệnh, kính đem bày tổ tình thực để tâu\". Đại Thanh Thánh tổ Nhân hoàng đế không cho. Năm Ủng Chính thứ 2, Giáp Thìn, tháng 5, Tộ quốc công lại có thư gửi lễ đến cho tuần phủ Quảng Đông rằng: \"An Nam đẳng xứ Tiết chế thái phó Tộ quốc công Nguyễn Phúc Chu bái thư gửi Thiên triểu Quảng Đông tuần phủ viện lão hiến đài các hạ.",
+          "score": 0.10145667842223997
+        },
+        {
+          "han_start": 15,
+          "han_end": 15,
+          "vi_start": 13,
+          "vi_end": 15,
+          "han_text": "故重三百五十五亦花藤五十核",
+          "vietnamese_text": "Cúi nghĩ: Tiết gặp tháng hè, người nhờ bóng mát. Của giàu buôn giải, đàn năm dây tháng thiên tử gáy chơi; Phiền rửa ác trừ, nhà muôn gian lão hiến đài xây dựng. Kính nhớ các hạ: Đề thiêng Hà mã”); khí gươm Tân long” mang chước giỏi giúp đời, dựng nên công nghiệp, lấy tài lành mệnh thế, sáng tựa ngọc khuê.",
+          "score": -0.023072537655232303
+        },
+        {
+          "han_start": 16,
+          "han_end": 16,
+          "vi_start": 16,
+          "vi_end": 17,
+          "han_text": "標竹五十核先交圓使付貢船上付監生黃辰",
+          "vietnamese_text": "Học giầu theo sách lược thịnh thời; nêu cao dương thói lề thạnh đại. Kiêm tài văn võ; giữ chức thuyền hành.",
+          "score": 0.08763346905866631
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 5313
+}

@@ -1,0 +1,105 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "ddfb9b5fc4932974838a82f32ae04e85b34ee5dd44b39ff4acc921b893cdd670",
+  "payload": {
+    "han": "老不具各項宋三升始回項朱三升\n雇三項每人米二升\n客戶壯頂米四亦筆項朱三千\n官員前賦臣老不具項每人米二升\n新到昭獲字項每人米二升每色米四十升\n自類米每人米一鉢成三文腳米每人八文\n白糧每色三十五祥\n仕臣隊節料代納每人代納三十文如場中每人二十文\n三屬嘗新端例稅每筆三升脚朱三文半\n百殺米每畝一柒粳米三十文每四十文加代初一長六阳每斤三十四文百粳米四色三十五斗\n寔金三百十五畝五高十二尺五十內增八五十八融四高五尺\n内秒田十八畝云高三寸納三免一\n立存寔微三百八十一畝七二高一尺\n八十年外折年增并除秋田一分官米二十一色五升脚米方三十三貫八四糧米二百八十二鉢半糧條一豆六四二十九文卒孫十四貴五十四貫文\n何澆源新五附廊衙二屬美餘脚朱各頂四人米各頂米一升代納四陌三十文\n稷另替久灯每教捆侯一兩\n辛物孫各项每人孫三十三文\n參項酒官例稅壯項每人庚一豆五限又替搜火灯八枚\n軍項每人殘一長又搜替公灯七枚治四每人一長\n又替搜火灯五救民項每人祿門又替搜火灯四救老頓每人歲士改\n又替搜公灯二枚\n前將臣每人衣九陌無搜前社長長下每人祿五乃王替搜火灯三枚不具\n每人底四門又替搜火灯二枚\n各項納候股禮係壯項立欠每欠底五限\n其名在此方走八地坊成一長外例三門",
+    "vi": "Lệ trường trung, xã lớn từ 100 người trở lên thì tiển 1 quan, gạo 30 bát, xã vừa từ 80 người trở lên thì tiền 7 tiền, gạo 20 bát, xã nhỏ từ 50 người trở xuống thì tiển 4 tiền, gạo 10 bát, từ 20 người trở xuống, mỗi người tiển 20 đồng, gạo nửa bát; gạo thì mỗi bát nộp thay bằng tiền là 24 đồng.\nLệ các phường biệt nộp thì ty Giáo phường, hạng quân không phải gạo cước, có tiền suất sưu mỗi người 54 đồng và hai lễ ngoại.\nNại muối mỗi người tiền tang 9 tiền, không phải gạo cước và suất sưu; về gạo tám và số trình điện, thì mỗi người tiền õ4 đồng, tiển trầu 1 tiền.\nCác trang Đại Minh, Phúc An, Phúc Sơn, An Hoà, hạng quân mỗi người tiển tang 2 quan, không phải tiển sưu, có tiển trầu 1 tiển, gạo tám mỗi người 1 tiền, tiền đầu quan mỗi người 8 đồng: hạng mới về mỗi người tiển 2 quan; đân đỉnh mỗi người tiền 1 quan; hạng chiết khiếm, hạng nhất 1 quan ð tiền, hạng nhì 8 tiền, hạng ba 6 tiền.\nHai thuộc Hà Não, tiền số trình diện được miễn; tiền sưu mỗi người 10 đồng; thu lễ thắp đèn 5 ngọn.\nCác thuộc Hoa An, Hoa Lộc, An Mỹ, Trúc Lâm, Phúc Lộc, An Tượng, Phúc An, Xuân Trúc đều được miễn tiền sưu.\nLệ thuế sở trường tiết liệu ba thuộc.\nChính hộ, hạng tráng gạo 5 thưng, hạng quân gạo 4 thưng, các hạng con cháu quan viên, chức cũ, dân, lão, bất cụ thì gạo 3 thưng, hạng mới về 3 thưng, hạng mới đến, mới tục, mỗi người gạo 3 thưng, hạng cố nhất mỗi người gạo 4 thưng, hạng cố nhì mỗi người gạo 3 thưng, hạng cố ba mỗi người gạo 2 thưng.\nKhách hộ, hạng tráng gạo 4 thưng, hạng quân gạo 3 thưng, các hạng con cháu quan viên, chức cũ, dân, lão, bất cụ, mỗi người gạo 2 thưng, hạng mới về gạo 3 thưng, hạng mới đến, mới tục, mỗi người gạo 2 thưng.\nMỗi bao gạo 40 thưng."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 2,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"老不具各項宋三升始回項朱三升 雇三項每人米二升 客戶壯頂米四亦筆項朱三千\",\n        \"vietnamese_text\": \"Lệ trường trung, xã lớn từ 100 người trở lên thì tiển 1 quan, gạo 30 bát, xã vừa từ 80 người trở lên thì tiền 7 tiền, gạo 20 bát, xã nhỏ từ 50 người trở xuống thì tiển 4 tiền, gạo 10 bát, từ 20 người trở xuống, mỗi người tiển 20 đồng, gạo nửa bát; gạo thì mỗi bát nộp thay bằng tiền là 24 đồng.\",\n        \"score\": 0.0011514869246064881\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 3,\n        \"vi_start\": 1,\n        \"vi_end\": 1,\n        \"han_text\": \"官員前賦臣老不具項每人米二升\",\n        \"vietnamese_text\": \"Lệ các phường biệt nộp thì ty Giáo phường, hạng quân không phải gạo cước, có tiền suất sưu mỗi người 54 đồng và hai lễ ngoại.\",\n        \"score\": 0.0452976450763642\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 6,\n        \"vi_start\": 2,\n        \"vi_end\": 2,\n        \"han_text\": \"新到昭獲字項每人米二升每色米四十升 自類米每人米一鉢成三文腳米每人八文 白糧每色三十五祥\",\n        \"vietnamese_text\": \"Nại muối mỗi người tiền tang 9 tiền, không phải gạo cước và suất sưu; về gạo tám và số trình điện, thì mỗi người tiền õ4 đồng, tiển trầu 1 tiền.\",\n        \"score\": 0.12646217807341384\n      },\n      {\n        \"han_start\": 7,\n        \"han_end\": 10,\n        \"vi_start\": 3,\n        \"vi_end\": 3,\n        \"han_text\": \"仕臣隊節料代納每人代納三十文如場中每人二十文 三屬嘗新端例稅每筆三升脚朱三文半 百殺米每畝一柒粳米三十文每四十文加代初一長六阳每斤三十四文百粳米四色三十五斗 寔金三百十五畝五高十二尺五十內增八五十八融四高五尺\",\n        \"vietnamese_text\": \"Các trang Đại Minh, Phúc An, Phúc Sơn, An Hoà, hạng quân mỗi người tiển tang 2 quan, không phải tiển sưu, có tiển trầu 1 tiển, gạo tám mỗi người 1 tiền, tiền đầu quan mỗi người 8 đồng: hạng mới về mỗi người tiển 2 quan; đân đỉnh mỗi người tiền 1 quan; hạng chiết khiếm, hạng nhất 1 quan ð tiền, hạng nhì 8 tiền, hạng ba 6 tiền.\",\n        \"score\": 0.18338466291229058\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 12,\n        \"vi_start\": 4,\n        \"vi_end\": 4,\n        \"han_text\": \"内秒田十八畝云高三寸納三免一 立存寔微三百八十一畝七二高一尺\",\n        \"vietnamese_text\": \"Hai thuộc Hà Não, tiền số trình diện được miễn; tiền sưu mỗi người 10 đồng; thu lễ thắp đèn 5 ngọn.\",\n        \"score\": -0.002655491385714152\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 16,\n        \"vi_start\": 5,\n        \"vi_end\": 5,\n        \"han_text\": \"八十年外折年增并除秋田一分官米二十一色五升脚米方三十三貫八四糧米二百八十二鉢半糧條一豆六四二十九文卒孫十四貴五十四貫文 何澆源新五附廊衙二屬美餘脚朱各頂四人米各頂米一升代納四陌三十文 稷另替久灯每教捆侯一兩 辛物孫各项每人孫三十三文\",\n        \"vietnamese_text\": \"Các thuộc Hoa An, Hoa Lộc, An Mỹ, Trúc Lâm, Phúc Lộc, An Tượng, Phúc An, Xuân Trúc đều được miễn tiền sưu.\",\n        \"score\": 0.049715487455209505\n      },\n      {\n        \"han_start\": 17,\n        \"han_end\": 17,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"參項酒官例稅壯項每人庚一豆五限又替搜火灯八枚\",\n        \"vietnamese_text\": \"Lệ thuế sở trường tiết liệu ba thuộc.\",\n        \"score\": 0.11040091752687287\n      },\n      {\n        \"han_start\": 18,\n        \"han_end\": 21,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"軍項每人殘一長又搜替公灯七枚治四每人一長 又替搜火灯五救民項每人祿門又替搜火灯四救老頓每人歲士改 又替搜公灯二枚 前將臣每人衣九陌無搜前社長長下每人祿五乃王替搜火灯三枚不具\",\n        \"vietnamese_text\": \"Chính hộ, hạng tráng gạo 5 thưng, hạng quân gạo 4 thưng, các hạng con cháu quan viên, chức cũ, dân, lão, bất cụ thì gạo 3 thưng, hạng mới về 3 thưng, hạng mới đến, mới tục, mỗi người gạo 3 thưng, hạng cố nhất mỗi người gạo 4 thưng, hạng cố nhì mỗi người gạo 3 thưng, hạng cố ba mỗi người gạo 2 thưng.\",\n        \"score\": 0.30412501923853785\n      },\n      {\n        \"han_start\": 22,\n        \"han_end\": 24,\n        \"vi_start\": 8,\n        \"vi_end\": 9,\n        \"han_text\": \"每人底四門又替搜火灯二枚 各項納候股禮係壯項立欠每欠底五限 其名在此方走八地坊成一長外例三門\",\n        \"vietnamese_text\": \"Khách hộ, hạng tráng gạo 4 thưng, hạng quân gạo 3 thưng, các hạng con cháu quan viên, chức cũ, dân, lão, bất cụ, mỗi người gạo 2 thưng, hạng mới về gạo 3 thưng, hạng mới đến, mới tục, mỗi người gạo 2 thưng. Mỗi bao gạo 40 thưng.\",\n        \"score\": 0.03617479143577795\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 2,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "老不具各項宋三升始回項朱三升 雇三項每人米二升 客戶壯頂米四亦筆項朱三千",
+          "vietnamese_text": "Lệ trường trung, xã lớn từ 100 người trở lên thì tiển 1 quan, gạo 30 bát, xã vừa từ 80 người trở lên thì tiền 7 tiền, gạo 20 bát, xã nhỏ từ 50 người trở xuống thì tiển 4 tiền, gạo 10 bát, từ 20 người trở xuống, mỗi người tiển 20 đồng, gạo nửa bát; gạo thì mỗi bát nộp thay bằng tiền là 24 đồng.",
+          "score": 0.0011514869246064881
+        },
+        {
+          "han_start": 3,
+          "han_end": 3,
+          "vi_start": 1,
+          "vi_end": 1,
+          "han_text": "官員前賦臣老不具項每人米二升",
+          "vietnamese_text": "Lệ các phường biệt nộp thì ty Giáo phường, hạng quân không phải gạo cước, có tiền suất sưu mỗi người 54 đồng và hai lễ ngoại.",
+          "score": 0.0452976450763642
+        },
+        {
+          "han_start": 4,
+          "han_end": 6,
+          "vi_start": 2,
+          "vi_end": 2,
+          "han_text": "新到昭獲字項每人米二升每色米四十升 自類米每人米一鉢成三文腳米每人八文 白糧每色三十五祥",
+          "vietnamese_text": "Nại muối mỗi người tiền tang 9 tiền, không phải gạo cước và suất sưu; về gạo tám và số trình điện, thì mỗi người tiền õ4 đồng, tiển trầu 1 tiền.",
+          "score": 0.12646217807341384
+        },
+        {
+          "han_start": 7,
+          "han_end": 10,
+          "vi_start": 3,
+          "vi_end": 3,
+          "han_text": "仕臣隊節料代納每人代納三十文如場中每人二十文 三屬嘗新端例稅每筆三升脚朱三文半 百殺米每畝一柒粳米三十文每四十文加代初一長六阳每斤三十四文百粳米四色三十五斗 寔金三百十五畝五高十二尺五十內增八五十八融四高五尺",
+          "vietnamese_text": "Các trang Đại Minh, Phúc An, Phúc Sơn, An Hoà, hạng quân mỗi người tiển tang 2 quan, không phải tiển sưu, có tiển trầu 1 tiển, gạo tám mỗi người 1 tiền, tiền đầu quan mỗi người 8 đồng: hạng mới về mỗi người tiển 2 quan; đân đỉnh mỗi người tiền 1 quan; hạng chiết khiếm, hạng nhất 1 quan ð tiền, hạng nhì 8 tiền, hạng ba 6 tiền.",
+          "score": 0.18338466291229058
+        },
+        {
+          "han_start": 11,
+          "han_end": 12,
+          "vi_start": 4,
+          "vi_end": 4,
+          "han_text": "内秒田十八畝云高三寸納三免一 立存寔微三百八十一畝七二高一尺",
+          "vietnamese_text": "Hai thuộc Hà Não, tiền số trình diện được miễn; tiền sưu mỗi người 10 đồng; thu lễ thắp đèn 5 ngọn.",
+          "score": -0.002655491385714152
+        },
+        {
+          "han_start": 13,
+          "han_end": 16,
+          "vi_start": 5,
+          "vi_end": 5,
+          "han_text": "八十年外折年增并除秋田一分官米二十一色五升脚米方三十三貫八四糧米二百八十二鉢半糧條一豆六四二十九文卒孫十四貴五十四貫文 何澆源新五附廊衙二屬美餘脚朱各頂四人米各頂米一升代納四陌三十文 稷另替久灯每教捆侯一兩 辛物孫各项每人孫三十三文",
+          "vietnamese_text": "Các thuộc Hoa An, Hoa Lộc, An Mỹ, Trúc Lâm, Phúc Lộc, An Tượng, Phúc An, Xuân Trúc đều được miễn tiền sưu.",
+          "score": 0.049715487455209505
+        },
+        {
+          "han_start": 17,
+          "han_end": 17,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "參項酒官例稅壯項每人庚一豆五限又替搜火灯八枚",
+          "vietnamese_text": "Lệ thuế sở trường tiết liệu ba thuộc.",
+          "score": 0.11040091752687287
+        },
+        {
+          "han_start": 18,
+          "han_end": 21,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "軍項每人殘一長又搜替公灯七枚治四每人一長 又替搜火灯五救民項每人祿門又替搜火灯四救老頓每人歲士改 又替搜公灯二枚 前將臣每人衣九陌無搜前社長長下每人祿五乃王替搜火灯三枚不具",
+          "vietnamese_text": "Chính hộ, hạng tráng gạo 5 thưng, hạng quân gạo 4 thưng, các hạng con cháu quan viên, chức cũ, dân, lão, bất cụ thì gạo 3 thưng, hạng mới về 3 thưng, hạng mới đến, mới tục, mỗi người gạo 3 thưng, hạng cố nhất mỗi người gạo 4 thưng, hạng cố nhì mỗi người gạo 3 thưng, hạng cố ba mỗi người gạo 2 thưng.",
+          "score": 0.30412501923853785
+        },
+        {
+          "han_start": 22,
+          "han_end": 24,
+          "vi_start": 8,
+          "vi_end": 9,
+          "han_text": "每人底四門又替搜火灯二枚 各項納候股禮係壯項立欠每欠底五限 其名在此方走八地坊成一長外例三門",
+          "vietnamese_text": "Khách hộ, hạng tráng gạo 4 thưng, hạng quân gạo 3 thưng, các hạng con cháu quan viên, chức cũ, dân, lão, bất cụ, mỗi người gạo 2 thưng, hạng mới về gạo 3 thưng, hạng mới đến, mới tục, mỗi người gạo 2 thưng. Mỗi bao gạo 40 thưng.",
+          "score": 0.03617479143577795
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 3094
+}

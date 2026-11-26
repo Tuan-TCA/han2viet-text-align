@@ -1,0 +1,51 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "cb2cbd73392a25066fbca03b8536c4bd5f985dca92df8fe190bbfca13ba41fb2",
+  "payload": {
+    "han": "X2a厦厦厦厦厦厂上2月稱至正月畢二月作粟嘉定府最多\n柳柳葉每十葉價穿四十五文或賤至二十三文\n故土人語云一粟二擲\n又云累一柳二鄉三多之方民DAND常不收令榔之乾老摘核以售\n北容1010001膜R210撫邊雜錄發順廣為國家南近",
+    "vi": "Người giàu ở các địa phương hoặc 40, 50 nhà, hoặc 20, 30 nhà, mỗi nhà điền nô hoặc đến 50, 60 người, trâu bò hoặc đến 300, 400 con, cày bừa cấy gặt, rộn ràng không rỗi, hàng năm đến tháng 11, tháng 12, thường giã thành gạo, bán lấy tiền để ăn tết chạp.\nTừ sau tháng giêng trở đi là không làm công việc xay giã.\nBình thời chỉ bán ra Phú Xuân để đổi lấy hàng Bắc, lụa lĩnh trừu đoạn, áo quần tốt đẹp, ít có vải bô.\nĐất ấy nhiều ngòi lạch, đường nước như mắc cửi, không tiện đi bộ.\nNgười buôn có chở thuyền lớn thì tất đèo theo xuống nhỏ để thông đi các kênh.\nTừ cửa biển đến đầu nguồn đi 6, 7 ngày, hết thảy là đồng ruộng, nhìn bát ngát, ruộng phẳng như thế đấy, rất hợp trồng lúa, lúa nếp tế, gạo đều trắng dẻo.\nGiống lúa tẻ có thứ tên là lúa mắc củi, hạt gạo nhỏ mà đài, trắng như bông, rất thơm; có thứ tên là nhự đông, hột gạo to mà trắng; có thứ tên là móng tay, hạt gạo tròn trắng, được cơm nhiều mà chắc.\nGiống nếp thì có thứ tên là nếp mướp, hột lớn mà đài, gạo trắng thơm dẻo; có thứ tên là nếp mây, hột gạo đài lớn, mềm dẻo: có thứ tên là nếp than, hột gạo nhỏ đen, mềm deo; có thứ tên là nếp tre, hột gạo nhỏ như hoa tre, thơm đẻo; có thứ tên là nếp sáp, thóc đỏ hột to, gạo trắng mà thơm dẻo.\nCác giống đều tháng 5 gieo mạ, mùa thu tháng 7 thì cấy, tháng 11 thì gặt, đều tháng giêng mới xong, tháng 2 làm thóc.\nGia Định rất nhiều cau."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 1,\n        \"vi_start\": 0,\n        \"vi_end\": 2,\n        \"han_text\": \"X2a厦厦厦厦厦厂上2月稱至正月畢二月作粟嘉定府最多 柳柳葉每十葉價穿四十五文或賤至二十三文\",\n        \"vietnamese_text\": \"Người giàu ở các địa phương hoặc 40, 50 nhà, hoặc 20, 30 nhà, mỗi nhà điền nô hoặc đến 50, 60 người, trâu bò hoặc đến 300, 400 con, cày bừa cấy gặt, rộn ràng không rỗi, hàng năm đến tháng 11, tháng 12, thường giã thành gạo, bán lấy tiền để ăn tết chạp. Từ sau tháng giêng trở đi là không làm công việc xay giã. Bình thời chỉ bán ra Phú Xuân để đổi lấy hàng Bắc, lụa lĩnh trừu đoạn, áo quần tốt đẹp, ít có vải bô.\",\n        \"score\": 0.21554812701110304\n      },\n      {\n        \"han_start\": 2,\n        \"han_end\": 2,\n        \"vi_start\": 3,\n        \"vi_end\": 6,\n        \"han_text\": \"故土人語云一粟二擲\",\n        \"vietnamese_text\": \"Đất ấy nhiều ngòi lạch, đường nước như mắc cửi, không tiện đi bộ. Người buôn có chở thuyền lớn thì tất đèo theo xuống nhỏ để thông đi các kênh. Từ cửa biển đến đầu nguồn đi 6, 7 ngày, hết thảy là đồng ruộng, nhìn bát ngát, ruộng phẳng như thế đấy, rất hợp trồng lúa, lúa nếp tế, gạo đều trắng dẻo. Giống lúa tẻ có thứ tên là lúa mắc củi, hạt gạo nhỏ mà đài, trắng như bông, rất thơm; có thứ tên là nhự đông, hột gạo to mà trắng; có thứ tên là móng tay, hạt gạo tròn trắng, được cơm nhiều mà chắc.\",\n        \"score\": 0.004517166518182408\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 4,\n        \"vi_start\": 7,\n        \"vi_end\": 9,\n        \"han_text\": \"又云累一柳二鄉三多之方民DAND常不收令榔之乾老摘核以售 北容1010001膜R210撫邊雜錄發順廣為國家南近\",\n        \"vietnamese_text\": \"Giống nếp thì có thứ tên là nếp mướp, hột lớn mà đài, gạo trắng thơm dẻo; có thứ tên là nếp mây, hột gạo đài lớn, mềm dẻo: có thứ tên là nếp than, hột gạo nhỏ đen, mềm deo; có thứ tên là nếp tre, hột gạo nhỏ như hoa tre, thơm đẻo; có thứ tên là nếp sáp, thóc đỏ hột to, gạo trắng mà thơm dẻo. Các giống đều tháng 5 gieo mạ, mùa thu tháng 7 thì cấy, tháng 11 thì gặt, đều tháng giêng mới xong, tháng 2 làm thóc. Gia Định rất nhiều cau.\",\n        \"score\": 0.03185005638198158\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 1,
+          "vi_start": 0,
+          "vi_end": 2,
+          "han_text": "X2a厦厦厦厦厦厂上2月稱至正月畢二月作粟嘉定府最多 柳柳葉每十葉價穿四十五文或賤至二十三文",
+          "vietnamese_text": "Người giàu ở các địa phương hoặc 40, 50 nhà, hoặc 20, 30 nhà, mỗi nhà điền nô hoặc đến 50, 60 người, trâu bò hoặc đến 300, 400 con, cày bừa cấy gặt, rộn ràng không rỗi, hàng năm đến tháng 11, tháng 12, thường giã thành gạo, bán lấy tiền để ăn tết chạp. Từ sau tháng giêng trở đi là không làm công việc xay giã. Bình thời chỉ bán ra Phú Xuân để đổi lấy hàng Bắc, lụa lĩnh trừu đoạn, áo quần tốt đẹp, ít có vải bô.",
+          "score": 0.21554812701110304
+        },
+        {
+          "han_start": 2,
+          "han_end": 2,
+          "vi_start": 3,
+          "vi_end": 6,
+          "han_text": "故土人語云一粟二擲",
+          "vietnamese_text": "Đất ấy nhiều ngòi lạch, đường nước như mắc cửi, không tiện đi bộ. Người buôn có chở thuyền lớn thì tất đèo theo xuống nhỏ để thông đi các kênh. Từ cửa biển đến đầu nguồn đi 6, 7 ngày, hết thảy là đồng ruộng, nhìn bát ngát, ruộng phẳng như thế đấy, rất hợp trồng lúa, lúa nếp tế, gạo đều trắng dẻo. Giống lúa tẻ có thứ tên là lúa mắc củi, hạt gạo nhỏ mà đài, trắng như bông, rất thơm; có thứ tên là nhự đông, hột gạo to mà trắng; có thứ tên là móng tay, hạt gạo tròn trắng, được cơm nhiều mà chắc.",
+          "score": 0.004517166518182408
+        },
+        {
+          "han_start": 3,
+          "han_end": 4,
+          "vi_start": 7,
+          "vi_end": 9,
+          "han_text": "又云累一柳二鄉三多之方民DAND常不收令榔之乾老摘核以售 北容1010001膜R210撫邊雜錄發順廣為國家南近",
+          "vietnamese_text": "Giống nếp thì có thứ tên là nếp mướp, hột lớn mà đài, gạo trắng thơm dẻo; có thứ tên là nếp mây, hột gạo đài lớn, mềm dẻo: có thứ tên là nếp than, hột gạo nhỏ đen, mềm deo; có thứ tên là nếp tre, hột gạo nhỏ như hoa tre, thơm đẻo; có thứ tên là nếp sáp, thóc đỏ hột to, gạo trắng mà thơm dẻo. Các giống đều tháng 5 gieo mạ, mùa thu tháng 7 thì cấy, tháng 11 thì gặt, đều tháng giêng mới xong, tháng 2 làm thóc. Gia Định rất nhiều cau.",
+          "score": 0.03185005638198158
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 6000
+}

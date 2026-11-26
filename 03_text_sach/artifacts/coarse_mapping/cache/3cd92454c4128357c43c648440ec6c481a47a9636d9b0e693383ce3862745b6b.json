@@ -1,0 +1,96 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "3cd92454c4128357c43c648440ec6c481a47a9636d9b0e693383ce3862745b6b",
+  "payload": {
+    "han": "初灰世俗之策飛然求天下之元虛於星\n出禪入仙探微索隱幾十孫年殆無所得\n反而求之六強一旦點然悟夫乾以易知坤以亦忘處\n然太公物來順知之飛推之行事\n措之言辭引而仲之後衆詞詠能\n頗呈顯民韻天33然不由斧鑿\n豈非有得於之声之旨者以先生平昔性愛你所居必植於憲前\n寄傲之餘清民徐来鏗錯成志於焉狀懷\n夫竹無意於尾然而民來則竹動而虛生\n心無容指物然而物標且心發而滿成見去竹孽事去心崖毫魚機枯\n豈有取於尾竹西康節梅花薄溪庭草之意緣一物以劉玄秘者耳\n故其詩集顯曰民你回序於余\n余知音不生以禮即碎謹卡注嘗張以併告\n夫同志之言詩牽世昌路之曰\n其性當竹亦居必植法憲前以供賞玩\n義竹之可夢者游直而節坚枝深而葉致\n真之亭之曰凌霄之辰而烟捐月上雨看用來足洗我之聲於忘吾之尙慮其清聽之之為侈如赤古之人多有當之者不意於吾人\n完璞吳先生亦酷愛此與其有同志焉\n完璞范首自融珍不為物敬所泪胸收洒蕩目會心聽",
+    "vi": "Cuồng thậm Hàng Nga hưu lãnh tiếu.\nTrần lao kỷ đốc biến nhàn ông.\n?(ồ lặng chơi trăng Mênh mông trăng gió bạn cùng gi?\nMột mái ca tròn, nước chủy xuôi.\nSáng lạnh muôn trùng chèo ngắn quáng; Sắc thu đã đậm thấm mui bồng.\nNgọc chìm, bỡn gõ chia đôi vỡ; Anh chảy, ôm choàng một hóp chơi, Điên quá!\nChị Hằng đừng mỉa nữa, Cõi trần được thấy mấy ông nhàn?\n2. Được phố triêu tân Bán mẫu khảu oiên được bính khai, lhìmh miêu tài nộn thdo hoàn lai.\nTrừ tuy bất giác liên oán loát; Cố ban nình từ mạo tủ bồi.\nPhất hạm lam hoa hồng thượng biểm; Nhiễu điền cao diệp lục xâm tại."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 2,\n        \"vi_start\": 0,\n        \"vi_end\": 1,\n        \"han_text\": \"初灰世俗之策飛然求天下之元虛於星 出禪入仙探微索隱幾十孫年殆無所得 反而求之六強一旦點然悟夫乾以易知坤以亦忘處\",\n        \"vietnamese_text\": \"Cuồng thậm Hàng Nga hưu lãnh tiếu. Trần lao kỷ đốc biến nhàn ông.\",\n        \"score\": 0.14260900755403555\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 5,\n        \"vi_start\": 2,\n        \"vi_end\": 2,\n        \"han_text\": \"然太公物來順知之飛推之行事 措之言辭引而仲之後衆詞詠能 頗呈顯民韻天33然不由斧鑿\",\n        \"vietnamese_text\": \"?\",\n        \"score\": -0.002383549652637629\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 6,\n        \"vi_start\": 3,\n        \"vi_end\": 4,\n        \"han_text\": \"豈非有得於之声之旨者以先生平昔性愛你所居必植於憲前\",\n        \"vietnamese_text\": \"(ồ lặng chơi trăng Mênh mông trăng gió bạn cùng gi? Một mái ca tròn, nước chủy xuôi.\",\n        \"score\": 0.07417891888569092\n      },\n      {\n        \"han_start\": 7,\n        \"han_end\": 7,\n        \"vi_start\": 5,\n        \"vi_end\": 5,\n        \"han_text\": \"寄傲之餘清民徐来鏗錯成志於焉狀懷\",\n        \"vietnamese_text\": \"Sáng lạnh muôn trùng chèo ngắn quáng; Sắc thu đã đậm thấm mui bồng.\",\n        \"score\": 0.05078490805079603\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 10,\n        \"vi_start\": 6,\n        \"vi_end\": 7,\n        \"han_text\": \"夫竹無意於尾然而民來則竹動而虛生 心無容指物然而物標且心發而滿成見去竹孽事去心崖毫魚機枯 豈有取於尾竹西康節梅花薄溪庭草之意緣一物以劉玄秘者耳\",\n        \"vietnamese_text\": \"Ngọc chìm, bỡn gõ chia đôi vỡ; Anh chảy, ôm choàng một hóp chơi, Điên quá! Chị Hằng đừng mỉa nữa, Cõi trần được thấy mấy ông nhàn?\",\n        \"score\": 0.18471994460093058\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 11,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"故其詩集顯曰民你回序於余\",\n        \"vietnamese_text\": \"2.\",\n        \"score\": 0.0012654093735116902\n      },\n      {\n        \"han_start\": 12,\n        \"han_end\": 15,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"余知音不生以禮即碎謹卡注嘗張以併告 夫同志之言詩牽世昌路之曰 其性當竹亦居必植法憲前以供賞玩 義竹之可夢者游直而節坚枝深而葉致\",\n        \"vietnamese_text\": \"Được phố triêu tân Bán mẫu khảu oiên được bính khai, lhìmh miêu tài nộn thdo hoàn lai.\",\n        \"score\": 0.1865212502213042\n      },\n      {\n        \"han_start\": 16,\n        \"han_end\": 18,\n        \"vi_start\": 10,\n        \"vi_end\": 11,\n        \"han_text\": \"真之亭之曰凌霄之辰而烟捐月上雨看用來足洗我之聲於忘吾之尙慮其清聽之之為侈如赤古之人多有當之者不意於吾人 完璞吳先生亦酷愛此與其有同志焉 完璞范首自融珍不為物敬所泪胸收洒蕩目會心聽\",\n        \"vietnamese_text\": \"Trừ tuy bất giác liên oán loát; Cố ban nình từ mạo tủ bồi. Phất hạm lam hoa hồng thượng biểm; Nhiễu điền cao diệp lục xâm tại.\",\n        \"score\": 0.13279970856233217\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 2,
+          "vi_start": 0,
+          "vi_end": 1,
+          "han_text": "初灰世俗之策飛然求天下之元虛於星 出禪入仙探微索隱幾十孫年殆無所得 反而求之六強一旦點然悟夫乾以易知坤以亦忘處",
+          "vietnamese_text": "Cuồng thậm Hàng Nga hưu lãnh tiếu. Trần lao kỷ đốc biến nhàn ông.",
+          "score": 0.14260900755403555
+        },
+        {
+          "han_start": 3,
+          "han_end": 5,
+          "vi_start": 2,
+          "vi_end": 2,
+          "han_text": "然太公物來順知之飛推之行事 措之言辭引而仲之後衆詞詠能 頗呈顯民韻天33然不由斧鑿",
+          "vietnamese_text": "?",
+          "score": -0.002383549652637629
+        },
+        {
+          "han_start": 6,
+          "han_end": 6,
+          "vi_start": 3,
+          "vi_end": 4,
+          "han_text": "豈非有得於之声之旨者以先生平昔性愛你所居必植於憲前",
+          "vietnamese_text": "(ồ lặng chơi trăng Mênh mông trăng gió bạn cùng gi? Một mái ca tròn, nước chủy xuôi.",
+          "score": 0.07417891888569092
+        },
+        {
+          "han_start": 7,
+          "han_end": 7,
+          "vi_start": 5,
+          "vi_end": 5,
+          "han_text": "寄傲之餘清民徐来鏗錯成志於焉狀懷",
+          "vietnamese_text": "Sáng lạnh muôn trùng chèo ngắn quáng; Sắc thu đã đậm thấm mui bồng.",
+          "score": 0.05078490805079603
+        },
+        {
+          "han_start": 8,
+          "han_end": 10,
+          "vi_start": 6,
+          "vi_end": 7,
+          "han_text": "夫竹無意於尾然而民來則竹動而虛生 心無容指物然而物標且心發而滿成見去竹孽事去心崖毫魚機枯 豈有取於尾竹西康節梅花薄溪庭草之意緣一物以劉玄秘者耳",
+          "vietnamese_text": "Ngọc chìm, bỡn gõ chia đôi vỡ; Anh chảy, ôm choàng một hóp chơi, Điên quá! Chị Hằng đừng mỉa nữa, Cõi trần được thấy mấy ông nhàn?",
+          "score": 0.18471994460093058
+        },
+        {
+          "han_start": 11,
+          "han_end": 11,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "故其詩集顯曰民你回序於余",
+          "vietnamese_text": "2.",
+          "score": 0.0012654093735116902
+        },
+        {
+          "han_start": 12,
+          "han_end": 15,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "余知音不生以禮即碎謹卡注嘗張以併告 夫同志之言詩牽世昌路之曰 其性當竹亦居必植法憲前以供賞玩 義竹之可夢者游直而節坚枝深而葉致",
+          "vietnamese_text": "Được phố triêu tân Bán mẫu khảu oiên được bính khai, lhìmh miêu tài nộn thdo hoàn lai.",
+          "score": 0.1865212502213042
+        },
+        {
+          "han_start": 16,
+          "han_end": 18,
+          "vi_start": 10,
+          "vi_end": 11,
+          "han_text": "真之亭之曰凌霄之辰而烟捐月上雨看用來足洗我之聲於忘吾之尙慮其清聽之之為侈如赤古之人多有當之者不意於吾人 完璞吳先生亦酷愛此與其有同志焉 完璞范首自融珍不為物敬所泪胸收洒蕩目會心聽",
+          "vietnamese_text": "Trừ tuy bất giác liên oán loát; Cố ban nình từ mạo tủ bồi. Phất hạm lam hoa hồng thượng biểm; Nhiễu điền cao diệp lục xâm tại.",
+          "score": 0.13279970856233217
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 3500
+}

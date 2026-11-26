@@ -1,0 +1,96 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "d289c2e2855f26dc99de58ee553e32b9d4302e755ccf1856eb02450b0fd6b382",
+  "payload": {
+    "han": "若他我票先已準發華長以慰彼等平素膏贈\n至如公族谷員亦一心效順望謝可期\n是畏天之獻以救順化廣南二處生灵之念脉而祈庫鉴丑此腑谨書\n甲午三十一年號公次度子社登昌具老書生陳惟忠達48道迎師獻詩云\n臨風登之向南旗圖境旄抱慰所思\n八世厭看秦法意百年德覩後威伏\n宗泉陳撰盡雷夜滿地橋西得雨時\n願指富春催進發兵机貴速不宜退且言于臨公曰\n元兵不困步戰独水師為長拔\n大筆遠來顏勿爭其所長\n曉公善其言留之年中從許為句\n普初申三十三年僕奉差協鎮撫入順化\n道經安定社有卡0生於白貞獻詩并小司云\n本以家世本儀才陳孝深不為故國\n亦用晦迹富春設授己業豈被再二已萬五旬\n自甲午年陽月望見王師臨境\n返步故鄉正欲餘困以沐新化奈兮臺飢歎設計嘗生\n正是心開桂玉天難賤運落尾波夢亦驚\n常欲回富告園俯陳管見一三事亦卷壯士無顏莊為行計今觀船車卦任經過地方不遺忘其",
+    "vi": "Còn của cải của Trương Đạt thì niêm phong như cũ, rồi lại sẽ giải nộp sau.\nĐến như tiền thóc khác thì trước đã chuẩn phát cho quân dân để đến vào máu mỡ của họ ngày thường đã bị hao tốn.\nCòn các viên công tộc, các viên tướng tá thì cũng một, lòng qui thuận, mong được tạ ơn.\nĐó chính là sợ uy của trời để cứu lấy mạnh mạch sinh linh của hai xứ Thuận Quảng vậy.\nCầu xin soi xét chiếu tới tim phối này.\nKính thư\".\nGiáp Ngọ năm thứ 31, Việp quận công đóng ở xã Ái Tử, một thầy đổ già huyện Đăng Xương tên là Trần Duy Trung đón đường rước quân và hiến thơ rằng: Lam phong chỉnh chỉnh hướng Nam bhỳ; Hạp cảnh mao nghệ uỷ sở tử (ty).\nBát thế yếm khan Tần pháp độ; Bách niên phục đổ Hán uy nghỉ.\nCùng tuyển đống trập oanh lôi dg; Mãn địa bhôi miêu đắc uõ thù.\nNguyện chỉ Phú Xuân thôi tiến phát; Bính cơ quí tốc bất nghĩ trừ"
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 0,\n        \"vi_start\": 0,\n        \"vi_end\": 1,\n        \"han_text\": \"若他我票先已準發華長以慰彼等平素膏贈\",\n        \"vietnamese_text\": \"Còn của cải của Trương Đạt thì niêm phong như cũ, rồi lại sẽ giải nộp sau. Đến như tiền thóc khác thì trước đã chuẩn phát cho quân dân để đến vào máu mỡ của họ ngày thường đã bị hao tốn.\",\n        \"score\": 0.011778187481867593\n      },\n      {\n        \"han_start\": 1,\n        \"han_end\": 1,\n        \"vi_start\": 2,\n        \"vi_end\": 2,\n        \"han_text\": \"至如公族谷員亦一心效順望謝可期\",\n        \"vietnamese_text\": \"Còn các viên công tộc, các viên tướng tá thì cũng một, lòng qui thuận, mong được tạ ơn.\",\n        \"score\": 0.18845828676467033\n      },\n      {\n        \"han_start\": 2,\n        \"han_end\": 2,\n        \"vi_start\": 3,\n        \"vi_end\": 3,\n        \"han_text\": \"是畏天之獻以救順化廣南二處生灵之念脉而祈庫鉴丑此腑谨書\",\n        \"vietnamese_text\": \"Đó chính là sợ uy của trời để cứu lấy mạnh mạch sinh linh của hai xứ Thuận Quảng vậy.\",\n        \"score\": 0.3261276243884336\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 6,\n        \"vi_start\": 4,\n        \"vi_end\": 4,\n        \"han_text\": \"甲午三十一年號公次度子社登昌具老書生陳惟忠達48道迎師獻詩云 臨風登之向南旗圖境旄抱慰所思 八世厭看秦法意百年德覩後威伏 宗泉陳撰盡雷夜滿地橋西得雨時\",\n        \"vietnamese_text\": \"Cầu xin soi xét chiếu tới tim phối này.\",\n        \"score\": 0.0004079059923792945\n      },\n      {\n        \"han_start\": 7,\n        \"han_end\": 10,\n        \"vi_start\": 5,\n        \"vi_end\": 5,\n        \"han_text\": \"願指富春催進發兵机貴速不宜退且言于臨公曰 元兵不困步戰独水師為長拔 大筆遠來顏勿爭其所長 曉公善其言留之年中從許為句\",\n        \"vietnamese_text\": \"Kính thư\\\".\",\n        \"score\": -0.006494623626014979\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 14,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"普初申三十三年僕奉差協鎮撫入順化 道經安定社有卡0生於白貞獻詩并小司云 本以家世本儀才陳孝深不為故國 亦用晦迹富春設授己業豈被再二已萬五旬\",\n        \"vietnamese_text\": \"Giáp Ngọ năm thứ 31, Việp quận công đóng ở xã Ái Tử, một thầy đổ già huyện Đăng Xương tên là Trần Duy Trung đón đường rước quân và hiến thơ rằng: Lam phong chỉnh chỉnh hướng Nam bhỳ; Hạp cảnh mao nghệ uỷ sở tử (ty).\",\n        \"score\": 0.277937355093464\n      },\n      {\n        \"han_start\": 15,\n        \"han_end\": 16,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"自甲午年陽月望見王師臨境 返步故鄉正欲餘困以沐新化奈兮臺飢歎設計嘗生\",\n        \"vietnamese_text\": \"Bát thế yếm khan Tần pháp độ; Bách niên phục đổ Hán uy nghỉ.\",\n        \"score\": 0.10765659597850276\n      },\n      {\n        \"han_start\": 17,\n        \"han_end\": 18,\n        \"vi_start\": 8,\n        \"vi_end\": 9,\n        \"han_text\": \"正是心開桂玉天難賤運落尾波夢亦驚 常欲回富告園俯陳管見一三事亦卷壯士無顏莊為行計今觀船車卦任經過地方不遺忘其\",\n        \"vietnamese_text\": \"Cùng tuyển đống trập oanh lôi dg; Mãn địa bhôi miêu đắc uõ thù. Nguyện chỉ Phú Xuân thôi tiến phát; Bính cơ quí tốc bất nghĩ trừ\",\n        \"score\": 0.15922445817141914\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 0,
+          "vi_start": 0,
+          "vi_end": 1,
+          "han_text": "若他我票先已準發華長以慰彼等平素膏贈",
+          "vietnamese_text": "Còn của cải của Trương Đạt thì niêm phong như cũ, rồi lại sẽ giải nộp sau. Đến như tiền thóc khác thì trước đã chuẩn phát cho quân dân để đến vào máu mỡ của họ ngày thường đã bị hao tốn.",
+          "score": 0.011778187481867593
+        },
+        {
+          "han_start": 1,
+          "han_end": 1,
+          "vi_start": 2,
+          "vi_end": 2,
+          "han_text": "至如公族谷員亦一心效順望謝可期",
+          "vietnamese_text": "Còn các viên công tộc, các viên tướng tá thì cũng một, lòng qui thuận, mong được tạ ơn.",
+          "score": 0.18845828676467033
+        },
+        {
+          "han_start": 2,
+          "han_end": 2,
+          "vi_start": 3,
+          "vi_end": 3,
+          "han_text": "是畏天之獻以救順化廣南二處生灵之念脉而祈庫鉴丑此腑谨書",
+          "vietnamese_text": "Đó chính là sợ uy của trời để cứu lấy mạnh mạch sinh linh của hai xứ Thuận Quảng vậy.",
+          "score": 0.3261276243884336
+        },
+        {
+          "han_start": 3,
+          "han_end": 6,
+          "vi_start": 4,
+          "vi_end": 4,
+          "han_text": "甲午三十一年號公次度子社登昌具老書生陳惟忠達48道迎師獻詩云 臨風登之向南旗圖境旄抱慰所思 八世厭看秦法意百年德覩後威伏 宗泉陳撰盡雷夜滿地橋西得雨時",
+          "vietnamese_text": "Cầu xin soi xét chiếu tới tim phối này.",
+          "score": 0.0004079059923792945
+        },
+        {
+          "han_start": 7,
+          "han_end": 10,
+          "vi_start": 5,
+          "vi_end": 5,
+          "han_text": "願指富春催進發兵机貴速不宜退且言于臨公曰 元兵不困步戰独水師為長拔 大筆遠來顏勿爭其所長 曉公善其言留之年中從許為句",
+          "vietnamese_text": "Kính thư\".",
+          "score": -0.006494623626014979
+        },
+        {
+          "han_start": 11,
+          "han_end": 14,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "普初申三十三年僕奉差協鎮撫入順化 道經安定社有卡0生於白貞獻詩并小司云 本以家世本儀才陳孝深不為故國 亦用晦迹富春設授己業豈被再二已萬五旬",
+          "vietnamese_text": "Giáp Ngọ năm thứ 31, Việp quận công đóng ở xã Ái Tử, một thầy đổ già huyện Đăng Xương tên là Trần Duy Trung đón đường rước quân và hiến thơ rằng: Lam phong chỉnh chỉnh hướng Nam bhỳ; Hạp cảnh mao nghệ uỷ sở tử (ty).",
+          "score": 0.277937355093464
+        },
+        {
+          "han_start": 15,
+          "han_end": 16,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "自甲午年陽月望見王師臨境 返步故鄉正欲餘困以沐新化奈兮臺飢歎設計嘗生",
+          "vietnamese_text": "Bát thế yếm khan Tần pháp độ; Bách niên phục đổ Hán uy nghỉ.",
+          "score": 0.10765659597850276
+        },
+        {
+          "han_start": 17,
+          "han_end": 18,
+          "vi_start": 8,
+          "vi_end": 9,
+          "han_text": "正是心開桂玉天難賤運落尾波夢亦驚 常欲回富告園俯陳管見一三事亦卷壯士無顏莊為行計今觀船車卦任經過地方不遺忘其",
+          "vietnamese_text": "Cùng tuyển đống trập oanh lôi dg; Mãn địa bhôi miêu đắc uõ thù. Nguyện chỉ Phú Xuân thôi tiến phát; Bính cơ quí tốc bất nghĩ trừ",
+          "score": 0.15922445817141914
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 2531
+}

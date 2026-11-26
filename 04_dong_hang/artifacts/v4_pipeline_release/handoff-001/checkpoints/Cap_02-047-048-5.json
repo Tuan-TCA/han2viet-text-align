@@ -1,0 +1,550 @@
+{
+ "window": "Cap_02-047-048",
+ "cap": "Cap_02",
+ "pages": [
+  47,
+  48
+ ],
+ "context": 5,
+ "full": false,
+ "ids": [
+  "Cap_02-VI-0098-009",
+  "Cap_02-VI-0098-010",
+  "Cap_02-VI-0100-006",
+  "Cap_02-VI-0100-007",
+  "Cap_02-VI-0100-008"
+ ],
+ "han": [
+  [
+   39393,
+   39434
+  ],
+  [
+   39434,
+   39449
+  ],
+  [
+   39449,
+   39469
+  ],
+  [
+   39469,
+   39492
+  ],
+  [
+   39492,
+   39511
+  ],
+  [
+   39511,
+   39529
+  ],
+  [
+   39529,
+   39547
+  ],
+  [
+   39547,
+   39557
+  ],
+  [
+   39557,
+   39569
+  ],
+  [
+   39569,
+   39592
+  ],
+  [
+   39592,
+   39612
+  ],
+  [
+   39612,
+   39629
+  ],
+  [
+   39629,
+   39640
+  ],
+  [
+   39640,
+   39654
+  ],
+  [
+   39654,
+   39669
+  ],
+  [
+   39669,
+   39682
+  ],
+  [
+   39682,
+   39696
+  ],
+  [
+   39696,
+   39710
+  ],
+  [
+   39710,
+   39732
+  ],
+  [
+   39732,
+   39750
+  ],
+  [
+   39750,
+   39765
+  ],
+  [
+   39765,
+   39792
+  ],
+  [
+   39792,
+   39822
+  ],
+  [
+   39822,
+   39836
+  ],
+  [
+   39836,
+   39850
+  ],
+  [
+   39850,
+   39864
+  ],
+  [
+   39864,
+   39884
+  ],
+  [
+   39884,
+   39896
+  ],
+  [
+   39896,
+   39906
+  ],
+  [
+   39906,
+   39919
+  ],
+  [
+   39919,
+   39935
+  ],
+  [
+   39935,
+   39953
+  ],
+  [
+   39953,
+   39967
+  ],
+  [
+   39967,
+   39985
+  ],
+  [
+   39985,
+   39997
+  ],
+  [
+   39997,
+   40018
+  ],
+  [
+   40018,
+   40034
+  ],
+  [
+   40034,
+   40071
+  ]
+ ],
+ "key": "5b843dfffaebaa11f68ff60045b0a3e0824c185588e01e8555e45ea052ea82c0",
+ "status": "success",
+ "baseline": [
+  {
+   "Han_Start": 39393,
+   "Han_End": 39492,
+   "Han_Text": "兵致得失辰日疾若未曾經惡潔乎朽索之取六馬以張幸本是熟首者年且為保傳一切致務付花無去不意外達一丁小人昆挂忝爾為冲幼多方壅蔽又夢群佐為下手任意總橫吃今辰齊立視人之死耗尽年力國肥家之謀47此言至此噬隨何原",
+   "VI_IDs": [
+    "Cap_02-VI-0098-009"
+   ],
+   "Vietnamese_Text": "Kính đâng vàng mười 20 nén\".",
+   "Alignment_Type": "N-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "Cap_02-047-048-5",
+   "API_Response_ID": "R0025",
+   "Validation_Status": "mapped",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "indices_text",
+   "Han_Units": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_02-VI-0098-009",
+     0,
+     28
+    ]
+   ],
+   "Score": -0.030972103616829973,
+   "Row": 0,
+   "Source_Rows": [
+    {
+     "response": "R0025",
+     "row": 0
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 0,
+     "han_end": 3,
+     "vi_start": 0,
+     "vi_end": 0,
+     "han_text": "兵致得失辰日疾若未曾經惡潔乎朽索之取六馬以張幸本是熟首者年且為保傳一切致務付花無去 不意外達一丁小人昆挂忝爾為冲幼 多方壅蔽又夢群佐為下手任意總橫吃今辰齊立 視人之死耗尽年力國肥家之謀47此言至此噬隨何原",
+     "vietnamese_text": "Kính đâng vàng mười 20 nén\".",
+     "score": -0.030972103616829973
+    }
+   ],
+   "Cap": "Cap_02",
+   "Han_IDs": [
+    "Cap_02-047-048-S4-0001",
+    "Cap_02-047-048-S4-0002",
+    "Cap_02-047-048-S4-0003",
+    "Cap_02-047-048-S4-0004"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_02-VI-0098-009",
+     0,
+     28
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 1271
+    }
+   ],
+   "Request_Key": "5b843dfffaebaa11f68ff60045b0a3e0824c185588e01e8555e45ea052ea82c0",
+   "Context_Evidence": 0,
+   "API_Score": -0.030972103616829973,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 39492,
+   "Han_End": 39557,
+   "Han_Text": "至于養生記身科甲更臣屬張接保牽官至戶部誰至詐人作疾名茲罪人宜其解而藕门碎處夢照以雪年民之恨而察生在機中更以問死前國老委差相卦候具報",
+   "VI_IDs": [
+    "Cap_02-VI-0098-010"
+   ],
+   "Vietnamese_Text": "Lại thư trả lời Việp công rằng: \"Thuận Quảng đẳng xứ thiểm quốc thích Nguyễn Phúc Thuần kính trình Thượng quốc thượng tướng quân quốc lão đài soi xét.",
+   "Alignment_Type": "N-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "Cap_02-047-048-5",
+   "API_Response_ID": "R0025",
+   "Validation_Status": "mapped",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "indices_text",
+   "Han_Units": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_02-VI-0098-010",
+     0,
+     150
+    ]
+   ],
+   "Score": 0.05944533625700636,
+   "Row": 1,
+   "Source_Rows": [
+    {
+     "response": "R0025",
+     "row": 1
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 4,
+     "han_end": 7,
+     "vi_start": 1,
+     "vi_end": 1,
+     "han_text": "至于養生記身科甲更臣屬張接保牽官至戶部 誰至詐人作疾名茲罪人宜其解而藕门碎處 夢照以雪年民之恨而察生在機中更以問死 前國老委差相卦候具報",
+     "vietnamese_text": "Lại thư trả lời Việp công rằng: \"Thuận Quảng đẳng xứ thiểm quốc thích Nguyễn Phúc Thuần kính trình Thượng quốc thượng tướng quân quốc lão đài soi xét.",
+     "score": 0.05944533625700636
+    }
+   ],
+   "Cap": "Cap_02",
+   "Han_IDs": [
+    "Cap_02-047-048-S4-0005",
+    "Cap_02-047-048-S4-0006",
+    "Cap_02-047-048-S4-0007",
+    "Cap_02-047-048-S4-0008"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_02-VI-0098-010",
+     0,
+     150
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 1272
+    }
+   ],
+   "Request_Key": "5b843dfffaebaa11f68ff60045b0a3e0824c185588e01e8555e45ea052ea82c0",
+   "Context_Evidence": 0,
+   "API_Score": 0.05944533625700636,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 39569,
+   "Han_End": 39640,
+   "Han_Text": "次除卞岳獨狂以蘇蒼赤是天假國老之手以安順創之臣若是英雄名勒且天下大第令久則玄分六則念四以先祖而诲則先祖有先祖之事恭廟無與古謂君子不宿怨尚其说焉",
+   "VI_IDs": [
+    "Cap_02-VI-0100-006"
+   ],
+   "Vietnamese_Text": "Giáp Ngọ năm thứ 31, Việp quận công đóng ở xã Ái Tử, một thầy đổ già huyện Đăng Xương tên là Trần Duy Trung đón đường rước quân và hiến thơ rằng: Lam phong chỉnh chỉnh hướng Nam bhỳ; Hạp cảnh mao nghệ uỷ sở tử (ty).",
+   "Alignment_Type": "N-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "Cap_02-047-048-5",
+   "API_Response_ID": "R0025",
+   "Validation_Status": "mapped",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "indices_text",
+   "Han_Units": [
+    9,
+    10,
+    11,
+    12
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_02-VI-0100-006",
+     0,
+     215
+    ]
+   ],
+   "Score": 0.04188280966265938,
+   "Row": 2,
+   "Source_Rows": [
+    {
+     "response": "R0025",
+     "row": 2
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 9,
+     "han_end": 12,
+     "vi_start": 2,
+     "vi_end": 2,
+     "han_text": "次除卞岳獨狂以蘇蒼赤是天假國老之手以安順創之臣 若是英雄名勒且天下大第令久則玄分六則念四 以先祖而诲則先祖有先祖之事恭廟無與 古謂君子不宿怨尚其说焉",
+     "vietnamese_text": "Giáp Ngọ năm thứ 31, Việp quận công đóng ở xã Ái Tử, một thầy đổ già huyện Đăng Xương tên là Trần Duy Trung đón đường rước quân và hiến thơ rằng: Lam phong chỉnh chỉnh hướng Nam bhỳ; Hạp cảnh mao nghệ uỷ sở tử (ty).",
+     "score": 0.04188280966265938
+    }
+   ],
+   "Cap": "Cap_02",
+   "Han_IDs": [
+    "Cap_02-047-048-S4-0010",
+    "Cap_02-047-048-S4-0011",
+    "Cap_02-047-048-S4-0012",
+    "Cap_02-047-048-S4-0013"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_02-VI-0100-006",
+     0,
+     215
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 1295
+    }
+   ],
+   "Request_Key": "5b843dfffaebaa11f68ff60045b0a3e0824c185588e01e8555e45ea052ea82c0",
+   "Context_Evidence": 0,
+   "API_Score": 0.04188280966265938,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 39682,
+   "Han_End": 39750,
+   "Han_Text": "如二必等件頃尚方分差討平刼堂未可以一二作計姑待秘完竟甚效再寫封彥本啟本投約存引帝財物封說四故究竟再調若他我票先已準發華長以慰彼等平素膏贈",
+   "VI_IDs": [
+    "Cap_02-VI-0100-007"
+   ],
+   "Vietnamese_Text": "Bát thế yếm khan Tần pháp độ; Bách niên phục đổ Hán uy nghỉ.",
+   "Alignment_Type": "N-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "Cap_02-047-048-5",
+   "API_Response_ID": "R0025",
+   "Validation_Status": "mapped",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "indices_text",
+   "Han_Units": [
+    16,
+    17,
+    18,
+    19
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_02-VI-0100-007",
+     0,
+     60
+    ]
+   ],
+   "Score": 0.22690792498507498,
+   "Row": 3,
+   "Source_Rows": [
+    {
+     "response": "R0025",
+     "row": 3
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 16,
+     "han_end": 19,
+     "vi_start": 3,
+     "vi_end": 3,
+     "han_text": "如二必等件頃尚方分差討平刼堂 未可以一二作計姑待秘完竟甚效 再寫封彥本啟本投約存引帝財物封說四故究竟再調 若他我票先已準發華長以慰彼等平素膏贈",
+     "vietnamese_text": "Bát thế yếm khan Tần pháp độ; Bách niên phục đổ Hán uy nghỉ.",
+     "score": 0.22690792498507498
+    }
+   ],
+   "Cap": "Cap_02",
+   "Han_IDs": [
+    "Cap_02-047-048-S4-0017",
+    "Cap_02-047-048-S4-0018",
+    "Cap_02-047-048-S4-0019",
+    "Cap_02-047-048-S4-0020"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_02-VI-0100-007",
+     0,
+     60
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 1296
+    }
+   ],
+   "Request_Key": "5b843dfffaebaa11f68ff60045b0a3e0824c185588e01e8555e45ea052ea82c0",
+   "Context_Evidence": 0,
+   "API_Score": 0.22690792498507498,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 39850,
+   "Han_End": 39906,
+   "Han_Text": "宗泉陳撰盡雷夜滿地橋西得雨時願指富春催進發兵机貴速不宜退且言于臨公曰元兵不困步戰独水師為長拔大筆遠來顏勿爭其所長",
+   "VI_IDs": [
+    "Cap_02-VI-0100-008"
+   ],
+   "Vietnamese_Text": "Cùng tuyển đống trập oanh lôi dg; Mãn địa bhôi miêu đắc uõ thù.",
+   "Alignment_Type": "N-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "Cap_02-047-048-5",
+   "API_Response_ID": "R0025",
+   "Validation_Status": "mapped",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "indices_text",
+   "Han_Units": [
+    25,
+    26,
+    27,
+    28
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_02-VI-0100-008",
+     0,
+     63
+    ]
+   ],
+   "Score": 0.020062323470740367,
+   "Row": 4,
+   "Source_Rows": [
+    {
+     "response": "R0025",
+     "row": 4
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 25,
+     "han_end": 28,
+     "vi_start": 4,
+     "vi_end": 4,
+     "han_text": "宗泉陳撰盡雷夜滿地橋西得雨時 願指富春催進發兵机貴速不宜退且言于臨公曰 元兵不困步戰独水師為長拔 大筆遠來顏勿爭其所長",
+     "vietnamese_text": "Cùng tuyển đống trập oanh lôi dg; Mãn địa bhôi miêu đắc uõ thù.",
+     "score": 0.020062323470740367
+    }
+   ],
+   "Cap": "Cap_02",
+   "Han_IDs": [
+    "Cap_02-047-048-S4-0026",
+    "Cap_02-047-048-S4-0027",
+    "Cap_02-047-048-S4-0028",
+    "Cap_02-047-048-S4-0029"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_02-VI-0100-008",
+     0,
+     63
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 1297
+    }
+   ],
+   "Request_Key": "5b843dfffaebaa11f68ff60045b0a3e0824c185588e01e8555e45ea052ea82c0",
+   "Context_Evidence": 0,
+   "API_Score": 0.020062323470740367,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  }
+ ]
+}

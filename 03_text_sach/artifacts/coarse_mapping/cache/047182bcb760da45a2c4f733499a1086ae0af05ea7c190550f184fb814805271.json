@@ -1,0 +1,105 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "047182bcb760da45a2c4f733499a1086ae0af05ea7c190550f184fb814805271",
+  "payload": {
+    "han": "新經水油禮二門卅文許平項加押作免稅并脩飯落成\n福祿當安安象三村玄半項白人二門竹亦立羊項\n每人二阪仰北三半項每人一改檄祝并水油各寨異水陶禮禎官縉飯四人卦明又雞法十五文之穷近\n每百人許窮成二十五文玄折欠\n每百人許歲二十五天富安府二縣差餘例稅正户\n容户各項並依各府四某有區下每丁顯孫士文搜康六改氣水郡十二文稱成八文\n其字庫另易田庄屬等名免脚米并率祿安海成搜率俱免\n耀輸官席并守傷及正微二祿並免搜率\n孫二縣節料例稅正戶官員壯須年頂雇項百人朱七亦略四百人米七升\n官員子孫前賦府楊吏及將臣社長仃老項不具項四人米六奔事巨米四十亦四人白種米一時詠三文每人場中米半辭孫六文脚米一兩十二文白糧辛邑十三游客户軍項壯項昭回\n昭積每人宋七升官員子孫益貳府祿吏悟臣社長行老項不具盈項与長丁新到每人米五\n亦其全庫另兵免節料底場中脚米百粳\n搜率歲新民庚差餘狼二步\n搜殘止户每人二陌容户一兩\n新安下屬差餘依二縣\n搜侯正户每人二門二應節為正容各項並代納每人三改竭中詠六文自粳米陳九文絹稅各耨每尺代納三豆五改每尺一四十文每十七文百紛絲谷轉每尺十五尺代初二定卅文每每尺一兩卅文每寸九文",
+    "vi": "Lễ các hạng nộp quan cai thu, hề là hạng tráng xin chiết khiếm, như nộp 8 phần sưu thì nộp tiền 6 tiền, nộp 6 phần sưu thì nộp ð tiền, nộp 4 phần sưu thì nộp 4 tiền và chiết trừ thực nộp; nếu hạng tráng xin xuống hạng cùng thì mỗi người nộp tiền 5 tiền. thì Thuỷ Du mới được miễn lễ; được cho là hạng bán, nếu là người xin hạng bán cũ thì Thuỷ Du mới lễ 2 tiền 30 đồng; cho là hạng bán, nếu ốp làm thì được miễn thuế và tiền đầu quan, tiền cơm, tiền số.\nBa thôn Phúc Lộc, Phúc An, An Tượng, xm xuống hạng bán thì mỗi người 2 tiền; thôn Trúc Lâm, xin xuống hạng bán thì mỗi người 1 tiền; Các trại Cảm Lãm và Thuỷ Du tiền đầu quan, tiền cơm, lễ cai quan mỗi người 2 quan và tiền gà rượu lỗ đồng: xin xuống hạng cùng hạng đào, mỗi 100 người cho nộp tiền 25 đồng; xin chiết khiếm mỗi 100 người cho nộp tiền 25 đồng.\nLệ thuế sai dự ở hai huyện thuộc phú Phú Yên.\nCác hạng chính hộ khách hộ đều theo như các phủ.\nNhư có đân định thì mỗi định nộp tiền gạo tám 6 đồng, tiền sưu 6 tiền, tiền nước trà 12 đồng, tiền đầu quan 8 đồng.\nLính giữ kho và những tên ở thuộc Điển Trang thì được miễn gạo cước và tiền suất sưu.\nThuyền An Hải tiền sưu, tiền suất đều được miễn; đội Cù Du (dệt thảm cói), Quan Tịch (dệt chiếu) và 2 đội Thủ Trường, Thuỷ Lại đều được miễn tiền sưu tiền suất.\nLệ thuế tiết liệu của hai huyện.\nChính hộ, hạng quan viên tráng, hạng quân, bạng cố, mỗi người gạo 7 thưng, hạng mới về mỗi người gạo 7 thưng, con cháu quan viên, chức cũ, duyện lại ở phủ, tướng thần, xã trưởng. đình việc, các hạng lão, bất cụ, mỗi người gạo 6 thưng, mỗi bao gạo 40 thưng, mỗi người gạo tâm I1 bát, tiền 3 đồng; mỗi Dgười gạo trường trung nửa bát tiền 6 đồng, tiền cước 1 tiền 12 đồng.\nGạo tám mỗi bao 63 bát."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 0,\n        \"vi_start\": 0,\n        \"vi_end\": 1,\n        \"han_text\": \"新經水油禮二門卅文許平項加押作免稅并脩飯落成\",\n        \"vietnamese_text\": \"Lễ các hạng nộp quan cai thu, hề là hạng tráng xin chiết khiếm, như nộp 8 phần sưu thì nộp tiền 6 tiền, nộp 6 phần sưu thì nộp ð tiền, nộp 4 phần sưu thì nộp 4 tiền và chiết trừ thực nộp; nếu hạng tráng xin xuống hạng cùng thì mỗi người nộp tiền 5 tiền. thì Thuỷ Du mới được miễn lễ; được cho là hạng bán, nếu là người xin hạng bán cũ thì Thuỷ Du mới lễ 2 tiền 30 đồng; cho là hạng bán, nếu ốp làm thì được miễn thuế và tiền đầu quan, tiền cơm, tiền số.\",\n        \"score\": 0.019944016746175124\n      },\n      {\n        \"han_start\": 1,\n        \"han_end\": 3,\n        \"vi_start\": 2,\n        \"vi_end\": 2,\n        \"han_text\": \"福祿當安安象三村玄半項白人二門竹亦立羊項 每人二阪仰北三半項每人一改檄祝并水油各寨異水陶禮禎官縉飯四人卦明又雞法十五文之穷近 每百人許窮成二十五文玄折欠\",\n        \"vietnamese_text\": \"Ba thôn Phúc Lộc, Phúc An, An Tượng, xm xuống hạng bán thì mỗi người 2 tiền; thôn Trúc Lâm, xin xuống hạng bán thì mỗi người 1 tiền; Các trại Cảm Lãm và Thuỷ Du tiền đầu quan, tiền cơm, lễ cai quan mỗi người 2 quan và tiền gà rượu lỗ đồng: xin xuống hạng cùng hạng đào, mỗi 100 người cho nộp tiền 25 đồng; xin chiết khiếm mỗi 100 người cho nộp tiền 25 đồng.\",\n        \"score\": 0.18334362292861836\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 4,\n        \"vi_start\": 3,\n        \"vi_end\": 3,\n        \"han_text\": \"每百人許歲二十五天富安府二縣差餘例稅正户\",\n        \"vietnamese_text\": \"Lệ thuế sai dự ở hai huyện thuộc phú Phú Yên.\",\n        \"score\": 0.11441126718062208\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 5,\n        \"vi_start\": 4,\n        \"vi_end\": 5,\n        \"han_text\": \"容户各項並依各府四某有區下每丁顯孫士文搜康六改氣水郡十二文稱成八文\",\n        \"vietnamese_text\": \"Các hạng chính hộ khách hộ đều theo như các phủ. Như có đân định thì mỗi định nộp tiền gạo tám 6 đồng, tiền sưu 6 tiền, tiền nước trà 12 đồng, tiền đầu quan 8 đồng.\",\n        \"score\": 0.17155490198970277\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 6,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"其字庫另易田庄屬等名免脚米并率祿安海成搜率俱免\",\n        \"vietnamese_text\": \"Lính giữ kho và những tên ở thuộc Điển Trang thì được miễn gạo cước và tiền suất sưu.\",\n        \"score\": 0.18085018604696035\n      },\n      {\n        \"han_start\": 7,\n        \"han_end\": 7,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"耀輸官席并守傷及正微二祿並免搜率\",\n        \"vietnamese_text\": \"Thuyền An Hải tiền sưu, tiền suất đều được miễn; đội Cù Du (dệt thảm cói), Quan Tịch (dệt chiếu) và 2 đội Thủ Trường, Thuỷ Lại đều được miễn tiền sưu tiền suất.\",\n        \"score\": -0.01920535756687443\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 8,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"孫二縣節料例稅正戶官員壯須年頂雇項百人朱七亦略四百人米七升\",\n        \"vietnamese_text\": \"Lệ thuế tiết liệu của hai huyện.\",\n        \"score\": 0.07542422787616722\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 11,\n        \"vi_start\": 9,\n        \"vi_end\": 10,\n        \"han_text\": \"官員子孫前賦府楊吏及將臣社長仃老項不具項四人米六奔事巨米四十亦四人白種米一時詠三文每人場中米半辭孫六文脚米一兩十二文白糧辛邑十三游客户軍項壯項昭回 昭積每人宋七升官員子孫益貳府祿吏悟臣社長行老項不具盈項与長丁新到每人米五 亦其全庫另兵免節料底場中脚米百粳\",\n        \"vietnamese_text\": \"Chính hộ, hạng quan viên tráng, hạng quân, bạng cố, mỗi người gạo 7 thưng, hạng mới về mỗi người gạo 7 thưng, con cháu quan viên, chức cũ, duyện lại ở phủ, tướng thần, xã trưởng. đình việc, các hạng lão, bất cụ, mỗi người gạo 6 thưng, mỗi bao gạo 40 thưng, mỗi người gạo tâm I1 bát, tiền 3 đồng; mỗi Dgười gạo trường trung nửa bát tiền 6 đồng, tiền cước 1 tiền 12 đồng.\",\n        \"score\": 0.34862231765724827\n      },\n      {\n        \"han_start\": 12,\n        \"han_end\": 15,\n        \"vi_start\": 11,\n        \"vi_end\": 11,\n        \"han_text\": \"搜率歲新民庚差餘狼二步 搜殘止户每人二陌容户一兩 新安下屬差餘依二縣 搜侯正户每人二門二應節為正容各項並代納每人三改竭中詠六文自粳米陳九文絹稅各耨每尺代納三豆五改每尺一四十文每十七文百紛絲谷轉每尺十五尺代初二定卅文每每尺一兩卅文每寸九文\",\n        \"vietnamese_text\": \"Gạo tám mỗi bao 63 bát.\",\n        \"score\": 0.000515823356076872\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 0,
+          "vi_start": 0,
+          "vi_end": 1,
+          "han_text": "新經水油禮二門卅文許平項加押作免稅并脩飯落成",
+          "vietnamese_text": "Lễ các hạng nộp quan cai thu, hề là hạng tráng xin chiết khiếm, như nộp 8 phần sưu thì nộp tiền 6 tiền, nộp 6 phần sưu thì nộp ð tiền, nộp 4 phần sưu thì nộp 4 tiền và chiết trừ thực nộp; nếu hạng tráng xin xuống hạng cùng thì mỗi người nộp tiền 5 tiền. thì Thuỷ Du mới được miễn lễ; được cho là hạng bán, nếu là người xin hạng bán cũ thì Thuỷ Du mới lễ 2 tiền 30 đồng; cho là hạng bán, nếu ốp làm thì được miễn thuế và tiền đầu quan, tiền cơm, tiền số.",
+          "score": 0.019944016746175124
+        },
+        {
+          "han_start": 1,
+          "han_end": 3,
+          "vi_start": 2,
+          "vi_end": 2,
+          "han_text": "福祿當安安象三村玄半項白人二門竹亦立羊項 每人二阪仰北三半項每人一改檄祝并水油各寨異水陶禮禎官縉飯四人卦明又雞法十五文之穷近 每百人許窮成二十五文玄折欠",
+          "vietnamese_text": "Ba thôn Phúc Lộc, Phúc An, An Tượng, xm xuống hạng bán thì mỗi người 2 tiền; thôn Trúc Lâm, xin xuống hạng bán thì mỗi người 1 tiền; Các trại Cảm Lãm và Thuỷ Du tiền đầu quan, tiền cơm, lễ cai quan mỗi người 2 quan và tiền gà rượu lỗ đồng: xin xuống hạng cùng hạng đào, mỗi 100 người cho nộp tiền 25 đồng; xin chiết khiếm mỗi 100 người cho nộp tiền 25 đồng.",
+          "score": 0.18334362292861836
+        },
+        {
+          "han_start": 4,
+          "han_end": 4,
+          "vi_start": 3,
+          "vi_end": 3,
+          "han_text": "每百人許歲二十五天富安府二縣差餘例稅正户",
+          "vietnamese_text": "Lệ thuế sai dự ở hai huyện thuộc phú Phú Yên.",
+          "score": 0.11441126718062208
+        },
+        {
+          "han_start": 5,
+          "han_end": 5,
+          "vi_start": 4,
+          "vi_end": 5,
+          "han_text": "容户各項並依各府四某有區下每丁顯孫士文搜康六改氣水郡十二文稱成八文",
+          "vietnamese_text": "Các hạng chính hộ khách hộ đều theo như các phủ. Như có đân định thì mỗi định nộp tiền gạo tám 6 đồng, tiền sưu 6 tiền, tiền nước trà 12 đồng, tiền đầu quan 8 đồng.",
+          "score": 0.17155490198970277
+        },
+        {
+          "han_start": 6,
+          "han_end": 6,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "其字庫另易田庄屬等名免脚米并率祿安海成搜率俱免",
+          "vietnamese_text": "Lính giữ kho và những tên ở thuộc Điển Trang thì được miễn gạo cước và tiền suất sưu.",
+          "score": 0.18085018604696035
+        },
+        {
+          "han_start": 7,
+          "han_end": 7,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "耀輸官席并守傷及正微二祿並免搜率",
+          "vietnamese_text": "Thuyền An Hải tiền sưu, tiền suất đều được miễn; đội Cù Du (dệt thảm cói), Quan Tịch (dệt chiếu) và 2 đội Thủ Trường, Thuỷ Lại đều được miễn tiền sưu tiền suất.",
+          "score": -0.01920535756687443
+        },
+        {
+          "han_start": 8,
+          "han_end": 8,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "孫二縣節料例稅正戶官員壯須年頂雇項百人朱七亦略四百人米七升",
+          "vietnamese_text": "Lệ thuế tiết liệu của hai huyện.",
+          "score": 0.07542422787616722
+        },
+        {
+          "han_start": 9,
+          "han_end": 11,
+          "vi_start": 9,
+          "vi_end": 10,
+          "han_text": "官員子孫前賦府楊吏及將臣社長仃老項不具項四人米六奔事巨米四十亦四人白種米一時詠三文每人場中米半辭孫六文脚米一兩十二文白糧辛邑十三游客户軍項壯項昭回 昭積每人宋七升官員子孫益貳府祿吏悟臣社長行老項不具盈項与長丁新到每人米五 亦其全庫另兵免節料底場中脚米百粳",
+          "vietnamese_text": "Chính hộ, hạng quan viên tráng, hạng quân, bạng cố, mỗi người gạo 7 thưng, hạng mới về mỗi người gạo 7 thưng, con cháu quan viên, chức cũ, duyện lại ở phủ, tướng thần, xã trưởng. đình việc, các hạng lão, bất cụ, mỗi người gạo 6 thưng, mỗi bao gạo 40 thưng, mỗi người gạo tâm I1 bát, tiền 3 đồng; mỗi Dgười gạo trường trung nửa bát tiền 6 đồng, tiền cước 1 tiền 12 đồng.",
+          "score": 0.34862231765724827
+        },
+        {
+          "han_start": 12,
+          "han_end": 15,
+          "vi_start": 11,
+          "vi_end": 11,
+          "han_text": "搜率歲新民庚差餘狼二步 搜殘止户每人二陌容户一兩 新安下屬差餘依二縣 搜侯正户每人二門二應節為正容各項並代納每人三改竭中詠六文自粳米陳九文絹稅各耨每尺代納三豆五改每尺一四十文每十七文百紛絲谷轉每尺十五尺代初二定卅文每每尺一兩卅文每寸九文",
+          "vietnamese_text": "Gạo tám mỗi bao 63 bát.",
+          "score": 0.000515823356076872
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 6157
+}

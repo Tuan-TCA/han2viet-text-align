@@ -1,0 +1,159 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "003bb8d0829b3a03235b313577211be909991ed51f157f5829a3795ebc56da9f",
+  "payload": {
+    "han": "其孫未之效示隨人效色年有增有減\n語華千貴百升之间而有定准\n至於源所追度市館諸稅与長船船隻例底家納之效並別\n順化宿軍副一是社民加正營及各奇營陽投兵額姓名貴址\n推併兵效照其遠近雅四社謂之行祇其船有淘汰徼\n而後官呈司官查冥呈公堂官推併淮拾\n責令將臣社長及原社定贊交与後差人明處月為期差人回拿\n另兵投大中小就大壯自百人上許取行書侯一長\n中社自五十人以上行取五限\n小社自五十人以下行取三限差三\n四拿处另伊社收在舉族计差人行李五狗同官案以四月查各船此另若不脩澤以知多處\n一寬民力\n孫始四新到之民酌免三年碑安生業方莊母之那拿稽另滿限替\n一禁隱牖\n孫正營及各營内吳外水奇陽某名有男子十八矣\n其房船當年查一例著名入波\n七月祐呈批從行社某名有子隱漏\n查寔給主原另其小志小柄二船有欠呈有司官投為郎\n在各船係清華人急子某名點給為兵\n私拿者隊長位長並點下次\n其左馬右馬全一全二四船他年府同刻官員前代脚註祖文年犯及身材壯族或早小案\n四月內俗在公堂官如四船有欠\n另祐呈點招付繳四拿許追取在伊族另員賀飯行李鄉照玄遠近升華\n每各孫二長度美為仁孫三貞富安四長差人",
+    "vi": "Các số tiển gạo cùng tuỳ theo số người, hàng năm có thưng, không có định chuẩn.\nCòn như các thuế đầu nguồn, tuần, đò, chợ, quán và tiển lệ thuế thuyền, số nộp hàng năm đều tính riêng.\nCHIA ĐẶT QUÂN HIỆU\nQuân chế cũ của xứ Thuận Hoä: 1/ Định xã bình.\nNhư các cơ đội Chính Dinh và các định. cứ theo ngạch bình, lấy họ tên quê quán mà suy tính số bình, chiếu theo xa gần mà cấp về bạn xã, gọi là hàng xã, thuyển nào có người trốn hay bị thai, thì báo rõ cho sai quản trình ty quan xét thực, trình lên quan công đường. suy tính cho cấp, rồi bắt tướng thần, xã trưởng và bản xã định người thay thể, giao cho sai nhân điệu về. hàng năm cứ lấy tháng 8 làm kỳ hạn.\nSai nhân về nã bình lính. cứ theo xã lớn xã vừa xã nhỏ. xã lớn từ 100 lý 1 quan. xã vừa từ 50 người trợ lên. cho lấy tiền hành người trở lên, cho lấy 5 tiến. xã nho từ ã0 người trở xuống, cho lấy 3 tiển.\nSai nhân về nã lính trốn. thì xã ấy thu ở họ người lính trốn. cho sai nhân tiền hành lý ð tiền.\nTV quan hàng năm: cứ đến tháng 4 thì tra số lính trốn cúa các thuyền, mỗi thuyển bao nhiều, làm số để biết nhiều ít.\n2/ Khoan sức dân.\nHễ là dân mới về hay mới đến thì được chước miễn: 2 nắn: để cho yên nghiệp làm ăn, bản xã không được ức bat chế lính, hết hạn mới thế cấp."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 1,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"其孫未之效示隨人效色年有增有減 語華千貴百升之间而有定准\",\n        \"vietnamese_text\": \"Các số tiển gạo cùng tuỳ theo số người, hàng năm có thưng, không có định chuẩn.\",\n        \"score\": 0.23476505735649375\n      },\n      {\n        \"han_start\": 2,\n        \"han_end\": 2,\n        \"vi_start\": 1,\n        \"vi_end\": 1,\n        \"han_text\": \"至於源所追度市館諸稅与長船船隻例底家納之效並別\",\n        \"vietnamese_text\": \"Còn như các thuế đầu nguồn, tuần, đò, chợ, quán và tiển lệ thuế thuyền, số nộp hàng năm đều tính riêng.\",\n        \"score\": 0.1735280021181215\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 3,\n        \"vi_start\": 2,\n        \"vi_end\": 3,\n        \"han_text\": \"順化宿軍副一是社民加正營及各奇營陽投兵額姓名貴址\",\n        \"vietnamese_text\": \"CHIA ĐẶT QUÂN HIỆU Quân chế cũ của xứ Thuận Hoä: 1/ Định xã bình.\",\n        \"score\": 0.1839531711576328\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 4,\n        \"vi_start\": 4,\n        \"vi_end\": 5,\n        \"han_text\": \"推併兵效照其遠近雅四社謂之行祇其船有淘汰徼\",\n        \"vietnamese_text\": \"Như các cơ đội Chính Dinh và các định. cứ theo ngạch bình, lấy họ tên quê quán mà suy tính số bình, chiếu theo xa gần mà cấp về bạn xã, gọi là hàng xã, thuyển nào có người trốn hay bị thai, thì báo rõ cho sai quản trình ty quan xét thực, trình lên quan công đường.\",\n        \"score\": 0.009332326986077864\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 6,\n        \"vi_start\": 6,\n        \"vi_end\": 7,\n        \"han_text\": \"而後官呈司官查冥呈公堂官推併淮拾 責令將臣社長及原社定贊交与後差人明處月為期差人回拿\",\n        \"vietnamese_text\": \"suy tính cho cấp, rồi bắt tướng thần, xã trưởng và bản xã định người thay thể, giao cho sai nhân điệu về. hàng năm cứ lấy tháng 8 làm kỳ hạn.\",\n        \"score\": 0.3318858646610259\n      },\n      {\n        \"han_start\": 7,\n        \"han_end\": 7,\n        \"vi_start\": 8,\n        \"vi_end\": 9,\n        \"han_text\": \"另兵投大中小就大壯自百人上許取行書侯一長\",\n        \"vietnamese_text\": \"Sai nhân về nã bình lính. cứ theo xã lớn xã vừa xã nhỏ.\",\n        \"score\": 0.2803128946350828\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 8,\n        \"vi_start\": 10,\n        \"vi_end\": 10,\n        \"han_text\": \"中社自五十人以上行取五限\",\n        \"vietnamese_text\": \"xã lớn từ 100 lý 1 quan.\",\n        \"score\": 0.02083615614738557\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 9,\n        \"vi_start\": 11,\n        \"vi_end\": 11,\n        \"han_text\": \"小社自五十人以下行取三限差三\",\n        \"vietnamese_text\": \"xã vừa từ 50 người trợ lên.\",\n        \"score\": 0.11530341030213619\n      },\n      {\n        \"han_start\": 10,\n        \"han_end\": 10,\n        \"vi_start\": 12,\n        \"vi_end\": 12,\n        \"han_text\": \"四拿处另伊社收在舉族计差人行李五狗同官案以四月查各船此另若不脩澤以知多處\",\n        \"vietnamese_text\": \"cho lấy tiền hành người trở lên, cho lấy 5 tiến.\",\n        \"score\": 0.02133706964986576\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 12,\n        \"vi_start\": 13,\n        \"vi_end\": 13,\n        \"han_text\": \"一寬民力 孫始四新到之民酌免三年碑安生業方莊母之那拿稽另滿限替\",\n        \"vietnamese_text\": \"xã nho từ ã0 người trở xuống, cho lấy 3 tiển.\",\n        \"score\": 0.13952416276955848\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 14,\n        \"vi_start\": 14,\n        \"vi_end\": 14,\n        \"han_text\": \"一禁隱牖 孫正營及各營内吳外水奇陽某名有男子十八矣\",\n        \"vietnamese_text\": \"Sai nhân về nã lính trốn.\",\n        \"score\": 0.027326729095485384\n      },\n      {\n        \"han_start\": 15,\n        \"han_end\": 15,\n        \"vi_start\": 15,\n        \"vi_end\": 15,\n        \"han_text\": \"其房船當年查一例著名入波\",\n        \"vietnamese_text\": \"thì xã ấy thu ở họ người lính trốn.\",\n        \"score\": 0.13530642646570848\n      },\n      {\n        \"han_start\": 16,\n        \"han_end\": 18,\n        \"vi_start\": 16,\n        \"vi_end\": 17,\n        \"han_text\": \"七月祐呈批從行社某名有子隱漏 查寔給主原另其小志小柄二船有欠呈有司官投為郎 在各船係清華人急子某名點給為兵\",\n        \"vietnamese_text\": \"cho sai nhân tiền hành lý ð tiền. TV quan hàng năm: cứ đến tháng 4 thì tra số lính trốn cúa các thuyền, mỗi thuyển bao nhiều, làm số để biết nhiều ít.\",\n        \"score\": 0.2506686297678431\n      },\n      {\n        \"han_start\": 19,\n        \"han_end\": 21,\n        \"vi_start\": 18,\n        \"vi_end\": 18,\n        \"han_text\": \"私拿者隊長位長並點下次 其左馬右馬全一全二四船他年府同刻官員前代脚註祖文年犯及身材壯族或早小案 四月內俗在公堂官如四船有欠\",\n        \"vietnamese_text\": \"2/ Khoan sức dân.\",\n        \"score\": -0.00020438671347009513\n      },\n      {\n        \"han_start\": 22,\n        \"han_end\": 23,\n        \"vi_start\": 19,\n        \"vi_end\": 19,\n        \"han_text\": \"另祐呈點招付繳四拿許追取在伊族另員賀飯行李鄉照玄遠近升華 每各孫二長度美為仁孫三貞富安四長差人\",\n        \"vietnamese_text\": \"Hễ là dân mới về hay mới đến thì được chước miễn: 2 nắn: để cho yên nghiệp làm ăn, bản xã không được ức bat chế lính, hết hạn mới thế cấp.\",\n        \"score\": 0.15124957832255817\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 1,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "其孫未之效示隨人效色年有增有減 語華千貴百升之间而有定准",
+          "vietnamese_text": "Các số tiển gạo cùng tuỳ theo số người, hàng năm có thưng, không có định chuẩn.",
+          "score": 0.23476505735649375
+        },
+        {
+          "han_start": 2,
+          "han_end": 2,
+          "vi_start": 1,
+          "vi_end": 1,
+          "han_text": "至於源所追度市館諸稅与長船船隻例底家納之效並別",
+          "vietnamese_text": "Còn như các thuế đầu nguồn, tuần, đò, chợ, quán và tiển lệ thuế thuyền, số nộp hàng năm đều tính riêng.",
+          "score": 0.1735280021181215
+        },
+        {
+          "han_start": 3,
+          "han_end": 3,
+          "vi_start": 2,
+          "vi_end": 3,
+          "han_text": "順化宿軍副一是社民加正營及各奇營陽投兵額姓名貴址",
+          "vietnamese_text": "CHIA ĐẶT QUÂN HIỆU Quân chế cũ của xứ Thuận Hoä: 1/ Định xã bình.",
+          "score": 0.1839531711576328
+        },
+        {
+          "han_start": 4,
+          "han_end": 4,
+          "vi_start": 4,
+          "vi_end": 5,
+          "han_text": "推併兵效照其遠近雅四社謂之行祇其船有淘汰徼",
+          "vietnamese_text": "Như các cơ đội Chính Dinh và các định. cứ theo ngạch bình, lấy họ tên quê quán mà suy tính số bình, chiếu theo xa gần mà cấp về bạn xã, gọi là hàng xã, thuyển nào có người trốn hay bị thai, thì báo rõ cho sai quản trình ty quan xét thực, trình lên quan công đường.",
+          "score": 0.009332326986077864
+        },
+        {
+          "han_start": 5,
+          "han_end": 6,
+          "vi_start": 6,
+          "vi_end": 7,
+          "han_text": "而後官呈司官查冥呈公堂官推併淮拾 責令將臣社長及原社定贊交与後差人明處月為期差人回拿",
+          "vietnamese_text": "suy tính cho cấp, rồi bắt tướng thần, xã trưởng và bản xã định người thay thể, giao cho sai nhân điệu về. hàng năm cứ lấy tháng 8 làm kỳ hạn.",
+          "score": 0.3318858646610259
+        },
+        {
+          "han_start": 7,
+          "han_end": 7,
+          "vi_start": 8,
+          "vi_end": 9,
+          "han_text": "另兵投大中小就大壯自百人上許取行書侯一長",
+          "vietnamese_text": "Sai nhân về nã bình lính. cứ theo xã lớn xã vừa xã nhỏ.",
+          "score": 0.2803128946350828
+        },
+        {
+          "han_start": 8,
+          "han_end": 8,
+          "vi_start": 10,
+          "vi_end": 10,
+          "han_text": "中社自五十人以上行取五限",
+          "vietnamese_text": "xã lớn từ 100 lý 1 quan.",
+          "score": 0.02083615614738557
+        },
+        {
+          "han_start": 9,
+          "han_end": 9,
+          "vi_start": 11,
+          "vi_end": 11,
+          "han_text": "小社自五十人以下行取三限差三",
+          "vietnamese_text": "xã vừa từ 50 người trợ lên.",
+          "score": 0.11530341030213619
+        },
+        {
+          "han_start": 10,
+          "han_end": 10,
+          "vi_start": 12,
+          "vi_end": 12,
+          "han_text": "四拿处另伊社收在舉族计差人行李五狗同官案以四月查各船此另若不脩澤以知多處",
+          "vietnamese_text": "cho lấy tiền hành người trở lên, cho lấy 5 tiến.",
+          "score": 0.02133706964986576
+        },
+        {
+          "han_start": 11,
+          "han_end": 12,
+          "vi_start": 13,
+          "vi_end": 13,
+          "han_text": "一寬民力 孫始四新到之民酌免三年碑安生業方莊母之那拿稽另滿限替",
+          "vietnamese_text": "xã nho từ ã0 người trở xuống, cho lấy 3 tiển.",
+          "score": 0.13952416276955848
+        },
+        {
+          "han_start": 13,
+          "han_end": 14,
+          "vi_start": 14,
+          "vi_end": 14,
+          "han_text": "一禁隱牖 孫正營及各營内吳外水奇陽某名有男子十八矣",
+          "vietnamese_text": "Sai nhân về nã lính trốn.",
+          "score": 0.027326729095485384
+        },
+        {
+          "han_start": 15,
+          "han_end": 15,
+          "vi_start": 15,
+          "vi_end": 15,
+          "han_text": "其房船當年查一例著名入波",
+          "vietnamese_text": "thì xã ấy thu ở họ người lính trốn.",
+          "score": 0.13530642646570848
+        },
+        {
+          "han_start": 16,
+          "han_end": 18,
+          "vi_start": 16,
+          "vi_end": 17,
+          "han_text": "七月祐呈批從行社某名有子隱漏 查寔給主原另其小志小柄二船有欠呈有司官投為郎 在各船係清華人急子某名點給為兵",
+          "vietnamese_text": "cho sai nhân tiền hành lý ð tiền. TV quan hàng năm: cứ đến tháng 4 thì tra số lính trốn cúa các thuyền, mỗi thuyển bao nhiều, làm số để biết nhiều ít.",
+          "score": 0.2506686297678431
+        },
+        {
+          "han_start": 19,
+          "han_end": 21,
+          "vi_start": 18,
+          "vi_end": 18,
+          "han_text": "私拿者隊長位長並點下次 其左馬右馬全一全二四船他年府同刻官員前代脚註祖文年犯及身材壯族或早小案 四月內俗在公堂官如四船有欠",
+          "vietnamese_text": "2/ Khoan sức dân.",
+          "score": -0.00020438671347009513
+        },
+        {
+          "han_start": 22,
+          "han_end": 23,
+          "vi_start": 19,
+          "vi_end": 19,
+          "han_text": "另祐呈點招付繳四拿許追取在伊族另員賀飯行李鄉照玄遠近升華 每各孫二長度美為仁孫三貞富安四長差人",
+          "vietnamese_text": "Hễ là dân mới về hay mới đến thì được chước miễn: 2 nắn: để cho yên nghiệp làm ăn, bản xã không được ức bat chế lính, hết hạn mới thế cấp.",
+          "score": 0.15124957832255817
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 3032
+}

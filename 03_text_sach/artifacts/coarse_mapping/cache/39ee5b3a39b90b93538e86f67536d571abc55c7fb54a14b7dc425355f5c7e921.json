@@ -1,0 +1,96 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "39ee5b3a39b90b93538e86f67536d571abc55c7fb54a14b7dc425355f5c7e921",
+  "payload": {
+    "han": "阮兆前廟田扶寧人仕曉國公\n辰西翰亦碩分侯\n有題詠宮字及醇答番邦文書\n多其所草廟二處北餉交通先辰有送還人口香捕洋刼諸公文\n嘗祿安南惻廟道節制太傳國公阮甫呈于天朝其官至曉國公之祿\n10王景適有文書當答報敬称安南國王光前報\n不可以為皇帝在京天朝冊封王爵此處原是正舊臣猶吉正氣\n今祿國王或天嘲致詰中國將仍辭以过坐不肯草斥還御\n十五年我公文意用族簿按守官\n若以復至福享繼書姑起光前仍肩職\n已丑年彗星見光前语人曰顏順不出五六年\n當有兵起京中居索北操彗樞以攝西南方阮家棄故休矣\nA景興十六年乙亥是冊國有書到富春順化令院光前為書以答\n錄之以見海外文字舊異國未書云是器國內\n周左丞相掌理產儀衛德督政務大華師昭玉雅視談馬力區沙提没礼臺固官為安卯棄喜欽幸\n上谕興邦咨金奕世親知事緣安南興星帆海原豐合共天",
+    "vi": "Đá trắng thông xanh bóng xế tây.\nTơ buộc quanh hồ chơi mộc điểu”?); Sáo uang đồng ruộng chọi sa bế”.\nBầu treo đất Bắc ra phò Hán”; Đất hút non Nam chứa giúp TẾ”.\nCách mệnh chăn trâu thường làm được; Đũa que mâm gỗ cũng không nề.\nNghĩ hoạ nguyên vận bài thơ của Đường Trường Khanh qua nhà Giả Nghị.\nBằng điểu\"' cũng nên hỏi chóng chây.\nThăng không mừng, trích?' cũng không sâu Là Giấc mộng Hiên Định'” từng đã gặp; Văn thời Giáng Quán'\" dễ làm đâu?\nGiống tròn”) khối hận ngầm trơ đó; Giường đá” lòng trinh uẫn biết nhau.\nThương ông mà lại mừng ông đó, Tuyên thất uừa ngồi, đã góc trời”.\n'Uống rượu đêm Tịnh nhân” sao khổ một mình ngâm."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 1,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"阮兆前廟田扶寧人仕曉國公 辰西翰亦碩分侯\",\n        \"vietnamese_text\": \"Đá trắng thông xanh bóng xế tây.\",\n        \"score\": 0.0716089141747797\n      },\n      {\n        \"han_start\": 2,\n        \"han_end\": 2,\n        \"vi_start\": 1,\n        \"vi_end\": 1,\n        \"han_text\": \"有題詠宮字及醇答番邦文書\",\n        \"vietnamese_text\": \"Tơ buộc quanh hồ chơi mộc điểu”?\",\n        \"score\": 0.001162317117037159\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 5,\n        \"vi_start\": 2,\n        \"vi_end\": 3,\n        \"han_text\": \"多其所草廟二處北餉交通先辰有送還人口香捕洋刼諸公文 嘗祿安南惻廟道節制太傳國公阮甫呈于天朝其官至曉國公之祿 10王景適有文書當答報敬称安南國王光前報\",\n        \"vietnamese_text\": \"); Sáo uang đồng ruộng chọi sa bế”. Bầu treo đất Bắc ra phò Hán”; Đất hút non Nam chứa giúp TẾ”.\",\n        \"score\": 0.15103979333265571\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 7,\n        \"vi_start\": 4,\n        \"vi_end\": 4,\n        \"han_text\": \"不可以為皇帝在京天朝冊封王爵此處原是正舊臣猶吉正氣 今祿國王或天嘲致詰中國將仍辭以过坐不肯草斥還御\",\n        \"vietnamese_text\": \"Cách mệnh chăn trâu thường làm được; Đũa que mâm gỗ cũng không nề.\",\n        \"score\": 0.10276314993512212\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 9,\n        \"vi_start\": 5,\n        \"vi_end\": 5,\n        \"han_text\": \"十五年我公文意用族簿按守官 若以復至福享繼書姑起光前仍肩職\",\n        \"vietnamese_text\": \"Nghĩ hoạ nguyên vận bài thơ của Đường Trường Khanh qua nhà Giả Nghị.\",\n        \"score\": 0.08548672407338256\n      },\n      {\n        \"han_start\": 10,\n        \"han_end\": 11,\n        \"vi_start\": 6,\n        \"vi_end\": 7,\n        \"han_text\": \"已丑年彗星見光前语人曰顏順不出五六年 當有兵起京中居索北操彗樞以攝西南方阮家棄故休矣\",\n        \"vietnamese_text\": \"Bằng điểu\\\"' cũng nên hỏi chóng chây. Thăng không mừng, trích?\",\n        \"score\": -0.004489760070397335\n      },\n      {\n        \"han_start\": 12,\n        \"han_end\": 13,\n        \"vi_start\": 8,\n        \"vi_end\": 9,\n        \"han_text\": \"A景興十六年乙亥是冊國有書到富春順化令院光前為書以答 錄之以見海外文字舊異國未書云是器國內\",\n        \"vietnamese_text\": \"' cũng không sâu Là Giấc mộng Hiên Định'” từng đã gặp; Văn thời Giáng Quán'\\\" dễ làm đâu? Giống tròn”) khối hận ngầm trơ đó; Giường đá” lòng trinh uẫn biết nhau.\",\n        \"score\": 0.07816852661489572\n      },\n      {\n        \"han_start\": 14,\n        \"han_end\": 15,\n        \"vi_start\": 10,\n        \"vi_end\": 11,\n        \"han_text\": \"周左丞相掌理產儀衛德督政務大華師昭玉雅視談馬力區沙提没礼臺固官為安卯棄喜欽幸 上谕興邦咨金奕世親知事緣安南興星帆海原豐合共天\",\n        \"vietnamese_text\": \"Thương ông mà lại mừng ông đó, Tuyên thất uừa ngồi, đã góc trời”. 'Uống rượu đêm Tịnh nhân” sao khổ một mình ngâm.\",\n        \"score\": 0.17763543012448596\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 1,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "阮兆前廟田扶寧人仕曉國公 辰西翰亦碩分侯",
+          "vietnamese_text": "Đá trắng thông xanh bóng xế tây.",
+          "score": 0.0716089141747797
+        },
+        {
+          "han_start": 2,
+          "han_end": 2,
+          "vi_start": 1,
+          "vi_end": 1,
+          "han_text": "有題詠宮字及醇答番邦文書",
+          "vietnamese_text": "Tơ buộc quanh hồ chơi mộc điểu”?",
+          "score": 0.001162317117037159
+        },
+        {
+          "han_start": 3,
+          "han_end": 5,
+          "vi_start": 2,
+          "vi_end": 3,
+          "han_text": "多其所草廟二處北餉交通先辰有送還人口香捕洋刼諸公文 嘗祿安南惻廟道節制太傳國公阮甫呈于天朝其官至曉國公之祿 10王景適有文書當答報敬称安南國王光前報",
+          "vietnamese_text": "); Sáo uang đồng ruộng chọi sa bế”. Bầu treo đất Bắc ra phò Hán”; Đất hút non Nam chứa giúp TẾ”.",
+          "score": 0.15103979333265571
+        },
+        {
+          "han_start": 6,
+          "han_end": 7,
+          "vi_start": 4,
+          "vi_end": 4,
+          "han_text": "不可以為皇帝在京天朝冊封王爵此處原是正舊臣猶吉正氣 今祿國王或天嘲致詰中國將仍辭以过坐不肯草斥還御",
+          "vietnamese_text": "Cách mệnh chăn trâu thường làm được; Đũa que mâm gỗ cũng không nề.",
+          "score": 0.10276314993512212
+        },
+        {
+          "han_start": 8,
+          "han_end": 9,
+          "vi_start": 5,
+          "vi_end": 5,
+          "han_text": "十五年我公文意用族簿按守官 若以復至福享繼書姑起光前仍肩職",
+          "vietnamese_text": "Nghĩ hoạ nguyên vận bài thơ của Đường Trường Khanh qua nhà Giả Nghị.",
+          "score": 0.08548672407338256
+        },
+        {
+          "han_start": 10,
+          "han_end": 11,
+          "vi_start": 6,
+          "vi_end": 7,
+          "han_text": "已丑年彗星見光前语人曰顏順不出五六年 當有兵起京中居索北操彗樞以攝西南方阮家棄故休矣",
+          "vietnamese_text": "Bằng điểu\"' cũng nên hỏi chóng chây. Thăng không mừng, trích?",
+          "score": -0.004489760070397335
+        },
+        {
+          "han_start": 12,
+          "han_end": 13,
+          "vi_start": 8,
+          "vi_end": 9,
+          "han_text": "A景興十六年乙亥是冊國有書到富春順化令院光前為書以答 錄之以見海外文字舊異國未書云是器國內",
+          "vietnamese_text": "' cũng không sâu Là Giấc mộng Hiên Định'” từng đã gặp; Văn thời Giáng Quán'\" dễ làm đâu? Giống tròn”) khối hận ngầm trơ đó; Giường đá” lòng trinh uẫn biết nhau.",
+          "score": 0.07816852661489572
+        },
+        {
+          "han_start": 14,
+          "han_end": 15,
+          "vi_start": 10,
+          "vi_end": 11,
+          "han_text": "周左丞相掌理產儀衛德督政務大華師昭玉雅視談馬力區沙提没礼臺固官為安卯棄喜欽幸 上谕興邦咨金奕世親知事緣安南興星帆海原豐合共天",
+          "vietnamese_text": "Thương ông mà lại mừng ông đó, Tuyên thất uừa ngồi, đã góc trời”. 'Uống rượu đêm Tịnh nhân” sao khổ một mình ngâm.",
+          "score": 0.17763543012448596
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 2719
+}

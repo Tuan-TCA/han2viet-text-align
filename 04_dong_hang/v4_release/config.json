@@ -1,0 +1,1 @@
+{"minimum_distinct_payloads":2,"weights":{"context_support":4,"aligned_boundary":2,"shared_numeric":1,"shared_entity":1,"api_score":0.1},"primary_context":"full","sensitivity":[10,5,15]}

@@ -1,0 +1,132 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "c7e6be63e342685c1e077c9e24101f1ccf7ba6994bc4e651bb93b486261201a9",
+  "payload": {
+    "han": "府夫各十一人五各十三五見何伯讀府各九人\n四字孫十一長府记五人金泣夫後黃夫八人\n辛字孫十集於春勾稽夫三人\n雖一百侯三黃縣書祀洋舟匠書祀夫各五人\n銓百祿各五貨府書祀夫六人\n字字百條七長五陽三金後辰夫七人三白祿八生五門三金屬書祀夫三人幹百鄉三立五門後選夫三人\n家庚三貴五門三金莊長夫二人\n餘百成一長舟匠首合夫四人\n御五長田座候寨夫二人\n全年孫三生五門田座預屬夫三人無一百侯三只\n年華府內府場夫四人\n午平存成五貴與盘府祿府後墻夫生三百三長五陌\n舟匠後隊夫三人雖百孫三貫五陌內清德竭勾稽夫二人竿報白城二步五限\n廣義府該揚夫三人劉一百歲三豆五門升羣府角人卷新頑曼夫六人谭相牛るぼし吉五門華洲富洲網見勾稽夫三人\n一奠盘府商人後蔓夫五人垂白六貫十吏夫一人\n軍百御一長廣美府後蔓夫三人鑑字侯三豆五改源五官夫心土官二頂四名每名成三長\n外兵四名四名各っ五阳字後于長後往夫三人\n幹鄉三長下行侯屬夫九人吉\n五阳主宜名字成四豆五門下行書祀夫七人\n土宣獄三長五門將臣夫二人字祿一貞\n云陽社長夫二人興字成產長我廣南各府寺隸夫例府官兼道隸夫四人人孫七亥四陽辛隸夫十人\n老之二百成五\n長阪縣年隸並訓導酒夫各六人正四若年二郡五三四改廣義",
+    "vi": "Nguyễn Phúc Thuần thi khoa Mậu tý cũng thế.\nĐến năm Giấp Ngọ, vừa 35 năm, chỉ có khoa ấy.\nHoa văn cũng thế.\nHọ Nguyễn chuyên dùng người họ mình, huyện mình và xứ Thanh Hoa.\nChưởng dinh, chưởng cơ, cai cơ, cai đội, không phải hạng ấy thì không được sung tuyển.\nCon cháu họ đời đời được nhiêu miễn.\nNgười ở xứ Thuận Quảng thì gọi là bách tính, người cầu xin làm chức cai đội thì chỉ cho chức cai đội, đội thủ ngự đầu nguồn và tạp đội thổ binh, con cháu họ không được trừ thuế.\nNhư con cháu quan văn từ cai bạ đến phủ huyện và câu kê, cai hợp, cũng đều phải nộp thuế, không phải là chức sắc.\nCon cháu cùng người thân tộc của họ thì gọi là quan viên tráng, cũng không khỏi thế lính.\nCác chức ở hai xứ Thuận Hoá Quảng Nam, được cấp phu, cho nộp tiền làm ngự lộc, đều có lệ cũ.\nDinh Quảng Nam, chính hộ cai giám khám lý được 30 phu (nửa là quân hạng chính hộ, nửa quân hạng khách hộ), được tiển 45 quan, cai giám 20 phu (nửa quân hạng chính hộ, nửa quân hạng khách hộ), được tiển 30 quan, chánh phó để đốc 20 phu (nửa quân hạng chính hộ, nửa quân hạng khách hộ), được tiển 27 quan, để lĩnh 16 phu (nửa chính nửa khách), được tiền 21 quan 6 tiền, phủ ký lực 7 phu (3 chính 4 khách), được tiển 10 quan (ngoại tiển 9 tiền), cai phủ 12 phu (nửa chính nửa khách), được tiển 15 quan (ngoại tiền 1 quan 2 tiển). phủ thư ký 5 phu (toàn quân hạng khách hộ), được tiền 5 quan, cai tri phó tướng 8 phu (nửa chính nửa khách), được tiền 10 quan (ngoại tiền 2 tiền), cai tri tham tướng 8 phu (nửa chính nửa khách), được tiền 10 quan (ngoại tiển 8 tiền), huyện thư ký 3 phu (toàn quân hạng khách hộ), được tiền 3 quan, bản phủ câu kê 3 phu (1 chính 2 khách), được tiền 3 quan (ngoại tiền 3 tiền), cai huyện 3 phu (1 chính 2 khách), được tiền 3 quan 7 tiển, thủ làng thứ đội trưởng 1 phu (quân hạng chính hộ), được tiền 1 quan 7 tiền, eai xã 3 phu (1 chính 9 khách), được tiền 6 quan (ngoại tiển 7 tiển), tướng thần 3 phu (1 chính 2 khách), được tiền 2 quan 7 tiền, xã trưởn 2 phu (1 chính 1 khách), được tiển 1 quan 8 tiền; còn các phủ thuộc mới lập như Hoa Châu, Phú Châu, Kim Hộ, Võng Nhi, Hà Bạc, Chu Tượng, Điền Trang, Thương Nhân, Sơn Điền, đều cho lấy phu khách hộ, để đốc 20 phu (nửa tráng hạng, nửa quân hạng), được tiền 20 quan, đề lĩnh 16 phu (nửa tráng nửa quân), được tiền 13 quan, phủ ký lục 7 phu (3 tráng 4 quân), được tiền 8 quan 5ð tiền, Kim hộ cai quan 2 phu (1 trắng 1 quân), được tiền 15 quan, Chu tượng cai quan 8 phu (nửa tráng nửa quân), được tiền 10 quan, Chu tượng ty quan 6 phu (nửa tráng nửa quân), được tiền 7 quan õ tiền, Chu tượng cai phủ 6 phu (nửa trắng nửa quân), Hoa Châu, Phú Châu và Nội phủ cai phủ đều 20 phu (nửa tráng nửa quân), được tiền đều 1ã quan, Kim hộ cai phủ.\nĐiển trang cai phủ, đều 11 phu (5 trắng 6 quân), được tiền đều 13 quan ð tiền, Võng Nhi, Hà Bạc cai phủ, đều 9 phu (4 tráng 5 quân), được tiển 11 quan, phủ thư ký 5 phu (quân hạng eä), được tiền ð quan, cai trì 8 phu (nửa tráng nửa quân), được tiền 10 quan, bản phủ câu kê 3 phu (1 trắng 2 quân), được tiền 3 quan, huyện thư ký.\nChu tượng thư ký đều 3 phu (hạng quân cä), được tiền đều 3 quan, phủ thư ký 6 phu (nửa tráng nửa quân), được tiền 7 quan ð tiền, cai thuộc ba thuộc 7 phu (8 tráng 4 quân), được tiền 3 quan 5 tiền, thư ký ba thuộc 3 phu (quân hạng cả), được tiển 3 quan 5 tiền, cai tổng 3 phu (tráng hạng cả), được tiền 3 quan 5 tiền, tướng thần ba thuộc 2 phu (1 tráng 1 quân), được tiền 2 quan 5 tiền, xã trưởng ba thuộc 2 phu (quân hạng cả), được tiền 1 quan.\nChu tượng thủ hợp 4 phu (nứa trắng nửa quân), được tiền 5 quan, điền trang cai trại 2 phu (hạng quân cả), được tiền 3 quan õ tiền, điển trang cai thuộc 4 phu (nửa tráng nửa quân), được tiền 3 quan ð tiền, Võng Nhi, Hà Bạc cai thuộc 4 phu, (nửa trắng. nửa quân), được tiển 5 quan, điền trang cai tổng 3 phu (1 trắng, 2 quân), được tiền 3 quan, Thăng Hoa phú Nội phủ cai trường 4 phu (nửa trắng nửa quân), được tiền 5 quan, Điện Bàn phủ Nội phủ cai trường 3 phu (1 tráng 2 quân), được tiển 3 quan 5 tiền, Chu tượng cai đội 3 phu (2 tráng 1 quân), được tiền 3 quan ð tiền, Nội phường trường câu kê 2 phu (1 trắng 1 quân), được tiền 2 quan 5 tiển, Quảng Ngãi phủ cai trường 3 phu (1 tráng 2 quân). được tiền 3 quan õ tiền, Thăng Hoa phủ Thương Nhân, Niệm Tân cai man 6 phu (nửa tráng nửa quân), được tiền 7 quan ð tiền, Hoa Châu, Phú Châu, Võng Nhi câu kê 3 phu (1 trắng 2 quân), được tiền 3 quan 5 tiển, Điện Bàn phủ Thương Nhân cai man 5 phu (2 tráng, 3 quân), được tiền 6 quan, thư lại 1 phu (hạng quân cả), được tiền 1 quan, Quảng Ngãi phủ cai man 3 phu (1 tráng 2 quân), được tiền 3 quan õ tiển, Ô Da nguyên cai quan 8 phu (hai hạng thổ quan 4 tên, mỗi tên nộp tiền 2 quan, ngoạ! bình 4 tên. môi tên nộp tiển ð tiền), được tiền 10 quan, ca! xã 3 phu (quân hạng cả), được tiền 3 quan, hạ hàng cai thuộc 9 phu (thổ quan, mỗi tên nộp tiền 5 tiền), được tiền 4 quan õ tiền. hạ hàng thư ký 7 phu (thổ quan) được tiền 3 quan ỗð tiền, tướng thần 2 phu (1 tráng 1 quân). được tiền 1 quan 6 tiền, xã trưởng 2 phu, được tiển 1 quan 3 tiển.\nLệ phu thủ lệ các phủ xứ Quảng Nam.\nPhủ quan kiêm ty Đạo lục, phu thủ lệ (giữ hầu) 4 người (2 trắng."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 0,\n        \"vi_start\": 0,\n        \"vi_end\": 1,\n        \"han_text\": \"府夫各十一人五各十三五見何伯讀府各九人\",\n        \"vietnamese_text\": \"Nguyễn Phúc Thuần thi khoa Mậu tý cũng thế. Đến năm Giấp Ngọ, vừa 35 năm, chỉ có khoa ấy.\",\n        \"score\": 0.0931704102997158\n      },\n      {\n        \"han_start\": 1,\n        \"han_end\": 1,\n        \"vi_start\": 2,\n        \"vi_end\": 4,\n        \"han_text\": \"四字孫十一長府记五人金泣夫後黃夫八人\",\n        \"vietnamese_text\": \"Hoa văn cũng thế. Họ Nguyễn chuyên dùng người họ mình, huyện mình và xứ Thanh Hoa. Chưởng dinh, chưởng cơ, cai cơ, cai đội, không phải hạng ấy thì không được sung tuyển.\",\n        \"score\": 0.08335076036427116\n      },\n      {\n        \"han_start\": 2,\n        \"han_end\": 3,\n        \"vi_start\": 5,\n        \"vi_end\": 6,\n        \"han_text\": \"辛字孫十集於春勾稽夫三人 雖一百侯三黃縣書祀洋舟匠書祀夫各五人\",\n        \"vietnamese_text\": \"Con cháu họ đời đời được nhiêu miễn. Người ở xứ Thuận Quảng thì gọi là bách tính, người cầu xin làm chức cai đội thì chỉ cho chức cai đội, đội thủ ngự đầu nguồn và tạp đội thổ binh, con cháu họ không được trừ thuế.\",\n        \"score\": 0.07493804476658265\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 5,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"銓百祿各五貨府書祀夫六人 字字百條七長五陽三金後辰夫七人三白祿八生五門三金屬書祀夫三人幹百鄉三立五門後選夫三人\",\n        \"vietnamese_text\": \"Như con cháu quan văn từ cai bạ đến phủ huyện và câu kê, cai hợp, cũng đều phải nộp thuế, không phải là chức sắc.\",\n        \"score\": 0.01120764935039566\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 6,\n        \"vi_start\": 8,\n        \"vi_end\": 9,\n        \"han_text\": \"家庚三貴五門三金莊長夫二人\",\n        \"vietnamese_text\": \"Con cháu cùng người thân tộc của họ thì gọi là quan viên tráng, cũng không khỏi thế lính. Các chức ở hai xứ Thuận Hoá Quảng Nam, được cấp phu, cho nộp tiền làm ngự lộc, đều có lệ cũ.\",\n        \"score\": 0.13535143699153487\n      },\n      {\n        \"han_start\": 7,\n        \"han_end\": 7,\n        \"vi_start\": 10,\n        \"vi_end\": 12,\n        \"han_text\": \"餘百成一長舟匠首合夫四人\",\n        \"vietnamese_text\": \"Dinh Quảng Nam, chính hộ cai giám khám lý được 30 phu (nửa là quân hạng chính hộ, nửa quân hạng khách hộ), được tiển 45 quan, cai giám 20 phu (nửa quân hạng chính hộ, nửa quân hạng khách hộ), được tiển 30 quan, chánh phó để đốc 20 phu (nửa quân hạng chính hộ, nửa quân hạng khách hộ), được tiển 27 quan, để lĩnh 16 phu (nửa chính nửa khách), được tiền 21 quan 6 tiền, phủ ký lực 7 phu (3 chính 4 khách), được tiển 10 quan (ngoại tiển 9 tiền), cai phủ 12 phu (nửa chính nửa khách), được tiển 15 quan (ngoại tiền 1 quan 2 tiển). phủ thư ký 5 phu (toàn quân hạng khách hộ), được tiền 5 quan, cai tri phó tướng 8 phu (nửa chính nửa khách), được tiền 10 quan (ngoại tiền 2 tiền), cai tri tham tướng 8 phu (nửa chính nửa khách), được tiền 10 quan (ngoại tiển 8 tiền), huyện thư ký 3 phu (toàn quân hạng khách hộ), được tiền 3 quan, bản phủ câu kê 3 phu (1 chính 2 khách), được tiền 3 quan (ngoại tiền 3 tiền), cai huyện 3 phu (1 chính 2 khách), được tiền 3 quan 7 tiển, thủ làng thứ đội trưởng 1 phu (quân hạng chính hộ), được tiền 1 quan 7 tiền, eai xã 3 phu (1 chính 9 khách), được tiền 6 quan (ngoại tiển 7 tiển), tướng thần 3 phu (1 chính 2 khách), được tiền 2 quan 7 tiền, xã trưởn 2 phu (1 chính 1 khách), được tiển 1 quan 8 tiền; còn các phủ thuộc mới lập như Hoa Châu, Phú Châu, Kim Hộ, Võng Nhi, Hà Bạc, Chu Tượng, Điền Trang, Thương Nhân, Sơn Điền, đều cho lấy phu khách hộ, để đốc 20 phu (nửa tráng hạng, nửa quân hạng), được tiền 20 quan, đề lĩnh 16 phu (nửa tráng nửa quân), được tiền 13 quan, phủ ký lục 7 phu (3 tráng 4 quân), được tiền 8 quan 5ð tiền, Kim hộ cai quan 2 phu (1 trắng 1 quân), được tiền 15 quan, Chu tượng cai quan 8 phu (nửa tráng nửa quân), được tiền 10 quan, Chu tượng ty quan 6 phu (nửa tráng nửa quân), được tiền 7 quan õ tiền, Chu tượng cai phủ 6 phu (nửa trắng nửa quân), Hoa Châu, Phú Châu và Nội phủ cai phủ đều 20 phu (nửa tráng nửa quân), được tiền đều 1ã quan, Kim hộ cai phủ. Điển trang cai phủ, đều 11 phu (5 trắng 6 quân), được tiền đều 13 quan ð tiền, Võng Nhi, Hà Bạc cai phủ, đều 9 phu (4 tráng 5 quân), được tiển 11 quan, phủ thư ký 5 phu (quân hạng eä), được tiền ð quan, cai trì 8 phu (nửa tráng nửa quân), được tiền 10 quan, bản phủ câu kê 3 phu (1 trắng 2 quân), được tiền 3 quan, huyện thư ký.\",\n        \"score\": -0.0016070429467114592\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 10,\n        \"vi_start\": 13,\n        \"vi_end\": 13,\n        \"han_text\": \"御五長田座候寨夫二人 全年孫三生五門田座預屬夫三人無一百侯三只 年華府內府場夫四人\",\n        \"vietnamese_text\": \"Chu tượng thư ký đều 3 phu (hạng quân cä), được tiền đều 3 quan, phủ thư ký 6 phu (nửa tráng nửa quân), được tiền 7 quan ð tiền, cai thuộc ba thuộc 7 phu (8 tráng 4 quân), được tiền 3 quan 5 tiền, thư ký ba thuộc 3 phu (quân hạng cả), được tiển 3 quan 5 tiền, cai tổng 3 phu (tráng hạng cả), được tiền 3 quan 5 tiền, tướng thần ba thuộc 2 phu (1 tráng 1 quân), được tiền 2 quan 5 tiền, xã trưởng ba thuộc 2 phu (quân hạng cả), được tiền 1 quan.\",\n        \"score\": 0.1160096073438023\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 12,\n        \"vi_start\": 14,\n        \"vi_end\": 14,\n        \"han_text\": \"午平存成五貴與盘府祿府後墻夫生三百三長五陌 舟匠後隊夫三人雖百孫三貫五陌內清德竭勾稽夫二人竿報白城二步五限\",\n        \"vietnamese_text\": \"Chu tượng thủ hợp 4 phu (nứa trắng nửa quân), được tiền 5 quan, điền trang cai trại 2 phu (hạng quân cả), được tiền 3 quan õ tiền, điển trang cai thuộc 4 phu (nửa tráng nửa quân), được tiền 3 quan ð tiền, Võng Nhi, Hà Bạc cai thuộc 4 phu, (nửa trắng.\",\n        \"score\": 0.005061668160328931\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 15,\n        \"vi_start\": 15,\n        \"vi_end\": 16,\n        \"han_text\": \"廣義府該揚夫三人劉一百歲三豆五門升羣府角人卷新頑曼夫六人谭相牛るぼし吉五門華洲富洲網見勾稽夫三人 一奠盘府商人後蔓夫五人垂白六貫十吏夫一人 軍百御一長廣美府後蔓夫三人鑑字侯三豆五改源五官夫心土官二頂四名每名成三長\",\n        \"vietnamese_text\": \"nửa quân), được tiển 5 quan, điền trang cai tổng 3 phu (1 trắng, 2 quân), được tiền 3 quan, Thăng Hoa phú Nội phủ cai trường 4 phu (nửa trắng nửa quân), được tiền 5 quan, Điện Bàn phủ Nội phủ cai trường 3 phu (1 tráng 2 quân), được tiển 3 quan 5 tiền, Chu tượng cai đội 3 phu (2 tráng 1 quân), được tiền 3 quan ð tiền, Nội phường trường câu kê 2 phu (1 trắng 1 quân), được tiền 2 quan 5 tiển, Quảng Ngãi phủ cai trường 3 phu (1 tráng 2 quân). được tiền 3 quan õ tiền, Thăng Hoa phủ Thương Nhân, Niệm Tân cai man 6 phu (nửa tráng nửa quân), được tiền 7 quan ð tiền, Hoa Châu, Phú Châu, Võng Nhi câu kê 3 phu (1 trắng 2 quân), được tiền 3 quan 5 tiển, Điện Bàn phủ Thương Nhân cai man 5 phu (2 tráng, 3 quân), được tiền 6 quan, thư lại 1 phu (hạng quân cả), được tiền 1 quan, Quảng Ngãi phủ cai man 3 phu (1 tráng 2 quân), được tiền 3 quan õ tiển, Ô Da nguyên cai quan 8 phu (hai hạng thổ quan 4 tên, mỗi tên nộp tiền 2 quan, ngoạ!\",\n        \"score\": 0.24152469471939114\n      },\n      {\n        \"han_start\": 16,\n        \"han_end\": 17,\n        \"vi_start\": 17,\n        \"vi_end\": 19,\n        \"han_text\": \"外兵四名四名各っ五阳字後于長後往夫三人 幹鄉三長下行侯屬夫九人吉\",\n        \"vietnamese_text\": \"bình 4 tên. môi tên nộp tiển ð tiền), được tiền 10 quan, ca! xã 3 phu (quân hạng cả), được tiền 3 quan, hạ hàng cai thuộc 9 phu (thổ quan, mỗi tên nộp tiền 5 tiền), được tiền 4 quan õ tiền.\",\n        \"score\": 0.07715113204952545\n      },\n      {\n        \"han_start\": 18,\n        \"han_end\": 21,\n        \"vi_start\": 20,\n        \"vi_end\": 20,\n        \"han_text\": \"五阳主宜名字成四豆五門下行書祀夫七人 土宣獄三長五門將臣夫二人字祿一貞 云陽社長夫二人興字成產長我廣南各府寺隸夫例府官兼道隸夫四人人孫七亥四陽辛隸夫十人 老之二百成五\",\n        \"vietnamese_text\": \"hạ hàng thư ký 7 phu (thổ quan) được tiền 3 quan ỗð tiền, tướng thần 2 phu (1 tráng 1 quân).\",\n        \"score\": 0.010592994921883998\n      },\n      {\n        \"han_start\": 22,\n        \"han_end\": 22,\n        \"vi_start\": 21,\n        \"vi_end\": 23,\n        \"han_text\": \"長阪縣年隸並訓導酒夫各六人正四若年二郡五三四改廣義\",\n        \"vietnamese_text\": \"được tiền 1 quan 6 tiền, xã trưởng 2 phu, được tiển 1 quan 3 tiển. Lệ phu thủ lệ các phủ xứ Quảng Nam. Phủ quan kiêm ty Đạo lục, phu thủ lệ (giữ hầu) 4 người (2 trắng.\",\n        \"score\": 0.20487257701924924\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 0,
+          "vi_start": 0,
+          "vi_end": 1,
+          "han_text": "府夫各十一人五各十三五見何伯讀府各九人",
+          "vietnamese_text": "Nguyễn Phúc Thuần thi khoa Mậu tý cũng thế. Đến năm Giấp Ngọ, vừa 35 năm, chỉ có khoa ấy.",
+          "score": 0.0931704102997158
+        },
+        {
+          "han_start": 1,
+          "han_end": 1,
+          "vi_start": 2,
+          "vi_end": 4,
+          "han_text": "四字孫十一長府记五人金泣夫後黃夫八人",
+          "vietnamese_text": "Hoa văn cũng thế. Họ Nguyễn chuyên dùng người họ mình, huyện mình và xứ Thanh Hoa. Chưởng dinh, chưởng cơ, cai cơ, cai đội, không phải hạng ấy thì không được sung tuyển.",
+          "score": 0.08335076036427116
+        },
+        {
+          "han_start": 2,
+          "han_end": 3,
+          "vi_start": 5,
+          "vi_end": 6,
+          "han_text": "辛字孫十集於春勾稽夫三人 雖一百侯三黃縣書祀洋舟匠書祀夫各五人",
+          "vietnamese_text": "Con cháu họ đời đời được nhiêu miễn. Người ở xứ Thuận Quảng thì gọi là bách tính, người cầu xin làm chức cai đội thì chỉ cho chức cai đội, đội thủ ngự đầu nguồn và tạp đội thổ binh, con cháu họ không được trừ thuế.",
+          "score": 0.07493804476658265
+        },
+        {
+          "han_start": 4,
+          "han_end": 5,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "銓百祿各五貨府書祀夫六人 字字百條七長五陽三金後辰夫七人三白祿八生五門三金屬書祀夫三人幹百鄉三立五門後選夫三人",
+          "vietnamese_text": "Như con cháu quan văn từ cai bạ đến phủ huyện và câu kê, cai hợp, cũng đều phải nộp thuế, không phải là chức sắc.",
+          "score": 0.01120764935039566
+        },
+        {
+          "han_start": 6,
+          "han_end": 6,
+          "vi_start": 8,
+          "vi_end": 9,
+          "han_text": "家庚三貴五門三金莊長夫二人",
+          "vietnamese_text": "Con cháu cùng người thân tộc của họ thì gọi là quan viên tráng, cũng không khỏi thế lính. Các chức ở hai xứ Thuận Hoá Quảng Nam, được cấp phu, cho nộp tiền làm ngự lộc, đều có lệ cũ.",
+          "score": 0.13535143699153487
+        },
+        {
+          "han_start": 7,
+          "han_end": 7,
+          "vi_start": 10,
+          "vi_end": 12,
+          "han_text": "餘百成一長舟匠首合夫四人",
+          "vietnamese_text": "Dinh Quảng Nam, chính hộ cai giám khám lý được 30 phu (nửa là quân hạng chính hộ, nửa quân hạng khách hộ), được tiển 45 quan, cai giám 20 phu (nửa quân hạng chính hộ, nửa quân hạng khách hộ), được tiển 30 quan, chánh phó để đốc 20 phu (nửa quân hạng chính hộ, nửa quân hạng khách hộ), được tiển 27 quan, để lĩnh 16 phu (nửa chính nửa khách), được tiền 21 quan 6 tiền, phủ ký lực 7 phu (3 chính 4 khách), được tiển 10 quan (ngoại tiển 9 tiền), cai phủ 12 phu (nửa chính nửa khách), được tiển 15 quan (ngoại tiền 1 quan 2 tiển). phủ thư ký 5 phu (toàn quân hạng khách hộ), được tiền 5 quan, cai tri phó tướng 8 phu (nửa chính nửa khách), được tiền 10 quan (ngoại tiền 2 tiền), cai tri tham tướng 8 phu (nửa chính nửa khách), được tiền 10 quan (ngoại tiển 8 tiền), huyện thư ký 3 phu (toàn quân hạng khách hộ), được tiền 3 quan, bản phủ câu kê 3 phu (1 chính 2 khách), được tiền 3 quan (ngoại tiền 3 tiền), cai huyện 3 phu (1 chính 2 khách), được tiền 3 quan 7 tiển, thủ làng thứ đội trưởng 1 phu (quân hạng chính hộ), được tiền 1 quan 7 tiền, eai xã 3 phu (1 chính 9 khách), được tiền 6 quan (ngoại tiển 7 tiển), tướng thần 3 phu (1 chính 2 khách), được tiền 2 quan 7 tiền, xã trưởn 2 phu (1 chính 1 khách), được tiển 1 quan 8 tiền; còn các phủ thuộc mới lập như Hoa Châu, Phú Châu, Kim Hộ, Võng Nhi, Hà Bạc, Chu Tượng, Điền Trang, Thương Nhân, Sơn Điền, đều cho lấy phu khách hộ, để đốc 20 phu (nửa tráng hạng, nửa quân hạng), được tiền 20 quan, đề lĩnh 16 phu (nửa tráng nửa quân), được tiền 13 quan, phủ ký lục 7 phu (3 tráng 4 quân), được tiền 8 quan 5ð tiền, Kim hộ cai quan 2 phu (1 trắng 1 quân), được tiền 15 quan, Chu tượng cai quan 8 phu (nửa tráng nửa quân), được tiền 10 quan, Chu tượng ty quan 6 phu (nửa tráng nửa quân), được tiền 7 quan õ tiền, Chu tượng cai phủ 6 phu (nửa trắng nửa quân), Hoa Châu, Phú Châu và Nội phủ cai phủ đều 20 phu (nửa tráng nửa quân), được tiền đều 1ã quan, Kim hộ cai phủ. Điển trang cai phủ, đều 11 phu (5 trắng 6 quân), được tiền đều 13 quan ð tiền, Võng Nhi, Hà Bạc cai phủ, đều 9 phu (4 tráng 5 quân), được tiển 11 quan, phủ thư ký 5 phu (quân hạng eä), được tiền ð quan, cai trì 8 phu (nửa tráng nửa quân), được tiền 10 quan, bản phủ câu kê 3 phu (1 trắng 2 quân), được tiền 3 quan, huyện thư ký.",
+          "score": -0.0016070429467114592
+        },
+        {
+          "han_start": 8,
+          "han_end": 10,
+          "vi_start": 13,
+          "vi_end": 13,
+          "han_text": "御五長田座候寨夫二人 全年孫三生五門田座預屬夫三人無一百侯三只 年華府內府場夫四人",
+          "vietnamese_text": "Chu tượng thư ký đều 3 phu (hạng quân cä), được tiền đều 3 quan, phủ thư ký 6 phu (nửa tráng nửa quân), được tiền 7 quan ð tiền, cai thuộc ba thuộc 7 phu (8 tráng 4 quân), được tiền 3 quan 5 tiền, thư ký ba thuộc 3 phu (quân hạng cả), được tiển 3 quan 5 tiền, cai tổng 3 phu (tráng hạng cả), được tiền 3 quan 5 tiền, tướng thần ba thuộc 2 phu (1 tráng 1 quân), được tiền 2 quan 5 tiền, xã trưởng ba thuộc 2 phu (quân hạng cả), được tiền 1 quan.",
+          "score": 0.1160096073438023
+        },
+        {
+          "han_start": 11,
+          "han_end": 12,
+          "vi_start": 14,
+          "vi_end": 14,
+          "han_text": "午平存成五貴與盘府祿府後墻夫生三百三長五陌 舟匠後隊夫三人雖百孫三貫五陌內清德竭勾稽夫二人竿報白城二步五限",
+          "vietnamese_text": "Chu tượng thủ hợp 4 phu (nứa trắng nửa quân), được tiền 5 quan, điền trang cai trại 2 phu (hạng quân cả), được tiền 3 quan õ tiền, điển trang cai thuộc 4 phu (nửa tráng nửa quân), được tiền 3 quan ð tiền, Võng Nhi, Hà Bạc cai thuộc 4 phu, (nửa trắng.",
+          "score": 0.005061668160328931
+        },
+        {
+          "han_start": 13,
+          "han_end": 15,
+          "vi_start": 15,
+          "vi_end": 16,
+          "han_text": "廣義府該揚夫三人劉一百歲三豆五門升羣府角人卷新頑曼夫六人谭相牛るぼし吉五門華洲富洲網見勾稽夫三人 一奠盘府商人後蔓夫五人垂白六貫十吏夫一人 軍百御一長廣美府後蔓夫三人鑑字侯三豆五改源五官夫心土官二頂四名每名成三長",
+          "vietnamese_text": "nửa quân), được tiển 5 quan, điền trang cai tổng 3 phu (1 trắng, 2 quân), được tiền 3 quan, Thăng Hoa phú Nội phủ cai trường 4 phu (nửa trắng nửa quân), được tiền 5 quan, Điện Bàn phủ Nội phủ cai trường 3 phu (1 tráng 2 quân), được tiển 3 quan 5 tiền, Chu tượng cai đội 3 phu (2 tráng 1 quân), được tiền 3 quan ð tiền, Nội phường trường câu kê 2 phu (1 trắng 1 quân), được tiền 2 quan 5 tiển, Quảng Ngãi phủ cai trường 3 phu (1 tráng 2 quân). được tiền 3 quan õ tiền, Thăng Hoa phủ Thương Nhân, Niệm Tân cai man 6 phu (nửa tráng nửa quân), được tiền 7 quan ð tiền, Hoa Châu, Phú Châu, Võng Nhi câu kê 3 phu (1 trắng 2 quân), được tiền 3 quan 5 tiển, Điện Bàn phủ Thương Nhân cai man 5 phu (2 tráng, 3 quân), được tiền 6 quan, thư lại 1 phu (hạng quân cả), được tiền 1 quan, Quảng Ngãi phủ cai man 3 phu (1 tráng 2 quân), được tiền 3 quan õ tiển, Ô Da nguyên cai quan 8 phu (hai hạng thổ quan 4 tên, mỗi tên nộp tiền 2 quan, ngoạ!",
+          "score": 0.24152469471939114
+        },
+        {
+          "han_start": 16,
+          "han_end": 17,
+          "vi_start": 17,
+          "vi_end": 19,
+          "han_text": "外兵四名四名各っ五阳字後于長後往夫三人 幹鄉三長下行侯屬夫九人吉",
+          "vietnamese_text": "bình 4 tên. môi tên nộp tiển ð tiền), được tiền 10 quan, ca! xã 3 phu (quân hạng cả), được tiền 3 quan, hạ hàng cai thuộc 9 phu (thổ quan, mỗi tên nộp tiền 5 tiền), được tiền 4 quan õ tiền.",
+          "score": 0.07715113204952545
+        },
+        {
+          "han_start": 18,
+          "han_end": 21,
+          "vi_start": 20,
+          "vi_end": 20,
+          "han_text": "五阳主宜名字成四豆五門下行書祀夫七人 土宣獄三長五門將臣夫二人字祿一貞 云陽社長夫二人興字成產長我廣南各府寺隸夫例府官兼道隸夫四人人孫七亥四陽辛隸夫十人 老之二百成五",
+          "vietnamese_text": "hạ hàng thư ký 7 phu (thổ quan) được tiền 3 quan ỗð tiền, tướng thần 2 phu (1 tráng 1 quân).",
+          "score": 0.010592994921883998
+        },
+        {
+          "han_start": 22,
+          "han_end": 22,
+          "vi_start": 21,
+          "vi_end": 23,
+          "han_text": "長阪縣年隸並訓導酒夫各六人正四若年二郡五三四改廣義",
+          "vietnamese_text": "được tiền 1 quan 6 tiền, xã trưởng 2 phu, được tiển 1 quan 3 tiển. Lệ phu thủ lệ các phủ xứ Quảng Nam. Phủ quan kiêm ty Đạo lục, phu thủ lệ (giữ hầu) 4 người (2 trắng.",
+          "score": 0.20487257701924924
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 6094
+}

@@ -1,0 +1,114 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "914fafabd6a0f57dd82d026162cd0fcab6c23de0d54346ba6f4e4fe1ca9efe17",
+  "payload": {
+    "han": "成一兩五二文場中四人半餘康六文節料外雲依河伯屈代納\n每人三門內府各社石城右平\n石安三社村差餘正容位各府加搜正容占人替赤復十弁安全社并福全社三甲差\n餘節料腳朱諸稅并搜另替納\n紅花似江花每邑重一升排四貫\n正戶芙祿一壯頂每人底五貫內差孫二長內脚米五門內搜一貫內替\n另一長雇一項四人四長五陷雇二項四人四長產三項四人三貴七門官員子孫每人二貞九狗免搜成年項始回\n昭後可人四長七為辰項四人三長八狗老\n次百人二長不是每人二足六為前次隊長\n將臣莊長每人城三長一四臣丁百人詠三支一門宮項人一支此项當人巡項百人\n一貴客戶壯項四人四貞五為折欠一项三豆八四二項三長五內三項三貞四陽軍頂\n始回昭橫等項每人四長官員子孫二長几阳前次社長將臣我長苦須四人一長\n八陽時臣社長仃每人三見\n老頂每人長三六\n為民項每人三長\n云限不具每人二長四四艮丁四人三長糧米六文 成八文\n陰安美安二社正戶脉一陌狀項每大齋油八量內差接脉二長內腳五陽內節料五陽內另五陌田搜五限油每量價郡五限雇一项\n為人七量納穴三占五昀雇二項\n每人六量價成三量雇三項每人五量價底二長五陽官員子孫\n每人三量四限價康一長九門年項每人七量兩徑侯參七限前將臣百人四量一兩價祿二長一陌",
+    "vi": "Lệ sai dư hai giáp Nội Ngoại của thuộc Đại Minh, hạng quân mỗi người tiền tang 2 quan, tiền gạo tám mỗi người 1 tiển, tiền đầu quan mỗi người 8 đồng, gạo cước, tiền trường trung, tiền nước trà đều đình; hạng dân, hạng lão, hạng bất cụ, hạng mới đến tuổi, mỗi người tiền tang 1 quan 3 tiền, tiền gạo tám mỗi người 6 đồng.\nLệ sai dư của thuộc Vạn An, hạng bán tráng, hạng bán quân, có chính hộ và khách hộ, theo như các phủ, chính hộ sưu mỗi người 2 tiền, khách hộ mỗi người 1 tiền, tiết liệu nộp thay bằng tiền, các hạng thực nạp mỗi người 4 tiền.\nLệ sai dư của hai thuộc Võng Nhi, Hà Bạc, chính hộ khách hộ theo như hai huyện, tiền sưu mỗi người 3 tiền.\nLệ sai dư hai thuộc Chư Sơn nội, Chư Sơn ngoại, chính hộ, khách hộ theo như hai huyện, tiền sưu thì về sau chính hộ cứ 10 người nộp thay bằng kỳ nam hương ] cân, cho tiền 10 quan còn bao nhiêu mỗi người phải nộp tiền 1 quan; tiết liệu thuộc Nội cũng theo như hai huyện, nộp thay cho gạo mỗi thưng 30 đồng, mỗi bát 20 đồng, tiền cước 1 tiền 20 đồng, gạo trường trung mỗi người nửa bát, tiền 6 đồng: tiết liệu thuộc Ngoại, theo như thuộc Hà Bạc, nộp thay mỗi người 3 tiền.\nLệ sai dư của các xã thuộc Nội phú. ba xã Thạch Thành, Thạch Bình, Thạch An, chính hộ, khách hộ theo như các phủ, về sưu thì chính hộ khách \" mỗi người nộp thay bằng vỏ gai 10 cân.\nXã An Toàn và ba giáp xã Phúc Toàn, các thuế sai dư. tiết liệu, gạo cước cùng sưu lính. nộp thay bằng hồng hoa, theo lệ mỗi bao hông hoa nặng 1 cân, nộp. tiền 4 quan, chính hộ, tiền trầu 1 tiền; hạng trắng mỗi người nộp tiền ð quan, trong đó sai dư 2 quan, gạo cước õ tiển, sưu I quan, thế lính 1 quan; cố hạng nhất mỗi người 4 quan ð tiền, cố hạng nhì mỗi người 4 quan, cố hạng 3 mỗi người 3 quan 7 tiền, con cháu quan viên mỗi người 2 quan 9 tiền, miễn tiền sưu; hạng quân, hạng mới về, hạng mới tục, mỗi người 4 quan 7 tiền: hạng dân mỗi người 3 quan 8 tiền; hạng lão mỗi người 2 quan; hạng bất cự mỗi người 2 quan 6 tiền; thứ đội trưởng, tướng thân, xã trưởng cũ mỗi người 3 quan tiền; đân đỉnh mỗi người 3 quan 1 tiền; hạng cùng mỗi người 1 quan; \"hạng đào mỗi người 1 quan.\nKhách, hộ, hạng tráng mỗi người 4 quan ã tiền; chiết khiếm hạng nhất 3 quan 8 tiển, hạng nhì 3 quan 6 tiền, hạng ba 3 quan 4 tiền; hạng quân, hạng mới về, hạng mới tục, mỗi người 4 quan; con cháu quan viên mỗi người 2 quan 8 tiền; các hạng thứ đội trưởng, tướng thần, xã trưởng cũ mỗi người l quan 8 tiền; tướng thần, xã trưởng đình việc, mỗi người 3 quan; hạng lão mỗi người 2 quan 6 tiền; hạng dân mỗi người 3 quan 6 tiền, hạng bất cụ mỗi Tigười 2 quan 4 tiền; hạng dân định mỗi người 3 quan, tiền gạo tám 6 đồng, tiển đầu quan 8 đồng.\nHai xã Thuận An, Mỹ An, chính hộ, tiền trầu 1 tiền, hạng tráng mỗi người dầu chay” 8 lường, trong đó tiền sai dư 2 quan, tiền cước ð tiền, tiết liệu 5 tiền, thế lính 5 tiển, sưu 5 tiền, mỗi lường dầu giá tiền 5 tiền; cố hạng nhất mỗi người 7 lường, giá tiền 3 quan õ tiền, cố hạng nhì mỗi người 6 lường, giá tiền l quan; cố hạng ba mỗi người 5 lường, giá tiền 2 quan õ tiển; con cháu quan viên mỗi người 3 lường và 4 tiền, nộp tiền 1 quan 9 tiền; hạng quân môi người lường và 2 tiền, nộp tiền 3 quan 7 tiển; tướng thần cũ mỗi người 4 lường và 7 tiển nộp tiển 2 quan 7 tiển; xã trưởng cũ mỗi người 3 lường và 4 tiền, nộp tiển 1 quan 9 tiền; hạng dân đình mỗi người 4 lường và 1 tiền, nộp tiền 2 quan 1 tiển; hạng lão, hạng dân mỗi người õ lường và 4 tiển, nộp tiền 2 quan 9 tiển; hạng bất cụ mỗi người 3 lường, giá tiến 1 quan õð tiền; hạng cùng mỗi người 2 lường và 1 tiển, nộp tiền 1 quan 1 tiền; hạng đào không phải tiền.\nKhách hộ hạng tráng mỗi người dầu chay 7 lường, giá tiền 3 quan 5 tiền; hạng quân, hạng mới về, mỗi người 6 lường, giá tiển 3 quan; chiết khiếm ba hạng, hạng nhất mỗi người 5 lường và 3 tiển, nộp tiển 2 quan 8 tiền, hạng nhì 5 lường và 1 tiền, nộp tiền 2 quan 6 tiền, hạng ba 4 lường và 4 tiền, nộp tiền 2 quan 4 tiền; các hạng dân, lão, mới tục, mới đến mỗi người ð lường, giá tiền 2 quan 6 tiền; hạng bất cụ 4 lường và 4 tiền; nộp tiền 2 quan 4 tiền; hạng dân đinh 4 lường, giá tiền 2 quan; rưỡi thì gạo quan là 3 bao 15 thưng.\nHễ tiền 3.000 quan thì tiền nội tâm\"” và tiền bốc gạo xuống thuyền 2ð quan, trong đó tiền thuê 19 quan, tiền gánh 6 quan, mỗi 100 quan là 8 tiền 20 đồng, mỗi 10 quan là 50 đồng, mỗi quan là 5 đồng; hễ gạo 220 bao thì tiền nội tâm và tiền bốc gạo xuống thuyền là 15 quan."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 0,\n        \"vi_start\": 0,\n        \"vi_end\": 3,\n        \"han_text\": \"成一兩五二文場中四人半餘康六文節料外雲依河伯屈代納\",\n        \"vietnamese_text\": \"Lệ sai dư hai giáp Nội Ngoại của thuộc Đại Minh, hạng quân mỗi người tiền tang 2 quan, tiền gạo tám mỗi người 1 tiển, tiền đầu quan mỗi người 8 đồng, gạo cước, tiền trường trung, tiền nước trà đều đình; hạng dân, hạng lão, hạng bất cụ, hạng mới đến tuổi, mỗi người tiền tang 1 quan 3 tiền, tiền gạo tám mỗi người 6 đồng. Lệ sai dư của thuộc Vạn An, hạng bán tráng, hạng bán quân, có chính hộ và khách hộ, theo như các phủ, chính hộ sưu mỗi người 2 tiền, khách hộ mỗi người 1 tiền, tiết liệu nộp thay bằng tiền, các hạng thực nạp mỗi người 4 tiền. Lệ sai dư của hai thuộc Võng Nhi, Hà Bạc, chính hộ khách hộ theo như hai huyện, tiền sưu mỗi người 3 tiền. Lệ sai dư hai thuộc Chư Sơn nội, Chư Sơn ngoại, chính hộ, khách hộ theo như hai huyện, tiền sưu thì về sau chính hộ cứ 10 người nộp thay bằng kỳ nam hương ] cân, cho tiền 10 quan còn bao nhiêu mỗi người phải nộp tiền 1 quan; tiết liệu thuộc Nội cũng theo như hai huyện, nộp thay cho gạo mỗi thưng 30 đồng, mỗi bát 20 đồng, tiền cước 1 tiền 20 đồng, gạo trường trung mỗi người nửa bát, tiền 6 đồng: tiết liệu thuộc Ngoại, theo như thuộc Hà Bạc, nộp thay mỗi người 3 tiền.\",\n        \"score\": -0.006306325627688868\n      },\n      {\n        \"han_start\": 1,\n        \"han_end\": 2,\n        \"vi_start\": 4,\n        \"vi_end\": 6,\n        \"han_text\": \"每人三門內府各社石城右平 石安三社村差餘正容位各府加搜正容占人替赤復十弁安全社并福全社三甲差\",\n        \"vietnamese_text\": \"Lệ sai dư của các xã thuộc Nội phú. ba xã Thạch Thành, Thạch Bình, Thạch An, chính hộ, khách hộ theo như các phủ, về sưu thì chính hộ khách \\\" mỗi người nộp thay bằng vỏ gai 10 cân. Xã An Toàn và ba giáp xã Phúc Toàn, các thuế sai dư.\",\n        \"score\": 0.24675702850693798\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 3,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"餘節料腳朱諸稅并搜另替納\",\n        \"vietnamese_text\": \"tiết liệu, gạo cước cùng sưu lính.\",\n        \"score\": 0.06004822322073745\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 4,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"紅花似江花每邑重一升排四貫\",\n        \"vietnamese_text\": \"nộp thay bằng hồng hoa, theo lệ mỗi bao hông hoa nặng 1 cân, nộp.\",\n        \"score\": 0.16645809358025138\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 6,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"正戶芙祿一壯頂每人底五貫內差孫二長內脚米五門內搜一貫內替 另一長雇一項四人四長五陷雇二項四人四長產三項四人三貴七門官員子孫每人二貞九狗免搜成年項始回\",\n        \"vietnamese_text\": \"tiền 4 quan, chính hộ, tiền trầu 1 tiền; hạng trắng mỗi người nộp tiền ð quan, trong đó sai dư 2 quan, gạo cước õ tiển, sưu I quan, thế lính 1 quan; cố hạng nhất mỗi người 4 quan ð tiền, cố hạng nhì mỗi người 4 quan, cố hạng 3 mỗi người 3 quan 7 tiền, con cháu quan viên mỗi người 2 quan 9 tiền, miễn tiền sưu; hạng quân, hạng mới về, hạng mới tục, mỗi người 4 quan 7 tiền: hạng dân mỗi người 3 quan 8 tiền; hạng lão mỗi người 2 quan; hạng bất cự mỗi người 2 quan 6 tiền; thứ đội trưởng, tướng thân, xã trưởng cũ mỗi người 3 quan tiền; đân đỉnh mỗi người 3 quan 1 tiền; hạng cùng mỗi người 1 quan; \\\"hạng đào mỗi người 1 quan.\",\n        \"score\": 0.23921192062197527\n      },\n      {\n        \"han_start\": 7,\n        \"han_end\": 9,\n        \"vi_start\": 10,\n        \"vi_end\": 10,\n        \"han_text\": \"昭後可人四長七為辰項四人三長八狗老 次百人二長不是每人二足六為前次隊長 將臣莊長每人城三長一四臣丁百人詠三支一門宮項人一支此项當人巡項百人\",\n        \"vietnamese_text\": \"Khách, hộ, hạng tráng mỗi người 4 quan ã tiền; chiết khiếm hạng nhất 3 quan 8 tiển, hạng nhì 3 quan 6 tiền, hạng ba 3 quan 4 tiền; hạng quân, hạng mới về, hạng mới tục, mỗi người 4 quan; con cháu quan viên mỗi người 2 quan 8 tiền; các hạng thứ đội trưởng, tướng thần, xã trưởng cũ mỗi người l quan 8 tiền; tướng thần, xã trưởng đình việc, mỗi người 3 quan; hạng lão mỗi người 2 quan 6 tiền; hạng dân mỗi người 3 quan 6 tiền, hạng bất cụ mỗi Tigười 2 quan 4 tiền; hạng dân định mỗi người 3 quan, tiền gạo tám 6 đồng, tiển đầu quan 8 đồng.\",\n        \"score\": 0.09870448491394032\n      },\n      {\n        \"han_start\": 10,\n        \"han_end\": 12,\n        \"vi_start\": 11,\n        \"vi_end\": 11,\n        \"han_text\": \"一貴客戶壯項四人四貞五為折欠一项三豆八四二項三長五內三項三貞四陽軍頂 始回昭橫等項每人四長官員子孫二長几阳前次社長將臣我長苦須四人一長 八陽時臣社長仃每人三見\",\n        \"vietnamese_text\": \"Hai xã Thuận An, Mỹ An, chính hộ, tiền trầu 1 tiền, hạng tráng mỗi người dầu chay” 8 lường, trong đó tiền sai dư 2 quan, tiền cước ð tiền, tiết liệu 5 tiền, thế lính 5 tiển, sưu 5 tiền, mỗi lường dầu giá tiền 5 tiền; cố hạng nhất mỗi người 7 lường, giá tiền 3 quan õ tiền, cố hạng nhì mỗi người 6 lường, giá tiền l quan; cố hạng ba mỗi người 5 lường, giá tiền 2 quan õ tiển; con cháu quan viên mỗi người 3 lường và 4 tiền, nộp tiền 1 quan 9 tiền; hạng quân môi người lường và 2 tiền, nộp tiền 3 quan 7 tiển; tướng thần cũ mỗi người 4 lường và 7 tiển nộp tiển 2 quan 7 tiển; xã trưởng cũ mỗi người 3 lường và 4 tiền, nộp tiển 1 quan 9 tiền; hạng dân đình mỗi người 4 lường và 1 tiền, nộp tiền 2 quan 1 tiển; hạng lão, hạng dân mỗi người õ lường và 4 tiển, nộp tiền 2 quan 9 tiển; hạng bất cụ mỗi người 3 lường, giá tiến 1 quan õð tiền; hạng cùng mỗi người 2 lường và 1 tiển, nộp tiền 1 quan 1 tiền; hạng đào không phải tiền.\",\n        \"score\": 0.07968771788064151\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 16,\n        \"vi_start\": 12,\n        \"vi_end\": 12,\n        \"han_text\": \"老頂每人長三六 為民項每人三長 云限不具每人二長四四艮丁四人三長糧米六文 成八文 陰安美安二社正戶脉一陌狀項每大齋油八量內差接脉二長內腳五陽內節料五陽內另五陌田搜五限油每量價郡五限雇一项\",\n        \"vietnamese_text\": \"Khách hộ hạng tráng mỗi người dầu chay 7 lường, giá tiền 3 quan 5 tiền; hạng quân, hạng mới về, mỗi người 6 lường, giá tiển 3 quan; chiết khiếm ba hạng, hạng nhất mỗi người 5 lường và 3 tiển, nộp tiển 2 quan 8 tiền, hạng nhì 5 lường và 1 tiền, nộp tiền 2 quan 6 tiền, hạng ba 4 lường và 4 tiền, nộp tiền 2 quan 4 tiền; các hạng dân, lão, mới tục, mới đến mỗi người ð lường, giá tiền 2 quan 6 tiền; hạng bất cụ 4 lường và 4 tiền; nộp tiền 2 quan 4 tiền; hạng dân đinh 4 lường, giá tiền 2 quan; rưỡi thì gạo quan là 3 bao 15 thưng.\",\n        \"score\": 0.23259906360123592\n      },\n      {\n        \"han_start\": 17,\n        \"han_end\": 17,\n        \"vi_start\": 13,\n        \"vi_end\": 13,\n        \"han_text\": \"為人七量納穴三占五昀雇二項\",\n        \"vietnamese_text\": \"Hễ tiền 3.\",\n        \"score\": -0.005180102358771736\n      },\n      {\n        \"han_start\": 18,\n        \"han_end\": 19,\n        \"vi_start\": 14,\n        \"vi_end\": 14,\n        \"han_text\": \"每人六量價成三量雇三項每人五量價底二長五陽官員子孫 每人三量四限價康一長九門年項每人七量兩徑侯參七限前將臣百人四量一兩價祿二長一陌\",\n        \"vietnamese_text\": \"000 quan thì tiền nội tâm\\\"” và tiền bốc gạo xuống thuyền 2ð quan, trong đó tiền thuê 19 quan, tiền gánh 6 quan, mỗi 100 quan là 8 tiền 20 đồng, mỗi 10 quan là 50 đồng, mỗi quan là 5 đồng; hễ gạo 220 bao thì tiền nội tâm và tiền bốc gạo xuống thuyền là 15 quan.\",\n        \"score\": 0.12161542534758979\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 0,
+          "vi_start": 0,
+          "vi_end": 3,
+          "han_text": "成一兩五二文場中四人半餘康六文節料外雲依河伯屈代納",
+          "vietnamese_text": "Lệ sai dư hai giáp Nội Ngoại của thuộc Đại Minh, hạng quân mỗi người tiền tang 2 quan, tiền gạo tám mỗi người 1 tiển, tiền đầu quan mỗi người 8 đồng, gạo cước, tiền trường trung, tiền nước trà đều đình; hạng dân, hạng lão, hạng bất cụ, hạng mới đến tuổi, mỗi người tiền tang 1 quan 3 tiền, tiền gạo tám mỗi người 6 đồng. Lệ sai dư của thuộc Vạn An, hạng bán tráng, hạng bán quân, có chính hộ và khách hộ, theo như các phủ, chính hộ sưu mỗi người 2 tiền, khách hộ mỗi người 1 tiền, tiết liệu nộp thay bằng tiền, các hạng thực nạp mỗi người 4 tiền. Lệ sai dư của hai thuộc Võng Nhi, Hà Bạc, chính hộ khách hộ theo như hai huyện, tiền sưu mỗi người 3 tiền. Lệ sai dư hai thuộc Chư Sơn nội, Chư Sơn ngoại, chính hộ, khách hộ theo như hai huyện, tiền sưu thì về sau chính hộ cứ 10 người nộp thay bằng kỳ nam hương ] cân, cho tiền 10 quan còn bao nhiêu mỗi người phải nộp tiền 1 quan; tiết liệu thuộc Nội cũng theo như hai huyện, nộp thay cho gạo mỗi thưng 30 đồng, mỗi bát 20 đồng, tiền cước 1 tiền 20 đồng, gạo trường trung mỗi người nửa bát, tiền 6 đồng: tiết liệu thuộc Ngoại, theo như thuộc Hà Bạc, nộp thay mỗi người 3 tiền.",
+          "score": -0.006306325627688868
+        },
+        {
+          "han_start": 1,
+          "han_end": 2,
+          "vi_start": 4,
+          "vi_end": 6,
+          "han_text": "每人三門內府各社石城右平 石安三社村差餘正容位各府加搜正容占人替赤復十弁安全社并福全社三甲差",
+          "vietnamese_text": "Lệ sai dư của các xã thuộc Nội phú. ba xã Thạch Thành, Thạch Bình, Thạch An, chính hộ, khách hộ theo như các phủ, về sưu thì chính hộ khách \" mỗi người nộp thay bằng vỏ gai 10 cân. Xã An Toàn và ba giáp xã Phúc Toàn, các thuế sai dư.",
+          "score": 0.24675702850693798
+        },
+        {
+          "han_start": 3,
+          "han_end": 3,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "餘節料腳朱諸稅并搜另替納",
+          "vietnamese_text": "tiết liệu, gạo cước cùng sưu lính.",
+          "score": 0.06004822322073745
+        },
+        {
+          "han_start": 4,
+          "han_end": 4,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "紅花似江花每邑重一升排四貫",
+          "vietnamese_text": "nộp thay bằng hồng hoa, theo lệ mỗi bao hông hoa nặng 1 cân, nộp.",
+          "score": 0.16645809358025138
+        },
+        {
+          "han_start": 5,
+          "han_end": 6,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "正戶芙祿一壯頂每人底五貫內差孫二長內脚米五門內搜一貫內替 另一長雇一項四人四長五陷雇二項四人四長產三項四人三貴七門官員子孫每人二貞九狗免搜成年項始回",
+          "vietnamese_text": "tiền 4 quan, chính hộ, tiền trầu 1 tiền; hạng trắng mỗi người nộp tiền ð quan, trong đó sai dư 2 quan, gạo cước õ tiển, sưu I quan, thế lính 1 quan; cố hạng nhất mỗi người 4 quan ð tiền, cố hạng nhì mỗi người 4 quan, cố hạng 3 mỗi người 3 quan 7 tiền, con cháu quan viên mỗi người 2 quan 9 tiền, miễn tiền sưu; hạng quân, hạng mới về, hạng mới tục, mỗi người 4 quan 7 tiền: hạng dân mỗi người 3 quan 8 tiền; hạng lão mỗi người 2 quan; hạng bất cự mỗi người 2 quan 6 tiền; thứ đội trưởng, tướng thân, xã trưởng cũ mỗi người 3 quan tiền; đân đỉnh mỗi người 3 quan 1 tiền; hạng cùng mỗi người 1 quan; \"hạng đào mỗi người 1 quan.",
+          "score": 0.23921192062197527
+        },
+        {
+          "han_start": 7,
+          "han_end": 9,
+          "vi_start": 10,
+          "vi_end": 10,
+          "han_text": "昭後可人四長七為辰項四人三長八狗老 次百人二長不是每人二足六為前次隊長 將臣莊長每人城三長一四臣丁百人詠三支一門宮項人一支此项當人巡項百人",
+          "vietnamese_text": "Khách, hộ, hạng tráng mỗi người 4 quan ã tiền; chiết khiếm hạng nhất 3 quan 8 tiển, hạng nhì 3 quan 6 tiền, hạng ba 3 quan 4 tiền; hạng quân, hạng mới về, hạng mới tục, mỗi người 4 quan; con cháu quan viên mỗi người 2 quan 8 tiền; các hạng thứ đội trưởng, tướng thần, xã trưởng cũ mỗi người l quan 8 tiền; tướng thần, xã trưởng đình việc, mỗi người 3 quan; hạng lão mỗi người 2 quan 6 tiền; hạng dân mỗi người 3 quan 6 tiền, hạng bất cụ mỗi Tigười 2 quan 4 tiền; hạng dân định mỗi người 3 quan, tiền gạo tám 6 đồng, tiển đầu quan 8 đồng.",
+          "score": 0.09870448491394032
+        },
+        {
+          "han_start": 10,
+          "han_end": 12,
+          "vi_start": 11,
+          "vi_end": 11,
+          "han_text": "一貴客戶壯項四人四貞五為折欠一项三豆八四二項三長五內三項三貞四陽軍頂 始回昭橫等項每人四長官員子孫二長几阳前次社長將臣我長苦須四人一長 八陽時臣社長仃每人三見",
+          "vietnamese_text": "Hai xã Thuận An, Mỹ An, chính hộ, tiền trầu 1 tiền, hạng tráng mỗi người dầu chay” 8 lường, trong đó tiền sai dư 2 quan, tiền cước ð tiền, tiết liệu 5 tiền, thế lính 5 tiển, sưu 5 tiền, mỗi lường dầu giá tiền 5 tiền; cố hạng nhất mỗi người 7 lường, giá tiền 3 quan õ tiền, cố hạng nhì mỗi người 6 lường, giá tiền l quan; cố hạng ba mỗi người 5 lường, giá tiền 2 quan õ tiển; con cháu quan viên mỗi người 3 lường và 4 tiền, nộp tiền 1 quan 9 tiền; hạng quân môi người lường và 2 tiền, nộp tiền 3 quan 7 tiển; tướng thần cũ mỗi người 4 lường và 7 tiển nộp tiển 2 quan 7 tiển; xã trưởng cũ mỗi người 3 lường và 4 tiền, nộp tiển 1 quan 9 tiền; hạng dân đình mỗi người 4 lường và 1 tiền, nộp tiền 2 quan 1 tiển; hạng lão, hạng dân mỗi người õ lường và 4 tiển, nộp tiền 2 quan 9 tiển; hạng bất cụ mỗi người 3 lường, giá tiến 1 quan õð tiền; hạng cùng mỗi người 2 lường và 1 tiển, nộp tiền 1 quan 1 tiền; hạng đào không phải tiền.",
+          "score": 0.07968771788064151
+        },
+        {
+          "han_start": 13,
+          "han_end": 16,
+          "vi_start": 12,
+          "vi_end": 12,
+          "han_text": "老頂每人長三六 為民項每人三長 云限不具每人二長四四艮丁四人三長糧米六文 成八文 陰安美安二社正戶脉一陌狀項每大齋油八量內差接脉二長內腳五陽內節料五陽內另五陌田搜五限油每量價郡五限雇一项",
+          "vietnamese_text": "Khách hộ hạng tráng mỗi người dầu chay 7 lường, giá tiền 3 quan 5 tiền; hạng quân, hạng mới về, mỗi người 6 lường, giá tiển 3 quan; chiết khiếm ba hạng, hạng nhất mỗi người 5 lường và 3 tiển, nộp tiển 2 quan 8 tiền, hạng nhì 5 lường và 1 tiền, nộp tiền 2 quan 6 tiền, hạng ba 4 lường và 4 tiền, nộp tiền 2 quan 4 tiền; các hạng dân, lão, mới tục, mới đến mỗi người ð lường, giá tiền 2 quan 6 tiền; hạng bất cụ 4 lường và 4 tiền; nộp tiền 2 quan 4 tiền; hạng dân đinh 4 lường, giá tiền 2 quan; rưỡi thì gạo quan là 3 bao 15 thưng.",
+          "score": 0.23259906360123592
+        },
+        {
+          "han_start": 17,
+          "han_end": 17,
+          "vi_start": 13,
+          "vi_end": 13,
+          "han_text": "為人七量納穴三占五昀雇二項",
+          "vietnamese_text": "Hễ tiền 3.",
+          "score": -0.005180102358771736
+        },
+        {
+          "han_start": 18,
+          "han_end": 19,
+          "vi_start": 14,
+          "vi_end": 14,
+          "han_text": "每人六量價成三量雇三項每人五量價底二長五陽官員子孫 每人三量四限價康一長九門年項每人七量兩徑侯參七限前將臣百人四量一兩價祿二長一陌",
+          "vietnamese_text": "000 quan thì tiền nội tâm\"” và tiền bốc gạo xuống thuyền 2ð quan, trong đó tiền thuê 19 quan, tiền gánh 6 quan, mỗi 100 quan là 8 tiền 20 đồng, mỗi 10 quan là 50 đồng, mỗi quan là 5 đồng; hễ gạo 220 bao thì tiền nội tâm và tiền bốc gạo xuống thuyền là 15 quan.",
+          "score": 0.12161542534758979
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 7609
+}

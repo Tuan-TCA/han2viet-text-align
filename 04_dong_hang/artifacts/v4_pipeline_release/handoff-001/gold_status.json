@@ -1,0 +1,16 @@
+{
+ "proposals": {
+  "FALSE": 7,
+  "TRUE": 5,
+  "UNKNOWN": 3
+ },
+ "readme_discrepancy": "5/8/2",
+ "prior_review_sizes": [
+  15,
+  24
+ ],
+ "human_adjudicated": 0,
+ "unique_blind_rows": 382,
+ "semantic_accuracy": "NOT MEASURED",
+ "independent_model_pair": "not configured"
+}

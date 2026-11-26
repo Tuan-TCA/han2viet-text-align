@@ -1,0 +1,96 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "15d9201465f45c2345ae2f00b0744fbb80e2d54d3fb2bdcf3a00e7dddb88cdad",
+  "payload": {
+    "han": "標竹五十核先交圓使付貢船上付監生黃辰\n僧鼎微且金廟東督按備題替臣題定\n臣祖尊有光蜜哀懇產天子天地載三靈與臣微心許臣向化\n若蒙皇恩俯賜御翰墨寶命允而誠臣然殺敢遺陪臣貴表祿謝\n臣無任貼天仰產惶慄之至謹有書下國以聞\n大清左祖仁皇帝不允\n茲正二年甲辰五月祚王公阮福凋時書于天朝廟东\n巡撫都察院老憲產阁下\n伏以產過中天人依翠裁阜財解慢\n在產天子方按五弦之琴滌煩祛等惟老憲臺當作步家之廈\n恭惟河下河馬圖灵津意劍棄員爾世之偉畧遲此功熱\n挺念世之环才瑩為圭璧\n富孝著盛辰之策高標貌清代之民備文武之資作銓衢之字\n粵東幸觀福星\n日南欣舊膏雨\n喜地古称順化故都同奉天朝\n尊虛殺於當年通舟也於此日\n肩吝通得力政祥雲独覩儀正\n某景仰翔切之辰之\n伏願大放章門使滄浪而達碧落恒通雲路伴區壤以接中華\n權丑臨無私普天常振化鈞陶独運亦區陬更沐仁尾寸機附送微識殊除廢舍",
+    "vi": "3ã9 văn Đường, cũng là nhờ thanh giáo tới kịp, Nay Thiên triểu có thánh thiên tử, bốn biển một nhà, tám phương cùng lối; trong thì Ngu bệ” ngốn ngang những Cao Quỷ”; ngoài thì Chu phiên?” đầy dẫy toàn Tề Lỗ\".\nKính nghĩ Lão hiến đài các hạ, phượng múa thời lành, rồng. bay thời thịnh.\nKhuê chương chứa kín, trăng soi đất cửu khanh; then khoá giữ gìn, mây mở trời nửa vách.\nHá chỉ rọi đức giáo cho trong nước, mà còn gieo thanh danh tới cối ngoài.\nKhoảng năm Định Mão, bọn Lý Văn Quang, Hà Huy, Tạ Tứ, qua chợi đất hẹp của tôi, ngầm mang lòng xằng, lấn vào trong cõi Gia Định, nhóm họp hơn trăm, càn rỡ tự tôn tự đại, hoặc xưng đô đốc, hoặc xưng quân sư, ngoài ra đều theo thứ bậc mà đặt trộm tên, toan cướp chiếm ấp tôi, bừa giết biên thần.\nNhưng rồi trời chẳng dung tha, thảy đều bị bắt, xử luật bất đạo, tội chết có thừa.\nSong tạm để hình chương, giam mà không giết, chính muốn tỏ lòng với thượng quốc, đưa trả bọn kia, để chịu phép thường.\nNhưng sợ thuyền buôn trôi nổi không nhất định, không do đâu mà đạo đạt được, để đến ngày tháng kéo dài.\nNăm ngoái Khâm mệnh Quảng Đông phân tuần Lôi Kinh binh bị đạo án sắt sứ ty thiêm sự gia ngũ cấp kỷ lục tứ thứ quý chức sai thuyền trưởng Hải Nam sang giải bọn phạm dân kia về nước trị tội.\nBất Nịnh vốn biết bọn ấy là người lái buôn, thường thấy ở trong ấp nhỏ của tôi, cho nên không dám nhẹ tin."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 3,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"標竹五十核先交圓使付貢船上付監生黃辰 僧鼎微且金廟東督按備題替臣題定 臣祖尊有光蜜哀懇產天子天地載三靈與臣微心許臣向化 若蒙皇恩俯賜御翰墨寶命允而誠臣然殺敢遺陪臣貴表祿謝\",\n        \"vietnamese_text\": \"3ã9 văn Đường, cũng là nhờ thanh giáo tới kịp, Nay Thiên triểu có thánh thiên tử, bốn biển một nhà, tám phương cùng lối; trong thì Ngu bệ” ngốn ngang những Cao Quỷ”; ngoài thì Chu phiên?\",\n        \"score\": 0.15763864776766012\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 7,\n        \"vi_start\": 1,\n        \"vi_end\": 1,\n        \"han_text\": \"臣無任貼天仰產惶慄之至謹有書下國以聞 大清左祖仁皇帝不允 茲正二年甲辰五月祚王公阮福凋時書于天朝廟东 巡撫都察院老憲產阁下\",\n        \"vietnamese_text\": \"” đầy dẫy toàn Tề Lỗ\\\".\",\n        \"score\": 0.003463335608597068\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 9,\n        \"vi_start\": 2,\n        \"vi_end\": 4,\n        \"han_text\": \"伏以產過中天人依翠裁阜財解慢 在產天子方按五弦之琴滌煩祛等惟老憲臺當作步家之廈\",\n        \"vietnamese_text\": \"Kính nghĩ Lão hiến đài các hạ, phượng múa thời lành, rồng. bay thời thịnh. Khuê chương chứa kín, trăng soi đất cửu khanh; then khoá giữ gìn, mây mở trời nửa vách.\",\n        \"score\": 0.3352041806287709\n      },\n      {\n        \"han_start\": 10,\n        \"han_end\": 12,\n        \"vi_start\": 5,\n        \"vi_end\": 6,\n        \"han_text\": \"恭惟河下河馬圖灵津意劍棄員爾世之偉畧遲此功熱 挺念世之环才瑩為圭璧 富孝著盛辰之策高標貌清代之民備文武之資作銓衢之字\",\n        \"vietnamese_text\": \"Há chỉ rọi đức giáo cho trong nước, mà còn gieo thanh danh tới cối ngoài. Khoảng năm Định Mão, bọn Lý Văn Quang, Hà Huy, Tạ Tứ, qua chợi đất hẹp của tôi, ngầm mang lòng xằng, lấn vào trong cõi Gia Định, nhóm họp hơn trăm, càn rỡ tự tôn tự đại, hoặc xưng đô đốc, hoặc xưng quân sư, ngoài ra đều theo thứ bậc mà đặt trộm tên, toan cướp chiếm ấp tôi, bừa giết biên thần.\",\n        \"score\": 0.13596500392363467\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 14,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"粵東幸觀福星 日南欣舊膏雨\",\n        \"vietnamese_text\": \"Nhưng rồi trời chẳng dung tha, thảy đều bị bắt, xử luật bất đạo, tội chết có thừa.\",\n        \"score\": -0.01102834851935505\n      },\n      {\n        \"han_start\": 15,\n        \"han_end\": 17,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"喜地古称順化故都同奉天朝 尊虛殺於當年通舟也於此日 肩吝通得力政祥雲独覩儀正\",\n        \"vietnamese_text\": \"Song tạm để hình chương, giam mà không giết, chính muốn tỏ lòng với thượng quốc, đưa trả bọn kia, để chịu phép thường.\",\n        \"score\": 0.1358183170769536\n      },\n      {\n        \"han_start\": 18,\n        \"han_end\": 18,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"某景仰翔切之辰之\",\n        \"vietnamese_text\": \"Nhưng sợ thuyền buôn trôi nổi không nhất định, không do đâu mà đạo đạt được, để đến ngày tháng kéo dài.\",\n        \"score\": -0.001720996573029215\n      },\n      {\n        \"han_start\": 19,\n        \"han_end\": 20,\n        \"vi_start\": 10,\n        \"vi_end\": 11,\n        \"han_text\": \"伏願大放章門使滄浪而達碧落恒通雲路伴區壤以接中華 權丑臨無私普天常振化鈞陶独運亦區陬更沐仁尾寸機附送微識殊除廢舍\",\n        \"vietnamese_text\": \"Năm ngoái Khâm mệnh Quảng Đông phân tuần Lôi Kinh binh bị đạo án sắt sứ ty thiêm sự gia ngũ cấp kỷ lục tứ thứ quý chức sai thuyền trưởng Hải Nam sang giải bọn phạm dân kia về nước trị tội. Bất Nịnh vốn biết bọn ấy là người lái buôn, thường thấy ở trong ấp nhỏ của tôi, cho nên không dám nhẹ tin.\",\n        \"score\": 0.14533967572476572\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 3,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "標竹五十核先交圓使付貢船上付監生黃辰 僧鼎微且金廟東督按備題替臣題定 臣祖尊有光蜜哀懇產天子天地載三靈與臣微心許臣向化 若蒙皇恩俯賜御翰墨寶命允而誠臣然殺敢遺陪臣貴表祿謝",
+          "vietnamese_text": "3ã9 văn Đường, cũng là nhờ thanh giáo tới kịp, Nay Thiên triểu có thánh thiên tử, bốn biển một nhà, tám phương cùng lối; trong thì Ngu bệ” ngốn ngang những Cao Quỷ”; ngoài thì Chu phiên?",
+          "score": 0.15763864776766012
+        },
+        {
+          "han_start": 4,
+          "han_end": 7,
+          "vi_start": 1,
+          "vi_end": 1,
+          "han_text": "臣無任貼天仰產惶慄之至謹有書下國以聞 大清左祖仁皇帝不允 茲正二年甲辰五月祚王公阮福凋時書于天朝廟东 巡撫都察院老憲產阁下",
+          "vietnamese_text": "” đầy dẫy toàn Tề Lỗ\".",
+          "score": 0.003463335608597068
+        },
+        {
+          "han_start": 8,
+          "han_end": 9,
+          "vi_start": 2,
+          "vi_end": 4,
+          "han_text": "伏以產過中天人依翠裁阜財解慢 在產天子方按五弦之琴滌煩祛等惟老憲臺當作步家之廈",
+          "vietnamese_text": "Kính nghĩ Lão hiến đài các hạ, phượng múa thời lành, rồng. bay thời thịnh. Khuê chương chứa kín, trăng soi đất cửu khanh; then khoá giữ gìn, mây mở trời nửa vách.",
+          "score": 0.3352041806287709
+        },
+        {
+          "han_start": 10,
+          "han_end": 12,
+          "vi_start": 5,
+          "vi_end": 6,
+          "han_text": "恭惟河下河馬圖灵津意劍棄員爾世之偉畧遲此功熱 挺念世之环才瑩為圭璧 富孝著盛辰之策高標貌清代之民備文武之資作銓衢之字",
+          "vietnamese_text": "Há chỉ rọi đức giáo cho trong nước, mà còn gieo thanh danh tới cối ngoài. Khoảng năm Định Mão, bọn Lý Văn Quang, Hà Huy, Tạ Tứ, qua chợi đất hẹp của tôi, ngầm mang lòng xằng, lấn vào trong cõi Gia Định, nhóm họp hơn trăm, càn rỡ tự tôn tự đại, hoặc xưng đô đốc, hoặc xưng quân sư, ngoài ra đều theo thứ bậc mà đặt trộm tên, toan cướp chiếm ấp tôi, bừa giết biên thần.",
+          "score": 0.13596500392363467
+        },
+        {
+          "han_start": 13,
+          "han_end": 14,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "粵東幸觀福星 日南欣舊膏雨",
+          "vietnamese_text": "Nhưng rồi trời chẳng dung tha, thảy đều bị bắt, xử luật bất đạo, tội chết có thừa.",
+          "score": -0.01102834851935505
+        },
+        {
+          "han_start": 15,
+          "han_end": 17,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "喜地古称順化故都同奉天朝 尊虛殺於當年通舟也於此日 肩吝通得力政祥雲独覩儀正",
+          "vietnamese_text": "Song tạm để hình chương, giam mà không giết, chính muốn tỏ lòng với thượng quốc, đưa trả bọn kia, để chịu phép thường.",
+          "score": 0.1358183170769536
+        },
+        {
+          "han_start": 18,
+          "han_end": 18,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "某景仰翔切之辰之",
+          "vietnamese_text": "Nhưng sợ thuyền buôn trôi nổi không nhất định, không do đâu mà đạo đạt được, để đến ngày tháng kéo dài.",
+          "score": -0.001720996573029215
+        },
+        {
+          "han_start": 19,
+          "han_end": 20,
+          "vi_start": 10,
+          "vi_end": 11,
+          "han_text": "伏願大放章門使滄浪而達碧落恒通雲路伴區壤以接中華 權丑臨無私普天常振化鈞陶独運亦區陬更沐仁尾寸機附送微識殊除廢舍",
+          "vietnamese_text": "Năm ngoái Khâm mệnh Quảng Đông phân tuần Lôi Kinh binh bị đạo án sắt sứ ty thiêm sự gia ngũ cấp kỷ lục tứ thứ quý chức sai thuyền trưởng Hải Nam sang giải bọn phạm dân kia về nước trị tội. Bất Nịnh vốn biết bọn ấy là người lái buôn, thường thấy ở trong ấp nhỏ của tôi, cho nên không dám nhẹ tin.",
+          "score": 0.14533967572476572
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 3172
+}

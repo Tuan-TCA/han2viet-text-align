@@ -1,0 +1,105 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "09ed648ac3f57d195387cfdc5e2c57dd4ba74b8f8e99629220057bfbcdeddee3",
+  "payload": {
+    "han": "夫尾之為物者無其質而有其柔\n竹之焉物者有其質而無其心故竹因尼而成兹\n是以尾未則鳴尾去則止\n凡之大者見大鳴尼之小者則小鳴\n是乃其鳴在乎尾而不在乎竹也竹之本如也\n至如高此觀淚爽必意冷隱如奔潦游口徐行珮遠夫悉亡關俗清2可滌頗食亦金\n寫而不竭者亦在乎心石妙應乎尼之雄牲\n其所以暢發天機悠揚真韻亦在乎咱者之自得而雅醇疵則於竹化無焉\n竹乎竹乎善有取於竹妄其一友人升華潤川阮蒼浩序之曰夢物主聲霧矣有出於繁元\n元聲者天聲也繁走者人聲也\n故人声且有邪正之辨而天聲則無邪正之小焉\n夫人声而求天聲之正者翕純微\n繹宮商安秦而條理精然不錯苦笑惡焉\n融物成詩而性惟若得其正此人之天也\n若其衰而至於傷步而至於淫四外上秦音此人之人也\n至於天声托於物三司然四經世聲松志春鳥声秋空聲蕉雨聲\n竹尾聲音韻麟魚品調暢聆之者令人有野鶴之還心\n孤雲之喜思其孫竹繁声矣帝天壤者已云\n吾友晉江吳君完璞初習辰文老上於诗既",
+    "vi": "Tự thuật Tum thập lục niên da bệnh bhách.\nÁi nhèn kết ốG tại Vụ Lai.\nBản sùuh tung tích thì 0L bạn; Đóáo xứ đăng lâm tửu tác môi.\nTâm bất đàn quan na RẰy uý; Hữu uô an hiểm nhiệm bhôit hòi.\nVị nhân tối khổ thị uô học.\nHọc đắc hoàn tu đại nhãn khai.\nThuật chuyện mình Băm sáu tuổi, thân nhiều bệnh tật.\nLĩa nhàn ở đậu tại Vụ Tai.\nNứữa đời tung tích thơ là bạn; Đến chôn đăng lâm rượu ấy tình.\nLòng không phúi mũ ~Iị! ”, sao hiêng sợ; Bạn chẳng rút gươm”' cứ cợt đùa."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 2,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"夫尾之為物者無其質而有其柔 竹之焉物者有其質而無其心故竹因尼而成兹 是以尾未則鳴尾去則止\",\n        \"vietnamese_text\": \"Tự thuật Tum thập lục niên da bệnh bhách.\",\n        \"score\": -0.016847312900758377\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 5,\n        \"vi_start\": 1,\n        \"vi_end\": 2,\n        \"han_text\": \"凡之大者見大鳴尼之小者則小鳴 是乃其鳴在乎尾而不在乎竹也竹之本如也 至如高此觀淚爽必意冷隱如奔潦游口徐行珮遠夫悉亡關俗清2可滌頗食亦金\",\n        \"vietnamese_text\": \"Ái nhèn kết ốG tại Vụ Lai. Bản sùuh tung tích thì 0L bạn; Đóáo xứ đăng lâm tửu tác môi.\",\n        \"score\": 0.13536384488690312\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 7,\n        \"vi_start\": 3,\n        \"vi_end\": 3,\n        \"han_text\": \"寫而不竭者亦在乎心石妙應乎尼之雄牲 其所以暢發天機悠揚真韻亦在乎咱者之自得而雅醇疵則於竹化無焉\",\n        \"vietnamese_text\": \"Tâm bất đàn quan na RẰy uý; Hữu uô an hiểm nhiệm bhôit hòi.\",\n        \"score\": 0.19432769959568083\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 9,\n        \"vi_start\": 4,\n        \"vi_end\": 5,\n        \"han_text\": \"竹乎竹乎善有取於竹妄其一友人升華潤川阮蒼浩序之曰夢物主聲霧矣有出於繁元 元聲者天聲也繁走者人聲也\",\n        \"vietnamese_text\": \"Vị nhân tối khổ thị uô học. Học đắc hoàn tu đại nhãn khai.\",\n        \"score\": 0.0868426564621244\n      },\n      {\n        \"han_start\": 10,\n        \"han_end\": 10,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"故人声且有邪正之辨而天聲則無邪正之小焉\",\n        \"vietnamese_text\": \"Thuật chuyện mình Băm sáu tuổi, thân nhiều bệnh tật.\",\n        \"score\": 0.04492639108315428\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 12,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"夫人声而求天聲之正者翕純微 繹宮商安秦而條理精然不錯苦笑惡焉\",\n        \"vietnamese_text\": \"Lĩa nhàn ở đậu tại Vụ Tai.\",\n        \"score\": 0.055322396170863285\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 14,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"融物成詩而性惟若得其正此人之天也 若其衰而至於傷步而至於淫四外上秦音此人之人也\",\n        \"vietnamese_text\": \"Nứữa đời tung tích thơ là bạn; Đến chôn đăng lâm rượu ấy tình.\",\n        \"score\": 0.22887898462609937\n      },\n      {\n        \"han_start\": 15,\n        \"han_end\": 17,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"至於天声托於物三司然四經世聲松志春鳥声秋空聲蕉雨聲 竹尾聲音韻麟魚品調暢聆之者令人有野鶴之還心 孤雲之喜思其孫竹繁声矣帝天壤者已云\",\n        \"vietnamese_text\": \"Lòng không phúi mũ ~Iị!\",\n        \"score\": 0.012872107395912278\n      },\n      {\n        \"han_start\": 18,\n        \"han_end\": 18,\n        \"vi_start\": 10,\n        \"vi_end\": 10,\n        \"han_text\": \"吾友晉江吳君完璞初習辰文老上於诗既\",\n        \"vietnamese_text\": \"”, sao hiêng sợ; Bạn chẳng rút gươm”' cứ cợt đùa.\",\n        \"score\": -0.0381470228900834\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 2,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "夫尾之為物者無其質而有其柔 竹之焉物者有其質而無其心故竹因尼而成兹 是以尾未則鳴尾去則止",
+          "vietnamese_text": "Tự thuật Tum thập lục niên da bệnh bhách.",
+          "score": -0.016847312900758377
+        },
+        {
+          "han_start": 3,
+          "han_end": 5,
+          "vi_start": 1,
+          "vi_end": 2,
+          "han_text": "凡之大者見大鳴尼之小者則小鳴 是乃其鳴在乎尾而不在乎竹也竹之本如也 至如高此觀淚爽必意冷隱如奔潦游口徐行珮遠夫悉亡關俗清2可滌頗食亦金",
+          "vietnamese_text": "Ái nhèn kết ốG tại Vụ Lai. Bản sùuh tung tích thì 0L bạn; Đóáo xứ đăng lâm tửu tác môi.",
+          "score": 0.13536384488690312
+        },
+        {
+          "han_start": 6,
+          "han_end": 7,
+          "vi_start": 3,
+          "vi_end": 3,
+          "han_text": "寫而不竭者亦在乎心石妙應乎尼之雄牲 其所以暢發天機悠揚真韻亦在乎咱者之自得而雅醇疵則於竹化無焉",
+          "vietnamese_text": "Tâm bất đàn quan na RẰy uý; Hữu uô an hiểm nhiệm bhôit hòi.",
+          "score": 0.19432769959568083
+        },
+        {
+          "han_start": 8,
+          "han_end": 9,
+          "vi_start": 4,
+          "vi_end": 5,
+          "han_text": "竹乎竹乎善有取於竹妄其一友人升華潤川阮蒼浩序之曰夢物主聲霧矣有出於繁元 元聲者天聲也繁走者人聲也",
+          "vietnamese_text": "Vị nhân tối khổ thị uô học. Học đắc hoàn tu đại nhãn khai.",
+          "score": 0.0868426564621244
+        },
+        {
+          "han_start": 10,
+          "han_end": 10,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "故人声且有邪正之辨而天聲則無邪正之小焉",
+          "vietnamese_text": "Thuật chuyện mình Băm sáu tuổi, thân nhiều bệnh tật.",
+          "score": 0.04492639108315428
+        },
+        {
+          "han_start": 11,
+          "han_end": 12,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "夫人声而求天聲之正者翕純微 繹宮商安秦而條理精然不錯苦笑惡焉",
+          "vietnamese_text": "Lĩa nhàn ở đậu tại Vụ Tai.",
+          "score": 0.055322396170863285
+        },
+        {
+          "han_start": 13,
+          "han_end": 14,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "融物成詩而性惟若得其正此人之天也 若其衰而至於傷步而至於淫四外上秦音此人之人也",
+          "vietnamese_text": "Nứữa đời tung tích thơ là bạn; Đến chôn đăng lâm rượu ấy tình.",
+          "score": 0.22887898462609937
+        },
+        {
+          "han_start": 15,
+          "han_end": 17,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "至於天声托於物三司然四經世聲松志春鳥声秋空聲蕉雨聲 竹尾聲音韻麟魚品調暢聆之者令人有野鶴之還心 孤雲之喜思其孫竹繁声矣帝天壤者已云",
+          "vietnamese_text": "Lòng không phúi mũ ~Iị!",
+          "score": 0.012872107395912278
+        },
+        {
+          "han_start": 18,
+          "han_end": 18,
+          "vi_start": 10,
+          "vi_end": 10,
+          "han_text": "吾友晉江吳君完璞初習辰文老上於诗既",
+          "vietnamese_text": "”, sao hiêng sợ; Bạn chẳng rút gươm”' cứ cợt đùa.",
+          "score": -0.0381470228900834
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 5016
+}

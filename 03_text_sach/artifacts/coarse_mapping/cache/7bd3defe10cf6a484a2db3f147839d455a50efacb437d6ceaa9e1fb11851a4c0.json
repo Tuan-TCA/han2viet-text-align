@@ -1,0 +1,132 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "7bd3defe10cf6a484a2db3f147839d455a50efacb437d6ceaa9e1fb11851a4c0",
+  "payload": {
+    "han": "六府民一萬五千八百八十三人受另全分\n後二府寔受另共五萬八百八十四人\n以給三十為隊左右中奇十九船左右坐章二十一般四中步章四十船\n左右内步奇十二般首營留屯廣平三營共一百十二般\n川上每船一百二十人\n四奇十二陽外四船三水隊十二船\n以上無船共一百五十人共效二百三十八般民\n故受另二弓九千二百八十人正陰二萬一千六百四人\n其内寓祿餘從并各釐兵效庫另口行餘夫不保登義府臣故二子八千六百七十七人\n除內府各社第七千六百三十四人\n其內員子民五千三百七十八人\n發夫民五百三十人並受另半亥帝所民一萬六午一百四人受另全分伊府民是受另也\n一弓九千七十九人四給二十為隊四中步隊二十般四\n內步陽二十船二寅隊五船外社一船四鏡隊二十般四步隊前級內步奇二十船\n以上每船共一百二十人共效十七船民受替另一萬一千六百四十人\n正餘民效七千四百三十九人\n其內寓祿餘於并庫另至兵以行競夫不併歸仁府民效三萬六千七百六十九人\n除内清各莊無另一弓二千五百四十五人\n其四員子民一弓九百四人饒夫民二千三十三人\n並受第半亥本府民一乃一千二百十七人受另亥伊府民裏受另共一弓七千七百五十六人以給七奇隊并屬里\n附水四說奇二十四般附水十六般度里十二般\n以上每船一百二十人\n廣南當十八般",
+    "vi": "Số thôn thuộc Tam Lạch 100 thôn, số dân 4.000 đinh, chiến thuyển 70 chiếc, số ruộng hơn ð.000 thửa.\nSố thôn 3 trại Bả Canh, Bà Lai, Rạch Kiến 100 thôn, số dân 4.000 đỉnh, chiến thuyền 70 chiếc, số ruộng hơn 41.000 thửa.\nThủ cửa Soài Rạp. quân 3 đội, mỗi đội 3 thuyển, mỗi thuyền 40 người, cộng 360 người.\nThủ cửa Đồng Tranh, thủ cửa Đại cửa Tiểu, thủ cửa Bà Lai, cũng như thế.\nThủ Trường Đồn ở Mỹ Tho 5 đội, mỗi đội 3 thuyền, mỗi thuyền 48 người, cộng 720 người .\nThủ Đương Sử nguồn Ba Can, cũng như thế.\nDinh Long Hồ, bản trấn tinh binh 20 thuyền, mỗi thuyền ð0 người, cộng 1.000 người, ghe bầu hải chiến thuyền 9 chiếc; thủ cù lao Dao Chiêu, Rạch Ông Chưởng, thủ Tân Châu, thủ Chiến Sai, thủ Hùng Thắng, cũng như thế.\nCác thủ ngự miền Tiền Giang, thủ đạo Đông Khẩu, quân ð đội, mỗi đội 3 thuyền, mỗi thuyển 48 người, cộng 720 người, chiến thuyền 15 chiếc; thủ đạo Tân Thắng cũng như thế, thủ trường Giao Dịch, quân 3 đội, mỗi đội 3 thuyền, mỗi thuyền 40 người, cộng 360 người, chiến thuyền 9 chiếc; thú Mộc Hãn, thủ Vũng Liêm, thủ Làng Thị, thủ Bến Tranh cũng như thế.\nThủ Quang Phục, quân 5 đội, mỗi đội 3 thuyền, mỗi thuyền 40 người, chiến thuyền 15 chiếc.\nThủ ngự các cửa biển, thủ cửa Bãi Ngao, quân 3 đội, mỗi đội 3 thuyền, mỗi thuyền 40 người, cộng 360 người, chiến thuyền 9 chiếc, thủ cửa Tiểu Hỗn, thủ cửa Cỏ Chiện, thủ cửa Trà Vinh, thủ cửa Cái Lóc, thủ Thanh Hải, cũng như thế."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 1,\n        \"vi_start\": 0,\n        \"vi_end\": 1,\n        \"han_text\": \"六府民一萬五千八百八十三人受另全分 後二府寔受另共五萬八百八十四人\",\n        \"vietnamese_text\": \"Số thôn thuộc Tam Lạch 100 thôn, số dân 4. 000 đinh, chiến thuyển 70 chiếc, số ruộng hơn ð.\",\n        \"score\": 0.17343027569202055\n      },\n      {\n        \"han_start\": 2,\n        \"han_end\": 3,\n        \"vi_start\": 2,\n        \"vi_end\": 2,\n        \"han_text\": \"以給三十為隊左右中奇十九船左右坐章二十一般四中步章四十船 左右内步奇十二般首營留屯廣平三營共一百十二般\",\n        \"vietnamese_text\": \"000 thửa.\",\n        \"score\": -0.010632487505689325\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 6,\n        \"vi_start\": 3,\n        \"vi_end\": 4,\n        \"han_text\": \"川上每船一百二十人 四奇十二陽外四船三水隊十二船 以上無船共一百五十人共效二百三十八般民\",\n        \"vietnamese_text\": \"Số thôn 3 trại Bả Canh, Bà Lai, Rạch Kiến 100 thôn, số dân 4. 000 đỉnh, chiến thuyền 70 chiếc, số ruộng hơn 41.\",\n        \"score\": 0.228966337588368\n      },\n      {\n        \"han_start\": 7,\n        \"han_end\": 7,\n        \"vi_start\": 5,\n        \"vi_end\": 5,\n        \"han_text\": \"故受另二弓九千二百八十人正陰二萬一千六百四人\",\n        \"vietnamese_text\": \"000 thửa.\",\n        \"score\": 0.00230416576782989\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 8,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"其内寓祿餘從并各釐兵效庫另口行餘夫不保登義府臣故二子八千六百七十七人\",\n        \"vietnamese_text\": \"Thủ cửa Soài Rạp.\",\n        \"score\": 0.002513083097504632\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 10,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"除內府各社第七千六百三十四人 其內員子民五千三百七十八人\",\n        \"vietnamese_text\": \"quân 3 đội, mỗi đội 3 thuyển, mỗi thuyền 40 người, cộng 360 người.\",\n        \"score\": 0.1704369184176481\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 13,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"發夫民五百三十人並受另半亥帝所民一萬六午一百四人受另全分伊府民是受另也 一弓九千七十九人四給二十為隊四中步隊二十般四 內步陽二十船二寅隊五船外社一船四鏡隊二十般四步隊前級內步奇二十船\",\n        \"vietnamese_text\": \"Thủ cửa Đồng Tranh, thủ cửa Đại cửa Tiểu, thủ cửa Bà Lai, cũng như thế.\",\n        \"score\": 0.00252957080602195\n      },\n      {\n        \"han_start\": 14,\n        \"han_end\": 15,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"以上每船共一百二十人共效十七船民受替另一萬一千六百四十人 正餘民效七千四百三十九人\",\n        \"vietnamese_text\": \"Thủ Trường Đồn ở Mỹ Tho 5 đội, mỗi đội 3 thuyền, mỗi thuyền 48 người, cộng 720 người .\",\n        \"score\": 0.1897025497954592\n      },\n      {\n        \"han_start\": 16,\n        \"han_end\": 17,\n        \"vi_start\": 10,\n        \"vi_end\": 11,\n        \"han_text\": \"其內寓祿餘於并庫另至兵以行競夫不併歸仁府民效三萬六千七百六十九人 除内清各莊無另一弓二千五百四十五人\",\n        \"vietnamese_text\": \"Thủ Đương Sử nguồn Ba Can, cũng như thế. Dinh Long Hồ, bản trấn tinh binh 20 thuyền, mỗi thuyền ð0 người, cộng 1.\",\n        \"score\": 0.05787124977920966\n      },\n      {\n        \"han_start\": 18,\n        \"han_end\": 19,\n        \"vi_start\": 12,\n        \"vi_end\": 12,\n        \"han_text\": \"其四員子民一弓九百四人饒夫民二千三十三人 並受第半亥本府民一乃一千二百十七人受另亥伊府民裏受另共一弓七千七百五十六人以給七奇隊并屬里\",\n        \"vietnamese_text\": \"000 người, ghe bầu hải chiến thuyền 9 chiếc; thủ cù lao Dao Chiêu, Rạch Ông Chưởng, thủ Tân Châu, thủ Chiến Sai, thủ Hùng Thắng, cũng như thế.\",\n        \"score\": 0.12282201009138127\n      },\n      {\n        \"han_start\": 20,\n        \"han_end\": 20,\n        \"vi_start\": 13,\n        \"vi_end\": 14,\n        \"han_text\": \"附水四說奇二十四般附水十六般度里十二般\",\n        \"vietnamese_text\": \"Các thủ ngự miền Tiền Giang, thủ đạo Đông Khẩu, quân ð đội, mỗi đội 3 thuyền, mỗi thuyển 48 người, cộng 720 người, chiến thuyền 15 chiếc; thủ đạo Tân Thắng cũng như thế, thủ trường Giao Dịch, quân 3 đội, mỗi đội 3 thuyền, mỗi thuyền 40 người, cộng 360 người, chiến thuyền 9 chiếc; thú Mộc Hãn, thủ Vũng Liêm, thủ Làng Thị, thủ Bến Tranh cũng như thế. Thủ Quang Phục, quân 5 đội, mỗi đội 3 thuyền, mỗi thuyền 40 người, chiến thuyền 15 chiếc.\",\n        \"score\": -0.017965975385773266\n      },\n      {\n        \"han_start\": 21,\n        \"han_end\": 22,\n        \"vi_start\": 15,\n        \"vi_end\": 15,\n        \"han_text\": \"以上每船一百二十人 廣南當十八般\",\n        \"vietnamese_text\": \"Thủ ngự các cửa biển, thủ cửa Bãi Ngao, quân 3 đội, mỗi đội 3 thuyền, mỗi thuyền 40 người, cộng 360 người, chiến thuyền 9 chiếc, thủ cửa Tiểu Hỗn, thủ cửa Cỏ Chiện, thủ cửa Trà Vinh, thủ cửa Cái Lóc, thủ Thanh Hải, cũng như thế.\",\n        \"score\": 0.03565250478783679\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 1,
+          "vi_start": 0,
+          "vi_end": 1,
+          "han_text": "六府民一萬五千八百八十三人受另全分 後二府寔受另共五萬八百八十四人",
+          "vietnamese_text": "Số thôn thuộc Tam Lạch 100 thôn, số dân 4. 000 đinh, chiến thuyển 70 chiếc, số ruộng hơn ð.",
+          "score": 0.17343027569202055
+        },
+        {
+          "han_start": 2,
+          "han_end": 3,
+          "vi_start": 2,
+          "vi_end": 2,
+          "han_text": "以給三十為隊左右中奇十九船左右坐章二十一般四中步章四十船 左右内步奇十二般首營留屯廣平三營共一百十二般",
+          "vietnamese_text": "000 thửa.",
+          "score": -0.010632487505689325
+        },
+        {
+          "han_start": 4,
+          "han_end": 6,
+          "vi_start": 3,
+          "vi_end": 4,
+          "han_text": "川上每船一百二十人 四奇十二陽外四船三水隊十二船 以上無船共一百五十人共效二百三十八般民",
+          "vietnamese_text": "Số thôn 3 trại Bả Canh, Bà Lai, Rạch Kiến 100 thôn, số dân 4. 000 đỉnh, chiến thuyền 70 chiếc, số ruộng hơn 41.",
+          "score": 0.228966337588368
+        },
+        {
+          "han_start": 7,
+          "han_end": 7,
+          "vi_start": 5,
+          "vi_end": 5,
+          "han_text": "故受另二弓九千二百八十人正陰二萬一千六百四人",
+          "vietnamese_text": "000 thửa.",
+          "score": 0.00230416576782989
+        },
+        {
+          "han_start": 8,
+          "han_end": 8,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "其内寓祿餘從并各釐兵效庫另口行餘夫不保登義府臣故二子八千六百七十七人",
+          "vietnamese_text": "Thủ cửa Soài Rạp.",
+          "score": 0.002513083097504632
+        },
+        {
+          "han_start": 9,
+          "han_end": 10,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "除內府各社第七千六百三十四人 其內員子民五千三百七十八人",
+          "vietnamese_text": "quân 3 đội, mỗi đội 3 thuyển, mỗi thuyền 40 người, cộng 360 người.",
+          "score": 0.1704369184176481
+        },
+        {
+          "han_start": 11,
+          "han_end": 13,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "發夫民五百三十人並受另半亥帝所民一萬六午一百四人受另全分伊府民是受另也 一弓九千七十九人四給二十為隊四中步隊二十般四 內步陽二十船二寅隊五船外社一船四鏡隊二十般四步隊前級內步奇二十船",
+          "vietnamese_text": "Thủ cửa Đồng Tranh, thủ cửa Đại cửa Tiểu, thủ cửa Bà Lai, cũng như thế.",
+          "score": 0.00252957080602195
+        },
+        {
+          "han_start": 14,
+          "han_end": 15,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "以上每船共一百二十人共效十七船民受替另一萬一千六百四十人 正餘民效七千四百三十九人",
+          "vietnamese_text": "Thủ Trường Đồn ở Mỹ Tho 5 đội, mỗi đội 3 thuyền, mỗi thuyền 48 người, cộng 720 người .",
+          "score": 0.1897025497954592
+        },
+        {
+          "han_start": 16,
+          "han_end": 17,
+          "vi_start": 10,
+          "vi_end": 11,
+          "han_text": "其內寓祿餘於并庫另至兵以行競夫不併歸仁府民效三萬六千七百六十九人 除内清各莊無另一弓二千五百四十五人",
+          "vietnamese_text": "Thủ Đương Sử nguồn Ba Can, cũng như thế. Dinh Long Hồ, bản trấn tinh binh 20 thuyền, mỗi thuyền ð0 người, cộng 1.",
+          "score": 0.05787124977920966
+        },
+        {
+          "han_start": 18,
+          "han_end": 19,
+          "vi_start": 12,
+          "vi_end": 12,
+          "han_text": "其四員子民一弓九百四人饒夫民二千三十三人 並受第半亥本府民一乃一千二百十七人受另亥伊府民裏受另共一弓七千七百五十六人以給七奇隊并屬里",
+          "vietnamese_text": "000 người, ghe bầu hải chiến thuyền 9 chiếc; thủ cù lao Dao Chiêu, Rạch Ông Chưởng, thủ Tân Châu, thủ Chiến Sai, thủ Hùng Thắng, cũng như thế.",
+          "score": 0.12282201009138127
+        },
+        {
+          "han_start": 20,
+          "han_end": 20,
+          "vi_start": 13,
+          "vi_end": 14,
+          "han_text": "附水四說奇二十四般附水十六般度里十二般",
+          "vietnamese_text": "Các thủ ngự miền Tiền Giang, thủ đạo Đông Khẩu, quân ð đội, mỗi đội 3 thuyền, mỗi thuyển 48 người, cộng 720 người, chiến thuyền 15 chiếc; thủ đạo Tân Thắng cũng như thế, thủ trường Giao Dịch, quân 3 đội, mỗi đội 3 thuyền, mỗi thuyền 40 người, cộng 360 người, chiến thuyền 9 chiếc; thú Mộc Hãn, thủ Vũng Liêm, thủ Làng Thị, thủ Bến Tranh cũng như thế. Thủ Quang Phục, quân 5 đội, mỗi đội 3 thuyền, mỗi thuyền 40 người, chiến thuyền 15 chiếc.",
+          "score": -0.017965975385773266
+        },
+        {
+          "han_start": 21,
+          "han_end": 22,
+          "vi_start": 15,
+          "vi_end": 15,
+          "han_text": "以上每船一百二十人 廣南當十八般",
+          "vietnamese_text": "Thủ ngự các cửa biển, thủ cửa Bãi Ngao, quân 3 đội, mỗi đội 3 thuyền, mỗi thuyền 40 người, cộng 360 người, chiến thuyền 9 chiếc, thủ cửa Tiểu Hỗn, thủ cửa Cỏ Chiện, thủ cửa Trà Vinh, thủ cửa Cái Lóc, thủ Thanh Hải, cũng như thế.",
+          "score": 0.03565250478783679
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 1719
+}

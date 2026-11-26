@@ -1,0 +1,96 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "4a2e318ed038534cc527ff61396f1c13f61fb3bdef2fc70c8e5155dd3f206146",
+  "payload": {
+    "han": "古祿按國食木信然順化\n俗呼蒼茲為適之郡子為觸果\n業為賴養果那為莽球波異密軟者呼為機過不軟土守為據燥卷羅\n大吉呼為吹於依反猶小者焉\n吹耕中者為沐機\n此處櫃榔此辰皆有軟徽面甘價最賤二十果不滿二十文\n廣5平俗一神樹下植一美識夢隨而之上身隨植一胡椒藤\n園林蔚然臨雲山臨興廣南坊落坊這坊西步必檳榔成林柔老皮爛土人取校積四堆阜\n北韻敗回庫東人嘆食代茶順化然邑蕉若禮皆有之若称殊於四鎮\n撥字為狩彷最甘香掇能呼為掇使\n有名婆香者似掇蕉味頗酸\n有若掇青蕉者似掇聰猫而頗長\n有名掇桂似掇孛而小心黃味甘香\n有掇操棉者出河心鎮\n陶序心黃而味甘又為等\n有名芳攝塘黃微黃軟關如蠟赤\n有名芳頭徐四月種十一月採根\n大加注孟貴倉\n其京北東茶等味同\n有名半善子叢生四善色白元軟膩\n有名芳柳子叢生如善最多其塟亦可通拜丞德\n其枚舍社皆權萊油木操貴為生\n麗水黑水每",
+    "vi": "Thời họ Nguyễn trước, hồ tiêu cứ cho 100 cân làm một tạ, giá 5, 6 quan, khách Bắc và khách Mã Cao thường buôn về Quảng Đông.\nTrầu không thì cứ 60 lá làm một liền, 10 hển giá tiền 20 đồng, khách buôn thường buôn vào Phú Xuân và ra Khang Lộc và Bế Chính.\nCau cũng rẻ, 10 quả to chỉ giá 3 đồng tiền.\nCây mít trồng lâu năm thì thành gỗ tốt, sắc vàng, vân nhỏ, dân các huyện Minh Linh và Đăng Xương thường đùng làm cột nhà, có cây rộng tới 1 thước 1 tấc; lại xẻ ván làm vách.\nCác xã huyện Hương Trà xứ Thuận Hoá và các thôn chợ ở trên dưới thành Phú Xuân, trồng cây cao lớn rất nhiều, như những loại cây xoài cây sung, đều vài mươi sải, quan quân mặc sức chặt đốn, lấy ván lấy củi một năm không hết.\nNgười xưa nói \"nước cũ cây cao\" đúng lắm.\nTục Thuận Hoá gọi cây ý đi là bo bo, hạt vừng là mè, quả gai là trái thơm, quả na là mãng cầu, mít nhão gọi là mít ướt, không nhão gọi là mít ráo, xoài lớn gọi là xoài voi, nhỏ gọi là xoài cơm, vừa gọi là móc mít.\nCau ở Thuận Hoá bốn mùa đều có, mềm non mà ngọt, giá rất rẻ, mười quả chỉ 2 đồng.\nTục ở Quảng Bình, cứ dưới một cây cau thì trồng một cây trầu không, hay một cây hồ tiêu cho phụ vào, vườn rừng“um tùm.\nỞ chân núi Ái Vân cùng các xứ phường Lạc, phường Giá, phường Rây thuộc Quang Nam, cau mọc thành rừng, quả già da sém, người địa phương lấy hạt chứa cao như gò, tàu Bắc mua chở về Quảng Đông bán ăn thay chè."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 2,\n        \"vi_start\": 0,\n        \"vi_end\": 1,\n        \"han_text\": \"古祿按國食木信然順化 俗呼蒼茲為適之郡子為觸果 業為賴養果那為莽球波異密軟者呼為機過不軟土守為據燥卷羅\",\n        \"vietnamese_text\": \"Thời họ Nguyễn trước, hồ tiêu cứ cho 100 cân làm một tạ, giá 5, 6 quan, khách Bắc và khách Mã Cao thường buôn về Quảng Đông. Trầu không thì cứ 60 lá làm một liền, 10 hển giá tiền 20 đồng, khách buôn thường buôn vào Phú Xuân và ra Khang Lộc và Bế Chính.\",\n        \"score\": 0.19196616484448847\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 3,\n        \"vi_start\": 2,\n        \"vi_end\": 2,\n        \"han_text\": \"大吉呼為吹於依反猶小者焉\",\n        \"vietnamese_text\": \"Cau cũng rẻ, 10 quả to chỉ giá 3 đồng tiền.\",\n        \"score\": 0.06397554597651998\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 6,\n        \"vi_start\": 3,\n        \"vi_end\": 3,\n        \"han_text\": \"吹耕中者為沐機 此處櫃榔此辰皆有軟徽面甘價最賤二十果不滿二十文 廣5平俗一神樹下植一美識夢隨而之上身隨植一胡椒藤\",\n        \"vietnamese_text\": \"Cây mít trồng lâu năm thì thành gỗ tốt, sắc vàng, vân nhỏ, dân các huyện Minh Linh và Đăng Xương thường đùng làm cột nhà, có cây rộng tới 1 thước 1 tấc; lại xẻ ván làm vách.\",\n        \"score\": 0.03498327366314914\n      },\n      {\n        \"han_start\": 7,\n        \"han_end\": 8,\n        \"vi_start\": 4,\n        \"vi_end\": 5,\n        \"han_text\": \"園林蔚然臨雲山臨興廣南坊落坊這坊西步必檳榔成林柔老皮爛土人取校積四堆阜 北韻敗回庫東人嘆食代茶順化然邑蕉若禮皆有之若称殊於四鎮\",\n        \"vietnamese_text\": \"Các xã huyện Hương Trà xứ Thuận Hoá và các thôn chợ ở trên dưới thành Phú Xuân, trồng cây cao lớn rất nhiều, như những loại cây xoài cây sung, đều vài mươi sải, quan quân mặc sức chặt đốn, lấy ván lấy củi một năm không hết. Người xưa nói \\\"nước cũ cây cao\\\" đúng lắm.\",\n        \"score\": 0.10593038454948123\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 12,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"撥字為狩彷最甘香掇能呼為掇使 有名婆香者似掇蕉味頗酸 有若掇青蕉者似掇聰猫而頗長 有名掇桂似掇孛而小心黃味甘香\",\n        \"vietnamese_text\": \"Tục Thuận Hoá gọi cây ý đi là bo bo, hạt vừng là mè, quả gai là trái thơm, quả na là mãng cầu, mít nhão gọi là mít ướt, không nhão gọi là mít ráo, xoài lớn gọi là xoài voi, nhỏ gọi là xoài cơm, vừa gọi là móc mít.\",\n        \"score\": 0.2939671096226846\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 14,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"有掇操棉者出河心鎮 陶序心黃而味甘又為等\",\n        \"vietnamese_text\": \"Cau ở Thuận Hoá bốn mùa đều có, mềm non mà ngọt, giá rất rẻ, mười quả chỉ 2 đồng.\",\n        \"score\": 0.09132791909893241\n      },\n      {\n        \"han_start\": 15,\n        \"han_end\": 17,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"有名芳攝塘黃微黃軟關如蠟赤 有名芳頭徐四月種十一月採根 大加注孟貴倉\",\n        \"vietnamese_text\": \"Tục ở Quảng Bình, cứ dưới một cây cau thì trồng một cây trầu không, hay một cây hồ tiêu cho phụ vào, vườn rừng“um tùm.\",\n        \"score\": 0.0588419539440893\n      },\n      {\n        \"han_start\": 18,\n        \"han_end\": 21,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"其京北東茶等味同 有名半善子叢生四善色白元軟膩 有名芳柳子叢生如善最多其塟亦可通拜丞德 其枚舍社皆權萊油木操貴為生\",\n        \"vietnamese_text\": \"Ở chân núi Ái Vân cùng các xứ phường Lạc, phường Giá, phường Rây thuộc Quang Nam, cau mọc thành rừng, quả già da sém, người địa phương lấy hạt chứa cao như gò, tàu Bắc mua chở về Quảng Đông bán ăn thay chè.\",\n        \"score\": 0.09502552037795216\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 2,
+          "vi_start": 0,
+          "vi_end": 1,
+          "han_text": "古祿按國食木信然順化 俗呼蒼茲為適之郡子為觸果 業為賴養果那為莽球波異密軟者呼為機過不軟土守為據燥卷羅",
+          "vietnamese_text": "Thời họ Nguyễn trước, hồ tiêu cứ cho 100 cân làm một tạ, giá 5, 6 quan, khách Bắc và khách Mã Cao thường buôn về Quảng Đông. Trầu không thì cứ 60 lá làm một liền, 10 hển giá tiền 20 đồng, khách buôn thường buôn vào Phú Xuân và ra Khang Lộc và Bế Chính.",
+          "score": 0.19196616484448847
+        },
+        {
+          "han_start": 3,
+          "han_end": 3,
+          "vi_start": 2,
+          "vi_end": 2,
+          "han_text": "大吉呼為吹於依反猶小者焉",
+          "vietnamese_text": "Cau cũng rẻ, 10 quả to chỉ giá 3 đồng tiền.",
+          "score": 0.06397554597651998
+        },
+        {
+          "han_start": 4,
+          "han_end": 6,
+          "vi_start": 3,
+          "vi_end": 3,
+          "han_text": "吹耕中者為沐機 此處櫃榔此辰皆有軟徽面甘價最賤二十果不滿二十文 廣5平俗一神樹下植一美識夢隨而之上身隨植一胡椒藤",
+          "vietnamese_text": "Cây mít trồng lâu năm thì thành gỗ tốt, sắc vàng, vân nhỏ, dân các huyện Minh Linh và Đăng Xương thường đùng làm cột nhà, có cây rộng tới 1 thước 1 tấc; lại xẻ ván làm vách.",
+          "score": 0.03498327366314914
+        },
+        {
+          "han_start": 7,
+          "han_end": 8,
+          "vi_start": 4,
+          "vi_end": 5,
+          "han_text": "園林蔚然臨雲山臨興廣南坊落坊這坊西步必檳榔成林柔老皮爛土人取校積四堆阜 北韻敗回庫東人嘆食代茶順化然邑蕉若禮皆有之若称殊於四鎮",
+          "vietnamese_text": "Các xã huyện Hương Trà xứ Thuận Hoá và các thôn chợ ở trên dưới thành Phú Xuân, trồng cây cao lớn rất nhiều, như những loại cây xoài cây sung, đều vài mươi sải, quan quân mặc sức chặt đốn, lấy ván lấy củi một năm không hết. Người xưa nói \"nước cũ cây cao\" đúng lắm.",
+          "score": 0.10593038454948123
+        },
+        {
+          "han_start": 9,
+          "han_end": 12,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "撥字為狩彷最甘香掇能呼為掇使 有名婆香者似掇蕉味頗酸 有若掇青蕉者似掇聰猫而頗長 有名掇桂似掇孛而小心黃味甘香",
+          "vietnamese_text": "Tục Thuận Hoá gọi cây ý đi là bo bo, hạt vừng là mè, quả gai là trái thơm, quả na là mãng cầu, mít nhão gọi là mít ướt, không nhão gọi là mít ráo, xoài lớn gọi là xoài voi, nhỏ gọi là xoài cơm, vừa gọi là móc mít.",
+          "score": 0.2939671096226846
+        },
+        {
+          "han_start": 13,
+          "han_end": 14,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "有掇操棉者出河心鎮 陶序心黃而味甘又為等",
+          "vietnamese_text": "Cau ở Thuận Hoá bốn mùa đều có, mềm non mà ngọt, giá rất rẻ, mười quả chỉ 2 đồng.",
+          "score": 0.09132791909893241
+        },
+        {
+          "han_start": 15,
+          "han_end": 17,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "有名芳攝塘黃微黃軟關如蠟赤 有名芳頭徐四月種十一月採根 大加注孟貴倉",
+          "vietnamese_text": "Tục ở Quảng Bình, cứ dưới một cây cau thì trồng một cây trầu không, hay một cây hồ tiêu cho phụ vào, vườn rừng“um tùm.",
+          "score": 0.0588419539440893
+        },
+        {
+          "han_start": 18,
+          "han_end": 21,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "其京北東茶等味同 有名半善子叢生四善色白元軟膩 有名芳柳子叢生如善最多其塟亦可通拜丞德 其枚舍社皆權萊油木操貴為生",
+          "vietnamese_text": "Ở chân núi Ái Vân cùng các xứ phường Lạc, phường Giá, phường Rây thuộc Quang Nam, cau mọc thành rừng, quả già da sém, người địa phương lấy hạt chứa cao như gò, tàu Bắc mua chở về Quảng Đông bán ăn thay chè.",
+          "score": 0.09502552037795216
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 5860
+}

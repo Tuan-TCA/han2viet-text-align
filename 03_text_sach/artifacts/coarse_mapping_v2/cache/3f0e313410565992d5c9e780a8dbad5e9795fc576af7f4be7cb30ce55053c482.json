@@ -1,0 +1,96 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "3f0e313410565992d5c9e780a8dbad5e9795fc576af7f4be7cb30ce55053c482",
+  "payload": {
+    "han": "皆有原能小船販買肅度處\n三木性細賤坚硬耐久以作柱地下餘故尺故百年不極魔\n东商去即書所称楠木有香者\n乃香機色黃楠白此乃曰楠南赤班卅氣祿學戲田字榮為恩漂頭皆有之\n阮氏堂屋樓周船艘並用處之木抄木盡息大倍於唐\n三木又二種一名抄捉色大好\n次一名抄撐色黃焉好里而厚\n可作船板出於富榮香茶左右澤源者\n質重性握入小常浮土人每以作商船\n漁敏不出十年出於平乘為室者最良\n甜久作船可久十年但性重浮\n唐三木性直而梗只堪作江般\n惟抄木耐浪堪作阮氏有所營豈多取木於兩仁產\n又嘉宏等府四庚申年作隱春府興儀門令產南公堂官差舍人\n侍談場官聚纔於兩仁府一縣六百九十株\n大柱長三十二尺漢水長三尺三寸\n中樑交几長二十四尺與川鑑各項一號八百十三探長亦此之\n並令曾就該社取長相船載術二十四良不過肅得一百八十株",
+    "vi": "Họ Nguyễn có xây dựng thì phần nhiều lấy gỗ ở các phủ Quy Nhơn, Quảng Ngãi và Gia Định.\nNhư năm Canh Thân làm phủ Dương Xuân cùng cửa Nghị Môn, hạ lệnh cho quan công đường Quảng Nam sai xá nhân truyền cho cai trường lấy gỗ súc ở phủ Quy Nhơn một tích 695 cây, gồm cột lớn đài 32 thước, kiến thuỷ dài 3 thước 3 tấc, kèo lã dong dài 24 thước, cùng các hạng xuyên xà; một tích 813 cây, cũng đài lớn như thế, Đều sai cai xã Tăng Quang lấy thuyền trường đà chở nộp, 24 chiếc chỉ chở được 180 cây.\nHai phủ Bình Khang Diên Khánh, ngoài thuế thường còn có thuế biệt nạp 400 sợi mây hoa, 500 ngọn lá buôn.\nMây hoa sản ở phủ Bình Khang, hoa đen trắng xen nhau, thứ lớn thì đốt hoa ngắn dày, thứ nhỏ thì đốt hoa dài.\nCây lụi sản ở ba thuộc phủ Quy Nhơn rất bền tốt.\nXà chày cũng sản ở Quy Nhơn, mềm mà không gãy, có thể làm cần giáo.\nQuan cai Đồ gia thường hạ lệnh cho quan công đường dinh ấy lấy hoặc 1.000 cây, hoặc 500 cây, giao cho các thuyền buôn đi theo đoàn thuyền chở thuế sai dư đệ nộp.\nLá buôn sản ở định Bình Khang trắng mà nhỏ mịn, quan cai Đồ gia thường hạ lệnh cho ký lục cai bạ dinh ấy sai mua may làm 20 tấm để nộp, để cho các thợ dùng làm bong che.\nHết thảy các thổ sản đều tự lấy ở các xã thôn phường, có khi lấy công, có khi gửi riêng, thôi đốc rất phiển, vận chở mệt nhọc, cho nên dân địa phương không thể chịu được.\nPhủ Gia Định sản nhiều gỗ tốt."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 0,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"皆有原能小船販買肅度處\",\n        \"vietnamese_text\": \"Họ Nguyễn có xây dựng thì phần nhiều lấy gỗ ở các phủ Quy Nhơn, Quảng Ngãi và Gia Định.\",\n        \"score\": -0.01941866071542835\n      },\n      {\n        \"han_start\": 1,\n        \"han_end\": 4,\n        \"vi_start\": 1,\n        \"vi_end\": 1,\n        \"han_text\": \"三木性細賤坚硬耐久以作柱地下餘故尺故百年不極魔 东商去即書所称楠木有香者 乃香機色黃楠白此乃曰楠南赤班卅氣祿學戲田字榮為恩漂頭皆有之 阮氏堂屋樓周船艘並用處之木抄木盡息大倍於唐\",\n        \"vietnamese_text\": \"Như năm Canh Thân làm phủ Dương Xuân cùng cửa Nghị Môn, hạ lệnh cho quan công đường Quảng Nam sai xá nhân truyền cho cai trường lấy gỗ súc ở phủ Quy Nhơn một tích 695 cây, gồm cột lớn đài 32 thước, kiến thuỷ dài 3 thước 3 tấc, kèo lã dong dài 24 thước, cùng các hạng xuyên xà; một tích 813 cây, cũng đài lớn như thế, Đều sai cai xã Tăng Quang lấy thuyền trường đà chở nộp, 24 chiếc chỉ chở được 180 cây.\",\n        \"score\": 0.16766371487816675\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 7,\n        \"vi_start\": 2,\n        \"vi_end\": 2,\n        \"han_text\": \"三木又二種一名抄捉色大好 次一名抄撐色黃焉好里而厚 可作船板出於富榮香茶左右澤源者\",\n        \"vietnamese_text\": \"Hai phủ Bình Khang Diên Khánh, ngoài thuế thường còn có thuế biệt nạp 400 sợi mây hoa, 500 ngọn lá buôn.\",\n        \"score\": 0.04264146850830731\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 10,\n        \"vi_start\": 3,\n        \"vi_end\": 3,\n        \"han_text\": \"質重性握入小常浮土人每以作商船 漁敏不出十年出於平乘為室者最良 甜久作船可久十年但性重浮\",\n        \"vietnamese_text\": \"Mây hoa sản ở phủ Bình Khang, hoa đen trắng xen nhau, thứ lớn thì đốt hoa ngắn dày, thứ nhỏ thì đốt hoa dài.\",\n        \"score\": 0.04152678164483343\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 12,\n        \"vi_start\": 4,\n        \"vi_end\": 5,\n        \"han_text\": \"唐三木性直而梗只堪作江般 惟抄木耐浪堪作阮氏有所營豈多取木於兩仁產\",\n        \"vietnamese_text\": \"Cây lụi sản ở ba thuộc phủ Quy Nhơn rất bền tốt. Xà chày cũng sản ở Quy Nhơn, mềm mà không gãy, có thể làm cần giáo.\",\n        \"score\": 0.1742826143712289\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 13,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"又嘉宏等府四庚申年作隱春府興儀門令產南公堂官差舍人\",\n        \"vietnamese_text\": \"Quan cai Đồ gia thường hạ lệnh cho quan công đường dinh ấy lấy hoặc 1.\",\n        \"score\": 0.1481675089851743\n      },\n      {\n        \"han_start\": 14,\n        \"han_end\": 15,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"侍談場官聚纔於兩仁府一縣六百九十株 大柱長三十二尺漢水長三尺三寸\",\n        \"vietnamese_text\": \"000 cây, hoặc 500 cây, giao cho các thuyền buôn đi theo đoàn thuyền chở thuế sai dư đệ nộp.\",\n        \"score\": -0.02864950995690545\n      },\n      {\n        \"han_start\": 16,\n        \"han_end\": 17,\n        \"vi_start\": 8,\n        \"vi_end\": 10,\n        \"han_text\": \"中樑交几長二十四尺與川鑑各項一號八百十三探長亦此之 並令曾就該社取長相船載術二十四良不過肅得一百八十株\",\n        \"vietnamese_text\": \"Lá buôn sản ở định Bình Khang trắng mà nhỏ mịn, quan cai Đồ gia thường hạ lệnh cho ký lục cai bạ dinh ấy sai mua may làm 20 tấm để nộp, để cho các thợ dùng làm bong che. Hết thảy các thổ sản đều tự lấy ở các xã thôn phường, có khi lấy công, có khi gửi riêng, thôi đốc rất phiển, vận chở mệt nhọc, cho nên dân địa phương không thể chịu được. Phủ Gia Định sản nhiều gỗ tốt.\",\n        \"score\": 0.08636217274132442\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 0,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "皆有原能小船販買肅度處",
+          "vietnamese_text": "Họ Nguyễn có xây dựng thì phần nhiều lấy gỗ ở các phủ Quy Nhơn, Quảng Ngãi và Gia Định.",
+          "score": -0.01941866071542835
+        },
+        {
+          "han_start": 1,
+          "han_end": 4,
+          "vi_start": 1,
+          "vi_end": 1,
+          "han_text": "三木性細賤坚硬耐久以作柱地下餘故尺故百年不極魔 东商去即書所称楠木有香者 乃香機色黃楠白此乃曰楠南赤班卅氣祿學戲田字榮為恩漂頭皆有之 阮氏堂屋樓周船艘並用處之木抄木盡息大倍於唐",
+          "vietnamese_text": "Như năm Canh Thân làm phủ Dương Xuân cùng cửa Nghị Môn, hạ lệnh cho quan công đường Quảng Nam sai xá nhân truyền cho cai trường lấy gỗ súc ở phủ Quy Nhơn một tích 695 cây, gồm cột lớn đài 32 thước, kiến thuỷ dài 3 thước 3 tấc, kèo lã dong dài 24 thước, cùng các hạng xuyên xà; một tích 813 cây, cũng đài lớn như thế, Đều sai cai xã Tăng Quang lấy thuyền trường đà chở nộp, 24 chiếc chỉ chở được 180 cây.",
+          "score": 0.16766371487816675
+        },
+        {
+          "han_start": 5,
+          "han_end": 7,
+          "vi_start": 2,
+          "vi_end": 2,
+          "han_text": "三木又二種一名抄捉色大好 次一名抄撐色黃焉好里而厚 可作船板出於富榮香茶左右澤源者",
+          "vietnamese_text": "Hai phủ Bình Khang Diên Khánh, ngoài thuế thường còn có thuế biệt nạp 400 sợi mây hoa, 500 ngọn lá buôn.",
+          "score": 0.04264146850830731
+        },
+        {
+          "han_start": 8,
+          "han_end": 10,
+          "vi_start": 3,
+          "vi_end": 3,
+          "han_text": "質重性握入小常浮土人每以作商船 漁敏不出十年出於平乘為室者最良 甜久作船可久十年但性重浮",
+          "vietnamese_text": "Mây hoa sản ở phủ Bình Khang, hoa đen trắng xen nhau, thứ lớn thì đốt hoa ngắn dày, thứ nhỏ thì đốt hoa dài.",
+          "score": 0.04152678164483343
+        },
+        {
+          "han_start": 11,
+          "han_end": 12,
+          "vi_start": 4,
+          "vi_end": 5,
+          "han_text": "唐三木性直而梗只堪作江般 惟抄木耐浪堪作阮氏有所營豈多取木於兩仁產",
+          "vietnamese_text": "Cây lụi sản ở ba thuộc phủ Quy Nhơn rất bền tốt. Xà chày cũng sản ở Quy Nhơn, mềm mà không gãy, có thể làm cần giáo.",
+          "score": 0.1742826143712289
+        },
+        {
+          "han_start": 13,
+          "han_end": 13,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "又嘉宏等府四庚申年作隱春府興儀門令產南公堂官差舍人",
+          "vietnamese_text": "Quan cai Đồ gia thường hạ lệnh cho quan công đường dinh ấy lấy hoặc 1.",
+          "score": 0.1481675089851743
+        },
+        {
+          "han_start": 14,
+          "han_end": 15,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "侍談場官聚纔於兩仁府一縣六百九十株 大柱長三十二尺漢水長三尺三寸",
+          "vietnamese_text": "000 cây, hoặc 500 cây, giao cho các thuyền buôn đi theo đoàn thuyền chở thuế sai dư đệ nộp.",
+          "score": -0.02864950995690545
+        },
+        {
+          "han_start": 16,
+          "han_end": 17,
+          "vi_start": 8,
+          "vi_end": 10,
+          "han_text": "中樑交几長二十四尺與川鑑各項一號八百十三探長亦此之 並令曾就該社取長相船載術二十四良不過肅得一百八十株",
+          "vietnamese_text": "Lá buôn sản ở định Bình Khang trắng mà nhỏ mịn, quan cai Đồ gia thường hạ lệnh cho ký lục cai bạ dinh ấy sai mua may làm 20 tấm để nộp, để cho các thợ dùng làm bong che. Hết thảy các thổ sản đều tự lấy ở các xã thôn phường, có khi lấy công, có khi gửi riêng, thôi đốc rất phiển, vận chở mệt nhọc, cho nên dân địa phương không thể chịu được. Phủ Gia Định sản nhiều gỗ tốt.",
+          "score": 0.08636217274132442
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 4281
+}

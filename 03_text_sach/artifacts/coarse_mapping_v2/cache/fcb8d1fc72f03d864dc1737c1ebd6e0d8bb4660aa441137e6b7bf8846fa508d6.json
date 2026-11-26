@@ -1,0 +1,87 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "fcb8d1fc72f03d864dc1737c1ebd6e0d8bb4660aa441137e6b7bf8846fa508d6",
+  "payload": {
+    "han": "廣南營新正庫註微田祖場每年三月谷官屬有常新孔該得記錄人每人米八色\n乾掃四十圩酒密各四十埕鬱錢二十四貞淚案知薄七包孫二十亥勾稽每人米五色\n擇十六兌該合以下無密每人米三色\n謝八亥首合每人米十色謝四定司吏每人米三色裁六貴\n此一礼亦得朱一百八十二色孫四百六十二貫\n至六月期有嘗新礼記錄米二十包\n乾榔一百坟酒密一百埕替拽六十宗紅花二色替錢十定\n共材七十定議案知零米十四色各礼替礼五十八貞將臣之同句替差未十包礼替許二十三定誤令末六色乾櫛酒習我十六宗首令米三色乾神酒替八\n六穴同之共米十色酒五十埋書十定\n此礼亦得米二百五十四色我七百三十九定\n其吏部官侯微官亦有礼相同密替錢三十宗\n至如塵必祀錄礼不遇未三色酒密名十埕奇傳二宗\n鄭垂府以御替密礼故亦同之\n而仁府亦然已记崇揭寶二礼\n其徐則無名府易田祖陽亦無之\n至如年節礼亦惟廣南嘗官吏為多\n正旦礼銀二十五家五用八八八星書八五百八十八六三四三十六文美辦十so",
+    "vi": "Năm Ất Mùi mùa xuân, Việp công vào Phú Xuân, giao giam Loan ở phía tả Nội dinh.\nLại nhờ Tuân Thọ hầu nộp vàng 30 nén, bạc 200 nén để xin chuộc tội, Gặp việc thường biếu riêng vàng bạc châu báu cũng còn kể hàng nghìn.\nNăm Bính Thân, mùa xuân, vâng truyền giải về Kinh sư, lại riêng xin hoãn đi, hối lộ cho tôi 20 nén, cho dịch vụ ð nén bạc, đều khước từ không nhận.\nHỏi nó sao còn nhiều vàng thế, thì người nhà nói đó là cầm bán ruộng vườn thôi.\nThuận Hoá không có nhiều của cải, đều lấy ở Quảng Nam, vì xứ Quảng Nam là đất phì nhiêu nhất thiên hạ.\nNgười Thăng Hoa, Điện Bàn biết dệt vải lụa vóc đoạn lĩnh là, hoa màu khéo đẹp chẳng kém Quảng Đông, ruộng đồng rộng rãi, gạo.lúa tốt đẹp, trầm hương, tốc hương, sừng tê, ngà voi, vàng bạc, đổi mỗi, trai ốc, bông, sáp, đường, mật, dầu sơn, cau, hồ tiêu, cá muối, gỗ lạt, đều sản xuất ở đấy.\nBa phủ Quy Nhơn, Quảng Ngãi, Gia Định thì thóc gạo không xiết kể, khách Bắc buôn bán quen khen bao không ngớt.\nCác xứ Hòn Lãnh, Thu Bồn, Phường Tây thuộc về hai phủ Thăng, Điện sản voi như trâu ngựa, nhà dân đều có chăn nuôi.\nQuy Nhơn và Quảng Ngãi cũng có.\nCác xứ Cò Đen () Kẻ Dã (} phủ Quy Nhơn thì sản xuất ngựa, ngựa sinh ở trong hang núi thành đàn hàng trăm hàng nghìn con, có con cao tới 2 thước rưỡi và 3 thước trở lên."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 1,\n        \"vi_start\": 0,\n        \"vi_end\": 2,\n        \"han_text\": \"廣南營新正庫註微田祖場每年三月谷官屬有常新孔該得記錄人每人米八色 乾掃四十圩酒密各四十埕鬱錢二十四貞淚案知薄七包孫二十亥勾稽每人米五色\",\n        \"vietnamese_text\": \"Năm Ất Mùi mùa xuân, Việp công vào Phú Xuân, giao giam Loan ở phía tả Nội dinh. Lại nhờ Tuân Thọ hầu nộp vàng 30 nén, bạc 200 nén để xin chuộc tội, Gặp việc thường biếu riêng vàng bạc châu báu cũng còn kể hàng nghìn. Năm Bính Thân, mùa xuân, vâng truyền giải về Kinh sư, lại riêng xin hoãn đi, hối lộ cho tôi 20 nén, cho dịch vụ ð nén bạc, đều khước từ không nhận.\",\n        \"score\": 0.178218270685794\n      },\n      {\n        \"han_start\": 2,\n        \"han_end\": 4,\n        \"vi_start\": 3,\n        \"vi_end\": 4,\n        \"han_text\": \"擇十六兌該合以下無密每人米三色 謝八亥首合每人米十色謝四定司吏每人米三色裁六貴 此一礼亦得朱一百八十二色孫四百六十二貫\",\n        \"vietnamese_text\": \"Hỏi nó sao còn nhiều vàng thế, thì người nhà nói đó là cầm bán ruộng vườn thôi. Thuận Hoá không có nhiều của cải, đều lấy ở Quảng Nam, vì xứ Quảng Nam là đất phì nhiêu nhất thiên hạ.\",\n        \"score\": 0.09131700575852965\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 6,\n        \"vi_start\": 5,\n        \"vi_end\": 5,\n        \"han_text\": \"至六月期有嘗新礼記錄米二十包 乾榔一百坟酒密一百埕替拽六十宗紅花二色替錢十定\",\n        \"vietnamese_text\": \"Người Thăng Hoa, Điện Bàn biết dệt vải lụa vóc đoạn lĩnh là, hoa màu khéo đẹp chẳng kém Quảng Đông, ruộng đồng rộng rãi, gạo.\",\n        \"score\": 0.029894720748379473\n      },\n      {\n        \"han_start\": 7,\n        \"han_end\": 9,\n        \"vi_start\": 6,\n        \"vi_end\": 7,\n        \"han_text\": \"共材七十定議案知零米十四色各礼替礼五十八貞將臣之同句替差未十包礼替許二十三定誤令末六色乾櫛酒習我十六宗首令米三色乾神酒替八 六穴同之共米十色酒五十埋書十定 此礼亦得米二百五十四色我七百三十九定\",\n        \"vietnamese_text\": \"lúa tốt đẹp, trầm hương, tốc hương, sừng tê, ngà voi, vàng bạc, đổi mỗi, trai ốc, bông, sáp, đường, mật, dầu sơn, cau, hồ tiêu, cá muối, gỗ lạt, đều sản xuất ở đấy. Ba phủ Quy Nhơn, Quảng Ngãi, Gia Định thì thóc gạo không xiết kể, khách Bắc buôn bán quen khen bao không ngớt.\",\n        \"score\": 0.17694815240671138\n      },\n      {\n        \"han_start\": 10,\n        \"han_end\": 11,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"其吏部官侯微官亦有礼相同密替錢三十宗 至如塵必祀錄礼不遇未三色酒密名十埕奇傳二宗\",\n        \"vietnamese_text\": \"Các xứ Hòn Lãnh, Thu Bồn, Phường Tây thuộc về hai phủ Thăng, Điện sản voi như trâu ngựa, nhà dân đều có chăn nuôi.\",\n        \"score\": 0.12559439549751367\n      },\n      {\n        \"han_start\": 12,\n        \"han_end\": 12,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"鄭垂府以御替密礼故亦同之\",\n        \"vietnamese_text\": \"Quy Nhơn và Quảng Ngãi cũng có.\",\n        \"score\": 0.057372100674484734\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 16,\n        \"vi_start\": 10,\n        \"vi_end\": 10,\n        \"han_text\": \"而仁府亦然已记崇揭寶二礼 其徐則無名府易田祖陽亦無之 至如年節礼亦惟廣南嘗官吏為多 正旦礼銀二十五家五用八八八星書八五百八十八六三四三十六文美辦十so\",\n        \"vietnamese_text\": \"Các xứ Cò Đen () Kẻ Dã (} phủ Quy Nhơn thì sản xuất ngựa, ngựa sinh ở trong hang núi thành đàn hàng trăm hàng nghìn con, có con cao tới 2 thước rưỡi và 3 thước trở lên.\",\n        \"score\": 0.017322379858857526\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 1,
+          "vi_start": 0,
+          "vi_end": 2,
+          "han_text": "廣南營新正庫註微田祖場每年三月谷官屬有常新孔該得記錄人每人米八色 乾掃四十圩酒密各四十埕鬱錢二十四貞淚案知薄七包孫二十亥勾稽每人米五色",
+          "vietnamese_text": "Năm Ất Mùi mùa xuân, Việp công vào Phú Xuân, giao giam Loan ở phía tả Nội dinh. Lại nhờ Tuân Thọ hầu nộp vàng 30 nén, bạc 200 nén để xin chuộc tội, Gặp việc thường biếu riêng vàng bạc châu báu cũng còn kể hàng nghìn. Năm Bính Thân, mùa xuân, vâng truyền giải về Kinh sư, lại riêng xin hoãn đi, hối lộ cho tôi 20 nén, cho dịch vụ ð nén bạc, đều khước từ không nhận.",
+          "score": 0.178218270685794
+        },
+        {
+          "han_start": 2,
+          "han_end": 4,
+          "vi_start": 3,
+          "vi_end": 4,
+          "han_text": "擇十六兌該合以下無密每人米三色 謝八亥首合每人米十色謝四定司吏每人米三色裁六貴 此一礼亦得朱一百八十二色孫四百六十二貫",
+          "vietnamese_text": "Hỏi nó sao còn nhiều vàng thế, thì người nhà nói đó là cầm bán ruộng vườn thôi. Thuận Hoá không có nhiều của cải, đều lấy ở Quảng Nam, vì xứ Quảng Nam là đất phì nhiêu nhất thiên hạ.",
+          "score": 0.09131700575852965
+        },
+        {
+          "han_start": 5,
+          "han_end": 6,
+          "vi_start": 5,
+          "vi_end": 5,
+          "han_text": "至六月期有嘗新礼記錄米二十包 乾榔一百坟酒密一百埕替拽六十宗紅花二色替錢十定",
+          "vietnamese_text": "Người Thăng Hoa, Điện Bàn biết dệt vải lụa vóc đoạn lĩnh là, hoa màu khéo đẹp chẳng kém Quảng Đông, ruộng đồng rộng rãi, gạo.",
+          "score": 0.029894720748379473
+        },
+        {
+          "han_start": 7,
+          "han_end": 9,
+          "vi_start": 6,
+          "vi_end": 7,
+          "han_text": "共材七十定議案知零米十四色各礼替礼五十八貞將臣之同句替差未十包礼替許二十三定誤令末六色乾櫛酒習我十六宗首令米三色乾神酒替八 六穴同之共米十色酒五十埋書十定 此礼亦得米二百五十四色我七百三十九定",
+          "vietnamese_text": "lúa tốt đẹp, trầm hương, tốc hương, sừng tê, ngà voi, vàng bạc, đổi mỗi, trai ốc, bông, sáp, đường, mật, dầu sơn, cau, hồ tiêu, cá muối, gỗ lạt, đều sản xuất ở đấy. Ba phủ Quy Nhơn, Quảng Ngãi, Gia Định thì thóc gạo không xiết kể, khách Bắc buôn bán quen khen bao không ngớt.",
+          "score": 0.17694815240671138
+        },
+        {
+          "han_start": 10,
+          "han_end": 11,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "其吏部官侯微官亦有礼相同密替錢三十宗 至如塵必祀錄礼不遇未三色酒密名十埕奇傳二宗",
+          "vietnamese_text": "Các xứ Hòn Lãnh, Thu Bồn, Phường Tây thuộc về hai phủ Thăng, Điện sản voi như trâu ngựa, nhà dân đều có chăn nuôi.",
+          "score": 0.12559439549751367
+        },
+        {
+          "han_start": 12,
+          "han_end": 12,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "鄭垂府以御替密礼故亦同之",
+          "vietnamese_text": "Quy Nhơn và Quảng Ngãi cũng có.",
+          "score": 0.057372100674484734
+        },
+        {
+          "han_start": 13,
+          "han_end": 16,
+          "vi_start": 10,
+          "vi_end": 10,
+          "han_text": "而仁府亦然已记崇揭寶二礼 其徐則無名府易田祖陽亦無之 至如年節礼亦惟廣南嘗官吏為多 正旦礼銀二十五家五用八八八星書八五百八十八六三四三十六文美辦十so",
+          "vietnamese_text": "Các xứ Cò Đen () Kẻ Dã (} phủ Quy Nhơn thì sản xuất ngựa, ngựa sinh ở trong hang núi thành đàn hàng trăm hàng nghìn con, có con cao tới 2 thước rưỡi và 3 thước trở lên.",
+          "score": 0.017322379858857526
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 8328
+}

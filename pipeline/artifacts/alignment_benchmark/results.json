@@ -1,0 +1,1525 @@
+{
+  "requests": 42,
+  "cached_routes": 1,
+  "halt": null,
+  "preferred_for_windows": "S2",
+  "phases": {
+    "E01": {
+      "jobs": 5,
+      "requests": 5,
+      "statuses": {
+        "api_error": 1,
+        "success": 4
+      },
+      "error_rate": 0.2,
+      "latency_ms_median": 10458
+    },
+    "E02": {
+      "jobs": 8,
+      "requests": 8,
+      "statuses": {
+        "success": 8
+      },
+      "error_rate": 0.0,
+      "latency_ms_median": 1420.5
+    },
+    "E03": {
+      "jobs": 17,
+      "requests": 16,
+      "statuses": {
+        "success": 17
+      },
+      "error_rate": 0.0,
+      "latency_ms_median": 2086.5
+    },
+    "E04": {
+      "jobs": 2,
+      "requests": 2,
+      "statuses": {
+        "success": 2
+      },
+      "error_rate": 0.0,
+      "latency_ms_median": 1646.5
+    },
+    "E05": {
+      "jobs": 2,
+      "requests": 2,
+      "statuses": {
+        "success": 2
+      },
+      "error_rate": 0.0,
+      "latency_ms_median": 3114.5
+    },
+    "E06": {
+      "jobs": 9,
+      "requests": 9,
+      "statuses": {
+        "success": 9
+      },
+      "error_rate": 0.0,
+      "latency_ms_median": 1970
+    }
+  },
+  "stability": [
+    {
+      "comparison": [
+        "E01-S2",
+        "E05-E01"
+      ],
+      "same_groups_spans": true,
+      "same_including_scores": true,
+      "row_counts": [
+        11,
+        11
+      ]
+    },
+    {
+      "comparison": [
+        "E03-h02-v00-s-1",
+        "E05-E03"
+      ],
+      "same_groups_spans": true,
+      "same_including_scores": true,
+      "row_counts": [
+        3,
+        3
+      ]
+    }
+  ],
+  "sliding_single_vi_proposals": {
+    "Cap_01-VI-0186-001": [
+      [
+        0,
+        35
+      ]
+    ],
+    "Cap_01-VI-0186-002": [
+      [
+        35,
+        55
+      ],
+      [
+        35,
+        55
+      ],
+      [
+        35,
+        55
+      ],
+      [
+        35,
+        55
+      ]
+    ],
+    "Cap_01-VI-0187-001": [
+      [
+        223,
+        231
+      ]
+    ],
+    "Cap_01-VI-0187-003": [
+      [
+        326,
+        337
+      ],
+      [
+        452,
+        458
+      ],
+      [
+        458,
+        531
+      ]
+    ],
+    "Cap_01-VI-0187-005": [
+      [
+        372,
+        458
+      ],
+      [
+        372,
+        452
+      ]
+    ],
+    "Cap_01-VI-0188-001": [
+      [
+        452,
+        531
+      ],
+      [
+        664,
+        678
+      ]
+    ],
+    "Cap_01-VI-0188-002": [
+      [
+        647,
+        664
+      ],
+      [
+        647,
+        664
+      ],
+      [
+        678,
+        710
+      ]
+    ],
+    "Cap_01-VI-0188-003": [
+      [
+        664,
+        678
+      ]
+    ],
+    "Cap_01-VI-0188-004": [
+      [
+        795,
+        822
+      ]
+    ]
+  },
+  "silver_end_exclusive": 893,
+  "quota_headers": [],
+  "semantic_verification": "not_performed",
+  "raw_http_error_count": 1,
+  "experiments": [
+    {
+      "status": "api_error",
+      "response_id": "R0001",
+      "experiment": "E01-S0",
+      "strategy": "S0"
+    },
+    {
+      "status": "success",
+      "response_id": "R0002",
+      "paired": 10,
+      "han_coverage": 0.9348066298342541,
+      "vi_character_coverage": 0.9455003434852302,
+      "han_duplicate_chars": 0,
+      "vi_duplicate_chars": 0,
+      "unaligned_han": [
+        [
+          267,
+          326
+        ]
+      ],
+      "unaligned_vi": [
+        "Cap_01-VI-0187-002"
+      ],
+      "order_violations": 0,
+      "explicit_unpaired": 0,
+      "partial_han_pairs": 0,
+      "unresolved_rows": 1,
+      "nm_pairs": 3,
+      "out_of_scope_han_paired": 12,
+      "silver_eligible": 12,
+      "silver_unique_vi": 5,
+      "exact_cg": 3,
+      "exact_ds": 3,
+      "agreed_eligible": 8,
+      "agreed_exact": 3,
+      "iou_cg": 0.39986545744468804,
+      "iou_ds": 0.38517334074898035,
+      "experiment": "E01-S1",
+      "strategy": "S1"
+    },
+    {
+      "status": "success",
+      "response_id": "R0003",
+      "paired": 10,
+      "han_coverage": 0.9348066298342541,
+      "vi_character_coverage": 0.9455003434852302,
+      "han_duplicate_chars": 0,
+      "vi_duplicate_chars": 0,
+      "unaligned_han": [
+        [
+          267,
+          326
+        ]
+      ],
+      "unaligned_vi": [
+        "Cap_01-VI-0187-002"
+      ],
+      "order_violations": 0,
+      "explicit_unpaired": 0,
+      "partial_han_pairs": 0,
+      "unresolved_rows": 1,
+      "nm_pairs": 3,
+      "out_of_scope_han_paired": 12,
+      "silver_eligible": 12,
+      "silver_unique_vi": 5,
+      "exact_cg": 3,
+      "exact_ds": 3,
+      "agreed_eligible": 8,
+      "agreed_exact": 3,
+      "iou_cg": 0.39986545744468804,
+      "iou_ds": 0.38517334074898035,
+      "experiment": "E01-S2",
+      "strategy": "S2"
+    },
+    {
+      "status": "success",
+      "response_id": "R0004",
+      "paired": 10,
+      "han_coverage": 0.9149171270718232,
+      "vi_character_coverage": 0.9455003434852302,
+      "han_duplicate_chars": 0,
+      "vi_duplicate_chars": 0,
+      "unaligned_han": [
+        [
+          267,
+          326
+        ],
+        [
+          513,
+          531
+        ]
+      ],
+      "unaligned_vi": [
+        "Cap_01-VI-0187-002"
+      ],
+      "order_violations": 0,
+      "explicit_unpaired": 0,
+      "partial_han_pairs": 0,
+      "unresolved_rows": 1,
+      "nm_pairs": 3,
+      "out_of_scope_han_paired": 12,
+      "silver_eligible": 12,
+      "silver_unique_vi": 5,
+      "exact_cg": 3,
+      "exact_ds": 3,
+      "agreed_eligible": 8,
+      "agreed_exact": 3,
+      "iou_cg": 0.3911949372134742,
+      "iou_ds": 0.3771088246199481,
+      "experiment": "E01-S3",
+      "strategy": "S3"
+    },
+    {
+      "status": "success",
+      "response_id": "R0005",
+      "paired": 13,
+      "han_coverage": 0.9149171270718232,
+      "vi_character_coverage": 0.9455003434852302,
+      "han_duplicate_chars": 0,
+      "vi_duplicate_chars": 0,
+      "unaligned_han": [
+        [
+          267,
+          326
+        ],
+        [
+          513,
+          531
+        ]
+      ],
+      "unaligned_vi": [
+        "Cap_01-VI-0187-002"
+      ],
+      "order_violations": 0,
+      "explicit_unpaired": 0,
+      "partial_han_pairs": 0,
+      "unresolved_rows": 1,
+      "nm_pairs": 0,
+      "out_of_scope_han_paired": 12,
+      "silver_eligible": 12,
+      "silver_unique_vi": 9,
+      "exact_cg": 5,
+      "exact_ds": 6,
+      "agreed_eligible": 8,
+      "agreed_exact": 5,
+      "iou_cg": 0.7067326333481853,
+      "iou_ds": 0.7054670335751719,
+      "experiment": "E01-S4",
+      "strategy": "S4"
+    },
+    {
+      "status": "success",
+      "response_id": "R0006",
+      "paired": 0,
+      "han_coverage": 0.0,
+      "vi_character_coverage": 0.0,
+      "han_duplicate_chars": 0,
+      "vi_duplicate_chars": 0,
+      "unaligned_han": [
+        [
+          213,
+          223
+        ]
+      ],
+      "unaligned_vi": [
+        "Cap_01-VI-0187-002"
+      ],
+      "order_violations": 0,
+      "explicit_unpaired": 0,
+      "partial_han_pairs": 0,
+      "unresolved_rows": 1,
+      "nm_pairs": 0,
+      "out_of_scope_han_paired": 0,
+      "silver_eligible": 0,
+      "silver_unique_vi": 0,
+      "exact_cg": 0,
+      "exact_ds": 0,
+      "agreed_eligible": 0,
+      "agreed_exact": 0,
+      "iou_cg": null,
+      "iou_ds": null,
+      "experiment": "E02-1x1",
+      "strategy": "S2"
+    },
+    {
+      "status": "success",
+      "response_id": "R0007",
+      "paired": 1,
+      "han_coverage": 1.0,
+      "vi_character_coverage": 1.0,
+      "han_duplicate_chars": 0,
+      "vi_duplicate_chars": 0,
+      "unaligned_han": [],
+      "unaligned_vi": [],
+      "order_violations": 0,
+      "explicit_unpaired": 0,
+      "partial_han_pairs": 0,
+      "unresolved_rows": 0,
+      "nm_pairs": 0,
+      "out_of_scope_han_paired": 0,
+      "silver_eligible": 0,
+      "silver_unique_vi": 0,
+      "exact_cg": 0,
+      "exact_ds": 0,
+      "agreed_eligible": 0,
+      "agreed_exact": 0,
+      "iou_cg": null,
+      "iou_ds": null,
+      "experiment": "E02-2x1",
+      "strategy": "S2"
+    },
+    {
+      "status": "success",
+      "response_id": "R0008",
+      "paired": 1,
+      "han_coverage": 1.0,
+      "vi_character_coverage": 1.0,
+      "han_duplicate_chars": 0,
+      "vi_duplicate_chars": 0,
+      "unaligned_han": [],
+      "unaligned_vi": [],
+      "order_violations": 0,
+      "explicit_unpaired": 0,
+      "partial_han_pairs": 0,
+      "unresolved_rows": 0,
+      "nm_pairs": 0,
+      "out_of_scope_han_paired": 0,
+      "silver_eligible": 0,
+      "silver_unique_vi": 0,
+      "exact_cg": 0,
+      "exact_ds": 0,
+      "agreed_eligible": 0,
+      "agreed_exact": 0,
+      "iou_cg": null,
+      "iou_ds": null,
+      "experiment": "E02-3x1",
+      "strategy": "S2"
+    },
+    {
+      "status": "success",
+      "response_id": "R0009",
+      "paired": 0,
+      "han_coverage": 0.0,
+      "vi_character_coverage": 0.0,
+      "han_duplicate_chars": 0,
+      "vi_duplicate_chars": 0,
+      "unaligned_han": [
+        [
+          130,
+          267
+        ]
+      ],
+      "unaligned_vi": [
+        "Cap_01-VI-0187-002"
+      ],
+      "order_violations": 0,
+      "explicit_unpaired": 0,
+      "partial_han_pairs": 0,
+      "unresolved_rows": 1,
+      "nm_pairs": 0,
+      "out_of_scope_han_paired": 0,
+      "silver_eligible": 0,
+      "silver_unique_vi": 0,
+      "exact_cg": 0,
+      "exact_ds": 0,
+      "agreed_eligible": 0,
+      "agreed_exact": 0,
+      "iou_cg": null,
+      "iou_ds": null,
+      "experiment": "E02-4x1",
+      "strategy": "S2"
+    },
+    {
+      "status": "success",
+      "response_id": "R0010",
+      "paired": 1,
+      "han_coverage": 1.0,
+      "vi_character_coverage": 1.0,
+      "han_duplicate_chars": 0,
+      "vi_duplicate_chars": 0,
+      "unaligned_han": [],
+      "unaligned_vi": [],
+      "order_violations": 0,
+      "explicit_unpaired": 0,
+      "partial_han_pairs": 0,
+      "unresolved_rows": 0,
+      "nm_pairs": 1,
+      "out_of_scope_han_paired": 0,
+      "silver_eligible": 0,
+      "silver_unique_vi": 0,
+      "exact_cg": 0,
+      "exact_ds": 0,
+      "agreed_eligible": 0,
+      "agreed_exact": 0,
+      "iou_cg": null,
+      "iou_ds": null,
+      "experiment": "E02-2x2",
+      "strategy": "S2"
+    },
+    {
+      "status": "success",
+      "response_id": "R0011",
+      "paired": 1,
+      "han_coverage": 0.875,
+      "vi_character_coverage": 1.0,
+      "han_duplicate_chars": 0,
+      "vi_duplicate_chars": 0,
+      "unaligned_han": [
+        [
+          638,
+          647
+        ]
+      ],
+      "unaligned_vi": [],
+      "order_violations": 0,
+      "explicit_unpaired": 0,
+      "partial_han_pairs": 0,
+      "unresolved_rows": 0,
+      "nm_pairs": 1,
+      "out_of_scope_han_paired": 0,
+      "silver_eligible": 0,
+      "silver_unique_vi": 0,
+      "exact_cg": 0,
+      "exact_ds": 0,
+      "agreed_eligible": 0,
+      "agreed_exact": 0,
+      "iou_cg": null,
+      "iou_ds": null,
+      "experiment": "E02-4x2",
+      "strategy": "S2"
+    },
+    {
+      "status": "success",
+      "response_id": "R0012",
+      "paired": 2,
+      "han_coverage": 0.7372262773722628,
+      "vi_character_coverage": 0.6058446186742694,
+      "han_duplicate_chars": 0,
+      "vi_duplicate_chars": 0,
+      "unaligned_han": [
+        [
+          231,
+          267
+        ]
+      ],
+      "unaligned_vi": [
+        "Cap_01-VI-0187-001",
+        "Cap_01-VI-0187-002",
+        "Cap_01-VI-0187-003"
+      ],
+      "order_violations": 0,
+      "explicit_unpaired": 0,
+      "partial_han_pairs": 0,
+      "unresolved_rows": 1,
+      "nm_pairs": 0,
+      "out_of_scope_han_paired": 0,
+      "silver_eligible": 1,
+      "silver_unique_vi": 0,
+      "exact_cg": 0,
+      "exact_ds": 0,
+      "agreed_eligible": 1,
+      "agreed_exact": 0,
+      "iou_cg": 0,
+      "iou_ds": 0,
+      "experiment": "E02-4x4",
+      "strategy": "S2"
+    },
+    {
+      "status": "success",
+      "response_id": "R0013",
+      "paired": 2,
+      "han_coverage": 0.9276018099547512,
+      "vi_character_coverage": 0.8094855305466238,
+      "han_duplicate_chars": 0,
+      "vi_duplicate_chars": 0,
+      "unaligned_han": [
+        [
+          310,
+          326
+        ]
+      ],
+      "unaligned_vi": [
+        "Cap_01-VI-0187-002"
+      ],
+      "order_violations": 0,
+      "explicit_unpaired": 0,
+      "partial_han_pairs": 0,
+      "unresolved_rows": 1,
+      "nm_pairs": 1,
+      "out_of_scope_han_paired": 0,
+      "silver_eligible": 2,
+      "silver_unique_vi": 0,
+      "exact_cg": 0,
+      "exact_ds": 0,
+      "agreed_eligible": 1,
+      "agreed_exact": 0,
+      "iou_cg": 0,
+      "iou_ds": 0,
+      "experiment": "E02-8x4",
+      "strategy": "S2"
+    },
+    {
+      "status": "success",
+      "response_id": "R0014",
+      "paired": 2,
+      "han_coverage": 0.45081967213114754,
+      "vi_character_coverage": 0.1902654867256637,
+      "han_duplicate_chars": 0,
+      "vi_duplicate_chars": 0,
+      "unaligned_han": [
+        [
+          55,
+          122
+        ]
+      ],
+      "unaligned_vi": [
+        "Cap_01-VI-0186-003",
+        "Cap_01-VI-0187-001"
+      ],
+      "order_violations": 0,
+      "explicit_unpaired": 0,
+      "partial_han_pairs": 0,
+      "unresolved_rows": 1,
+      "nm_pairs": 0,
+      "out_of_scope_han_paired": 0,
+      "silver_eligible": 2,
+      "silver_unique_vi": 2,
+      "exact_cg": 2,
+      "exact_ds": 2,
+      "agreed_eligible": 2,
+      "agreed_exact": 2,
+      "iou_cg": 1.0,
+      "iou_ds": 1.0,
+      "experiment": "E03-h00-v00-s+0",
+      "strategy": "S2"
+    },
+    {
+      "status": "success",
+      "response_id": "R0015",
+      "paired": 3,
+      "han_coverage": 1.0,
+      "vi_character_coverage": 0.8930678466076696,
+      "han_duplicate_chars": 0,
+      "vi_duplicate_chars": 0,
+      "unaligned_han": [],
+      "unaligned_vi": [
+        "Cap_01-VI-0186-001"
+      ],
+      "order_violations": 0,
+      "explicit_unpaired": 0,
+      "partial_han_pairs": 0,
+      "unresolved_rows": 0,
+      "nm_pairs": 0,
+      "out_of_scope_han_paired": 0,
+      "silver_eligible": 2,
+      "silver_unique_vi": 1,
+      "exact_cg": 1,
+      "exact_ds": 1,
+      "agreed_eligible": 2,
+      "agreed_exact": 1,
+      "iou_cg": 0.5,
+      "iou_ds": 0.5,
+      "experiment": "E03-h02-v00-s-1",
+      "strategy": "S2"
+    },
+    {
+      "status": "success",
+      "response_id": "R0015",
+      "paired": 3,
+      "han_coverage": 1.0,
+      "vi_character_coverage": 0.8930678466076696,
+      "han_duplicate_chars": 0,
+      "vi_duplicate_chars": 0,
+      "unaligned_han": [],
+      "unaligned_vi": [
+        "Cap_01-VI-0186-001"
+      ],
+      "order_violations": 0,
+      "explicit_unpaired": 0,
+      "partial_han_pairs": 0,
+      "unresolved_rows": 0,
+      "nm_pairs": 0,
+      "out_of_scope_han_paired": 0,
+      "silver_eligible": 2,
+      "silver_unique_vi": 1,
+      "exact_cg": 1,
+      "exact_ds": 1,
+      "agreed_eligible": 2,
+      "agreed_exact": 1,
+      "iou_cg": 0.5,
+      "iou_ds": 0.5,
+      "experiment": "E03-h02-v00-s+0",
+      "strategy": "S2"
+    },
+    {
+      "status": "success",
+      "response_id": "R0016",
+      "paired": 3,
+      "han_coverage": 0.5337078651685393,
+      "vi_character_coverage": 0.6650552486187845,
+      "han_duplicate_chars": 0,
+      "vi_duplicate_chars": 0,
+      "unaligned_han": [
+        [
+          130,
+          213
+        ]
+      ],
+      "unaligned_vi": [
+        "Cap_01-VI-0187-001",
+        "Cap_01-VI-0187-002"
+      ],
+      "order_violations": 0,
+      "explicit_unpaired": 0,
+      "partial_han_pairs": 0,
+      "unresolved_rows": 1,
+      "nm_pairs": 0,
+      "out_of_scope_han_paired": 0,
+      "silver_eligible": 2,
+      "silver_unique_vi": 1,
+      "exact_cg": 1,
+      "exact_ds": 1,
+      "agreed_eligible": 2,
+      "agreed_exact": 1,
+      "iou_cg": 0.5,
+      "iou_ds": 0.5,
+      "experiment": "E03-h02-v01-s+1",
+      "strategy": "S2"
+    },
+    {
+      "status": "success",
+      "response_id": "R0017",
+      "paired": 3,
+      "han_coverage": 1.0,
+      "vi_character_coverage": 1.0,
+      "han_duplicate_chars": 0,
+      "vi_duplicate_chars": 0,
+      "unaligned_han": [],
+      "unaligned_vi": [],
+      "order_violations": 0,
+      "explicit_unpaired": 0,
+      "partial_han_pairs": 0,
+      "unresolved_rows": 0,
+      "nm_pairs": 1,
+      "out_of_scope_han_paired": 0,
+      "silver_eligible": 0,
+      "silver_unique_vi": 0,
+      "exact_cg": 0,
+      "exact_ds": 0,
+      "agreed_eligible": 0,
+      "agreed_exact": 0,
+      "iou_cg": null,
+      "iou_ds": null,
+      "experiment": "E03-h04-v00-s+0",
+      "strategy": "S2"
+    },
+    {
+      "status": "success",
+      "response_id": "R0018",
+      "paired": 1,
+      "han_coverage": 0.5567010309278351,
+      "vi_character_coverage": 0.6595303867403315,
+      "han_duplicate_chars": 0,
+      "vi_duplicate_chars": 0,
+      "unaligned_han": [
+        [
+          267,
+          310
+        ]
+      ],
+      "unaligned_vi": [
+        "Cap_01-VI-0187-001",
+        "Cap_01-VI-0187-002"
+      ],
+      "order_violations": 0,
+      "explicit_unpaired": 0,
+      "partial_han_pairs": 0,
+      "unresolved_rows": 1,
+      "nm_pairs": 1,
+      "out_of_scope_han_paired": 0,
+      "silver_eligible": 1,
+      "silver_unique_vi": 0,
+      "exact_cg": 0,
+      "exact_ds": 0,
+      "agreed_eligible": 1,
+      "agreed_exact": 0,
+      "iou_cg": 0,
+      "iou_ds": 0,
+      "experiment": "E03-h06-v01-s+0",
+      "strategy": "S2"
+    },
+    {
+      "status": "success",
+      "response_id": "R0019",
+      "paired": 2,
+      "han_coverage": 0.8490566037735849,
+      "vi_character_coverage": 0.6486101211689237,
+      "han_duplicate_chars": 0,
+      "vi_duplicate_chars": 0,
+      "unaligned_han": [
+        [
+          310,
+          326
+        ]
+      ],
+      "unaligned_vi": [
+        "Cap_01-VI-0187-001",
+        "Cap_01-VI-0187-002"
+      ],
+      "order_violations": 0,
+      "explicit_unpaired": 0,
+      "partial_han_pairs": 0,
+      "unresolved_rows": 1,
+      "nm_pairs": 0,
+      "out_of_scope_han_paired": 0,
+      "silver_eligible": 2,
+      "silver_unique_vi": 1,
+      "exact_cg": 0,
+      "exact_ds": 1,
+      "agreed_eligible": 0,
+      "agreed_exact": 0,
+      "iou_cg": 0.4230769230769231,
+      "iou_ds": 0.5,
+      "experiment": "E03-h08-v02-s+0",
+      "strategy": "S2"
+    },
+    {
+      "status": "success",
+      "response_id": "R0020",
+      "paired": 1,
+      "han_coverage": 0.7419354838709677,
+      "vi_character_coverage": 0.3273231622746186,
+      "han_duplicate_chars": 0,
+      "vi_duplicate_chars": 0,
+      "unaligned_han": [
+        [
+          310,
+          326
+        ]
+      ],
+      "unaligned_vi": [
+        "Cap_01-VI-0187-001",
+        "Cap_01-VI-0187-002"
+      ],
+      "order_violations": 0,
+      "explicit_unpaired": 0,
+      "partial_han_pairs": 0,
+      "unresolved_rows": 1,
+      "nm_pairs": 1,
+      "out_of_scope_han_paired": 0,
+      "silver_eligible": 2,
+      "silver_unique_vi": 0,
+      "exact_cg": 0,
+      "exact_ds": 0,
+      "agreed_eligible": 1,
+      "agreed_exact": 0,
+      "iou_cg": 0,
+      "iou_ds": 0,
+      "experiment": "E03-h10-v03-s+0",
+      "strategy": "S2"
+    },
+    {
+      "status": "success",
+      "response_id": "R0021",
+      "paired": 3,
+      "han_coverage": 1.0,
+      "vi_character_coverage": 1.0,
+      "han_duplicate_chars": 0,
+      "vi_duplicate_chars": 0,
+      "unaligned_han": [],
+      "unaligned_vi": [],
+      "order_violations": 0,
+      "explicit_unpaired": 0,
+      "partial_han_pairs": 0,
+      "unresolved_rows": 0,
+      "nm_pairs": 0,
+      "out_of_scope_han_paired": 0,
+      "silver_eligible": 1,
+      "silver_unique_vi": 0,
+      "exact_cg": 0,
+      "exact_ds": 0,
+      "agreed_eligible": 1,
+      "agreed_exact": 0,
+      "iou_cg": 0,
+      "iou_ds": 0,
+      "experiment": "E03-h12-v04-s+0",
+      "strategy": "S2"
+    },
+    {
+      "status": "success",
+      "response_id": "R0022",
+      "paired": 2,
+      "han_coverage": 0.4968553459119497,
+      "vi_character_coverage": 0.8094855305466238,
+      "han_duplicate_chars": 0,
+      "vi_duplicate_chars": 0,
+      "unaligned_han": [
+        [
+          372,
+          452
+        ]
+      ],
+      "unaligned_vi": [
+        "Cap_01-VI-0187-002"
+      ],
+      "order_violations": 0,
+      "explicit_unpaired": 0,
+      "partial_han_pairs": 0,
+      "unresolved_rows": 1,
+      "nm_pairs": 1,
+      "out_of_scope_han_paired": 0,
+      "silver_eligible": 0,
+      "silver_unique_vi": 0,
+      "exact_cg": 0,
+      "exact_ds": 0,
+      "agreed_eligible": 0,
+      "agreed_exact": 0,
+      "iou_cg": null,
+      "iou_ds": null,
+      "experiment": "E03-h14-v04-s-1",
+      "strategy": "S2"
+    },
+    {
+      "status": "success",
+      "response_id": "R0023",
+      "paired": 2,
+      "han_coverage": 1.0,
+      "vi_character_coverage": 1.0,
+      "han_duplicate_chars": 0,
+      "vi_duplicate_chars": 0,
+      "unaligned_han": [],
+      "unaligned_vi": [],
+      "order_violations": 0,
+      "explicit_unpaired": 0,
+      "partial_han_pairs": 0,
+      "unresolved_rows": 0,
+      "nm_pairs": 0,
+      "out_of_scope_han_paired": 0,
+      "silver_eligible": 0,
+      "silver_unique_vi": 0,
+      "exact_cg": 0,
+      "exact_ds": 0,
+      "agreed_eligible": 0,
+      "agreed_exact": 0,
+      "iou_cg": null,
+      "iou_ds": null,
+      "experiment": "E03-h14-v05-s+0",
+      "strategy": "S2"
+    },
+    {
+      "status": "success",
+      "response_id": "R0024",
+      "paired": 2,
+      "han_coverage": 1.0,
+      "vi_character_coverage": 0.8966153846153846,
+      "han_duplicate_chars": 0,
+      "vi_duplicate_chars": 0,
+      "unaligned_han": [],
+      "unaligned_vi": [
+        "Cap_01-VI-0187-004"
+      ],
+      "order_violations": 0,
+      "explicit_unpaired": 0,
+      "partial_han_pairs": 0,
+      "unresolved_rows": 0,
+      "nm_pairs": 1,
+      "out_of_scope_han_paired": 0,
+      "silver_eligible": 0,
+      "silver_unique_vi": 0,
+      "exact_cg": 0,
+      "exact_ds": 0,
+      "agreed_eligible": 0,
+      "agreed_exact": 0,
+      "iou_cg": null,
+      "iou_ds": null,
+      "experiment": "E03-h14-v06-s+1",
+      "strategy": "S2"
+    },
+    {
+      "status": "success",
+      "response_id": "R0025",
+      "paired": 2,
+      "han_coverage": 1.0,
+      "vi_character_coverage": 1.0,
+      "han_duplicate_chars": 0,
+      "vi_duplicate_chars": 0,
+      "unaligned_han": [],
+      "unaligned_vi": [],
+      "order_violations": 0,
+      "explicit_unpaired": 0,
+      "partial_han_pairs": 0,
+      "unresolved_rows": 0,
+      "nm_pairs": 1,
+      "out_of_scope_han_paired": 0,
+      "silver_eligible": 0,
+      "silver_unique_vi": 0,
+      "exact_cg": 0,
+      "exact_ds": 0,
+      "agreed_eligible": 0,
+      "agreed_exact": 0,
+      "iou_cg": null,
+      "iou_ds": null,
+      "experiment": "E03-h16-v05-s+0",
+      "strategy": "S2"
+    },
+    {
+      "status": "success",
+      "response_id": "R0026",
+      "paired": 2,
+      "han_coverage": 1.0,
+      "vi_character_coverage": 0.8966153846153846,
+      "han_duplicate_chars": 0,
+      "vi_duplicate_chars": 0,
+      "unaligned_han": [],
+      "unaligned_vi": [
+        "Cap_01-VI-0187-004"
+      ],
+      "order_violations": 0,
+      "explicit_unpaired": 0,
+      "partial_han_pairs": 0,
+      "unresolved_rows": 0,
+      "nm_pairs": 1,
+      "out_of_scope_han_paired": 0,
+      "silver_eligible": 2,
+      "silver_unique_vi": 1,
+      "exact_cg": 1,
+      "exact_ds": 1,
+      "agreed_eligible": 1,
+      "agreed_exact": 1,
+      "iou_cg": 0.5,
+      "iou_ds": 0.5,
+      "experiment": "E03-h18-v06-s+0",
+      "strategy": "S2"
+    },
+    {
+      "status": "success",
+      "response_id": "R0027",
+      "paired": 3,
+      "han_coverage": 0.5555555555555556,
+      "vi_character_coverage": 1.0,
+      "han_duplicate_chars": 0,
+      "vi_duplicate_chars": 0,
+      "unaligned_han": [
+        [
+          678,
+          710
+        ]
+      ],
+      "unaligned_vi": [],
+      "order_violations": 0,
+      "explicit_unpaired": 0,
+      "partial_han_pairs": 0,
+      "unresolved_rows": 0,
+      "nm_pairs": 0,
+      "out_of_scope_han_paired": 0,
+      "silver_eligible": 1,
+      "silver_unique_vi": 1,
+      "exact_cg": 1,
+      "exact_ds": 1,
+      "agreed_eligible": 1,
+      "agreed_exact": 1,
+      "iou_cg": 1.0,
+      "iou_ds": 1.0,
+      "experiment": "E03-h20-v07-s+0",
+      "strategy": "S2"
+    },
+    {
+      "status": "success",
+      "response_id": "R0028",
+      "paired": 3,
+      "han_coverage": 1.0,
+      "vi_character_coverage": 1.0,
+      "han_duplicate_chars": 0,
+      "vi_duplicate_chars": 0,
+      "unaligned_han": [],
+      "unaligned_vi": [],
+      "order_violations": 0,
+      "explicit_unpaired": 0,
+      "partial_han_pairs": 0,
+      "unresolved_rows": 0,
+      "nm_pairs": 1,
+      "out_of_scope_han_paired": 0,
+      "silver_eligible": 1,
+      "silver_unique_vi": 0,
+      "exact_cg": 0,
+      "exact_ds": 0,
+      "agreed_eligible": 1,
+      "agreed_exact": 0,
+      "iou_cg": 0,
+      "iou_ds": 0,
+      "experiment": "E03-h22-v08-s+0",
+      "strategy": "S2"
+    },
+    {
+      "status": "success",
+      "response_id": "R0029",
+      "paired": 2,
+      "han_coverage": 1.0,
+      "vi_character_coverage": 1.0,
+      "han_duplicate_chars": 0,
+      "vi_duplicate_chars": 0,
+      "unaligned_han": [],
+      "unaligned_vi": [],
+      "order_violations": 0,
+      "explicit_unpaired": 0,
+      "partial_han_pairs": 0,
+      "unresolved_rows": 0,
+      "nm_pairs": 1,
+      "out_of_scope_han_paired": 0,
+      "silver_eligible": 0,
+      "silver_unique_vi": 0,
+      "exact_cg": 0,
+      "exact_ds": 0,
+      "agreed_eligible": 0,
+      "agreed_exact": 0,
+      "iou_cg": null,
+      "iou_ds": null,
+      "experiment": "E03-h24-v08-s+0",
+      "strategy": "S2"
+    },
+    {
+      "status": "success",
+      "response_id": "R0030",
+      "paired": 0,
+      "han_coverage": 0.0,
+      "vi_character_coverage": 0.0,
+      "han_duplicate_chars": 0,
+      "vi_duplicate_chars": 0,
+      "unaligned_han": [
+        [
+          130,
+          223
+        ]
+      ],
+      "unaligned_vi": [
+        "Cap_01-VI-0221-001",
+        "Cap_01-VI-0221-002"
+      ],
+      "order_violations": 0,
+      "explicit_unpaired": 0,
+      "partial_han_pairs": 0,
+      "unresolved_rows": 2,
+      "nm_pairs": 0,
+      "out_of_scope_han_paired": 0,
+      "experiment": "E04-negative-1",
+      "strategy": "S2"
+    },
+    {
+      "status": "success",
+      "response_id": "R0031",
+      "paired": 1,
+      "han_coverage": 1.0,
+      "vi_character_coverage": 1.0,
+      "han_duplicate_chars": 0,
+      "vi_duplicate_chars": 0,
+      "unaligned_han": [],
+      "unaligned_vi": [],
+      "order_violations": 0,
+      "explicit_unpaired": 0,
+      "partial_han_pairs": 0,
+      "unresolved_rows": 0,
+      "nm_pairs": 1,
+      "out_of_scope_han_paired": 0,
+      "experiment": "E04-negative-2",
+      "strategy": "S2"
+    },
+    {
+      "status": "success",
+      "response_id": "R0032",
+      "paired": 10,
+      "han_coverage": 0.9348066298342541,
+      "vi_character_coverage": 0.9455003434852302,
+      "han_duplicate_chars": 0,
+      "vi_duplicate_chars": 0,
+      "unaligned_han": [
+        [
+          267,
+          326
+        ]
+      ],
+      "unaligned_vi": [
+        "Cap_01-VI-0187-002"
+      ],
+      "order_violations": 0,
+      "explicit_unpaired": 0,
+      "partial_han_pairs": 0,
+      "unresolved_rows": 1,
+      "nm_pairs": 3,
+      "out_of_scope_han_paired": 12,
+      "silver_eligible": 12,
+      "silver_unique_vi": 5,
+      "exact_cg": 3,
+      "exact_ds": 3,
+      "agreed_eligible": 8,
+      "agreed_exact": 3,
+      "iou_cg": 0.39986545744468804,
+      "iou_ds": 0.38517334074898035,
+      "experiment": "E05-E01",
+      "strategy": "S2"
+    },
+    {
+      "status": "success",
+      "response_id": "R0033",
+      "paired": 3,
+      "han_coverage": 1.0,
+      "vi_character_coverage": 0.8930678466076696,
+      "han_duplicate_chars": 0,
+      "vi_duplicate_chars": 0,
+      "unaligned_han": [],
+      "unaligned_vi": [
+        "Cap_01-VI-0186-001"
+      ],
+      "order_violations": 0,
+      "explicit_unpaired": 0,
+      "partial_han_pairs": 0,
+      "unresolved_rows": 0,
+      "nm_pairs": 0,
+      "out_of_scope_han_paired": 0,
+      "silver_eligible": 2,
+      "silver_unique_vi": 1,
+      "exact_cg": 1,
+      "exact_ds": 1,
+      "agreed_eligible": 2,
+      "agreed_exact": 1,
+      "iou_cg": 0.5,
+      "iou_ds": 0.5,
+      "experiment": "E05-E03",
+      "strategy": "S2"
+    },
+    {
+      "status": "success",
+      "response_id": "R0034",
+      "paired": 0,
+      "han_coverage": 0.0,
+      "vi_character_coverage": 0.0,
+      "han_duplicate_chars": 0,
+      "vi_duplicate_chars": 0,
+      "unaligned_han": [
+        [
+          130,
+          267
+        ]
+      ],
+      "unaligned_vi": [
+        "Cap_01-VI-0187-002"
+      ],
+      "order_violations": 0,
+      "explicit_unpaired": 0,
+      "partial_han_pairs": 0,
+      "unresolved_rows": 1,
+      "nm_pairs": 0,
+      "out_of_scope_han_paired": 0,
+      "silver_eligible": 0,
+      "silver_unique_vi": 0,
+      "exact_cg": 0,
+      "exact_ds": 0,
+      "agreed_eligible": 0,
+      "agreed_exact": 0,
+      "iou_cg": null,
+      "iou_ds": null,
+      "experiment": "E06-E02-4x1-merge",
+      "strategy": "S2-merge"
+    },
+    {
+      "status": "success",
+      "response_id": "R0035",
+      "paired": 2,
+      "han_coverage": 0.656934306569343,
+      "vi_character_coverage": 1.0,
+      "han_duplicate_chars": 0,
+      "vi_duplicate_chars": 0,
+      "unaligned_han": [
+        [
+          130,
+          141
+        ],
+        [
+          231,
+          267
+        ]
+      ],
+      "unaligned_vi": [],
+      "order_violations": 0,
+      "explicit_unpaired": 0,
+      "partial_han_pairs": 0,
+      "unresolved_rows": 0,
+      "nm_pairs": 0,
+      "out_of_scope_han_paired": 0,
+      "silver_eligible": 0,
+      "silver_unique_vi": 0,
+      "exact_cg": 0,
+      "exact_ds": 0,
+      "agreed_eligible": 0,
+      "agreed_exact": 0,
+      "iou_cg": null,
+      "iou_ds": null,
+      "experiment": "E06-E02-4x1-split",
+      "strategy": "S2-split"
+    },
+    {
+      "status": "success",
+      "response_id": "R0036",
+      "paired": 2,
+      "han_coverage": 1.0,
+      "vi_character_coverage": 1.0,
+      "han_duplicate_chars": 0,
+      "vi_duplicate_chars": 0,
+      "unaligned_han": [],
+      "unaligned_vi": [],
+      "order_violations": 0,
+      "explicit_unpaired": 0,
+      "partial_han_pairs": 0,
+      "unresolved_rows": 0,
+      "nm_pairs": 2,
+      "out_of_scope_han_paired": 0,
+      "silver_eligible": 1,
+      "silver_unique_vi": 0,
+      "exact_cg": 0,
+      "exact_ds": 0,
+      "agreed_eligible": 1,
+      "agreed_exact": 0,
+      "iou_cg": 0,
+      "iou_ds": 0,
+      "experiment": "E06-E02-4x1-context",
+      "strategy": "S2"
+    },
+    {
+      "status": "success",
+      "response_id": "R0037",
+      "paired": 1,
+      "han_coverage": 1.0,
+      "vi_character_coverage": 0.9533762057877814,
+      "han_duplicate_chars": 0,
+      "vi_duplicate_chars": 0,
+      "unaligned_han": [],
+      "unaligned_vi": [],
+      "order_violations": 0,
+      "explicit_unpaired": 0,
+      "partial_han_pairs": 0,
+      "unresolved_rows": 0,
+      "nm_pairs": 0,
+      "out_of_scope_han_paired": 0,
+      "silver_eligible": 2,
+      "silver_unique_vi": 0,
+      "exact_cg": 0,
+      "exact_ds": 0,
+      "agreed_eligible": 1,
+      "agreed_exact": 0,
+      "iou_cg": 0,
+      "iou_ds": 0,
+      "experiment": "E06-E02-8x4-merge",
+      "strategy": "S2-merge"
+    },
+    {
+      "status": "success",
+      "response_id": "R0038",
+      "paired": 3,
+      "han_coverage": 0.6877828054298643,
+      "vi_character_coverage": 0.8094855305466238,
+      "han_duplicate_chars": 0,
+      "vi_duplicate_chars": 0,
+      "unaligned_han": [
+        [
+          310,
+          326
+        ],
+        [
+          372,
+          396
+        ],
+        [
+          502,
+          531
+        ]
+      ],
+      "unaligned_vi": [
+        "Cap_01-VI-0187-002"
+      ],
+      "order_violations": 0,
+      "explicit_unpaired": 0,
+      "partial_han_pairs": 0,
+      "unresolved_rows": 1,
+      "nm_pairs": 0,
+      "out_of_scope_han_paired": 0,
+      "silver_eligible": 2,
+      "silver_unique_vi": 2,
+      "exact_cg": 1,
+      "exact_ds": 2,
+      "agreed_eligible": 1,
+      "agreed_exact": 1,
+      "iou_cg": 0.9230769230769231,
+      "iou_ds": 1.0,
+      "experiment": "E06-E02-8x4-split",
+      "strategy": "S2-split"
+    },
+    {
+      "status": "success",
+      "response_id": "R0039",
+      "paired": 3,
+      "han_coverage": 0.9276018099547512,
+      "vi_character_coverage": 0.7690476190476191,
+      "han_duplicate_chars": 0,
+      "vi_duplicate_chars": 0,
+      "unaligned_han": [
+        [
+          310,
+          326
+        ]
+      ],
+      "unaligned_vi": [
+        "Cap_01-VI-0187-001",
+        "Cap_01-VI-0187-002"
+      ],
+      "order_violations": 0,
+      "explicit_unpaired": 0,
+      "partial_han_pairs": 0,
+      "unresolved_rows": 1,
+      "nm_pairs": 1,
+      "out_of_scope_han_paired": 0,
+      "silver_eligible": 2,
+      "silver_unique_vi": 0,
+      "exact_cg": 0,
+      "exact_ds": 0,
+      "agreed_eligible": 1,
+      "agreed_exact": 0,
+      "iou_cg": 0,
+      "iou_ds": 0,
+      "experiment": "E06-E02-8x4-context",
+      "strategy": "S2"
+    },
+    {
+      "status": "success",
+      "response_id": "R0040",
+      "paired": 0,
+      "han_coverage": 0.0,
+      "vi_character_coverage": 0.0,
+      "han_duplicate_chars": 0,
+      "vi_duplicate_chars": 0,
+      "unaligned_han": [
+        [
+          0,
+          122
+        ]
+      ],
+      "unaligned_vi": [
+        "Cap_01-VI-0186-001",
+        "Cap_01-VI-0186-002",
+        "Cap_01-VI-0186-003",
+        "Cap_01-VI-0187-001"
+      ],
+      "order_violations": 0,
+      "explicit_unpaired": 0,
+      "partial_han_pairs": 0,
+      "unresolved_rows": 1,
+      "nm_pairs": 0,
+      "out_of_scope_han_paired": 0,
+      "silver_eligible": 2,
+      "silver_unique_vi": 0,
+      "exact_cg": 0,
+      "exact_ds": 0,
+      "agreed_eligible": 2,
+      "agreed_exact": 0,
+      "iou_cg": 0,
+      "iou_ds": 0,
+      "experiment": "E06-E03-h00-v00-s+0-merge",
+      "strategy": "S2-merge"
+    },
+    {
+      "status": "success",
+      "response_id": "R0041",
+      "paired": 2,
+      "han_coverage": 0.38524590163934425,
+      "vi_character_coverage": 0.1902654867256637,
+      "han_duplicate_chars": 0,
+      "vi_duplicate_chars": 0,
+      "unaligned_han": [
+        [
+          47,
+          122
+        ]
+      ],
+      "unaligned_vi": [
+        "Cap_01-VI-0186-003",
+        "Cap_01-VI-0187-001"
+      ],
+      "order_violations": 0,
+      "explicit_unpaired": 0,
+      "partial_han_pairs": 0,
+      "unresolved_rows": 1,
+      "nm_pairs": 0,
+      "out_of_scope_han_paired": 0,
+      "silver_eligible": 2,
+      "silver_unique_vi": 2,
+      "exact_cg": 0,
+      "exact_ds": 0,
+      "agreed_eligible": 2,
+      "agreed_exact": 0,
+      "iou_cg": 0.6,
+      "iou_ds": 0.6,
+      "experiment": "E06-E03-h00-v00-s+0-split",
+      "strategy": "S2-split"
+    },
+    {
+      "status": "success",
+      "response_id": "R0042",
+      "paired": 2,
+      "han_coverage": 0.45081967213114754,
+      "vi_character_coverage": 0.16195856873822975,
+      "han_duplicate_chars": 0,
+      "vi_duplicate_chars": 0,
+      "unaligned_han": [
+        [
+          55,
+          122
+        ]
+      ],
+      "unaligned_vi": [
+        "Cap_01-VI-0186-003",
+        "Cap_01-VI-0187-001",
+        "Cap_01-VI-0187-002"
+      ],
+      "order_violations": 0,
+      "explicit_unpaired": 0,
+      "partial_han_pairs": 0,
+      "unresolved_rows": 1,
+      "nm_pairs": 0,
+      "out_of_scope_han_paired": 0,
+      "silver_eligible": 2,
+      "silver_unique_vi": 2,
+      "exact_cg": 2,
+      "exact_ds": 2,
+      "agreed_eligible": 2,
+      "agreed_exact": 2,
+      "iou_cg": 1.0,
+      "iou_ds": 1.0,
+      "experiment": "E06-E03-h00-v00-s+0-context",
+      "strategy": "S2"
+    }
+  ]
+}

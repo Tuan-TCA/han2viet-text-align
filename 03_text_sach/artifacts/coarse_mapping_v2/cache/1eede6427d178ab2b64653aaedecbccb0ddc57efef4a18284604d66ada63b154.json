@@ -1,0 +1,105 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "1eede6427d178ab2b64653aaedecbccb0ddc57efef4a18284604d66ada63b154",
+  "payload": {
+    "han": "榜木匠作三隊兵服用押作差使惟鑄成鏡內心而已\n順化有鑄匠司二隊谷三十人\n有鑄坊在富春河南岸皆雜居\n僑寓亦亡誇巍興請壽擔銅籀燈樂灯臺其策巫其木匠隊\n永度已酉年始立觀一百人免差sn餘孫并米興搜役屬知因家官歲納色米十歲\n福在鑄場漸之加至百九十人\n富榮鼎網沈社以鉛作鈞鐘斧浙為業\n弟材社善作鑰綜秩綜安留社生磨器柳野梨社善作船蓬及虛幅\n阮氏有內錫匠司另十人\n其匠顏巧錫價亦賦所作美盤國金刻層花彩二件共錢四百但色欠白耳\n前阮氏每年生日礼各司匠官並有賀孫身二有或五\n預鑄匠司本部務一刻大垂覽諭一口中座龍撥一口燈柱諭每船一株誇匠司京人五酒大唾觀諭一口中唾護餘一口燈柱爺一株塵南會芬龍魏調銅靈洋譜販到乎辰以千夢計\n客又回清河廟每得一倍之利\n大明宣分辰蜜金尋籍巧銅香炉有刻宣德聚字者皆光潤滑瑩洞絕無續燁",
+    "vi": "Chiếu mây hoa cũng xuất tử tàu Bắc, có đường vân đỏ và đen ngang dọc xen nhau.\nNón ở Thuận Hoá kiểu hơi khác với các xứ.\nXóm Tam Giáp thượng xã Triều Sơn huyện Phú Vang chằm nón rất nhỏ mỏng.\nXã Đốc Sơ huyện Hương Trà làm giấy, hạng trung và hạng tiểu, xưa có lệ nộp thuế.\nNghề ấy truyền đến thôn Trung Chỉ phủ Phú Yên, cũng nộp thuế hàng năm giấy lớn 2.500 tờ, giấy vừa 32.000 tờ.\nGiấy trung và tiểu xã Đốc Sơ và giấy vuông xã Vĩnh Xương đều làm bằng vỏ cây gió.\nGiấy lớn ở hai xã Lộc Tuy và Đại Phúc huyện Lệ Thuỷ thì làm bằng vỏ cây niệt, cũng thấy bền và dày, cùng với giấy lệnh Thanh Hoa không khác.\nPhường Ngư Võng huyện Hương Trà lệ nộp lọ sành Hai thôn Phan Xá và Hoàng Giang huyện Khang Lộc đều khéo đúc súng.\nHọ Nguyễn lấy 60 người ở Phan Xá, đặt làm hai đội thợ Tả súng Hữu súng, 12 người chánh ty quan, cấp ngụ lộc mỗi người một mẫu ruộng, mỗi năm 10 quan tiền, 40 người lính, mỗi người lương hàng năm là 10 thúng thóc, 5 quan tiền, do quan ngoại tả, ngoại hữu chung nhau trông coi.\nSau lại thêm mỗi đội 20 người.\nChế tạo khí giới, đúc súng trụ thì lệ phát mỗi khẩu sắt 15 khối, tiền than 3 quan õð tiền, gang 10 cân, dầu 1 lường, đúc súng nhỏ thì cứ 10 khẩu lệ phát sắt 30 khối, tiền than 10 quan, gang 30 cân.\nLại lấy 40 người Hoàng Giang đặt làm ty thợ nội súng, trong đó có một người thủ hợp, mỗi năm 20 quan, một người ty quan, mỗi năm 30 quan; quân nhân thì lương hàng năm gạo 10 hộc và tiền ð quan.\nCông việc làm cũng như trên.\nĐịnh súng thì thợ rèn làm, cò máy thì thợ bạc làm, tai súng thì thợ tai làm, báng súng thì thợ mộc làm, quân ba đội chỉ đúc lòng súng mà thôi.\nThuận Hoá có hai đội ty thợ đúc, đều 30 người.\nCó phường đúc ở bờ nam sông Phú Xuân, đều là người kiều ngụ ở lộn, cũng biết đúc súng đồng và vạc, chảo, nổi, xanh, cây đẻn, cây nến, mọi vật."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 0,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"榜木匠作三隊兵服用押作差使惟鑄成鏡內心而已\",\n        \"vietnamese_text\": \"Chiếu mây hoa cũng xuất tử tàu Bắc, có đường vân đỏ và đen ngang dọc xen nhau.\",\n        \"score\": -0.005408014496052271\n      },\n      {\n        \"han_start\": 1,\n        \"han_end\": 2,\n        \"vi_start\": 1,\n        \"vi_end\": 2,\n        \"han_text\": \"順化有鑄匠司二隊谷三十人 有鑄坊在富春河南岸皆雜居\",\n        \"vietnamese_text\": \"Nón ở Thuận Hoá kiểu hơi khác với các xứ. Xóm Tam Giáp thượng xã Triều Sơn huyện Phú Vang chằm nón rất nhỏ mỏng.\",\n        \"score\": 0.22956537804279303\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 4,\n        \"vi_start\": 3,\n        \"vi_end\": 4,\n        \"han_text\": \"僑寓亦亡誇巍興請壽擔銅籀燈樂灯臺其策巫其木匠隊 永度已酉年始立觀一百人免差sn餘孫并米興搜役屬知因家官歲納色米十歲\",\n        \"vietnamese_text\": \"Xã Đốc Sơ huyện Hương Trà làm giấy, hạng trung và hạng tiểu, xưa có lệ nộp thuế. Nghề ấy truyền đến thôn Trung Chỉ phủ Phú Yên, cũng nộp thuế hàng năm giấy lớn 2.\",\n        \"score\": 0.059415270468339616\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 5,\n        \"vi_start\": 5,\n        \"vi_end\": 6,\n        \"han_text\": \"福在鑄場漸之加至百九十人\",\n        \"vietnamese_text\": \"500 tờ, giấy vừa 32. 000 tờ.\",\n        \"score\": 0.004125614633726206\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 7,\n        \"vi_start\": 7,\n        \"vi_end\": 9,\n        \"han_text\": \"富榮鼎網沈社以鉛作鈞鐘斧浙為業 弟材社善作鑰綜秩綜安留社生磨器柳野梨社善作船蓬及虛幅\",\n        \"vietnamese_text\": \"Giấy trung và tiểu xã Đốc Sơ và giấy vuông xã Vĩnh Xương đều làm bằng vỏ cây gió. Giấy lớn ở hai xã Lộc Tuy và Đại Phúc huyện Lệ Thuỷ thì làm bằng vỏ cây niệt, cũng thấy bền và dày, cùng với giấy lệnh Thanh Hoa không khác. Phường Ngư Võng huyện Hương Trà lệ nộp lọ sành Hai thôn Phan Xá và Hoàng Giang huyện Khang Lộc đều khéo đúc súng.\",\n        \"score\": 0.10919585295265648\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 10,\n        \"vi_start\": 10,\n        \"vi_end\": 11,\n        \"han_text\": \"阮氏有內錫匠司另十人 其匠顏巧錫價亦賦所作美盤國金刻層花彩二件共錢四百但色欠白耳 前阮氏每年生日礼各司匠官並有賀孫身二有或五\",\n        \"vietnamese_text\": \"Họ Nguyễn lấy 60 người ở Phan Xá, đặt làm hai đội thợ Tả súng Hữu súng, 12 người chánh ty quan, cấp ngụ lộc mỗi người một mẫu ruộng, mỗi năm 10 quan tiền, 40 người lính, mỗi người lương hàng năm là 10 thúng thóc, 5 quan tiền, do quan ngoại tả, ngoại hữu chung nhau trông coi. Sau lại thêm mỗi đội 20 người.\",\n        \"score\": 0.1700960767692735\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 11,\n        \"vi_start\": 12,\n        \"vi_end\": 13,\n        \"han_text\": \"預鑄匠司本部務一刻大垂覽諭一口中座龍撥一口燈柱諭每船一株誇匠司京人五酒大唾觀諭一口中唾護餘一口燈柱爺一株塵南會芬龍魏調銅靈洋譜販到乎辰以千夢計\",\n        \"vietnamese_text\": \"Chế tạo khí giới, đúc súng trụ thì lệ phát mỗi khẩu sắt 15 khối, tiền than 3 quan õð tiền, gang 10 cân, dầu 1 lường, đúc súng nhỏ thì cứ 10 khẩu lệ phát sắt 30 khối, tiền than 10 quan, gang 30 cân. Lại lấy 40 người Hoàng Giang đặt làm ty thợ nội súng, trong đó có một người thủ hợp, mỗi năm 20 quan, một người ty quan, mỗi năm 30 quan; quân nhân thì lương hàng năm gạo 10 hộc và tiền ð quan.\",\n        \"score\": 0.2413942655212027\n      },\n      {\n        \"han_start\": 12,\n        \"han_end\": 12,\n        \"vi_start\": 14,\n        \"vi_end\": 14,\n        \"han_text\": \"客又回清河廟每得一倍之利\",\n        \"vietnamese_text\": \"Công việc làm cũng như trên.\",\n        \"score\": -0.03881362089732791\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 13,\n        \"vi_start\": 15,\n        \"vi_end\": 17,\n        \"han_text\": \"大明宣分辰蜜金尋籍巧銅香炉有刻宣德聚字者皆光潤滑瑩洞絕無續燁\",\n        \"vietnamese_text\": \"Định súng thì thợ rèn làm, cò máy thì thợ bạc làm, tai súng thì thợ tai làm, báng súng thì thợ mộc làm, quân ba đội chỉ đúc lòng súng mà thôi. Thuận Hoá có hai đội ty thợ đúc, đều 30 người. Có phường đúc ở bờ nam sông Phú Xuân, đều là người kiều ngụ ở lộn, cũng biết đúc súng đồng và vạc, chảo, nổi, xanh, cây đẻn, cây nến, mọi vật.\",\n        \"score\": 0.10814635853757625\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 0,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "榜木匠作三隊兵服用押作差使惟鑄成鏡內心而已",
+          "vietnamese_text": "Chiếu mây hoa cũng xuất tử tàu Bắc, có đường vân đỏ và đen ngang dọc xen nhau.",
+          "score": -0.005408014496052271
+        },
+        {
+          "han_start": 1,
+          "han_end": 2,
+          "vi_start": 1,
+          "vi_end": 2,
+          "han_text": "順化有鑄匠司二隊谷三十人 有鑄坊在富春河南岸皆雜居",
+          "vietnamese_text": "Nón ở Thuận Hoá kiểu hơi khác với các xứ. Xóm Tam Giáp thượng xã Triều Sơn huyện Phú Vang chằm nón rất nhỏ mỏng.",
+          "score": 0.22956537804279303
+        },
+        {
+          "han_start": 3,
+          "han_end": 4,
+          "vi_start": 3,
+          "vi_end": 4,
+          "han_text": "僑寓亦亡誇巍興請壽擔銅籀燈樂灯臺其策巫其木匠隊 永度已酉年始立觀一百人免差sn餘孫并米興搜役屬知因家官歲納色米十歲",
+          "vietnamese_text": "Xã Đốc Sơ huyện Hương Trà làm giấy, hạng trung và hạng tiểu, xưa có lệ nộp thuế. Nghề ấy truyền đến thôn Trung Chỉ phủ Phú Yên, cũng nộp thuế hàng năm giấy lớn 2.",
+          "score": 0.059415270468339616
+        },
+        {
+          "han_start": 5,
+          "han_end": 5,
+          "vi_start": 5,
+          "vi_end": 6,
+          "han_text": "福在鑄場漸之加至百九十人",
+          "vietnamese_text": "500 tờ, giấy vừa 32. 000 tờ.",
+          "score": 0.004125614633726206
+        },
+        {
+          "han_start": 6,
+          "han_end": 7,
+          "vi_start": 7,
+          "vi_end": 9,
+          "han_text": "富榮鼎網沈社以鉛作鈞鐘斧浙為業 弟材社善作鑰綜秩綜安留社生磨器柳野梨社善作船蓬及虛幅",
+          "vietnamese_text": "Giấy trung và tiểu xã Đốc Sơ và giấy vuông xã Vĩnh Xương đều làm bằng vỏ cây gió. Giấy lớn ở hai xã Lộc Tuy và Đại Phúc huyện Lệ Thuỷ thì làm bằng vỏ cây niệt, cũng thấy bền và dày, cùng với giấy lệnh Thanh Hoa không khác. Phường Ngư Võng huyện Hương Trà lệ nộp lọ sành Hai thôn Phan Xá và Hoàng Giang huyện Khang Lộc đều khéo đúc súng.",
+          "score": 0.10919585295265648
+        },
+        {
+          "han_start": 8,
+          "han_end": 10,
+          "vi_start": 10,
+          "vi_end": 11,
+          "han_text": "阮氏有內錫匠司另十人 其匠顏巧錫價亦賦所作美盤國金刻層花彩二件共錢四百但色欠白耳 前阮氏每年生日礼各司匠官並有賀孫身二有或五",
+          "vietnamese_text": "Họ Nguyễn lấy 60 người ở Phan Xá, đặt làm hai đội thợ Tả súng Hữu súng, 12 người chánh ty quan, cấp ngụ lộc mỗi người một mẫu ruộng, mỗi năm 10 quan tiền, 40 người lính, mỗi người lương hàng năm là 10 thúng thóc, 5 quan tiền, do quan ngoại tả, ngoại hữu chung nhau trông coi. Sau lại thêm mỗi đội 20 người.",
+          "score": 0.1700960767692735
+        },
+        {
+          "han_start": 11,
+          "han_end": 11,
+          "vi_start": 12,
+          "vi_end": 13,
+          "han_text": "預鑄匠司本部務一刻大垂覽諭一口中座龍撥一口燈柱諭每船一株誇匠司京人五酒大唾觀諭一口中唾護餘一口燈柱爺一株塵南會芬龍魏調銅靈洋譜販到乎辰以千夢計",
+          "vietnamese_text": "Chế tạo khí giới, đúc súng trụ thì lệ phát mỗi khẩu sắt 15 khối, tiền than 3 quan õð tiền, gang 10 cân, dầu 1 lường, đúc súng nhỏ thì cứ 10 khẩu lệ phát sắt 30 khối, tiền than 10 quan, gang 30 cân. Lại lấy 40 người Hoàng Giang đặt làm ty thợ nội súng, trong đó có một người thủ hợp, mỗi năm 20 quan, một người ty quan, mỗi năm 30 quan; quân nhân thì lương hàng năm gạo 10 hộc và tiền ð quan.",
+          "score": 0.2413942655212027
+        },
+        {
+          "han_start": 12,
+          "han_end": 12,
+          "vi_start": 14,
+          "vi_end": 14,
+          "han_text": "客又回清河廟每得一倍之利",
+          "vietnamese_text": "Công việc làm cũng như trên.",
+          "score": -0.03881362089732791
+        },
+        {
+          "han_start": 13,
+          "han_end": 13,
+          "vi_start": 15,
+          "vi_end": 17,
+          "han_text": "大明宣分辰蜜金尋籍巧銅香炉有刻宣德聚字者皆光潤滑瑩洞絕無續燁",
+          "vietnamese_text": "Định súng thì thợ rèn làm, cò máy thì thợ bạc làm, tai súng thì thợ tai làm, báng súng thì thợ mộc làm, quân ba đội chỉ đúc lòng súng mà thôi. Thuận Hoá có hai đội ty thợ đúc, đều 30 người. Có phường đúc ở bờ nam sông Phú Xuân, đều là người kiều ngụ ở lộn, cũng biết đúc súng đồng và vạc, chảo, nổi, xanh, cây đẻn, cây nến, mọi vật.",
+          "score": 0.10814635853757625
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 4546
+}

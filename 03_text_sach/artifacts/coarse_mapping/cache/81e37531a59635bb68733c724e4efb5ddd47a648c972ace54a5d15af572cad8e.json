@@ -1,0 +1,96 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "81e37531a59635bb68733c724e4efb5ddd47a648c972ace54a5d15af572cad8e",
+  "payload": {
+    "han": "伏願懸斗鏡于座小惡冠悉此發麟徑于筆札於賊誰兆\n笙在海賔亦得焉政令之餘耳\n雯如千德柔輝把德沉神即胡廷鳳乙亥冬誰測民濃萍棲境肉同處惠\n豈意同病不相憐同患不於惚\n自於爭國各訴是非\n此留唐臣非開福邑政考故封還兩豈系刻回棄上憲一任2齋如復憂\n海內存知已天涯若比薄恭贈土方微物\n沉書五斤花標扁五把董绢五疋\n象牙一隻藥草十斤魚翅三十卯海參三十斤\n胡椒三十斤棕林二十核花藤二十枝等項\n以表寸依想象歲音何如赤傳環乾坤丹憐疑契\n中年日月青眼遙貼\n從非言以足志之以足言將偏景仰於步一寸樹神聚伏祈雨卷謹半乾薩二十一年七月吉日\n順化逸士吳世璋字完璞少有志趣博孝亡文隱戲曰\n之為義社自芳當竹秦今年可五十孫\n寓廟田清河庸仆嘗人招之不至\n寡詞聲謝且言以趨辰干進為耻\n其所類祿名曰尼竹集示婉雅有惟致其顛詞云\n夫尾之為物者無其質而有其柔",
+    "vi": "Ngoài giòu sang, ơi biết.\nCòn có thú này a?\nGật đầu biết người cổ, Nói thực chẳng dối ta.\nQuay nhìn thời tuổi trẻ, Mọi uiệc đều sai ngoa.\nMay thay thoát xiêng xích, Thâm nghĩ bụng uui hoà.\nTriết nhân ôi xa uắng, Nay ta uề uới ai2 Xuân thật ngẫu thành Phù danh phóng hạ biến ngô chân.\nThuỷ trúc sinh nhai hạnh bất bần.\nDã hiểu uô phong yên tự trực; Sơn hoa hữu lộ sắc thiên tân.\nCao đàm đối khách nhiêu tam thốn; Giai nhưỡng phùng xuân hảo thập phân.\nLiệu đốc uô nhân đồng thứ lạc."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 1,\n        \"han_end\": 1,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"笙在海賔亦得焉政令之餘耳\",\n        \"vietnamese_text\": \"Ngoài giòu sang, ơi biết.\",\n        \"score\": 0.18074457265783847\n      },\n      {\n        \"han_start\": 2,\n        \"han_end\": 3,\n        \"vi_start\": 1,\n        \"vi_end\": 2,\n        \"han_text\": \"雯如千德柔輝把德沉神即胡廷鳳乙亥冬誰測民濃萍棲境肉同處惠 豈意同病不相憐同患不於惚\",\n        \"vietnamese_text\": \"Còn có thú này a? Gật đầu biết người cổ, Nói thực chẳng dối ta.\",\n        \"score\": 0.2066931816039274\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 4,\n        \"vi_start\": 3,\n        \"vi_end\": 3,\n        \"han_text\": \"自於爭國各訴是非\",\n        \"vietnamese_text\": \"Quay nhìn thời tuổi trẻ, Mọi uiệc đều sai ngoa.\",\n        \"score\": 0.02841927653623233\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 7,\n        \"vi_start\": 4,\n        \"vi_end\": 5,\n        \"han_text\": \"此留唐臣非開福邑政考故封還兩豈系刻回棄上憲一任2齋如復憂 海內存知已天涯若比薄恭贈土方微物 沉書五斤花標扁五把董绢五疋\",\n        \"vietnamese_text\": \"May thay thoát xiêng xích, Thâm nghĩ bụng uui hoà. Triết nhân ôi xa uắng, Nay ta uề uới ai2 Xuân thật ngẫu thành Phù danh phóng hạ biến ngô chân.\",\n        \"score\": 0.16658862472441777\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 11,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"象牙一隻藥草十斤魚翅三十卯海參三十斤 胡椒三十斤棕林二十核花藤二十枝等項 以表寸依想象歲音何如赤傳環乾坤丹憐疑契 中年日月青眼遙貼\",\n        \"vietnamese_text\": \"Thuỷ trúc sinh nhai hạnh bất bần.\",\n        \"score\": 0.025782746669787047\n      },\n      {\n        \"han_start\": 12,\n        \"han_end\": 14,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"從非言以足志之以足言將偏景仰於步一寸樹神聚伏祈雨卷謹半乾薩二十一年七月吉日 順化逸士吳世璋字完璞少有志趣博孝亡文隱戲曰 之為義社自芳當竹秦今年可五十孫\",\n        \"vietnamese_text\": \"Dã hiểu uô phong yên tự trực; Sơn hoa hữu lộ sắc thiên tân.\",\n        \"score\": -0.0275918071485027\n      },\n      {\n        \"han_start\": 15,\n        \"han_end\": 17,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"寓廟田清河庸仆嘗人招之不至 寡詞聲謝且言以趨辰干進為耻 其所類祿名曰尼竹集示婉雅有惟致其顛詞云\",\n        \"vietnamese_text\": \"Cao đàm đối khách nhiêu tam thốn; Giai nhưỡng phùng xuân hảo thập phân.\",\n        \"score\": 0.12524658466202848\n      },\n      {\n        \"han_start\": 18,\n        \"han_end\": 18,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"夫尾之為物者無其質而有其柔\",\n        \"vietnamese_text\": \"Liệu đốc uô nhân đồng thứ lạc.\",\n        \"score\": 0.062072862284628806\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 1,
+          "han_end": 1,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "笙在海賔亦得焉政令之餘耳",
+          "vietnamese_text": "Ngoài giòu sang, ơi biết.",
+          "score": 0.18074457265783847
+        },
+        {
+          "han_start": 2,
+          "han_end": 3,
+          "vi_start": 1,
+          "vi_end": 2,
+          "han_text": "雯如千德柔輝把德沉神即胡廷鳳乙亥冬誰測民濃萍棲境肉同處惠 豈意同病不相憐同患不於惚",
+          "vietnamese_text": "Còn có thú này a? Gật đầu biết người cổ, Nói thực chẳng dối ta.",
+          "score": 0.2066931816039274
+        },
+        {
+          "han_start": 4,
+          "han_end": 4,
+          "vi_start": 3,
+          "vi_end": 3,
+          "han_text": "自於爭國各訴是非",
+          "vietnamese_text": "Quay nhìn thời tuổi trẻ, Mọi uiệc đều sai ngoa.",
+          "score": 0.02841927653623233
+        },
+        {
+          "han_start": 5,
+          "han_end": 7,
+          "vi_start": 4,
+          "vi_end": 5,
+          "han_text": "此留唐臣非開福邑政考故封還兩豈系刻回棄上憲一任2齋如復憂 海內存知已天涯若比薄恭贈土方微物 沉書五斤花標扁五把董绢五疋",
+          "vietnamese_text": "May thay thoát xiêng xích, Thâm nghĩ bụng uui hoà. Triết nhân ôi xa uắng, Nay ta uề uới ai2 Xuân thật ngẫu thành Phù danh phóng hạ biến ngô chân.",
+          "score": 0.16658862472441777
+        },
+        {
+          "han_start": 8,
+          "han_end": 11,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "象牙一隻藥草十斤魚翅三十卯海參三十斤 胡椒三十斤棕林二十核花藤二十枝等項 以表寸依想象歲音何如赤傳環乾坤丹憐疑契 中年日月青眼遙貼",
+          "vietnamese_text": "Thuỷ trúc sinh nhai hạnh bất bần.",
+          "score": 0.025782746669787047
+        },
+        {
+          "han_start": 12,
+          "han_end": 14,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "從非言以足志之以足言將偏景仰於步一寸樹神聚伏祈雨卷謹半乾薩二十一年七月吉日 順化逸士吳世璋字完璞少有志趣博孝亡文隱戲曰 之為義社自芳當竹秦今年可五十孫",
+          "vietnamese_text": "Dã hiểu uô phong yên tự trực; Sơn hoa hữu lộ sắc thiên tân.",
+          "score": -0.0275918071485027
+        },
+        {
+          "han_start": 15,
+          "han_end": 17,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "寓廟田清河庸仆嘗人招之不至 寡詞聲謝且言以趨辰干進為耻 其所類祿名曰尼竹集示婉雅有惟致其顛詞云",
+          "vietnamese_text": "Cao đàm đối khách nhiêu tam thốn; Giai nhưỡng phùng xuân hảo thập phân.",
+          "score": 0.12524658466202848
+        },
+        {
+          "han_start": 18,
+          "han_end": 18,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "夫尾之為物者無其質而有其柔",
+          "vietnamese_text": "Liệu đốc uô nhân đồng thứ lạc.",
+          "score": 0.062072862284628806
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 2187
+}

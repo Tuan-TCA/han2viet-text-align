@@ -1,0 +1,105 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "90e3a18d8e306be5e247cba94d0624b2517bd2746797b484257fdcc6f31ec291",
+  "payload": {
+    "han": "古祿按國食木信然順化\n俗呼蒼茲為適之郡子為觸果\n業為賴養果那為莽球波異密軟者呼為機過不軟土守為據燥卷羅\n大吉呼為吹於依反猶小者焉\n吹耕中者為沐機\n此處櫃榔此辰皆有軟徽面甘價最賤二十果不滿二十文\n廣5平俗一神樹下植一美識夢隨而之上身隨植一胡椒藤\n園林蔚然臨雲山臨興廣南坊落坊這坊西步必檳榔成林柔老皮爛土人取校積四堆阜\n北韻敗回庫東人嘆食代茶順化然邑蕉若禮皆有之若称殊於四鎮\n撥字為狩彷最甘香掇能呼為掇使\n有名婆香者似掇蕉味頗酸\n有若掇青蕉者似掇聰猫而頗長\n有名掇桂似掇孛而小心黃味甘香\n有掇操棉者出河心鎮\n陶序心黃而味甘又為等\n有名芳攝塘黃微黃軟關如蠟赤\n有名芳頭徐四月種十一月採根\n大加注孟貴倉\n其京北東茶等味同\n有名半善子叢生四善色白元軟膩\n有名芳柳子叢生如善最多其塟亦可通拜丞德\n其枚舍社皆權萊油木操貴為生\n麗水黑水每",
+    "vi": "Khi mới trêng thì ngắt lấy cái bông thứ nhất do nhánh chính hồ tiêu cũ đâm thẳng ra, đào lỗ ở dưới gốc cây to sâu 2 thước rồi cấy xuống, che giữ nắng gió, vun bồi đất tốt, 5 năm sau thì có quả.\nXưa Đoan quận công từng sai người y theo giá mà mua chở về cùng với vây cá, yến sào, để đổi cho khách buôn lấy hoá vật, bèn làm thành lệ.\nHọ Nguyễn cứ hàng năm vào thượng tuần tháng 5 thì sai đội trưởng thuyển Tân nhất cùng tỉnh binh ra địa phương hạ lệnh cho dân, tuỳ vườn nhiều ít mà chia bao, họp số định giá mua lấy, một gánh hồ tiêu thì trả 5 quan tiền, chở về phố Thanh Hà, bán cho khách tàu, không cho dân địa phương bán riêng.\nDân phường thì có lệ phải cống hồ tiêu trắng và đen mỗi thứ một bao, mỗi bao 100 cân.\nTổng Bái Trời 25 phường, ruộng nứi vườn rừng nhiền hơn các nơi khác, có ruộng lúa 524 mẫu 3 sào, một nửa phải nộp thóc thị túc.\nThời họ Nguyễn trước, hồ tiêu cứ cho 100 cân làm một tạ, giá 5, 6 quan, khách Bắc và khách Mã Cao thường buôn về Quảng Đông.\nTrầu không thì cứ 60 lá làm một liền, 10 hển giá tiền 20 đồng, khách buôn thường buôn vào Phú Xuân và ra Khang Lộc và Bế Chính.\nCau cũng rẻ, 10 quả to chỉ giá 3 đồng tiền.\nCây mít trồng lâu năm thì thành gỗ tốt, sắc vàng, vân nhỏ, dân các huyện Minh Linh và Đăng Xương thường đùng làm cột nhà, có cây rộng tới 1 thước 1 tấc; lại xẻ ván làm vách.\nCác xã huyện Hương Trà xứ Thuận Hoá và các thôn chợ ở trên dưới thành Phú Xuân, trồng cây cao lớn rất nhiều, như những loại cây xoài cây sung, đều vài mươi sải, quan quân mặc sức chặt đốn, lấy ván lấy củi một năm không hết."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 0,\n        \"vi_start\": 0,\n        \"vi_end\": 1,\n        \"han_text\": \"古祿按國食木信然順化\",\n        \"vietnamese_text\": \"Khi mới trêng thì ngắt lấy cái bông thứ nhất do nhánh chính hồ tiêu cũ đâm thẳng ra, đào lỗ ở dưới gốc cây to sâu 2 thước rồi cấy xuống, che giữ nắng gió, vun bồi đất tốt, 5 năm sau thì có quả. Xưa Đoan quận công từng sai người y theo giá mà mua chở về cùng với vây cá, yến sào, để đổi cho khách buôn lấy hoá vật, bèn làm thành lệ.\",\n        \"score\": 0.01356211952581386\n      },\n      {\n        \"han_start\": 1,\n        \"han_end\": 4,\n        \"vi_start\": 2,\n        \"vi_end\": 2,\n        \"han_text\": \"俗呼蒼茲為適之郡子為觸果 業為賴養果那為莽球波異密軟者呼為機過不軟土守為據燥卷羅 大吉呼為吹於依反猶小者焉 吹耕中者為沐機\",\n        \"vietnamese_text\": \"Họ Nguyễn cứ hàng năm vào thượng tuần tháng 5 thì sai đội trưởng thuyển Tân nhất cùng tỉnh binh ra địa phương hạ lệnh cho dân, tuỳ vườn nhiều ít mà chia bao, họp số định giá mua lấy, một gánh hồ tiêu thì trả 5 quan tiền, chở về phố Thanh Hà, bán cho khách tàu, không cho dân địa phương bán riêng.\",\n        \"score\": 0.10804306952599473\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 5,\n        \"vi_start\": 3,\n        \"vi_end\": 3,\n        \"han_text\": \"此處櫃榔此辰皆有軟徽面甘價最賤二十果不滿二十文\",\n        \"vietnamese_text\": \"Dân phường thì có lệ phải cống hồ tiêu trắng và đen mỗi thứ một bao, mỗi bao 100 cân.\",\n        \"score\": 0.10096396362593804\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 7,\n        \"vi_start\": 4,\n        \"vi_end\": 4,\n        \"han_text\": \"廣5平俗一神樹下植一美識夢隨而之上身隨植一胡椒藤 園林蔚然臨雲山臨興廣南坊落坊這坊西步必檳榔成林柔老皮爛土人取校積四堆阜\",\n        \"vietnamese_text\": \"Tổng Bái Trời 25 phường, ruộng nứi vườn rừng nhiền hơn các nơi khác, có ruộng lúa 524 mẫu 3 sào, một nửa phải nộp thóc thị túc.\",\n        \"score\": 0.09825297381011527\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 9,\n        \"vi_start\": 5,\n        \"vi_end\": 5,\n        \"han_text\": \"北韻敗回庫東人嘆食代茶順化然邑蕉若禮皆有之若称殊於四鎮 撥字為狩彷最甘香掇能呼為掇使\",\n        \"vietnamese_text\": \"Thời họ Nguyễn trước, hồ tiêu cứ cho 100 cân làm một tạ, giá 5, 6 quan, khách Bắc và khách Mã Cao thường buôn về Quảng Đông.\",\n        \"score\": 0.11400561603050095\n      },\n      {\n        \"han_start\": 10,\n        \"han_end\": 13,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"有名婆香者似掇蕉味頗酸 有若掇青蕉者似掇聰猫而頗長 有名掇桂似掇孛而小心黃味甘香 有掇操棉者出河心鎮\",\n        \"vietnamese_text\": \"Trầu không thì cứ 60 lá làm một liền, 10 hển giá tiền 20 đồng, khách buôn thường buôn vào Phú Xuân và ra Khang Lộc và Bế Chính.\",\n        \"score\": 0.05400766330068579\n      },\n      {\n        \"han_start\": 14,\n        \"han_end\": 14,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"陶序心黃而味甘又為等\",\n        \"vietnamese_text\": \"Cau cũng rẻ, 10 quả to chỉ giá 3 đồng tiền.\",\n        \"score\": 0.05050205658507489\n      },\n      {\n        \"han_start\": 15,\n        \"han_end\": 18,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"有名芳攝塘黃微黃軟關如蠟赤 有名芳頭徐四月種十一月採根 大加注孟貴倉 其京北東茶等味同\",\n        \"vietnamese_text\": \"Cây mít trồng lâu năm thì thành gỗ tốt, sắc vàng, vân nhỏ, dân các huyện Minh Linh và Đăng Xương thường đùng làm cột nhà, có cây rộng tới 1 thước 1 tấc; lại xẻ ván làm vách.\",\n        \"score\": 0.09219897680137398\n      },\n      {\n        \"han_start\": 19,\n        \"han_end\": 22,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"有名半善子叢生四善色白元軟膩 有名芳柳子叢生如善最多其塟亦可通拜丞德 其枚舍社皆權萊油木操貴為生 麗水黑水每\",\n        \"vietnamese_text\": \"Các xã huyện Hương Trà xứ Thuận Hoá và các thôn chợ ở trên dưới thành Phú Xuân, trồng cây cao lớn rất nhiều, như những loại cây xoài cây sung, đều vài mươi sải, quan quân mặc sức chặt đốn, lấy ván lấy củi một năm không hết.\",\n        \"score\": 0.05380029065772442\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 0,
+          "vi_start": 0,
+          "vi_end": 1,
+          "han_text": "古祿按國食木信然順化",
+          "vietnamese_text": "Khi mới trêng thì ngắt lấy cái bông thứ nhất do nhánh chính hồ tiêu cũ đâm thẳng ra, đào lỗ ở dưới gốc cây to sâu 2 thước rồi cấy xuống, che giữ nắng gió, vun bồi đất tốt, 5 năm sau thì có quả. Xưa Đoan quận công từng sai người y theo giá mà mua chở về cùng với vây cá, yến sào, để đổi cho khách buôn lấy hoá vật, bèn làm thành lệ.",
+          "score": 0.01356211952581386
+        },
+        {
+          "han_start": 1,
+          "han_end": 4,
+          "vi_start": 2,
+          "vi_end": 2,
+          "han_text": "俗呼蒼茲為適之郡子為觸果 業為賴養果那為莽球波異密軟者呼為機過不軟土守為據燥卷羅 大吉呼為吹於依反猶小者焉 吹耕中者為沐機",
+          "vietnamese_text": "Họ Nguyễn cứ hàng năm vào thượng tuần tháng 5 thì sai đội trưởng thuyển Tân nhất cùng tỉnh binh ra địa phương hạ lệnh cho dân, tuỳ vườn nhiều ít mà chia bao, họp số định giá mua lấy, một gánh hồ tiêu thì trả 5 quan tiền, chở về phố Thanh Hà, bán cho khách tàu, không cho dân địa phương bán riêng.",
+          "score": 0.10804306952599473
+        },
+        {
+          "han_start": 5,
+          "han_end": 5,
+          "vi_start": 3,
+          "vi_end": 3,
+          "han_text": "此處櫃榔此辰皆有軟徽面甘價最賤二十果不滿二十文",
+          "vietnamese_text": "Dân phường thì có lệ phải cống hồ tiêu trắng và đen mỗi thứ một bao, mỗi bao 100 cân.",
+          "score": 0.10096396362593804
+        },
+        {
+          "han_start": 6,
+          "han_end": 7,
+          "vi_start": 4,
+          "vi_end": 4,
+          "han_text": "廣5平俗一神樹下植一美識夢隨而之上身隨植一胡椒藤 園林蔚然臨雲山臨興廣南坊落坊這坊西步必檳榔成林柔老皮爛土人取校積四堆阜",
+          "vietnamese_text": "Tổng Bái Trời 25 phường, ruộng nứi vườn rừng nhiền hơn các nơi khác, có ruộng lúa 524 mẫu 3 sào, một nửa phải nộp thóc thị túc.",
+          "score": 0.09825297381011527
+        },
+        {
+          "han_start": 8,
+          "han_end": 9,
+          "vi_start": 5,
+          "vi_end": 5,
+          "han_text": "北韻敗回庫東人嘆食代茶順化然邑蕉若禮皆有之若称殊於四鎮 撥字為狩彷最甘香掇能呼為掇使",
+          "vietnamese_text": "Thời họ Nguyễn trước, hồ tiêu cứ cho 100 cân làm một tạ, giá 5, 6 quan, khách Bắc và khách Mã Cao thường buôn về Quảng Đông.",
+          "score": 0.11400561603050095
+        },
+        {
+          "han_start": 10,
+          "han_end": 13,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "有名婆香者似掇蕉味頗酸 有若掇青蕉者似掇聰猫而頗長 有名掇桂似掇孛而小心黃味甘香 有掇操棉者出河心鎮",
+          "vietnamese_text": "Trầu không thì cứ 60 lá làm một liền, 10 hển giá tiền 20 đồng, khách buôn thường buôn vào Phú Xuân và ra Khang Lộc và Bế Chính.",
+          "score": 0.05400766330068579
+        },
+        {
+          "han_start": 14,
+          "han_end": 14,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "陶序心黃而味甘又為等",
+          "vietnamese_text": "Cau cũng rẻ, 10 quả to chỉ giá 3 đồng tiền.",
+          "score": 0.05050205658507489
+        },
+        {
+          "han_start": 15,
+          "han_end": 18,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "有名芳攝塘黃微黃軟關如蠟赤 有名芳頭徐四月種十一月採根 大加注孟貴倉 其京北東茶等味同",
+          "vietnamese_text": "Cây mít trồng lâu năm thì thành gỗ tốt, sắc vàng, vân nhỏ, dân các huyện Minh Linh và Đăng Xương thường đùng làm cột nhà, có cây rộng tới 1 thước 1 tấc; lại xẻ ván làm vách.",
+          "score": 0.09219897680137398
+        },
+        {
+          "han_start": 19,
+          "han_end": 22,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "有名半善子叢生四善色白元軟膩 有名芳柳子叢生如善最多其塟亦可通拜丞德 其枚舍社皆權萊油木操貴為生 麗水黑水每",
+          "vietnamese_text": "Các xã huyện Hương Trà xứ Thuận Hoá và các thôn chợ ở trên dưới thành Phú Xuân, trồng cây cao lớn rất nhiều, như những loại cây xoài cây sung, đều vài mươi sải, quan quân mặc sức chặt đốn, lấy ván lấy củi một năm không hết.",
+          "score": 0.05380029065772442
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 6438
+}

@@ -1,0 +1,143 @@
+{
+  "binding": {
+    "window_sha256": "2d5f45c93fe9d6dcb6502b0824cf48e49aab6ea883920071841d2c9b9fd6eb6f",
+    "configuration_sha256": "3c43b0b0a03499e79a8d103383a2018566f999ac0c4472f15d68bfdf3bb7c55f",
+    "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/separate-sentences",
+    "payload_key": "9b773a12819baa0a0a1dc21e3392563ea295b1a7558dfaa912de521c56529ec6",
+    "method": "S4",
+    "viet_strategy": "T1"
+  },
+  "data": {
+    "window": "Cap_02-091-092",
+    "status": "successful",
+    "separate_status": "ok",
+    "segments": [
+      {
+        "id_zh": "Cap_02-091-092-S4-0001",
+        "window": "Cap_02-091-092",
+        "method": "S4",
+        "page_start": 91,
+        "page_end": 92,
+        "global_raw_span": [
+          53320,
+          53328
+        ],
+        "source": [
+          {
+            "page": 91,
+            "file": "02_ocr_tho/Cap_02/Cap_02_HAN_all_pages.txt",
+            "file_span": [
+              32128,
+              32134
+            ]
+          },
+          {
+            "page": 92,
+            "file": "02_ocr_tho/Cap_02/Cap_02_HAN_all_pages.txt",
+            "file_span": [
+              32162,
+              32164
+            ]
+          }
+        ],
+        "text_original": "R1606101",
+        "text_zh": "R1606101",
+        "normalized_source_spans": [
+          [
+            53320,
+            53321
+          ],
+          [
+            53321,
+            53322
+          ],
+          [
+            53322,
+            53323
+          ],
+          [
+            53323,
+            53324
+          ],
+          [
+            53324,
+            53325
+          ],
+          [
+            53325,
+            53326
+          ],
+          [
+            53326,
+            53327
+          ],
+          [
+            53327,
+            53328
+          ]
+        ],
+        "mapping_status": "unmatched"
+      }
+    ],
+    "source_pages": [
+      {
+        "id": "Cap_02-HAN-091",
+        "cap": "Cap_02",
+        "han_pdf_page": 91,
+        "pdf_path": "01_nguon/Cap_02/HAN.pdf",
+        "source": {
+          "path": "02_ocr_tho/Cap_02/Cap_02_HAN_all_pages.txt"
+        },
+        "file_body_span": [
+          32128,
+          32136
+        ],
+        "file_text_span": [
+          32128,
+          32134
+        ],
+        "body_original": "R16061\n\n",
+        "text_original": "R16061",
+        "text_nfc": "R16061",
+        "global_raw_span": [
+          53320,
+          53326
+        ],
+        "global_nfc_span": [
+          53320,
+          53326
+        ]
+      },
+      {
+        "id": "Cap_02-HAN-092",
+        "cap": "Cap_02",
+        "han_pdf_page": 92,
+        "pdf_path": "01_nguon/Cap_02/HAN.pdf",
+        "source": {
+          "path": "02_ocr_tho/Cap_02/Cap_02_HAN_all_pages.txt"
+        },
+        "file_body_span": [
+          32162,
+          32164
+        ],
+        "file_text_span": [
+          32162,
+          32164
+        ],
+        "body_original": "01",
+        "text_original": "01",
+        "text_nfc": "01",
+        "global_raw_span": [
+          53326,
+          53328
+        ],
+        "global_nfc_span": [
+          53326,
+          53328
+        ]
+      }
+    ],
+    "cache_key": "9b773a12819baa0a0a1dc21e3392563ea295b1a7558dfaa912de521c56529ec6"
+  },
+  "checksum": "358f8359350e4362bdceece49513da0018daa3a8420e0f2b5b1280a4cbbcb4a8"
+}

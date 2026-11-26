@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "input_sha256": {
+    "Cap01_Silver_Benchmark_Merged.xlsx": "e29740e5dfba78b42f028d33f3953108fcdba4833c6f24c200a7fc220bc1e23e",
+    "02_ocr_tho/Cap_01/Cap_01_HAN_all_pages.txt": "3599b9de2d6c2b0963d8714a976b395f1bb08f59ce3cf2e0c1bfebe0f1018ad6",
+    "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx": "9d1985457cc49179eeef6731d49c639edfea6d545d1b673365597a185dbc0939",
+    "02_ocr_tho/Cap_02/Cap_02_HAN_all_pages.txt": "336d63c3f980313452b5bea490b263b8c80bd7240b23f4fd467fa2f49a865b08",
+    "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx": "d1f7e9ea71ee8ad99454b972b6944f74416430515fdb1c0fc9ac6eda141c5221"
+  },
+  "caps": {
+    "Cap_01": {
+      "han_pages": 53,
+      "han_pages_changed_by_nfc": [],
+      "viet": {
+        "source_rows": 786,
+        "included": 685,
+        "excluded": 101,
+        "mapping_rows": 66,
+        "verified_mapping_rows": 6,
+        "unverified_mapping_rows": 60,
+        "cross_page_segments": 60,
+        "han_pages_outside_all_mapping_windows": [],
+        "repeated_viet_text_ids": [
+          [
+            "Cap_01-VI-0230-039",
+            "Cap_01-VI-0242-007"
+          ],
+          [
+            "Cap_01-VI-0236-020",
+            "Cap_01-VI-0236-024"
+          ],
+          [
+            "Cap_01-VI-0240-001",
+            "Cap_01-VI-0240-006"
+          ]
+        ],
+        "issues": []
+      }
+    },
+    "Cap_02": {
+      "han_pages": 92,
+      "han_pages_changed_by_nfc": [],
+      "viet": {
+        "source_rows": 1394,
+        "excluded": 403,
+        "included": 991,
+        "mapping_rows": 105,
+        "verified_mapping_rows": 7,
+        "unverified_mapping_rows": 98,
+        "cross_page_segments": 46,
+        "han_pages_outside_all_mapping_windows": [
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92
+        ],
+        "repeated_viet_text_ids": [
+          [
+            "Cap_02-VI-0022-014",
+            "Cap_02-VI-0059-009"
+          ],
+          [
+            "Cap_02-VI-0059-010",
+            "Cap_02-VI-0059-011"
+          ]
+        ],
+        "issues": []
+      }
+    }
+  },
+  "totals": {
+    "han_pages": 145,
+    "viet_segments": 1676,
+    "mapping_rows": 171,
+    "han_raw_codepoints": 53328,
+    "han_nfc_codepoints": 53328
+  },
+  "ocr_similarity": {
+    "threshold": 0.9,
+    "metric": "max bidirectional difflib ratio; NFC without whitespace",
+    "pages_compared": 145,
+    "pairs": [
+      {
+        "page_ids": [
+          "Cap_01-HAN-036",
+          "Cap_01-HAN-037"
+        ],
+        "score": 0.906552,
+        "exact_ignoring_whitespace": false
+      },
+      {
+        "page_ids": [
+          "Cap_01-HAN-038",
+          "Cap_01-HAN-039"
+        ],
+        "score": 0.945802,
+        "exact_ignoring_whitespace": false
+      },
+      {
+        "page_ids": [
+          "Cap_01-HAN-049",
+          "Cap_01-HAN-050"
+        ],
+        "score": 0.941589,
+        "exact_ignoring_whitespace": false
+      }
+    ]
+  },
+  "silver": {
+    "kind": "silver_not_gold",
+    "sheet_data_rows": {
+      "Alignment_Dataset": 12,
+      "Comparison": 12,
+      "ChatGPT_Source": 12,
+      "DeepSeek_Source": 13,
+      "Unaligned": 1,
+      "README": 13
+    },
+    "pilot_raw_length": 905,
+    "provisional_positive_ids": [
+      "PILOT-002",
+      "PILOT-006",
+      "PILOT-010"
+    ],
+    "unresolved_ids": [
+      "PILOT-001",
+      "PILOT-003",
+      "PILOT-004",
+      "PILOT-005",
+      "PILOT-007",
+      "PILOT-008",
+      "PILOT-009",
+      "PILOT-011",
+      "PILOT-012"
+    ],
+    "boundary_agreement": {
+      "SAME": 8,
+      "DIFFERENT": 4
+    },
+    "comparison_viet_ids_agree": 12,
+    "alignment_text_link_counts": {
+      "exact_ocr_slice": 12
+    },
+    "deepseek_text_link_counts": {
+      "exact_ocr_slice": 12
+    },
+    "viet_link_counts": {
+      "exact_nfc": 12
+    },
+    "unaligned": [
+      {
+        "Han_Page": "002",
+        "Start_0": 893,
+        "End_exclusive": 905,
+        "Han_OCR": "雜川人阮金珠同春人陳文見",
+        "Status": "OUT_OF_SCOPE",
+        "Note": "DeepSeek đề xuất thuộc Việt 189-001; chưa kiểm chứng. Không gán MISSING vì nằm ngoài phạm vi Việt 186–188.",
+        "source": {
+          "path": "Cap01_Silver_Benchmark_Merged.xlsx",
+          "sheet": "Unaligned",
+          "row": 2
+        },
+        "han_link": {
+          "status": "exact_ocr_slice",
+          "global_raw_span": [
+            893,
+            905
+          ],
+          "global_nfc_span": [
+            893,
+            905
+          ],
+          "han_page_ids": [
+            "Cap_01-HAN-002"
+          ]
+        }
+      }
+    ]
+  }
+}

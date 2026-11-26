@@ -1,0 +1,123 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "f3eabab2e1166bb02a2062fe8f21c7eab82712bdd0a2bb35ddac39b057e521da",
+  "payload": {
+    "han": "處所生者之肥也好到告之富榮鼎祠安坊大澤名澤爰多豐魚甜子\n其外景陽海口河中大澤惡旁稅我三千之有名环魚甚肥美又多膏輝\n传呼姑劇首有貢例\n1凶安海口與南年政海门首無酣自買郡公名阮先將鎮守此\n遣船三售往安產起境欽卅操之\n投於弥徐海門至今此處為多蚶\n我其味甚蚶耳順化必多夏田少秩田\n夏禾呼為正務秋禾守為債積意书信然聲豐府各是糖業之頌\n有名耦靈口名親麒講味香性軟貴於若父\n於十一月下播四月祥名糧香堡\n粒大香甘有名親翁老亦曰糧邾闕香甘而軟並五目下禾\n九月獲瓶粟之頌有名詫粒赤\n十一月下禾四月無有名坛粒粗而赤\n有名難宜深田曰赤白二頗名冲\n粒微赤亦宜深田甚碩並十一月下示以月\n乃稱有名叛宜高田粒小而長\n闕甘香十月半下未三月半旗名糝宜真田粒小色青白味甘香\n五月下禾八月發有名督粒大而赤味濃頗香",
+    "vi": "Lại có nhiều cua béo, tục gọi là cua gạch, trước có lệ tiến.\nCủa biển xứ Nghệ An và cửa biển châu Bắc Bố Chính, xưa không có sò.\nTừ thời Hiển quận công Nguyễn Khắc Liệt trấn thủ, sai ba chiếc thuyền ra Quảng Yên, giáp với Khâm Châu, lấy về bỏ ở cửa biển Di Luân (cửa Ròn), đến nay xứ ấy mới có sò, nhưng vị rất kém.\nXứ Thuận Hoá có nhiều ruộng mùa hạ, ít ruộng mùa thu; lúa mùa hạ gọi là lúa mùa chính (mùòa mùa), lúa mùa thu gọi là lúa mùa trái.\nCác huyện phủ Triệu Phong lúa nếp có thứ tên là nếp mây; có thứ tên là nếp kỳ lân, mùi thơm chất dẻo, tháng 9 gieo mạ, tháng 11 cấy, đến tháng 4 năm sau thì gặt; có thứ nếp suất; có thứ nếp hạt cau, nếp mía, tháng 9 gieo mạ. tháng 11 cấy, tháng 4 gặt.\nRuộng sâu thì cấy vào tháng 13; có thứ tên là nếp hương bầu, hạt gạo lớn, vị ngon thơm; có thứ tên là nếp ông lão, cũng gọi là nếp trâu, thơm và dẻo, đều cấy tháng 5 và gặt tháng 9. Giống lúa tế thì có thứ tên là lúa sá, hột gạo đỏ, tháng 11 cấy, tháng 4 gặt; có thứ tên là lúa chiên, hạt to mà đỏ, tháng 11 cấy, tháng 3 gặt; có thứ tên là lúa hẻo, hợp với ruộng cao, có hai hạng đỏ và trắng; có thứ tên là lúa xung, hạt hơi đỏ, hợp với ruộng sâu, đều cấy tháng 11, gặt tháng 4; có thứ gọi là lúa nhé, hợp với ruộng cao, hột nhỏ mà dài, rất thơm, nửa tháng 10 cấy, nửa tháng 3 gặt; có thứ tên là lúa tám, hợp với ruộng cao, hột nhỏ, sắc xanh trắng, vị ngọt, thơm, tháng 5 cấy, tháng 8 gặt; có thứ tên là lúa đốc, hột gạo to mà đỏ, vị đậm, rất thơm, tháng 5 cấy, tháng 8 gặt; có thứ tên là lúa viên, cũng gọi là lúa nước mặn, hợp với ruộng sâu, hột to, tháng 12 cấy, tháng 4 gặt; có thứ tên là lúa bát nguyệt, tháng ð cấy, tháng 8 gặt.\nHuyện Minh Lành các thứ lúa nếp mùa hạ có thứ tên là nếp bò, lúa vàng, gạo trắng, hạt to mà thơm dẻo, tháng 11 cấy, tháng 4 chín; có thứ tên là nếp mít, lúa gạo đều trắng, hột nhỏ mà cứng, tháng 11 cấy, tháng 2 chín; có thứ tên là nếp ông lão, cũng gọi là nếp râu, lúa trắng có râu, gạo tròn lớn mà thơm dẻo, tháng 11 cấy, tháng 4 chín.\nCác thứ lúa tẻ có thứ tên là lúa ba bả, lúa đỏ vỏ mỏng, hột tròn gạo vàng, không mọt, có thể chứa lâu, làm cơm thì dẻo, tháng 11 cấy, tháng 3 chín; có thứ tên là lúa chiên, gạo đỏ thơm dẻo, rất mau chín, tháng 11 cấy, tháng 2 chín.\nNơi đất thấp thì cấy lúa ba bả, nước mặn cũng cấy được, nơi khô xáo thì cấy lúa chiên.\nCó thứ tên gọi là lúa nước mặn, thóc gạo đều đỏ, hợp với chỗ nước mặn và chỗ nước hai, tháng 11 cấy, tháng 3 chín, nấu cơm thì cứng."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 2,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"處所生者之肥也好到告之富榮鼎祠安坊大澤名澤爰多豐魚甜子 其外景陽海口河中大澤惡旁稅我三千之有名环魚甚肥美又多膏輝 传呼姑劇首有貢例\",\n        \"vietnamese_text\": \"Lại có nhiều cua béo, tục gọi là cua gạch, trước có lệ tiến.\",\n        \"score\": 0.01942530263389502\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 3,\n        \"vi_start\": 1,\n        \"vi_end\": 1,\n        \"han_text\": \"1凶安海口與南年政海门首無酣自買郡公名阮先將鎮守此\",\n        \"vietnamese_text\": \"Của biển xứ Nghệ An và cửa biển châu Bắc Bố Chính, xưa không có sò.\",\n        \"score\": 0.10108684545487928\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 5,\n        \"vi_start\": 2,\n        \"vi_end\": 2,\n        \"han_text\": \"遣船三售往安產起境欽卅操之 投於弥徐海門至今此處為多蚶\",\n        \"vietnamese_text\": \"Từ thời Hiển quận công Nguyễn Khắc Liệt trấn thủ, sai ba chiếc thuyền ra Quảng Yên, giáp với Khâm Châu, lấy về bỏ ở cửa biển Di Luân (cửa Ròn), đến nay xứ ấy mới có sò, nhưng vị rất kém.\",\n        \"score\": 0.20853119018894545\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 6,\n        \"vi_start\": 3,\n        \"vi_end\": 3,\n        \"han_text\": \"我其味甚蚶耳順化必多夏田少秩田\",\n        \"vietnamese_text\": \"Xứ Thuận Hoá có nhiều ruộng mùa hạ, ít ruộng mùa thu; lúa mùa hạ gọi là lúa mùa chính (mùòa mùa), lúa mùa thu gọi là lúa mùa trái.\",\n        \"score\": 0.1019028802728988\n      },\n      {\n        \"han_start\": 7,\n        \"han_end\": 8,\n        \"vi_start\": 4,\n        \"vi_end\": 4,\n        \"han_text\": \"夏禾呼為正務秋禾守為債積意书信然聲豐府各是糖業之頌 有名耦靈口名親麒講味香性軟貴於若父\",\n        \"vietnamese_text\": \"Các huyện phủ Triệu Phong lúa nếp có thứ tên là nếp mây; có thứ tên là nếp kỳ lân, mùi thơm chất dẻo, tháng 9 gieo mạ, tháng 11 cấy, đến tháng 4 năm sau thì gặt; có thứ nếp suất; có thứ nếp hạt cau, nếp mía, tháng 9 gieo mạ.\",\n        \"score\": 0.13664440610306192\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 9,\n        \"vi_start\": 5,\n        \"vi_end\": 5,\n        \"han_text\": \"於十一月下播四月祥名糧香堡\",\n        \"vietnamese_text\": \"tháng 11 cấy, tháng 4 gặt.\",\n        \"score\": 0.07599956479439439\n      },\n      {\n        \"han_start\": 10,\n        \"han_end\": 10,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"粒大香甘有名親翁老亦曰糧邾闕香甘而軟並五目下禾\",\n        \"vietnamese_text\": \"Ruộng sâu thì cấy vào tháng 13; có thứ tên là nếp hương bầu, hạt gạo lớn, vị ngon thơm; có thứ tên là nếp ông lão, cũng gọi là nếp trâu, thơm và dẻo, đều cấy tháng 5 và gặt tháng 9.\",\n        \"score\": 0.13448994382004362\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 11,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"九月獲瓶粟之頌有名詫粒赤\",\n        \"vietnamese_text\": \"Giống lúa tế thì có thứ tên là lúa sá, hột gạo đỏ, tháng 11 cấy, tháng 4 gặt; có thứ tên là lúa chiên, hạt to mà đỏ, tháng 11 cấy, tháng 3 gặt; có thứ tên là lúa hẻo, hợp với ruộng cao, có hai hạng đỏ và trắng; có thứ tên là lúa xung, hạt hơi đỏ, hợp với ruộng sâu, đều cấy tháng 11, gặt tháng 4; có thứ gọi là lúa nhé, hợp với ruộng cao, hột nhỏ mà dài, rất thơm, nửa tháng 10 cấy, nửa tháng 3 gặt; có thứ tên là lúa tám, hợp với ruộng cao, hột nhỏ, sắc xanh trắng, vị ngọt, thơm, tháng 5 cấy, tháng 8 gặt; có thứ tên là lúa đốc, hột gạo to mà đỏ, vị đậm, rất thơm, tháng 5 cấy, tháng 8 gặt; có thứ tên là lúa viên, cũng gọi là lúa nước mặn, hợp với ruộng sâu, hột to, tháng 12 cấy, tháng 4 gặt; có thứ tên là lúa bát nguyệt, tháng ð cấy, tháng 8 gặt.\",\n        \"score\": -0.002128263546920376\n      },\n      {\n        \"han_start\": 12,\n        \"han_end\": 14,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"十一月下禾四月無有名坛粒粗而赤 有名難宜深田曰赤白二頗名冲 粒微赤亦宜深田甚碩並十一月下示以月\",\n        \"vietnamese_text\": \"Huyện Minh Lành các thứ lúa nếp mùa hạ có thứ tên là nếp bò, lúa vàng, gạo trắng, hạt to mà thơm dẻo, tháng 11 cấy, tháng 4 chín; có thứ tên là nếp mít, lúa gạo đều trắng, hột nhỏ mà cứng, tháng 11 cấy, tháng 2 chín; có thứ tên là nếp ông lão, cũng gọi là nếp râu, lúa trắng có râu, gạo tròn lớn mà thơm dẻo, tháng 11 cấy, tháng 4 chín.\",\n        \"score\": 0.12791144133453025\n      },\n      {\n        \"han_start\": 15,\n        \"han_end\": 15,\n        \"vi_start\": 9,\n        \"vi_end\": 10,\n        \"han_text\": \"乃稱有名叛宜高田粒小而長\",\n        \"vietnamese_text\": \"Các thứ lúa tẻ có thứ tên là lúa ba bả, lúa đỏ vỏ mỏng, hột tròn gạo vàng, không mọt, có thể chứa lâu, làm cơm thì dẻo, tháng 11 cấy, tháng 3 chín; có thứ tên là lúa chiên, gạo đỏ thơm dẻo, rất mau chín, tháng 11 cấy, tháng 2 chín. Nơi đất thấp thì cấy lúa ba bả, nước mặn cũng cấy được, nơi khô xáo thì cấy lúa chiên.\",\n        \"score\": 0.023063859549993727\n      },\n      {\n        \"han_start\": 16,\n        \"han_end\": 17,\n        \"vi_start\": 11,\n        \"vi_end\": 11,\n        \"han_text\": \"闕甘香十月半下未三月半旗名糝宜真田粒小色青白味甘香 五月下禾八月發有名督粒大而赤味濃頗香\",\n        \"vietnamese_text\": \"Có thứ tên gọi là lúa nước mặn, thóc gạo đều đỏ, hợp với chỗ nước mặn và chỗ nước hai, tháng 11 cấy, tháng 3 chín, nấu cơm thì cứng.\",\n        \"score\": 0.11410210441764643\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 2,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "處所生者之肥也好到告之富榮鼎祠安坊大澤名澤爰多豐魚甜子 其外景陽海口河中大澤惡旁稅我三千之有名环魚甚肥美又多膏輝 传呼姑劇首有貢例",
+          "vietnamese_text": "Lại có nhiều cua béo, tục gọi là cua gạch, trước có lệ tiến.",
+          "score": 0.01942530263389502
+        },
+        {
+          "han_start": 3,
+          "han_end": 3,
+          "vi_start": 1,
+          "vi_end": 1,
+          "han_text": "1凶安海口與南年政海门首無酣自買郡公名阮先將鎮守此",
+          "vietnamese_text": "Của biển xứ Nghệ An và cửa biển châu Bắc Bố Chính, xưa không có sò.",
+          "score": 0.10108684545487928
+        },
+        {
+          "han_start": 4,
+          "han_end": 5,
+          "vi_start": 2,
+          "vi_end": 2,
+          "han_text": "遣船三售往安產起境欽卅操之 投於弥徐海門至今此處為多蚶",
+          "vietnamese_text": "Từ thời Hiển quận công Nguyễn Khắc Liệt trấn thủ, sai ba chiếc thuyền ra Quảng Yên, giáp với Khâm Châu, lấy về bỏ ở cửa biển Di Luân (cửa Ròn), đến nay xứ ấy mới có sò, nhưng vị rất kém.",
+          "score": 0.20853119018894545
+        },
+        {
+          "han_start": 6,
+          "han_end": 6,
+          "vi_start": 3,
+          "vi_end": 3,
+          "han_text": "我其味甚蚶耳順化必多夏田少秩田",
+          "vietnamese_text": "Xứ Thuận Hoá có nhiều ruộng mùa hạ, ít ruộng mùa thu; lúa mùa hạ gọi là lúa mùa chính (mùòa mùa), lúa mùa thu gọi là lúa mùa trái.",
+          "score": 0.1019028802728988
+        },
+        {
+          "han_start": 7,
+          "han_end": 8,
+          "vi_start": 4,
+          "vi_end": 4,
+          "han_text": "夏禾呼為正務秋禾守為債積意书信然聲豐府各是糖業之頌 有名耦靈口名親麒講味香性軟貴於若父",
+          "vietnamese_text": "Các huyện phủ Triệu Phong lúa nếp có thứ tên là nếp mây; có thứ tên là nếp kỳ lân, mùi thơm chất dẻo, tháng 9 gieo mạ, tháng 11 cấy, đến tháng 4 năm sau thì gặt; có thứ nếp suất; có thứ nếp hạt cau, nếp mía, tháng 9 gieo mạ.",
+          "score": 0.13664440610306192
+        },
+        {
+          "han_start": 9,
+          "han_end": 9,
+          "vi_start": 5,
+          "vi_end": 5,
+          "han_text": "於十一月下播四月祥名糧香堡",
+          "vietnamese_text": "tháng 11 cấy, tháng 4 gặt.",
+          "score": 0.07599956479439439
+        },
+        {
+          "han_start": 10,
+          "han_end": 10,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "粒大香甘有名親翁老亦曰糧邾闕香甘而軟並五目下禾",
+          "vietnamese_text": "Ruộng sâu thì cấy vào tháng 13; có thứ tên là nếp hương bầu, hạt gạo lớn, vị ngon thơm; có thứ tên là nếp ông lão, cũng gọi là nếp trâu, thơm và dẻo, đều cấy tháng 5 và gặt tháng 9.",
+          "score": 0.13448994382004362
+        },
+        {
+          "han_start": 11,
+          "han_end": 11,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "九月獲瓶粟之頌有名詫粒赤",
+          "vietnamese_text": "Giống lúa tế thì có thứ tên là lúa sá, hột gạo đỏ, tháng 11 cấy, tháng 4 gặt; có thứ tên là lúa chiên, hạt to mà đỏ, tháng 11 cấy, tháng 3 gặt; có thứ tên là lúa hẻo, hợp với ruộng cao, có hai hạng đỏ và trắng; có thứ tên là lúa xung, hạt hơi đỏ, hợp với ruộng sâu, đều cấy tháng 11, gặt tháng 4; có thứ gọi là lúa nhé, hợp với ruộng cao, hột nhỏ mà dài, rất thơm, nửa tháng 10 cấy, nửa tháng 3 gặt; có thứ tên là lúa tám, hợp với ruộng cao, hột nhỏ, sắc xanh trắng, vị ngọt, thơm, tháng 5 cấy, tháng 8 gặt; có thứ tên là lúa đốc, hột gạo to mà đỏ, vị đậm, rất thơm, tháng 5 cấy, tháng 8 gặt; có thứ tên là lúa viên, cũng gọi là lúa nước mặn, hợp với ruộng sâu, hột to, tháng 12 cấy, tháng 4 gặt; có thứ tên là lúa bát nguyệt, tháng ð cấy, tháng 8 gặt.",
+          "score": -0.002128263546920376
+        },
+        {
+          "han_start": 12,
+          "han_end": 14,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "十一月下禾四月無有名坛粒粗而赤 有名難宜深田曰赤白二頗名冲 粒微赤亦宜深田甚碩並十一月下示以月",
+          "vietnamese_text": "Huyện Minh Lành các thứ lúa nếp mùa hạ có thứ tên là nếp bò, lúa vàng, gạo trắng, hạt to mà thơm dẻo, tháng 11 cấy, tháng 4 chín; có thứ tên là nếp mít, lúa gạo đều trắng, hột nhỏ mà cứng, tháng 11 cấy, tháng 2 chín; có thứ tên là nếp ông lão, cũng gọi là nếp râu, lúa trắng có râu, gạo tròn lớn mà thơm dẻo, tháng 11 cấy, tháng 4 chín.",
+          "score": 0.12791144133453025
+        },
+        {
+          "han_start": 15,
+          "han_end": 15,
+          "vi_start": 9,
+          "vi_end": 10,
+          "han_text": "乃稱有名叛宜高田粒小而長",
+          "vietnamese_text": "Các thứ lúa tẻ có thứ tên là lúa ba bả, lúa đỏ vỏ mỏng, hột tròn gạo vàng, không mọt, có thể chứa lâu, làm cơm thì dẻo, tháng 11 cấy, tháng 3 chín; có thứ tên là lúa chiên, gạo đỏ thơm dẻo, rất mau chín, tháng 11 cấy, tháng 2 chín. Nơi đất thấp thì cấy lúa ba bả, nước mặn cũng cấy được, nơi khô xáo thì cấy lúa chiên.",
+          "score": 0.023063859549993727
+        },
+        {
+          "han_start": 16,
+          "han_end": 17,
+          "vi_start": 11,
+          "vi_end": 11,
+          "han_text": "闕甘香十月半下未三月半旗名糝宜真田粒小色青白味甘香 五月下禾八月發有名督粒大而赤味濃頗香",
+          "vietnamese_text": "Có thứ tên gọi là lúa nước mặn, thóc gạo đều đỏ, hợp với chỗ nước mặn và chỗ nước hai, tháng 11 cấy, tháng 3 chín, nấu cơm thì cứng.",
+          "score": 0.11410210441764643
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 3438
+}

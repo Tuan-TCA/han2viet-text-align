@@ -1,0 +1,114 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "e82eea42c7712dfc202388da2af8fc66070a63d631de8e419270283d84230a56",
+  "payload": {
+    "han": "星方空落一迂儒四母妙旨憑誰同一貴真傳發独孤善左泣麟知命矣藝狂敬圓說辰乎繼捨用舍非由亦234自是行藏却在吾\n其自述云三十六年多堯客愛用罗結屋在無萊\n半生踪跡詩為傳到處登臨酒作媒\n心35不舜冠那忌諱落無按鈞任孤谐\n為人最苦是無存孝得還須大眼同\n其詠燕萊塢云錯落人家綠樹曰绿溪分塢各迴字\n東南一帶湖事海元北三分埜按山\n深洞鱗波漢父醉平原草長牧童閻\n白沙翠竹紅塵淨一任迷人自往還\n又自作無萊十詠其年湖災月54装波云無爭尾月興誰同独擇長數浩小索金風張實光迷老短揖十合秋色浸孤遂\n戲將沆璧双獄碎醉把流輝心日鑫\n一吸空狂甚\n桓我休冷笑塵勞幾得見闲翁\n其真痛82朝雲云半久園藥徑闭灵猫獵激草榮来除番不麝香猫看連雲劇顧本穿浮昌雨培拂糧靈花紅上檢遶道伏使出田為葉绿侵麗\n放鋤辰傍松陰坐野鳥枝頭作意跑\n催其沙圃曉行云晴江樹色曉蒼之独步沙汀望渺茫",
+    "vi": "5, Đã toa Đã toạ duy 0ô sự, Lương phong đăng thúit thanh.\nViễn thôn lai trúc sốc; Cao thụ lạc thiên thanh.\nDanh khỏi mang trung đốc; Thi đa tĩnh xứ sinh.\nTịch dương hành khách yết; Cổ đạo độc hàm tình.\n%Mgồi ở đồng Ngôi đồng khi rảnh việc, Gió mát pháy thánh thơi, Thôn xa rờn bóng trúc; Cây cũ tiếng ue rơi.\nDanh há rộn mà được!\nThơ thường tĩnh mới sinh.\nXế chiêu hành khách uống, Đường cổ thần thơ tình.\n6. đritng títu ngẫu lắc Địa tịch nhân gian dạ tự niên, Trung thu nguyệt sắc hdo thu3 liên.\nĐào Tiềm tửu hậu duy đam thuy, Cô phụ Hàng Nga nhẤt Tych uiên.\nTrung thu ngẫu liứng Đất uống nhân gian đêm quá dời.\nTrung thu trăng đẹp bạn cùng di?\nĐào Tiềm cạn chén là say ngủ; Riêng phụ Hãng Nga một tôi tròn."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 1,\n        \"vi_start\": 0,\n        \"vi_end\": 1,\n        \"han_text\": \"星方空落一迂儒四母妙旨憑誰同一貴真傳發独孤善左泣麟知命矣藝狂敬圓說辰乎繼捨用舍非由亦234自是行藏却在吾 其自述云三十六年多堯客愛用罗結屋在無萊\",\n        \"vietnamese_text\": \"5, Đã toa Đã toạ duy 0ô sự, Lương phong đăng thúit thanh. Viễn thôn lai trúc sốc; Cao thụ lạc thiên thanh.\",\n        \"score\": 0.09970909632874134\n      },\n      {\n        \"han_start\": 2,\n        \"han_end\": 3,\n        \"vi_start\": 2,\n        \"vi_end\": 2,\n        \"han_text\": \"半生踪跡詩為傳到處登臨酒作媒 心35不舜冠那忌諱落無按鈞任孤谐\",\n        \"vietnamese_text\": \"Danh khỏi mang trung đốc; Thi đa tĩnh xứ sinh.\",\n        \"score\": 0.025068865130153002\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 4,\n        \"vi_start\": 3,\n        \"vi_end\": 3,\n        \"han_text\": \"為人最苦是無存孝得還須大眼同\",\n        \"vietnamese_text\": \"Tịch dương hành khách yết; Cổ đạo độc hàm tình.\",\n        \"score\": 0.10488804251105113\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 7,\n        \"vi_start\": 4,\n        \"vi_end\": 4,\n        \"han_text\": \"其詠燕萊塢云錯落人家綠樹曰绿溪分塢各迴字 東南一帶湖事海元北三分埜按山 深洞鱗波漢父醉平原草長牧童閻\",\n        \"vietnamese_text\": \"%Mgồi ở đồng Ngôi đồng khi rảnh việc, Gió mát pháy thánh thơi, Thôn xa rờn bóng trúc; Cây cũ tiếng ue rơi.\",\n        \"score\": 0.2348434157768471\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 9,\n        \"vi_start\": 5,\n        \"vi_end\": 6,\n        \"han_text\": \"白沙翠竹紅塵淨一任迷人自往還 又自作無萊十詠其年湖災月54装波云無爭尾月興誰同独擇長數浩小索金風張實光迷老短揖十合秋色浸孤遂\",\n        \"vietnamese_text\": \"Danh há rộn mà được! Thơ thường tĩnh mới sinh.\",\n        \"score\": 0.017431981565977313\n      },\n      {\n        \"han_start\": 10,\n        \"han_end\": 11,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"戲將沆璧双獄碎醉把流輝心日鑫 一吸空狂甚\",\n        \"vietnamese_text\": \"Xế chiêu hành khách uống, Đường cổ thần thơ tình.\",\n        \"score\": 0.21663222469971477\n      },\n      {\n        \"han_start\": 12,\n        \"han_end\": 12,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"桓我休冷笑塵勞幾得見闲翁\",\n        \"vietnamese_text\": \"6.\",\n        \"score\": -0.0009115072779052687\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 13,\n        \"vi_start\": 9,\n        \"vi_end\": 10,\n        \"han_text\": \"其真痛82朝雲云半久園藥徑闭灵猫獵激草榮来除番不麝香猫看連雲劇顧本穿浮昌雨培拂糧靈花紅上檢遶道伏使出田為葉绿侵麗\",\n        \"vietnamese_text\": \"đritng títu ngẫu lắc Địa tịch nhân gian dạ tự niên, Trung thu nguyệt sắc hdo thu3 liên. Đào Tiềm tửu hậu duy đam thuy, Cô phụ Hàng Nga nhẤt Tych uiên.\",\n        \"score\": 0.16054197209801602\n      },\n      {\n        \"han_start\": 14,\n        \"han_end\": 14,\n        \"vi_start\": 11,\n        \"vi_end\": 11,\n        \"han_text\": \"放鋤辰傍松陰坐野鳥枝頭作意跑\",\n        \"vietnamese_text\": \"Trung thu ngẫu liứng Đất uống nhân gian đêm quá dời.\",\n        \"score\": 0.02852619123969872\n      },\n      {\n        \"han_start\": 15,\n        \"han_end\": 15,\n        \"vi_start\": 12,\n        \"vi_end\": 13,\n        \"han_text\": \"催其沙圃曉行云晴江樹色曉蒼之独步沙汀望渺茫\",\n        \"vietnamese_text\": \"Trung thu trăng đẹp bạn cùng di? Đào Tiềm cạn chén là say ngủ; Riêng phụ Hãng Nga một tôi tròn.\",\n        \"score\": 0.014181500797438506\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 1,
+          "vi_start": 0,
+          "vi_end": 1,
+          "han_text": "星方空落一迂儒四母妙旨憑誰同一貴真傳發独孤善左泣麟知命矣藝狂敬圓說辰乎繼捨用舍非由亦234自是行藏却在吾 其自述云三十六年多堯客愛用罗結屋在無萊",
+          "vietnamese_text": "5, Đã toa Đã toạ duy 0ô sự, Lương phong đăng thúit thanh. Viễn thôn lai trúc sốc; Cao thụ lạc thiên thanh.",
+          "score": 0.09970909632874134
+        },
+        {
+          "han_start": 2,
+          "han_end": 3,
+          "vi_start": 2,
+          "vi_end": 2,
+          "han_text": "半生踪跡詩為傳到處登臨酒作媒 心35不舜冠那忌諱落無按鈞任孤谐",
+          "vietnamese_text": "Danh khỏi mang trung đốc; Thi đa tĩnh xứ sinh.",
+          "score": 0.025068865130153002
+        },
+        {
+          "han_start": 4,
+          "han_end": 4,
+          "vi_start": 3,
+          "vi_end": 3,
+          "han_text": "為人最苦是無存孝得還須大眼同",
+          "vietnamese_text": "Tịch dương hành khách yết; Cổ đạo độc hàm tình.",
+          "score": 0.10488804251105113
+        },
+        {
+          "han_start": 5,
+          "han_end": 7,
+          "vi_start": 4,
+          "vi_end": 4,
+          "han_text": "其詠燕萊塢云錯落人家綠樹曰绿溪分塢各迴字 東南一帶湖事海元北三分埜按山 深洞鱗波漢父醉平原草長牧童閻",
+          "vietnamese_text": "%Mgồi ở đồng Ngôi đồng khi rảnh việc, Gió mát pháy thánh thơi, Thôn xa rờn bóng trúc; Cây cũ tiếng ue rơi.",
+          "score": 0.2348434157768471
+        },
+        {
+          "han_start": 8,
+          "han_end": 9,
+          "vi_start": 5,
+          "vi_end": 6,
+          "han_text": "白沙翠竹紅塵淨一任迷人自往還 又自作無萊十詠其年湖災月54装波云無爭尾月興誰同独擇長數浩小索金風張實光迷老短揖十合秋色浸孤遂",
+          "vietnamese_text": "Danh há rộn mà được! Thơ thường tĩnh mới sinh.",
+          "score": 0.017431981565977313
+        },
+        {
+          "han_start": 10,
+          "han_end": 11,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "戲將沆璧双獄碎醉把流輝心日鑫 一吸空狂甚",
+          "vietnamese_text": "Xế chiêu hành khách uống, Đường cổ thần thơ tình.",
+          "score": 0.21663222469971477
+        },
+        {
+          "han_start": 12,
+          "han_end": 12,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "桓我休冷笑塵勞幾得見闲翁",
+          "vietnamese_text": "6.",
+          "score": -0.0009115072779052687
+        },
+        {
+          "han_start": 13,
+          "han_end": 13,
+          "vi_start": 9,
+          "vi_end": 10,
+          "han_text": "其真痛82朝雲云半久園藥徑闭灵猫獵激草榮来除番不麝香猫看連雲劇顧本穿浮昌雨培拂糧靈花紅上檢遶道伏使出田為葉绿侵麗",
+          "vietnamese_text": "đritng títu ngẫu lắc Địa tịch nhân gian dạ tự niên, Trung thu nguyệt sắc hdo thu3 liên. Đào Tiềm tửu hậu duy đam thuy, Cô phụ Hàng Nga nhẤt Tych uiên.",
+          "score": 0.16054197209801602
+        },
+        {
+          "han_start": 14,
+          "han_end": 14,
+          "vi_start": 11,
+          "vi_end": 11,
+          "han_text": "放鋤辰傍松陰坐野鳥枝頭作意跑",
+          "vietnamese_text": "Trung thu ngẫu liứng Đất uống nhân gian đêm quá dời.",
+          "score": 0.02852619123969872
+        },
+        {
+          "han_start": 15,
+          "han_end": 15,
+          "vi_start": 12,
+          "vi_end": 13,
+          "han_text": "催其沙圃曉行云晴江樹色曉蒼之独步沙汀望渺茫",
+          "vietnamese_text": "Trung thu trăng đẹp bạn cùng di? Đào Tiềm cạn chén là say ngủ; Riêng phụ Hãng Nga một tôi tròn.",
+          "score": 0.014181500797438506
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 1656
+}

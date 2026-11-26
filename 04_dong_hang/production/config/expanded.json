@@ -1,0 +1,1 @@
+{"extends":"current.json","profile":"expanded","mapping_dir":"03_text_sach/artifacts/coarse_mapping_v2","viet_segments":"03_text_sach/artifacts/coarse_mapping_v2/viet_segments_extended.jsonl","workbooks":{"Cap_01":["02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx"],"Cap_02":["02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx","02_ocr_tho/Cap_02/VIET/VIET_0405-0439.xlsx"]}}

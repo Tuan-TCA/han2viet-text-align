@@ -1,0 +1,114 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "654db61a9dc73be3c00efc842e7eb87e65982c1f401a8ba02d0c81587bbe9f3f",
+  "payload": {
+    "han": "七洞一尺七寸長三十他尺\n其從加線把之星好服之三四年始裂\n升華府花洲雷歲納绢稅八百九疋\n礼絹十一疋貯七十函通神善龍以上供孔以饋鎮官亦古意也\n順化錦緣匠不過十餘人照人故出四幅小差遂收入庫\n方綿線價拽九陌李綿絲價接六雨傳綿絲價我五陌亦年年令人代約錢\n其每年正旦知薄猶礼紅嚮一延自綣花歲惡替彻共十六\n每年生日礼同該法贈只有生日礼真金微一疋\n第十七台红方絲一足替五灵白方絲一足五定第廣南嘗有光結匠吳龍約差\n餘嘗新節料花光後四十六疋\n虞義義花步青好社芳尙皆搜另白市一千一百七十五\n富榮縣同寅楊鄉穹年魯生社出\n癸税市安留社出\n紫花黄绢白須\n富榮與浦源匠最工巧花樣疏密殊彩\n同養社婦人多好繡於衣領及衛美囊香茶夢廚川社人\n善藏馬尾帽亡作童圓彩夢將三山八室",
+    "vi": "Trộm ngờ kỳ nam hương tốt nhất tức là hoàng lạp trầm, hạng thứ là loại hoàng trầm.\nHuyện Hương Trà có phường làm nghề dệt hàng tơ ở sau Phủ Cam, phía Đông Nam sông Phú Xuân, về địa phận ba xã Sơn Điền, Dương Xuân, Vạn Xuân, chia làm ba ấp, mỗi ấp mười nhà, mỗi nhà 15 người thợ dệt.\nTổ xa đời của họ Nguyễn là người định Quảng Nam phủ Thăng Hoa, học dệt ở người Bắc khách, đời truyền nghề cho nhau.\nCác hàng vóc, sa, lĩnh, gấm, trừu cải hoa rất khéo.\nỞ Quảng Nam lụa thuế chỉ lấy ở hai phủ Thăng Hoa.\nĐiện Bàn.\nĐến như phủ Phú Yên thì có thợ dệt gọi là đội sa vóc, lệ nộp sai dư 16 tấm 28 thước sa vóc, nộp thay tiền 66 quan 8 tiền. lệ nộp thuế lụa sai dư 36 tấm Có thuộc Hoa Châu thước 3 tấc, thay tiển 218 quan 6 tiền 42 đồng.\nPhủ Quảng Ngãi, huyện Mộ Hoa, xã Long Phượng lệ nộp lụa 2 tấm 7 thước 5 tấc 8 phân, thay tiền 11 quan 2 tiền 38 đồng.\nPhủ Thăng Hoa hàng năm nộp thuế 1.545 tấm.\nPhủ Điện Bàn, huyện Phú Châu hàng năm nộp lụa thuế 2.358 tấm."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 1,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"七洞一尺七寸長三十他尺 其從加線把之星好服之三四年始裂\",\n        \"vietnamese_text\": \"Trộm ngờ kỳ nam hương tốt nhất tức là hoàng lạp trầm, hạng thứ là loại hoàng trầm.\",\n        \"score\": 0.061263741122603306\n      },\n      {\n        \"han_start\": 2,\n        \"han_end\": 4,\n        \"vi_start\": 1,\n        \"vi_end\": 2,\n        \"han_text\": \"升華府花洲雷歲納绢稅八百九疋 礼絹十一疋貯七十函通神善龍以上供孔以饋鎮官亦古意也 順化錦緣匠不過十餘人照人故出四幅小差遂收入庫\",\n        \"vietnamese_text\": \"Huyện Hương Trà có phường làm nghề dệt hàng tơ ở sau Phủ Cam, phía Đông Nam sông Phú Xuân, về địa phận ba xã Sơn Điền, Dương Xuân, Vạn Xuân, chia làm ba ấp, mỗi ấp mười nhà, mỗi nhà 15 người thợ dệt. Tổ xa đời của họ Nguyễn là người định Quảng Nam phủ Thăng Hoa, học dệt ở người Bắc khách, đời truyền nghề cho nhau.\",\n        \"score\": 0.11011951146509975\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 5,\n        \"vi_start\": 3,\n        \"vi_end\": 4,\n        \"han_text\": \"方綿線價拽九陌李綿絲價接六雨傳綿絲價我五陌亦年年令人代約錢\",\n        \"vietnamese_text\": \"Các hàng vóc, sa, lĩnh, gấm, trừu cải hoa rất khéo. Ở Quảng Nam lụa thuế chỉ lấy ở hai phủ Thăng Hoa.\",\n        \"score\": 0.19859959786406992\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 6,\n        \"vi_start\": 5,\n        \"vi_end\": 5,\n        \"han_text\": \"其每年正旦知薄猶礼紅嚮一延自綣花歲惡替彻共十六\",\n        \"vietnamese_text\": \"Điện Bàn.\",\n        \"score\": -0.03445097687448555\n      },\n      {\n        \"han_start\": 7,\n        \"han_end\": 9,\n        \"vi_start\": 6,\n        \"vi_end\": 7,\n        \"han_text\": \"每年生日礼同該法贈只有生日礼真金微一疋 第十七台红方絲一足替五灵白方絲一足五定第廣南嘗有光結匠吳龍約差 餘嘗新節料花光後四十六疋\",\n        \"vietnamese_text\": \"Đến như phủ Phú Yên thì có thợ dệt gọi là đội sa vóc, lệ nộp sai dư 16 tấm 28 thước sa vóc, nộp thay tiền 66 quan 8 tiền. lệ nộp thuế lụa sai dư 36 tấm Có thuộc Hoa Châu thước 3 tấc, thay tiển 218 quan 6 tiền 42 đồng.\",\n        \"score\": 0.17351321726048613\n      },\n      {\n        \"han_start\": 10,\n        \"han_end\": 11,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"虞義義花步青好社芳尙皆搜另白市一千一百七十五 富榮縣同寅楊鄉穹年魯生社出\",\n        \"vietnamese_text\": \"Phủ Quảng Ngãi, huyện Mộ Hoa, xã Long Phượng lệ nộp lụa 2 tấm 7 thước 5 tấc 8 phân, thay tiền 11 quan 2 tiền 38 đồng.\",\n        \"score\": 0.20413125947749194\n      },\n      {\n        \"han_start\": 12,\n        \"han_end\": 12,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"癸税市安留社出\",\n        \"vietnamese_text\": \"Phủ Thăng Hoa hàng năm nộp thuế 1.\",\n        \"score\": 0.10199976241027142\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 13,\n        \"vi_start\": 10,\n        \"vi_end\": 10,\n        \"han_text\": \"紫花黄绢白須\",\n        \"vietnamese_text\": \"545 tấm.\",\n        \"score\": 0.012656328571450172\n      },\n      {\n        \"han_start\": 14,\n        \"han_end\": 14,\n        \"vi_start\": 11,\n        \"vi_end\": 11,\n        \"han_text\": \"富榮與浦源匠最工巧花樣疏密殊彩\",\n        \"vietnamese_text\": \"Phủ Điện Bàn, huyện Phú Châu hàng năm nộp lụa thuế 2.\",\n        \"score\": 0.12042778595435023\n      },\n      {\n        \"han_start\": 15,\n        \"han_end\": 16,\n        \"vi_start\": 12,\n        \"vi_end\": 12,\n        \"han_text\": \"同養社婦人多好繡於衣領及衛美囊香茶夢廚川社人 善藏馬尾帽亡作童圓彩夢將三山八室\",\n        \"vietnamese_text\": \"358 tấm.\",\n        \"score\": -0.010474974010225515\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 1,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "七洞一尺七寸長三十他尺 其從加線把之星好服之三四年始裂",
+          "vietnamese_text": "Trộm ngờ kỳ nam hương tốt nhất tức là hoàng lạp trầm, hạng thứ là loại hoàng trầm.",
+          "score": 0.061263741122603306
+        },
+        {
+          "han_start": 2,
+          "han_end": 4,
+          "vi_start": 1,
+          "vi_end": 2,
+          "han_text": "升華府花洲雷歲納绢稅八百九疋 礼絹十一疋貯七十函通神善龍以上供孔以饋鎮官亦古意也 順化錦緣匠不過十餘人照人故出四幅小差遂收入庫",
+          "vietnamese_text": "Huyện Hương Trà có phường làm nghề dệt hàng tơ ở sau Phủ Cam, phía Đông Nam sông Phú Xuân, về địa phận ba xã Sơn Điền, Dương Xuân, Vạn Xuân, chia làm ba ấp, mỗi ấp mười nhà, mỗi nhà 15 người thợ dệt. Tổ xa đời của họ Nguyễn là người định Quảng Nam phủ Thăng Hoa, học dệt ở người Bắc khách, đời truyền nghề cho nhau.",
+          "score": 0.11011951146509975
+        },
+        {
+          "han_start": 5,
+          "han_end": 5,
+          "vi_start": 3,
+          "vi_end": 4,
+          "han_text": "方綿線價拽九陌李綿絲價接六雨傳綿絲價我五陌亦年年令人代約錢",
+          "vietnamese_text": "Các hàng vóc, sa, lĩnh, gấm, trừu cải hoa rất khéo. Ở Quảng Nam lụa thuế chỉ lấy ở hai phủ Thăng Hoa.",
+          "score": 0.19859959786406992
+        },
+        {
+          "han_start": 6,
+          "han_end": 6,
+          "vi_start": 5,
+          "vi_end": 5,
+          "han_text": "其每年正旦知薄猶礼紅嚮一延自綣花歲惡替彻共十六",
+          "vietnamese_text": "Điện Bàn.",
+          "score": -0.03445097687448555
+        },
+        {
+          "han_start": 7,
+          "han_end": 9,
+          "vi_start": 6,
+          "vi_end": 7,
+          "han_text": "每年生日礼同該法贈只有生日礼真金微一疋 第十七台红方絲一足替五灵白方絲一足五定第廣南嘗有光結匠吳龍約差 餘嘗新節料花光後四十六疋",
+          "vietnamese_text": "Đến như phủ Phú Yên thì có thợ dệt gọi là đội sa vóc, lệ nộp sai dư 16 tấm 28 thước sa vóc, nộp thay tiền 66 quan 8 tiền. lệ nộp thuế lụa sai dư 36 tấm Có thuộc Hoa Châu thước 3 tấc, thay tiển 218 quan 6 tiền 42 đồng.",
+          "score": 0.17351321726048613
+        },
+        {
+          "han_start": 10,
+          "han_end": 11,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "虞義義花步青好社芳尙皆搜另白市一千一百七十五 富榮縣同寅楊鄉穹年魯生社出",
+          "vietnamese_text": "Phủ Quảng Ngãi, huyện Mộ Hoa, xã Long Phượng lệ nộp lụa 2 tấm 7 thước 5 tấc 8 phân, thay tiền 11 quan 2 tiền 38 đồng.",
+          "score": 0.20413125947749194
+        },
+        {
+          "han_start": 12,
+          "han_end": 12,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "癸税市安留社出",
+          "vietnamese_text": "Phủ Thăng Hoa hàng năm nộp thuế 1.",
+          "score": 0.10199976241027142
+        },
+        {
+          "han_start": 13,
+          "han_end": 13,
+          "vi_start": 10,
+          "vi_end": 10,
+          "han_text": "紫花黄绢白須",
+          "vietnamese_text": "545 tấm.",
+          "score": 0.012656328571450172
+        },
+        {
+          "han_start": 14,
+          "han_end": 14,
+          "vi_start": 11,
+          "vi_end": 11,
+          "han_text": "富榮與浦源匠最工巧花樣疏密殊彩",
+          "vietnamese_text": "Phủ Điện Bàn, huyện Phú Châu hàng năm nộp lụa thuế 2.",
+          "score": 0.12042778595435023
+        },
+        {
+          "han_start": 15,
+          "han_end": 16,
+          "vi_start": 12,
+          "vi_end": 12,
+          "han_text": "同養社婦人多好繡於衣領及衛美囊香茶夢廚川社人 善藏馬尾帽亡作童圓彩夢將三山八室",
+          "vietnamese_text": "358 tấm.",
+          "score": -0.010474974010225515
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 5891
+}

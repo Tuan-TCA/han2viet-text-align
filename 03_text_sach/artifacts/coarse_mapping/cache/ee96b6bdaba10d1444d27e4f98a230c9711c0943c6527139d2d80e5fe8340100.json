@@ -1,0 +1,114 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "ee96b6bdaba10d1444d27e4f98a230c9711c0943c6527139d2d80e5fe8340100",
+  "payload": {
+    "han": "夫尾之為物者無其質而有其柔\n竹之焉物者有其質而無其心故竹因尼而成兹\n是以尾未則鳴尾去則止\n凡之大者見大鳴尼之小者則小鳴\n是乃其鳴在乎尾而不在乎竹也竹之本如也\n至如高此觀淚爽必意冷隱如奔潦游口徐行珮遠夫悉亡關俗清2可滌頗食亦金\n寫而不竭者亦在乎心石妙應乎尼之雄牲\n其所以暢發天機悠揚真韻亦在乎咱者之自得而雅醇疵則於竹化無焉\n竹乎竹乎善有取於竹妄其一友人升華潤川阮蒼浩序之曰夢物主聲霧矣有出於繁元\n元聲者天聲也繁走者人聲也\n故人声且有邪正之辨而天聲則無邪正之小焉\n夫人声而求天聲之正者翕純微\n繹宮商安秦而條理精然不錯苦笑惡焉\n融物成詩而性惟若得其正此人之天也\n若其衰而至於傷步而至於淫四外上秦音此人之人也\n至於天声托於物三司然四經世聲松志春鳥声秋空聲蕉雨聲\n竹尾聲音韻麟魚品調暢聆之者令人有野鶴之還心\n孤雲之喜思其孫竹繁声矣帝天壤者已云\n吾友晉江吳君完璞初習辰文老上於诗既",
+    "vi": "Ái nhèn kết ốG tại Vụ Lai.\nBản sùuh tung tích thì 0L bạn; Đóáo xứ đăng lâm tửu tác môi.\nTâm bất đàn quan na RẰy uý; Hữu uô an hiểm nhiệm bhôit hòi.\nVị nhân tối khổ thị uô học.\nHọc đắc hoàn tu đại nhãn khai.\nThuật chuyện mình Băm sáu tuổi, thân nhiều bệnh tật.\nLĩa nhàn ở đậu tại Vụ Tai.\nNứữa đời tung tích thơ là bạn; Đến chôn đăng lâm rượu ấy tình.\nLòng không phúi mũ ~Iị! ”, sao hiêng sợ; Bạn chẳng rút gươm”' cứ cợt đùa.\nLàm người khổ nhốt là không học.\nHọc được phối còn mở mắt ru.\n4u Cai ổ Thác lạc nhân gia lục thụ gian.\nLục bhê phân ổ các hồ hoàn.\nĐông nam nhất đới hồi liên hai; Tây bắc tam phân lộc tiếp san.\nThâm giản lư phì ngư phủ tuý; Bình nguyên thao trưởng mục đồng nhàn.\nBạch sa thuy trúc hồng trần tĩnh."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 1,\n        \"vi_start\": 2,\n        \"vi_end\": 3,\n        \"han_text\": \"夫尾之為物者無其質而有其柔 竹之焉物者有其質而無其心故竹因尼而成兹\",\n        \"vietnamese_text\": \"Tâm bất đàn quan na RẰy uý; Hữu uô an hiểm nhiệm bhôit hòi. Vị nhân tối khổ thị uô học.\",\n        \"score\": 0.28802466270732957\n      },\n      {\n        \"han_start\": 2,\n        \"han_end\": 3,\n        \"vi_start\": 4,\n        \"vi_end\": 5,\n        \"han_text\": \"是以尾未則鳴尾去則止 凡之大者見大鳴尼之小者則小鳴\",\n        \"vietnamese_text\": \"Học đắc hoàn tu đại nhãn khai. Thuật chuyện mình Băm sáu tuổi, thân nhiều bệnh tật.\",\n        \"score\": 0.10573836077256177\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 4,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"是乃其鳴在乎尾而不在乎竹也竹之本如也\",\n        \"vietnamese_text\": \"Lĩa nhàn ở đậu tại Vụ Tai.\",\n        \"score\": 0.13934633238632446\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 5,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"至如高此觀淚爽必意冷隱如奔潦游口徐行珮遠夫悉亡關俗清2可滌頗食亦金\",\n        \"vietnamese_text\": \"Nứữa đời tung tích thơ là bạn; Đến chôn đăng lâm rượu ấy tình.\",\n        \"score\": 0.1480762461699829\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 6,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"寫而不竭者亦在乎心石妙應乎尼之雄牲\",\n        \"vietnamese_text\": \"Lòng không phúi mũ ~Iị!\",\n        \"score\": 0.08927913014139945\n      },\n      {\n        \"han_start\": 7,\n        \"han_end\": 7,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"其所以暢發天機悠揚真韻亦在乎咱者之自得而雅醇疵則於竹化無焉\",\n        \"vietnamese_text\": \"”, sao hiêng sợ; Bạn chẳng rút gươm”' cứ cợt đùa.\",\n        \"score\": 0.033456228532780616\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 10,\n        \"vi_start\": 10,\n        \"vi_end\": 10,\n        \"han_text\": \"竹乎竹乎善有取於竹妄其一友人升華潤川阮蒼浩序之曰夢物主聲霧矣有出於繁元 元聲者天聲也繁走者人聲也 故人声且有邪正之辨而天聲則無邪正之小焉\",\n        \"vietnamese_text\": \"Làm người khổ nhốt là không học.\",\n        \"score\": 0.018255588219897846\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 13,\n        \"vi_start\": 11,\n        \"vi_end\": 11,\n        \"han_text\": \"夫人声而求天聲之正者翕純微 繹宮商安秦而條理精然不錯苦笑惡焉 融物成詩而性惟若得其正此人之天也\",\n        \"vietnamese_text\": \"Học được phối còn mở mắt ru.\",\n        \"score\": -0.02039519521135052\n      },\n      {\n        \"han_start\": 14,\n        \"han_end\": 15,\n        \"vi_start\": 12,\n        \"vi_end\": 14,\n        \"han_text\": \"若其衰而至於傷步而至於淫四外上秦音此人之人也 至於天声托於物三司然四經世聲松志春鳥声秋空聲蕉雨聲\",\n        \"vietnamese_text\": \"4u Cai ổ Thác lạc nhân gia lục thụ gian. Lục bhê phân ổ các hồ hoàn. Đông nam nhất đới hồi liên hai; Tây bắc tam phân lộc tiếp san.\",\n        \"score\": 0.23892846805919601\n      },\n      {\n        \"han_start\": 16,\n        \"han_end\": 18,\n        \"vi_start\": 15,\n        \"vi_end\": 16,\n        \"han_text\": \"竹尾聲音韻麟魚品調暢聆之者令人有野鶴之還心 孤雲之喜思其孫竹繁声矣帝天壤者已云 吾友晉江吳君完璞初習辰文老上於诗既\",\n        \"vietnamese_text\": \"Thâm giản lư phì ngư phủ tuý; Bình nguyên thao trưởng mục đồng nhàn. Bạch sa thuy trúc hồng trần tĩnh.\",\n        \"score\": 0.19329670881381808\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 1,
+          "vi_start": 2,
+          "vi_end": 3,
+          "han_text": "夫尾之為物者無其質而有其柔 竹之焉物者有其質而無其心故竹因尼而成兹",
+          "vietnamese_text": "Tâm bất đàn quan na RẰy uý; Hữu uô an hiểm nhiệm bhôit hòi. Vị nhân tối khổ thị uô học.",
+          "score": 0.28802466270732957
+        },
+        {
+          "han_start": 2,
+          "han_end": 3,
+          "vi_start": 4,
+          "vi_end": 5,
+          "han_text": "是以尾未則鳴尾去則止 凡之大者見大鳴尼之小者則小鳴",
+          "vietnamese_text": "Học đắc hoàn tu đại nhãn khai. Thuật chuyện mình Băm sáu tuổi, thân nhiều bệnh tật.",
+          "score": 0.10573836077256177
+        },
+        {
+          "han_start": 4,
+          "han_end": 4,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "是乃其鳴在乎尾而不在乎竹也竹之本如也",
+          "vietnamese_text": "Lĩa nhàn ở đậu tại Vụ Tai.",
+          "score": 0.13934633238632446
+        },
+        {
+          "han_start": 5,
+          "han_end": 5,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "至如高此觀淚爽必意冷隱如奔潦游口徐行珮遠夫悉亡關俗清2可滌頗食亦金",
+          "vietnamese_text": "Nứữa đời tung tích thơ là bạn; Đến chôn đăng lâm rượu ấy tình.",
+          "score": 0.1480762461699829
+        },
+        {
+          "han_start": 6,
+          "han_end": 6,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "寫而不竭者亦在乎心石妙應乎尼之雄牲",
+          "vietnamese_text": "Lòng không phúi mũ ~Iị!",
+          "score": 0.08927913014139945
+        },
+        {
+          "han_start": 7,
+          "han_end": 7,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "其所以暢發天機悠揚真韻亦在乎咱者之自得而雅醇疵則於竹化無焉",
+          "vietnamese_text": "”, sao hiêng sợ; Bạn chẳng rút gươm”' cứ cợt đùa.",
+          "score": 0.033456228532780616
+        },
+        {
+          "han_start": 8,
+          "han_end": 10,
+          "vi_start": 10,
+          "vi_end": 10,
+          "han_text": "竹乎竹乎善有取於竹妄其一友人升華潤川阮蒼浩序之曰夢物主聲霧矣有出於繁元 元聲者天聲也繁走者人聲也 故人声且有邪正之辨而天聲則無邪正之小焉",
+          "vietnamese_text": "Làm người khổ nhốt là không học.",
+          "score": 0.018255588219897846
+        },
+        {
+          "han_start": 11,
+          "han_end": 13,
+          "vi_start": 11,
+          "vi_end": 11,
+          "han_text": "夫人声而求天聲之正者翕純微 繹宮商安秦而條理精然不錯苦笑惡焉 融物成詩而性惟若得其正此人之天也",
+          "vietnamese_text": "Học được phối còn mở mắt ru.",
+          "score": -0.02039519521135052
+        },
+        {
+          "han_start": 14,
+          "han_end": 15,
+          "vi_start": 12,
+          "vi_end": 14,
+          "han_text": "若其衰而至於傷步而至於淫四外上秦音此人之人也 至於天声托於物三司然四經世聲松志春鳥声秋空聲蕉雨聲",
+          "vietnamese_text": "4u Cai ổ Thác lạc nhân gia lục thụ gian. Lục bhê phân ổ các hồ hoàn. Đông nam nhất đới hồi liên hai; Tây bắc tam phân lộc tiếp san.",
+          "score": 0.23892846805919601
+        },
+        {
+          "han_start": 16,
+          "han_end": 18,
+          "vi_start": 15,
+          "vi_end": 16,
+          "han_text": "竹尾聲音韻麟魚品調暢聆之者令人有野鶴之還心 孤雲之喜思其孫竹繁声矣帝天壤者已云 吾友晉江吳君完璞初習辰文老上於诗既",
+          "vietnamese_text": "Thâm giản lư phì ngư phủ tuý; Bình nguyên thao trưởng mục đồng nhàn. Bạch sa thuy trúc hồng trần tĩnh.",
+          "score": 0.19329670881381808
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 3469
+}

@@ -1,0 +1,96 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "792527e3feaa50c547579f8da810f9276d910e0c5ceb9f4514f18862ca5f3114",
+  "payload": {
+    "han": "解朝歌之錯節誠貞自古可見于念後\n我后來其家情化之頡黎客定望慈母而龍哺者\n南之赤子猶貴惟亡治其未治而平所未平\n必待買謂大買而任所大任恭惟長官罔下唐科早占卢陸高陞\n山斗望隆翕宗中之擠目海0河量廣契野外之該心\n世纘箕書家傳同圓產周出使播上之英名秘周谨半沐皇朝之異眷\n此在朝既豐於治鄙\n何進義明君以一方蕩定之餘要走未安於為澤\n故長官任千里生辰之家牛刀嘗許于烏世未旗方到寬無紫陌\n咸字度質小生知慚靈潤才匪鵬據錯操離自愧淺臣狹字泮敢忘素茶前程俯裏文薩仰承蒙首朝許管員準孫稅得其免半\n奈仕途窘室為惡道之榆柳家計羊條歎壯士之題色\n自此薩群肆墨攜幼索居\n四十六之春秋未成一事寶餘年之燈火\n空庚半金更費兵華三孫應切飢\n寶之若不圓今日復親後官\n敢竭寅賒冒干丙鑒伏象伏辰化成俗\n為政得人偏方之末習港說帝要條而影葉置巷之遺蔡直播施",
+    "vi": "Lại có Mai Chiêu Tư người làng Dương Xuân, buyện Hương Trà, có bài văn mừng cũng nghe được: \"Cúi thấy: Cửa Bắc trời cao, đợi mệnh rồng vâng trọng thác; sông Nam đất ngái, ngậm chỉ phượng để tuyên dương.\nHang tối sinh hương; rừng nho dấy sắc.\nTrộm nghĩ, đạo đời vất vả, giúp đỡ nên dựng lấy nước hầu; vận trời tối đen, tháo vát phải nhờ tay quân tử, Tượng dịch” đã rõ, rùa?” trước nên soi.\nCung thái thú? làm việc tiện nghỉ, gõ Bột Hải gặp cơn rối loạn.\nNgu tướng quân\"? dựng công dẹp giặc, chặt Triều Ca thớ quánh rễ bền.\nThử xem từ trước, mới thấy ngày nay.\nSống lại phải mong vua, đất Thuận Hoá dân đen vừa định; bú mớm còn nhờ mẹ, miền Quảng Nam con đỏ còn nhao.\nDuy muốn trị được chỗ chưa trị, bình được chỗ chưa bình, thì phải đợi hiển là bậc đại hiển, mà nhiệm đúng người đại nhiệm.\nKính thấy trưởng quan các hạ, Đường khoa” sớm đậu, Ngu bệ lên cao.\nSơn đấu” ngôi trên, khắp trong cõi người đều lau mắt; hải hà lượng rộng, cả bốn phương ai cũng vui lòng."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 0,\n        \"vi_start\": 0,\n        \"vi_end\": 1,\n        \"han_text\": \"解朝歌之錯節誠貞自古可見于念後\",\n        \"vietnamese_text\": \"Lại có Mai Chiêu Tư người làng Dương Xuân, buyện Hương Trà, có bài văn mừng cũng nghe được: \\\"Cúi thấy: Cửa Bắc trời cao, đợi mệnh rồng vâng trọng thác; sông Nam đất ngái, ngậm chỉ phượng để tuyên dương. Hang tối sinh hương; rừng nho dấy sắc.\",\n        \"score\": -0.0003558347074754502\n      },\n      {\n        \"han_start\": 1,\n        \"han_end\": 2,\n        \"vi_start\": 2,\n        \"vi_end\": 2,\n        \"han_text\": \"我后來其家情化之頡黎客定望慈母而龍哺者 南之赤子猶貴惟亡治其未治而平所未平\",\n        \"vietnamese_text\": \"Trộm nghĩ, đạo đời vất vả, giúp đỡ nên dựng lấy nước hầu; vận trời tối đen, tháo vát phải nhờ tay quân tử, Tượng dịch” đã rõ, rùa?\",\n        \"score\": 0.10099623889505882\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 4,\n        \"vi_start\": 3,\n        \"vi_end\": 5,\n        \"han_text\": \"必待買謂大買而任所大任恭惟長官罔下唐科早占卢陸高陞 山斗望隆翕宗中之擠目海0河量廣契野外之該心\",\n        \"vietnamese_text\": \"” trước nên soi. Cung thái thú? làm việc tiện nghỉ, gõ Bột Hải gặp cơn rối loạn.\",\n        \"score\": 0.07870814106297111\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 5,\n        \"vi_start\": 6,\n        \"vi_end\": 7,\n        \"han_text\": \"世纘箕書家傳同圓產周出使播上之英名秘周谨半沐皇朝之異眷\",\n        \"vietnamese_text\": \"Ngu tướng quân\\\"? dựng công dẹp giặc, chặt Triều Ca thớ quánh rễ bền.\",\n        \"score\": 0.11392212788724634\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 6,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"此在朝既豐於治鄙\",\n        \"vietnamese_text\": \"Thử xem từ trước, mới thấy ngày nay.\",\n        \"score\": -0.012348155092179475\n      },\n      {\n        \"han_start\": 7,\n        \"han_end\": 8,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"何進義明君以一方蕩定之餘要走未安於為澤 故長官任千里生辰之家牛刀嘗許于烏世未旗方到寬無紫陌\",\n        \"vietnamese_text\": \"Sống lại phải mong vua, đất Thuận Hoá dân đen vừa định; bú mớm còn nhờ mẹ, miền Quảng Nam con đỏ còn nhao.\",\n        \"score\": 0.17648742094260508\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 11,\n        \"vi_start\": 10,\n        \"vi_end\": 11,\n        \"han_text\": \"咸字度質小生知慚靈潤才匪鵬據錯操離自愧淺臣狹字泮敢忘素茶前程俯裏文薩仰承蒙首朝許管員準孫稅得其免半 奈仕途窘室為惡道之榆柳家計羊條歎壯士之題色 自此薩群肆墨攜幼索居\",\n        \"vietnamese_text\": \"Duy muốn trị được chỗ chưa trị, bình được chỗ chưa bình, thì phải đợi hiển là bậc đại hiển, mà nhiệm đúng người đại nhiệm. Kính thấy trưởng quan các hạ, Đường khoa” sớm đậu, Ngu bệ lên cao.\",\n        \"score\": 0.16591168650960794\n      },\n      {\n        \"han_start\": 12,\n        \"han_end\": 15,\n        \"vi_start\": 12,\n        \"vi_end\": 12,\n        \"han_text\": \"四十六之春秋未成一事寶餘年之燈火 空庚半金更費兵華三孫應切飢 寶之若不圓今日復親後官 敢竭寅賒冒干丙鑒伏象伏辰化成俗\",\n        \"vietnamese_text\": \"Sơn đấu” ngôi trên, khắp trong cõi người đều lau mắt; hải hà lượng rộng, cả bốn phương ai cũng vui lòng.\",\n        \"score\": 0.05806221315232718\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 0,
+          "vi_start": 0,
+          "vi_end": 1,
+          "han_text": "解朝歌之錯節誠貞自古可見于念後",
+          "vietnamese_text": "Lại có Mai Chiêu Tư người làng Dương Xuân, buyện Hương Trà, có bài văn mừng cũng nghe được: \"Cúi thấy: Cửa Bắc trời cao, đợi mệnh rồng vâng trọng thác; sông Nam đất ngái, ngậm chỉ phượng để tuyên dương. Hang tối sinh hương; rừng nho dấy sắc.",
+          "score": -0.0003558347074754502
+        },
+        {
+          "han_start": 1,
+          "han_end": 2,
+          "vi_start": 2,
+          "vi_end": 2,
+          "han_text": "我后來其家情化之頡黎客定望慈母而龍哺者 南之赤子猶貴惟亡治其未治而平所未平",
+          "vietnamese_text": "Trộm nghĩ, đạo đời vất vả, giúp đỡ nên dựng lấy nước hầu; vận trời tối đen, tháo vát phải nhờ tay quân tử, Tượng dịch” đã rõ, rùa?",
+          "score": 0.10099623889505882
+        },
+        {
+          "han_start": 3,
+          "han_end": 4,
+          "vi_start": 3,
+          "vi_end": 5,
+          "han_text": "必待買謂大買而任所大任恭惟長官罔下唐科早占卢陸高陞 山斗望隆翕宗中之擠目海0河量廣契野外之該心",
+          "vietnamese_text": "” trước nên soi. Cung thái thú? làm việc tiện nghỉ, gõ Bột Hải gặp cơn rối loạn.",
+          "score": 0.07870814106297111
+        },
+        {
+          "han_start": 5,
+          "han_end": 5,
+          "vi_start": 6,
+          "vi_end": 7,
+          "han_text": "世纘箕書家傳同圓產周出使播上之英名秘周谨半沐皇朝之異眷",
+          "vietnamese_text": "Ngu tướng quân\"? dựng công dẹp giặc, chặt Triều Ca thớ quánh rễ bền.",
+          "score": 0.11392212788724634
+        },
+        {
+          "han_start": 6,
+          "han_end": 6,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "此在朝既豐於治鄙",
+          "vietnamese_text": "Thử xem từ trước, mới thấy ngày nay.",
+          "score": -0.012348155092179475
+        },
+        {
+          "han_start": 7,
+          "han_end": 8,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "何進義明君以一方蕩定之餘要走未安於為澤 故長官任千里生辰之家牛刀嘗許于烏世未旗方到寬無紫陌",
+          "vietnamese_text": "Sống lại phải mong vua, đất Thuận Hoá dân đen vừa định; bú mớm còn nhờ mẹ, miền Quảng Nam con đỏ còn nhao.",
+          "score": 0.17648742094260508
+        },
+        {
+          "han_start": 9,
+          "han_end": 11,
+          "vi_start": 10,
+          "vi_end": 11,
+          "han_text": "咸字度質小生知慚靈潤才匪鵬據錯操離自愧淺臣狹字泮敢忘素茶前程俯裏文薩仰承蒙首朝許管員準孫稅得其免半 奈仕途窘室為惡道之榆柳家計羊條歎壯士之題色 自此薩群肆墨攜幼索居",
+          "vietnamese_text": "Duy muốn trị được chỗ chưa trị, bình được chỗ chưa bình, thì phải đợi hiển là bậc đại hiển, mà nhiệm đúng người đại nhiệm. Kính thấy trưởng quan các hạ, Đường khoa” sớm đậu, Ngu bệ lên cao.",
+          "score": 0.16591168650960794
+        },
+        {
+          "han_start": 12,
+          "han_end": 15,
+          "vi_start": 12,
+          "vi_end": 12,
+          "han_text": "四十六之春秋未成一事寶餘年之燈火 空庚半金更費兵華三孫應切飢 寶之若不圓今日復親後官 敢竭寅賒冒干丙鑒伏象伏辰化成俗",
+          "vietnamese_text": "Sơn đấu” ngôi trên, khắp trong cõi người đều lau mắt; hải hà lượng rộng, cả bốn phương ai cũng vui lòng.",
+          "score": 0.05806221315232718
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 5938
+}

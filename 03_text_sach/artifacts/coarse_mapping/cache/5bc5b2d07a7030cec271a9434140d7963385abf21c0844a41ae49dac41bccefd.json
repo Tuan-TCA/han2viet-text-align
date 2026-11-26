@@ -1,0 +1,96 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "5bc5b2d07a7030cec271a9434140d7963385abf21c0844a41ae49dac41bccefd",
+  "payload": {
+    "han": "上御里爾浮雲\n梅亭趙臨祥錄\n又文物皇冊盛声名海外揚\n孝開儲海水義府儀宮牆\n特幸珪璋器德容礼法陽\n無穷許月旦此處定行蕭\n又甕靈香膠熟雲中湛露新\n雜紅傳綺席蟻綠献佳辰\n親報尊三43爵言歡正再旬\n兒能方上壽扆陛夢年春\n中原臣立延橙候錄又為爾座秀遠應憐曲徑長\n紆迴山葉拖運盡竹沿墻鶴步苔痕合春来花金香\n梅榴流水外別有讀書堂\n中原兵廷揆時錄景興三十五年甲午十月\n王師南伐上將縣公過河傳檄順化廣南二處曰\n大君有命用昭除暴之仁長子帥師事繹報言之義\n無華本非得已奸惡在所必誅\n雍國蒙奄有輿因光隱辛土\n顧此順產之地亦在封域之中\n自端國公以勲廟大臣奉先產祖委方卅重任修憲\n曾經累世無事百有餘色素卦天意降灾書此權臣壽制彼左相張福垂者\n斗首小卷悉蛾邪心蜜緣固園之親叨窃機樞之任\n崇信奸慮隋害忠良\n離首間親專為植党之計招權納關自嘗肥己之謀",
+    "vi": "Nghe thuyết không tang phép; Man Đà lại mưa hoa.\nNộn liêu bích như yên, Xuân lưu uyển chuyển diên.\nĐê thuỳ kứm kính bạn; Tò phút ngọc hiểu biên.\nMi tế bơ trung hoa; Yêu khinh phong lý hoàn.\nChương đài thiên uạn thụ; Duy nhĩ mộc ân tiên.\n(Trung nguyên Trần Khâu Kiến Quỹ bái lục).\n@ịch) Liêu non màu bhói biếc; Dòng xuân uốn lượn quanh.\nRủ xuống bờ nước gương; Phất phơ bên cầu ngọc.\nMày (liễu) uẽ trong sóng; Lưng (liễu) uốn trước gió.\nChương đài muôn ngàn cây, hiêng ngươi được ơn trước."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 3,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"上御里爾浮雲 梅亭趙臨祥錄 又文物皇冊盛声名海外揚 孝開儲海水義府儀宮牆\",\n        \"vietnamese_text\": \"Nghe thuyết không tang phép; Man Đà lại mưa hoa.\",\n        \"score\": 0.009299920480105198\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 5,\n        \"vi_start\": 1,\n        \"vi_end\": 1,\n        \"han_text\": \"特幸珪璋器德容礼法陽 無穷許月旦此處定行蕭\",\n        \"vietnamese_text\": \"Nộn liêu bích như yên, Xuân lưu uyển chuyển diên.\",\n        \"score\": 0.08882145634968887\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 8,\n        \"vi_start\": 2,\n        \"vi_end\": 3,\n        \"han_text\": \"又甕靈香膠熟雲中湛露新 雜紅傳綺席蟻綠献佳辰 親報尊三43爵言歡正再旬\",\n        \"vietnamese_text\": \"Đê thuỳ kứm kính bạn; Tò phút ngọc hiểu biên. Mi tế bơ trung hoa; Yêu khinh phong lý hoàn.\",\n        \"score\": 0.023077442447256225\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 10,\n        \"vi_start\": 4,\n        \"vi_end\": 4,\n        \"han_text\": \"兒能方上壽扆陛夢年春 中原臣立延橙候錄又為爾座秀遠應憐曲徑長\",\n        \"vietnamese_text\": \"Chương đài thiên uạn thụ; Duy nhĩ mộc ân tiên.\",\n        \"score\": 0.23684147479491408\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 13,\n        \"vi_start\": 5,\n        \"vi_end\": 6,\n        \"han_text\": \"紆迴山葉拖運盡竹沿墻鶴步苔痕合春来花金香 梅榴流水外別有讀書堂 中原兵廷揆時錄景興三十五年甲午十月\",\n        \"vietnamese_text\": \"(Trung nguyên Trần Khâu Kiến Quỹ bái lục). @ịch) Liêu non màu bhói biếc; Dòng xuân uốn lượn quanh.\",\n        \"score\": 0.03152908411709971\n      },\n      {\n        \"han_start\": 14,\n        \"han_end\": 15,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"王師南伐上將縣公過河傳檄順化廣南二處曰 大君有命用昭除暴之仁長子帥師事繹報言之義\",\n        \"vietnamese_text\": \"Rủ xuống bờ nước gương; Phất phơ bên cầu ngọc.\",\n        \"score\": 0.08572597296162\n      },\n      {\n        \"han_start\": 16,\n        \"han_end\": 19,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"無華本非得已奸惡在所必誅 雍國蒙奄有輿因光隱辛土 顧此順產之地亦在封域之中 自端國公以勲廟大臣奉先產祖委方卅重任修憲\",\n        \"vietnamese_text\": \"Mày (liễu) uẽ trong sóng; Lưng (liễu) uốn trước gió.\",\n        \"score\": -0.039833381079705826\n      },\n      {\n        \"han_start\": 20,\n        \"han_end\": 23,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"曾經累世無事百有餘色素卦天意降灾書此權臣壽制彼左相張福垂者 斗首小卷悉蛾邪心蜜緣固園之親叨窃機樞之任 崇信奸慮隋害忠良 離首間親專為植党之計招權納關自嘗肥己之謀\",\n        \"vietnamese_text\": \"Chương đài muôn ngàn cây, hiêng ngươi được ơn trước.\",\n        \"score\": 0.051149154129961245\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 3,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "上御里爾浮雲 梅亭趙臨祥錄 又文物皇冊盛声名海外揚 孝開儲海水義府儀宮牆",
+          "vietnamese_text": "Nghe thuyết không tang phép; Man Đà lại mưa hoa.",
+          "score": 0.009299920480105198
+        },
+        {
+          "han_start": 4,
+          "han_end": 5,
+          "vi_start": 1,
+          "vi_end": 1,
+          "han_text": "特幸珪璋器德容礼法陽 無穷許月旦此處定行蕭",
+          "vietnamese_text": "Nộn liêu bích như yên, Xuân lưu uyển chuyển diên.",
+          "score": 0.08882145634968887
+        },
+        {
+          "han_start": 6,
+          "han_end": 8,
+          "vi_start": 2,
+          "vi_end": 3,
+          "han_text": "又甕靈香膠熟雲中湛露新 雜紅傳綺席蟻綠献佳辰 親報尊三43爵言歡正再旬",
+          "vietnamese_text": "Đê thuỳ kứm kính bạn; Tò phút ngọc hiểu biên. Mi tế bơ trung hoa; Yêu khinh phong lý hoàn.",
+          "score": 0.023077442447256225
+        },
+        {
+          "han_start": 9,
+          "han_end": 10,
+          "vi_start": 4,
+          "vi_end": 4,
+          "han_text": "兒能方上壽扆陛夢年春 中原臣立延橙候錄又為爾座秀遠應憐曲徑長",
+          "vietnamese_text": "Chương đài thiên uạn thụ; Duy nhĩ mộc ân tiên.",
+          "score": 0.23684147479491408
+        },
+        {
+          "han_start": 11,
+          "han_end": 13,
+          "vi_start": 5,
+          "vi_end": 6,
+          "han_text": "紆迴山葉拖運盡竹沿墻鶴步苔痕合春来花金香 梅榴流水外別有讀書堂 中原兵廷揆時錄景興三十五年甲午十月",
+          "vietnamese_text": "(Trung nguyên Trần Khâu Kiến Quỹ bái lục). @ịch) Liêu non màu bhói biếc; Dòng xuân uốn lượn quanh.",
+          "score": 0.03152908411709971
+        },
+        {
+          "han_start": 14,
+          "han_end": 15,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "王師南伐上將縣公過河傳檄順化廣南二處曰 大君有命用昭除暴之仁長子帥師事繹報言之義",
+          "vietnamese_text": "Rủ xuống bờ nước gương; Phất phơ bên cầu ngọc.",
+          "score": 0.08572597296162
+        },
+        {
+          "han_start": 16,
+          "han_end": 19,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "無華本非得已奸惡在所必誅 雍國蒙奄有輿因光隱辛土 顧此順產之地亦在封域之中 自端國公以勲廟大臣奉先產祖委方卅重任修憲",
+          "vietnamese_text": "Mày (liễu) uẽ trong sóng; Lưng (liễu) uốn trước gió.",
+          "score": -0.039833381079705826
+        },
+        {
+          "han_start": 20,
+          "han_end": 23,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "曾經累世無事百有餘色素卦天意降灾書此權臣壽制彼左相張福垂者 斗首小卷悉蛾邪心蜜緣固園之親叨窃機樞之任 崇信奸慮隋害忠良 離首間親專為植党之計招權納關自嘗肥己之謀",
+          "vietnamese_text": "Chương đài muôn ngàn cây, hiêng ngươi được ơn trước.",
+          "score": 0.051149154129961245
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 4297
+}

@@ -1,0 +1,186 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "2eeecc912ac3afb063cbb7fc1e3e614c820abeedc1b12a2cea5e26ca38c9d760",
+  "payload": {
+    "han": "X7寬政辭磨但見盡\n抗武功誕字之德\n奸雄\n華偃於華面顏傳正馬\n之牧邊\n偽岳徒釐亦來\n障永絕三苗之員固率\n卡共道南北同輪\n小生\n不勝貯望屏嘗之至\n謹\n章\n撫邊雜錄卷之六物\n產之美多出獻方圓化\n北市政卅七十五社村\n坊外出人參義樂白蜜\n黃蠟犀角象牙兒角硝\n硝絳香缺藤竟藤烏木\n秩林花楊花冕木唐木\n之煩\n北制政源頭有屹\n木亦名田木花白而撮\n貳\n久見潮黃屈之不折\n可為弩臂\n北制政桑樓\n密膏亦清振其木非桑\n也\n樹似粘子涉參葉似\n金鳳殘倍其实\n正月熟弥漫林藏生食闕甘土人煎密1",
+    "vi": "Lê Viết Trinh 53 tuổi, có văn học, việc đời cũng thông hiểu.\nLại có Mai Chiêu Tư người làng Dương Xuân, buyện Hương Trà, có bài văn mừng cũng nghe được: \"Cúi thấy: Cửa Bắc trời cao, đợi mệnh rồng vâng trọng thác; sông Nam đất ngái, ngậm chỉ phượng để tuyên dương.\nHang tối sinh hương; rừng nho dấy sắc.\nTrộm nghĩ, đạo đời vất vả, giúp đỡ nên dựng lấy nước hầu; vận trời tối đen, tháo vát phải nhờ tay quân tử, Tượng dịch” đã rõ, rùa?” trước nên soi.\nCung thái thú? làm việc tiện nghỉ, gõ Bột Hải gặp cơn rối loạn.\nNgu tướng quân\"? dựng công dẹp giặc, chặt Triều Ca thớ quánh rễ bền.\nThử xem từ trước, mới thấy ngày nay.\nSống lại phải mong vua, đất Thuận Hoá dân đen vừa định; bú mớm còn nhờ mẹ, miền Quảng Nam con đỏ còn nhao.\nDuy muốn trị được chỗ chưa trị, bình được chỗ chưa bình, thì phải đợi hiển là bậc đại hiển, mà nhiệm đúng người đại nhiệm.\nKính thấy trưởng quan các hạ, Đường khoa” sớm đậu, Ngu bệ lên cao.\nSơn đấu” ngôi trên, khắp trong cõi người đều lau mắt; hải hà lượng rộng, cả bốn phương ai cũng vui lòng.\nĐời nối cơ cầu; nhà truyền phiệt duyệt.\nĐồng quan” ra sứ, đem thanh danh thượng quốc truyền xa; Bí các giảng thư, nhờ ơn đức vua ban nhuần gội.\nỞ triểu đã trọng, ở quận khó gì?\nVì minh quân cho một phương bình định mới xong, thú chạy chửa yên nơi nhạn trạch; nên trưởng quan chịu nghìn dặm sinh đân phó thác, dao trâu tạm thử đất Ô Châu.\nCờ hồng vừa tới Phú Xuân; đường tía cùng nhau mừng rö.\nTiểu sinh tôi, trí thẹn hẹp nông, tài khôn bay bổng.\nTuy thao hổ” còn kém vẻ hay, mà du Phán? không quên nghiệp cũ.\nTiền trình cúi tập, phụ ấm” ngửa vâng.\nƠn tiền triểu cho lấy quan viên, chuẩn tiền thuế miễn thu một nửa.\nKhốn bởi, sĩ đồ lận đận, vì phận còn ma qui trớ trêu, gia kế xác xơ, hiểm tráng sĩ mặt mày ú rũ.\nTừ đó về làng bỏ bạn, dắt trẻ tìm nhà.\nBốn sáu tuổi xuân thu, chưa nên một việc; mấy mươi năm đèn sách, bỏ dở nửa đường.\nLại vì binh cách rối ren, hằng bị cơ hàn khổ cực.\nKhông ngờ ngày nay lại thấy Hán quan, dám tỏ lòng thành, cúi xin soi xét.\nCúi mong dạy dân nên tục, trị nước được người.\nNhững kiêu ngoa thói mạt ở địa phương, ra nghiêm điều mà ngăn cấm; phàm dân đen lánh trốn trong làng xóm, đem khoan chính mà dạy khuyên.\nLại thấy đã dựng võ công, cả ban văn đức.\nBọn gian hùng cứi mình đổi nết, nhường tan giặc cướp ngoài biên; lũ Nguy Nhạc lúc nhúc đến hàng, dứt thói Tam miêu dựa thế.\nXa thư cùng lối, Nam Bắc đồng phong.\nTiểu sinh tôi xiết bao mong chờ sợ hãi, kính dâng từ để mừng\"."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 0,\n        \"vi_start\": 0,\n        \"vi_end\": 2,\n        \"han_text\": \"X7寬政辭磨但見盡\",\n        \"vietnamese_text\": \"Lê Viết Trinh 53 tuổi, có văn học, việc đời cũng thông hiểu. Lại có Mai Chiêu Tư người làng Dương Xuân, buyện Hương Trà, có bài văn mừng cũng nghe được: \\\"Cúi thấy: Cửa Bắc trời cao, đợi mệnh rồng vâng trọng thác; sông Nam đất ngái, ngậm chỉ phượng để tuyên dương. Hang tối sinh hương; rừng nho dấy sắc.\",\n        \"score\": 0.03613721263436349\n      },\n      {\n        \"han_start\": 1,\n        \"han_end\": 1,\n        \"vi_start\": 3,\n        \"vi_end\": 6,\n        \"han_text\": \"抗武功誕字之德\",\n        \"vietnamese_text\": \"Trộm nghĩ, đạo đời vất vả, giúp đỡ nên dựng lấy nước hầu; vận trời tối đen, tháo vát phải nhờ tay quân tử, Tượng dịch” đã rõ, rùa? ” trước nên soi. Cung thái thú? làm việc tiện nghỉ, gõ Bột Hải gặp cơn rối loạn.\",\n        \"score\": 0.01753789743991242\n      },\n      {\n        \"han_start\": 2,\n        \"han_end\": 2,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"奸雄\",\n        \"vietnamese_text\": \"Ngu tướng quân\\\"?\",\n        \"score\": 0.1984362182420807\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 4,\n        \"vi_start\": 8,\n        \"vi_end\": 10,\n        \"han_text\": \"華偃於華面顏傳正馬 之牧邊\",\n        \"vietnamese_text\": \"dựng công dẹp giặc, chặt Triều Ca thớ quánh rễ bền. Thử xem từ trước, mới thấy ngày nay. Sống lại phải mong vua, đất Thuận Hoá dân đen vừa định; bú mớm còn nhờ mẹ, miền Quảng Nam con đỏ còn nhao.\",\n        \"score\": 0.0512398749816456\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 5,\n        \"vi_start\": 11,\n        \"vi_end\": 12,\n        \"han_text\": \"偽岳徒釐亦來\",\n        \"vietnamese_text\": \"Duy muốn trị được chỗ chưa trị, bình được chỗ chưa bình, thì phải đợi hiển là bậc đại hiển, mà nhiệm đúng người đại nhiệm. Kính thấy trưởng quan các hạ, Đường khoa” sớm đậu, Ngu bệ lên cao.\",\n        \"score\": 0.034600908409747055\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 7,\n        \"vi_start\": 13,\n        \"vi_end\": 15,\n        \"han_text\": \"障永絕三苗之員固率 卡共道南北同輪\",\n        \"vietnamese_text\": \"Sơn đấu” ngôi trên, khắp trong cõi người đều lau mắt; hải hà lượng rộng, cả bốn phương ai cũng vui lòng. Đời nối cơ cầu; nhà truyền phiệt duyệt. Đồng quan” ra sứ, đem thanh danh thượng quốc truyền xa; Bí các giảng thư, nhờ ơn đức vua ban nhuần gội.\",\n        \"score\": 0.055798973746291114\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 8,\n        \"vi_start\": 16,\n        \"vi_end\": 16,\n        \"han_text\": \"小生\",\n        \"vietnamese_text\": \"Ở triểu đã trọng, ở quận khó gì?\",\n        \"score\": 0.09884218498177955\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 9,\n        \"vi_start\": 17,\n        \"vi_end\": 19,\n        \"han_text\": \"不勝貯望屏嘗之至\",\n        \"vietnamese_text\": \"Vì minh quân cho một phương bình định mới xong, thú chạy chửa yên nơi nhạn trạch; nên trưởng quan chịu nghìn dặm sinh đân phó thác, dao trâu tạm thử đất Ô Châu. Cờ hồng vừa tới Phú Xuân; đường tía cùng nhau mừng rö. Tiểu sinh tôi, trí thẹn hẹp nông, tài khôn bay bổng.\",\n        \"score\": 0.003547924727094272\n      },\n      {\n        \"han_start\": 10,\n        \"han_end\": 10,\n        \"vi_start\": 20,\n        \"vi_end\": 23,\n        \"han_text\": \"謹\",\n        \"vietnamese_text\": \"Tuy thao hổ” còn kém vẻ hay, mà du Phán? không quên nghiệp cũ. Tiền trình cúi tập, phụ ấm” ngửa vâng. Ơn tiền triểu cho lấy quan viên, chuẩn tiền thuế miễn thu một nửa.\",\n        \"score\": 0.0022383909655329386\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 13,\n        \"vi_start\": 24,\n        \"vi_end\": 24,\n        \"han_text\": \"章 撫邊雜錄卷之六物 產之美多出獻方圓化\",\n        \"vietnamese_text\": \"Khốn bởi, sĩ đồ lận đận, vì phận còn ma qui trớ trêu, gia kế xác xơ, hiểm tráng sĩ mặt mày ú rũ.\",\n        \"score\": 0.0605109289409339\n      },\n      {\n        \"han_start\": 14,\n        \"han_end\": 14,\n        \"vi_start\": 25,\n        \"vi_end\": 26,\n        \"han_text\": \"北市政卅七十五社村\",\n        \"vietnamese_text\": \"Từ đó về làng bỏ bạn, dắt trẻ tìm nhà. Bốn sáu tuổi xuân thu, chưa nên một việc; mấy mươi năm đèn sách, bỏ dở nửa đường.\",\n        \"score\": 0.2356332608026027\n      },\n      {\n        \"han_start\": 15,\n        \"han_end\": 17,\n        \"vi_start\": 27,\n        \"vi_end\": 27,\n        \"han_text\": \"坊外出人參義樂白蜜 黃蠟犀角象牙兒角硝 硝絳香缺藤竟藤烏木\",\n        \"vietnamese_text\": \"Lại vì binh cách rối ren, hằng bị cơ hàn khổ cực.\",\n        \"score\": -0.014673447278338343\n      },\n      {\n        \"han_start\": 18,\n        \"han_end\": 18,\n        \"vi_start\": 28,\n        \"vi_end\": 28,\n        \"han_text\": \"秩林花楊花冕木唐木\",\n        \"vietnamese_text\": \"Không ngờ ngày nay lại thấy Hán quan, dám tỏ lòng thành, cúi xin soi xét.\",\n        \"score\": 0.04894853029377585\n      },\n      {\n        \"han_start\": 19,\n        \"han_end\": 19,\n        \"vi_start\": 29,\n        \"vi_end\": 29,\n        \"han_text\": \"之煩\",\n        \"vietnamese_text\": \"Cúi mong dạy dân nên tục, trị nước được người.\",\n        \"score\": 0.041223912541150015\n      },\n      {\n        \"han_start\": 20,\n        \"han_end\": 23,\n        \"vi_start\": 30,\n        \"vi_end\": 30,\n        \"han_text\": \"北制政源頭有屹 木亦名田木花白而撮 貳 久見潮黃屈之不折\",\n        \"vietnamese_text\": \"Những kiêu ngoa thói mạt ở địa phương, ra nghiêm điều mà ngăn cấm; phàm dân đen lánh trốn trong làng xóm, đem khoan chính mà dạy khuyên.\",\n        \"score\": 0.036835956689019046\n      },\n      {\n        \"han_start\": 24,\n        \"han_end\": 24,\n        \"vi_start\": 31,\n        \"vi_end\": 31,\n        \"han_text\": \"可為弩臂\",\n        \"vietnamese_text\": \"Lại thấy đã dựng võ công, cả ban văn đức.\",\n        \"score\": 0.1336539183498764\n      },\n      {\n        \"han_start\": 25,\n        \"han_end\": 27,\n        \"vi_start\": 32,\n        \"vi_end\": 33,\n        \"han_text\": \"北制政桑樓 密膏亦清振其木非桑 也\",\n        \"vietnamese_text\": \"Bọn gian hùng cứi mình đổi nết, nhường tan giặc cướp ngoài biên; lũ Nguy Nhạc lúc nhúc đến hàng, dứt thói Tam miêu dựa thế. Xa thư cùng lối, Nam Bắc đồng phong.\",\n        \"score\": 0.14137124482646365\n      },\n      {\n        \"han_start\": 28,\n        \"han_end\": 30,\n        \"vi_start\": 34,\n        \"vi_end\": 34,\n        \"han_text\": \"樹似粘子涉參葉似 金鳳殘倍其实 正月熟弥漫林藏生食闕甘土人煎密1\",\n        \"vietnamese_text\": \"Tiểu sinh tôi xiết bao mong chờ sợ hãi, kính dâng từ để mừng\\\".\",\n        \"score\": 0.009709486828371148\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 0,
+          "vi_start": 0,
+          "vi_end": 2,
+          "han_text": "X7寬政辭磨但見盡",
+          "vietnamese_text": "Lê Viết Trinh 53 tuổi, có văn học, việc đời cũng thông hiểu. Lại có Mai Chiêu Tư người làng Dương Xuân, buyện Hương Trà, có bài văn mừng cũng nghe được: \"Cúi thấy: Cửa Bắc trời cao, đợi mệnh rồng vâng trọng thác; sông Nam đất ngái, ngậm chỉ phượng để tuyên dương. Hang tối sinh hương; rừng nho dấy sắc.",
+          "score": 0.03613721263436349
+        },
+        {
+          "han_start": 1,
+          "han_end": 1,
+          "vi_start": 3,
+          "vi_end": 6,
+          "han_text": "抗武功誕字之德",
+          "vietnamese_text": "Trộm nghĩ, đạo đời vất vả, giúp đỡ nên dựng lấy nước hầu; vận trời tối đen, tháo vát phải nhờ tay quân tử, Tượng dịch” đã rõ, rùa? ” trước nên soi. Cung thái thú? làm việc tiện nghỉ, gõ Bột Hải gặp cơn rối loạn.",
+          "score": 0.01753789743991242
+        },
+        {
+          "han_start": 2,
+          "han_end": 2,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "奸雄",
+          "vietnamese_text": "Ngu tướng quân\"?",
+          "score": 0.1984362182420807
+        },
+        {
+          "han_start": 3,
+          "han_end": 4,
+          "vi_start": 8,
+          "vi_end": 10,
+          "han_text": "華偃於華面顏傳正馬 之牧邊",
+          "vietnamese_text": "dựng công dẹp giặc, chặt Triều Ca thớ quánh rễ bền. Thử xem từ trước, mới thấy ngày nay. Sống lại phải mong vua, đất Thuận Hoá dân đen vừa định; bú mớm còn nhờ mẹ, miền Quảng Nam con đỏ còn nhao.",
+          "score": 0.0512398749816456
+        },
+        {
+          "han_start": 5,
+          "han_end": 5,
+          "vi_start": 11,
+          "vi_end": 12,
+          "han_text": "偽岳徒釐亦來",
+          "vietnamese_text": "Duy muốn trị được chỗ chưa trị, bình được chỗ chưa bình, thì phải đợi hiển là bậc đại hiển, mà nhiệm đúng người đại nhiệm. Kính thấy trưởng quan các hạ, Đường khoa” sớm đậu, Ngu bệ lên cao.",
+          "score": 0.034600908409747055
+        },
+        {
+          "han_start": 6,
+          "han_end": 7,
+          "vi_start": 13,
+          "vi_end": 15,
+          "han_text": "障永絕三苗之員固率 卡共道南北同輪",
+          "vietnamese_text": "Sơn đấu” ngôi trên, khắp trong cõi người đều lau mắt; hải hà lượng rộng, cả bốn phương ai cũng vui lòng. Đời nối cơ cầu; nhà truyền phiệt duyệt. Đồng quan” ra sứ, đem thanh danh thượng quốc truyền xa; Bí các giảng thư, nhờ ơn đức vua ban nhuần gội.",
+          "score": 0.055798973746291114
+        },
+        {
+          "han_start": 8,
+          "han_end": 8,
+          "vi_start": 16,
+          "vi_end": 16,
+          "han_text": "小生",
+          "vietnamese_text": "Ở triểu đã trọng, ở quận khó gì?",
+          "score": 0.09884218498177955
+        },
+        {
+          "han_start": 9,
+          "han_end": 9,
+          "vi_start": 17,
+          "vi_end": 19,
+          "han_text": "不勝貯望屏嘗之至",
+          "vietnamese_text": "Vì minh quân cho một phương bình định mới xong, thú chạy chửa yên nơi nhạn trạch; nên trưởng quan chịu nghìn dặm sinh đân phó thác, dao trâu tạm thử đất Ô Châu. Cờ hồng vừa tới Phú Xuân; đường tía cùng nhau mừng rö. Tiểu sinh tôi, trí thẹn hẹp nông, tài khôn bay bổng.",
+          "score": 0.003547924727094272
+        },
+        {
+          "han_start": 10,
+          "han_end": 10,
+          "vi_start": 20,
+          "vi_end": 23,
+          "han_text": "謹",
+          "vietnamese_text": "Tuy thao hổ” còn kém vẻ hay, mà du Phán? không quên nghiệp cũ. Tiền trình cúi tập, phụ ấm” ngửa vâng. Ơn tiền triểu cho lấy quan viên, chuẩn tiền thuế miễn thu một nửa.",
+          "score": 0.0022383909655329386
+        },
+        {
+          "han_start": 11,
+          "han_end": 13,
+          "vi_start": 24,
+          "vi_end": 24,
+          "han_text": "章 撫邊雜錄卷之六物 產之美多出獻方圓化",
+          "vietnamese_text": "Khốn bởi, sĩ đồ lận đận, vì phận còn ma qui trớ trêu, gia kế xác xơ, hiểm tráng sĩ mặt mày ú rũ.",
+          "score": 0.0605109289409339
+        },
+        {
+          "han_start": 14,
+          "han_end": 14,
+          "vi_start": 25,
+          "vi_end": 26,
+          "han_text": "北市政卅七十五社村",
+          "vietnamese_text": "Từ đó về làng bỏ bạn, dắt trẻ tìm nhà. Bốn sáu tuổi xuân thu, chưa nên một việc; mấy mươi năm đèn sách, bỏ dở nửa đường.",
+          "score": 0.2356332608026027
+        },
+        {
+          "han_start": 15,
+          "han_end": 17,
+          "vi_start": 27,
+          "vi_end": 27,
+          "han_text": "坊外出人參義樂白蜜 黃蠟犀角象牙兒角硝 硝絳香缺藤竟藤烏木",
+          "vietnamese_text": "Lại vì binh cách rối ren, hằng bị cơ hàn khổ cực.",
+          "score": -0.014673447278338343
+        },
+        {
+          "han_start": 18,
+          "han_end": 18,
+          "vi_start": 28,
+          "vi_end": 28,
+          "han_text": "秩林花楊花冕木唐木",
+          "vietnamese_text": "Không ngờ ngày nay lại thấy Hán quan, dám tỏ lòng thành, cúi xin soi xét.",
+          "score": 0.04894853029377585
+        },
+        {
+          "han_start": 19,
+          "han_end": 19,
+          "vi_start": 29,
+          "vi_end": 29,
+          "han_text": "之煩",
+          "vietnamese_text": "Cúi mong dạy dân nên tục, trị nước được người.",
+          "score": 0.041223912541150015
+        },
+        {
+          "han_start": 20,
+          "han_end": 23,
+          "vi_start": 30,
+          "vi_end": 30,
+          "han_text": "北制政源頭有屹 木亦名田木花白而撮 貳 久見潮黃屈之不折",
+          "vietnamese_text": "Những kiêu ngoa thói mạt ở địa phương, ra nghiêm điều mà ngăn cấm; phàm dân đen lánh trốn trong làng xóm, đem khoan chính mà dạy khuyên.",
+          "score": 0.036835956689019046
+        },
+        {
+          "han_start": 24,
+          "han_end": 24,
+          "vi_start": 31,
+          "vi_end": 31,
+          "han_text": "可為弩臂",
+          "vietnamese_text": "Lại thấy đã dựng võ công, cả ban văn đức.",
+          "score": 0.1336539183498764
+        },
+        {
+          "han_start": 25,
+          "han_end": 27,
+          "vi_start": 32,
+          "vi_end": 33,
+          "han_text": "北制政桑樓 密膏亦清振其木非桑 也",
+          "vietnamese_text": "Bọn gian hùng cứi mình đổi nết, nhường tan giặc cướp ngoài biên; lũ Nguy Nhạc lúc nhúc đến hàng, dứt thói Tam miêu dựa thế. Xa thư cùng lối, Nam Bắc đồng phong.",
+          "score": 0.14137124482646365
+        },
+        {
+          "han_start": 28,
+          "han_end": 30,
+          "vi_start": 34,
+          "vi_end": 34,
+          "han_text": "樹似粘子涉參葉似 金鳳殘倍其实 正月熟弥漫林藏生食闕甘土人煎密1",
+          "vietnamese_text": "Tiểu sinh tôi xiết bao mong chờ sợ hãi, kính dâng từ để mừng\".",
+          "score": 0.009709486828371148
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 3500
+}

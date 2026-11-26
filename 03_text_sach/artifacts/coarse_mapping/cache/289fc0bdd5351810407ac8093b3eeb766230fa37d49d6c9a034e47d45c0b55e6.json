@@ -1,0 +1,141 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "289fc0bdd5351810407ac8093b3eeb766230fa37d49d6c9a034e47d45c0b55e6",
+  "payload": {
+    "han": "星方空落一迂儒四母妙旨憑誰同一貴真傳發独孤善左泣麟知命矣藝狂敬圓說辰乎繼捨用舍非由亦234自是行藏却在吾\n其自述云三十六年多堯客愛用罗結屋在無萊\n半生踪跡詩為傳到處登臨酒作媒\n心35不舜冠那忌諱落無按鈞任孤谐\n為人最苦是無存孝得還須大眼同\n其詠燕萊塢云錯落人家綠樹曰绿溪分塢各迴字\n東南一帶湖事海元北三分埜按山\n深洞鱗波漢父醉平原草長牧童閻\n白沙翠竹紅塵淨一任迷人自往還\n又自作無萊十詠其年湖災月54装波云無爭尾月興誰同独擇長數浩小索金風張實光迷老短揖十合秋色浸孤遂\n戲將沆璧双獄碎醉把流輝心日鑫\n一吸空狂甚\n桓我休冷笑塵勞幾得見闲翁\n其真痛82朝雲云半久園藥徑闭灵猫獵激草榮来除番不麝香猫看連雲劇顧本穿浮昌雨培拂糧靈花紅上檢遶道伏使出田為葉绿侵麗\n放鋤辰傍松陰坐野鳥枝頭作意跑\n催其沙圃曉行云晴江樹色曉蒼之独步沙汀望渺茫",
+    "vi": "Chớ lạ quần sinh uội; Mặt trời cũng rộn ràng.\n10. Sơn cư tức sự Thiển thanh huyện ngo dạ; Trúc ảnh hộ giai đài.\nLão phố thu Uô sự; Sài môn trú bất khai.\nKhê uân dương toạ bhỏi; Sơn 0uũ quá giang lại.\nThanh thế thuỳ cao thượng?\nNhàn miên 0ì bất tài.\nnúi túc sự Tiếng ue triết hè rộn.\nThêm rêu bong trúc che, Vườn cũ thu rỗi uiệc; Cửa nè ngày cần buông.\nMây che quanh chỗ nổi; Mưa núi qua sông sang.\nĐời thanh dì cao thương?\nRồi ngủ bởi không tài.\nCha Bản cố thành hoải cổ Tò dương đình mã uọng; Vô hạn phế hưng tình.\nTung uyên tăng u¡ tự; Cung đình mục tự canh.\nTùn sơn dư cổ tháp; Thặng thuy thoán hoang thành.\nThần đạo nguyên 0ô cứ, Tây quan mạn khắc mình.\nThan cũ chà Bản Roât cổ: Bóng tà dừng ngựa chứng, Man mác nỗi hưng rụng.\nLĩĩng uyển làm chùa Phật; Cung đình thành ruộng cày.\nNúi tàn trở tháp cổ; Nước củ hiện thành hoang.\nThần đạo nguyên 0ô cứ.\nCủc tây tràn khắc bia. ⁄4nh ®hùng ?(oan, Điền môn thực bhúách mạn phân phân.\nThị nghĩa như quân đắc bý nhân.\nTuy hữu gia du hoài tiểu Tiết; Tích uô thiện sách chế cường Tên.\nKiếm ca điệp xướng thù nan yếm; Thỏ quật tam thành tự bhú thân.\nTưởng quốc nhược 0ô thụ ấn nhật, Thuy trí đàn giáp thị giai tân?\n%⁄tnh tùng (oan.\nKhách ăn đầy cửa rộn bời bời.\nChuộng nghĩa như ông đễ mấy người?\nĐà có chước hay bênh Tiết nhỏ; Tiếc không mưu khéo chống Tên cường.\nGõ gươm mấy độ ca không chún; Hang thỏ ba lần đắp chửa thôi.\nTướng quốc uú không thu mất ấn, Biết đâu đàn biến tức anh tài."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 0,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"星方空落一迂儒四母妙旨憑誰同一貴真傳發独孤善左泣麟知命矣藝狂敬圓說辰乎繼捨用舍非由亦234自是行藏却在吾\",\n        \"vietnamese_text\": \"Chớ lạ quần sinh uội; Mặt trời cũng rộn ràng.\",\n        \"score\": 0.05417473402592255\n      },\n      {\n        \"han_start\": 1,\n        \"han_end\": 2,\n        \"vi_start\": 1,\n        \"vi_end\": 3,\n        \"han_text\": \"其自述云三十六年多堯客愛用罗結屋在無萊 半生踪跡詩為傳到處登臨酒作媒\",\n        \"vietnamese_text\": \"10. Sơn cư tức sự Thiển thanh huyện ngo dạ; Trúc ảnh hộ giai đài. Lão phố thu Uô sự; Sài môn trú bất khai.\",\n        \"score\": 0.1751048430325267\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 3,\n        \"vi_start\": 4,\n        \"vi_end\": 4,\n        \"han_text\": \"心35不舜冠那忌諱落無按鈞任孤谐\",\n        \"vietnamese_text\": \"Khê uân dương toạ bhỏi; Sơn 0uũ quá giang lại.\",\n        \"score\": -0.018567826567388045\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 4,\n        \"vi_start\": 5,\n        \"vi_end\": 6,\n        \"han_text\": \"為人最苦是無存孝得還須大眼同\",\n        \"vietnamese_text\": \"Thanh thế thuỳ cao thượng? Nhàn miên 0ì bất tài.\",\n        \"score\": 0.12116680934709562\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 6,\n        \"vi_start\": 7,\n        \"vi_end\": 9,\n        \"han_text\": \"其詠燕萊塢云錯落人家綠樹曰绿溪分塢各迴字 東南一帶湖事海元北三分埜按山\",\n        \"vietnamese_text\": \"núi túc sự Tiếng ue triết hè rộn. Thêm rêu bong trúc che, Vườn cũ thu rỗi uiệc; Cửa nè ngày cần buông. Mây che quanh chỗ nổi; Mưa núi qua sông sang.\",\n        \"score\": 0.32445605311683323\n      },\n      {\n        \"han_start\": 7,\n        \"han_end\": 8,\n        \"vi_start\": 10,\n        \"vi_end\": 12,\n        \"han_text\": \"深洞鱗波漢父醉平原草長牧童閻 白沙翠竹紅塵淨一任迷人自往還\",\n        \"vietnamese_text\": \"Đời thanh dì cao thương? Rồi ngủ bởi không tài. Cha Bản cố thành hoải cổ Tò dương đình mã uọng; Vô hạn phế hưng tình.\",\n        \"score\": 0.24834830124336063\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 9,\n        \"vi_start\": 13,\n        \"vi_end\": 16,\n        \"han_text\": \"又自作無萊十詠其年湖災月54装波云無爭尾月興誰同独擇長數浩小索金風張實光迷老短揖十合秋色浸孤遂\",\n        \"vietnamese_text\": \"Tung uyên tăng u¡ tự; Cung đình mục tự canh. Tùn sơn dư cổ tháp; Thặng thuy thoán hoang thành. Thần đạo nguyên 0ô cứ, Tây quan mạn khắc mình. Than cũ chà Bản Roât cổ: Bóng tà dừng ngựa chứng, Man mác nỗi hưng rụng.\",\n        \"score\": 0.06679640602366918\n      },\n      {\n        \"han_start\": 10,\n        \"han_end\": 10,\n        \"vi_start\": 17,\n        \"vi_end\": 18,\n        \"han_text\": \"戲將沆璧双獄碎醉把流輝心日鑫\",\n        \"vietnamese_text\": \"Lĩĩng uyển làm chùa Phật; Cung đình thành ruộng cày. Núi tàn trở tháp cổ; Nước củ hiện thành hoang.\",\n        \"score\": 0.006437878611974731\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 11,\n        \"vi_start\": 19,\n        \"vi_end\": 19,\n        \"han_text\": \"一吸空狂甚\",\n        \"vietnamese_text\": \"Thần đạo nguyên 0ô cứ.\",\n        \"score\": 0.10788226421757151\n      },\n      {\n        \"han_start\": 12,\n        \"han_end\": 12,\n        \"vi_start\": 20,\n        \"vi_end\": 23,\n        \"han_text\": \"桓我休冷笑塵勞幾得見闲翁\",\n        \"vietnamese_text\": \"Củc tây tràn khắc bia. ⁄4nh ®hùng ? (oan, Điền môn thực bhúách mạn phân phân. Thị nghĩa như quân đắc bý nhân.\",\n        \"score\": 0.030741250658477885\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 13,\n        \"vi_start\": 24,\n        \"vi_end\": 27,\n        \"han_text\": \"其真痛82朝雲云半久園藥徑闭灵猫獵激草榮来除番不麝香猫看連雲劇顧本穿浮昌雨培拂糧靈花紅上檢遶道伏使出田為葉绿侵麗\",\n        \"vietnamese_text\": \"Tuy hữu gia du hoài tiểu Tiết; Tích uô thiện sách chế cường Tên. Kiếm ca điệp xướng thù nan yếm; Thỏ quật tam thành tự bhú thân. Tưởng quốc nhược 0ô thụ ấn nhật, Thuy trí đàn giáp thị giai tân? %⁄tnh tùng (oan.\",\n        \"score\": 0.12743999140450996\n      },\n      {\n        \"han_start\": 14,\n        \"han_end\": 14,\n        \"vi_start\": 28,\n        \"vi_end\": 29,\n        \"han_text\": \"放鋤辰傍松陰坐野鳥枝頭作意跑\",\n        \"vietnamese_text\": \"Khách ăn đầy cửa rộn bời bời. Chuộng nghĩa như ông đễ mấy người?\",\n        \"score\": 0.05309375715187364\n      },\n      {\n        \"han_start\": 15,\n        \"han_end\": 15,\n        \"vi_start\": 30,\n        \"vi_end\": 32,\n        \"han_text\": \"催其沙圃曉行云晴江樹色曉蒼之独步沙汀望渺茫\",\n        \"vietnamese_text\": \"Đà có chước hay bênh Tiết nhỏ; Tiếc không mưu khéo chống Tên cường. Gõ gươm mấy độ ca không chún; Hang thỏ ba lần đắp chửa thôi. Tướng quốc uú không thu mất ấn, Biết đâu đàn biến tức anh tài.\",\n        \"score\": 0.02397816087179944\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 0,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "星方空落一迂儒四母妙旨憑誰同一貴真傳發独孤善左泣麟知命矣藝狂敬圓說辰乎繼捨用舍非由亦234自是行藏却在吾",
+          "vietnamese_text": "Chớ lạ quần sinh uội; Mặt trời cũng rộn ràng.",
+          "score": 0.05417473402592255
+        },
+        {
+          "han_start": 1,
+          "han_end": 2,
+          "vi_start": 1,
+          "vi_end": 3,
+          "han_text": "其自述云三十六年多堯客愛用罗結屋在無萊 半生踪跡詩為傳到處登臨酒作媒",
+          "vietnamese_text": "10. Sơn cư tức sự Thiển thanh huyện ngo dạ; Trúc ảnh hộ giai đài. Lão phố thu Uô sự; Sài môn trú bất khai.",
+          "score": 0.1751048430325267
+        },
+        {
+          "han_start": 3,
+          "han_end": 3,
+          "vi_start": 4,
+          "vi_end": 4,
+          "han_text": "心35不舜冠那忌諱落無按鈞任孤谐",
+          "vietnamese_text": "Khê uân dương toạ bhỏi; Sơn 0uũ quá giang lại.",
+          "score": -0.018567826567388045
+        },
+        {
+          "han_start": 4,
+          "han_end": 4,
+          "vi_start": 5,
+          "vi_end": 6,
+          "han_text": "為人最苦是無存孝得還須大眼同",
+          "vietnamese_text": "Thanh thế thuỳ cao thượng? Nhàn miên 0ì bất tài.",
+          "score": 0.12116680934709562
+        },
+        {
+          "han_start": 5,
+          "han_end": 6,
+          "vi_start": 7,
+          "vi_end": 9,
+          "han_text": "其詠燕萊塢云錯落人家綠樹曰绿溪分塢各迴字 東南一帶湖事海元北三分埜按山",
+          "vietnamese_text": "núi túc sự Tiếng ue triết hè rộn. Thêm rêu bong trúc che, Vườn cũ thu rỗi uiệc; Cửa nè ngày cần buông. Mây che quanh chỗ nổi; Mưa núi qua sông sang.",
+          "score": 0.32445605311683323
+        },
+        {
+          "han_start": 7,
+          "han_end": 8,
+          "vi_start": 10,
+          "vi_end": 12,
+          "han_text": "深洞鱗波漢父醉平原草長牧童閻 白沙翠竹紅塵淨一任迷人自往還",
+          "vietnamese_text": "Đời thanh dì cao thương? Rồi ngủ bởi không tài. Cha Bản cố thành hoải cổ Tò dương đình mã uọng; Vô hạn phế hưng tình.",
+          "score": 0.24834830124336063
+        },
+        {
+          "han_start": 9,
+          "han_end": 9,
+          "vi_start": 13,
+          "vi_end": 16,
+          "han_text": "又自作無萊十詠其年湖災月54装波云無爭尾月興誰同独擇長數浩小索金風張實光迷老短揖十合秋色浸孤遂",
+          "vietnamese_text": "Tung uyên tăng u¡ tự; Cung đình mục tự canh. Tùn sơn dư cổ tháp; Thặng thuy thoán hoang thành. Thần đạo nguyên 0ô cứ, Tây quan mạn khắc mình. Than cũ chà Bản Roât cổ: Bóng tà dừng ngựa chứng, Man mác nỗi hưng rụng.",
+          "score": 0.06679640602366918
+        },
+        {
+          "han_start": 10,
+          "han_end": 10,
+          "vi_start": 17,
+          "vi_end": 18,
+          "han_text": "戲將沆璧双獄碎醉把流輝心日鑫",
+          "vietnamese_text": "Lĩĩng uyển làm chùa Phật; Cung đình thành ruộng cày. Núi tàn trở tháp cổ; Nước củ hiện thành hoang.",
+          "score": 0.006437878611974731
+        },
+        {
+          "han_start": 11,
+          "han_end": 11,
+          "vi_start": 19,
+          "vi_end": 19,
+          "han_text": "一吸空狂甚",
+          "vietnamese_text": "Thần đạo nguyên 0ô cứ.",
+          "score": 0.10788226421757151
+        },
+        {
+          "han_start": 12,
+          "han_end": 12,
+          "vi_start": 20,
+          "vi_end": 23,
+          "han_text": "桓我休冷笑塵勞幾得見闲翁",
+          "vietnamese_text": "Củc tây tràn khắc bia. ⁄4nh ®hùng ? (oan, Điền môn thực bhúách mạn phân phân. Thị nghĩa như quân đắc bý nhân.",
+          "score": 0.030741250658477885
+        },
+        {
+          "han_start": 13,
+          "han_end": 13,
+          "vi_start": 24,
+          "vi_end": 27,
+          "han_text": "其真痛82朝雲云半久園藥徑闭灵猫獵激草榮来除番不麝香猫看連雲劇顧本穿浮昌雨培拂糧靈花紅上檢遶道伏使出田為葉绿侵麗",
+          "vietnamese_text": "Tuy hữu gia du hoài tiểu Tiết; Tích uô thiện sách chế cường Tên. Kiếm ca điệp xướng thù nan yếm; Thỏ quật tam thành tự bhú thân. Tưởng quốc nhược 0ô thụ ấn nhật, Thuy trí đàn giáp thị giai tân? %⁄tnh tùng (oan.",
+          "score": 0.12743999140450996
+        },
+        {
+          "han_start": 14,
+          "han_end": 14,
+          "vi_start": 28,
+          "vi_end": 29,
+          "han_text": "放鋤辰傍松陰坐野鳥枝頭作意跑",
+          "vietnamese_text": "Khách ăn đầy cửa rộn bời bời. Chuộng nghĩa như ông đễ mấy người?",
+          "score": 0.05309375715187364
+        },
+        {
+          "han_start": 15,
+          "han_end": 15,
+          "vi_start": 30,
+          "vi_end": 32,
+          "han_text": "催其沙圃曉行云晴江樹色曉蒼之独步沙汀望渺茫",
+          "vietnamese_text": "Đà có chước hay bênh Tiết nhỏ; Tiếc không mưu khéo chống Tên cường. Gõ gươm mấy độ ca không chún; Hang thỏ ba lần đắp chửa thôi. Tướng quốc uú không thu mất ấn, Biết đâu đàn biến tức anh tài.",
+          "score": 0.02397816087179944
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 4078
+}

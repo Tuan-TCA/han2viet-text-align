@@ -1,0 +1,114 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "0adf0c5d3ce7d8bf8cca7ec82cd98883581e75a907ababa22c4d5624a6b6b68e",
+  "payload": {
+    "han": "擾溫与本府容隱白有罪一定裕另加某社某名\n自五十案以上及早小縱蝕並停\n其有男二名惟行一名守家\n其親老無女只有男子者並兌一定始另條有名\n始拾入房舶免其公役三月許造家居\n其方船前公用及禍廠庚不守\n責補其船違令晉刻所其訴苦隊長定罰位長定黜\n一定巡另某船有處者呈所弦官郎日差人追十日不呈有司官付修責合追等限三月不白治潛他人\n其皆另改逃另拿字者並文未府差隸兵洞就廣南嘗公堂官村者堂營兵監守移祠与方當命隊船被厥其始另在逊者\n火罪一定心役常年脩理及新造司役官定期限月楊作元成如例\n有官殘秘每則准將不る淹儒以致軍中被债\n四其衙役守要作是義分殺不均留鄉不貴許革術告查寔孩官重四訓字役父罪一票私殺係所族官始率某焉\n船隊舶許軍人桶作營家并船廠\n並立該作竹木等藤之故不守侵刻亥年\n其私園私宅只許雇人理修不守烦軍意者停其富祿\n此法亦為周阮家內外兵額兵效順化宿安城正營有中候奇所屬在候船\n與一船至十般不過三十有內\n步兵所重左衛右術內黃殿中志小志新候炎中候步小一小二勝一勝二銳一碗二右馬左馬內刀中刀新刀左擇右擇前捍環右中銳左聖稅右聖銳前聖碗秘問說左志說右志說內志說外志說古視左鏡前鏡杖鏡在一全二左銀右銀海中擇刀左勝刀右勝刀左志刀右志刀五提術右槐遂左旺右壯内壯左四右内内猶小鏑右確災",
+    "vi": "4/ Định cấp lính.\nXã nào, như tên nào từ 50 tuổi trở lên và thấp bé cô độc đều được miễn: ai có con trai 3 người, thì cho 1 người giữ nhà: cha mẹ già mà không có con gái, chỉ có con trai thì được miễn.\n9í Định lính mới.\nHễ có người mới cấp vào bản thuyền thì miễn việc quan 3 tháng, cho làm nhà hạn cho 3 tháng không được thì cấp người khác thế.\nNgười lính thế và người lính trốn mà bắt được đều giao cho bản phủ sai lính lệ điệu đến quan công đường dinh Quang Nam, giao cho binh lính bản đường coi giữ, đưa giấy cho cơ đội thuyền dinh ấy đến nhận; các lính mới trốn đi thì phải xử tội.\n7/ Định công dịch.\nHàng năm sửa sang và làm mới, quan phụ trách công dịch định kỳ hẹn ngày, để làm cho xong đúng lệ, có tiền công thì cứ mỗi kỳ cho phát, không được để đọng khiến cho trong quân bị nợ. nếu người thủ dịch nha nào muốn làm ân nghĩa, chia việc không đều. hay để tiển không phát, thì cho quân kêu lên, xét ra thực thì cai quan phải phạt nặng, thủ dịch thì xử tội.\n8/ Cấm việc tư.\nHễ cai quan đem cơ đội thuyền nào làm nhà và xưởng thuyền cho quân thì cả tiển cơm và số tro gỗ. tranh mây, không được lấn khoét ở quân, còn vườn riêng, nhà riêng thì chỉ cho thuê người sửa sang, không được phiền đến quân.\nNgười làm trái lệnh thì đình không cấp ngụ lộc."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 0,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"擾溫与本府容隱白有罪一定裕另加某社某名\",\n        \"vietnamese_text\": \"4/ Định cấp lính.\",\n        \"score\": -0.060596834444793544\n      },\n      {\n        \"han_start\": 1,\n        \"han_end\": 4,\n        \"vi_start\": 1,\n        \"vi_end\": 1,\n        \"han_text\": \"自五十案以上及早小縱蝕並停 其有男二名惟行一名守家 其親老無女只有男子者並兌一定始另條有名 始拾入房舶免其公役三月許造家居\",\n        \"vietnamese_text\": \"Xã nào, như tên nào từ 50 tuổi trở lên và thấp bé cô độc đều được miễn: ai có con trai 3 người, thì cho 1 người giữ nhà: cha mẹ già mà không có con gái, chỉ có con trai thì được miễn.\",\n        \"score\": 0.39086082642293796\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 6,\n        \"vi_start\": 2,\n        \"vi_end\": 2,\n        \"han_text\": \"其方船前公用及禍廠庚不守 責補其船違令晉刻所其訴苦隊長定罰位長定黜\",\n        \"vietnamese_text\": \"9í Định lính mới.\",\n        \"score\": -0.003281855150698656\n      },\n      {\n        \"han_start\": 7,\n        \"han_end\": 7,\n        \"vi_start\": 3,\n        \"vi_end\": 3,\n        \"han_text\": \"一定巡另某船有處者呈所弦官郎日差人追十日不呈有司官付修責合追等限三月不白治潛他人\",\n        \"vietnamese_text\": \"Hễ có người mới cấp vào bản thuyền thì miễn việc quan 3 tháng, cho làm nhà hạn cho 3 tháng không được thì cấp người khác thế.\",\n        \"score\": 0.25380868905198184\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 8,\n        \"vi_start\": 4,\n        \"vi_end\": 5,\n        \"han_text\": \"其皆另改逃另拿字者並文未府差隸兵洞就廣南嘗公堂官村者堂營兵監守移祠与方當命隊船被厥其始另在逊者\",\n        \"vietnamese_text\": \"Người lính thế và người lính trốn mà bắt được đều giao cho bản phủ sai lính lệ điệu đến quan công đường dinh Quang Nam, giao cho binh lính bản đường coi giữ, đưa giấy cho cơ đội thuyền dinh ấy đến nhận; các lính mới trốn đi thì phải xử tội. 7/ Định công dịch.\",\n        \"score\": 0.17933161721607602\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 10,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"火罪一定心役常年脩理及新造司役官定期限月楊作元成如例 有官殘秘每則准將不る淹儒以致軍中被债\",\n        \"vietnamese_text\": \"Hàng năm sửa sang và làm mới, quan phụ trách công dịch định kỳ hẹn ngày, để làm cho xong đúng lệ, có tiền công thì cứ mỗi kỳ cho phát, không được để đọng khiến cho trong quân bị nợ.\",\n        \"score\": 0.19262955327680942\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 11,\n        \"vi_start\": 7,\n        \"vi_end\": 9,\n        \"han_text\": \"四其衙役守要作是義分殺不均留鄉不貴許革術告查寔孩官重四訓字役父罪一票私殺係所族官始率某焉\",\n        \"vietnamese_text\": \"nếu người thủ dịch nha nào muốn làm ân nghĩa, chia việc không đều. hay để tiển không phát, thì cho quân kêu lên, xét ra thực thì cai quan phải phạt nặng, thủ dịch thì xử tội. 8/ Cấm việc tư.\",\n        \"score\": 0.15609528322125663\n      },\n      {\n        \"han_start\": 12,\n        \"han_end\": 13,\n        \"vi_start\": 10,\n        \"vi_end\": 10,\n        \"han_text\": \"船隊舶許軍人桶作營家并船廠 並立該作竹木等藤之故不守侵刻亥年\",\n        \"vietnamese_text\": \"Hễ cai quan đem cơ đội thuyền nào làm nhà và xưởng thuyền cho quân thì cả tiển cơm và số tro gỗ.\",\n        \"score\": 0.23485780963617425\n      },\n      {\n        \"han_start\": 14,\n        \"han_end\": 15,\n        \"vi_start\": 11,\n        \"vi_end\": 11,\n        \"han_text\": \"其私園私宅只許雇人理修不守烦軍意者停其富祿 此法亦為周阮家內外兵額兵效順化宿安城正營有中候奇所屬在候船\",\n        \"vietnamese_text\": \"tranh mây, không được lấn khoét ở quân, còn vườn riêng, nhà riêng thì chỉ cho thuê người sửa sang, không được phiền đến quân.\",\n        \"score\": 0.263848462128291\n      },\n      {\n        \"han_start\": 16,\n        \"han_end\": 17,\n        \"vi_start\": 12,\n        \"vi_end\": 12,\n        \"han_text\": \"與一船至十般不過三十有內 步兵所重左衛右術內黃殿中志小志新候炎中候步小一小二勝一勝二銳一碗二右馬左馬內刀中刀新刀左擇右擇前捍環右中銳左聖稅右聖銳前聖碗秘問說左志說右志說內志說外志說古視左鏡前鏡杖鏡在一全二左銀右銀海中擇刀左勝刀右勝刀左志刀右志刀五提術右槐遂左旺右壯内壯左四右内内猶小鏑右確災\",\n        \"vietnamese_text\": \"Người làm trái lệnh thì đình không cấp ngụ lộc.\",\n        \"score\": -0.004714343141511743\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 0,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "擾溫与本府容隱白有罪一定裕另加某社某名",
+          "vietnamese_text": "4/ Định cấp lính.",
+          "score": -0.060596834444793544
+        },
+        {
+          "han_start": 1,
+          "han_end": 4,
+          "vi_start": 1,
+          "vi_end": 1,
+          "han_text": "自五十案以上及早小縱蝕並停 其有男二名惟行一名守家 其親老無女只有男子者並兌一定始另條有名 始拾入房舶免其公役三月許造家居",
+          "vietnamese_text": "Xã nào, như tên nào từ 50 tuổi trở lên và thấp bé cô độc đều được miễn: ai có con trai 3 người, thì cho 1 người giữ nhà: cha mẹ già mà không có con gái, chỉ có con trai thì được miễn.",
+          "score": 0.39086082642293796
+        },
+        {
+          "han_start": 5,
+          "han_end": 6,
+          "vi_start": 2,
+          "vi_end": 2,
+          "han_text": "其方船前公用及禍廠庚不守 責補其船違令晉刻所其訴苦隊長定罰位長定黜",
+          "vietnamese_text": "9í Định lính mới.",
+          "score": -0.003281855150698656
+        },
+        {
+          "han_start": 7,
+          "han_end": 7,
+          "vi_start": 3,
+          "vi_end": 3,
+          "han_text": "一定巡另某船有處者呈所弦官郎日差人追十日不呈有司官付修責合追等限三月不白治潛他人",
+          "vietnamese_text": "Hễ có người mới cấp vào bản thuyền thì miễn việc quan 3 tháng, cho làm nhà hạn cho 3 tháng không được thì cấp người khác thế.",
+          "score": 0.25380868905198184
+        },
+        {
+          "han_start": 8,
+          "han_end": 8,
+          "vi_start": 4,
+          "vi_end": 5,
+          "han_text": "其皆另改逃另拿字者並文未府差隸兵洞就廣南嘗公堂官村者堂營兵監守移祠与方當命隊船被厥其始另在逊者",
+          "vietnamese_text": "Người lính thế và người lính trốn mà bắt được đều giao cho bản phủ sai lính lệ điệu đến quan công đường dinh Quang Nam, giao cho binh lính bản đường coi giữ, đưa giấy cho cơ đội thuyền dinh ấy đến nhận; các lính mới trốn đi thì phải xử tội. 7/ Định công dịch.",
+          "score": 0.17933161721607602
+        },
+        {
+          "han_start": 9,
+          "han_end": 10,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "火罪一定心役常年脩理及新造司役官定期限月楊作元成如例 有官殘秘每則准將不る淹儒以致軍中被债",
+          "vietnamese_text": "Hàng năm sửa sang và làm mới, quan phụ trách công dịch định kỳ hẹn ngày, để làm cho xong đúng lệ, có tiền công thì cứ mỗi kỳ cho phát, không được để đọng khiến cho trong quân bị nợ.",
+          "score": 0.19262955327680942
+        },
+        {
+          "han_start": 11,
+          "han_end": 11,
+          "vi_start": 7,
+          "vi_end": 9,
+          "han_text": "四其衙役守要作是義分殺不均留鄉不貴許革術告查寔孩官重四訓字役父罪一票私殺係所族官始率某焉",
+          "vietnamese_text": "nếu người thủ dịch nha nào muốn làm ân nghĩa, chia việc không đều. hay để tiển không phát, thì cho quân kêu lên, xét ra thực thì cai quan phải phạt nặng, thủ dịch thì xử tội. 8/ Cấm việc tư.",
+          "score": 0.15609528322125663
+        },
+        {
+          "han_start": 12,
+          "han_end": 13,
+          "vi_start": 10,
+          "vi_end": 10,
+          "han_text": "船隊舶許軍人桶作營家并船廠 並立該作竹木等藤之故不守侵刻亥年",
+          "vietnamese_text": "Hễ cai quan đem cơ đội thuyền nào làm nhà và xưởng thuyền cho quân thì cả tiển cơm và số tro gỗ.",
+          "score": 0.23485780963617425
+        },
+        {
+          "han_start": 14,
+          "han_end": 15,
+          "vi_start": 11,
+          "vi_end": 11,
+          "han_text": "其私園私宅只許雇人理修不守烦軍意者停其富祿 此法亦為周阮家內外兵額兵效順化宿安城正營有中候奇所屬在候船",
+          "vietnamese_text": "tranh mây, không được lấn khoét ở quân, còn vườn riêng, nhà riêng thì chỉ cho thuê người sửa sang, không được phiền đến quân.",
+          "score": 0.263848462128291
+        },
+        {
+          "han_start": 16,
+          "han_end": 17,
+          "vi_start": 12,
+          "vi_end": 12,
+          "han_text": "與一船至十般不過三十有內 步兵所重左衛右術內黃殿中志小志新候炎中候步小一小二勝一勝二銳一碗二右馬左馬內刀中刀新刀左擇右擇前捍環右中銳左聖稅右聖銳前聖碗秘問說左志說右志說內志說外志說古視左鏡前鏡杖鏡在一全二左銀右銀海中擇刀左勝刀右勝刀左志刀右志刀五提術右槐遂左旺右壯内壯左四右内内猶小鏑右確災",
+          "vietnamese_text": "Người làm trái lệnh thì đình không cấp ngụ lộc.",
+          "score": -0.004714343141511743
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 2078
+}

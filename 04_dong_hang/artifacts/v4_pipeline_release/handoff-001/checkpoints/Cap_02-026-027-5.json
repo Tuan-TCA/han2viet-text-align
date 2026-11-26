@@ -1,0 +1,633 @@
+{
+ "window": "Cap_02-026-027",
+ "cap": "Cap_02",
+ "pages": [
+  26,
+  27
+ ],
+ "context": 5,
+ "full": false,
+ "ids": [
+  "Cap_02-VI-0053-005",
+  "Cap_02-VI-0053-006",
+  "Cap_02-VI-0053-007",
+  "Cap_02-VI-0053-008",
+  "Cap_02-VI-0053-009"
+ ],
+ "han": [
+  [
+   32378,
+   32399
+  ],
+  [
+   32399,
+   32426
+  ],
+  [
+   32426,
+   32440
+  ],
+  [
+   32440,
+   32457
+  ],
+  [
+   32457,
+   32474
+  ],
+  [
+   32474,
+   32488
+  ],
+  [
+   32488,
+   32502
+  ],
+  [
+   32502,
+   32516
+  ],
+  [
+   32516,
+   32528
+  ],
+  [
+   32528,
+   32542
+  ],
+  [
+   32542,
+   32554
+  ],
+  [
+   32554,
+   32571
+  ],
+  [
+   32571,
+   32583
+  ],
+  [
+   32583,
+   32601
+  ],
+  [
+   32601,
+   32615
+  ],
+  [
+   32615,
+   32629
+  ],
+  [
+   32629,
+   32643
+  ],
+  [
+   32643,
+   32657
+  ],
+  [
+   32657,
+   32670
+  ],
+  [
+   32670,
+   32682
+  ],
+  [
+   32682,
+   32704
+  ],
+  [
+   32704,
+   32718
+  ],
+  [
+   32718,
+   32721
+  ],
+  [
+   32721,
+   32752
+  ],
+  [
+   32752,
+   32773
+  ],
+  [
+   32773,
+   32789
+  ],
+  [
+   32789,
+   32798
+  ],
+  [
+   32798,
+   32812
+  ],
+  [
+   32812,
+   32839
+  ],
+  [
+   32839,
+   32853
+  ],
+  [
+   32853,
+   32870
+  ],
+  [
+   32870,
+   32884
+  ],
+  [
+   32884,
+   32895
+  ],
+  [
+   32895,
+   32915
+  ],
+  [
+   32915,
+   32974
+  ],
+  [
+   32974,
+   32995
+  ],
+  [
+   32995,
+   33013
+  ],
+  [
+   33013,
+   33033
+  ],
+  [
+   33033,
+   33046
+  ],
+  [
+   33046,
+   33064
+  ]
+ ],
+ "key": "822a6f12019b13b91d198f32f27e29ff7bcb18fd35df6ae871c14aab66ceb9bf",
+ "status": "success",
+ "baseline": [
+  {
+   "Han_Start": 32399,
+   "Han_End": 32474,
+   "Han_Text": "晚霞世思屬董念誰向新臺發陸沉伯哉不嘗句鄉胆父臺寸屈敬擾百年帝業分光景六月王師豐好音十二金牌千古恨小天如若同微欽其詠意尊詩云火輪隱約五更霜半壁山河入醉鄉",
+   "VI_IDs": [
+    "Cap_02-VI-0053-005"
+   ],
+   "Vietnamese_Text": "1⁄;mh gió thiếu nữ (g1ó nhỏ) Dì gió tuổi chừng hai chín đây.",
+   "Alignment_Type": "N-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "Cap_02-026-027-5",
+   "API_Response_ID": "R0021",
+   "Validation_Status": "mapped",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "indices_text",
+   "Han_Units": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_02-VI-0053-005",
+     0,
+     60
+    ]
+   ],
+   "Score": 0.10957873173717433,
+   "Row": 0,
+   "Source_Rows": [
+    {
+     "response": "R0021",
+     "row": 0
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 1,
+     "han_end": 4,
+     "vi_start": 0,
+     "vi_end": 0,
+     "han_text": "晚霞世思屬董念誰向新臺發陸沉伯哉不嘗句鄉胆父臺寸屈敬擾 百年帝業分光景六月王師豐好音 十二金牌千古恨小天如若同微欽其詠意 尊詩云火輪隱約五更霜半壁山河入醉鄉",
+     "vietnamese_text": "1⁄;mh gió thiếu nữ (g1ó nhỏ) Dì gió tuổi chừng hai chín đây.",
+     "score": 0.10957873173717433
+    }
+   ],
+   "Cap": "Cap_02",
+   "Han_IDs": [
+    "Cap_02-025-026-S4-0020",
+    "Cap_02-025-026-S4-0021",
+    "Cap_02-025-026-S4-0022",
+    "Cap_02-025-026-S4-0023"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_02-VI-0053-005",
+     0,
+     60
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 692
+    }
+   ],
+   "Request_Key": "822a6f12019b13b91d198f32f27e29ff7bcb18fd35df6ae871c14aab66ceb9bf",
+   "Context_Evidence": 1,
+   "API_Score": 0.10957873173717433,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 32474,
+   "Han_End": 32528,
+   "Han_Text": "斷授已甘游汴水孤招誰料失襄陽秋尼城闕排寫贊落日樓臺奏鳳凰笑殺近亭無片張半間花草為平章阮光前題阮氏釋香家有句云",
+   "VI_IDs": [
+    "Cap_02-VI-0053-006"
+   ],
+   "Vietnamese_Text": "Tói đâu người cũng đón.",
+   "Alignment_Type": "N-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "Cap_02-026-027-5",
+   "API_Response_ID": "R0021",
+   "Validation_Status": "partial_viet",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "exact_text_fallback",
+   "Han_Units": [
+    5,
+    6,
+    7,
+    8
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_02-VI-0053-006",
+     0,
+     23
+    ]
+   ],
+   "Score": 0.03242126662227173,
+   "Row": 1,
+   "Source_Rows": [
+    {
+     "response": "R0021",
+     "row": 1
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 5,
+     "han_end": 8,
+     "vi_start": 1,
+     "vi_end": 1,
+     "han_text": "斷授已甘游汴水孤招誰料失襄陽 秋尼城闕排寫贊落日樓臺奏鳳凰 笑殺近亭無片張半間花草為平章 阮光前題阮氏釋香家有句云",
+     "vietnamese_text": "Tói đâu người cũng đón.",
+     "score": 0.03242126662227173
+    }
+   ],
+   "Cap": "Cap_02",
+   "Han_IDs": [
+    "Cap_02-025-026-S4-0024",
+    "Cap_02-025-026-S4-0025",
+    "Cap_02-025-026-S4-0026",
+    "Cap_02-025-026-S4-0027"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_02-VI-0053-006",
+     0,
+     23
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 693
+    }
+   ],
+   "Request_Key": "822a6f12019b13b91d198f32f27e29ff7bcb18fd35df6ae871c14aab66ceb9bf",
+   "Context_Evidence": 1,
+   "API_Score": 0.03242126662227173,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 32583,
+   "Han_End": 32643,
+   "Han_Text": "且喜清辰何以祝旺相又如松其詠少如風云風姨十八正停之到處生潼到處迎江上凌波空婉轉枝頭孝舞自控盈珠簾繡圍長為伴瑤草琪花首有情",
+   "VI_IDs": [
+    "Cap_02-VI-0053-006"
+   ],
+   "Vietnamese_Text": "mời ngay, Trên sông lướt sóng quanh co lượn; Học múa đầu cành thoảng nhẹ bay.",
+   "Alignment_Type": "N-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "Cap_02-026-027-5",
+   "API_Response_ID": "R0021",
+   "Validation_Status": "partial_viet",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "exact_text_fallback",
+   "Han_Units": [
+    13,
+    14,
+    15,
+    16
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_02-VI-0053-006",
+     24,
+     101
+    ]
+   ],
+   "Score": 0.1472213237722857,
+   "Row": 2,
+   "Source_Rows": [
+    {
+     "response": "R0021",
+     "row": 2
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 13,
+     "han_end": 16,
+     "vi_start": 2,
+     "vi_end": 2,
+     "han_text": "且喜清辰何以祝旺相又如松其詠少如風云 風姨十八正停之到處生潼到處迎 江上凌波空婉轉枝頭孝舞自控盈 珠簾繡圍長為伴瑤草琪花首有情",
+     "vietnamese_text": "mời ngay, Trên sông lướt sóng quanh co lượn; Học múa đầu cành thoảng nhẹ bay.",
+     "score": 0.1472213237722857
+    }
+   ],
+   "Cap": "Cap_02",
+   "Han_IDs": [
+    "Cap_02-025-026-S4-0032",
+    "Cap_02-025-026-S4-0033",
+    "Cap_02-025-026-S4-0034",
+    "Cap_02-025-026-S4-0035"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_02-VI-0053-006",
+     24,
+     101
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 693
+    }
+   ],
+   "Request_Key": "822a6f12019b13b91d198f32f27e29ff7bcb18fd35df6ae871c14aab66ceb9bf",
+   "Context_Evidence": 1,
+   "API_Score": 0.1472213237722857,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 32721,
+   "Han_End": 32798,
+   "Han_Text": "廣東寶院信使常通於肅正四十一年壬午五月為本臺寄大清曰海外贊國年莽臣阮註凋稽首顏首上言西遠方依方抒誠向化事臣事祖尊緒餘闢土巨洋之外多歷年代典南方諸玉經無附麗",
+   "VI_IDs": [
+    "Cap_02-VI-0053-007"
+   ],
+   "Vietnamese_Text": "Rèm ngọc cửa thêu là bạn cũ; Hoa thơm có đẹp uốn tình xưa.",
+   "Alignment_Type": "N-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "Cap_02-026-027-5",
+   "API_Response_ID": "R0021",
+   "Validation_Status": "mapped",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "exact_text_fallback",
+   "Han_Units": [
+    23,
+    24,
+    25,
+    26
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_02-VI-0053-007",
+     0,
+     58
+    ]
+   ],
+   "Score": 0.10352007293900561,
+   "Row": 3,
+   "Source_Rows": [
+    {
+     "response": "R0021",
+     "row": 3
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 23,
+     "han_end": 26,
+     "vi_start": 3,
+     "vi_end": 3,
+     "han_text": "廣東寶院信使常通於肅正四十一年壬午五月為本臺寄大清曰海外贊國年 莽臣阮註凋稽首顏首上言西遠方依方抒誠向化事 臣事祖尊緒餘闢土巨洋之外多歷年代 典南方諸玉經無附麗",
+     "vietnamese_text": "Rèm ngọc cửa thêu là bạn cũ; Hoa thơm có đẹp uốn tình xưa.",
+     "score": 0.10352007293900561
+    }
+   ],
+   "Cap": "Cap_02",
+   "Han_IDs": [
+    "Cap_02-027-028-S4-0001",
+    "Cap_02-027-028-S4-0002",
+    "Cap_02-027-028-S4-0003",
+    "Cap_02-027-028-S4-0004"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_02-VI-0053-007",
+     0,
+     58
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 694
+    }
+   ],
+   "Request_Key": "822a6f12019b13b91d198f32f27e29ff7bcb18fd35df6ae871c14aab66ceb9bf",
+   "Context_Evidence": 1,
+   "API_Score": 0.10352007293900561,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 32853,
+   "Han_End": 32915,
+   "Han_Text": "又廟東監生黃辰僧徒興徹同領皇天聲義旋及照方益委皇恩浩萬引領向化仰依日月富願比附來之玉上榮祖尊經祀下耀蔡棄見貼登薩有心而該待念",
+   "VI_IDs": [
+    "Cap_02-VI-0053-008"
+   ],
+   "Vietnamese_Text": "Muốn đem dúng điệu truyền thành hoa, Sắc sắc không không bhó uẽ uời.",
+   "Alignment_Type": "N-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "Cap_02-026-027-5",
+   "API_Response_ID": "R0021",
+   "Validation_Status": "mapped",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "exact_text_fallback",
+   "Han_Units": [
+    30,
+    31,
+    32,
+    33
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_02-VI-0053-008",
+     0,
+     68
+    ]
+   ],
+   "Score": -0.007879413993091727,
+   "Row": 4,
+   "Source_Rows": [
+    {
+     "response": "R0021",
+     "row": 4
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 30,
+     "han_end": 33,
+     "vi_start": 4,
+     "vi_end": 4,
+     "han_text": "又廟東監生黃辰僧徒興徹同領皇天聲義 旋及照方益委皇恩浩萬引領向化 仰依日月富願比附來之玉 上榮祖尊經祀下耀蔡棄見貼登薩有心而該待念",
+     "vietnamese_text": "Muốn đem dúng điệu truyền thành hoa, Sắc sắc không không bhó uẽ uời.",
+     "score": -0.007879413993091727
+    }
+   ],
+   "Cap": "Cap_02",
+   "Han_IDs": [
+    "Cap_02-027-028-S4-0008",
+    "Cap_02-027-028-S4-0009",
+    "Cap_02-027-028-S4-0010",
+    "Cap_02-027-028-S4-0011"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_02-VI-0053-008",
+     0,
+     68
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 695
+    }
+   ],
+   "Request_Key": "822a6f12019b13b91d198f32f27e29ff7bcb18fd35df6ae871c14aab66ceb9bf",
+   "Context_Evidence": 1,
+   "API_Score": -0.007879413993091727,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 32915,
+   "Han_End": 33033,
+   "Han_Text": "適於去年九月初二日風親遲器副貢般抵臣國境知修財天朝處詢註貞代修船多資送糧米前卦塵東臣龍洞謹將而誠情由唐具表文付並生黃辰僧興徹隨身賚帶附貢方物上上琦痛香塊一斤十兩又琦南香一塊靈三斤一月生金一塊重一斤三月五謝雷公公同圖一詠爾山鳴一丈又象牙三",
+   "VI_IDs": [
+    "Cap_02-VI-0053-009"
+   ],
+   "Vietnamese_Text": "Từng nghe có người nói rằng: Thời Tộ quốc công có thông với Thiên triều, đem biếu tổng đốc Lưỡng Quảng 5 vạn lạng bạc đề cầu phong và tiến cống.",
+   "Alignment_Type": "N-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "Cap_02-026-027-5",
+   "API_Response_ID": "R0021",
+   "Validation_Status": "mapped",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "exact_text_fallback",
+   "Han_Units": [
+    34,
+    35,
+    36,
+    37
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_02-VI-0053-009",
+     0,
+     144
+    ]
+   ],
+   "Score": 0.1317827776068167,
+   "Row": 5,
+   "Source_Rows": [
+    {
+     "response": "R0021",
+     "row": 5
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 34,
+     "han_end": 37,
+     "vi_start": 5,
+     "vi_end": 5,
+     "han_text": "適於去年九月初二日風親遲器副貢般抵臣國境知修財天朝處詢註貞代修船多資送糧米前卦塵東臣龍洞謹將而誠情由唐具表文付並生黃辰 僧興徹隨身賚帶附貢方物上上琦痛香塊一斤十兩 又琦南香一塊靈三斤一月生金一塊重一斤 三月五謝雷公公同圖一詠爾山鳴一丈又象牙三",
+     "vietnamese_text": "Từng nghe có người nói rằng: Thời Tộ quốc công có thông với Thiên triều, đem biếu tổng đốc Lưỡng Quảng 5 vạn lạng bạc đề cầu phong và tiến cống.",
+     "score": 0.1317827776068167
+    }
+   ],
+   "Cap": "Cap_02",
+   "Han_IDs": [
+    "Cap_02-027-028-S4-0012",
+    "Cap_02-027-028-S4-0013",
+    "Cap_02-027-028-S4-0014",
+    "Cap_02-027-028-S4-0015"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_02-VI-0053-009",
+     0,
+     144
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 696
+    }
+   ],
+   "Request_Key": "822a6f12019b13b91d198f32f27e29ff7bcb18fd35df6ae871c14aab66ceb9bf",
+   "Context_Evidence": 1,
+   "API_Score": 0.1317827776068167,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  }
+ ]
+}

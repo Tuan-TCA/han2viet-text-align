@@ -1,0 +1,105 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "1a69aa7ba3496f01206290ab52daf529a021f77b2b48cbbe45e9c43329d3b9f9",
+  "payload": {
+    "han": "右迎內奇所屬左右前勝四奴船與金勝船效同上\n有水差隊所屬安夏里和清河三船共一百五十人\n戰兵共五千四百八十四人並領月粮\n在來格安宅長有等庫此在外之兵也\n至卯雲南營則有中奇所登左勝一般\n有中水奇所属堅柱鏡美二統二望二右里擇三\n六船有左水奇所屬強一擇四坚三里五四般有右水奇所庚擇一左聖鏡一\n擇四里一五船有左勝步奇所屬衙二\n衛三右鏡突四左刀五船有與隊各船辰諸落者\n挽一前里競壯突二石刀四般\n屬祀祿者新號右聖左鏡右饒四般有雄水陽管雄一\n雄二雄三般以子陀閬海門有勝水陽帝安一安二龍一三船以字大占海日\n其象隊有中象左右二象齊其守禦皆各府之兵\n廣義府刃有禦隊所云衝一衛二\n衙三衝四衛五衡六衛七衛八等八般\n歸仁府知有左禦陽所屬提一機二捲三據四提五等五舶\n富安府則有前禦祿所屬安柄突一\n突二突三突五船至夫平親營\n即有中奇所至仍鏡五鏡石貌壯一鏡一前刀紅鏡提一提二擇一擇二刀一等十三般疑守官\n九族簿二记祿勾稽各与五馬隧\n其象兵有中象平象二\n又有左步奇所金義一鄉二強三里一坐二等五般有水勝隊所產宮一突\n二突三等三般有雄步隊所垂壯一前稅坐一等三般有雄水陽所屬祕水絲一新一等三般有堅水陽所屬新二左雄刀四等",
+    "vi": "Có đội Tả thắng, thuộc về đấy là các thuyền Hữu súng, Kiên trụ, Hậu kiên đao, 3 thuyền cộng 149 người.\nCó đội Hữu thắng, thuộc về đấy là các thuyền Hữu trụ, Trụ nhuệ, Tân nhất, 3 thuyền cộng 149 người.\nCó đội Tiền thắng, thuộc về đấy là các thuyển Nhuệ súng, Tả trụ, Đột tam, 3 thuyền cộng 149 người.\nCó đội Hậu thắng, thuộc về đấy là các thuyền Tả kiên súng, Tiền trụ, Tả đao, 3 thuyển cộng 149 người, Có cơ Tả tuần hà, thuộc về đấy là các thuộc Tả kiên, Hữu kiên, Tiền kiên, Hậu kiên, 4 thuyền cùng thuyền Kim kiên, cộng 147 người.\nCó cơ Hữu tuần hà, thuộc về đấy là các thuyền Tả thắng, Hữu thắng, Tiền thắng, Hậu thắng, 4 thuyền cùng thuyền Toàn thắng, số người như trên.\nCó đội Thuỷ sai, thuyền về đấy là các thuyển An Náu, Lý Hoà, Thanh Hà, 3 thuyền cộng 150 người.\nChiến binh cộng 1.484 người đều lĩnh lương tháng ở các kho Lai Cách, An Trạch, Trường Dục.\nĐó là quân ở ngoài, Đến như định Quảng Nam thì có Trung cơ, thuộc về đấy là thuyền Tả thắng nhất.\nCó cơ Trung thuỷ, thuộc về đấy là các thuyền Kiên trụ súng, Nghĩa nhất, Súng nhị, Kiên nhị, Hữu kiên, Trạch tam, 6 thuyền.\nCó cơ Tả thuỷ. thuộc về đấy là các thuyề ến Cường nhất, Trạch tứ."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 2,\n        \"vi_start\": 0,\n        \"vi_end\": 1,\n        \"han_text\": \"右迎內奇所屬左右前勝四奴船與金勝船效同上 有水差隊所屬安夏里和清河三船共一百五十人 戰兵共五千四百八十四人並領月粮\",\n        \"vietnamese_text\": \"Có đội Tả thắng, thuộc về đấy là các thuyền Hữu súng, Kiên trụ, Hậu kiên đao, 3 thuyền cộng 149 người. Có đội Hữu thắng, thuộc về đấy là các thuyền Hữu trụ, Trụ nhuệ, Tân nhất, 3 thuyền cộng 149 người.\",\n        \"score\": 0.15998699453744994\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 3,\n        \"vi_start\": 2,\n        \"vi_end\": 3,\n        \"han_text\": \"在來格安宅長有等庫此在外之兵也\",\n        \"vietnamese_text\": \"Có đội Tiền thắng, thuộc về đấy là các thuyển Nhuệ súng, Tả trụ, Đột tam, 3 thuyền cộng 149 người. Có đội Hậu thắng, thuộc về đấy là các thuyền Tả kiên súng, Tiền trụ, Tả đao, 3 thuyển cộng 149 người, Có cơ Tả tuần hà, thuộc về đấy là các thuộc Tả kiên, Hữu kiên, Tiền kiên, Hậu kiên, 4 thuyền cùng thuyền Kim kiên, cộng 147 người.\",\n        \"score\": -0.008576342284811224\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 6,\n        \"vi_start\": 4,\n        \"vi_end\": 4,\n        \"han_text\": \"至卯雲南營則有中奇所登左勝一般 有中水奇所属堅柱鏡美二統二望二右里擇三 六船有左水奇所屬強一擇四坚三里五四般有右水奇所庚擇一左聖鏡一\",\n        \"vietnamese_text\": \"Có cơ Hữu tuần hà, thuộc về đấy là các thuyền Tả thắng, Hữu thắng, Tiền thắng, Hậu thắng, 4 thuyền cùng thuyền Toàn thắng, số người như trên.\",\n        \"score\": 0.17465632696220706\n      },\n      {\n        \"han_start\": 7,\n        \"han_end\": 8,\n        \"vi_start\": 5,\n        \"vi_end\": 6,\n        \"han_text\": \"擇四里一五船有左勝步奇所屬衙二 衛三右鏡突四左刀五船有與隊各船辰諸落者\",\n        \"vietnamese_text\": \"Có đội Thuỷ sai, thuyền về đấy là các thuyển An Náu, Lý Hoà, Thanh Hà, 3 thuyền cộng 150 người. Chiến binh cộng 1.\",\n        \"score\": 0.12603462539829274\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 9,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"挽一前里競壯突二石刀四般\",\n        \"vietnamese_text\": \"484 người đều lĩnh lương tháng ở các kho Lai Cách, An Trạch, Trường Dục.\",\n        \"score\": -0.015078143621575215\n      },\n      {\n        \"han_start\": 10,\n        \"han_end\": 13,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"屬祀祿者新號右聖左鏡右饒四般有雄水陽管雄一 雄二雄三般以子陀閬海門有勝水陽帝安一安二龍一三船以字大占海日 其象隊有中象左右二象齊其守禦皆各府之兵 廣義府刃有禦隊所云衝一衛二\",\n        \"vietnamese_text\": \"Đó là quân ở ngoài, Đến như định Quảng Nam thì có Trung cơ, thuộc về đấy là thuyền Tả thắng nhất.\",\n        \"score\": 0.08431644997088106\n      },\n      {\n        \"han_start\": 14,\n        \"han_end\": 16,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"衙三衝四衛五衡六衛七衛八等八般 歸仁府知有左禦陽所屬提一機二捲三據四提五等五舶 富安府則有前禦祿所屬安柄突一\",\n        \"vietnamese_text\": \"Có cơ Trung thuỷ, thuộc về đấy là các thuyền Kiên trụ súng, Nghĩa nhất, Súng nhị, Kiên nhị, Hữu kiên, Trạch tam, 6 thuyền.\",\n        \"score\": 0.2675416301285521\n      },\n      {\n        \"han_start\": 17,\n        \"han_end\": 18,\n        \"vi_start\": 10,\n        \"vi_end\": 10,\n        \"han_text\": \"突二突三突五船至夫平親營 即有中奇所至仍鏡五鏡石貌壯一鏡一前刀紅鏡提一提二擇一擇二刀一等十三般疑守官\",\n        \"vietnamese_text\": \"Có cơ Tả thuỷ.\",\n        \"score\": -0.002985412637384585\n      },\n      {\n        \"han_start\": 19,\n        \"han_end\": 22,\n        \"vi_start\": 11,\n        \"vi_end\": 11,\n        \"han_text\": \"九族簿二记祿勾稽各与五馬隧 其象兵有中象平象二 又有左步奇所金義一鄉二強三里一坐二等五般有水勝隊所產宮一突 二突三等三般有雄步隊所垂壯一前稅坐一等三般有雄水陽所屬祕水絲一新一等三般有堅水陽所屬新二左雄刀四等\",\n        \"vietnamese_text\": \"thuộc về đấy là các thuyề ến Cường nhất, Trạch tứ.\",\n        \"score\": 0.01210547761554195\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 2,
+          "vi_start": 0,
+          "vi_end": 1,
+          "han_text": "右迎內奇所屬左右前勝四奴船與金勝船效同上 有水差隊所屬安夏里和清河三船共一百五十人 戰兵共五千四百八十四人並領月粮",
+          "vietnamese_text": "Có đội Tả thắng, thuộc về đấy là các thuyền Hữu súng, Kiên trụ, Hậu kiên đao, 3 thuyền cộng 149 người. Có đội Hữu thắng, thuộc về đấy là các thuyền Hữu trụ, Trụ nhuệ, Tân nhất, 3 thuyền cộng 149 người.",
+          "score": 0.15998699453744994
+        },
+        {
+          "han_start": 3,
+          "han_end": 3,
+          "vi_start": 2,
+          "vi_end": 3,
+          "han_text": "在來格安宅長有等庫此在外之兵也",
+          "vietnamese_text": "Có đội Tiền thắng, thuộc về đấy là các thuyển Nhuệ súng, Tả trụ, Đột tam, 3 thuyền cộng 149 người. Có đội Hậu thắng, thuộc về đấy là các thuyền Tả kiên súng, Tiền trụ, Tả đao, 3 thuyển cộng 149 người, Có cơ Tả tuần hà, thuộc về đấy là các thuộc Tả kiên, Hữu kiên, Tiền kiên, Hậu kiên, 4 thuyền cùng thuyền Kim kiên, cộng 147 người.",
+          "score": -0.008576342284811224
+        },
+        {
+          "han_start": 4,
+          "han_end": 6,
+          "vi_start": 4,
+          "vi_end": 4,
+          "han_text": "至卯雲南營則有中奇所登左勝一般 有中水奇所属堅柱鏡美二統二望二右里擇三 六船有左水奇所屬強一擇四坚三里五四般有右水奇所庚擇一左聖鏡一",
+          "vietnamese_text": "Có cơ Hữu tuần hà, thuộc về đấy là các thuyền Tả thắng, Hữu thắng, Tiền thắng, Hậu thắng, 4 thuyền cùng thuyền Toàn thắng, số người như trên.",
+          "score": 0.17465632696220706
+        },
+        {
+          "han_start": 7,
+          "han_end": 8,
+          "vi_start": 5,
+          "vi_end": 6,
+          "han_text": "擇四里一五船有左勝步奇所屬衙二 衛三右鏡突四左刀五船有與隊各船辰諸落者",
+          "vietnamese_text": "Có đội Thuỷ sai, thuyền về đấy là các thuyển An Náu, Lý Hoà, Thanh Hà, 3 thuyền cộng 150 người. Chiến binh cộng 1.",
+          "score": 0.12603462539829274
+        },
+        {
+          "han_start": 9,
+          "han_end": 9,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "挽一前里競壯突二石刀四般",
+          "vietnamese_text": "484 người đều lĩnh lương tháng ở các kho Lai Cách, An Trạch, Trường Dục.",
+          "score": -0.015078143621575215
+        },
+        {
+          "han_start": 10,
+          "han_end": 13,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "屬祀祿者新號右聖左鏡右饒四般有雄水陽管雄一 雄二雄三般以子陀閬海門有勝水陽帝安一安二龍一三船以字大占海日 其象隊有中象左右二象齊其守禦皆各府之兵 廣義府刃有禦隊所云衝一衛二",
+          "vietnamese_text": "Đó là quân ở ngoài, Đến như định Quảng Nam thì có Trung cơ, thuộc về đấy là thuyền Tả thắng nhất.",
+          "score": 0.08431644997088106
+        },
+        {
+          "han_start": 14,
+          "han_end": 16,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "衙三衝四衛五衡六衛七衛八等八般 歸仁府知有左禦陽所屬提一機二捲三據四提五等五舶 富安府則有前禦祿所屬安柄突一",
+          "vietnamese_text": "Có cơ Trung thuỷ, thuộc về đấy là các thuyền Kiên trụ súng, Nghĩa nhất, Súng nhị, Kiên nhị, Hữu kiên, Trạch tam, 6 thuyền.",
+          "score": 0.2675416301285521
+        },
+        {
+          "han_start": 17,
+          "han_end": 18,
+          "vi_start": 10,
+          "vi_end": 10,
+          "han_text": "突二突三突五船至夫平親營 即有中奇所至仍鏡五鏡石貌壯一鏡一前刀紅鏡提一提二擇一擇二刀一等十三般疑守官",
+          "vietnamese_text": "Có cơ Tả thuỷ.",
+          "score": -0.002985412637384585
+        },
+        {
+          "han_start": 19,
+          "han_end": 22,
+          "vi_start": 11,
+          "vi_end": 11,
+          "han_text": "九族簿二记祿勾稽各与五馬隧 其象兵有中象平象二 又有左步奇所金義一鄉二強三里一坐二等五般有水勝隊所產宮一突 二突三等三般有雄步隊所垂壯一前稅坐一等三般有雄水陽所屬祕水絲一新一等三般有堅水陽所屬新二左雄刀四等",
+          "vietnamese_text": "thuộc về đấy là các thuyề ến Cường nhất, Trạch tứ.",
+          "score": 0.01210547761554195
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 3219
+}

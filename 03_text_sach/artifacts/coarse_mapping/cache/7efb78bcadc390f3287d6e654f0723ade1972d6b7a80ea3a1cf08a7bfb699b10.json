@@ -1,0 +1,96 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "7efb78bcadc390f3287d6e654f0723ade1972d6b7a80ea3a1cf08a7bfb699b10",
+  "payload": {
+    "han": "將目夥一一送正\n此睦鄰之厚何厚如之\n斯義之斯情也永以為好也\n今欽送土產等物傳遽還因王殿前惟祈如納康表相通之義\n復順化於是年有書答瞿人不知遲人來書如何\n細看回書亦可見其自有尊大之意\n然書云安南國王甫復詞于19星莊國王電耀今年訣智首張第旋兩具稟貴國第并惠冷厚儀及交還侯體并據\n一與潭民五十四名回籍具見鄰邦高道受想移辰\n同識居省見四書穿中有云去年所送琦殉者乃流香非琦病也\n且琦琦一物雖他處所出求其清香佳靈亦希遇而幸逢者也\n所送之琦殉此從非佳麗華比流核不過所產之地乘使然也\n曾謂交鄭之義乃魚目爾殃己瓊故而相貴去乎\n甲曰直乙曰寶\n直鷹之間何必深辨當心意會之而已矣\n至若送本則流長回本恩斯乃睦鄰\n三厚意王國之常\n觀之貴國隱想愛歷及鳥之義\n放回侯懿及年民等斯美之斯傳之何厚\n四之雄古王道之邦亦不過是而終水事及漂\n已為拘自不遺將貴國未及登放耶",
+    "vi": "Từ nay tôi nghiêm sắc cho các thủ tướng ở miền ven biển đều nên cấm răn đân ngoài biển không được cướp bóc thuyển buôn các nước trên đường biển.\nNếu còn giữ thói cũ thì xử vào tội nặng, quyết không nhẹ tha.\nVả quý quốc còn thương người dân xiêu giạt, cho về bản quán, thì tôi há nỡ dung túng bọn vô lại ở ven biển để cho quấy rối con đỏ của nước láng giềng ư?\nNhưng trong thư trả lời có vài câu nói không thể không bàn lại được, xin hãy vì quốc vương mà tỏ bày: như câu nói \"An Nam hướng hóa rất là đáng khen\", lại lấy lòng thành mà tiến cống với hướng nói: \"An Nam hoá\", cứ những câu nói như thế không biết nước Xiêm coi nước tôi vào bậc nước nào?\nĐiều đó tôi chưa hiểu rõ.\nPhàm trên lấy ở dưới thì gọi là phú, đưới cung lên trên thì gọi là cống, nghĩa chữ cống là dưới dâng lên trên.\nCòn hai chữ hướng hoá là nước ngoài mộ phong hoá của trung triểu vậy.\nNước Xiêm La cùng với nước An Nam cũng như các nước Tề Sở Yên Triệu là những nước bằng hàng với nhau, sao lại có sự nước bằng hàng biếu nhau mà gọi là tiến cống, nước láng giểng giao hảo với nhau mà gọi là hướng hoá, sao danh thực không xứng với nhau như thế?\nTôi tưởng người bầy tôi cầm bút của quý quốc thích viết lời tự tôn tự đại mà không biết nói như vậy là sai.\nQuốc vương là bậc thông minh anh duệ, há không biết từ xưa nước Ân Nam là nước văn hiến mà lại nói như thế?"
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 0,\n        \"vi_start\": 0,\n        \"vi_end\": 1,\n        \"han_text\": \"將目夥一一送正\",\n        \"vietnamese_text\": \"Từ nay tôi nghiêm sắc cho các thủ tướng ở miền ven biển đều nên cấm răn đân ngoài biển không được cướp bóc thuyển buôn các nước trên đường biển. Nếu còn giữ thói cũ thì xử vào tội nặng, quyết không nhẹ tha.\",\n        \"score\": -0.0015282701821623052\n      },\n      {\n        \"han_start\": 1,\n        \"han_end\": 3,\n        \"vi_start\": 2,\n        \"vi_end\": 2,\n        \"han_text\": \"此睦鄰之厚何厚如之 斯義之斯情也永以為好也 今欽送土產等物傳遽還因王殿前惟祈如納康表相通之義\",\n        \"vietnamese_text\": \"Vả quý quốc còn thương người dân xiêu giạt, cho về bản quán, thì tôi há nỡ dung túng bọn vô lại ở ven biển để cho quấy rối con đỏ của nước láng giềng ư?\",\n        \"score\": 0.17238741408963315\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 6,\n        \"vi_start\": 3,\n        \"vi_end\": 3,\n        \"han_text\": \"復順化於是年有書答瞿人不知遲人來書如何 細看回書亦可見其自有尊大之意 然書云安南國王甫復詞于19星莊國王電耀今年訣智首張第旋兩具稟貴國第并惠冷厚儀及交還侯體并據\",\n        \"vietnamese_text\": \"Nhưng trong thư trả lời có vài câu nói không thể không bàn lại được, xin hãy vì quốc vương mà tỏ bày: như câu nói \\\"An Nam hướng hóa rất là đáng khen\\\", lại lấy lòng thành mà tiến cống với hướng nói: \\\"An Nam hoá\\\", cứ những câu nói như thế không biết nước Xiêm coi nước tôi vào bậc nước nào?\",\n        \"score\": 0.2600990225893798\n      },\n      {\n        \"han_start\": 7,\n        \"han_end\": 9,\n        \"vi_start\": 4,\n        \"vi_end\": 4,\n        \"han_text\": \"一與潭民五十四名回籍具見鄰邦高道受想移辰 同識居省見四書穿中有云去年所送琦殉者乃流香非琦病也 且琦琦一物雖他處所出求其清香佳靈亦希遇而幸逢者也\",\n        \"vietnamese_text\": \"Điều đó tôi chưa hiểu rõ.\",\n        \"score\": -0.005885167855486956\n      },\n      {\n        \"han_start\": 10,\n        \"han_end\": 12,\n        \"vi_start\": 5,\n        \"vi_end\": 6,\n        \"han_text\": \"所送之琦殉此從非佳麗華比流核不過所產之地乘使然也 曾謂交鄭之義乃魚目爾殃己瓊故而相貴去乎 甲曰直乙曰寶\",\n        \"vietnamese_text\": \"Phàm trên lấy ở dưới thì gọi là phú, đưới cung lên trên thì gọi là cống, nghĩa chữ cống là dưới dâng lên trên. Còn hai chữ hướng hoá là nước ngoài mộ phong hoá của trung triểu vậy.\",\n        \"score\": 0.2881469663886643\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 14,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"直鷹之間何必深辨當心意會之而已矣 至若送本則流長回本恩斯乃睦鄰\",\n        \"vietnamese_text\": \"Nước Xiêm La cùng với nước An Nam cũng như các nước Tề Sở Yên Triệu là những nước bằng hàng với nhau, sao lại có sự nước bằng hàng biếu nhau mà gọi là tiến cống, nước láng giểng giao hảo với nhau mà gọi là hướng hoá, sao danh thực không xứng với nhau như thế?\",\n        \"score\": 0.010662547954835068\n      },\n      {\n        \"han_start\": 15,\n        \"han_end\": 17,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"三厚意王國之常 觀之貴國隱想愛歷及鳥之義 放回侯懿及年民等斯美之斯傳之何厚\",\n        \"vietnamese_text\": \"Tôi tưởng người bầy tôi cầm bút của quý quốc thích viết lời tự tôn tự đại mà không biết nói như vậy là sai.\",\n        \"score\": 0.0430750089579953\n      },\n      {\n        \"han_start\": 18,\n        \"han_end\": 19,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"四之雄古王道之邦亦不過是而終水事及漂 已為拘自不遺將貴國未及登放耶\",\n        \"vietnamese_text\": \"Quốc vương là bậc thông minh anh duệ, há không biết từ xưa nước Ân Nam là nước văn hiến mà lại nói như thế?\",\n        \"score\": 0.19231663410414443\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 0,
+          "vi_start": 0,
+          "vi_end": 1,
+          "han_text": "將目夥一一送正",
+          "vietnamese_text": "Từ nay tôi nghiêm sắc cho các thủ tướng ở miền ven biển đều nên cấm răn đân ngoài biển không được cướp bóc thuyển buôn các nước trên đường biển. Nếu còn giữ thói cũ thì xử vào tội nặng, quyết không nhẹ tha.",
+          "score": -0.0015282701821623052
+        },
+        {
+          "han_start": 1,
+          "han_end": 3,
+          "vi_start": 2,
+          "vi_end": 2,
+          "han_text": "此睦鄰之厚何厚如之 斯義之斯情也永以為好也 今欽送土產等物傳遽還因王殿前惟祈如納康表相通之義",
+          "vietnamese_text": "Vả quý quốc còn thương người dân xiêu giạt, cho về bản quán, thì tôi há nỡ dung túng bọn vô lại ở ven biển để cho quấy rối con đỏ của nước láng giềng ư?",
+          "score": 0.17238741408963315
+        },
+        {
+          "han_start": 4,
+          "han_end": 6,
+          "vi_start": 3,
+          "vi_end": 3,
+          "han_text": "復順化於是年有書答瞿人不知遲人來書如何 細看回書亦可見其自有尊大之意 然書云安南國王甫復詞于19星莊國王電耀今年訣智首張第旋兩具稟貴國第并惠冷厚儀及交還侯體并據",
+          "vietnamese_text": "Nhưng trong thư trả lời có vài câu nói không thể không bàn lại được, xin hãy vì quốc vương mà tỏ bày: như câu nói \"An Nam hướng hóa rất là đáng khen\", lại lấy lòng thành mà tiến cống với hướng nói: \"An Nam hoá\", cứ những câu nói như thế không biết nước Xiêm coi nước tôi vào bậc nước nào?",
+          "score": 0.2600990225893798
+        },
+        {
+          "han_start": 7,
+          "han_end": 9,
+          "vi_start": 4,
+          "vi_end": 4,
+          "han_text": "一與潭民五十四名回籍具見鄰邦高道受想移辰 同識居省見四書穿中有云去年所送琦殉者乃流香非琦病也 且琦琦一物雖他處所出求其清香佳靈亦希遇而幸逢者也",
+          "vietnamese_text": "Điều đó tôi chưa hiểu rõ.",
+          "score": -0.005885167855486956
+        },
+        {
+          "han_start": 10,
+          "han_end": 12,
+          "vi_start": 5,
+          "vi_end": 6,
+          "han_text": "所送之琦殉此從非佳麗華比流核不過所產之地乘使然也 曾謂交鄭之義乃魚目爾殃己瓊故而相貴去乎 甲曰直乙曰寶",
+          "vietnamese_text": "Phàm trên lấy ở dưới thì gọi là phú, đưới cung lên trên thì gọi là cống, nghĩa chữ cống là dưới dâng lên trên. Còn hai chữ hướng hoá là nước ngoài mộ phong hoá của trung triểu vậy.",
+          "score": 0.2881469663886643
+        },
+        {
+          "han_start": 13,
+          "han_end": 14,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "直鷹之間何必深辨當心意會之而已矣 至若送本則流長回本恩斯乃睦鄰",
+          "vietnamese_text": "Nước Xiêm La cùng với nước An Nam cũng như các nước Tề Sở Yên Triệu là những nước bằng hàng với nhau, sao lại có sự nước bằng hàng biếu nhau mà gọi là tiến cống, nước láng giểng giao hảo với nhau mà gọi là hướng hoá, sao danh thực không xứng với nhau như thế?",
+          "score": 0.010662547954835068
+        },
+        {
+          "han_start": 15,
+          "han_end": 17,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "三厚意王國之常 觀之貴國隱想愛歷及鳥之義 放回侯懿及年民等斯美之斯傳之何厚",
+          "vietnamese_text": "Tôi tưởng người bầy tôi cầm bút của quý quốc thích viết lời tự tôn tự đại mà không biết nói như vậy là sai.",
+          "score": 0.0430750089579953
+        },
+        {
+          "han_start": 18,
+          "han_end": 19,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "四之雄古王道之邦亦不過是而終水事及漂 已為拘自不遺將貴國未及登放耶",
+          "vietnamese_text": "Quốc vương là bậc thông minh anh duệ, há không biết từ xưa nước Ân Nam là nước văn hiến mà lại nói như thế?",
+          "score": 0.19231663410414443
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 2812
+}

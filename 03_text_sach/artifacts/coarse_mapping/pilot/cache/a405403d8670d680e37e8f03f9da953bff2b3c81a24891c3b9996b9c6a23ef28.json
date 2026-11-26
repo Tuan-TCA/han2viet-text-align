@@ -1,0 +1,123 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "a405403d8670d680e37e8f03f9da953bff2b3c81a24891c3b9996b9c6a23ef28",
+  "payload": {
+    "han": "嘗新米臣每代納侯二貫每升世文\n自此至延憂平康平順嘉定四府各例視大槩畧曰富春同<C巳丑年廣南一處卷庫歲奠盤府四縣二千二百二十二長七四冊八文\n斤年府四千三長一四十三文\n廣義府二千八百十六三七四十八文\n歸仁府三千九百十四五附五十九文\n富劉府六百三十五長二四四十一文八一萬三千五百九十二六四四十九文\n此雲平康平順嘉定而之景興年年巳丑者\n南天九府二十五縣一卅人數及宿例稅底并土產稅例\n奠盤府新福要農和帝延度四縣\n及各至一弓九千三百五十一人\n除從高祿員安府务堂公司二弓四千九百十六支二百廿九文\n米一千八百二十六百十三升五合\n富洲人數七千三百八人除各或各另富巡薩夫存相稅五千八十六人\n收社花三十三色絹二十二百五十八尺二十四尺\n五十郡五千十五貫三十九文\n米四百五色廿六六度匠属人數一千人\n除各耿谷另穷逊份綱例七百五十九文\n收白席五千三百十一尺鄉七百六十六六一四三十四文\n附坊艮二百七十二人除上項石內稅二百二十一人\n收孫五百九十三一門卅六文春臺洲人\n故五百四十九人除耶色存寔納稅三百三千九人例四千四百三十二長九陽四文\n收冰禮一弓五千九百二十六",
+    "vi": "Lệ cũ hạ trường thì tiền bốc gạo xuống thuyền bản phủ cùng chịu; hễ tiển 3.000 quan thì tiển nội tâm 19 quan, mỗi 100 quan là 6 tiền 20 đồng, mỗi 10 quan là 38 đồng, mỗi quan là 3 đồng 8 phân; hễ gạo 190 bao thì tiền nội tâm 19 quan, mỗi 10 bao là 1 quan 5 tiển 50 đồng, mỗi bao là 1 tiền 35 đồng, mỗi 10 thưng là 23 đồng 7 phân rưỡi, mỗi thưng là 9 đồng 4 phân.\nTrường biệt nạp, thuộc Kim Hộ: chính hộ, hạng tráng nộp vàng (mười) 3 đồng cân 7 phân, tiết liệu 5 phân; hạng quân nộp vàng 3 đồng cân 7 phân, tiết liệu 5 phân, hạng dân, hạng lão, hạng bất cụ, mỗi người nộp vàng 2 đồng cân 7 phân, tiết liệu 4 phân rưỡi; các hạng mới về, mới đến, dân đình, giống như hạng dân, tiết liệu cũng thế; hạng cùng, hạng đào, đều chịu nộp vàng 1 đồng cân, không có tiết liệu.\nKhách hộ hạng trắng nộp vàng 2 đồng cân 7 phân, tiết liệu 3 phân; hạng quân nộp vàng 1 đồng cân 3 phân, tiết liệu 3 phân, các hạng dân, lão, bất cụ, mới về, mới đến, dân đinh, mỗi người nộp vàng 1 đồng cân 2 phân, tiết liệu 2 phân; chiết khiếm hạng nhất nộp vàng 1 đồng cân 2 phân, tiết liệu 3 phân, hạng nhì nộp vàng 1 đồng cân, tiết liệu 3 phân, hạng ba nộp vàng 7 phân, tiết liệu 3 phân; hạng cùng nộp vàng 3 phân, không có tiết liệu: hạng đào không phải nộp vàng.\nLệ sai dư của thuộc Sông Bơ, theo như các phủ, tiền suất mỗi người 1 tiền, tiển tiết liệu 30 đông, như dân đinh thì tiền tang 6 tiển, tiền gạo tám 6 đồng; tiết liệu thì các hạng đều như nhau, mỗi người nộp thay bằng tiền 4 tiền.\nLệ thuế thuyền, nghề phá xanh?\" nộp tiền 2 quan ð tiền; nghề câu trung nộp tiền 2 quan 6 tiền; nghề trường đà nhỏ nộp tiền 1 quan; nghề lưới giầm nộp tiền 2 quan 5 tiền; nghề câu nhỏ nộp tiền 3 tiền 30 đồng, thuê 20 đồng: nghề lưới vò nộp tiển 3 tiển; nghề ngưỡng thiên? nộp tiền 6 tiển, thuê 40 đồng; nghề chà? nộp tiền 3 tiền 30 đồng; nghề câu trắng nhỏ? nộp tiền 3 tiền 30 đồng, thuê 20 đồng; nghề thuyền nhỏ nộp tiền 6 tiền; nghề đan tre nộp tiền 6 tiền, thuê 40 đồng; nghề câu trắng nộp tiền 6 tiền: nghề lỗ võng (?) nộp tiền 3 quan 2 tiền, thuê 2 tiền; nghề lâm võng (?) nộp tiền 1 quan 1 tiền, thuê 1 tiền; nghề đăng võng (? nộp tiền 1 quan 2 tiển; nghề đăng tai (?) nộp tiển 3 tiển 30 đồng; nghề lưới ròn nộp tiền 3 tiển 30 đồng; nghề lưới giầm nộp tiền 6 tiền.\nLệ thuế nại muối, mỗi nại tiền 54 đồng.\nLệ thuế hàng thuộc”, tiểu hàng mỗi người 1 quan; hạng lính môi người 5 tiển.\nCho đến các thuế lệ: vặt, hễ thuê vườn dừa thì mỗi người 5 tiển, các hạng mỗi người phải nộp tiền thuế 30 đồng.\nRuộng bỏ hoang mỗi mẫu nộp thay bằng tiền 3 tiền; xâm canh nộp thay bằng tiền mỗi mâu 1 tiền 24 đồng; ruộng mới cay mỗi mẫu nộp tiền 1 quan, mỗi sào 1 tiển; đất trồng dâu, trồng mía, nộp thay bằng tiền mỗi mẫu 1 quan, gạo tám mỗi mẫu nộp tiền 1 tiền; tô ruộng nộp thay tiên 1 tiền.\nTô ruộng nộp thay bằng tiền mỗi hộc 1 quan 6 tiền, mỗi thưng 19 đồng 8 phân; thóc điển trang nộp thay bằng tiền mỗi hộc 5 tiền."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 0,\n        \"vi_start\": 0,\n        \"vi_end\": 1,\n        \"han_text\": \"嘗新米臣每代納侯二貫每升世文\",\n        \"vietnamese_text\": \"Lệ cũ hạ trường thì tiền bốc gạo xuống thuyền bản phủ cùng chịu; hễ tiển 3. 000 quan thì tiển nội tâm 19 quan, mỗi 100 quan là 6 tiền 20 đồng, mỗi 10 quan là 38 đồng, mỗi quan là 3 đồng 8 phân; hễ gạo 190 bao thì tiền nội tâm 19 quan, mỗi 10 bao là 1 quan 5 tiển 50 đồng, mỗi bao là 1 tiền 35 đồng, mỗi 10 thưng là 23 đồng 7 phân rưỡi, mỗi thưng là 9 đồng 4 phân.\",\n        \"score\": 0.020096080913594626\n      },\n      {\n        \"han_start\": 1,\n        \"han_end\": 2,\n        \"vi_start\": 2,\n        \"vi_end\": 2,\n        \"han_text\": \"自此至延憂平康平順嘉定四府各例視大槩畧曰富春同<C巳丑年廣南一處卷庫歲奠盤府四縣二千二百二十二長七四冊八文 斤年府四千三長一四十三文\",\n        \"vietnamese_text\": \"Trường biệt nạp, thuộc Kim Hộ: chính hộ, hạng tráng nộp vàng (mười) 3 đồng cân 7 phân, tiết liệu 5 phân; hạng quân nộp vàng 3 đồng cân 7 phân, tiết liệu 5 phân, hạng dân, hạng lão, hạng bất cụ, mỗi người nộp vàng 2 đồng cân 7 phân, tiết liệu 4 phân rưỡi; các hạng mới về, mới đến, dân đình, giống như hạng dân, tiết liệu cũng thế; hạng cùng, hạng đào, đều chịu nộp vàng 1 đồng cân, không có tiết liệu.\",\n        \"score\": 0.09747110286227254\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 5,\n        \"vi_start\": 3,\n        \"vi_end\": 3,\n        \"han_text\": \"廣義府二千八百十六三七四十八文 歸仁府三千九百十四五附五十九文 富劉府六百三十五長二四四十一文八一萬三千五百九十二六四四十九文\",\n        \"vietnamese_text\": \"Khách hộ hạng trắng nộp vàng 2 đồng cân 7 phân, tiết liệu 3 phân; hạng quân nộp vàng 1 đồng cân 3 phân, tiết liệu 3 phân, các hạng dân, lão, bất cụ, mới về, mới đến, dân đinh, mỗi người nộp vàng 1 đồng cân 2 phân, tiết liệu 2 phân; chiết khiếm hạng nhất nộp vàng 1 đồng cân 2 phân, tiết liệu 3 phân, hạng nhì nộp vàng 1 đồng cân, tiết liệu 3 phân, hạng ba nộp vàng 7 phân, tiết liệu 3 phân; hạng cùng nộp vàng 3 phân, không có tiết liệu: hạng đào không phải nộp vàng.\",\n        \"score\": 0.0765081298811998\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 7,\n        \"vi_start\": 4,\n        \"vi_end\": 5,\n        \"han_text\": \"此雲平康平順嘉定而之景興年年巳丑者 南天九府二十五縣一卅人數及宿例稅底并土產稅例\",\n        \"vietnamese_text\": \"Lệ sai dư của thuộc Sông Bơ, theo như các phủ, tiền suất mỗi người 1 tiền, tiển tiết liệu 30 đông, như dân đinh thì tiền tang 6 tiển, tiền gạo tám 6 đồng; tiết liệu thì các hạng đều như nhau, mỗi người nộp thay bằng tiền 4 tiền. Lệ thuế thuyền, nghề phá xanh?\",\n        \"score\": 0.13106619844791384\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 10,\n        \"vi_start\": 6,\n        \"vi_end\": 7,\n        \"han_text\": \"奠盤府新福要農和帝延度四縣 及各至一弓九千三百五十一人 除從高祿員安府务堂公司二弓四千九百十六支二百廿九文\",\n        \"vietnamese_text\": \"\\\" nộp tiền 2 quan ð tiền; nghề câu trung nộp tiền 2 quan 6 tiền; nghề trường đà nhỏ nộp tiền 1 quan; nghề lưới giầm nộp tiền 2 quan 5 tiền; nghề câu nhỏ nộp tiền 3 tiền 30 đồng, thuê 20 đồng: nghề lưới vò nộp tiển 3 tiển; nghề ngưỡng thiên? nộp tiền 6 tiển, thuê 40 đồng; nghề chà?\",\n        \"score\": 0.11669465651773225\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 11,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"米一千八百二十六百十三升五合\",\n        \"vietnamese_text\": \"nộp tiền 3 tiền 30 đồng; nghề câu trắng nhỏ?\",\n        \"score\": 0.039953233381691586\n      },\n      {\n        \"han_start\": 12,\n        \"han_end\": 13,\n        \"vi_start\": 9,\n        \"vi_end\": 10,\n        \"han_text\": \"富洲人數七千三百八人除各或各另富巡薩夫存相稅五千八十六人 收社花三十三色絹二十二百五十八尺二十四尺\",\n        \"vietnamese_text\": \"nộp tiền 3 tiền 30 đồng, thuê 20 đồng; nghề thuyền nhỏ nộp tiền 6 tiền; nghề đan tre nộp tiền 6 tiền, thuê 40 đồng; nghề câu trắng nộp tiền 6 tiền: nghề lỗ võng (? ) nộp tiền 3 quan 2 tiền, thuê 2 tiền; nghề lâm võng (?\",\n        \"score\": 0.08555226828240309\n      },\n      {\n        \"han_start\": 14,\n        \"han_end\": 15,\n        \"vi_start\": 11,\n        \"vi_end\": 13,\n        \"han_text\": \"五十郡五千十五貫三十九文 米四百五色廿六六度匠属人數一千人\",\n        \"vietnamese_text\": \") nộp tiền 1 quan 1 tiền, thuê 1 tiền; nghề đăng võng (? nộp tiền 1 quan 2 tiển; nghề đăng tai (? ) nộp tiển 3 tiển 30 đồng; nghề lưới ròn nộp tiền 3 tiển 30 đồng; nghề lưới giầm nộp tiền 6 tiền.\",\n        \"score\": 0.09659013837255084\n      },\n      {\n        \"han_start\": 16,\n        \"han_end\": 16,\n        \"vi_start\": 14,\n        \"vi_end\": 15,\n        \"han_text\": \"除各耿谷另穷逊份綱例七百五十九文\",\n        \"vietnamese_text\": \"Lệ thuế nại muối, mỗi nại tiền 54 đồng. Lệ thuế hàng thuộc”, tiểu hàng mỗi người 1 quan; hạng lính môi người 5 tiển.\",\n        \"score\": 0.04574630299399927\n      },\n      {\n        \"han_start\": 17,\n        \"han_end\": 19,\n        \"vi_start\": 16,\n        \"vi_end\": 17,\n        \"han_text\": \"收白席五千三百十一尺鄉七百六十六六一四三十四文 附坊艮二百七十二人除上項石內稅二百二十一人 收孫五百九十三一門卅六文春臺洲人\",\n        \"vietnamese_text\": \"Cho đến các thuế lệ: vặt, hễ thuê vườn dừa thì mỗi người 5 tiển, các hạng mỗi người phải nộp tiền thuế 30 đồng. Ruộng bỏ hoang mỗi mẫu nộp thay bằng tiền 3 tiền; xâm canh nộp thay bằng tiền mỗi mâu 1 tiền 24 đồng; ruộng mới cay mỗi mẫu nộp tiền 1 quan, mỗi sào 1 tiển; đất trồng dâu, trồng mía, nộp thay bằng tiền mỗi mẫu 1 quan, gạo tám mỗi mẫu nộp tiền 1 tiền; tô ruộng nộp thay tiên 1 tiền.\",\n        \"score\": 0.10608837599190911\n      },\n      {\n        \"han_start\": 20,\n        \"han_end\": 21,\n        \"vi_start\": 18,\n        \"vi_end\": 18,\n        \"han_text\": \"故五百四十九人除耶色存寔納稅三百三千九人例四千四百三十二長九陽四文 收冰禮一弓五千九百二十六\",\n        \"vietnamese_text\": \"Tô ruộng nộp thay bằng tiền mỗi hộc 1 quan 6 tiền, mỗi thưng 19 đồng 8 phân; thóc điển trang nộp thay bằng tiền mỗi hộc 5 tiền.\",\n        \"score\": 0.053857586546887916\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 0,
+          "vi_start": 0,
+          "vi_end": 1,
+          "han_text": "嘗新米臣每代納侯二貫每升世文",
+          "vietnamese_text": "Lệ cũ hạ trường thì tiền bốc gạo xuống thuyền bản phủ cùng chịu; hễ tiển 3. 000 quan thì tiển nội tâm 19 quan, mỗi 100 quan là 6 tiền 20 đồng, mỗi 10 quan là 38 đồng, mỗi quan là 3 đồng 8 phân; hễ gạo 190 bao thì tiền nội tâm 19 quan, mỗi 10 bao là 1 quan 5 tiển 50 đồng, mỗi bao là 1 tiền 35 đồng, mỗi 10 thưng là 23 đồng 7 phân rưỡi, mỗi thưng là 9 đồng 4 phân.",
+          "score": 0.020096080913594626
+        },
+        {
+          "han_start": 1,
+          "han_end": 2,
+          "vi_start": 2,
+          "vi_end": 2,
+          "han_text": "自此至延憂平康平順嘉定四府各例視大槩畧曰富春同<C巳丑年廣南一處卷庫歲奠盤府四縣二千二百二十二長七四冊八文 斤年府四千三長一四十三文",
+          "vietnamese_text": "Trường biệt nạp, thuộc Kim Hộ: chính hộ, hạng tráng nộp vàng (mười) 3 đồng cân 7 phân, tiết liệu 5 phân; hạng quân nộp vàng 3 đồng cân 7 phân, tiết liệu 5 phân, hạng dân, hạng lão, hạng bất cụ, mỗi người nộp vàng 2 đồng cân 7 phân, tiết liệu 4 phân rưỡi; các hạng mới về, mới đến, dân đình, giống như hạng dân, tiết liệu cũng thế; hạng cùng, hạng đào, đều chịu nộp vàng 1 đồng cân, không có tiết liệu.",
+          "score": 0.09747110286227254
+        },
+        {
+          "han_start": 3,
+          "han_end": 5,
+          "vi_start": 3,
+          "vi_end": 3,
+          "han_text": "廣義府二千八百十六三七四十八文 歸仁府三千九百十四五附五十九文 富劉府六百三十五長二四四十一文八一萬三千五百九十二六四四十九文",
+          "vietnamese_text": "Khách hộ hạng trắng nộp vàng 2 đồng cân 7 phân, tiết liệu 3 phân; hạng quân nộp vàng 1 đồng cân 3 phân, tiết liệu 3 phân, các hạng dân, lão, bất cụ, mới về, mới đến, dân đinh, mỗi người nộp vàng 1 đồng cân 2 phân, tiết liệu 2 phân; chiết khiếm hạng nhất nộp vàng 1 đồng cân 2 phân, tiết liệu 3 phân, hạng nhì nộp vàng 1 đồng cân, tiết liệu 3 phân, hạng ba nộp vàng 7 phân, tiết liệu 3 phân; hạng cùng nộp vàng 3 phân, không có tiết liệu: hạng đào không phải nộp vàng.",
+          "score": 0.0765081298811998
+        },
+        {
+          "han_start": 6,
+          "han_end": 7,
+          "vi_start": 4,
+          "vi_end": 5,
+          "han_text": "此雲平康平順嘉定而之景興年年巳丑者 南天九府二十五縣一卅人數及宿例稅底并土產稅例",
+          "vietnamese_text": "Lệ sai dư của thuộc Sông Bơ, theo như các phủ, tiền suất mỗi người 1 tiền, tiển tiết liệu 30 đông, như dân đinh thì tiền tang 6 tiển, tiền gạo tám 6 đồng; tiết liệu thì các hạng đều như nhau, mỗi người nộp thay bằng tiền 4 tiền. Lệ thuế thuyền, nghề phá xanh?",
+          "score": 0.13106619844791384
+        },
+        {
+          "han_start": 8,
+          "han_end": 10,
+          "vi_start": 6,
+          "vi_end": 7,
+          "han_text": "奠盤府新福要農和帝延度四縣 及各至一弓九千三百五十一人 除從高祿員安府务堂公司二弓四千九百十六支二百廿九文",
+          "vietnamese_text": "\" nộp tiền 2 quan ð tiền; nghề câu trung nộp tiền 2 quan 6 tiền; nghề trường đà nhỏ nộp tiền 1 quan; nghề lưới giầm nộp tiền 2 quan 5 tiền; nghề câu nhỏ nộp tiền 3 tiền 30 đồng, thuê 20 đồng: nghề lưới vò nộp tiển 3 tiển; nghề ngưỡng thiên? nộp tiền 6 tiển, thuê 40 đồng; nghề chà?",
+          "score": 0.11669465651773225
+        },
+        {
+          "han_start": 11,
+          "han_end": 11,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "米一千八百二十六百十三升五合",
+          "vietnamese_text": "nộp tiền 3 tiền 30 đồng; nghề câu trắng nhỏ?",
+          "score": 0.039953233381691586
+        },
+        {
+          "han_start": 12,
+          "han_end": 13,
+          "vi_start": 9,
+          "vi_end": 10,
+          "han_text": "富洲人數七千三百八人除各或各另富巡薩夫存相稅五千八十六人 收社花三十三色絹二十二百五十八尺二十四尺",
+          "vietnamese_text": "nộp tiền 3 tiền 30 đồng, thuê 20 đồng; nghề thuyền nhỏ nộp tiền 6 tiền; nghề đan tre nộp tiền 6 tiền, thuê 40 đồng; nghề câu trắng nộp tiền 6 tiền: nghề lỗ võng (? ) nộp tiền 3 quan 2 tiền, thuê 2 tiền; nghề lâm võng (?",
+          "score": 0.08555226828240309
+        },
+        {
+          "han_start": 14,
+          "han_end": 15,
+          "vi_start": 11,
+          "vi_end": 13,
+          "han_text": "五十郡五千十五貫三十九文 米四百五色廿六六度匠属人數一千人",
+          "vietnamese_text": ") nộp tiền 1 quan 1 tiền, thuê 1 tiền; nghề đăng võng (? nộp tiền 1 quan 2 tiển; nghề đăng tai (? ) nộp tiển 3 tiển 30 đồng; nghề lưới ròn nộp tiền 3 tiển 30 đồng; nghề lưới giầm nộp tiền 6 tiền.",
+          "score": 0.09659013837255084
+        },
+        {
+          "han_start": 16,
+          "han_end": 16,
+          "vi_start": 14,
+          "vi_end": 15,
+          "han_text": "除各耿谷另穷逊份綱例七百五十九文",
+          "vietnamese_text": "Lệ thuế nại muối, mỗi nại tiền 54 đồng. Lệ thuế hàng thuộc”, tiểu hàng mỗi người 1 quan; hạng lính môi người 5 tiển.",
+          "score": 0.04574630299399927
+        },
+        {
+          "han_start": 17,
+          "han_end": 19,
+          "vi_start": 16,
+          "vi_end": 17,
+          "han_text": "收白席五千三百十一尺鄉七百六十六六一四三十四文 附坊艮二百七十二人除上項石內稅二百二十一人 收孫五百九十三一門卅六文春臺洲人",
+          "vietnamese_text": "Cho đến các thuế lệ: vặt, hễ thuê vườn dừa thì mỗi người 5 tiển, các hạng mỗi người phải nộp tiền thuế 30 đồng. Ruộng bỏ hoang mỗi mẫu nộp thay bằng tiền 3 tiền; xâm canh nộp thay bằng tiền mỗi mâu 1 tiền 24 đồng; ruộng mới cay mỗi mẫu nộp tiền 1 quan, mỗi sào 1 tiển; đất trồng dâu, trồng mía, nộp thay bằng tiền mỗi mẫu 1 quan, gạo tám mỗi mẫu nộp tiền 1 tiền; tô ruộng nộp thay tiên 1 tiền.",
+          "score": 0.10608837599190911
+        },
+        {
+          "han_start": 20,
+          "han_end": 21,
+          "vi_start": 18,
+          "vi_end": 18,
+          "han_text": "故五百四十九人除耶色存寔納稅三百三千九人例四千四百三十二長九陽四文 收冰禮一弓五千九百二十六",
+          "vietnamese_text": "Tô ruộng nộp thay bằng tiền mỗi hộc 1 quan 6 tiền, mỗi thưng 19 đồng 8 phân; thóc điển trang nộp thay bằng tiền mỗi hộc 5 tiền.",
+          "score": 0.053857586546887916
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 4594
+}

@@ -1,0 +1,105 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "534e2fcce597165e16b26751570c6a814591c76e3a083555bdd113f01422f0ff",
+  "payload": {
+    "han": "恩深7未於消埃報感陽交迎有寸冊衷參次甲申時洗月瀚於長步殿之東軒碧桃除處\n內虎侍翰臣陳太祿普首年草富春城朝陽周俯院江津制度宏爽\n左壁目臣刻云詩蒼之標正色浩書無涯\n隆字一音牙一音淮一看而亦泥字云结山河秀光今日月華同\n曾傳正道補敬憶皇揭憂说空桑法\n曇泥更雨花中原花山良敬錄\n又春柳碧如烟春流宛詩浩\n低垂金鏡畔鉗拂玉橋邊\n眉細波中僉露挂尾襄纏\n章甚千步樹惟亦沐恩年中奈臣兵此撥年錄\n又一天同曙色善豈響晴雷\n臨唱傍三殿陽名播九垓\n何須太史氏更彥度雲來\n丹陛千門舞班天門十二開狀元梅亭趙臨解錄\n又童韓呈秀色偃義敬學室\n不畏無露儀偏宜細雨濛\n員坚看木性洋海興旌同42\n天使還堪所笙簫愧下臣\n中原臣兵庭揆解錄右壁月刻之詩振翻無霄阁清標向不群\n九皋空外響午夜月中風\n候轎隨王子陰洲駕大君子年遼海",
+    "vi": "Nhân huân hương uụ mê hoa liên; Dao duệ tỉnh kỳ động duẩn ban.\nLâm hạnh Doanh châu sơ bộ nhật, Đan trì khể thủ tái hô san.\nThêm trời chưa dễ leo lên được; Bỗng được tin truyền đến châu uua.\nĐưới lâu đài song phượng ở trong mây; Nơi của trời chín lần khoảng Bắc đầu.\nKhói hương ngùn ngụt mờ xe hoa; Bóng cờ phất phới rung động hàng quan châu.\nMay mắn mới bước dưới mặt trời Doanh châu, Chốn bệ son lại dập đầu hô uạn tuế.\nNgọc liễn sơ hôi thục khí dung, Xu triêu bái uũ mục đồng long.\nKinh thừa khẩu sắc long trì hạ; Tôn hoán đầu hàm hạc cấm trung.\nTrị ngộ tự lai bằng thánh chúa, Thiên từ tằng bất đõi sơn công.\nÂu thâm uị hiệu quyên ai báo, Cảm dịch giao uynh hữu thốn trung."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 0,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"恩深7未於消埃報感陽交迎有寸冊衷參次甲申時洗月瀚於長步殿之東軒碧桃除處\",\n        \"vietnamese_text\": \"Nhân huân hương uụ mê hoa liên; Dao duệ tỉnh kỳ động duẩn ban.\",\n        \"score\": -0.05870328694646154\n      },\n      {\n        \"han_start\": 1,\n        \"han_end\": 1,\n        \"vi_start\": 1,\n        \"vi_end\": 1,\n        \"han_text\": \"內虎侍翰臣陳太祿普首年草富春城朝陽周俯院江津制度宏爽\",\n        \"vietnamese_text\": \"Lâm hạnh Doanh châu sơ bộ nhật, Đan trì khể thủ tái hô san.\",\n        \"score\": 0.22868019377676077\n      },\n      {\n        \"han_start\": 2,\n        \"han_end\": 4,\n        \"vi_start\": 2,\n        \"vi_end\": 3,\n        \"han_text\": \"左壁目臣刻云詩蒼之標正色浩書無涯 隆字一音牙一音淮一看而亦泥字云结山河秀光今日月華同 曾傳正道補敬憶皇揭憂说空桑法\",\n        \"vietnamese_text\": \"Thêm trời chưa dễ leo lên được; Bỗng được tin truyền đến châu uua. Đưới lâu đài song phượng ở trong mây; Nơi của trời chín lần khoảng Bắc đầu.\",\n        \"score\": 0.0636541054915879\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 7,\n        \"vi_start\": 4,\n        \"vi_end\": 4,\n        \"han_text\": \"曇泥更雨花中原花山良敬錄 又春柳碧如烟春流宛詩浩 低垂金鏡畔鉗拂玉橋邊\",\n        \"vietnamese_text\": \"Khói hương ngùn ngụt mờ xe hoa; Bóng cờ phất phới rung động hàng quan châu.\",\n        \"score\": 0.1384449387204182\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 10,\n        \"vi_start\": 5,\n        \"vi_end\": 5,\n        \"han_text\": \"眉細波中僉露挂尾襄纏 章甚千步樹惟亦沐恩年中奈臣兵此撥年錄 又一天同曙色善豈響晴雷\",\n        \"vietnamese_text\": \"May mắn mới bước dưới mặt trời Doanh châu, Chốn bệ son lại dập đầu hô uạn tuế.\",\n        \"score\": 0.12069094893596011\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 12,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"臨唱傍三殿陽名播九垓 何須太史氏更彥度雲來\",\n        \"vietnamese_text\": \"Ngọc liễn sơ hôi thục khí dung, Xu triêu bái uũ mục đồng long.\",\n        \"score\": 0.08527949744007456\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 16,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"丹陛千門舞班天門十二開狀元梅亭趙臨解錄 又童韓呈秀色偃義敬學室 不畏無露儀偏宜細雨濛 員坚看木性洋海興旌同42\",\n        \"vietnamese_text\": \"Kinh thừa khẩu sắc long trì hạ; Tôn hoán đầu hàm hạc cấm trung.\",\n        \"score\": 0.03573461333080664\n      },\n      {\n        \"han_start\": 17,\n        \"han_end\": 18,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"天使還堪所笙簫愧下臣 中原臣兵庭揆解錄右壁月刻之詩振翻無霄阁清標向不群\",\n        \"vietnamese_text\": \"Trị ngộ tự lai bằng thánh chúa, Thiên từ tằng bất đõi sơn công.\",\n        \"score\": 0.2566530970572931\n      },\n      {\n        \"han_start\": 19,\n        \"han_end\": 20,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"九皋空外響午夜月中風 候轎隨王子陰洲駕大君子年遼海\",\n        \"vietnamese_text\": \"Âu thâm uị hiệu quyên ai báo, Cảm dịch giao uynh hữu thốn trung.\",\n        \"score\": -0.026080289313138848\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 0,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "恩深7未於消埃報感陽交迎有寸冊衷參次甲申時洗月瀚於長步殿之東軒碧桃除處",
+          "vietnamese_text": "Nhân huân hương uụ mê hoa liên; Dao duệ tỉnh kỳ động duẩn ban.",
+          "score": -0.05870328694646154
+        },
+        {
+          "han_start": 1,
+          "han_end": 1,
+          "vi_start": 1,
+          "vi_end": 1,
+          "han_text": "內虎侍翰臣陳太祿普首年草富春城朝陽周俯院江津制度宏爽",
+          "vietnamese_text": "Lâm hạnh Doanh châu sơ bộ nhật, Đan trì khể thủ tái hô san.",
+          "score": 0.22868019377676077
+        },
+        {
+          "han_start": 2,
+          "han_end": 4,
+          "vi_start": 2,
+          "vi_end": 3,
+          "han_text": "左壁目臣刻云詩蒼之標正色浩書無涯 隆字一音牙一音淮一看而亦泥字云结山河秀光今日月華同 曾傳正道補敬憶皇揭憂说空桑法",
+          "vietnamese_text": "Thêm trời chưa dễ leo lên được; Bỗng được tin truyền đến châu uua. Đưới lâu đài song phượng ở trong mây; Nơi của trời chín lần khoảng Bắc đầu.",
+          "score": 0.0636541054915879
+        },
+        {
+          "han_start": 5,
+          "han_end": 7,
+          "vi_start": 4,
+          "vi_end": 4,
+          "han_text": "曇泥更雨花中原花山良敬錄 又春柳碧如烟春流宛詩浩 低垂金鏡畔鉗拂玉橋邊",
+          "vietnamese_text": "Khói hương ngùn ngụt mờ xe hoa; Bóng cờ phất phới rung động hàng quan châu.",
+          "score": 0.1384449387204182
+        },
+        {
+          "han_start": 8,
+          "han_end": 10,
+          "vi_start": 5,
+          "vi_end": 5,
+          "han_text": "眉細波中僉露挂尾襄纏 章甚千步樹惟亦沐恩年中奈臣兵此撥年錄 又一天同曙色善豈響晴雷",
+          "vietnamese_text": "May mắn mới bước dưới mặt trời Doanh châu, Chốn bệ son lại dập đầu hô uạn tuế.",
+          "score": 0.12069094893596011
+        },
+        {
+          "han_start": 11,
+          "han_end": 12,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "臨唱傍三殿陽名播九垓 何須太史氏更彥度雲來",
+          "vietnamese_text": "Ngọc liễn sơ hôi thục khí dung, Xu triêu bái uũ mục đồng long.",
+          "score": 0.08527949744007456
+        },
+        {
+          "han_start": 13,
+          "han_end": 16,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "丹陛千門舞班天門十二開狀元梅亭趙臨解錄 又童韓呈秀色偃義敬學室 不畏無露儀偏宜細雨濛 員坚看木性洋海興旌同42",
+          "vietnamese_text": "Kinh thừa khẩu sắc long trì hạ; Tôn hoán đầu hàm hạc cấm trung.",
+          "score": 0.03573461333080664
+        },
+        {
+          "han_start": 17,
+          "han_end": 18,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "天使還堪所笙簫愧下臣 中原臣兵庭揆解錄右壁月刻之詩振翻無霄阁清標向不群",
+          "vietnamese_text": "Trị ngộ tự lai bằng thánh chúa, Thiên từ tằng bất đõi sơn công.",
+          "score": 0.2566530970572931
+        },
+        {
+          "han_start": 19,
+          "han_end": 20,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "九皋空外響午夜月中風 候轎隨王子陰洲駕大君子年遼海",
+          "vietnamese_text": "Âu thâm uị hiệu quyên ai báo, Cảm dịch giao uynh hữu thốn trung.",
+          "score": -0.026080289313138848
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 2657
+}

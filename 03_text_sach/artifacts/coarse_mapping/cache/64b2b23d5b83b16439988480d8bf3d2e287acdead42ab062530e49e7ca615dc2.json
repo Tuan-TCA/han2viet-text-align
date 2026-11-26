@@ -1,0 +1,123 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "64b2b23d5b83b16439988480d8bf3d2e287acdead42ab062530e49e7ca615dc2",
+  "payload": {
+    "han": "義之資而忘其終以獲利之自得矣\n尊言惡之權括群寇之藏玩族舜潛之珠\n以供一瓶亦斯為薄文夫何有於反嘗焉\n古之為孝也牽道丘以為肉碩力開以為閩偏百行而虛屋之集夢善而對服云\n言可言於可言之辰無不中為可為於可為之辰無不從\n修之於家而鳴之於王遠修之於國而行之於絕為其如是之又得\n鄙也則不然采之於翰墨之微\n而加之於吏民之上錄於資蔭之末\n而貴以發邊之放則何等榮遇何等辰節哉\n苟卻之徒慕黃公之盛方其所以廣也\n非克善南仲之金師其所以金也\n弗堯清三表五餅之良紫魯中说免期月三年之效\n茫若望洋出入膠接進退如觸買侯而藏以鄙也為亡有得乎笑\n中之因也必無外而弗回赫之行也必無疏而葬至鄙也\n同卷人之而乃如三因乃四之行\n皆賢侯之不定見之匪惟誠鉴\n將不知五行不說一丁亦藥見其無臣也已買候而又以鄙也\n五生真得守無然人不亡離道義\n人道亦不能遠人以為道事本乎道之著於事\n天生人人成天位定然無定形分之而三木令之而六藉",
+    "vi": "31ã\n©ộc trĩ xóm đân Đất hẹp gò cùng Uống tiếng uang, Cháu con không sợ cướp lều tranh.\nNem hươu cầm khách chè quê đặc; Đò lợn 0uợ uề rau quả xanh.\nNo ấm biết gì uy chúa thánh, Đôi dào tin ở biển thân thiêng.\nĐã không tô thuế lại nhàn rối, Già nửa người đêu tuổi tận trăm.\n£©ư khê chải cá Vọợn chài chen chóc nguyệt lưng lưng.\nBụi sậy ló ra mấy ngọn đăng (đèn), Phụ lão đâu nghe triều gọt Hán\"?\nVợ con chỉ biết khách tên Lăng”.\nVấy uùng giang hán chèo đôi mối; Thu lượm còn bhôn lưới một uàng.\nNghe nói thuông luông nay đã lớn; Chờ khi ngủ dậy thử tài chăng.\n1) Đào Hoa nguyên bý chép rằng người ở đấy bảo rằng chỉ nghe phụ lão nói Cư Trinh ngâm vịnh khá nhiều bài:\n®ề cây thô H1 TEO Đất bằng bỗng nổi sóng trong xưnh; Tiết cứng khôn cùng ả gió tranh.\nTiếng lướt mạnh hơn đàn sáo nhỏ; Khi sôi lạnh thấu gối chăn nhiều.\nCất chèo thừa thế rồng xanh múa; Giương cánh gặp thời hạc biếc qud.\nAi đã buộc thuyên khi nửa tỉnh, Mới hay chiếc lá mạnh bao nhiêu!\n1‡nÑ đổi gát rửa chân” Đứơo điên bày trước ghẹo anh hùng."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 0,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"義之資而忘其終以獲利之自得矣\",\n        \"vietnamese_text\": \"31ã\",\n        \"score\": -0.011080812153724542\n      },\n      {\n        \"han_start\": 1,\n        \"han_end\": 2,\n        \"vi_start\": 1,\n        \"vi_end\": 1,\n        \"han_text\": \"尊言惡之權括群寇之藏玩族舜潛之珠 以供一瓶亦斯為薄文夫何有於反嘗焉\",\n        \"vietnamese_text\": \"©ộc trĩ xóm đân Đất hẹp gò cùng Uống tiếng uang, Cháu con không sợ cướp lều tranh.\",\n        \"score\": 0.13968311729452587\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 3,\n        \"vi_start\": 2,\n        \"vi_end\": 4,\n        \"han_text\": \"古之為孝也牽道丘以為肉碩力開以為閩偏百行而虛屋之集夢善而對服云\",\n        \"vietnamese_text\": \"Nem hươu cầm khách chè quê đặc; Đò lợn 0uợ uề rau quả xanh. No ấm biết gì uy chúa thánh, Đôi dào tin ở biển thân thiêng. Đã không tô thuế lại nhàn rối, Già nửa người đêu tuổi tận trăm.\",\n        \"score\": 0.06377778003897346\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 5,\n        \"vi_start\": 5,\n        \"vi_end\": 7,\n        \"han_text\": \"言可言於可言之辰無不中為可為於可為之辰無不從 修之於家而鳴之於王遠修之於國而行之於絕為其如是之又得\",\n        \"vietnamese_text\": \"£©ư khê chải cá Vọợn chài chen chóc nguyệt lưng lưng. Bụi sậy ló ra mấy ngọn đăng (đèn), Phụ lão đâu nghe triều gọt Hán\\\"? Vợ con chỉ biết khách tên Lăng”.\",\n        \"score\": 0.15001341285663228\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 7,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"鄙也則不然采之於翰墨之微 而加之於吏民之上錄於資蔭之末\",\n        \"vietnamese_text\": \"Vấy uùng giang hán chèo đôi mối; Thu lượm còn bhôn lưới một uàng.\",\n        \"score\": 0.10923858175600738\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 8,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"而貴以發邊之放則何等榮遇何等辰節哉\",\n        \"vietnamese_text\": \"Nghe nói thuông luông nay đã lớn; Chờ khi ngủ dậy thử tài chăng.\",\n        \"score\": 0.0755069681877813\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 11,\n        \"vi_start\": 10,\n        \"vi_end\": 10,\n        \"han_text\": \"苟卻之徒慕黃公之盛方其所以廣也 非克善南仲之金師其所以金也 弗堯清三表五餅之良紫魯中说免期月三年之效\",\n        \"vietnamese_text\": \"1) Đào Hoa nguyên bý chép rằng người ở đấy bảo rằng chỉ nghe phụ lão nói Cư Trinh ngâm vịnh khá nhiều bài:\",\n        \"score\": 0.08174435894528208\n      },\n      {\n        \"han_start\": 12,\n        \"han_end\": 13,\n        \"vi_start\": 11,\n        \"vi_end\": 12,\n        \"han_text\": \"茫若望洋出入膠接進退如觸買侯而藏以鄙也為亡有得乎笑 中之因也必無外而弗回赫之行也必無疏而葬至鄙也\",\n        \"vietnamese_text\": \"®ề cây thô H1 TEO Đất bằng bỗng nổi sóng trong xưnh; Tiết cứng khôn cùng ả gió tranh. Tiếng lướt mạnh hơn đàn sáo nhỏ; Khi sôi lạnh thấu gối chăn nhiều.\",\n        \"score\": 0.04935778109907431\n      },\n      {\n        \"han_start\": 14,\n        \"han_end\": 15,\n        \"vi_start\": 13,\n        \"vi_end\": 13,\n        \"han_text\": \"同卷人之而乃如三因乃四之行 皆賢侯之不定見之匪惟誠鉴\",\n        \"vietnamese_text\": \"Cất chèo thừa thế rồng xanh múa; Giương cánh gặp thời hạc biếc qud.\",\n        \"score\": 0.0980652512174223\n      },\n      {\n        \"han_start\": 16,\n        \"han_end\": 16,\n        \"vi_start\": 14,\n        \"vi_end\": 14,\n        \"han_text\": \"將不知五行不說一丁亦藥見其無臣也已買候而又以鄙也\",\n        \"vietnamese_text\": \"Ai đã buộc thuyên khi nửa tỉnh, Mới hay chiếc lá mạnh bao nhiêu!\",\n        \"score\": 0.07522223847391513\n      },\n      {\n        \"han_start\": 17,\n        \"han_end\": 19,\n        \"vi_start\": 15,\n        \"vi_end\": 15,\n        \"han_text\": \"五生真得守無然人不亡離道義 人道亦不能遠人以為道事本乎道之著於事 天生人人成天位定然無定形分之而三木令之而六藉\",\n        \"vietnamese_text\": \"1‡nÑ đổi gát rửa chân” Đứơo điên bày trước ghẹo anh hùng.\",\n        \"score\": 0.0009422996327455395\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 0,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "義之資而忘其終以獲利之自得矣",
+          "vietnamese_text": "31ã",
+          "score": -0.011080812153724542
+        },
+        {
+          "han_start": 1,
+          "han_end": 2,
+          "vi_start": 1,
+          "vi_end": 1,
+          "han_text": "尊言惡之權括群寇之藏玩族舜潛之珠 以供一瓶亦斯為薄文夫何有於反嘗焉",
+          "vietnamese_text": "©ộc trĩ xóm đân Đất hẹp gò cùng Uống tiếng uang, Cháu con không sợ cướp lều tranh.",
+          "score": 0.13968311729452587
+        },
+        {
+          "han_start": 3,
+          "han_end": 3,
+          "vi_start": 2,
+          "vi_end": 4,
+          "han_text": "古之為孝也牽道丘以為肉碩力開以為閩偏百行而虛屋之集夢善而對服云",
+          "vietnamese_text": "Nem hươu cầm khách chè quê đặc; Đò lợn 0uợ uề rau quả xanh. No ấm biết gì uy chúa thánh, Đôi dào tin ở biển thân thiêng. Đã không tô thuế lại nhàn rối, Già nửa người đêu tuổi tận trăm.",
+          "score": 0.06377778003897346
+        },
+        {
+          "han_start": 4,
+          "han_end": 5,
+          "vi_start": 5,
+          "vi_end": 7,
+          "han_text": "言可言於可言之辰無不中為可為於可為之辰無不從 修之於家而鳴之於王遠修之於國而行之於絕為其如是之又得",
+          "vietnamese_text": "£©ư khê chải cá Vọợn chài chen chóc nguyệt lưng lưng. Bụi sậy ló ra mấy ngọn đăng (đèn), Phụ lão đâu nghe triều gọt Hán\"? Vợ con chỉ biết khách tên Lăng”.",
+          "score": 0.15001341285663228
+        },
+        {
+          "han_start": 6,
+          "han_end": 7,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "鄙也則不然采之於翰墨之微 而加之於吏民之上錄於資蔭之末",
+          "vietnamese_text": "Vấy uùng giang hán chèo đôi mối; Thu lượm còn bhôn lưới một uàng.",
+          "score": 0.10923858175600738
+        },
+        {
+          "han_start": 8,
+          "han_end": 8,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "而貴以發邊之放則何等榮遇何等辰節哉",
+          "vietnamese_text": "Nghe nói thuông luông nay đã lớn; Chờ khi ngủ dậy thử tài chăng.",
+          "score": 0.0755069681877813
+        },
+        {
+          "han_start": 9,
+          "han_end": 11,
+          "vi_start": 10,
+          "vi_end": 10,
+          "han_text": "苟卻之徒慕黃公之盛方其所以廣也 非克善南仲之金師其所以金也 弗堯清三表五餅之良紫魯中说免期月三年之效",
+          "vietnamese_text": "1) Đào Hoa nguyên bý chép rằng người ở đấy bảo rằng chỉ nghe phụ lão nói Cư Trinh ngâm vịnh khá nhiều bài:",
+          "score": 0.08174435894528208
+        },
+        {
+          "han_start": 12,
+          "han_end": 13,
+          "vi_start": 11,
+          "vi_end": 12,
+          "han_text": "茫若望洋出入膠接進退如觸買侯而藏以鄙也為亡有得乎笑 中之因也必無外而弗回赫之行也必無疏而葬至鄙也",
+          "vietnamese_text": "®ề cây thô H1 TEO Đất bằng bỗng nổi sóng trong xưnh; Tiết cứng khôn cùng ả gió tranh. Tiếng lướt mạnh hơn đàn sáo nhỏ; Khi sôi lạnh thấu gối chăn nhiều.",
+          "score": 0.04935778109907431
+        },
+        {
+          "han_start": 14,
+          "han_end": 15,
+          "vi_start": 13,
+          "vi_end": 13,
+          "han_text": "同卷人之而乃如三因乃四之行 皆賢侯之不定見之匪惟誠鉴",
+          "vietnamese_text": "Cất chèo thừa thế rồng xanh múa; Giương cánh gặp thời hạc biếc qud.",
+          "score": 0.0980652512174223
+        },
+        {
+          "han_start": 16,
+          "han_end": 16,
+          "vi_start": 14,
+          "vi_end": 14,
+          "han_text": "將不知五行不說一丁亦藥見其無臣也已買候而又以鄙也",
+          "vietnamese_text": "Ai đã buộc thuyên khi nửa tỉnh, Mới hay chiếc lá mạnh bao nhiêu!",
+          "score": 0.07522223847391513
+        },
+        {
+          "han_start": 17,
+          "han_end": 19,
+          "vi_start": 15,
+          "vi_end": 15,
+          "han_text": "五生真得守無然人不亡離道義 人道亦不能遠人以為道事本乎道之著於事 天生人人成天位定然無定形分之而三木令之而六藉",
+          "vietnamese_text": "1‡nÑ đổi gát rửa chân” Đứơo điên bày trước ghẹo anh hùng.",
+          "score": 0.0009422996327455395
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 3359
+}

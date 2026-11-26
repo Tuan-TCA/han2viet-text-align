@@ -1,0 +1,114 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "225719ae699691449b97f6650b8294f5a4fbb1e9c335dcb15ac3ecfbec5550ea",
+  "payload": {
+    "han": "一項一五門二項一長三項七四內家十人內赴十五人\n官員壯項四人侯二貞軍項昭四百人底一長七門臣项每人城八改老項每人成九次\n民丁项每人侯六門初羊民臣項有脚無嘗節\n一年無御進嘗新有節料不具頂\n每人依六陽前時臣每人侯一長五門將臣俸人侯一二乃器另每人成一長我陌前次總另每人依一長斗內前社長\n社長仃前生徒官員子孫每人康各九\n四府洪隊長介李府次隊長四人底各一步\n一門前糧吏前初丞各一長官坎三改逊項二兩\n正户什物每人一門十八文内呈面三 抽\n每人二四 用四四云正廣丙户\n每百人内 折欠二十文分為三\n1公堂官双依此項一项八門\n二項云陽三項四兩內許穷巡千五人\n官員壯項每人一長\n武即軍項每人一長\n辰項老項每人云門長丁年人五門從三順方洋官員子孫每人孫一門搜不具海人四陽將臣停每人一長前將臣攻次隊長行并前社長每七孫八改前次優另每人六陽新到每人六門\n初年從單項再從年天旺項窮近等項\n而孫常新場稅例正戶官員壯壯項每人米七亦軍項招田項每大米云升\n民項老項每人米五升不具項每人米五亦茶府前隊長從停前將臣及將臣仃另并前次位另每人米六升\n前社長并社長仃前祿吏并祿夾停及雇一項\n每人米五亦雇二項每人米四升\n雇三項每人米三升官員子孫及前生徒每人米五寸\n其府勘理提背軍各頂員斧將巨社長例夫",
+    "vi": "Nay cung.\nVâng truyền số người bản xã tất cả là bao nhiêu: Hạng tráng là bao nhiêu, trong đó người ở làng mà nghèo khổ quá không cố nhà ià bao nhiêu, xin xuống hạng cố là: Nguyễn Văn Mỗ; trong đó xiêu tán không thấy mặt, phải đến là bao nhiêu, xin xuống hạng cố là: Nguyễn Văn Mỗ; trong đó chính thân làm thuê (cổ) là bao nhiêu: Nguyễn Văn Mỗ...\nHạng cố là bao nhiêu, trong đó người ở làng mà nghèo khổ quá không có nhà là bao nhiêu, xin xuống hạng cùng là: Nguyễn Văn Mỗ...; trong đó xiêu tân không thấy mặt phải đền là bao Biến xin xuống hạng đào là: Nguyễn Văn Mỗ (do đào năm nào).\nHạng tiêu sai bao nhiêu, lánh ngoại bao nhiêu, quan viên bao nhiêu, hạng tráng, hạng lão, bất cụ, nhiêu tật bao nhiêu người.\nLại trong tờ đoan, các hạng ở bản xã, nếu người nào đủ ăn mà không trả về hạng tráng, sau có người nào tố cáo. thì những người ký đơn và bản xã cam chịu tội nặng.\nNay đoan.\n(Các chức có người mất bằng mà khai ở sổ gọi là lánh ngoại).\nLệ phú thuế ở xứ Quảng Nam khác với xứ Thuận Hoá.\nSự trưng thu so với Thuận Hoá hơi nặng, cho nên kho tàng thu vào rất nhiều, bổng lộc quan lại rất nhiều, mà dân địa phương ấy nổi loạn trước cả cũng vì có Ấy.\nMỗi phủ tiền sai dư, tiển thường tân, tiền tết, thóc tô ruộng, chia là bốn trường, lệ cũng không giống nhau."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 0,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"一項一五門二項一長三項七四內家十人內赴十五人\",\n        \"vietnamese_text\": \"Nay cung.\",\n        \"score\": -0.008842328876662236\n      },\n      {\n        \"han_start\": 1,\n        \"han_end\": 4,\n        \"vi_start\": 1,\n        \"vi_end\": 1,\n        \"han_text\": \"官員壯項四人侯二貞軍項昭四百人底一長七門臣项每人城八改老項每人成九次 民丁项每人侯六門初羊民臣項有脚無嘗節 一年無御進嘗新有節料不具頂 每人依六陽前時臣每人侯一長五門將臣俸人侯一二乃器另每人成一長我陌前次總另每人依一長斗內前社長\",\n        \"vietnamese_text\": \"Vâng truyền số người bản xã tất cả là bao nhiêu: Hạng tráng là bao nhiêu, trong đó người ở làng mà nghèo khổ quá không cố nhà ià bao nhiêu, xin xuống hạng cố là: Nguyễn Văn Mỗ; trong đó xiêu tán không thấy mặt, phải đến là bao nhiêu, xin xuống hạng cố là: Nguyễn Văn Mỗ; trong đó chính thân làm thuê (cổ) là bao nhiêu: Nguyễn Văn Mỗ.\",\n        \"score\": 0.2319513784406227\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 5,\n        \"vi_start\": 2,\n        \"vi_end\": 2,\n        \"han_text\": \"社長仃前生徒官員子孫每人康各九\",\n        \"vietnamese_text\": \".\",\n        \"score\": 0.0033378242580795795\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 9,\n        \"vi_start\": 3,\n        \"vi_end\": 3,\n        \"han_text\": \"四府洪隊長介李府次隊長四人底各一步 一門前糧吏前初丞各一長官坎三改逊項二兩 正户什物每人一門十八文内呈面三 抽 每人二四 用四四云正廣丙户\",\n        \"vietnamese_text\": \".\",\n        \"score\": -0.0008658227792852117\n      },\n      {\n        \"han_start\": 10,\n        \"han_end\": 13,\n        \"vi_start\": 4,\n        \"vi_end\": 4,\n        \"han_text\": \"每百人内 折欠二十文分為三 1公堂官双依此項一项八門 二項云陽三項四兩內許穷巡千五人 官員壯項每人一長\",\n        \"vietnamese_text\": \"Hạng cố là bao nhiêu, trong đó người ở làng mà nghèo khổ quá không có nhà là bao nhiêu, xin xuống hạng cùng là: Nguyễn Văn Mỗ.\",\n        \"score\": 0.16942246147672244\n      },\n      {\n        \"han_start\": 14,\n        \"han_end\": 14,\n        \"vi_start\": 5,\n        \"vi_end\": 5,\n        \"han_text\": \"武即軍項每人一長\",\n        \"vietnamese_text\": \".\",\n        \"score\": -0.000251320337900435\n      },\n      {\n        \"han_start\": 15,\n        \"han_end\": 16,\n        \"vi_start\": 6,\n        \"vi_end\": 8,\n        \"han_text\": \"辰項老項每人云門長丁年人五門從三順方洋官員子孫每人孫一門搜不具海人四陽將臣停每人一長前將臣攻次隊長行并前社長每七孫八改前次優另每人六陽新到每人六門 初年從單項再從年天旺項窮近等項\",\n        \"vietnamese_text\": \". ; trong đó xiêu tân không thấy mặt phải đền là bao Biến xin xuống hạng đào là: Nguyễn Văn Mỗ (do đào năm nào). Hạng tiêu sai bao nhiêu, lánh ngoại bao nhiêu, quan viên bao nhiêu, hạng tráng, hạng lão, bất cụ, nhiêu tật bao nhiêu người.\",\n        \"score\": 0.20763072602768395\n      },\n      {\n        \"han_start\": 17,\n        \"han_end\": 18,\n        \"vi_start\": 9,\n        \"vi_end\": 10,\n        \"han_text\": \"而孫常新場稅例正戶官員壯壯項每人米七亦軍項招田項每大米云升 民項老項每人米五升不具項每人米五亦茶府前隊長從停前將臣及將臣仃另并前次位另每人米六升\",\n        \"vietnamese_text\": \"Lại trong tờ đoan, các hạng ở bản xã, nếu người nào đủ ăn mà không trả về hạng tráng, sau có người nào tố cáo. thì những người ký đơn và bản xã cam chịu tội nặng.\",\n        \"score\": 0.2027704788291085\n      },\n      {\n        \"han_start\": 19,\n        \"han_end\": 19,\n        \"vi_start\": 11,\n        \"vi_end\": 14,\n        \"han_text\": \"前社長并社長仃前祿吏并祿夾停及雇一項\",\n        \"vietnamese_text\": \"Nay đoan. (Các chức có người mất bằng mà khai ở sổ gọi là lánh ngoại). Lệ phú thuế ở xứ Quảng Nam khác với xứ Thuận Hoá. Sự trưng thu so với Thuận Hoá hơi nặng, cho nên kho tàng thu vào rất nhiều, bổng lộc quan lại rất nhiều, mà dân địa phương ấy nổi loạn trước cả cũng vì có Ấy.\",\n        \"score\": -0.0093498776476145\n      },\n      {\n        \"han_start\": 20,\n        \"han_end\": 22,\n        \"vi_start\": 15,\n        \"vi_end\": 15,\n        \"han_text\": \"每人米五亦雇二項每人米四升 雇三項每人米三升官員子孫及前生徒每人米五寸 其府勘理提背軍各頂員斧將巨社長例夫\",\n        \"vietnamese_text\": \"Mỗi phủ tiền sai dư, tiển thường tân, tiền tết, thóc tô ruộng, chia là bốn trường, lệ cũng không giống nhau.\",\n        \"score\": 0.2319710926075254\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 0,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "一項一五門二項一長三項七四內家十人內赴十五人",
+          "vietnamese_text": "Nay cung.",
+          "score": -0.008842328876662236
+        },
+        {
+          "han_start": 1,
+          "han_end": 4,
+          "vi_start": 1,
+          "vi_end": 1,
+          "han_text": "官員壯項四人侯二貞軍項昭四百人底一長七門臣项每人城八改老項每人成九次 民丁项每人侯六門初羊民臣項有脚無嘗節 一年無御進嘗新有節料不具頂 每人依六陽前時臣每人侯一長五門將臣俸人侯一二乃器另每人成一長我陌前次總另每人依一長斗內前社長",
+          "vietnamese_text": "Vâng truyền số người bản xã tất cả là bao nhiêu: Hạng tráng là bao nhiêu, trong đó người ở làng mà nghèo khổ quá không cố nhà ià bao nhiêu, xin xuống hạng cố là: Nguyễn Văn Mỗ; trong đó xiêu tán không thấy mặt, phải đến là bao nhiêu, xin xuống hạng cố là: Nguyễn Văn Mỗ; trong đó chính thân làm thuê (cổ) là bao nhiêu: Nguyễn Văn Mỗ.",
+          "score": 0.2319513784406227
+        },
+        {
+          "han_start": 5,
+          "han_end": 5,
+          "vi_start": 2,
+          "vi_end": 2,
+          "han_text": "社長仃前生徒官員子孫每人康各九",
+          "vietnamese_text": ".",
+          "score": 0.0033378242580795795
+        },
+        {
+          "han_start": 6,
+          "han_end": 9,
+          "vi_start": 3,
+          "vi_end": 3,
+          "han_text": "四府洪隊長介李府次隊長四人底各一步 一門前糧吏前初丞各一長官坎三改逊項二兩 正户什物每人一門十八文内呈面三 抽 每人二四 用四四云正廣丙户",
+          "vietnamese_text": ".",
+          "score": -0.0008658227792852117
+        },
+        {
+          "han_start": 10,
+          "han_end": 13,
+          "vi_start": 4,
+          "vi_end": 4,
+          "han_text": "每百人内 折欠二十文分為三 1公堂官双依此項一项八門 二項云陽三項四兩內許穷巡千五人 官員壯項每人一長",
+          "vietnamese_text": "Hạng cố là bao nhiêu, trong đó người ở làng mà nghèo khổ quá không có nhà là bao nhiêu, xin xuống hạng cùng là: Nguyễn Văn Mỗ.",
+          "score": 0.16942246147672244
+        },
+        {
+          "han_start": 14,
+          "han_end": 14,
+          "vi_start": 5,
+          "vi_end": 5,
+          "han_text": "武即軍項每人一長",
+          "vietnamese_text": ".",
+          "score": -0.000251320337900435
+        },
+        {
+          "han_start": 15,
+          "han_end": 16,
+          "vi_start": 6,
+          "vi_end": 8,
+          "han_text": "辰項老項每人云門長丁年人五門從三順方洋官員子孫每人孫一門搜不具海人四陽將臣停每人一長前將臣攻次隊長行并前社長每七孫八改前次優另每人六陽新到每人六門 初年從單項再從年天旺項窮近等項",
+          "vietnamese_text": ". ; trong đó xiêu tân không thấy mặt phải đền là bao Biến xin xuống hạng đào là: Nguyễn Văn Mỗ (do đào năm nào). Hạng tiêu sai bao nhiêu, lánh ngoại bao nhiêu, quan viên bao nhiêu, hạng tráng, hạng lão, bất cụ, nhiêu tật bao nhiêu người.",
+          "score": 0.20763072602768395
+        },
+        {
+          "han_start": 17,
+          "han_end": 18,
+          "vi_start": 9,
+          "vi_end": 10,
+          "han_text": "而孫常新場稅例正戶官員壯壯項每人米七亦軍項招田項每大米云升 民項老項每人米五升不具項每人米五亦茶府前隊長從停前將臣及將臣仃另并前次位另每人米六升",
+          "vietnamese_text": "Lại trong tờ đoan, các hạng ở bản xã, nếu người nào đủ ăn mà không trả về hạng tráng, sau có người nào tố cáo. thì những người ký đơn và bản xã cam chịu tội nặng.",
+          "score": 0.2027704788291085
+        },
+        {
+          "han_start": 19,
+          "han_end": 19,
+          "vi_start": 11,
+          "vi_end": 14,
+          "han_text": "前社長并社長仃前祿吏并祿夾停及雇一項",
+          "vietnamese_text": "Nay đoan. (Các chức có người mất bằng mà khai ở sổ gọi là lánh ngoại). Lệ phú thuế ở xứ Quảng Nam khác với xứ Thuận Hoá. Sự trưng thu so với Thuận Hoá hơi nặng, cho nên kho tàng thu vào rất nhiều, bổng lộc quan lại rất nhiều, mà dân địa phương ấy nổi loạn trước cả cũng vì có Ấy.",
+          "score": -0.0093498776476145
+        },
+        {
+          "han_start": 20,
+          "han_end": 22,
+          "vi_start": 15,
+          "vi_end": 15,
+          "han_text": "每人米五亦雇二項每人米四升 雇三項每人米三升官員子孫及前生徒每人米五寸 其府勘理提背軍各頂員斧將巨社長例夫",
+          "vietnamese_text": "Mỗi phủ tiền sai dư, tiển thường tân, tiền tết, thóc tô ruộng, chia là bốn trường, lệ cũng không giống nhau.",
+          "score": 0.2319710926075254
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 3782
+}

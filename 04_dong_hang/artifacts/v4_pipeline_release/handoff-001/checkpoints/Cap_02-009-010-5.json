@@ -1,0 +1,633 @@
+{
+ "window": "Cap_02-009-010",
+ "cap": "Cap_02",
+ "pages": [
+  9,
+  10
+ ],
+ "context": 5,
+ "full": false,
+ "ids": [
+  "Cap_02-VI-0018-012",
+  "Cap_02-VI-0019-001",
+  "Cap_02-VI-0019-008",
+  "Cap_02-VI-0019-009",
+  "Cap_02-VI-0019-010"
+ ],
+ "han": [
+  [
+   26543,
+   26559
+  ],
+  [
+   26559,
+   26580
+  ],
+  [
+   26580,
+   26600
+  ],
+  [
+   26600,
+   26613
+  ],
+  [
+   26613,
+   26633
+  ],
+  [
+   26633,
+   26646
+  ],
+  [
+   26646,
+   26656
+  ],
+  [
+   26656,
+   26664
+  ],
+  [
+   26664,
+   26685
+  ],
+  [
+   26685,
+   26699
+  ],
+  [
+   26699,
+   26713
+  ],
+  [
+   26713,
+   26726
+  ],
+  [
+   26726,
+   26741
+  ],
+  [
+   26741,
+   26754
+  ],
+  [
+   26754,
+   26769
+  ],
+  [
+   26769,
+   26789
+  ],
+  [
+   26789,
+   26793
+  ],
+  [
+   26793,
+   26800
+  ],
+  [
+   26800,
+   26823
+  ],
+  [
+   26823,
+   26837
+  ],
+  [
+   26837,
+   26850
+  ],
+  [
+   26850,
+   26859
+  ],
+  [
+   26859,
+   26867
+  ],
+  [
+   26867,
+   26878
+  ],
+  [
+   26878,
+   26890
+  ],
+  [
+   26890,
+   26897
+  ],
+  [
+   26897,
+   26909
+  ],
+  [
+   26909,
+   26934
+  ],
+  [
+   26934,
+   26961
+  ],
+  [
+   26961,
+   26981
+  ],
+  [
+   26981,
+   27006
+  ],
+  [
+   27006,
+   27029
+  ],
+  [
+   27029,
+   27042
+  ],
+  [
+   27042,
+   27057
+  ],
+  [
+   27057,
+   27075
+  ],
+  [
+   27075,
+   27098
+  ],
+  [
+   27098,
+   27124
+  ],
+  [
+   27124,
+   27142
+  ],
+  [
+   27142,
+   27180
+  ],
+  [
+   27180,
+   27203
+  ]
+ ],
+ "key": "05aaf7e71e8c16fc5d5fb20e9362aeeb6aa3109b07f9080228656096dc3e410b",
+ "status": "success",
+ "baseline": [
+  {
+   "Han_Start": 26543,
+   "Han_End": 26613,
+   "Han_Text": "應察於臺者蔽於形且於棄者石去見云思不出乎其位之微此則買侯之諸鉴又不之知安矣顧乃責糶於石田而藏若虛責獻於渴色而有若無得怨節之困於名之君子多乎赤",
+   "VI_IDs": [
+    "Cap_02-VI-0018-012"
+   ],
+   "Vietnamese_Text": "Cách mệnh chăn trâu thường làm được; Đũa que mâm gỗ cũng không nề.",
+   "Alignment_Type": "N-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "Cap_02-009-010-5",
+   "API_Response_ID": "R0017",
+   "Validation_Status": "mapped",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "indices_text",
+   "Han_Units": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_02-VI-0018-012",
+     0,
+     66
+    ]
+   ],
+   "Score": 0.07037350950099674,
+   "Row": 0,
+   "Source_Rows": [
+    {
+     "response": "R0017",
+     "row": 0
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 0,
+     "han_end": 3,
+     "vi_start": 0,
+     "vi_end": 0,
+     "han_text": "應察於臺者蔽於形且於棄者石去見云 思不出乎其位之微此則買侯之諸鉴又不之知安矣 顧乃責糶於石田而藏若虛責獻於渴色而有若無 得怨節之困於名之君子多乎赤",
+     "vietnamese_text": "Cách mệnh chăn trâu thường làm được; Đũa que mâm gỗ cũng không nề.",
+     "score": 0.07037350950099674
+    }
+   ],
+   "Cap": "Cap_02",
+   "Han_IDs": [
+    "Cap_02-009-010-S4-0001",
+    "Cap_02-009-010-S4-0002",
+    "Cap_02-009-010-S4-0003",
+    "Cap_02-009-010-S4-0004"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_02-VI-0018-012",
+     0,
+     66
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 237
+    }
+   ],
+   "Request_Key": "05aaf7e71e8c16fc5d5fb20e9362aeeb6aa3109b07f9080228656096dc3e410b",
+   "Context_Evidence": 0,
+   "API_Score": 0.07037350950099674,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 26656,
+   "Han_End": 26713,
+   "Han_Text": "辰燕望見敢佈腹心又有答河仙協鎮瑛德侯法云夫存心為志寓意為詩人有淺深故詩有隱顯博約之不同辰有升障故诗有初盛中號之有異",
+   "VI_IDs": [
+    "Cap_02-VI-0019-001"
+   ],
+   "Vietnamese_Text": "Nghĩ hoạ nguyên vận bài thơ của Đường Trường Khanh qua nhà Giả Nghị.",
+   "Alignment_Type": "N-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "Cap_02-009-010-5",
+   "API_Response_ID": "R0017",
+   "Validation_Status": "mapped",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "indices_text",
+   "Han_Units": [
+    7,
+    8,
+    9,
+    10
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_02-VI-0019-001",
+     0,
+     68
+    ]
+   ],
+   "Score": 0.1274692369247351,
+   "Row": 1,
+   "Source_Rows": [
+    {
+     "response": "R0017",
+     "row": 1
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 7,
+     "han_end": 10,
+     "vi_start": 1,
+     "vi_end": 1,
+     "han_text": "辰燕望見敢佈腹心 又有答河仙協鎮瑛德侯法云夫存心為志寓意為詩 人有淺深故詩有隱顯博約之不同 辰有升障故诗有初盛中號之有異",
+     "vietnamese_text": "Nghĩ hoạ nguyên vận bài thơ của Đường Trường Khanh qua nhà Giả Nghị.",
+     "score": 0.1274692369247351
+    }
+   ],
+   "Cap": "Cap_02",
+   "Han_IDs": [
+    "Cap_02-009-010-S4-0008",
+    "Cap_02-009-010-S4-0009",
+    "Cap_02-009-010-S4-0010",
+    "Cap_02-009-010-S4-0011"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_02-VI-0019-001",
+     0,
+     68
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 245
+    }
+   ],
+   "Request_Key": "05aaf7e71e8c16fc5d5fb20e9362aeeb6aa3109b07f9080228656096dc3e410b",
+   "Context_Evidence": 0,
+   "API_Score": 0.1274692369247351,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 26726,
+   "Han_End": 26789,
+   "Han_Text": "平淺為工而文之以齋麗鑑之以聽巧特六義之外篇五際之餘事去也心者進潤之物泄之為詩而成乎句章詩之可讀者要於一字至有三年復得千祀而菲解",
+   "VI_IDs": [
+    "Cap_02-VI-0019-008"
+   ],
+   "Vietnamese_Text": "Bằng điểu\"' cũng nên hỏi chóng chây.",
+   "Alignment_Type": "N-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "Cap_02-009-010-5",
+   "API_Response_ID": "R0017",
+   "Validation_Status": "mapped",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "indices_text",
+   "Han_Units": [
+    12,
+    13,
+    14,
+    15
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_02-VI-0019-008",
+     0,
+     36
+    ]
+   ],
+   "Score": 0.059439478177350034,
+   "Row": 2,
+   "Source_Rows": [
+    {
+     "response": "R0017",
+     "row": 2
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 12,
+     "han_end": 15,
+     "vi_start": 2,
+     "vi_end": 2,
+     "han_text": "平淺為工而文之以齋麗鑑之以聽巧 特六義之外篇五際之餘事去也 心者進潤之物泄之為詩而成乎句章 詩之可讀者要於一字至有三年復得千祀而菲解",
+     "vietnamese_text": "Bằng điểu\"' cũng nên hỏi chóng chây.",
+     "score": 0.059439478177350034
+    }
+   ],
+   "Cap": "Cap_02",
+   "Han_IDs": [
+    "Cap_02-009-010-S4-0013",
+    "Cap_02-009-010-S4-0014",
+    "Cap_02-009-010-S4-0015",
+    "Cap_02-009-010-S4-0016"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_02-VI-0019-008",
+     0,
+     36
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 252
+    }
+   ],
+   "Request_Key": "05aaf7e71e8c16fc5d5fb20e9362aeeb6aa3109b07f9080228656096dc3e410b",
+   "Context_Evidence": 0,
+   "API_Score": 0.059439478177350034,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 26789,
+   "Han_End": 26837,
+   "Han_Text": "余是推之况少存涉獵未它窃思於經緣長闕慷切猶希名於之字以故平生佳作辨矣制乃金河玉塞步里之情三華之務",
+   "VI_IDs": [
+    "Cap_02-VI-0019-009"
+   ],
+   "Vietnamese_Text": "Thăng không mừng, trích?",
+   "Alignment_Type": "N-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "Cap_02-009-010-5",
+   "API_Response_ID": "R0017",
+   "Validation_Status": "partial_viet",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "exact_text_fallback",
+   "Han_Units": [
+    16,
+    17,
+    18,
+    19
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_02-VI-0019-009",
+     0,
+     24
+    ]
+   ],
+   "Score": 0.004073054602666525,
+   "Row": 3,
+   "Source_Rows": [
+    {
+     "response": "R0017",
+     "row": 3
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 16,
+     "han_end": 19,
+     "vi_start": 3,
+     "vi_end": 3,
+     "han_text": "余是推之 况少存涉獵未它 窃思於經緣長闕慷切猶希名於之字以故平生佳作辨矣 制乃金河玉塞步里之情三華之務",
+     "vietnamese_text": "Thăng không mừng, trích?",
+     "score": 0.004073054602666525
+    }
+   ],
+   "Cap": "Cap_02",
+   "Han_IDs": [
+    "Cap_02-009-010-S4-0017",
+    "Cap_02-009-010-S4-0018",
+    "Cap_02-009-010-S4-0019",
+    "Cap_02-009-010-S4-0020"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_02-VI-0019-009",
+     0,
+     24
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 253
+    }
+   ],
+   "Request_Key": "05aaf7e71e8c16fc5d5fb20e9362aeeb6aa3109b07f9080228656096dc3e410b",
+   "Context_Evidence": 0,
+   "API_Score": 0.004073054602666525,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 26850,
+   "Han_End": 26890,
+   "Han_Text": "勉由人初非尽出已興律之不益長亦多輜惟善為我意不足与人道之阮兆前廟田扶寧人仕曉國公",
+   "VI_IDs": [
+    "Cap_02-VI-0019-009"
+   ],
+   "Vietnamese_Text": "' cũng không sâu Là Giấc mộng Hiên Định'” từng đã gặp; Văn thời Giáng Quán'\" dễ làm đâu?",
+   "Alignment_Type": "N-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "Cap_02-009-010-5",
+   "API_Response_ID": "R0017",
+   "Validation_Status": "partial_viet",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "exact_text_fallback",
+   "Han_Units": [
+    21,
+    22,
+    23,
+    24
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_02-VI-0019-009",
+     24,
+     112
+    ]
+   ],
+   "Score": 0.04922520686939317,
+   "Row": 4,
+   "Source_Rows": [
+    {
+     "response": "R0017",
+     "row": 4
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 21,
+     "han_end": 24,
+     "vi_start": 4,
+     "vi_end": 4,
+     "han_text": "勉由人初非尽出已興 律之不益長亦多輜 惟善為我意不足与人道之 阮兆前廟田扶寧人仕曉國公",
+     "vietnamese_text": "' cũng không sâu Là Giấc mộng Hiên Định'” từng đã gặp; Văn thời Giáng Quán'\" dễ làm đâu?",
+     "score": 0.04922520686939317
+    }
+   ],
+   "Cap": "Cap_02",
+   "Han_IDs": [
+    "Cap_02-009-010-S4-0022",
+    "Cap_02-009-010-S4-0023",
+    "Cap_02-009-010-S4-0024",
+    "Cap_02-009-010-S4-0025"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_02-VI-0019-009",
+     24,
+     112
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 253
+    }
+   ],
+   "Request_Key": "05aaf7e71e8c16fc5d5fb20e9362aeeb6aa3109b07f9080228656096dc3e410b",
+   "Context_Evidence": 0,
+   "API_Score": 0.04922520686939317,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 26909,
+   "Han_End": 27006,
+   "Han_Text": "多其所草廟二處北餉交通先辰有送還人口香捕洋刼諸公文嘗祿安南惻廟道節制太傳國公阮甫呈于天朝其官至曉國公之祿10王景適有文書當答報敬称安南國王光前報不可以為皇帝在京天朝冊封王爵此處原是正舊臣猶吉正氣",
+   "VI_IDs": [
+    "Cap_02-VI-0019-010"
+   ],
+   "Vietnamese_Text": "Giống tròn”) khối hận ngầm trơ đó; Giường đá” lòng trinh uẫn biết nhau.",
+   "Alignment_Type": "N-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "Cap_02-009-010-5",
+   "API_Response_ID": "R0017",
+   "Validation_Status": "mapped",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "exact_text_fallback",
+   "Han_Units": [
+    27,
+    28,
+    29,
+    30
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_02-VI-0019-010",
+     0,
+     71
+    ]
+   ],
+   "Score": 0.03090580564373569,
+   "Row": 5,
+   "Source_Rows": [
+    {
+     "response": "R0017",
+     "row": 5
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 27,
+     "han_end": 30,
+     "vi_start": 5,
+     "vi_end": 5,
+     "han_text": "多其所草廟二處北餉交通先辰有送還人口香捕洋刼諸公文 嘗祿安南惻廟道節制太傳國公阮甫呈于天朝其官至曉國公之祿 10王景適有文書當答報敬称安南國王光前報 不可以為皇帝在京天朝冊封王爵此處原是正舊臣猶吉正氣",
+     "vietnamese_text": "Giống tròn”) khối hận ngầm trơ đó; Giường đá” lòng trinh uẫn biết nhau.",
+     "score": 0.03090580564373569
+    }
+   ],
+   "Cap": "Cap_02",
+   "Han_IDs": [
+    "Cap_02-009-010-S4-0028",
+    "Cap_02-009-010-S4-0029",
+    "Cap_02-009-010-S4-0030",
+    "Cap_02-009-010-S4-0031"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_02-VI-0019-010",
+     0,
+     71
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_02/VIET/VIET_0001-0105.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 254
+    }
+   ],
+   "Request_Key": "05aaf7e71e8c16fc5d5fb20e9362aeeb6aa3109b07f9080228656096dc3e410b",
+   "Context_Evidence": 0,
+   "API_Score": 0.03090580564373569,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  }
+ ]
+}

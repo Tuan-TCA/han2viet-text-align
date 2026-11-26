@@ -1,0 +1,114 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "72bc3d54988274e78ffbe8b6a480e1b7eb92f9e11c7f27fd9b21e2c7f1e050b9",
+  "payload": {
+    "han": "炮火攻打哨般功於水路斃安七人被無三十人解送來京\n德旨定本等因既將三十九人發落因禁哲梏固周\n據貴大臣翁調晝报祿翁侯意係安南德兵威奉合往高總國招安屋巽事辛把志地方還民號至坤六懇之13王教宥而國爰念國主安南準心翁侯意三十九人\n著發落還翁該令使令帶領回國去秘\n另又十五人係卷安館一度往同飛耀\n未過月至桅颯至崑歲親流四日\n遇看門船主翁彥官救活男女共十五人帶至星國中\n吾有同完同前情即將此等遭推男女共十五人\n亦交使合翁該合等帶回共五十四人矣\n但其內嘗雖十五人者非有來文取領\n乃念隣邦懷而配誠亦厚於安南矣\n不幾既入吾國誠非有愛為吾民矣焉有彼留不是之礼哉\n是故仁少己生以大事小坎陽事高文王事此\n夷惟智少己亡以小事大\n坡太王事黨焉自許事吳然吾遲邦雖誠侯義示知思天朝惑與先帝之知\n惟念願先南礼義之邦一休同仁雲念席捲吞佛而而國\n親障和睦共棄昇平四方無定自有大力受合",
+    "vi": "Ngọn nặng thì gốc phải lay, ngoài nhiều thì trong phải thiếu, có lời nói ấy nên mới đỉnh ninh cặn kê như thế, cho nên nói rằng trách bảo là cốt dạy dỗ cho.\nTôi nay đã vâng lời rồi.\nVật bay cũng bắn, không lo không được.\nDám tỏ nỗi lòng khát khao kính mến\".\nLại có bài thi dẫn đáp Hiệp trấn Hà Tiên Tông Đức hầu rằng: \"Phàm giữ lòng là chí, ngụ ý là thơ.\nNgười có nông sâu, cho nên thơ có ẩn và rõ, bao gồm và rút gọn không giống nhau.\nThời có lên xuống cho nên thơ có bước đầu, lúc thịnh, lúc giữa, lúc muộn khác nhau.\nTóm lại, không ngoài lấy trung hậu làm gốc, hàm súc làm nghĩa, bình đạm làm khéo, mà tô điểm cho đẹp đẽ, rèn luyện cho kỹ xảo, đó chỉ là ngoại thiên của sáu nghĩa\", dư sự của năm mối” mà thôi.\nTâm là cái khó lường, tiết ra mà làm thơ, mà thành.\nThơ mà có thể đọc được, cốt ở một chữ, có khi đến ba năm mà sau mới tìm được hay nghìn năm mà không giải quyết được.\nTôi xem đó là khó lắm.\nHuống chỉ khi nhỏ còn bông lông, chưa hay đốc chí về kinh luân, lớn lên lại biếng lười, rất sợ cầu đanh ở văn chương, cho nên sinh bình thơ hay rất ít.\nHuống lại sông vàng ải ngọc, muôn đặm tình hoài; lại việc ba quân còn rỗi đâu mà nghĩ đến thơ.\nNếu có ngâm vịnh một hai bài thì cũng miễn cưỡng theo người, chứ vốn cũng không phải tự mình cao hứng, so với điều không nên cẩu thả thực đáng xấu hổ.\nXin khéo vì tôi che giấu, không nên nói VớI người ngoài”.\nk¿ Nguyễn Quang Tiền là người Phú Ninh huyện Quảng Điển, làm quan ở thời Hiểu quốc công, làm Hàn lâm Thạc Đức hầu, có nhiều bài đề vịnh các cung điện và văn thơ thù đáp các nước Phiên, phần nhiều là do tay thảo ra."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 1,\n        \"vi_start\": 0,\n        \"vi_end\": 2,\n        \"han_text\": \"炮火攻打哨般功於水路斃安七人被無三十人解送來京 德旨定本等因既將三十九人發落因禁哲梏固周\",\n        \"vietnamese_text\": \"Ngọn nặng thì gốc phải lay, ngoài nhiều thì trong phải thiếu, có lời nói ấy nên mới đỉnh ninh cặn kê như thế, cho nên nói rằng trách bảo là cốt dạy dỗ cho. Tôi nay đã vâng lời rồi. Vật bay cũng bắn, không lo không được.\",\n        \"score\": 0.13319876557614688\n      },\n      {\n        \"han_start\": 2,\n        \"han_end\": 2,\n        \"vi_start\": 3,\n        \"vi_end\": 5,\n        \"han_text\": \"據貴大臣翁調晝报祿翁侯意係安南德兵威奉合往高總國招安屋巽事辛把志地方還民號至坤六懇之13王教宥而國爰念國主安南準心翁侯意三十九人\",\n        \"vietnamese_text\": \"Dám tỏ nỗi lòng khát khao kính mến\\\". Lại có bài thi dẫn đáp Hiệp trấn Hà Tiên Tông Đức hầu rằng: \\\"Phàm giữ lòng là chí, ngụ ý là thơ. Người có nông sâu, cho nên thơ có ẩn và rõ, bao gồm và rút gọn không giống nhau.\",\n        \"score\": 0.1532252331232729\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 3,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"著發落還翁該令使令帶領回國去秘\",\n        \"vietnamese_text\": \"Thời có lên xuống cho nên thơ có bước đầu, lúc thịnh, lúc giữa, lúc muộn khác nhau.\",\n        \"score\": -0.052668364526872465\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 6,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"另又十五人係卷安館一度往同飛耀 未過月至桅颯至崑歲親流四日 遇看門船主翁彥官救活男女共十五人帶至星國中\",\n        \"vietnamese_text\": \"Tóm lại, không ngoài lấy trung hậu làm gốc, hàm súc làm nghĩa, bình đạm làm khéo, mà tô điểm cho đẹp đẽ, rèn luyện cho kỹ xảo, đó chỉ là ngoại thiên của sáu nghĩa\\\", dư sự của năm mối” mà thôi.\",\n        \"score\": 0.20968276077737386\n      },\n      {\n        \"han_start\": 7,\n        \"han_end\": 7,\n        \"vi_start\": 8,\n        \"vi_end\": 9,\n        \"han_text\": \"吾有同完同前情即將此等遭推男女共十五人\",\n        \"vietnamese_text\": \"Tâm là cái khó lường, tiết ra mà làm thơ, mà thành. Thơ mà có thể đọc được, cốt ở một chữ, có khi đến ba năm mà sau mới tìm được hay nghìn năm mà không giải quyết được.\",\n        \"score\": 0.03346599615401167\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 8,\n        \"vi_start\": 10,\n        \"vi_end\": 10,\n        \"han_text\": \"亦交使合翁該合等帶回共五十四人矣\",\n        \"vietnamese_text\": \"Tôi xem đó là khó lắm.\",\n        \"score\": 0.002823695824789764\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 9,\n        \"vi_start\": 11,\n        \"vi_end\": 11,\n        \"han_text\": \"但其內嘗雖十五人者非有來文取領\",\n        \"vietnamese_text\": \"Huống chỉ khi nhỏ còn bông lông, chưa hay đốc chí về kinh luân, lớn lên lại biếng lười, rất sợ cầu đanh ở văn chương, cho nên sinh bình thơ hay rất ít.\",\n        \"score\": 0.043016517662236596\n      },\n      {\n        \"han_start\": 10,\n        \"han_end\": 10,\n        \"vi_start\": 12,\n        \"vi_end\": 12,\n        \"han_text\": \"乃念隣邦懷而配誠亦厚於安南矣\",\n        \"vietnamese_text\": \"Huống lại sông vàng ải ngọc, muôn đặm tình hoài; lại việc ba quân còn rỗi đâu mà nghĩ đến thơ.\",\n        \"score\": 0.0366090327694904\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 13,\n        \"vi_start\": 13,\n        \"vi_end\": 14,\n        \"han_text\": \"不幾既入吾國誠非有愛為吾民矣焉有彼留不是之礼哉 是故仁少己生以大事小坎陽事高文王事此 夷惟智少己亡以小事大\",\n        \"vietnamese_text\": \"Nếu có ngâm vịnh một hai bài thì cũng miễn cưỡng theo người, chứ vốn cũng không phải tự mình cao hứng, so với điều không nên cẩu thả thực đáng xấu hổ. Xin khéo vì tôi che giấu, không nên nói VớI người ngoài”.\",\n        \"score\": 0.18927027930520662\n      },\n      {\n        \"han_start\": 14,\n        \"han_end\": 16,\n        \"vi_start\": 15,\n        \"vi_end\": 15,\n        \"han_text\": \"坡太王事黨焉自許事吳然吾遲邦雖誠侯義示知思天朝惑與先帝之知 惟念願先南礼義之邦一休同仁雲念席捲吞佛而而國 親障和睦共棄昇平四方無定自有大力受合\",\n        \"vietnamese_text\": \"k¿ Nguyễn Quang Tiền là người Phú Ninh huyện Quảng Điển, làm quan ở thời Hiểu quốc công, làm Hàn lâm Thạc Đức hầu, có nhiều bài đề vịnh các cung điện và văn thơ thù đáp các nước Phiên, phần nhiều là do tay thảo ra.\",\n        \"score\": 0.19761742745627803\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 1,
+          "vi_start": 0,
+          "vi_end": 2,
+          "han_text": "炮火攻打哨般功於水路斃安七人被無三十人解送來京 德旨定本等因既將三十九人發落因禁哲梏固周",
+          "vietnamese_text": "Ngọn nặng thì gốc phải lay, ngoài nhiều thì trong phải thiếu, có lời nói ấy nên mới đỉnh ninh cặn kê như thế, cho nên nói rằng trách bảo là cốt dạy dỗ cho. Tôi nay đã vâng lời rồi. Vật bay cũng bắn, không lo không được.",
+          "score": 0.13319876557614688
+        },
+        {
+          "han_start": 2,
+          "han_end": 2,
+          "vi_start": 3,
+          "vi_end": 5,
+          "han_text": "據貴大臣翁調晝报祿翁侯意係安南德兵威奉合往高總國招安屋巽事辛把志地方還民號至坤六懇之13王教宥而國爰念國主安南準心翁侯意三十九人",
+          "vietnamese_text": "Dám tỏ nỗi lòng khát khao kính mến\". Lại có bài thi dẫn đáp Hiệp trấn Hà Tiên Tông Đức hầu rằng: \"Phàm giữ lòng là chí, ngụ ý là thơ. Người có nông sâu, cho nên thơ có ẩn và rõ, bao gồm và rút gọn không giống nhau.",
+          "score": 0.1532252331232729
+        },
+        {
+          "han_start": 3,
+          "han_end": 3,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "著發落還翁該令使令帶領回國去秘",
+          "vietnamese_text": "Thời có lên xuống cho nên thơ có bước đầu, lúc thịnh, lúc giữa, lúc muộn khác nhau.",
+          "score": -0.052668364526872465
+        },
+        {
+          "han_start": 4,
+          "han_end": 6,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "另又十五人係卷安館一度往同飛耀 未過月至桅颯至崑歲親流四日 遇看門船主翁彥官救活男女共十五人帶至星國中",
+          "vietnamese_text": "Tóm lại, không ngoài lấy trung hậu làm gốc, hàm súc làm nghĩa, bình đạm làm khéo, mà tô điểm cho đẹp đẽ, rèn luyện cho kỹ xảo, đó chỉ là ngoại thiên của sáu nghĩa\", dư sự của năm mối” mà thôi.",
+          "score": 0.20968276077737386
+        },
+        {
+          "han_start": 7,
+          "han_end": 7,
+          "vi_start": 8,
+          "vi_end": 9,
+          "han_text": "吾有同完同前情即將此等遭推男女共十五人",
+          "vietnamese_text": "Tâm là cái khó lường, tiết ra mà làm thơ, mà thành. Thơ mà có thể đọc được, cốt ở một chữ, có khi đến ba năm mà sau mới tìm được hay nghìn năm mà không giải quyết được.",
+          "score": 0.03346599615401167
+        },
+        {
+          "han_start": 8,
+          "han_end": 8,
+          "vi_start": 10,
+          "vi_end": 10,
+          "han_text": "亦交使合翁該合等帶回共五十四人矣",
+          "vietnamese_text": "Tôi xem đó là khó lắm.",
+          "score": 0.002823695824789764
+        },
+        {
+          "han_start": 9,
+          "han_end": 9,
+          "vi_start": 11,
+          "vi_end": 11,
+          "han_text": "但其內嘗雖十五人者非有來文取領",
+          "vietnamese_text": "Huống chỉ khi nhỏ còn bông lông, chưa hay đốc chí về kinh luân, lớn lên lại biếng lười, rất sợ cầu đanh ở văn chương, cho nên sinh bình thơ hay rất ít.",
+          "score": 0.043016517662236596
+        },
+        {
+          "han_start": 10,
+          "han_end": 10,
+          "vi_start": 12,
+          "vi_end": 12,
+          "han_text": "乃念隣邦懷而配誠亦厚於安南矣",
+          "vietnamese_text": "Huống lại sông vàng ải ngọc, muôn đặm tình hoài; lại việc ba quân còn rỗi đâu mà nghĩ đến thơ.",
+          "score": 0.0366090327694904
+        },
+        {
+          "han_start": 11,
+          "han_end": 13,
+          "vi_start": 13,
+          "vi_end": 14,
+          "han_text": "不幾既入吾國誠非有愛為吾民矣焉有彼留不是之礼哉 是故仁少己生以大事小坎陽事高文王事此 夷惟智少己亡以小事大",
+          "vietnamese_text": "Nếu có ngâm vịnh một hai bài thì cũng miễn cưỡng theo người, chứ vốn cũng không phải tự mình cao hứng, so với điều không nên cẩu thả thực đáng xấu hổ. Xin khéo vì tôi che giấu, không nên nói VớI người ngoài”.",
+          "score": 0.18927027930520662
+        },
+        {
+          "han_start": 14,
+          "han_end": 16,
+          "vi_start": 15,
+          "vi_end": 15,
+          "han_text": "坡太王事黨焉自許事吳然吾遲邦雖誠侯義示知思天朝惑與先帝之知 惟念願先南礼義之邦一休同仁雲念席捲吞佛而而國 親障和睦共棄昇平四方無定自有大力受合",
+          "vietnamese_text": "k¿ Nguyễn Quang Tiền là người Phú Ninh huyện Quảng Điển, làm quan ở thời Hiểu quốc công, làm Hàn lâm Thạc Đức hầu, có nhiều bài đề vịnh các cung điện và văn thơ thù đáp các nước Phiên, phần nhiều là do tay thảo ra.",
+          "score": 0.19761742745627803
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 3719
+}

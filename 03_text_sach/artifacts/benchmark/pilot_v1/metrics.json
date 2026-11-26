@@ -1,0 +1,491 @@
+{
+  "config_sha256": "8d67d5ad5fb109e1ee77f2dd3d1135f2c1f646dc918c06de884d787b533d79e9",
+  "config": {
+    "benchmark": {
+      "cap": "Cap_01",
+      "pages": [
+        1,
+        2
+      ],
+      "viet_pages": [
+        186,
+        188
+      ]
+    },
+    "window_pages": 2,
+    "context_margin": 1,
+    "grid_step": 9,
+    "max_han_chars": 250,
+    "max_vi_merge": 3,
+    "max_han_skip": 4,
+    "repair_max_units": 4,
+    "heldout_page_count_per_cap": 5,
+    "semantic_batch": 16,
+    "semantic_token_limit": 256,
+    "semantic_model": "OmniAlign/OmniAlign",
+    "api_delay": 0.8,
+    "api_timeout": 90,
+    "api_retries": 2,
+    "genre": "history"
+  },
+  "mode": "benchmark",
+  "no_model": false,
+  "method": "M1",
+  "windows": [
+    "Cap_01-001-002"
+  ],
+  "heldout": [
+    [
+      "Cap_01",
+      [
+        30,
+        31
+      ]
+    ],
+    [
+      "Cap_01",
+      [
+        38,
+        39
+      ]
+    ],
+    [
+      "Cap_01",
+      [
+        53
+      ]
+    ],
+    [
+      "Cap_02",
+      [
+        13,
+        14
+      ]
+    ],
+    [
+      "Cap_02",
+      [
+        15,
+        16
+      ]
+    ],
+    [
+      "Cap_02",
+      [
+        51
+      ]
+    ]
+  ],
+  "source_sha256": "f5098f4f1e4e8762e1acf21644368ff81d561c3fca5e7fd0b747e539b61c75e6",
+  "length_model": {
+    "ratio": 1.5253522280471823,
+    "samples": [
+      {
+        "cap": "Cap_01",
+        "page": 27,
+        "ratio": 1.6018808777429467
+      },
+      {
+        "cap": "Cap_01",
+        "page": 52,
+        "ratio": 1.2249240121580547
+      },
+      {
+        "cap": "Cap_02",
+        "page": 1,
+        "ratio": 1.3636363636363635
+      },
+      {
+        "cap": "Cap_02",
+        "page": 2,
+        "ratio": 2.6333333333333333
+      },
+      {
+        "cap": "Cap_02",
+        "page": 26,
+        "ratio": 1.5596330275229358
+      },
+      {
+        "cap": "Cap_02",
+        "page": 50,
+        "ratio": 1.4910714285714286
+      }
+    ]
+  },
+  "semantic": "local_omnia_align",
+  "heldout_reference_status": "UNAVAILABLE",
+  "run_status": "completed",
+  "halt": null,
+  "request_count": 6,
+  "current_cache_hits": 0,
+  "rows": [
+    {
+      "method": "M1",
+      "window": "Cap_01-001-002",
+      "status": "segmented",
+      "fallback": null,
+      "wall_seconds": 0.109,
+      "api_requests": 0,
+      "cache_hits": 1,
+      "repaired": false,
+      "missing": 0,
+      "duplicated": 0,
+      "exact_reconstruction": true,
+      "segments": 40,
+      "api_status": "ok",
+      "han_coverage": 0.9281767955801105,
+      "vi_coverage": 1.0,
+      "unresolved": 0,
+      "overlap_chars": 0,
+      "missing_viet_ids": [],
+      "alignment_types": {
+        "N-1": 9,
+        "1-1": 3
+      },
+      "verified_positive": 0,
+      "verified_negative": 0,
+      "semantic_unknown": 12,
+      "verified_positive_rate": null,
+      "verified_review_coverage": 0.0,
+      "uncovered_han_spans": [
+        [
+          166,
+          213
+        ],
+        [
+          513,
+          531
+        ]
+      ],
+      "references": {
+        "CG": {
+          "boundary_precision": 0.20512820512820512,
+          "boundary_recall": 0.7272727272727273,
+          "boundary_f1": 0.32,
+          "boundary_hits": 8,
+          "boundary_predicted": 39,
+          "boundary_reference": 11,
+          "alignment_exact": 5,
+          "segment_exact": 2,
+          "pairs": 12,
+          "mean_iou": 0.9216281083511383
+        },
+        "DS": {
+          "boundary_precision": 0.2564102564102564,
+          "boundary_recall": 0.9090909090909091,
+          "boundary_f1": 0.4,
+          "boundary_hits": 10,
+          "boundary_predicted": 39,
+          "boundary_reference": 11,
+          "alignment_exact": 7,
+          "segment_exact": 3,
+          "pairs": 12,
+          "mean_iou": 0.9231873673351871
+        },
+        "agreed": {
+          "boundary_precision": 0.20512820512820512,
+          "boundary_recall": 0.8888888888888888,
+          "boundary_f1": 0.3333333333333333,
+          "boundary_hits": 8,
+          "boundary_predicted": 39,
+          "boundary_reference": 9,
+          "alignment_exact": 5,
+          "segment_exact": 2,
+          "pairs": 8,
+          "mean_iou": 0.9441178140728586
+        }
+      }
+    },
+    {
+      "method": "M2",
+      "window": "Cap_01-001-002",
+      "status": "segmented",
+      "fallback": null,
+      "wall_seconds": 1.016,
+      "api_requests": 0,
+      "cache_hits": 1,
+      "repaired": false,
+      "missing": 0,
+      "duplicated": 0,
+      "exact_reconstruction": true,
+      "segments": 10,
+      "api_status": "ok",
+      "han_coverage": 0.6165745856353592,
+      "vi_coverage": 0.6666666666666666,
+      "unresolved": 2,
+      "overlap_chars": 0,
+      "missing_viet_ids": [
+        "Cap_01-VI-0188-001",
+        "Cap_01-VI-0188-002",
+        "Cap_01-VI-0188-003",
+        "Cap_01-VI-0188-004"
+      ],
+      "alignment_types": {
+        "1-N": 2,
+        "N-M": 2
+      },
+      "verified_positive": 0,
+      "verified_negative": 0,
+      "semantic_unknown": 4,
+      "verified_positive_rate": null,
+      "verified_review_coverage": 0.0,
+      "uncovered_han_spans": [
+        [
+          558,
+          905
+        ]
+      ],
+      "references": {
+        "CG": {
+          "boundary_precision": 0.1111111111111111,
+          "boundary_recall": 0.09090909090909091,
+          "boundary_f1": 0.1,
+          "boundary_hits": 1,
+          "boundary_predicted": 9,
+          "boundary_reference": 11,
+          "alignment_exact": 0,
+          "segment_exact": 0,
+          "pairs": 12,
+          "mean_iou": 0.0
+        },
+        "DS": {
+          "boundary_precision": 0.2222222222222222,
+          "boundary_recall": 0.18181818181818182,
+          "boundary_f1": 0.2,
+          "boundary_hits": 2,
+          "boundary_predicted": 9,
+          "boundary_reference": 11,
+          "alignment_exact": 0,
+          "segment_exact": 0,
+          "pairs": 12,
+          "mean_iou": 0.0
+        },
+        "agreed": {
+          "boundary_precision": 0.1111111111111111,
+          "boundary_recall": 0.1111111111111111,
+          "boundary_f1": 0.1111111111111111,
+          "boundary_hits": 1,
+          "boundary_predicted": 9,
+          "boundary_reference": 9,
+          "alignment_exact": 0,
+          "segment_exact": 0,
+          "pairs": 8,
+          "mean_iou": 0.0
+        }
+      }
+    },
+    {
+      "method": "M3",
+      "window": "Cap_01-001-002",
+      "status": "segmented",
+      "fallback": null,
+      "wall_seconds": 23.469,
+      "api_requests": 0,
+      "cache_hits": 1,
+      "repaired": false,
+      "missing": 0,
+      "duplicated": 0,
+      "exact_reconstruction": true,
+      "segments": 12,
+      "api_status": "ok",
+      "han_coverage": 1.0,
+      "vi_coverage": 1.0,
+      "unresolved": 0,
+      "overlap_chars": 0,
+      "missing_viet_ids": [],
+      "alignment_types": {
+        "1-1": 8,
+        "N-M": 2
+      },
+      "verified_positive": 0,
+      "verified_negative": 0,
+      "semantic_unknown": 10,
+      "verified_positive_rate": null,
+      "verified_review_coverage": 0.0,
+      "uncovered_han_spans": [],
+      "references": {
+        "CG": {
+          "boundary_precision": 0.09090909090909091,
+          "boundary_recall": 0.09090909090909091,
+          "boundary_f1": 0.09090909090909091,
+          "boundary_hits": 1,
+          "boundary_predicted": 11,
+          "boundary_reference": 11,
+          "alignment_exact": 0,
+          "segment_exact": 0,
+          "pairs": 12,
+          "mean_iou": 0.48900888434289547
+        },
+        "DS": {
+          "boundary_precision": 0.09090909090909091,
+          "boundary_recall": 0.09090909090909091,
+          "boundary_f1": 0.09090909090909091,
+          "boundary_hits": 1,
+          "boundary_predicted": 11,
+          "boundary_reference": 11,
+          "alignment_exact": 0,
+          "segment_exact": 0,
+          "pairs": 12,
+          "mean_iou": 0.4754570565410677
+        },
+        "agreed": {
+          "boundary_precision": 0.09090909090909091,
+          "boundary_recall": 0.1111111111111111,
+          "boundary_f1": 0.1,
+          "boundary_hits": 1,
+          "boundary_predicted": 11,
+          "boundary_reference": 9,
+          "alignment_exact": 0,
+          "segment_exact": 0,
+          "pairs": 8,
+          "mean_iou": 0.5249792356052523
+        }
+      }
+    },
+    {
+      "method": "M4",
+      "window": "Cap_01-001-002",
+      "status": "segmented",
+      "fallback": null,
+      "wall_seconds": 11.078,
+      "api_requests": 1,
+      "cache_hits": 0,
+      "repaired": false,
+      "missing": 0,
+      "duplicated": 0,
+      "exact_reconstruction": true,
+      "segments": 12,
+      "api_status": "ok",
+      "han_coverage": 1.0,
+      "vi_coverage": 1.0,
+      "unresolved": 0,
+      "overlap_chars": 0,
+      "missing_viet_ids": [],
+      "alignment_types": {
+        "1-1": 7,
+        "N-1": 1,
+        "1-N": 1,
+        "N-M": 1
+      },
+      "verified_positive": 0,
+      "verified_negative": 0,
+      "semantic_unknown": 10,
+      "verified_positive_rate": null,
+      "verified_review_coverage": 0.0,
+      "uncovered_han_spans": [],
+      "references": {
+        "CG": {
+          "boundary_precision": 0.36363636363636365,
+          "boundary_recall": 0.36363636363636365,
+          "boundary_f1": 0.36363636363636365,
+          "boundary_hits": 4,
+          "boundary_predicted": 11,
+          "boundary_reference": 11,
+          "alignment_exact": 2,
+          "segment_exact": 2,
+          "pairs": 12,
+          "mean_iou": 0.5059010683650046
+        },
+        "DS": {
+          "boundary_precision": 0.2727272727272727,
+          "boundary_recall": 0.2727272727272727,
+          "boundary_f1": 0.2727272727272727,
+          "boundary_hits": 3,
+          "boundary_predicted": 11,
+          "boundary_reference": 11,
+          "alignment_exact": 1,
+          "segment_exact": 1,
+          "pairs": 12,
+          "mean_iou": 0.48329843183016463
+        },
+        "agreed": {
+          "boundary_precision": 0.2727272727272727,
+          "boundary_recall": 0.3333333333333333,
+          "boundary_f1": 0.3,
+          "boundary_hits": 3,
+          "boundary_predicted": 11,
+          "boundary_reference": 9,
+          "alignment_exact": 1,
+          "segment_exact": 1,
+          "pairs": 8,
+          "mean_iou": 0.4235182692141735
+        }
+      }
+    },
+    {
+      "method": "M5",
+      "window": "Cap_01-001-002",
+      "status": "segmented",
+      "fallback": null,
+      "wall_seconds": 22.703,
+      "api_requests": 2,
+      "cache_hits": 0,
+      "repaired": true,
+      "missing": 0,
+      "duplicated": 0,
+      "exact_reconstruction": true,
+      "segments": 15,
+      "api_status": "ok",
+      "han_coverage": 1.0,
+      "vi_coverage": 1.0,
+      "unresolved": 0,
+      "overlap_chars": 0,
+      "missing_viet_ids": [],
+      "alignment_types": {
+        "1-N": 1,
+        "1-1": 6,
+        "N-1": 4
+      },
+      "verified_positive": 0,
+      "verified_negative": 0,
+      "semantic_unknown": 11,
+      "verified_positive_rate": null,
+      "verified_review_coverage": 0.0,
+      "uncovered_han_spans": [],
+      "references": {
+        "CG": {
+          "boundary_precision": 0.42857142857142855,
+          "boundary_recall": 0.5454545454545454,
+          "boundary_f1": 0.48,
+          "boundary_hits": 6,
+          "boundary_predicted": 14,
+          "boundary_reference": 11,
+          "alignment_exact": 3,
+          "segment_exact": 2,
+          "pairs": 12,
+          "mean_iou": 0.7333736475260169
+        },
+        "DS": {
+          "boundary_precision": 0.5,
+          "boundary_recall": 0.6363636363636364,
+          "boundary_f1": 0.56,
+          "boundary_hits": 7,
+          "boundary_predicted": 14,
+          "boundary_reference": 11,
+          "alignment_exact": 5,
+          "segment_exact": 3,
+          "pairs": 12,
+          "mean_iou": 0.7343269024078841
+        },
+        "agreed": {
+          "boundary_precision": 0.42857142857142855,
+          "boundary_recall": 0.6666666666666666,
+          "boundary_f1": 0.5217391304347826,
+          "boundary_hits": 6,
+          "boundary_predicted": 14,
+          "boundary_reference": 9,
+          "alignment_exact": 3,
+          "segment_exact": 2,
+          "pairs": 8,
+          "mean_iou": 0.6487303424883556
+        }
+      }
+    },
+    {
+      "method": "M6",
+      "window": "Cap_01-001-002",
+      "status": "NOT_RUN",
+      "reason": "no_configured_offset_only_llm"
+    }
+  ]
+}

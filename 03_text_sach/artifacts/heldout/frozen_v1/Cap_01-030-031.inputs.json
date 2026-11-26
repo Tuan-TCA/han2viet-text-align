@@ -1,0 +1,2584 @@
+{
+  "window": {
+    "id": "Cap_01-030-031",
+    "cap": "Cap_01",
+    "pages": [
+      {
+        "id": "Cap_01-HAN-030",
+        "cap": "Cap_01",
+        "han_pdf_page": 30,
+        "pdf_path": "01_nguon/Cap_01/HAN.pdf",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/Cap_01_HAN_all_pages.txt"
+        },
+        "file_body_span": [
+          14109,
+          14617
+        ],
+        "file_text_span": [
+          14109,
+          14615
+        ],
+        "body_original": "延桑油二千五百五十七量四陽酒二十埕虬蒙景陽量化新五新民等寨秩區徐臣銀匠木匠共一千一百三十九人除賦色穷項存祀稅九百五十人收舍四庚八分曰替米祿共一千七十八貫五四十八文清新清涼二村人效七十三人除宗逊存納稅五十八人收庶及二千三十五升十二兩船隻稅并各项侯五十三門卅二文石城石安石平等社人數二十八人除官逊存廿二人收亦皮七百十六月田租各项二百三長八四五十七度糴諭席正隊二十七人收各項席五十四氣户至同春舉上下二總人數五十九人除另各項存五十一人收金七分三厘庚一百三陽潼波景臨等產甲甲年例一千一百五十四人收金十三第八月六底五豐四厘縣四千九百八長七四十六文平康府座福新定二縣次各產人改五千一百三人除給寓祿各或各另饒夫窮巡存納稅三千四百十四人收各序共九千一百八十四長十六文米一千四十九巨十一十十九升五合二百此度府福曰永昌花洲三縣并各卷人數三千五十七人除給寓祿各所各另證夫穷近存納稅一千八百六人收各成共五千六百六十八四四年支米八百九十六包三十四升四十四轄二合一寸平順府福安和多二縣并各金除各或各另外窮近存納稅九千四百三十五人收各祿共一弓七千一百十貫三四四十九文安漢四政二村人數一百五十七人除宗從存一百三十一人收成三百四長四四十四文替搜另來\n\n",
+        "text_original": "延桑油二千五百五十七量四陽酒二十埕虬蒙景陽量化新五新民等寨秩區徐臣銀匠木匠共一千一百三十九人除賦色穷項存祀稅九百五十人收舍四庚八分曰替米祿共一千七十八貫五四十八文清新清涼二村人效七十三人除宗逊存納稅五十八人收庶及二千三十五升十二兩船隻稅并各项侯五十三門卅二文石城石安石平等社人數二十八人除官逊存廿二人收亦皮七百十六月田租各项二百三長八四五十七度糴諭席正隊二十七人收各項席五十四氣户至同春舉上下二總人數五十九人除另各項存五十一人收金七分三厘庚一百三陽潼波景臨等產甲甲年例一千一百五十四人收金十三第八月六底五豐四厘縣四千九百八長七四十六文平康府座福新定二縣次各產人改五千一百三人除給寓祿各或各另饒夫窮巡存納稅三千四百十四人收各序共九千一百八十四長十六文米一千四十九巨十一十十九升五合二百此度府福曰永昌花洲三縣并各卷人數三千五十七人除給寓祿各所各另證夫穷近存納稅一千八百六人收各成共五千六百六十八四四年支米八百九十六包三十四升四十四轄二合一寸平順府福安和多二縣并各金除各或各另外窮近存納稅九千四百三十五人收各祿共一弓七千一百十貫三四四十九文安漢四政二村人數一百五十七人除宗從存一百三十一人收成三百四長四四十四文替搜另來",
+        "text_nfc": "延桑油二千五百五十七量四陽酒二十埕虬蒙景陽量化新五新民等寨秩區徐臣銀匠木匠共一千一百三十九人除賦色穷項存祀稅九百五十人收舍四庚八分曰替米祿共一千七十八貫五四十八文清新清涼二村人效七十三人除宗逊存納稅五十八人收庶及二千三十五升十二兩船隻稅并各项侯五十三門卅二文石城石安石平等社人數二十八人除官逊存廿二人收亦皮七百十六月田租各项二百三長八四五十七度糴諭席正隊二十七人收各項席五十四氣户至同春舉上下二總人數五十九人除另各項存五十一人收金七分三厘庚一百三陽潼波景臨等產甲甲年例一千一百五十四人收金十三第八月六底五豐四厘縣四千九百八長七四十六文平康府座福新定二縣次各產人改五千一百三人除給寓祿各或各另饒夫窮巡存納稅三千四百十四人收各序共九千一百八十四長十六文米一千四十九巨十一十十九升五合二百此度府福曰永昌花洲三縣并各卷人數三千五十七人除給寓祿各所各另證夫穷近存納稅一千八百六人收各成共五千六百六十八四四年支米八百九十六包三十四升四十四轄二合一寸平順府福安和多二縣并各金除各或各另外窮近存納稅九千四百三十五人收各祿共一弓七千一百十貫三四四十九文安漢四政二村人數一百五十七人除宗從存一百三十一人收成三百四長四四十四文替搜另來",
+        "global_raw_span": [
+          13271,
+          13777
+        ],
+        "global_nfc_span": [
+          13271,
+          13777
+        ]
+      },
+      {
+        "id": "Cap_01-HAN-031",
+        "cap": "Cap_01",
+        "han_pdf_page": 31,
+        "pdf_path": "01_nguon/Cap_01/HAN.pdf",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/Cap_01_HAN_all_pages.txt"
+        },
+        "file_body_span": [
+          14643,
+          15154
+        ],
+        "file_text_span": [
+          14643,
+          15152
+        ],
+        "body_original": "油二百五十八量潘哩藩朗二場景陽乳蒙檄視津開各麼稅場四千二百三人除各項穷巡存納稅三千四百四人收各侯八千三百三十四長九的三十六文斷水稅六百量替搜另魚油三百三十五圩最陽安陷二杖共二百人除各項穷巡存一百五十九人義陽歲二百十四長三十六文安四代納丞油三百七十六量半右定府新平縣并各属人數一了五百六人收各底共二弓七千七十八六門廿四文米二百七色福隆縣并各辰人數五千五百三十二人除各財各另官與存相稅四千八百廿人收各族共一方二百三十二長二百五十二文米一百十三巳廿二升五合三句是遠卅各差大數三千二百九十七人除各或各另穷迹存羽稅二千八百十四人收各減共五千九百四十七貴五門昭首客一百三十五人收歲一百八十三貫二百三十文鳥漆船十一隊五百人除銷差穷近存四百五十二人收漆六千五百二十八亦總共人數十六了五千六十九人一家投祖金共五十六易二月六歲七分八厘三毫減二十四了一千九百九十五貫六四四十文米一弓八千三百九十巳七十七千五合三勺又一百三十六科六合徑三百六十三尺九末稍共四千一百十九尺四寸百百一千一百七十尺紅花九百九十三色各项席五千四百十六尺各次增四百八千三百廿千九月八穴紅五千三百埕各油八千四百七十七量生漆亡千五百廿八亦雜物亦多此產兩財炫之大畧其孫未之效示\n\n",
+        "text_original": "油二百五十八量潘哩藩朗二場景陽乳蒙檄視津開各麼稅場四千二百三人除各項穷巡存納稅三千四百四人收各侯八千三百三十四長九的三十六文斷水稅六百量替搜另魚油三百三十五圩最陽安陷二杖共二百人除各項穷巡存一百五十九人義陽歲二百十四長三十六文安四代納丞油三百七十六量半右定府新平縣并各属人數一了五百六人收各底共二弓七千七十八六門廿四文米二百七色福隆縣并各辰人數五千五百三十二人除各財各另官與存相稅四千八百廿人收各族共一方二百三十二長二百五十二文米一百十三巳廿二升五合三句是遠卅各差大數三千二百九十七人除各或各另穷迹存羽稅二千八百十四人收各減共五千九百四十七貴五門昭首客一百三十五人收歲一百八十三貫二百三十文鳥漆船十一隊五百人除銷差穷近存四百五十二人收漆六千五百二十八亦總共人數十六了五千六十九人一家投祖金共五十六易二月六歲七分八厘三毫減二十四了一千九百九十五貫六四四十文米一弓八千三百九十巳七十七千五合三勺又一百三十六科六合徑三百六十三尺九末稍共四千一百十九尺四寸百百一千一百七十尺紅花九百九十三色各项席五千四百十六尺各次增四百八千三百廿千九月八穴紅五千三百埕各油八千四百七十七量生漆亡千五百廿八亦雜物亦多此產兩財炫之大畧其孫未之效示",
+        "text_nfc": "油二百五十八量潘哩藩朗二場景陽乳蒙檄視津開各麼稅場四千二百三人除各項穷巡存納稅三千四百四人收各侯八千三百三十四長九的三十六文斷水稅六百量替搜另魚油三百三十五圩最陽安陷二杖共二百人除各項穷巡存一百五十九人義陽歲二百十四長三十六文安四代納丞油三百七十六量半右定府新平縣并各属人數一了五百六人收各底共二弓七千七十八六門廿四文米二百七色福隆縣并各辰人數五千五百三十二人除各財各另官與存相稅四千八百廿人收各族共一方二百三十二長二百五十二文米一百十三巳廿二升五合三句是遠卅各差大數三千二百九十七人除各或各另穷迹存羽稅二千八百十四人收各減共五千九百四十七貴五門昭首客一百三十五人收歲一百八十三貫二百三十文鳥漆船十一隊五百人除銷差穷近存四百五十二人收漆六千五百二十八亦總共人數十六了五千六十九人一家投祖金共五十六易二月六歲七分八厘三毫減二十四了一千九百九十五貫六四四十文米一弓八千三百九十巳七十七千五合三勺又一百三十六科六合徑三百六十三尺九末稍共四千一百十九尺四寸百百一千一百七十尺紅花九百九十三色各项席五千四百十六尺各次增四百八千三百廿千九月八穴紅五千三百埕各油八千四百七十七量生漆亡千五百廿八亦雜物亦多此產兩財炫之大畧其孫未之效示",
+        "global_raw_span": [
+          13777,
+          14286
+        ],
+        "global_nfc_span": [
+          13777,
+          14286
+        ]
+      }
+    ],
+    "viet": [
+      {
+        "id": "Cap_01-VI-0222-010",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 318
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 222,
+        "viet_page_end": 223,
+        "text_original": "Thuộc Hà Hạc HỘP rau câu ñ bao.",
+        "text_nfc": "Thuộc Hà Hạc HỘP rau câu ñ bao.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": "vắt trang"
+      },
+      {
+        "id": "Cap_01-VI-0223-001",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 323
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 223,
+        "viet_page_end": 223,
+        "text_original": "Thuộc Liêm hộ 5.424 người, trừ vi tử cấp ngụ lộc và các chức, các hạng lính, nhiêu phu, cùng, đào, còn 1.242 người, thu vàng 3+1 hốt 8 lạng 7 đồng cân 7 phân, tiền 1.663 quan. gạo 163 bao 14 thưng.",
+        "text_nfc": "Thuộc Liêm hộ 5.424 người, trừ vi tử cấp ngụ lộc và các chức, các hạng lính, nhiêu phu, cùng, đào, còn 1.242 người, thu vàng 3+1 hốt 8 lạng 7 đồng cân 7 phân, tiền 1.663 quan. gạo 163 bao 14 thưng.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": null
+      },
+      {
+        "id": "Cap_01-VI-0223-002",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 324
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 223,
+        "viet_page_end": 223,
+        "text_original": "Phụ Quang Ngôi, ba huyện Bình Sơn, Chương Nghĩa, Mộ Hoa và các thuộc số người 18.072 người, trừ v1 tử cấp ngụ lộc. các chức, các lính, nhiêu phu. còn nộp thuế 5.514 người, thu tiền 35.390 quan 7 tiền 20 đồng. gạo 4.723 bao 36 thưng 9 cấp.",
+        "text_nfc": "Phụ Quang Ngôi, ba huyện Bình Sơn, Chương Nghĩa, Mộ Hoa và các thuộc số người 18.072 người, trừ v1 tử cấp ngụ lộc. các chức, các lính, nhiêu phu. còn nộp thuế 5.514 người, thu tiền 35.390 quan 7 tiền 20 đồng. gạo 4.723 bao 36 thưng 9 cấp.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": null
+      },
+      {
+        "id": "Cap_01-VI-0223-003",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 325
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 223,
+        "viet_page_end": 223,
+        "text_original": "Thuộc Đồn điển 2.021 người, trừ các hạng lánh ngoại. cùng. đào, còn nộp thuế 1.527 người. thu tiền 3.306 quan 9 tiền 30 đồng.",
+        "text_nfc": "Thuộc Đồn điển 2.021 người, trừ các hạng lánh ngoại. cùng. đào, còn nộp thuế 1.527 người. thu tiền 3.306 quan 9 tiền 30 đồng.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": null
+      },
+      {
+        "id": "Cap_01-VI-0223-004",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 326
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 223,
+        "viet_page_end": 223,
+        "text_original": "Thôn Nghĩa Lập. số người 236 người. trừ các hạng cùng. hạng đào, còn nộp thuế 174 người, thu mật mía õ3 chỉnh.",
+        "text_nfc": "Thôn Nghĩa Lập. số người 236 người. trừ các hạng cùng. hạng đào, còn nộp thuế 174 người, thu mật mía õ3 chỉnh.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": null
+      },
+      {
+        "id": "Cap_01-VI-0223-005",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 327
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 223,
+        "viet_page_end": 223,
+        "text_original": "Xã Thanh Hảo huyện Mộ Hoa. số người 1.304 người, trừ các hạng lánh ngoại. cùng, đào, còn 1.016 người, thu các tiền 2.427 quan 3 tiền 1 đồng, gạo 179 bao 38 thưng 19 bát 7 cáp, thế sưu và lính 1.170 tấm vải trắng. rượu ð chỉnh.",
+        "text_nfc": "Xã Thanh Hảo huyện Mộ Hoa. số người 1.304 người, trừ các hạng lánh ngoại. cùng, đào, còn 1.016 người, thu các tiền 2.427 quan 3 tiền 1 đồng, gạo 179 bao 38 thưng 19 bát 7 cáp, thế sưu và lính 1.170 tấm vải trắng. rượu ð chỉnh.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": "ký tự OCR đáng ngờ"
+      },
+      {
+        "id": "Cap_01-VI-0223-006",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 328
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 223,
+        "viet_page_end": 223,
+        "text_original": "Bốn xã Lâm An.",
+        "text_nfc": "Bốn xã Lâm An.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": null
+      },
+      {
+        "id": "Cap_01-VI-0223-007",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 329
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 223,
+        "viet_page_end": 223,
+        "text_original": "Trung Ấn, Phi Chiêu.",
+        "text_nfc": "Trung Ấn, Phi Chiêu.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": null
+      },
+      {
+        "id": "Cap_01-VI-0223-008",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 330
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 223,
+        "viet_page_end": 223,
+        "text_original": "An Đông, cộng 613 người, trừ các hạng lánh ngoại, còng, đào, còn nộp thuế 480 người. thu tiển cộng 1,825 quan 7 tiển 7 đồng, gạo 1.689 thưng 1 cáp 7 thược. thế sưu và lính 2.736 lường đầu chay.",
+        "text_nfc": "An Đông, cộng 613 người, trừ các hạng lánh ngoại, còng, đào, còn nộp thuế 480 người. thu tiển cộng 1,825 quan 7 tiển 7 đồng, gạo 1.689 thưng 1 cáp 7 thược. thế sưu và lính 2.736 lường đầu chay.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": null
+      },
+      {
+        "id": "Cap_01-VI-0223-009",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 331
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 223,
+        "viet_page_end": 223,
+        "text_original": "Xã An Vĩnh nộp đổi mồi 10 bộ (mỗi bộ 13 phiến), mắm 4 vò, dầu vừng 20 chỉnh. cá quy 1 sọt (nặng 100 cân). nước mắm 705 vò.",
+        "text_nfc": "Xã An Vĩnh nộp đổi mồi 10 bộ (mỗi bộ 13 phiến), mắm 4 vò, dầu vừng 20 chỉnh. cá quy 1 sọt (nặng 100 cân). nước mắm 705 vò.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": null
+      },
+      {
+        "id": "Cap_01-VI-0223-010",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 332
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 223,
+        "viet_page_end": 223,
+        "text_original": "Phú Qui Nhơn, ba huyện Bồng Sơn, Phù Ly.",
+        "text_nfc": "Phú Qui Nhơn, ba huyện Bồng Sơn, Phù Ly.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": null
+      },
+      {
+        "id": "Cap_01-VI-0223-011",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 333
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 223,
+        "viet_page_end": 223,
+        "text_original": "Tuy Viên và các thuộc. số người 15.733 người, trừ vì tử cấp ngụ lộc và nhiêu phu, các chức, các lính. còn nộp thuế 3.820 người. thu tiển 24.401 quan 2 tiền 47 đồng, gạo 4.765 bao 24 thưng 5ð cáp.",
+        "text_nfc": "Tuy Viên và các thuộc. số người 15.733 người, trừ vì tử cấp ngụ lộc và nhiêu phu, các chức, các lính. còn nộp thuế 3.820 người. thu tiển 24.401 quan 2 tiền 47 đồng, gạo 4.765 bao 24 thưng 5ð cáp.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": "ký tự OCR đáng ngờ"
+      },
+      {
+        "id": "Cap_01-VI-0223-012",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 334
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 223,
+        "viet_page_end": 223,
+        "text_original": "Phường Tân Quan Đông, 321 người, trừ các hạng lánh ngoại, cùng, đào, còn nộp thuế 247 người, thu tiền 491 quan 3 tiển, nộp dầu chay thế sưu lính 609 hộc.",
+        "text_nfc": "Phường Tân Quan Đông, 321 người, trừ các hạng lánh ngoại, cùng, đào, còn nộp thuế 247 người, thu tiền 491 quan 3 tiển, nộp dầu chay thế sưu lính 609 hộc.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": null
+      },
+      {
+        "id": "Cap_01-VI-0223-013",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 335
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 223,
+        "viet_page_end": 224,
+        "text_original": "Phường Tân Quan Đông phụ, 436 ngươi, trừ các hạng cùng, đào, còn nộp thuế 340 người, thu tiền 497 quan 6 tiền 19 đồng: gạo 45 bao 3 thưng, dầu chay thế sưu lính 282 lường.",
+        "text_nfc": "Phường Tân Quan Đông phụ, 436 ngươi, trừ các hạng cùng, đào, còn nộp thuế 340 người, thu tiền 497 quan 6 tiền 19 đồng: gạo 45 bao 3 thưng, dầu chay thế sưu lính 282 lường.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": "vắt trang"
+      },
+      {
+        "id": "Cap_01-VI-0224-001",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 336
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 224,
+        "viet_page_end": 224,
+        "text_original": "Phường Tân Quan Tây 269 người. trừ các hạng cùng, đào, còn nộp thuế 208 người, thu tiển 106 quan 4 tiền 52 đồng. dầu chay thế sưu lính 546 lưỡng.",
+        "text_nfc": "Phường Tân Quan Tây 269 người. trừ các hạng cùng, đào, còn nộp thuế 208 người, thu tiển 106 quan 4 tiền 52 đồng. dầu chay thế sưu lính 546 lưỡng.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": null
+      },
+      {
+        "id": "Cap_01-VI-0224-002",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 337
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 224,
+        "viet_page_end": 224,
+        "text_original": "Đội thợ chiếu Cù Du 17 người, thu chiếu ã1 đôi.",
+        "text_nfc": "Đội thợ chiếu Cù Du 17 người, thu chiếu ã1 đôi.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": null
+      },
+      {
+        "id": "Cap_01-VI-0224-003",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 338
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 224,
+        "viet_page_end": 224,
+        "text_original": "Hai thuộc Tân Lập, làng Cà Phụ” ở nguồn Hà Nghiêu huyện Tuy Viên là 5.286 người, trừ nhiêu phu và hạng cùng, còn nộp thuế 4.210 người, thu tiền 61.68ã quan 20 đồng. thế sưu và lính 3.843 ngọn đèn hạng lớn, hạng vừa, hạng nhỏ và chu biên” ä bó.",
+        "text_nfc": "Hai thuộc Tân Lập, làng Cà Phụ” ở nguồn Hà Nghiêu huyện Tuy Viên là 5.286 người, trừ nhiêu phu và hạng cùng, còn nộp thuế 4.210 người, thu tiền 61.68ã quan 20 đồng. thế sưu và lính 3.843 ngọn đèn hạng lớn, hạng vừa, hạng nhỏ và chu biên” ä bó.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": null
+      },
+      {
+        "id": "Cap_01-VI-0224-004",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 339
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 224,
+        "viet_page_end": 224,
+        "text_original": "Thuộc Kim Hộ 1.348 người, trừ tiêu sai và các hạng cùng, đào, còn 1.300 người, thu vàng 20 hốt 1 lạng 3 đồng cân.",
+        "text_nfc": "Thuộc Kim Hộ 1.348 người, trừ tiêu sai và các hạng cùng, đào, còn 1.300 người, thu vàng 20 hốt 1 lạng 3 đồng cân.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": null
+      },
+      {
+        "id": "Cap_01-VI-0224-005",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 340
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 224,
+        "viet_page_end": 224,
+        "text_original": "Hai thuộc Km Hộ.",
+        "text_nfc": "Hai thuộc Km Hộ.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": null
+      },
+      {
+        "id": "Cap_01-VI-0224-006",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 341
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 224,
+        "viet_page_end": 224,
+        "text_original": "Trai Du (dâu chay), các xã Hà Thanh.",
+        "text_nfc": "Trai Du (dâu chay), các xã Hà Thanh.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": null
+      },
+      {
+        "id": "Cap_01-VI-0224-007",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 342
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 224,
+        "viet_page_end": 224,
+        "text_original": "Đốc So, cộng 367 người, trừ tiêu sai và các hạng cùng. dào. còn 690 người, thu tiền 2.116 quan 43 đồng. đầu chay 176 lường, hồng hoa 139 bao (mỗi bao nặng 6 cân, môi cân giá tiền 4 quan 6 tiền), rượu ð chỉnh, giấy đại 23.500 tờ. giấy trung 33.000 tờ.",
+        "text_nfc": "Đốc So, cộng 367 người, trừ tiêu sai và các hạng cùng. dào. còn 690 người, thu tiền 2.116 quan 43 đồng. đầu chay 176 lường, hồng hoa 139 bao (mỗi bao nặng 6 cân, môi cân giá tiền 4 quan 6 tiền), rượu ð chỉnh, giấy đại 23.500 tờ. giấy trung 33.000 tờ.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": "ký tự OCR đáng ngờ"
+      },
+      {
+        "id": "Cap_01-VI-0224-008",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 343
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 224,
+        "viet_page_end": 224,
+        "text_original": "Phủ Phú Yên, hai huyện Đồng Xuân.",
+        "text_nfc": "Phủ Phú Yên, hai huyện Đồng Xuân.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": null
+      },
+      {
+        "id": "Cap_01-VI-0224-009",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 344
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 224,
+        "viet_page_end": 224,
+        "text_original": "Tuy Hoà và các thuộc. số người 1.3244 người, trừ chức sắc và các hạng cùng, đào. còn nộp thuế 3.331 người, thu tiền 10.045 quan 3 tiền 32 đồng. gạo 1.184 bao 20 thưng 8 cáp, hồng hoa 891 bao th: bao nặng 4 cân, mỗi cân giá tiển 1 quan). dầu chay 9.557 lường (mỗi lường +4 tiển), rượu 20 chỉnh.",
+        "text_nfc": "Tuy Hoà và các thuộc. số người 1.3244 người, trừ chức sắc và các hạng cùng, đào. còn nộp thuế 3.331 người, thu tiền 10.045 quan 3 tiền 32 đồng. gạo 1.184 bao 20 thưng 8 cáp, hồng hoa 891 bao th: bao nặng 4 cân, mỗi cân giá tiển 1 quan). dầu chay 9.557 lường (mỗi lường +4 tiển), rượu 20 chỉnh.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": null
+      },
+      {
+        "id": "Cap_01-VI-0224-010",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 345
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 224,
+        "viet_page_end": 224,
+        "text_original": "Các trại Cù MXiông, Cảnh Dương.",
+        "text_nfc": "Các trại Cù MXiông, Cảnh Dương.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": null
+      },
+      {
+        "id": "Cap_01-VI-0224-011",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 346
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 224,
+        "viet_page_end": 224,
+        "text_original": "Cảnh Hoá.",
+        "text_nfc": "Cảnh Hoá.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": null
+      },
+      {
+        "id": "Cap_01-VI-0224-012",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 347
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 224,
+        "viet_page_end": 224,
+        "text_original": "Tân Lập.",
+        "text_nfc": "Tân Lập.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": null
+      },
+      {
+        "id": "Cap_01-VI-0224-013",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 348
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 224,
+        "viet_page_end": 225,
+        "text_original": "Tân Dân. thợ rèn, thợ bạc, thợ mộc, cộng 1.139 người, trừ chức sắc và hạng cùng. còn nộp thuế 950 người. thu vàng 4 đồng cân và tiền thế gạo cộng 1.078 quan ã tiền 18 đồng.",
+        "text_nfc": "Tân Dân. thợ rèn, thợ bạc, thợ mộc, cộng 1.139 người, trừ chức sắc và hạng cùng. còn nộp thuế 950 người. thu vàng 4 đồng cân và tiền thế gạo cộng 1.078 quan ã tiền 18 đồng.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": "vắt trang"
+      },
+      {
+        "id": "Cap_01-VI-0225-001",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 351
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 225,
+        "viet_page_end": 225,
+        "text_original": "Hai thôn Thanh Tân, Thanh Tuyền. số người 73 người, trừ các hạng cùng, đào, còn nộp thuế 58 người, thu vỏ gai 2.035 cân 19 lạng, thuế thuyền và các hạng tiền là ã7 quan 3 tiền 32 đồng.",
+        "text_nfc": "Hai thôn Thanh Tân, Thanh Tuyền. số người 73 người, trừ các hạng cùng, đào, còn nộp thuế 58 người, thu vỏ gai 2.035 cân 19 lạng, thuế thuyền và các hạng tiền là ã7 quan 3 tiền 32 đồng.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": null
+      },
+      {
+        "id": "Cap_01-VI-0225-002",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 352
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 225,
+        "viet_page_end": 225,
+        "text_original": "Các xã Thạch Thành, Thạch An, Thạch Bình, số người 28 người, trừ các hạng cùng, đào, còn 22 người, thu vỏ gai 710 cân 6 lạng, tô ruộng các hạng 203 quan 8 tiển 57 đồng.",
+        "text_nfc": "Các xã Thạch Thành, Thạch An, Thạch Bình, số người 28 người, trừ các hạng cùng, đào, còn 22 người, thu vỏ gai 710 cân 6 lạng, tô ruộng các hạng 203 quan 8 tiển 57 đồng.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": null
+      },
+      {
+        "id": "Cap_01-VI-0225-003",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 353
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 225,
+        "viet_page_end": 225,
+        "text_original": "Đội thợ chiếu Cù Du 37 người. thu các hạng chiếu ð4 đôi.",
+        "text_nfc": "Đội thợ chiếu Cù Du 37 người. thu các hạng chiếu ð4 đôi.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": "ký tự OCR đáng ngờ"
+      },
+      {
+        "id": "Cap_01-VI-0225-004",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 354
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 225,
+        "viet_page_end": 225,
+        "text_original": "Thuộc Kim Hộ, hai tổng Đồng Xuân, Thượng Hạ, số người 59 người, trừ lính và các hạng, còn 51 người, thu vàng 7 phân 3 ly, tiền 100 quan Ð tiền.",
+        "text_nfc": "Thuộc Kim Hộ, hai tổng Đồng Xuân, Thượng Hạ, số người 59 người, trừ lính và các hạng, còn 51 người, thu vàng 7 phân 3 ly, tiền 100 quan Ð tiền.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": "ký tự OCR đáng ngờ"
+      },
+      {
+        "id": "Cap_01-VI-0225-005",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 355
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 225,
+        "viet_page_end": 225,
+        "text_original": "Các thuộc Sông Ba, Cảnh Dương, theo lệ năm Giáp Thân, 1.154 người, thu vàng 13 hốt 8 lạng ð đồng cân 5 phân 4 ly, tiền 4.908 quan 7 tiền 46 đồng.",
+        "text_nfc": "Các thuộc Sông Ba, Cảnh Dương, theo lệ năm Giáp Thân, 1.154 người, thu vàng 13 hốt 8 lạng ð đồng cân 5 phân 4 ly, tiền 4.908 quan 7 tiền 46 đồng.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": "ký tự OCR đáng ngờ"
+      },
+      {
+        "id": "Cap_01-VI-0225-006",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 356
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 225,
+        "viet_page_end": 225,
+        "text_original": "Phủ Bùuh Khang, hai huyện Quảng Phúc, Tân Định và các thuộc, số người ö.109 người, trừ cấp ngụ lộc, các chức, các lính, nhiêu phu, cùng, đào, còn nộp thuế 3.414 người. thu các tiền 9.184 quan 16 đồng, gạo 1.049 bao 11 thưng 19 bát 5 cáp 3 thược.",
+        "text_nfc": "Phủ Bùuh Khang, hai huyện Quảng Phúc, Tân Định và các thuộc, số người ö.109 người, trừ cấp ngụ lộc, các chức, các lính, nhiêu phu, cùng, đào, còn nộp thuế 3.414 người. thu các tiền 9.184 quan 16 đồng, gạo 1.049 bao 11 thưng 19 bát 5 cáp 3 thược.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": null
+      },
+      {
+        "id": "Cap_01-VI-0225-007",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 357
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 225,
+        "viet_page_end": 225,
+        "text_original": "Phủ Diên Khánh, ba huyện Phúc Điền, Vĩnh Xương, Hoa Châu và các thuộc, số người 3.057 người, trừ cấp ngụ lộc, các chức, các lính, nhiêu phu. cùng, đào, còn nộp thuế 1.806 người, thu các tiền ð.868 quan 4 tiền 56 đồng, gạo 896G bao 34 thưng 44 bát 2 cấp 1 thược.",
+        "text_nfc": "Phủ Diên Khánh, ba huyện Phúc Điền, Vĩnh Xương, Hoa Châu và các thuộc, số người 3.057 người, trừ cấp ngụ lộc, các chức, các lính, nhiêu phu. cùng, đào, còn nộp thuế 1.806 người, thu các tiền ð.868 quan 4 tiền 56 đồng, gạo 896G bao 34 thưng 44 bát 2 cấp 1 thược.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": "ký tự OCR đáng ngờ"
+      },
+      {
+        "id": "Cap_01-VI-0225-008",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 358
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 225,
+        "viet_page_end": 225,
+        "text_original": "Phủ Bình Thuận, hai huyện Phúc Yên, Hoà Đa và các thuộc, trừ các chức các lính và các hạng cùng, đào, còn nộp thuế 9.435 người, thu tiển cộng 17.110 quan 3 tiền 49 đồng.",
+        "text_nfc": "Phủ Bình Thuận, hai huyện Phúc Yên, Hoà Đa và các thuộc, trừ các chức các lính và các hạng cùng, đào, còn nộp thuế 9.435 người, thu tiển cộng 17.110 quan 3 tiền 49 đồng.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": null
+      },
+      {
+        "id": "Cap_01-VI-0225-009",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 359
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 225,
+        "viet_page_end": 226,
+        "text_original": "Hai thôn Yên Mô, Tứ Chính, số người 157 người, trừ các hạng cùng, đào, còn 131 người, thu tiền 304 quan 4 tiền 14 đồng, dầu chay thế sưu lính 258 lường.",
+        "text_nfc": "Hai thôn Yên Mô, Tứ Chính, số người 157 người, trừ các hạng cùng, đào, còn 131 người, thu tiền 304 quan 4 tiền 14 đồng, dầu chay thế sưu lính 258 lường.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": "vắt trang"
+      },
+      {
+        "id": "Cap_01-VI-0226-001",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 360
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 226,
+        "viet_page_end": 226,
+        "text_original": "Hai trường Phan Rí, Phan Rang và trường thuế các thuộc Cảnh Dương.",
+        "text_nfc": "Hai trường Phan Rí, Phan Rang và trường thuế các thuộc Cảnh Dương.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": null
+      },
+      {
+        "id": "Cap_01-VI-0226-002",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 361
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 226,
+        "viet_page_end": 226,
+        "text_original": "Cù Mông.",
+        "text_nfc": "Cù Mông.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": null
+      },
+      {
+        "id": "Cap_01-VI-0226-003",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 362
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 226,
+        "viet_page_end": 226,
+        "text_original": "Cảm Lãm, Tân Quan, 4.203 người, trừ các hạng cùng, đào. còn nộp thuế 3.404 người. thu các tiền 4.334 quan 9 tiền 36 đồng. thuế nước mắm 600 lường, dầu cá thế sưu và lính 33ã vò.",
+        "text_nfc": "Cảm Lãm, Tân Quan, 4.203 người, trừ các hạng cùng, đào. còn nộp thuế 3.404 người. thu các tiền 4.334 quan 9 tiền 36 đồng. thuế nước mắm 600 lường, dầu cá thế sưu và lính 33ã vò.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": null
+      },
+      {
+        "id": "Cap_01-VI-0226-004",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 363
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 226,
+        "viet_page_end": 226,
+        "text_original": "Hai thôn Cảnh Dương, An Hai cộng 200 người. trừ các hạng cùng, đào 159 người, thôn Cảnh Dương nộp tiền 314 quan 36 đồng. thôn Ấn Hải nộp thay bằng dầu chay 376 lường rưỡi, Phù Gia Định, huyện Tân Bình và các thuộc, số người 10.506 người. thu các tiển 27.068 quan 6 tiển 94 đồng, gạo 707 bao.",
+        "text_nfc": "Hai thôn Cảnh Dương, An Hai cộng 200 người. trừ các hạng cùng, đào 159 người, thôn Cảnh Dương nộp tiền 314 quan 36 đồng. thôn Ấn Hải nộp thay bằng dầu chay 376 lường rưỡi, Phù Gia Định, huyện Tân Bình và các thuộc, số người 10.506 người. thu các tiển 27.068 quan 6 tiển 94 đồng, gạo 707 bao.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": null
+      },
+      {
+        "id": "Cap_01-VI-0226-005",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 364
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 226,
+        "viet_page_end": 226,
+        "text_original": "Huyện Phước long và các thuộc, số người ö.532 người, trừ các chức, các lính và cùng, đào, còn nộp thuế 4.820 người. thu các tiển 10.933 quan 9 tiền 52 đồng. gao 113 bao 29 thưng ð cáp 3 thược.",
+        "text_nfc": "Huyện Phước long và các thuộc, số người ö.532 người, trừ các chức, các lính và cùng, đào, còn nộp thuế 4.820 người. thu các tiển 10.933 quan 9 tiền 52 đồng. gao 113 bao 29 thưng ð cáp 3 thược.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": "ký tự OCR đáng ngờ"
+      },
+      {
+        "id": "Cap_01-VI-0226-006",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 365
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 226,
+        "viet_page_end": 226,
+        "text_original": "Châu Định Viễn và các thuộc. số người 3.297 người. trừ các chức. các lính và cùng. đào, còn nộp thuế 3.834 người. thu các tiền 2.974 quan.",
+        "text_nfc": "Châu Định Viễn và các thuộc. số người 3.297 người. trừ các chức. các lính và cùng. đào, còn nộp thuế 3.834 người. thu các tiền 2.974 quan.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": null
+      },
+      {
+        "id": "Cap_01-VI-0226-007",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 366
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 226,
+        "viet_page_end": 226,
+        "text_original": "Khách hộ mới và cũ 135 người. thu tiền 183 quan 2 tiển 30 đồng.",
+        "text_nfc": "Khách hộ mới và cũ 135 người. thu tiền 183 quan 2 tiển 30 đồng.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": null
+      },
+      {
+        "id": "Cap_01-VI-0226-008",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 367
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 226,
+        "viet_page_end": 226,
+        "text_original": "Thuyền Ô Tất (ấy sơn đen) 11 đội 200 người, trừ tiêu sai và cùng, đào. còn 4ã2 người. thu sơn 6.528 cân, Tổng cộng số người là 165.069 người. một năm nộp vàng cộng 56 hốt 2 lạng 6 đồng cân 7 phân 8 ly 3 hào. tiền 241.995 quan 6 tiển.",
+        "text_nfc": "Thuyền Ô Tất (ấy sơn đen) 11 đội 200 người, trừ tiêu sai và cùng, đào. còn 4ã2 người. thu sơn 6.528 cân, Tổng cộng số người là 165.069 người. một năm nộp vàng cộng 56 hốt 2 lạng 6 đồng cân 7 phân 8 ly 3 hào. tiền 241.995 quan 6 tiển.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": null
+      },
+      {
+        "id": "Cap_01-VI-0226-009",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 368
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 226,
+        "viet_page_end": 226,
+        "text_original": "10 đồng. gạo 18.390 bao 77 cân ö cấp 3 thược và 136 bát 6 cáp, hàng tơ 363 tấm 9 tấc. lụa 1.017 tấm 108 thước 4 tấc, vải trắng 1.170 thước, hỏng hoa 993 bao, các hạng chiếu 5460 đôi, các thứ đường 48.320 cân 9 lạng § đồng cân. mật mía 5.300 chĩnh. các hạng dầu 8.477 lường, sơn sống 6.528 cân, tạp vật cũng nhiều.",
+        "text_nfc": "10 đồng. gạo 18.390 bao 77 cân ö cấp 3 thược và 136 bát 6 cáp, hàng tơ 363 tấm 9 tấc. lụa 1.017 tấm 108 thước 4 tấc, vải trắng 1.170 thước, hỏng hoa 993 bao, các hạng chiếu 5460 đôi, các thứ đường 48.320 cân 9 lạng § đồng cân. mật mía 5.300 chĩnh. các hạng dầu 8.477 lường, sơn sống 6.528 cân, tạp vật cũng nhiều.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": null
+      },
+      {
+        "id": "Cap_01-VI-0226-010",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 369
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 226,
+        "viet_page_end": 226,
+        "text_original": "Đó là đại khái của cái thuế má ở xứ Quảng Nam.",
+        "text_nfc": "Đó là đại khái của cái thuế má ở xứ Quảng Nam.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": null
+      },
+      {
+        "id": "Cap_01-VI-0226-011",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 370
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 226,
+        "viet_page_end": 227,
+        "text_original": "Các số tiển gạo cùng tuỳ theo số người, hàng năm có thưng, không có định chuẩn.",
+        "text_nfc": "Các số tiển gạo cùng tuỳ theo số người, hàng năm có thưng, không có định chuẩn.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": "vắt trang"
+      },
+      {
+        "id": "Cap_01-VI-0227-001",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 378
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 227,
+        "viet_page_end": 227,
+        "text_original": "Còn như các thuế đầu nguồn, tuần, đò, chợ, quán và tiển lệ thuế thuyền, số nộp hàng năm đều tính riêng.",
+        "text_nfc": "Còn như các thuế đầu nguồn, tuần, đò, chợ, quán và tiển lệ thuế thuyền, số nộp hàng năm đều tính riêng.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": null
+      },
+      {
+        "id": "Cap_01-VI-0227-002",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 379
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 227,
+        "viet_page_end": 227,
+        "text_original": "CHIA ĐẶT QUÂN HIỆU",
+        "text_nfc": "CHIA ĐẶT QUÂN HIỆU",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": "thiếu dấu kết câu"
+      },
+      {
+        "id": "Cap_01-VI-0227-003",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 380
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 227,
+        "viet_page_end": 227,
+        "text_original": "Quân chế cũ của xứ Thuận Hoä: 1/ Định xã bình.",
+        "text_nfc": "Quân chế cũ của xứ Thuận Hoä: 1/ Định xã bình.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": null
+      },
+      {
+        "id": "Cap_01-VI-0227-004",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 381
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 227,
+        "viet_page_end": 227,
+        "text_original": "Như các cơ đội Chính Dinh và các định. cứ theo ngạch bình, lấy họ tên quê quán mà suy tính số bình, chiếu theo xa gần mà cấp về bạn xã, gọi là hàng xã, thuyển nào có người trốn hay bị thai, thì báo rõ cho sai quản trình ty quan xét thực, trình lên quan công đường. suy tính cho cấp, rồi bắt tướng thần, xã trưởng và bản xã định người thay thể, giao cho sai nhân điệu về. hàng năm cứ lấy tháng 8 làm kỳ hạn.",
+        "text_nfc": "Như các cơ đội Chính Dinh và các định. cứ theo ngạch bình, lấy họ tên quê quán mà suy tính số bình, chiếu theo xa gần mà cấp về bạn xã, gọi là hàng xã, thuyển nào có người trốn hay bị thai, thì báo rõ cho sai quản trình ty quan xét thực, trình lên quan công đường. suy tính cho cấp, rồi bắt tướng thần, xã trưởng và bản xã định người thay thể, giao cho sai nhân điệu về. hàng năm cứ lấy tháng 8 làm kỳ hạn.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": null
+      },
+      {
+        "id": "Cap_01-VI-0227-005",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 382
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 227,
+        "viet_page_end": 227,
+        "text_original": "Sai nhân về nã bình lính. cứ theo xã lớn xã vừa xã nhỏ. xã lớn từ 100 lý 1 quan. xã vừa từ 50 người trợ lên. cho lấy tiền hành người trở lên, cho lấy 5 tiến. xã nho từ ã0 người trở xuống, cho lấy 3 tiển.",
+        "text_nfc": "Sai nhân về nã bình lính. cứ theo xã lớn xã vừa xã nhỏ. xã lớn từ 100 lý 1 quan. xã vừa từ 50 người trợ lên. cho lấy tiền hành người trở lên, cho lấy 5 tiến. xã nho từ ã0 người trở xuống, cho lấy 3 tiển.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": null
+      },
+      {
+        "id": "Cap_01-VI-0227-006",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 383
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 227,
+        "viet_page_end": 227,
+        "text_original": "Sai nhân về nã lính trốn. thì xã ấy thu ở họ người lính trốn. cho sai nhân tiền hành lý ð tiền.",
+        "text_nfc": "Sai nhân về nã lính trốn. thì xã ấy thu ở họ người lính trốn. cho sai nhân tiền hành lý ð tiền.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": "ký tự OCR đáng ngờ"
+      },
+      {
+        "id": "Cap_01-VI-0227-007",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 384
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 227,
+        "viet_page_end": 227,
+        "text_original": "TV quan hàng năm: cứ đến tháng 4 thì tra số lính trốn cúa các thuyền, mỗi thuyển bao nhiều, làm số để biết nhiều ít.",
+        "text_nfc": "TV quan hàng năm: cứ đến tháng 4 thì tra số lính trốn cúa các thuyền, mỗi thuyển bao nhiều, làm số để biết nhiều ít.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": null
+      },
+      {
+        "id": "Cap_01-VI-0227-008",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 385
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 227,
+        "viet_page_end": 227,
+        "text_original": "2/ Khoan sức dân.",
+        "text_nfc": "2/ Khoan sức dân.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": null
+      },
+      {
+        "id": "Cap_01-VI-0227-009",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 386
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 227,
+        "viet_page_end": 227,
+        "text_original": "Hễ là dân mới về hay mới đến thì được chước miễn: 2 nắn: để cho yên nghiệp làm ăn, bản xã không được ức bat chế lính, hết hạn mới thế cấp.",
+        "text_nfc": "Hễ là dân mới về hay mới đến thì được chước miễn: 2 nắn: để cho yên nghiệp làm ăn, bản xã không được ức bat chế lính, hết hạn mới thế cấp.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": null
+      },
+      {
+        "id": "Cap_01-VI-0227-010",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 387
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 227,
+        "viet_page_end": 228,
+        "text_original": "3/ Cấm ẩn lậu. lễ các cơ đội nội bộ ngoại thuy Ở Chính đinh và các dinh, người nào có con trai 18 tuổi thì bản xã xét theo lệ biên tên vào số năm ấy. tháng 7 thì đem trình phê cấp về hàng xã; người nào có con mà ẩn lậu, xét ra thực thì cấp làm lính chăn voi.",
+        "text_nfc": "3/ Cấm ẩn lậu. lễ các cơ đội nội bộ ngoại thuy Ở Chính đinh và các dinh, người nào có con trai 18 tuổi thì bản xã xét theo lệ biên tên vào số năm ấy. tháng 7 thì đem trình phê cấp về hàng xã; người nào có con mà ẩn lậu, xét ra thực thì cấp làm lính chăn voi.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": "vắt trang"
+      },
+      {
+        "id": "Cap_01-VI-0228-001",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 388
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 228,
+        "viet_page_end": 228,
+        "text_original": "Các thuyền Tiểu chí, Tiểu binh có thiếu lính thì trình lên quan hữu ty theo sổ mà lấy ở các thuyền, hễ người nào là con đẻ của người Thanh Hoa thì điểm cấp làm binh, ai nã riêng thì đội trưởng. ngữ trưởng đều phải truất xuống bậc dưới.",
+        "text_nfc": "Các thuyền Tiểu chí, Tiểu binh có thiếu lính thì trình lên quan hữu ty theo sổ mà lấy ở các thuyền, hễ người nào là con đẻ của người Thanh Hoa thì điểm cấp làm binh, ai nã riêng thì đội trưởng. ngữ trưởng đều phải truất xuống bậc dưới.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": null
+      },
+      {
+        "id": "Cap_01-VI-0228-002",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 389
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 228,
+        "viet_page_end": 228,
+        "text_original": "Bốn thuyền Tả Mã, Hữu Mã.",
+        "text_nfc": "Bốn thuyền Tả Mã, Hữu Mã.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": null
+      },
+      {
+        "id": "Cap_01-VI-0228-003",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 390
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 228,
+        "viet_page_end": 228,
+        "text_original": "Toàn Nhất, Toàn Nhị, thì truyền cho bản phủ kê khai con cháu quan viên, cước chú về ông cha, tuổi tác và thân thể khoẻ mạnh hoặc thấp bé, hàng năm đến tháng 4 nộp số ở quan công đường , nếu bốn thuyển ấy có thiếu lính đến trình điểm cấp thì cho giấy về nã, cho đòi lấy tiển cơm mừng người lính và tiền hành lý ở họ người lính ấy. chiếu theo xa gần, như phủ Thăng Hoa. phủ Điện Bàn thì mỗi người 3 quan, phủ Quảng Ngãi, phủ Quy Nhơn thì 3 quan, phủ Phú Yên thì 4 quan, người sai nhân nhiễu lạm và bản phủ dung ẩn đều có tội.",
+        "text_nfc": "Toàn Nhất, Toàn Nhị, thì truyền cho bản phủ kê khai con cháu quan viên, cước chú về ông cha, tuổi tác và thân thể khoẻ mạnh hoặc thấp bé, hàng năm đến tháng 4 nộp số ở quan công đường , nếu bốn thuyển ấy có thiếu lính đến trình điểm cấp thì cho giấy về nã, cho đòi lấy tiển cơm mừng người lính và tiền hành lý ở họ người lính ấy. chiếu theo xa gần, như phủ Thăng Hoa. phủ Điện Bàn thì mỗi người 3 quan, phủ Quảng Ngãi, phủ Quy Nhơn thì 3 quan, phủ Phú Yên thì 4 quan, người sai nhân nhiễu lạm và bản phủ dung ẩn đều có tội.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": null
+      },
+      {
+        "id": "Cap_01-VI-0228-004",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 391
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 228,
+        "viet_page_end": 228,
+        "text_original": "4/ Định cấp lính.",
+        "text_nfc": "4/ Định cấp lính.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": null
+      },
+      {
+        "id": "Cap_01-VI-0228-005",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 392
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 228,
+        "viet_page_end": 228,
+        "text_original": "Xã nào, như tên nào từ 50 tuổi trở lên và thấp bé cô độc đều được miễn: ai có con trai 3 người, thì cho 1 người giữ nhà: cha mẹ già mà không có con gái, chỉ có con trai thì được miễn.",
+        "text_nfc": "Xã nào, như tên nào từ 50 tuổi trở lên và thấp bé cô độc đều được miễn: ai có con trai 3 người, thì cho 1 người giữ nhà: cha mẹ già mà không có con gái, chỉ có con trai thì được miễn.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": null
+      },
+      {
+        "id": "Cap_01-VI-0228-006",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 393
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 228,
+        "viet_page_end": 228,
+        "text_original": "9í Định lính mới.",
+        "text_nfc": "9í Định lính mới.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": null
+      },
+      {
+        "id": "Cap_01-VI-0228-007",
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "CAU_VIET",
+          "row": 394
+        },
+        "pdf_path": "01_nguon/Cap_01/VIET.pdf",
+        "viet_page_start": 228,
+        "viet_page_end": 229,
+        "text_original": "Hễ có người mới cấp vào bản thuyền thì miễn việc quan 3 tháng, cho làm nhà hạn cho 3 tháng không được thì cấp người khác thế.",
+        "text_nfc": "Hễ có người mới cấp vào bản thuyền thì miễn việc quan 3 tháng, cho làm nhà hạn cho 3 tháng không được thì cấp người khác thế.",
+        "loai": "van_xuoi",
+        "dung_de_ghep": true,
+        "co_ra_soat": "vắt trang"
+      }
+    ],
+    "raw": "延桑油二千五百五十七量四陽酒二十埕虬蒙景陽量化新五新民等寨秩區徐臣銀匠木匠共一千一百三十九人除賦色穷項存祀稅九百五十人收舍四庚八分曰替米祿共一千七十八貫五四十八文清新清涼二村人效七十三人除宗逊存納稅五十八人收庶及二千三十五升十二兩船隻稅并各项侯五十三門卅二文石城石安石平等社人數二十八人除官逊存廿二人收亦皮七百十六月田租各项二百三長八四五十七度糴諭席正隊二十七人收各項席五十四氣户至同春舉上下二總人數五十九人除另各項存五十一人收金七分三厘庚一百三陽潼波景臨等產甲甲年例一千一百五十四人收金十三第八月六底五豐四厘縣四千九百八長七四十六文平康府座福新定二縣次各產人改五千一百三人除給寓祿各或各另饒夫窮巡存納稅三千四百十四人收各序共九千一百八十四長十六文米一千四十九巨十一十十九升五合二百此度府福曰永昌花洲三縣并各卷人數三千五十七人除給寓祿各所各另證夫穷近存納稅一千八百六人收各成共五千六百六十八四四年支米八百九十六包三十四升四十四轄二合一寸平順府福安和多二縣并各金除各或各另外窮近存納稅九千四百三十五人收各祿共一弓七千一百十貫三四四十九文安漢四政二村人數一百五十七人除宗從存一百三十一人收成三百四長四四十四文替搜另來油二百五十八量潘哩藩朗二場景陽乳蒙檄視津開各麼稅場四千二百三人除各項穷巡存納稅三千四百四人收各侯八千三百三十四長九的三十六文斷水稅六百量替搜另魚油三百三十五圩最陽安陷二杖共二百人除各項穷巡存一百五十九人義陽歲二百十四長三十六文安四代納丞油三百七十六量半右定府新平縣并各属人數一了五百六人收各底共二弓七千七十八六門廿四文米二百七色福隆縣并各辰人數五千五百三十二人除各財各另官與存相稅四千八百廿人收各族共一方二百三十二長二百五十二文米一百十三巳廿二升五合三句是遠卅各差大數三千二百九十七人除各或各另穷迹存羽稅二千八百十四人收各減共五千九百四十七貴五門昭首客一百三十五人收歲一百八十三貫二百三十文鳥漆船十一隊五百人除銷差穷近存四百五十二人收漆六千五百二十八亦總共人數十六了五千六十九人一家投祖金共五十六易二月六歲七分八厘三毫減二十四了一千九百九十五貫六四四十文米一弓八千三百九十巳七十七千五合三勺又一百三十六科六合徑三百六十三尺九末稍共四千一百十九尺四寸百百一千一百七十尺紅花九百九十三色各项席五千四百十六尺各次增四百八千三百廿千九月八穴紅五千三百埕各油八千四百七十七量生漆亡千五百廿八亦雜物亦多此產兩財炫之大畧其孫未之效示",
+    "start": 13271,
+    "mapping": [
+      {
+        "viet_pdf_page": 223,
+        "trang_in": 226,
+        "so_muc_ghep_cham_trang": 14,
+        "han_trang_co_moc": null,
+        "han_trang_ung_vien": null,
+        "han_cua_so_tu": 27,
+        "han_cua_so_den": 52,
+        "trang_thai_moc": "chưa xác minh",
+        "can_cu": null,
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "TRANG_VIET",
+          "row": 39
+        },
+        "verified_overlap": [],
+        "candidate_refs": [],
+        "han_search_window": [
+          27,
+          52
+        ],
+        "hard_sentence_constraint": false
+      },
+      {
+        "viet_pdf_page": 224,
+        "trang_in": 227,
+        "so_muc_ghep_cham_trang": 14,
+        "han_trang_co_moc": null,
+        "han_trang_ung_vien": null,
+        "han_cua_so_tu": 27,
+        "han_cua_so_den": 52,
+        "trang_thai_moc": "chưa xác minh",
+        "can_cu": null,
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "TRANG_VIET",
+          "row": 40
+        },
+        "verified_overlap": [],
+        "candidate_refs": [],
+        "han_search_window": [
+          27,
+          52
+        ],
+        "hard_sentence_constraint": false
+      },
+      {
+        "viet_pdf_page": 225,
+        "trang_in": 228,
+        "so_muc_ghep_cham_trang": 10,
+        "han_trang_co_moc": null,
+        "han_trang_ung_vien": null,
+        "han_cua_so_tu": 27,
+        "han_cua_so_den": 52,
+        "trang_thai_moc": "chưa xác minh",
+        "can_cu": null,
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "TRANG_VIET",
+          "row": 41
+        },
+        "verified_overlap": [],
+        "candidate_refs": [],
+        "han_search_window": [
+          27,
+          52
+        ],
+        "hard_sentence_constraint": false
+      },
+      {
+        "viet_pdf_page": 226,
+        "trang_in": 229,
+        "so_muc_ghep_cham_trang": 12,
+        "han_trang_co_moc": null,
+        "han_trang_ung_vien": null,
+        "han_cua_so_tu": 27,
+        "han_cua_so_den": 52,
+        "trang_thai_moc": "chưa xác minh",
+        "can_cu": null,
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "TRANG_VIET",
+          "row": 42
+        },
+        "verified_overlap": [],
+        "candidate_refs": [],
+        "han_search_window": [
+          27,
+          52
+        ],
+        "hard_sentence_constraint": false
+      },
+      {
+        "viet_pdf_page": 227,
+        "trang_in": 230,
+        "so_muc_ghep_cham_trang": 11,
+        "han_trang_co_moc": null,
+        "han_trang_ung_vien": null,
+        "han_cua_so_tu": 27,
+        "han_cua_so_den": 52,
+        "trang_thai_moc": "chưa xác minh",
+        "can_cu": null,
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "TRANG_VIET",
+          "row": 43
+        },
+        "verified_overlap": [],
+        "candidate_refs": [],
+        "han_search_window": [
+          27,
+          52
+        ],
+        "hard_sentence_constraint": false
+      },
+      {
+        "viet_pdf_page": 228,
+        "trang_in": 231,
+        "so_muc_ghep_cham_trang": 8,
+        "han_trang_co_moc": null,
+        "han_trang_ung_vien": null,
+        "han_cua_so_tu": 27,
+        "han_cua_so_den": 52,
+        "trang_thai_moc": "chưa xác minh",
+        "can_cu": null,
+        "cap": "Cap_01",
+        "source": {
+          "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+          "sheet": "TRANG_VIET",
+          "row": 44
+        },
+        "verified_overlap": [],
+        "candidate_refs": [],
+        "han_search_window": [
+          27,
+          52
+        ],
+        "hard_sentence_constraint": false
+      }
+    ],
+    "status": "uncertain"
+  },
+  "separate_status": "ok",
+  "separate_key": "a21d4d688363f483c03ab292c8eee459b44b186b4928574ede89a8d39dd6908b",
+  "projected_separate": [
+    {
+      "text_api": "延桑油二千五百五十七量四陽酒二十埕虬蒙、景陽、量化、新五、新民等寨秩區徐臣銀匠、木匠共一千一百三十九人，除賦色穷項存祀稅九百五十人，收舍四庚八分曰替米祿，共一千七十八貫五四十八文。",
+      "global_raw_span": [
+        0,
+        81
+      ]
+    },
+    {
+      "text_api": "清新、清涼二村人效七十三人，除宗逊存納稅五十八人收庶及二千三十五升十二兩船隻稅并各项侯五十三門卅二文。",
+      "global_raw_span": [
+        81,
+        129
+      ]
+    },
+    {
+      "text_api": "石城、石安、石平等社人數二十八人，除官逊存廿二人，收亦皮七百十六月田租各项二百三長八四五十七度糴諭席正隊二十七人，收各項席五十四氣户至同春舉上下二總人數五十九人，除另各項存五十一人，收金七分三厘。",
+      "global_raw_span": [
+        129,
+        219
+      ]
+    },
+    {
+      "text_api": "庚一百三陽、潼波、景臨等產甲甲年例一千一百五十四人，收金十三。",
+      "global_raw_span": [
+        219,
+        246
+      ]
+    },
+    {
+      "text_api": "第八月六底五豐四厘。",
+      "global_raw_span": [
+        246,
+        255
+      ]
+    },
+    {
+      "text_api": "縣四千九百八長七四十六文。",
+      "global_raw_span": [
+        255,
+        267
+      ]
+    },
+    {
+      "text_api": "平康府座福、新定二縣次各產人改五千一百三人，除給寓祿各或各另饒夫窮巡存納稅三千四百十四人收各序共九千一百八十四長十六文米一千四十九巨十一十十九升五合二百。",
+      "global_raw_span": [
+        267,
+        341
+      ]
+    },
+    {
+      "text_api": "此度府福曰永昌、花洲三縣，并各卷人數三千五十七人，除給寓祿各所，各另證夫穷近存納稅一千八百六人，收各成共五千六百六十八四四年支米八百九十六包三十四升，四十四轄二合一寸。",
+      "global_raw_span": [
+        341,
+        418
+      ]
+    },
+    {
+      "text_api": "平順府福安、和多二縣并各金，除各或各另外，窮近存納稅九千四百三十五人，收各祿共一弓七千一百十貫三四四十九文。",
+      "global_raw_span": [
+        418,
+        467
+      ]
+    },
+    {
+      "text_api": "安漢、四政二村人數一百五十七人，除宗從存一百三十一人，收成三百四長四四十四文替搜另來油二百五十八量。",
+      "global_raw_span": [
+        467,
+        513
+      ]
+    },
+    {
+      "text_api": "潘哩、藩朗二場，景陽乳蒙檄視津開各麼稅場四千二百三人，除各項穷巡存納稅三千四百四人，收各侯八千三百三十四長九的三十六文斷水稅六百量替搜另魚油三百三十五圩，最陽安陷二杖共二百人，除各項穷巡，存一百五十九人。",
+      "global_raw_span": [
+        513,
+        607
+      ]
+    },
+    {
+      "text_api": "義陽歲二百十四長三十六文安四代納丞油三百七十六量半右定府新平縣并各属人數一了五百六人收各底共二弓七千七十八，六門廿四文，米二百七色。",
+      "global_raw_span": [
+        607,
+        670
+      ]
+    },
+    {
+      "text_api": "福隆縣并各辰人數五千五百三十二人，除各財各另官與存相稅四千八百廿人收各族共一方二百三十二長二百五十二文米一百十三巳廿二升五合三句是遠卅各差大數三千二百九十七人，除各或各另穷迹存羽稅二千八百十四人收各減共五千九百四十七貴五門昭首客一百三十五人，收歲一百八十三貫二百三十文。",
+      "global_raw_span": [
+        670,
+        801
+      ]
+    },
+    {
+      "text_api": "鳥漆船十一隊五百人，除銷差穷。",
+      "global_raw_span": [
+        801,
+        814
+      ]
+    },
+    {
+      "text_api": "近存四百五十二人，收漆六千五百二十八，亦總共人數十六了。",
+      "global_raw_span": [
+        814,
+        839
+      ]
+    },
+    {
+      "text_api": "五千六十九人，一家投祖金共五十六易二月六歲七分八厘三毫，減二十四了一千九百九十五貫六四四十文米一弓八千三百九十巳七十七千五合三勺。",
+      "global_raw_span": [
+        839,
+        901
+      ]
+    },
+    {
+      "text_api": "又一百三十六科六合，徑三百六十三尺九末稍共四千一百十九尺四寸，百百一千一百七十尺，紅花九百九十三色，各项席五千四百十六尺，各次增四百八千三百、廿千九月八穴紅五千三百埕，各油八千四百七十七量生漆亡千五百廿八，亦雜物亦多此產兩財炫之大畧，其孫未之效示。",
+      "global_raw_span": [
+        901,
+        1015
+      ]
+    }
+  ],
+  "candidates": {
+    "0": {
+      "sources": [
+        "edge",
+        "s4"
+      ],
+      "blocked": [],
+      "score": 0.36
+    },
+    "9": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [
+        "number"
+      ],
+      "score": 0.04
+    },
+    "18": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "19": {
+      "sources": [
+        "s4"
+      ],
+      "blocked": [],
+      "score": 0.36
+    },
+    "27": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "35": {
+      "sources": [
+        "s4"
+      ],
+      "blocked": [],
+      "score": 0.36
+    },
+    "36": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "45": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "54": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "59": {
+      "sources": [
+        "s4"
+      ],
+      "blocked": [],
+      "score": 0.36
+    },
+    "63": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "72": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [
+        "number"
+      ],
+      "score": 0.04
+    },
+    "81": {
+      "sources": [
+        "grid",
+        "s4",
+        "separate"
+      ],
+      "blocked": [],
+      "score": 0.9500000000000001
+    },
+    "90": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [
+        "number"
+      ],
+      "score": 0.04
+    },
+    "93": {
+      "sources": [
+        "s4"
+      ],
+      "blocked": [],
+      "score": 0.36
+    },
+    "99": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "108": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [
+        "number"
+      ],
+      "score": 0.04
+    },
+    "117": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "126": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "129": {
+      "sources": [
+        "s4",
+        "separate"
+      ],
+      "blocked": [],
+      "score": 0.91
+    },
+    "135": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "143": {
+      "sources": [
+        "s4"
+      ],
+      "blocked": [],
+      "score": 0.36
+    },
+    "144": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "153": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "162": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "171": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "180": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "181": {
+      "sources": [
+        "s4"
+      ],
+      "blocked": [],
+      "score": 0.36
+    },
+    "189": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "198": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "204": {
+      "sources": [
+        "s4"
+      ],
+      "blocked": [],
+      "score": 0.36
+    },
+    "207": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "216": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "219": {
+      "sources": [
+        "s4",
+        "separate"
+      ],
+      "blocked": [],
+      "score": 0.91
+    },
+    "225": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "234": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "243": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "246": {
+      "sources": [
+        "s4",
+        "separate"
+      ],
+      "blocked": [],
+      "score": 0.91
+    },
+    "252": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "255": {
+      "sources": [
+        "s4",
+        "separate"
+      ],
+      "blocked": [],
+      "score": 0.91
+    },
+    "261": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "267": {
+      "sources": [
+        "s4",
+        "separate"
+      ],
+      "blocked": [],
+      "score": 0.91
+    },
+    "270": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "279": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "287": {
+      "sources": [
+        "s4"
+      ],
+      "blocked": [],
+      "score": 0.36
+    },
+    "288": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "297": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "306": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [
+        "number"
+      ],
+      "score": 0.04
+    },
+    "315": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [
+        "number"
+      ],
+      "score": 0.04
+    },
+    "324": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "333": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [
+        "number"
+      ],
+      "score": 0.04
+    },
+    "341": {
+      "sources": [
+        "s4",
+        "separate"
+      ],
+      "blocked": [],
+      "score": 0.91
+    },
+    "342": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "351": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "360": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [
+        "number"
+      ],
+      "score": 0.04
+    },
+    "363": {
+      "sources": [
+        "s4"
+      ],
+      "blocked": [],
+      "score": 0.36
+    },
+    "369": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "378": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "384": {
+      "sources": [
+        "s4"
+      ],
+      "blocked": [],
+      "score": 0.36
+    },
+    "387": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "396": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [
+        "number"
+      ],
+      "score": 0.04
+    },
+    "405": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "414": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "418": {
+      "sources": [
+        "s4",
+        "separate"
+      ],
+      "blocked": [],
+      "score": 0.91
+    },
+    "423": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "430": {
+      "sources": [
+        "s4"
+      ],
+      "blocked": [],
+      "score": 0.36
+    },
+    "432": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "441": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "449": {
+      "sources": [
+        "s4"
+      ],
+      "blocked": [],
+      "score": 0.36
+    },
+    "450": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "459": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [
+        "number"
+      ],
+      "score": 0.04
+    },
+    "467": {
+      "sources": [
+        "s4",
+        "separate"
+      ],
+      "blocked": [],
+      "score": 0.91
+    },
+    "468": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "477": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [
+        "number"
+      ],
+      "score": 0.04
+    },
+    "481": {
+      "sources": [
+        "s4"
+      ],
+      "blocked": [],
+      "score": 0.36
+    },
+    "486": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [
+        "number"
+      ],
+      "score": 0.04
+    },
+    "495": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [
+        "number"
+      ],
+      "score": 0.04
+    },
+    "504": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "506": {
+      "sources": [
+        "page"
+      ],
+      "blocked": [],
+      "score": 0.16
+    },
+    "513": {
+      "sources": [
+        "grid",
+        "s4",
+        "separate"
+      ],
+      "blocked": [],
+      "score": 0.9500000000000001
+    },
+    "522": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "531": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "537": {
+      "sources": [
+        "s4"
+      ],
+      "blocked": [],
+      "score": 0.36
+    },
+    "540": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "549": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [
+        "number"
+      ],
+      "score": 0.04
+    },
+    "551": {
+      "sources": [
+        "s4"
+      ],
+      "blocked": [],
+      "score": 0.36
+    },
+    "558": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [
+        "number"
+      ],
+      "score": 0.04
+    },
+    "567": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "576": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "585": {
+      "sources": [
+        "grid",
+        "s4"
+      ],
+      "blocked": [],
+      "score": 0.39999999999999997
+    },
+    "594": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "603": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [
+        "number"
+      ],
+      "score": 0.04
+    },
+    "607": {
+      "sources": [
+        "s4",
+        "separate"
+      ],
+      "blocked": [],
+      "score": 0.91
+    },
+    "612": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [
+        "number"
+      ],
+      "score": 0.04
+    },
+    "621": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "630": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "639": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "648": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "657": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [
+        "number"
+      ],
+      "score": 0.04
+    },
+    "666": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "670": {
+      "sources": [
+        "s4",
+        "separate"
+      ],
+      "blocked": [],
+      "score": 0.91
+    },
+    "675": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "684": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [
+        "number"
+      ],
+      "score": 0.04
+    },
+    "686": {
+      "sources": [
+        "s4"
+      ],
+      "blocked": [],
+      "score": 0.36
+    },
+    "693": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "702": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "711": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [
+        "number"
+      ],
+      "score": 0.04
+    },
+    "720": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "729": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "738": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "747": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "748": {
+      "sources": [
+        "s4"
+      ],
+      "blocked": [],
+      "score": 0.36
+    },
+    "756": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "765": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "774": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [
+        "number"
+      ],
+      "score": 0.04
+    },
+    "783": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [
+        "number"
+      ],
+      "score": 0.04
+    },
+    "788": {
+      "sources": [
+        "s4"
+      ],
+      "blocked": [],
+      "score": 0.36
+    },
+    "792": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [
+        "number"
+      ],
+      "score": 0.04
+    },
+    "801": {
+      "sources": [
+        "grid",
+        "s4",
+        "separate"
+      ],
+      "blocked": [],
+      "score": 0.9500000000000001
+    },
+    "810": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "814": {
+      "sources": [
+        "s4",
+        "separate"
+      ],
+      "blocked": [],
+      "score": 0.91
+    },
+    "819": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [
+        "number"
+      ],
+      "score": 0.04
+    },
+    "828": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [
+        "number"
+      ],
+      "score": 0.04
+    },
+    "837": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [
+        "number"
+      ],
+      "score": 0.04
+    },
+    "839": {
+      "sources": [
+        "s4",
+        "separate"
+      ],
+      "blocked": [],
+      "score": 0.91
+    },
+    "846": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "855": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "864": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "865": {
+      "sources": [
+        "s4"
+      ],
+      "blocked": [],
+      "score": 0.36
+    },
+    "873": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [
+        "number"
+      ],
+      "score": 0.04
+    },
+    "882": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "891": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [
+        "number"
+      ],
+      "score": 0.04
+    },
+    "900": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "901": {
+      "sources": [
+        "s4",
+        "separate"
+      ],
+      "blocked": [],
+      "score": 0.91
+    },
+    "909": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "918": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "927": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "930": {
+      "sources": [
+        "s4"
+      ],
+      "blocked": [],
+      "score": 0.36
+    },
+    "936": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [
+        "number"
+      ],
+      "score": 0.04
+    },
+    "945": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [
+        "number"
+      ],
+      "score": 0.04
+    },
+    "947": {
+      "sources": [
+        "s4"
+      ],
+      "blocked": [],
+      "score": 0.36
+    },
+    "954": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [
+        "number"
+      ],
+      "score": 0.04
+    },
+    "963": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [
+        "number"
+      ],
+      "score": 0.04
+    },
+    "966": {
+      "sources": [
+        "s4"
+      ],
+      "blocked": [
+        "number"
+      ],
+      "score": 0.36
+    },
+    "972": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "978": {
+      "sources": [
+        "s4"
+      ],
+      "blocked": [],
+      "score": 0.36
+    },
+    "981": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [
+        "number"
+      ],
+      "score": 0.04
+    },
+    "990": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "996": {
+      "sources": [
+        "s4"
+      ],
+      "blocked": [],
+      "score": 0.36
+    },
+    "999": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "1008": {
+      "sources": [
+        "grid"
+      ],
+      "blocked": [],
+      "score": 0.04
+    },
+    "1015": {
+      "sources": [
+        "edge",
+        "page",
+        "s4",
+        "separate"
+      ],
+      "blocked": [],
+      "score": 1.07
+    }
+  }
+}

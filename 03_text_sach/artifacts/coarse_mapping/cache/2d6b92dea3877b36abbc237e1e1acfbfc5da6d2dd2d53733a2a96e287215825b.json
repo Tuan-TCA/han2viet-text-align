@@ -1,0 +1,105 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "2d6b92dea3877b36abbc237e1e1acfbfc5da6d2dd2d53733a2a96e287215825b",
+  "payload": {
+    "han": "承平之餘民心行甚搖動一旦有事別鄉何及\n因陳困廿四條\n一言府縣乃親民之或北來不任川恥事不許勘同祠訟\n知鼎官之玩受虛名而百姓之人多日受令矣其安業胡可白也\n乞嗣奴差\n餘曰四租別載別納成粟稅例谷衙寓祿墻視源稅一切付炎縣緯收碉\n交廣南官近得以免多員煩掩二觀府縣官來\n以勾查為高祿臣財愈耗民俗愈議\n乞定給常祿以廉貪勤怠為黜\n陝三記爾民有二有避役迹祖而浮浪有亂安切身而流移\n今不分守項一切八落收稅彼必驚惶\n或行盜珮伊社又被僕官稅民仙以堪立\n自今緣偏不有生理者收稅如例\n讥底困意者仍免其稅\n焚方撫養以蘇穷氓\n四說民可使靜不可便動\n動則易亂靜則易治\n今欲人畋禪山林尋雞素焉不條另意振苦生民更多假音之人\n到欠脅捉民身惡嗟乞今嗣殺差人某殺\n並有惡跡往返呈在地方官俾得它是非真贋加有梅害及民之守\n便宜處治或以具同兼民心安靜免致安靜搖動\n此疏甚吏劉切更不見从\n二十縣年果有西山之亂其言臥矣\n但居貞思革多員振艮之乃忽委縣令徵收諸稅恐未穩當\n且縣官位卑權輕分微孫後姿旨\n一一辨理不如為付淡官乃為便耳",
+    "vi": "Xin từ nay trở đi, sai người làm việc gì, đều có bằng tích, đi về trình ở quan địa phương, để có thể xét rõ phải trái thực giả; nếu có nhiễu hại đến dân, xin được tiện nghỉ xử trị, hoặc đem việc tâu lên, ngõ hầu lòng đân được yên, khỏi đến dao động.\nSố ấy rất là tha thiết, cuối cùng không thấy được theo.\nSau hơn hai mươi năm, quả có loạn Tây Sơn, lời nói nghiệm lắm.\nNhưng Cư Trinh đổi bỏ cái tệ nhiều quan nhiễu dân, mà lại muốn uỷ cho quan huyện trưng thu các thuế, sợ chưa ổn thoả.\nVả lại quan huyện vị thấp quyền khinh, phận hèn lộc ít, sao có thể giải quyết mọi việc được; không bằng chuyên giao cho trấn quan mới là tiện.\nNăm Bính Thân, ty Trấn phủ sai các huyện xã kê khai lính cũ, người xiêu tán không tính, xã nào không có thì chua lệ không có suất lính, xã nào lính cũ hiện còn thì chua là hiện còn.\nNhư huyện Hương Trà 1.061 người, huyện Phú Vang 447 người, huyện Quảng Điển 1.482 người, huyện Hải Lăng 195 người, huyện Đăng Xương 110 người, huyện Minh Lĩnh 357 người, huyện Lệ Thuỷ 604 người, huyện Khang Lộc lính cũ và lính mới ứng vụ cộng 1.403 người, châu Nam Bố Chính 24ã người, cộng 5.404 người.\nNhưng lính cũ ấy thì những người thợ các cục, giữ thành, giữ mộ, sái phu, có đến quá nửa, còn chiến bình cũ thuộc các thuyển thuỷ bộ và các chiến thuyền thì không có mấy.\nXứ Thuận Hoá, sáu huyện Hương Trà, Quảng Điền, Phú Vang, Hải Lãng, Đăng Xương, Minh Lãnh, theo lệ cũ cấp lính cất cỏ voi có ngựa và lính tàu vơi tàu ngựa, hễ mỗi xã số người 100 người thì cấp lính cỏ voi cỏ ngựa 9 người, số người 50 người, cấp lính cổ vơi 1 người, xã nào không đủ 50 người trở xuống thì cho nộp tiển, mỗi người trong xã 30 đồng, nộp ở người quản tượng quản mã, để dùng mua mây, dầu và sửa sang các tàu, còn các xã thuộc Nội phủ đã chịu việc quan thì đều miễn lệ lính tàu.\nVề lính cắt cỏ vơi có ngựa ở các xã thì chia phiên mà làm việc, mỗi người một năm hoặc muốn về nhà thì cho nộp tiền, để người quản thuê mướn."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 3,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"承平之餘民心行甚搖動一旦有事別鄉何及 因陳困廿四條 一言府縣乃親民之或北來不任川恥事不許勘同祠訟 知鼎官之玩受虛名而百姓之人多日受令矣其安業胡可白也\",\n        \"vietnamese_text\": \"Xin từ nay trở đi, sai người làm việc gì, đều có bằng tích, đi về trình ở quan địa phương, để có thể xét rõ phải trái thực giả; nếu có nhiễu hại đến dân, xin được tiện nghỉ xử trị, hoặc đem việc tâu lên, ngõ hầu lòng đân được yên, khỏi đến dao động.\",\n        \"score\": 0.27878359985858336\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 7,\n        \"vi_start\": 1,\n        \"vi_end\": 1,\n        \"han_text\": \"乞嗣奴差 餘曰四租別載別納成粟稅例谷衙寓祿墻視源稅一切付炎縣緯收碉 交廣南官近得以免多員煩掩二觀府縣官來 以勾查為高祿臣財愈耗民俗愈議\",\n        \"vietnamese_text\": \"Số ấy rất là tha thiết, cuối cùng không thấy được theo.\",\n        \"score\": -0.02499313287082127\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 9,\n        \"vi_start\": 2,\n        \"vi_end\": 2,\n        \"han_text\": \"乞定給常祿以廉貪勤怠為黜 陝三記爾民有二有避役迹祖而浮浪有亂安切身而流移\",\n        \"vietnamese_text\": \"Sau hơn hai mươi năm, quả có loạn Tây Sơn, lời nói nghiệm lắm.\",\n        \"score\": 0.023885055771808248\n      },\n      {\n        \"han_start\": 10,\n        \"han_end\": 13,\n        \"vi_start\": 3,\n        \"vi_end\": 3,\n        \"han_text\": \"今不分守項一切八落收稅彼必驚惶 或行盜珮伊社又被僕官稅民仙以堪立 自今緣偏不有生理者收稅如例 讥底困意者仍免其稅\",\n        \"vietnamese_text\": \"Nhưng Cư Trinh đổi bỏ cái tệ nhiều quan nhiễu dân, mà lại muốn uỷ cho quan huyện trưng thu các thuế, sợ chưa ổn thoả.\",\n        \"score\": 0.10162825111033554\n      },\n      {\n        \"han_start\": 14,\n        \"han_end\": 16,\n        \"vi_start\": 4,\n        \"vi_end\": 4,\n        \"han_text\": \"焚方撫養以蘇穷氓 四說民可使靜不可便動 動則易亂靜則易治\",\n        \"vietnamese_text\": \"Vả lại quan huyện vị thấp quyền khinh, phận hèn lộc ít, sao có thể giải quyết mọi việc được; không bằng chuyên giao cho trấn quan mới là tiện.\",\n        \"score\": 0.1221793004410945\n      },\n      {\n        \"han_start\": 17,\n        \"han_end\": 19,\n        \"vi_start\": 5,\n        \"vi_end\": 5,\n        \"han_text\": \"今欲人畋禪山林尋雞素焉不條另意振苦生民更多假音之人 到欠脅捉民身惡嗟乞今嗣殺差人某殺 並有惡跡往返呈在地方官俾得它是非真贋加有梅害及民之守\",\n        \"vietnamese_text\": \"Năm Bính Thân, ty Trấn phủ sai các huyện xã kê khai lính cũ, người xiêu tán không tính, xã nào không có thì chua lệ không có suất lính, xã nào lính cũ hiện còn thì chua là hiện còn.\",\n        \"score\": 0.1443134129055525\n      },\n      {\n        \"han_start\": 20,\n        \"han_end\": 22,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"便宜處治或以具同兼民心安靜免致安靜搖動 此疏甚吏劉切更不見从 二十縣年果有西山之亂其言臥矣\",\n        \"vietnamese_text\": \"Như huyện Hương Trà 1.\",\n        \"score\": 0.004779092627162023\n      },\n      {\n        \"han_start\": 23,\n        \"han_end\": 24,\n        \"vi_start\": 7,\n        \"vi_end\": 9,\n        \"han_text\": \"但居貞思革多員振艮之乃忽委縣令徵收諸稅恐未穩當 且縣官位卑權輕分微孫後姿旨\",\n        \"vietnamese_text\": \"061 người, huyện Phú Vang 447 người, huyện Quảng Điển 1. 482 người, huyện Hải Lăng 195 người, huyện Đăng Xương 110 người, huyện Minh Lĩnh 357 người, huyện Lệ Thuỷ 604 người, huyện Khang Lộc lính cũ và lính mới ứng vụ cộng 1. 403 người, châu Nam Bố Chính 24ã người, cộng 5.\",\n        \"score\": 0.06137150183212663\n      },\n      {\n        \"han_start\": 25,\n        \"han_end\": 25,\n        \"vi_start\": 10,\n        \"vi_end\": 13,\n        \"han_text\": \"一一辨理不如為付淡官乃為便耳\",\n        \"vietnamese_text\": \"404 người. Nhưng lính cũ ấy thì những người thợ các cục, giữ thành, giữ mộ, sái phu, có đến quá nửa, còn chiến bình cũ thuộc các thuyển thuỷ bộ và các chiến thuyền thì không có mấy. Xứ Thuận Hoá, sáu huyện Hương Trà, Quảng Điền, Phú Vang, Hải Lãng, Đăng Xương, Minh Lãnh, theo lệ cũ cấp lính cất cỏ voi có ngựa và lính tàu vơi tàu ngựa, hễ mỗi xã số người 100 người thì cấp lính cỏ voi cỏ ngựa 9 người, số người 50 người, cấp lính cổ vơi 1 người, xã nào không đủ 50 người trở xuống thì cho nộp tiển, mỗi người trong xã 30 đồng, nộp ở người quản tượng quản mã, để dùng mua mây, dầu và sửa sang các tàu, còn các xã thuộc Nội phủ đã chịu việc quan thì đều miễn lệ lính tàu. Về lính cắt cỏ vơi có ngựa ở các xã thì chia phiên mà làm việc, mỗi người một năm hoặc muốn về nhà thì cho nộp tiền, để người quản thuê mướn.\",\n        \"score\": 0.0003337954033806884\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 3,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "承平之餘民心行甚搖動一旦有事別鄉何及 因陳困廿四條 一言府縣乃親民之或北來不任川恥事不許勘同祠訟 知鼎官之玩受虛名而百姓之人多日受令矣其安業胡可白也",
+          "vietnamese_text": "Xin từ nay trở đi, sai người làm việc gì, đều có bằng tích, đi về trình ở quan địa phương, để có thể xét rõ phải trái thực giả; nếu có nhiễu hại đến dân, xin được tiện nghỉ xử trị, hoặc đem việc tâu lên, ngõ hầu lòng đân được yên, khỏi đến dao động.",
+          "score": 0.27878359985858336
+        },
+        {
+          "han_start": 4,
+          "han_end": 7,
+          "vi_start": 1,
+          "vi_end": 1,
+          "han_text": "乞嗣奴差 餘曰四租別載別納成粟稅例谷衙寓祿墻視源稅一切付炎縣緯收碉 交廣南官近得以免多員煩掩二觀府縣官來 以勾查為高祿臣財愈耗民俗愈議",
+          "vietnamese_text": "Số ấy rất là tha thiết, cuối cùng không thấy được theo.",
+          "score": -0.02499313287082127
+        },
+        {
+          "han_start": 8,
+          "han_end": 9,
+          "vi_start": 2,
+          "vi_end": 2,
+          "han_text": "乞定給常祿以廉貪勤怠為黜 陝三記爾民有二有避役迹祖而浮浪有亂安切身而流移",
+          "vietnamese_text": "Sau hơn hai mươi năm, quả có loạn Tây Sơn, lời nói nghiệm lắm.",
+          "score": 0.023885055771808248
+        },
+        {
+          "han_start": 10,
+          "han_end": 13,
+          "vi_start": 3,
+          "vi_end": 3,
+          "han_text": "今不分守項一切八落收稅彼必驚惶 或行盜珮伊社又被僕官稅民仙以堪立 自今緣偏不有生理者收稅如例 讥底困意者仍免其稅",
+          "vietnamese_text": "Nhưng Cư Trinh đổi bỏ cái tệ nhiều quan nhiễu dân, mà lại muốn uỷ cho quan huyện trưng thu các thuế, sợ chưa ổn thoả.",
+          "score": 0.10162825111033554
+        },
+        {
+          "han_start": 14,
+          "han_end": 16,
+          "vi_start": 4,
+          "vi_end": 4,
+          "han_text": "焚方撫養以蘇穷氓 四說民可使靜不可便動 動則易亂靜則易治",
+          "vietnamese_text": "Vả lại quan huyện vị thấp quyền khinh, phận hèn lộc ít, sao có thể giải quyết mọi việc được; không bằng chuyên giao cho trấn quan mới là tiện.",
+          "score": 0.1221793004410945
+        },
+        {
+          "han_start": 17,
+          "han_end": 19,
+          "vi_start": 5,
+          "vi_end": 5,
+          "han_text": "今欲人畋禪山林尋雞素焉不條另意振苦生民更多假音之人 到欠脅捉民身惡嗟乞今嗣殺差人某殺 並有惡跡往返呈在地方官俾得它是非真贋加有梅害及民之守",
+          "vietnamese_text": "Năm Bính Thân, ty Trấn phủ sai các huyện xã kê khai lính cũ, người xiêu tán không tính, xã nào không có thì chua lệ không có suất lính, xã nào lính cũ hiện còn thì chua là hiện còn.",
+          "score": 0.1443134129055525
+        },
+        {
+          "han_start": 20,
+          "han_end": 22,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "便宜處治或以具同兼民心安靜免致安靜搖動 此疏甚吏劉切更不見从 二十縣年果有西山之亂其言臥矣",
+          "vietnamese_text": "Như huyện Hương Trà 1.",
+          "score": 0.004779092627162023
+        },
+        {
+          "han_start": 23,
+          "han_end": 24,
+          "vi_start": 7,
+          "vi_end": 9,
+          "han_text": "但居貞思革多員振艮之乃忽委縣令徵收諸稅恐未穩當 且縣官位卑權輕分微孫後姿旨",
+          "vietnamese_text": "061 người, huyện Phú Vang 447 người, huyện Quảng Điển 1. 482 người, huyện Hải Lăng 195 người, huyện Đăng Xương 110 người, huyện Minh Lĩnh 357 người, huyện Lệ Thuỷ 604 người, huyện Khang Lộc lính cũ và lính mới ứng vụ cộng 1. 403 người, châu Nam Bố Chính 24ã người, cộng 5.",
+          "score": 0.06137150183212663
+        },
+        {
+          "han_start": 25,
+          "han_end": 25,
+          "vi_start": 10,
+          "vi_end": 13,
+          "han_text": "一一辨理不如為付淡官乃為便耳",
+          "vietnamese_text": "404 người. Nhưng lính cũ ấy thì những người thợ các cục, giữ thành, giữ mộ, sái phu, có đến quá nửa, còn chiến bình cũ thuộc các thuyển thuỷ bộ và các chiến thuyền thì không có mấy. Xứ Thuận Hoá, sáu huyện Hương Trà, Quảng Điền, Phú Vang, Hải Lãng, Đăng Xương, Minh Lãnh, theo lệ cũ cấp lính cất cỏ voi có ngựa và lính tàu vơi tàu ngựa, hễ mỗi xã số người 100 người thì cấp lính cỏ voi cỏ ngựa 9 người, số người 50 người, cấp lính cổ vơi 1 người, xã nào không đủ 50 người trở xuống thì cho nộp tiển, mỗi người trong xã 30 đồng, nộp ở người quản tượng quản mã, để dùng mua mây, dầu và sửa sang các tàu, còn các xã thuộc Nội phủ đã chịu việc quan thì đều miễn lệ lính tàu. Về lính cắt cỏ vơi có ngựa ở các xã thì chia phiên mà làm việc, mỗi người một năm hoặc muốn về nhà thì cho nộp tiền, để người quản thuê mướn.",
+          "score": 0.0003337954033806884
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 5547
+}

@@ -1,0 +1,114 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "0aa00d4c8331d7bec7c5aa207eec1f60903e31b1fd45a1a003feffdfa5de761c",
+  "payload": {
+    "han": "辰而火未下流金方中伏\n殘荷帶湿折柳沾泥\n犬白鷄母嬰心有幾冰黃土黑牽目無聊\n想其濯漂長河德絕坛煙\n坐渠心袖牒許裝脉\n宣室貼雲破十年之春夢坐身接苦雨\n李唐成持边接景力裕守小恒六月以收容\n傷無候之不看惜光開之已遇\n來無雜容難為青素之門\n李不怪者來書微而行世雅客笑有红儒\n窃慕芳馨之室雜兮符靡璧事屬五嘗而抱甕亦藏情牽三徑\n豈期今日逢此故鄉要在言深仍妨坐久\n欲回天而不可特繼易以獨堪薄暖君寒詩無等室言0云不尽情見于詩\n坐悵天光挽不四無號陰雨去云來\n戈雖已在前年洗松於竹都而故里歲索復未宜亂祗眼催燈且共罄餘杯閣開动此情無晨一如爭如一卷開\n阮知貞荅河化勸德兵殊知侯書云書者辱惠好音責以同卷\n又得或要務私謀一三必以反\n亦今茲又如是是責之者所以設之也\n意之愿斯鄙也不有應愧交集\n彼啖誇池之鮮亦方知作網之恩\n味園林之甘亦方知富樹之恩其為猶也小為利之下矣\n况假之以經徐之具公之以道",
+    "vi": "Gió mưa nhàn rỗi trời thư uiệc; Kênh ngạc thua quyền biên lặng sôi.\nNày khách anh hùng mong cõi mảng; Không người tráng sĩ hỏi gươm chơi.\nLão quê sẻ lộc cùng âu lộ, Cười trỏ Trường An sinh thánh rồu\n31ã\n©ộc trĩ xóm đân Đất hẹp gò cùng Uống tiếng uang, Cháu con không sợ cướp lều tranh.\nNem hươu cầm khách chè quê đặc; Đò lợn 0uợ uề rau quả xanh.\nNo ấm biết gì uy chúa thánh, Đôi dào tin ở biển thân thiêng.\nĐã không tô thuế lại nhàn rối, Già nửa người đêu tuổi tận trăm.\n£©ư khê chải cá Vọợn chài chen chóc nguyệt lưng lưng.\nBụi sậy ló ra mấy ngọn đăng (đèn), Phụ lão đâu nghe triều gọt Hán\"?"
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 3,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"辰而火未下流金方中伏 殘荷帶湿折柳沾泥 犬白鷄母嬰心有幾冰黃土黑牽目無聊 想其濯漂長河德絕坛煙\",\n        \"vietnamese_text\": \"Gió mưa nhàn rỗi trời thư uiệc; Kênh ngạc thua quyền biên lặng sôi.\",\n        \"score\": 0.12777595909993816\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 4,\n        \"vi_start\": 1,\n        \"vi_end\": 1,\n        \"han_text\": \"坐渠心袖牒許裝脉\",\n        \"vietnamese_text\": \"Này khách anh hùng mong cõi mảng; Không người tráng sĩ hỏi gươm chơi.\",\n        \"score\": -0.005740197743677501\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 6,\n        \"vi_start\": 2,\n        \"vi_end\": 2,\n        \"han_text\": \"宣室貼雲破十年之春夢坐身接苦雨 李唐成持边接景力裕守小恒六月以收容\",\n        \"vietnamese_text\": \"Lão quê sẻ lộc cùng âu lộ, Cười trỏ Trường An sinh thánh rồu\",\n        \"score\": 0.18555629394819873\n      },\n      {\n        \"han_start\": 7,\n        \"han_end\": 7,\n        \"vi_start\": 3,\n        \"vi_end\": 3,\n        \"han_text\": \"傷無候之不看惜光開之已遇\",\n        \"vietnamese_text\": \"31ã\",\n        \"score\": -0.009127609413875064\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 10,\n        \"vi_start\": 4,\n        \"vi_end\": 4,\n        \"han_text\": \"來無雜容難為青素之門 李不怪者來書微而行世雅客笑有红儒 窃慕芳馨之室雜兮符靡璧事屬五嘗而抱甕亦藏情牽三徑\",\n        \"vietnamese_text\": \"©ộc trĩ xóm đân Đất hẹp gò cùng Uống tiếng uang, Cháu con không sợ cướp lều tranh.\",\n        \"score\": 0.24164737998678662\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 11,\n        \"vi_start\": 5,\n        \"vi_end\": 5,\n        \"han_text\": \"豈期今日逢此故鄉要在言深仍妨坐久\",\n        \"vietnamese_text\": \"Nem hươu cầm khách chè quê đặc; Đò lợn 0uợ uề rau quả xanh.\",\n        \"score\": 0.029771340436674537\n      },\n      {\n        \"han_start\": 12,\n        \"han_end\": 13,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"欲回天而不可特繼易以獨堪薄暖君寒詩無等室言0云不尽情見于詩 坐悵天光挽不四無號陰雨去云來\",\n        \"vietnamese_text\": \"No ấm biết gì uy chúa thánh, Đôi dào tin ở biển thân thiêng.\",\n        \"score\": 0.11911748878657598\n      },\n      {\n        \"han_start\": 14,\n        \"han_end\": 14,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"戈雖已在前年洗松於竹都而故里歲索復未宜亂祗眼催燈且共罄餘杯閣開动此情無晨一如爭如一卷開\",\n        \"vietnamese_text\": \"Đã không tô thuế lại nhàn rối, Già nửa người đêu tuổi tận trăm.\",\n        \"score\": 0.13638797060550195\n      },\n      {\n        \"han_start\": 15,\n        \"han_end\": 18,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"阮知貞荅河化勸德兵殊知侯書云書者辱惠好音責以同卷 又得或要務私謀一三必以反 亦今茲又如是是責之者所以設之也 意之愿斯鄙也不有應愧交集\",\n        \"vietnamese_text\": \"£©ư khê chải cá Vọợn chài chen chóc nguyệt lưng lưng.\",\n        \"score\": 0.0027341929064777937\n      },\n      {\n        \"han_start\": 19,\n        \"han_end\": 21,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"彼啖誇池之鮮亦方知作網之恩 味園林之甘亦方知富樹之恩其為猶也小為利之下矣 况假之以經徐之具公之以道\",\n        \"vietnamese_text\": \"Bụi sậy ló ra mấy ngọn đăng (đèn), Phụ lão đâu nghe triều gọt Hán\\\"?\",\n        \"score\": 0.13509805029284297\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 3,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "辰而火未下流金方中伏 殘荷帶湿折柳沾泥 犬白鷄母嬰心有幾冰黃土黑牽目無聊 想其濯漂長河德絕坛煙",
+          "vietnamese_text": "Gió mưa nhàn rỗi trời thư uiệc; Kênh ngạc thua quyền biên lặng sôi.",
+          "score": 0.12777595909993816
+        },
+        {
+          "han_start": 4,
+          "han_end": 4,
+          "vi_start": 1,
+          "vi_end": 1,
+          "han_text": "坐渠心袖牒許裝脉",
+          "vietnamese_text": "Này khách anh hùng mong cõi mảng; Không người tráng sĩ hỏi gươm chơi.",
+          "score": -0.005740197743677501
+        },
+        {
+          "han_start": 5,
+          "han_end": 6,
+          "vi_start": 2,
+          "vi_end": 2,
+          "han_text": "宣室貼雲破十年之春夢坐身接苦雨 李唐成持边接景力裕守小恒六月以收容",
+          "vietnamese_text": "Lão quê sẻ lộc cùng âu lộ, Cười trỏ Trường An sinh thánh rồu",
+          "score": 0.18555629394819873
+        },
+        {
+          "han_start": 7,
+          "han_end": 7,
+          "vi_start": 3,
+          "vi_end": 3,
+          "han_text": "傷無候之不看惜光開之已遇",
+          "vietnamese_text": "31ã",
+          "score": -0.009127609413875064
+        },
+        {
+          "han_start": 8,
+          "han_end": 10,
+          "vi_start": 4,
+          "vi_end": 4,
+          "han_text": "來無雜容難為青素之門 李不怪者來書微而行世雅客笑有红儒 窃慕芳馨之室雜兮符靡璧事屬五嘗而抱甕亦藏情牽三徑",
+          "vietnamese_text": "©ộc trĩ xóm đân Đất hẹp gò cùng Uống tiếng uang, Cháu con không sợ cướp lều tranh.",
+          "score": 0.24164737998678662
+        },
+        {
+          "han_start": 11,
+          "han_end": 11,
+          "vi_start": 5,
+          "vi_end": 5,
+          "han_text": "豈期今日逢此故鄉要在言深仍妨坐久",
+          "vietnamese_text": "Nem hươu cầm khách chè quê đặc; Đò lợn 0uợ uề rau quả xanh.",
+          "score": 0.029771340436674537
+        },
+        {
+          "han_start": 12,
+          "han_end": 13,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "欲回天而不可特繼易以獨堪薄暖君寒詩無等室言0云不尽情見于詩 坐悵天光挽不四無號陰雨去云來",
+          "vietnamese_text": "No ấm biết gì uy chúa thánh, Đôi dào tin ở biển thân thiêng.",
+          "score": 0.11911748878657598
+        },
+        {
+          "han_start": 14,
+          "han_end": 14,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "戈雖已在前年洗松於竹都而故里歲索復未宜亂祗眼催燈且共罄餘杯閣開动此情無晨一如爭如一卷開",
+          "vietnamese_text": "Đã không tô thuế lại nhàn rối, Già nửa người đêu tuổi tận trăm.",
+          "score": 0.13638797060550195
+        },
+        {
+          "han_start": 15,
+          "han_end": 18,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "阮知貞荅河化勸德兵殊知侯書云書者辱惠好音責以同卷 又得或要務私謀一三必以反 亦今茲又如是是責之者所以設之也 意之愿斯鄙也不有應愧交集",
+          "vietnamese_text": "£©ư khê chải cá Vọợn chài chen chóc nguyệt lưng lưng.",
+          "score": 0.0027341929064777937
+        },
+        {
+          "han_start": 19,
+          "han_end": 21,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "彼啖誇池之鮮亦方知作網之恩 味園林之甘亦方知富樹之恩其為猶也小為利之下矣 况假之以經徐之具公之以道",
+          "vietnamese_text": "Bụi sậy ló ra mấy ngọn đăng (đèn), Phụ lão đâu nghe triều gọt Hán\"?",
+          "score": 0.13509805029284297
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 2641
+}

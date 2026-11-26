@@ -1,0 +1,141 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "b051d62fe7f67b5d11bffb2b41ddecf1937d5b80b09bc2bcc3c680bb9b4c2a92",
+  "payload": {
+    "han": "米一千一百八十四色二十升五合紅花八百廿一色延桑油二千五百五十七量四陽酒二十埕虬蒙\n景陽量化新五新民等寨秩區徐臣銀匠\n木匠共一千一百三十九人除賦色穷項存祀稅九百五十人\n收舍四庚八分曰替米祿共一千七十八貫五四十八文\n清新清涼二村人效七十三人\n除宗逊存納稅五十八人收庶及二千三十五升十二兩船隻稅并各项侯五十三門卅二文石城\n石安石平等社人數二十八人\n除官逊存廿二人收亦皮七百十六月田租各项二百三長八四五十七度糴諭席正隊二十七人收各項席五十四氣户至同春舉上下二總人數五十九人\n除另各項存五十一人收金七分三厘\n庚一百三陽潼波景臨等產甲甲年例一千一百五十四人收金十三\n第八月六底五豐四厘\n縣四千九百八長七四十六文\n平康府座福新定二縣次各產人改五千一百三人\n除給寓祿各或各另饒夫窮巡存納稅三千四百十四人\n收各序共九千一百八十四長十六文米一千四十九巨十一十十九升五合二百\n此度府福曰永昌花洲三縣并各卷人數三千五十七人\n除給寓祿各所各另證夫穷近存納稅一千八百六人\n收各成共五千六百六十八四四年支米八百九十六包三十四升四十四轄二合一寸\n平順府福安和多二縣并各金\n除各或各另外窮近存納稅九千四百三十五人\n收各祿共一弓七千一百十貫三四四十九文\n安漢四政二村人數一百五十七人\n除宗從存一百三十一人收成三百四長四四十四文替搜另來",
+    "vi": "Phú Qui Nhơn, ba huyện Bồng Sơn, Phù Ly.\nTuy Viên và các thuộc. số người 15.733 người, trừ vì tử cấp ngụ lộc và nhiêu phu, các chức, các lính. còn nộp thuế 3.820 người. thu tiển 24.401 quan 2 tiền 47 đồng, gạo 4.765 bao 24 thưng 5ð cáp.\nPhường Tân Quan Đông, 321 người, trừ các hạng lánh ngoại, cùng, đào, còn nộp thuế 247 người, thu tiền 491 quan 3 tiển, nộp dầu chay thế sưu lính 609 hộc.\nPhường Tân Quan Đông phụ, 436 ngươi, trừ các hạng cùng, đào, còn nộp thuế 340 người, thu tiền 497 quan 6 tiền 19 đồng: gạo 45 bao 3 thưng, dầu chay thế sưu lính 282 lường.\nPhường Tân Quan Tây 269 người. trừ các hạng cùng, đào, còn nộp thuế 208 người, thu tiển 106 quan 4 tiền 52 đồng. dầu chay thế sưu lính 546 lưỡng.\nĐội thợ chiếu Cù Du 17 người, thu chiếu ã1 đôi.\nHai thuộc Tân Lập, làng Cà Phụ” ở nguồn Hà Nghiêu huyện Tuy Viên là 5.286 người, trừ nhiêu phu và hạng cùng, còn nộp thuế 4.210 người, thu tiền 61.68ã quan 20 đồng. thế sưu và lính 3.843 ngọn đèn hạng lớn, hạng vừa, hạng nhỏ và chu biên” ä bó.\nThuộc Kim Hộ 1.348 người, trừ tiêu sai và các hạng cùng, đào, còn 1.300 người, thu vàng 20 hốt 1 lạng 3 đồng cân.\nHai thuộc Km Hộ.\nTrai Du (dâu chay), các xã Hà Thanh."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 1,\n        \"han_end\": 1,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"景陽量化新五新民等寨秩區徐臣銀匠\",\n        \"vietnamese_text\": \"Phú Qui Nhơn, ba huyện Bồng Sơn, Phù Ly.\",\n        \"score\": 0.1390988594155495\n      },\n      {\n        \"han_start\": 2,\n        \"han_end\": 3,\n        \"vi_start\": 1,\n        \"vi_end\": 3,\n        \"han_text\": \"木匠共一千一百三十九人除賦色穷項存祀稅九百五十人 收舍四庚八分曰替米祿共一千七十八貫五四十八文\",\n        \"vietnamese_text\": \"Tuy Viên và các thuộc. số người 15. 733 người, trừ vì tử cấp ngụ lộc và nhiêu phu, các chức, các lính.\",\n        \"score\": 0.2908496228642854\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 5,\n        \"vi_start\": 4,\n        \"vi_end\": 4,\n        \"han_text\": \"清新清涼二村人效七十三人 除宗逊存納稅五十八人收庶及二千三十五升十二兩船隻稅并各项侯五十三門卅二文石城\",\n        \"vietnamese_text\": \"còn nộp thuế 3.\",\n        \"score\": 0.0336978125115669\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 6,\n        \"vi_start\": 5,\n        \"vi_end\": 6,\n        \"han_text\": \"石安石平等社人數二十八人\",\n        \"vietnamese_text\": \"820 người. thu tiển 24.\",\n        \"score\": 0.3239516015210771\n      },\n      {\n        \"han_start\": 7,\n        \"han_end\": 8,\n        \"vi_start\": 7,\n        \"vi_end\": 9,\n        \"han_text\": \"除官逊存廿二人收亦皮七百十六月田租各项二百三長八四五十七度糴諭席正隊二十七人收各項席五十四氣户至同春舉上下二總人數五十九人 除另各項存五十一人收金七分三厘\",\n        \"vietnamese_text\": \"401 quan 2 tiền 47 đồng, gạo 4. 765 bao 24 thưng 5ð cáp. Phường Tân Quan Đông, 321 người, trừ các hạng lánh ngoại, cùng, đào, còn nộp thuế 247 người, thu tiền 491 quan 3 tiển, nộp dầu chay thế sưu lính 609 hộc.\",\n        \"score\": 0.24225884607562456\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 11,\n        \"vi_start\": 10,\n        \"vi_end\": 10,\n        \"han_text\": \"庚一百三陽潼波景臨等產甲甲年例一千一百五十四人收金十三 第八月六底五豐四厘 縣四千九百八長七四十六文\",\n        \"vietnamese_text\": \"Phường Tân Quan Đông phụ, 436 ngươi, trừ các hạng cùng, đào, còn nộp thuế 340 người, thu tiền 497 quan 6 tiền 19 đồng: gạo 45 bao 3 thưng, dầu chay thế sưu lính 282 lường.\",\n        \"score\": 0.0335779690572029\n      },\n      {\n        \"han_start\": 12,\n        \"han_end\": 12,\n        \"vi_start\": 11,\n        \"vi_end\": 11,\n        \"han_text\": \"平康府座福新定二縣次各產人改五千一百三人\",\n        \"vietnamese_text\": \"Phường Tân Quan Tây 269 người.\",\n        \"score\": 0.07411766417281584\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 14,\n        \"vi_start\": 12,\n        \"vi_end\": 13,\n        \"han_text\": \"除給寓祿各或各另饒夫窮巡存納稅三千四百十四人 收各序共九千一百八十四長十六文米一千四十九巨十一十十九升五合二百\",\n        \"vietnamese_text\": \"trừ các hạng cùng, đào, còn nộp thuế 208 người, thu tiển 106 quan 4 tiền 52 đồng. dầu chay thế sưu lính 546 lưỡng.\",\n        \"score\": 0.25907267428570624\n      },\n      {\n        \"han_start\": 15,\n        \"han_end\": 15,\n        \"vi_start\": 14,\n        \"vi_end\": 15,\n        \"han_text\": \"此度府福曰永昌花洲三縣并各卷人數三千五十七人\",\n        \"vietnamese_text\": \"Đội thợ chiếu Cù Du 17 người, thu chiếu ã1 đôi. Hai thuộc Tân Lập, làng Cà Phụ” ở nguồn Hà Nghiêu huyện Tuy Viên là 5.\",\n        \"score\": 0.08279393935887379\n      },\n      {\n        \"han_start\": 16,\n        \"han_end\": 16,\n        \"vi_start\": 16,\n        \"vi_end\": 17,\n        \"han_text\": \"除給寓祿各所各另證夫穷近存納稅一千八百六人\",\n        \"vietnamese_text\": \"286 người, trừ nhiêu phu và hạng cùng, còn nộp thuế 4. 210 người, thu tiền 61.\",\n        \"score\": 0.13319851399823857\n      },\n      {\n        \"han_start\": 17,\n        \"han_end\": 18,\n        \"vi_start\": 18,\n        \"vi_end\": 20,\n        \"han_text\": \"收各成共五千六百六十八四四年支米八百九十六包三十四升四十四轄二合一寸 平順府福安和多二縣并各金\",\n        \"vietnamese_text\": \"68ã quan 20 đồng. thế sưu và lính 3. 843 ngọn đèn hạng lớn, hạng vừa, hạng nhỏ và chu biên” ä bó.\",\n        \"score\": 0.15054830003221004\n      },\n      {\n        \"han_start\": 19,\n        \"han_end\": 20,\n        \"vi_start\": 21,\n        \"vi_end\": 22,\n        \"han_text\": \"除各或各另外窮近存納稅九千四百三十五人 收各祿共一弓七千一百十貫三四四十九文\",\n        \"vietnamese_text\": \"Thuộc Kim Hộ 1. 348 người, trừ tiêu sai và các hạng cùng, đào, còn 1.\",\n        \"score\": 0.18094366874793036\n      },\n      {\n        \"han_start\": 21,\n        \"han_end\": 22,\n        \"vi_start\": 23,\n        \"vi_end\": 25,\n        \"han_text\": \"安漢四政二村人數一百五十七人 除宗從存一百三十一人收成三百四長四四十四文替搜另來\",\n        \"vietnamese_text\": \"300 người, thu vàng 20 hốt 1 lạng 3 đồng cân. Hai thuộc Km Hộ. Trai Du (dâu chay), các xã Hà Thanh.\",\n        \"score\": 0.10195455097870645\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 1,
+          "han_end": 1,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "景陽量化新五新民等寨秩區徐臣銀匠",
+          "vietnamese_text": "Phú Qui Nhơn, ba huyện Bồng Sơn, Phù Ly.",
+          "score": 0.1390988594155495
+        },
+        {
+          "han_start": 2,
+          "han_end": 3,
+          "vi_start": 1,
+          "vi_end": 3,
+          "han_text": "木匠共一千一百三十九人除賦色穷項存祀稅九百五十人 收舍四庚八分曰替米祿共一千七十八貫五四十八文",
+          "vietnamese_text": "Tuy Viên và các thuộc. số người 15. 733 người, trừ vì tử cấp ngụ lộc và nhiêu phu, các chức, các lính.",
+          "score": 0.2908496228642854
+        },
+        {
+          "han_start": 4,
+          "han_end": 5,
+          "vi_start": 4,
+          "vi_end": 4,
+          "han_text": "清新清涼二村人效七十三人 除宗逊存納稅五十八人收庶及二千三十五升十二兩船隻稅并各项侯五十三門卅二文石城",
+          "vietnamese_text": "còn nộp thuế 3.",
+          "score": 0.0336978125115669
+        },
+        {
+          "han_start": 6,
+          "han_end": 6,
+          "vi_start": 5,
+          "vi_end": 6,
+          "han_text": "石安石平等社人數二十八人",
+          "vietnamese_text": "820 người. thu tiển 24.",
+          "score": 0.3239516015210771
+        },
+        {
+          "han_start": 7,
+          "han_end": 8,
+          "vi_start": 7,
+          "vi_end": 9,
+          "han_text": "除官逊存廿二人收亦皮七百十六月田租各项二百三長八四五十七度糴諭席正隊二十七人收各項席五十四氣户至同春舉上下二總人數五十九人 除另各項存五十一人收金七分三厘",
+          "vietnamese_text": "401 quan 2 tiền 47 đồng, gạo 4. 765 bao 24 thưng 5ð cáp. Phường Tân Quan Đông, 321 người, trừ các hạng lánh ngoại, cùng, đào, còn nộp thuế 247 người, thu tiền 491 quan 3 tiển, nộp dầu chay thế sưu lính 609 hộc.",
+          "score": 0.24225884607562456
+        },
+        {
+          "han_start": 9,
+          "han_end": 11,
+          "vi_start": 10,
+          "vi_end": 10,
+          "han_text": "庚一百三陽潼波景臨等產甲甲年例一千一百五十四人收金十三 第八月六底五豐四厘 縣四千九百八長七四十六文",
+          "vietnamese_text": "Phường Tân Quan Đông phụ, 436 ngươi, trừ các hạng cùng, đào, còn nộp thuế 340 người, thu tiền 497 quan 6 tiền 19 đồng: gạo 45 bao 3 thưng, dầu chay thế sưu lính 282 lường.",
+          "score": 0.0335779690572029
+        },
+        {
+          "han_start": 12,
+          "han_end": 12,
+          "vi_start": 11,
+          "vi_end": 11,
+          "han_text": "平康府座福新定二縣次各產人改五千一百三人",
+          "vietnamese_text": "Phường Tân Quan Tây 269 người.",
+          "score": 0.07411766417281584
+        },
+        {
+          "han_start": 13,
+          "han_end": 14,
+          "vi_start": 12,
+          "vi_end": 13,
+          "han_text": "除給寓祿各或各另饒夫窮巡存納稅三千四百十四人 收各序共九千一百八十四長十六文米一千四十九巨十一十十九升五合二百",
+          "vietnamese_text": "trừ các hạng cùng, đào, còn nộp thuế 208 người, thu tiển 106 quan 4 tiền 52 đồng. dầu chay thế sưu lính 546 lưỡng.",
+          "score": 0.25907267428570624
+        },
+        {
+          "han_start": 15,
+          "han_end": 15,
+          "vi_start": 14,
+          "vi_end": 15,
+          "han_text": "此度府福曰永昌花洲三縣并各卷人數三千五十七人",
+          "vietnamese_text": "Đội thợ chiếu Cù Du 17 người, thu chiếu ã1 đôi. Hai thuộc Tân Lập, làng Cà Phụ” ở nguồn Hà Nghiêu huyện Tuy Viên là 5.",
+          "score": 0.08279393935887379
+        },
+        {
+          "han_start": 16,
+          "han_end": 16,
+          "vi_start": 16,
+          "vi_end": 17,
+          "han_text": "除給寓祿各所各另證夫穷近存納稅一千八百六人",
+          "vietnamese_text": "286 người, trừ nhiêu phu và hạng cùng, còn nộp thuế 4. 210 người, thu tiền 61.",
+          "score": 0.13319851399823857
+        },
+        {
+          "han_start": 17,
+          "han_end": 18,
+          "vi_start": 18,
+          "vi_end": 20,
+          "han_text": "收各成共五千六百六十八四四年支米八百九十六包三十四升四十四轄二合一寸 平順府福安和多二縣并各金",
+          "vietnamese_text": "68ã quan 20 đồng. thế sưu và lính 3. 843 ngọn đèn hạng lớn, hạng vừa, hạng nhỏ và chu biên” ä bó.",
+          "score": 0.15054830003221004
+        },
+        {
+          "han_start": 19,
+          "han_end": 20,
+          "vi_start": 21,
+          "vi_end": 22,
+          "han_text": "除各或各另外窮近存納稅九千四百三十五人 收各祿共一弓七千一百十貫三四四十九文",
+          "vietnamese_text": "Thuộc Kim Hộ 1. 348 người, trừ tiêu sai và các hạng cùng, đào, còn 1.",
+          "score": 0.18094366874793036
+        },
+        {
+          "han_start": 21,
+          "han_end": 22,
+          "vi_start": 23,
+          "vi_end": 25,
+          "han_text": "安漢四政二村人數一百五十七人 除宗從存一百三十一人收成三百四長四四十四文替搜另來",
+          "vietnamese_text": "300 người, thu vàng 20 hốt 1 lạng 3 đồng cân. Hai thuộc Km Hộ. Trai Du (dâu chay), các xã Hà Thanh.",
+          "score": 0.10195455097870645
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 4766
+}

@@ -1,0 +1,123 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "b85baacbcc46abba9a47930b9996c3192ace132dd2ea013a3bb1e29983094462",
+  "payload": {
+    "han": "就無恒心船一百五十人共軍數七十船\n是受替另八千八百五十人止餘民數八千九百六人\n其內寓祿餘拾并屬軍庫另饒夫以行不併富安府民效一方四千士百四十八人\n除內府各社無另一弓九百七十一人\n本百民寔受另三千六百七十七人\n四指隊并附水縣廣南宮十昭內水附水四般\n共軍數十四報民數受替另一千六百八千人孫民故一千九百九十七人\n其內富祿餘招并產兵庫另以行餘夫不併其民\n應平廉平順右定四府並行地方官取在民為本\n狹兵無送循分營奇隊舶順化有獲義侯既居貞者\n翰治之不也晚國公称王改令為垂\n又邊撫辛未年曾有陳民同困廿之狀以民為本之不安國亦不安\n平居之日未有以固結民心有事之時將何倚恃\n窃念民同变廿已甚如安常守首\n不因的損益立經陳祀以治一新\n尚不可行况亥一府廿民之事\n以給另武象內按三者為首按其他冗實过例甚多\n此事者夾兩坎不可越\n厭言事清以耽分內言之廢文之民\n統羞多方悅受令各衡差餘場\n又受令各衙田租場又受令各衙别歲別納\n又受令各衙義員子又受令各員差員源頭\n又受令各看又受令衙門官更又受令各義人又受令畋釋\n如模告非十年九牧貧困失業殊為可侗就而恒心",
+    "vi": "Thủ Trường Đồn ở Mỹ Tho 5 đội, mỗi đội 3 thuyền, mỗi thuyền 48 người, cộng 720 người .\nThủ Đương Sử nguồn Ba Can, cũng như thế.\nDinh Long Hồ, bản trấn tinh binh 20 thuyền, mỗi thuyền ð0 người, cộng 1.000 người, ghe bầu hải chiến thuyền 9 chiếc; thủ cù lao Dao Chiêu, Rạch Ông Chưởng, thủ Tân Châu, thủ Chiến Sai, thủ Hùng Thắng, cũng như thế.\nCác thủ ngự miền Tiền Giang, thủ đạo Đông Khẩu, quân ð đội, mỗi đội 3 thuyền, mỗi thuyển 48 người, cộng 720 người, chiến thuyền 15 chiếc; thủ đạo Tân Thắng cũng như thế, thủ trường Giao Dịch, quân 3 đội, mỗi đội 3 thuyền, mỗi thuyền 40 người, cộng 360 người, chiến thuyền 9 chiếc; thú Mộc Hãn, thủ Vũng Liêm, thủ Làng Thị, thủ Bến Tranh cũng như thế.\nThủ Quang Phục, quân 5 đội, mỗi đội 3 thuyền, mỗi thuyền 40 người, chiến thuyền 15 chiếc.\nThủ ngự các cửa biển, thủ cửa Bãi Ngao, quân 3 đội, mỗi đội 3 thuyền, mỗi thuyền 40 người, cộng 360 người, chiến thuyền 9 chiếc, thủ cửa Tiểu Hỗn, thủ cửa Cỏ Chiện, thủ cửa Trà Vinh, thủ cửa Cái Lóc, thủ Thanh Hải, cũng như thế.\nThủ cửa Thu tu, quân 1 đội 3 thuyền, mỗi thuyền 40 người, cộng 120 người; thủ cửa Rạch Giá, cũng như thế; hai thủ này chiến thuyền 3 chiếc.\nCác thủ ngự ở Hậu Giang, thủ Cường Ủy, quân 5 đội, mỗi đội 3 thuyền, mỗi thuyển 40 người, cộng 720 người, chiến thuyền 1ã chiếc; thủ Tà Ôn, thủ Cần Chung, thủ bãi Bà Lúa, thủ Thâm Trừng, thủ Chất Tiền, cũng như thế.\nHọ Nguyễn đặt ra hai vệ Tả tiệp, Hữu tiệp ở hai bên tả hữu dinh Phú Xuân, mỗi vệ 50 người, chọn con cháu tướng võ người huyện Tống Sơn sung vào, để làm việc hộ vệ đi theo, có khuyết, cứ theo thế mà tuyển bổ, cũng là cái ý lấy con cháu nhà thế tộc của người đời xưa, cho nên tục ngữ địa phương có câu rằng: \"Cha làm quan con làm lính\".\nNhưng con em nhà quan, bình yên ăn chơi, chưa từng được học tập, đến nỗi ít người sai khiến được.\nSố dân, số miễn lính đi lính cùng số trừ của năm phủ xứ Quang Nam về mùa đông năm Quý Dậu, Cảnh Hưng thứ 14. Số đân năm phủ cộng 152.370 người, trong số đó lấy binh lính 91.396 người.\nSố dân phủ Thăng Hoa là 43.796 người, trừ các xã thuộc Nội phủ không phải lính 5.202 người, dân nội vi tử 7.077 người, đân nhiêu phu 2.272 người, chịu lính một nửa dân bản phủ 22.94ã người chịu lính tất cả."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 1,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"就無恒心船一百五十人共軍數七十船 是受替另八千八百五十人止餘民數八千九百六人\",\n        \"vietnamese_text\": \"Thủ Trường Đồn ở Mỹ Tho 5 đội, mỗi đội 3 thuyền, mỗi thuyền 48 người, cộng 720 người .\",\n        \"score\": 0.13519508921699125\n      },\n      {\n        \"han_start\": 2,\n        \"han_end\": 2,\n        \"vi_start\": 1,\n        \"vi_end\": 2,\n        \"han_text\": \"其內寓祿餘拾并屬軍庫另饒夫以行不併富安府民效一方四千士百四十八人\",\n        \"vietnamese_text\": \"Thủ Đương Sử nguồn Ba Can, cũng như thế. Dinh Long Hồ, bản trấn tinh binh 20 thuyền, mỗi thuyền ð0 người, cộng 1.\",\n        \"score\": 0.119515824991605\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 3,\n        \"vi_start\": 3,\n        \"vi_end\": 6,\n        \"han_text\": \"除內府各社無另一弓九百七十一人\",\n        \"vietnamese_text\": \"000 người, ghe bầu hải chiến thuyền 9 chiếc; thủ cù lao Dao Chiêu, Rạch Ông Chưởng, thủ Tân Châu, thủ Chiến Sai, thủ Hùng Thắng, cũng như thế. Các thủ ngự miền Tiền Giang, thủ đạo Đông Khẩu, quân ð đội, mỗi đội 3 thuyền, mỗi thuyển 48 người, cộng 720 người, chiến thuyền 15 chiếc; thủ đạo Tân Thắng cũng như thế, thủ trường Giao Dịch, quân 3 đội, mỗi đội 3 thuyền, mỗi thuyền 40 người, cộng 360 người, chiến thuyền 9 chiếc; thú Mộc Hãn, thủ Vũng Liêm, thủ Làng Thị, thủ Bến Tranh cũng như thế. Thủ Quang Phục, quân 5 đội, mỗi đội 3 thuyền, mỗi thuyền 40 người, chiến thuyền 15 chiếc. Thủ ngự các cửa biển, thủ cửa Bãi Ngao, quân 3 đội, mỗi đội 3 thuyền, mỗi thuyền 40 người, cộng 360 người, chiến thuyền 9 chiếc, thủ cửa Tiểu Hỗn, thủ cửa Cỏ Chiện, thủ cửa Trà Vinh, thủ cửa Cái Lóc, thủ Thanh Hải, cũng như thế.\",\n        \"score\": 0.001532332017060752\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 4,\n        \"vi_start\": 7,\n        \"vi_end\": 10,\n        \"han_text\": \"本百民寔受另三千六百七十七人\",\n        \"vietnamese_text\": \"Thủ cửa Thu tu, quân 1 đội 3 thuyền, mỗi thuyền 40 người, cộng 120 người; thủ cửa Rạch Giá, cũng như thế; hai thủ này chiến thuyền 3 chiếc. Các thủ ngự ở Hậu Giang, thủ Cường Ủy, quân 5 đội, mỗi đội 3 thuyền, mỗi thuyển 40 người, cộng 720 người, chiến thuyền 1ã chiếc; thủ Tà Ôn, thủ Cần Chung, thủ bãi Bà Lúa, thủ Thâm Trừng, thủ Chất Tiền, cũng như thế. Họ Nguyễn đặt ra hai vệ Tả tiệp, Hữu tiệp ở hai bên tả hữu dinh Phú Xuân, mỗi vệ 50 người, chọn con cháu tướng võ người huyện Tống Sơn sung vào, để làm việc hộ vệ đi theo, có khuyết, cứ theo thế mà tuyển bổ, cũng là cái ý lấy con cháu nhà thế tộc của người đời xưa, cho nên tục ngữ địa phương có câu rằng: \\\"Cha làm quan con làm lính\\\". Nhưng con em nhà quan, bình yên ăn chơi, chưa từng được học tập, đến nỗi ít người sai khiến được.\",\n        \"score\": 0.0024818621615250204\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 6,\n        \"vi_start\": 11,\n        \"vi_end\": 11,\n        \"han_text\": \"四指隊并附水縣廣南宮十昭內水附水四般 共軍數十四報民數受替另一千六百八千人孫民故一千九百九十七人\",\n        \"vietnamese_text\": \"Số dân, số miễn lính đi lính cùng số trừ của năm phủ xứ Quang Nam về mùa đông năm Quý Dậu, Cảnh Hưng thứ 14.\",\n        \"score\": 0.17545256731286124\n      },\n      {\n        \"han_start\": 7,\n        \"han_end\": 10,\n        \"vi_start\": 12,\n        \"vi_end\": 12,\n        \"han_text\": \"其內富祿餘招并產兵庫另以行餘夫不併其民 應平廉平順右定四府並行地方官取在民為本 狹兵無送循分營奇隊舶順化有獲義侯既居貞者 翰治之不也晚國公称王改令為垂\",\n        \"vietnamese_text\": \"Số đân năm phủ cộng 152.\",\n        \"score\": -0.0025695453744960044\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 14,\n        \"vi_start\": 13,\n        \"vi_end\": 13,\n        \"han_text\": \"又邊撫辛未年曾有陳民同困廿之狀以民為本之不安國亦不安 平居之日未有以固結民心有事之時將何倚恃 窃念民同变廿已甚如安常守首 不因的損益立經陳祀以治一新\",\n        \"vietnamese_text\": \"370 người, trong số đó lấy binh lính 91.\",\n        \"score\": -0.00010783086153762305\n      },\n      {\n        \"han_start\": 15,\n        \"han_end\": 16,\n        \"vi_start\": 14,\n        \"vi_end\": 16,\n        \"han_text\": \"尚不可行况亥一府廿民之事 以給另武象內按三者為首按其他冗實过例甚多\",\n        \"vietnamese_text\": \"396 người. Số dân phủ Thăng Hoa là 43. 796 người, trừ các xã thuộc Nội phủ không phải lính 5.\",\n        \"score\": 0.1469782223116996\n      },\n      {\n        \"han_start\": 17,\n        \"han_end\": 19,\n        \"vi_start\": 17,\n        \"vi_end\": 17,\n        \"han_text\": \"此事者夾兩坎不可越 厭言事清以耽分內言之廢文之民 統羞多方悅受令各衡差餘場\",\n        \"vietnamese_text\": \"202 người, dân nội vi tử 7.\",\n        \"score\": 0.0019284719436143862\n      },\n      {\n        \"han_start\": 20,\n        \"han_end\": 20,\n        \"vi_start\": 18,\n        \"vi_end\": 19,\n        \"han_text\": \"又受令各衙田租場又受令各衙别歲別納\",\n        \"vietnamese_text\": \"077 người, đân nhiêu phu 2. 272 người, chịu lính một nửa dân bản phủ 22.\",\n        \"score\": 0.06535781700067791\n      },\n      {\n        \"han_start\": 21,\n        \"han_end\": 23,\n        \"vi_start\": 20,\n        \"vi_end\": 20,\n        \"han_text\": \"又受令各衙義員子又受令各員差員源頭 又受令各看又受令衙門官更又受令各義人又受令畋釋 如模告非十年九牧貧困失業殊為可侗就而恒心\",\n        \"vietnamese_text\": \"94ã người chịu lính tất cả.\",\n        \"score\": 0.010593342898834578\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 1,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "就無恒心船一百五十人共軍數七十船 是受替另八千八百五十人止餘民數八千九百六人",
+          "vietnamese_text": "Thủ Trường Đồn ở Mỹ Tho 5 đội, mỗi đội 3 thuyền, mỗi thuyền 48 người, cộng 720 người .",
+          "score": 0.13519508921699125
+        },
+        {
+          "han_start": 2,
+          "han_end": 2,
+          "vi_start": 1,
+          "vi_end": 2,
+          "han_text": "其內寓祿餘拾并屬軍庫另饒夫以行不併富安府民效一方四千士百四十八人",
+          "vietnamese_text": "Thủ Đương Sử nguồn Ba Can, cũng như thế. Dinh Long Hồ, bản trấn tinh binh 20 thuyền, mỗi thuyền ð0 người, cộng 1.",
+          "score": 0.119515824991605
+        },
+        {
+          "han_start": 3,
+          "han_end": 3,
+          "vi_start": 3,
+          "vi_end": 6,
+          "han_text": "除內府各社無另一弓九百七十一人",
+          "vietnamese_text": "000 người, ghe bầu hải chiến thuyền 9 chiếc; thủ cù lao Dao Chiêu, Rạch Ông Chưởng, thủ Tân Châu, thủ Chiến Sai, thủ Hùng Thắng, cũng như thế. Các thủ ngự miền Tiền Giang, thủ đạo Đông Khẩu, quân ð đội, mỗi đội 3 thuyền, mỗi thuyển 48 người, cộng 720 người, chiến thuyền 15 chiếc; thủ đạo Tân Thắng cũng như thế, thủ trường Giao Dịch, quân 3 đội, mỗi đội 3 thuyền, mỗi thuyền 40 người, cộng 360 người, chiến thuyền 9 chiếc; thú Mộc Hãn, thủ Vũng Liêm, thủ Làng Thị, thủ Bến Tranh cũng như thế. Thủ Quang Phục, quân 5 đội, mỗi đội 3 thuyền, mỗi thuyền 40 người, chiến thuyền 15 chiếc. Thủ ngự các cửa biển, thủ cửa Bãi Ngao, quân 3 đội, mỗi đội 3 thuyền, mỗi thuyền 40 người, cộng 360 người, chiến thuyền 9 chiếc, thủ cửa Tiểu Hỗn, thủ cửa Cỏ Chiện, thủ cửa Trà Vinh, thủ cửa Cái Lóc, thủ Thanh Hải, cũng như thế.",
+          "score": 0.001532332017060752
+        },
+        {
+          "han_start": 4,
+          "han_end": 4,
+          "vi_start": 7,
+          "vi_end": 10,
+          "han_text": "本百民寔受另三千六百七十七人",
+          "vietnamese_text": "Thủ cửa Thu tu, quân 1 đội 3 thuyền, mỗi thuyền 40 người, cộng 120 người; thủ cửa Rạch Giá, cũng như thế; hai thủ này chiến thuyền 3 chiếc. Các thủ ngự ở Hậu Giang, thủ Cường Ủy, quân 5 đội, mỗi đội 3 thuyền, mỗi thuyển 40 người, cộng 720 người, chiến thuyền 1ã chiếc; thủ Tà Ôn, thủ Cần Chung, thủ bãi Bà Lúa, thủ Thâm Trừng, thủ Chất Tiền, cũng như thế. Họ Nguyễn đặt ra hai vệ Tả tiệp, Hữu tiệp ở hai bên tả hữu dinh Phú Xuân, mỗi vệ 50 người, chọn con cháu tướng võ người huyện Tống Sơn sung vào, để làm việc hộ vệ đi theo, có khuyết, cứ theo thế mà tuyển bổ, cũng là cái ý lấy con cháu nhà thế tộc của người đời xưa, cho nên tục ngữ địa phương có câu rằng: \"Cha làm quan con làm lính\". Nhưng con em nhà quan, bình yên ăn chơi, chưa từng được học tập, đến nỗi ít người sai khiến được.",
+          "score": 0.0024818621615250204
+        },
+        {
+          "han_start": 5,
+          "han_end": 6,
+          "vi_start": 11,
+          "vi_end": 11,
+          "han_text": "四指隊并附水縣廣南宮十昭內水附水四般 共軍數十四報民數受替另一千六百八千人孫民故一千九百九十七人",
+          "vietnamese_text": "Số dân, số miễn lính đi lính cùng số trừ của năm phủ xứ Quang Nam về mùa đông năm Quý Dậu, Cảnh Hưng thứ 14.",
+          "score": 0.17545256731286124
+        },
+        {
+          "han_start": 7,
+          "han_end": 10,
+          "vi_start": 12,
+          "vi_end": 12,
+          "han_text": "其內富祿餘招并產兵庫另以行餘夫不併其民 應平廉平順右定四府並行地方官取在民為本 狹兵無送循分營奇隊舶順化有獲義侯既居貞者 翰治之不也晚國公称王改令為垂",
+          "vietnamese_text": "Số đân năm phủ cộng 152.",
+          "score": -0.0025695453744960044
+        },
+        {
+          "han_start": 11,
+          "han_end": 14,
+          "vi_start": 13,
+          "vi_end": 13,
+          "han_text": "又邊撫辛未年曾有陳民同困廿之狀以民為本之不安國亦不安 平居之日未有以固結民心有事之時將何倚恃 窃念民同变廿已甚如安常守首 不因的損益立經陳祀以治一新",
+          "vietnamese_text": "370 người, trong số đó lấy binh lính 91.",
+          "score": -0.00010783086153762305
+        },
+        {
+          "han_start": 15,
+          "han_end": 16,
+          "vi_start": 14,
+          "vi_end": 16,
+          "han_text": "尚不可行况亥一府廿民之事 以給另武象內按三者為首按其他冗實过例甚多",
+          "vietnamese_text": "396 người. Số dân phủ Thăng Hoa là 43. 796 người, trừ các xã thuộc Nội phủ không phải lính 5.",
+          "score": 0.1469782223116996
+        },
+        {
+          "han_start": 17,
+          "han_end": 19,
+          "vi_start": 17,
+          "vi_end": 17,
+          "han_text": "此事者夾兩坎不可越 厭言事清以耽分內言之廢文之民 統羞多方悅受令各衡差餘場",
+          "vietnamese_text": "202 người, dân nội vi tử 7.",
+          "score": 0.0019284719436143862
+        },
+        {
+          "han_start": 20,
+          "han_end": 20,
+          "vi_start": 18,
+          "vi_end": 19,
+          "han_text": "又受令各衙田租場又受令各衙别歲別納",
+          "vietnamese_text": "077 người, đân nhiêu phu 2. 272 người, chịu lính một nửa dân bản phủ 22.",
+          "score": 0.06535781700067791
+        },
+        {
+          "han_start": 21,
+          "han_end": 23,
+          "vi_start": 20,
+          "vi_end": 20,
+          "han_text": "又受令各衙義員子又受令各員差員源頭 又受令各看又受令衙門官更又受令各義人又受令畋釋 如模告非十年九牧貧困失業殊為可侗就而恒心",
+          "vietnamese_text": "94ã người chịu lính tất cả.",
+          "score": 0.010593342898834578
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 3640
+}

@@ -1,0 +1,114 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "08fb88a82a7743d1d4e714206d61b0e636d3d9bc4b5dc85bc818429392b4a573",
+  "payload": {
+    "han": "宜貯磁錫器以焦樹及巨密封\n細紫密曝於日中至久取出即油液區發亦不宜常\n縣前院氏伯文財憲華男所说\n按天南餘暇蓬山縣花山金烏一源\n符離縣橋龍流雅衆村與綏遠縣奇藍香即此\n又拱事之頌\n聚椿梓多節取之先斷其本根\n積年皮於俱杯心與節不振者香也\n枝紫宴為青貴香黑而流水為流香\n半浮流而總骨香粗為筆香洗香斫出非一\n直麟為上与城次云濤泥為下雜直臘而取之\n又有三品綠洋為上三漸次云勃異網為下\n而香之大槩待此為上熟聽次之坚黑己上黃者次之\n有状如犀角去有狀如歲之此之狀四附子去有狀四接者\n今問诸惻他凶安採香人乃知首说非也\n又見本草備要云流香辛苦性溫\n诸木背浮而沉香独流故亡下無而墜痰涎\n臣降言示亡升云故能理诸無而調中色黑体清香故補人\n右冒命門煖精壯陽行無不傷湿中不助火\n治心眼疼痛禁口毒痢瘦舜邪金惡冷尾麻廟淋色黑流小北良\n香甜者性平辛雜者熱龍",
+    "vi": "Họ Nguyễn trước đặt đội am sơn, bàng năm cứ tháng 2 thì đi tìm kiếm, tháng 6 thì trở về, số được nhiều ít không nhất định, lấy sắc sáp trắng là tốt nhất, sắc xanh đầu vịt là thứ hai, sắc sáp xanh là kém nữa, sắc sáp vàng lại kém nữa, sắc như vằn hổ thì kém nhất; lấy chất mềm như phấn đông có thể cắt thành miếng là hạng tốt nhất, bền rắn là hạng xấu.\nTục ngữ nói: \"Nhất bạch, nhị thanh, tam hoàng, tứ hắc\".\nMuốn phân biệt trầm hương với kỳ nam thì lấy hình chất khí vị mà phân biệt.\nTrầm hương thì cứng, nặng, ít thơm, sắc nhẹ, có hơi dầu, thơm thì mềm nhạt, vị đắng, kỳ nam mát, vị gềm đủ cay, chua, ngọt, đắng; đốt trầm hương thì khói kết xoáy rồi sau mới tan, đốt kỳ nam thì hơi khói lên thẳng mà dài.\nTrầm hương chỉ có thể giáng khí.\nKỳ nam có thể chữa bệnh trúng phong, đàm suyễn, cấm khẩu, mọi chứng, mài vào nước mà rỏ và đốt khói cho hơi hương vào mũi thì tỉnh lại ngay.\nĐau bụng đầy tức thì ngậm là khỏi ngay.\nLại có thể trừ được tà khí uế khí, nên trong chỗ hành dịch hành quân không thể không dùng.\nKiêng nhất là bọc giấy, nên chứa vào đồ sứ hay đồ thiếc, rồi lấy bẹ chuối bọc cho kín, phơi giữa chỗ mặt trời, đến chiều lấy ra thì nước đầu tiết ra.\nCũng không nên phơi luôn.\nĐó đều là lời văn chúc Hiến Chương nam của họ Nguyễn trước nói.\nXét sách Thiên nam dư họ tập chép hai nguồn Trà Đinh Ô Kim huyện Bồng Sơn, thôn Nha Ca nguồn Cầu Bông huyện Phù Ly, và huyện Tuy Viễn đều hằng năm cống kỳ lam hương, tức là thứ ấy.\nLại xét sách Sự uăn loại tự, \"Hương phổ\" chép rằng: Trầm hương cây giống như cây thông cây gạo, có nhiều mắt, lấy thì trước chém gốc cây, để lâu năm vỏ và thân đều nát, ruột và mắt không nát là trầm hương.\nCành nhỏ cứng chắc là thanh quý.\nĐen mà chìm xuống nước là trầm hương, nửa nổi nửa chìm là kê cốt hương, thô là tiên hương.\nTrầm hương sản xuất không phải ở một nơi, ở Chân Lạp là tốt nhất, ở Chiêm Thành thứ nhì, ở Bốt Nêề là kém nhất."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 0,\n        \"vi_start\": 0,\n        \"vi_end\": 2,\n        \"han_text\": \"宜貯磁錫器以焦樹及巨密封\",\n        \"vietnamese_text\": \"Họ Nguyễn trước đặt đội am sơn, bàng năm cứ tháng 2 thì đi tìm kiếm, tháng 6 thì trở về, số được nhiều ít không nhất định, lấy sắc sáp trắng là tốt nhất, sắc xanh đầu vịt là thứ hai, sắc sáp xanh là kém nữa, sắc sáp vàng lại kém nữa, sắc như vằn hổ thì kém nhất; lấy chất mềm như phấn đông có thể cắt thành miếng là hạng tốt nhất, bền rắn là hạng xấu. Tục ngữ nói: \\\"Nhất bạch, nhị thanh, tam hoàng, tứ hắc\\\". Muốn phân biệt trầm hương với kỳ nam thì lấy hình chất khí vị mà phân biệt.\",\n        \"score\": -0.01410420944881968\n      },\n      {\n        \"han_start\": 1,\n        \"han_end\": 1,\n        \"vi_start\": 3,\n        \"vi_end\": 4,\n        \"han_text\": \"細紫密曝於日中至久取出即油液區發亦不宜常\",\n        \"vietnamese_text\": \"Trầm hương thì cứng, nặng, ít thơm, sắc nhẹ, có hơi dầu, thơm thì mềm nhạt, vị đắng, kỳ nam mát, vị gềm đủ cay, chua, ngọt, đắng; đốt trầm hương thì khói kết xoáy rồi sau mới tan, đốt kỳ nam thì hơi khói lên thẳng mà dài. Trầm hương chỉ có thể giáng khí.\",\n        \"score\": 0.08052374736640658\n      },\n      {\n        \"han_start\": 2,\n        \"han_end\": 4,\n        \"vi_start\": 5,\n        \"vi_end\": 6,\n        \"han_text\": \"縣前院氏伯文財憲華男所说 按天南餘暇蓬山縣花山金烏一源 符離縣橋龍流雅衆村與綏遠縣奇藍香即此\",\n        \"vietnamese_text\": \"Kỳ nam có thể chữa bệnh trúng phong, đàm suyễn, cấm khẩu, mọi chứng, mài vào nước mà rỏ và đốt khói cho hơi hương vào mũi thì tỉnh lại ngay. Đau bụng đầy tức thì ngậm là khỏi ngay.\",\n        \"score\": 0.11185234728379208\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 5,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"又拱事之頌\",\n        \"vietnamese_text\": \"Lại có thể trừ được tà khí uế khí, nên trong chỗ hành dịch hành quân không thể không dùng.\",\n        \"score\": 0.0344037255570802\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 8,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"聚椿梓多節取之先斷其本根 積年皮於俱杯心與節不振者香也 枝紫宴為青貴香黑而流水為流香\",\n        \"vietnamese_text\": \"Kiêng nhất là bọc giấy, nên chứa vào đồ sứ hay đồ thiếc, rồi lấy bẹ chuối bọc cho kín, phơi giữa chỗ mặt trời, đến chiều lấy ra thì nước đầu tiết ra.\",\n        \"score\": 0.1172577870258887\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 9,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"半浮流而總骨香粗為筆香洗香斫出非一\",\n        \"vietnamese_text\": \"Cũng không nên phơi luôn.\",\n        \"score\": -0.009458485745573703\n      },\n      {\n        \"han_start\": 10,\n        \"han_end\": 12,\n        \"vi_start\": 10,\n        \"vi_end\": 11,\n        \"han_text\": \"直麟為上与城次云濤泥為下雜直臘而取之 又有三品綠洋為上三漸次云勃異網為下 而香之大槩待此為上熟聽次之坚黑己上黃者次之\",\n        \"vietnamese_text\": \"Đó đều là lời văn chúc Hiến Chương nam của họ Nguyễn trước nói. Xét sách Thiên nam dư họ tập chép hai nguồn Trà Đinh Ô Kim huyện Bồng Sơn, thôn Nha Ca nguồn Cầu Bông huyện Phù Ly, và huyện Tuy Viễn đều hằng năm cống kỳ lam hương, tức là thứ ấy.\",\n        \"score\": 0.15264746928146633\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 16,\n        \"vi_start\": 12,\n        \"vi_end\": 12,\n        \"han_text\": \"有状如犀角去有狀如歲之此之狀四附子去有狀四接者 今問诸惻他凶安採香人乃知首说非也 又見本草備要云流香辛苦性溫 诸木背浮而沉香独流故亡下無而墜痰涎\",\n        \"vietnamese_text\": \"Lại xét sách Sự uăn loại tự, \\\"Hương phổ\\\" chép rằng: Trầm hương cây giống như cây thông cây gạo, có nhiều mắt, lấy thì trước chém gốc cây, để lâu năm vỏ và thân đều nát, ruột và mắt không nát là trầm hương.\",\n        \"score\": 0.11352247112980095\n      },\n      {\n        \"han_start\": 17,\n        \"han_end\": 17,\n        \"vi_start\": 13,\n        \"vi_end\": 14,\n        \"han_text\": \"臣降言示亡升云故能理诸無而調中色黑体清香故補人\",\n        \"vietnamese_text\": \"Cành nhỏ cứng chắc là thanh quý. Đen mà chìm xuống nước là trầm hương, nửa nổi nửa chìm là kê cốt hương, thô là tiên hương.\",\n        \"score\": 0.1930450162861858\n      },\n      {\n        \"han_start\": 18,\n        \"han_end\": 20,\n        \"vi_start\": 15,\n        \"vi_end\": 15,\n        \"han_text\": \"右冒命門煖精壯陽行無不傷湿中不助火 治心眼疼痛禁口毒痢瘦舜邪金惡冷尾麻廟淋色黑流小北良 香甜者性平辛雜者熱龍\",\n        \"vietnamese_text\": \"Trầm hương sản xuất không phải ở một nơi, ở Chân Lạp là tốt nhất, ở Chiêm Thành thứ nhì, ở Bốt Nêề là kém nhất.\",\n        \"score\": 0.01197086160893138\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 0,
+          "vi_start": 0,
+          "vi_end": 2,
+          "han_text": "宜貯磁錫器以焦樹及巨密封",
+          "vietnamese_text": "Họ Nguyễn trước đặt đội am sơn, bàng năm cứ tháng 2 thì đi tìm kiếm, tháng 6 thì trở về, số được nhiều ít không nhất định, lấy sắc sáp trắng là tốt nhất, sắc xanh đầu vịt là thứ hai, sắc sáp xanh là kém nữa, sắc sáp vàng lại kém nữa, sắc như vằn hổ thì kém nhất; lấy chất mềm như phấn đông có thể cắt thành miếng là hạng tốt nhất, bền rắn là hạng xấu. Tục ngữ nói: \"Nhất bạch, nhị thanh, tam hoàng, tứ hắc\". Muốn phân biệt trầm hương với kỳ nam thì lấy hình chất khí vị mà phân biệt.",
+          "score": -0.01410420944881968
+        },
+        {
+          "han_start": 1,
+          "han_end": 1,
+          "vi_start": 3,
+          "vi_end": 4,
+          "han_text": "細紫密曝於日中至久取出即油液區發亦不宜常",
+          "vietnamese_text": "Trầm hương thì cứng, nặng, ít thơm, sắc nhẹ, có hơi dầu, thơm thì mềm nhạt, vị đắng, kỳ nam mát, vị gềm đủ cay, chua, ngọt, đắng; đốt trầm hương thì khói kết xoáy rồi sau mới tan, đốt kỳ nam thì hơi khói lên thẳng mà dài. Trầm hương chỉ có thể giáng khí.",
+          "score": 0.08052374736640658
+        },
+        {
+          "han_start": 2,
+          "han_end": 4,
+          "vi_start": 5,
+          "vi_end": 6,
+          "han_text": "縣前院氏伯文財憲華男所说 按天南餘暇蓬山縣花山金烏一源 符離縣橋龍流雅衆村與綏遠縣奇藍香即此",
+          "vietnamese_text": "Kỳ nam có thể chữa bệnh trúng phong, đàm suyễn, cấm khẩu, mọi chứng, mài vào nước mà rỏ và đốt khói cho hơi hương vào mũi thì tỉnh lại ngay. Đau bụng đầy tức thì ngậm là khỏi ngay.",
+          "score": 0.11185234728379208
+        },
+        {
+          "han_start": 5,
+          "han_end": 5,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "又拱事之頌",
+          "vietnamese_text": "Lại có thể trừ được tà khí uế khí, nên trong chỗ hành dịch hành quân không thể không dùng.",
+          "score": 0.0344037255570802
+        },
+        {
+          "han_start": 6,
+          "han_end": 8,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "聚椿梓多節取之先斷其本根 積年皮於俱杯心與節不振者香也 枝紫宴為青貴香黑而流水為流香",
+          "vietnamese_text": "Kiêng nhất là bọc giấy, nên chứa vào đồ sứ hay đồ thiếc, rồi lấy bẹ chuối bọc cho kín, phơi giữa chỗ mặt trời, đến chiều lấy ra thì nước đầu tiết ra.",
+          "score": 0.1172577870258887
+        },
+        {
+          "han_start": 9,
+          "han_end": 9,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "半浮流而總骨香粗為筆香洗香斫出非一",
+          "vietnamese_text": "Cũng không nên phơi luôn.",
+          "score": -0.009458485745573703
+        },
+        {
+          "han_start": 10,
+          "han_end": 12,
+          "vi_start": 10,
+          "vi_end": 11,
+          "han_text": "直麟為上与城次云濤泥為下雜直臘而取之 又有三品綠洋為上三漸次云勃異網為下 而香之大槩待此為上熟聽次之坚黑己上黃者次之",
+          "vietnamese_text": "Đó đều là lời văn chúc Hiến Chương nam của họ Nguyễn trước nói. Xét sách Thiên nam dư họ tập chép hai nguồn Trà Đinh Ô Kim huyện Bồng Sơn, thôn Nha Ca nguồn Cầu Bông huyện Phù Ly, và huyện Tuy Viễn đều hằng năm cống kỳ lam hương, tức là thứ ấy.",
+          "score": 0.15264746928146633
+        },
+        {
+          "han_start": 13,
+          "han_end": 16,
+          "vi_start": 12,
+          "vi_end": 12,
+          "han_text": "有状如犀角去有狀如歲之此之狀四附子去有狀四接者 今問诸惻他凶安採香人乃知首说非也 又見本草備要云流香辛苦性溫 诸木背浮而沉香独流故亡下無而墜痰涎",
+          "vietnamese_text": "Lại xét sách Sự uăn loại tự, \"Hương phổ\" chép rằng: Trầm hương cây giống như cây thông cây gạo, có nhiều mắt, lấy thì trước chém gốc cây, để lâu năm vỏ và thân đều nát, ruột và mắt không nát là trầm hương.",
+          "score": 0.11352247112980095
+        },
+        {
+          "han_start": 17,
+          "han_end": 17,
+          "vi_start": 13,
+          "vi_end": 14,
+          "han_text": "臣降言示亡升云故能理诸無而調中色黑体清香故補人",
+          "vietnamese_text": "Cành nhỏ cứng chắc là thanh quý. Đen mà chìm xuống nước là trầm hương, nửa nổi nửa chìm là kê cốt hương, thô là tiên hương.",
+          "score": 0.1930450162861858
+        },
+        {
+          "han_start": 18,
+          "han_end": 20,
+          "vi_start": 15,
+          "vi_end": 15,
+          "han_text": "右冒命門煖精壯陽行無不傷湿中不助火 治心眼疼痛禁口毒痢瘦舜邪金惡冷尾麻廟淋色黑流小北良 香甜者性平辛雜者熱龍",
+          "vietnamese_text": "Trầm hương sản xuất không phải ở một nơi, ở Chân Lạp là tốt nhất, ở Chiêm Thành thứ nhì, ở Bốt Nêề là kém nhất.",
+          "score": 0.01197086160893138
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 6125
+}

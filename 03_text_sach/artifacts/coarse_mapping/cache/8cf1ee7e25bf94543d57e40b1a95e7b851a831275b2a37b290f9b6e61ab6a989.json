@@ -1,0 +1,78 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "8cf1ee7e25bf94543d57e40b1a95e7b851a831275b2a37b290f9b6e61ab6a989",
+  "payload": {
+    "han": "曲木箱流琴雜鳥號\n樵詩云金斧丁丁爾涉溪石生也處斷夷看華實况有來兼望木桂行邑笑轉蹄\n耕詩云金投足導溉田溪石岸懸蒼日已西\n藻蘭麗要谋積靈竹鞭攜稚赫鳴鷄藐樽祝社先心潔土草同舊獨力看華合辰逢三聘后木梨拋下虛嘉帶牧詩云\n金經掛角叩前溪石白松青野照西絲微臨淘安木鳥竹吹報隆開沙鷄巍懸北地終王淺土唱南山未相看\n幸命每從牛口得木飧草箸更憂蹄\n其攜過貴道宅和廚長卿原韻曰\n颶鳥爭堪回效遲超迂伯喜滴何悲\n黃頭竟入軒丁象青簡推行絳灌飛\n時清恨暗留壺井在孤貞明許石牀知上殿下大其收旺壺修有一高御石來卷一人坐形流古制2211a0.坐相待之意憐君還有幸是意宣室未輕天一涯\n其夜飲云醒何人若独行癸法晷留賓且対斟手燭尚惡償登短情應告用同更涼是非久關開雷耳\n雜亂爾忘醉月心你中山酪然好浮生千日幾分陰\n其春雨自容詩并序云醜虜辰平孤生日老\n門尚同而未入酒線郡以何言\n辰而火未下流金方中伏",
+    "vi": "Một hiến lên trời một dưới sông, Nước bao mâm ngân trời học đúc; Trời ngờ gương ngọc nước làm duyên.\nGiao ly sợ lộ che hình thế, Âu nhạn như thêm rộng cánh lông.\nNhớ lại Đào Chu” xong sự nghiệp, Càn khôn say hát giữa trung ương.\n%am-plhố sóng tro ng Sóng bạc mênh mông mấy thuở uơi, Pha lê rọi sáng bhắp đôi nơi.\nGió mưa nhàn rỗi trời thư uiệc; Kênh ngạc thua quyền biên lặng sôi.\nNày khách anh hùng mong cõi mảng; Không người tráng sĩ hỏi gươm chơi.\nLão quê sẻ lộc cùng âu lộ, Cười trỏ Trường An sinh thánh rồu\n31ã\n©ộc trĩ xóm đân Đất hẹp gò cùng Uống tiếng uang, Cháu con không sợ cướp lều tranh.\nNem hươu cầm khách chè quê đặc; Đò lợn 0uợ uề rau quả xanh."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 2,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"曲木箱流琴雜鳥號 樵詩云金斧丁丁爾涉溪石生也處斷夷看華實况有來兼望木桂行邑笑轉蹄 耕詩云金投足導溉田溪石岸懸蒼日已西\",\n        \"vietnamese_text\": \"Một hiến lên trời một dưới sông, Nước bao mâm ngân trời học đúc; Trời ngờ gương ngọc nước làm duyên.\",\n        \"score\": 0.20975439579467078\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 4,\n        \"vi_start\": 1,\n        \"vi_end\": 3,\n        \"han_text\": \"藻蘭麗要谋積靈竹鞭攜稚赫鳴鷄藐樽祝社先心潔土草同舊獨力看華合辰逢三聘后木梨拋下虛嘉帶牧詩云 金經掛角叩前溪石白松青野照西絲微臨淘安木鳥竹吹報隆開沙鷄巍懸北地終王淺土唱南山未相看\",\n        \"vietnamese_text\": \"Giao ly sợ lộ che hình thế, Âu nhạn như thêm rộng cánh lông. Nhớ lại Đào Chu” xong sự nghiệp, Càn khôn say hát giữa trung ương. %am-plhố sóng tro ng Sóng bạc mênh mông mấy thuở uơi, Pha lê rọi sáng bhắp đôi nơi.\",\n        \"score\": 0.17414173935815697\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 5,\n        \"vi_start\": 4,\n        \"vi_end\": 5,\n        \"han_text\": \"幸命每從牛口得木飧草箸更憂蹄\",\n        \"vietnamese_text\": \"Gió mưa nhàn rỗi trời thư uiệc; Kênh ngạc thua quyền biên lặng sôi. Này khách anh hùng mong cõi mảng; Không người tráng sĩ hỏi gươm chơi.\",\n        \"score\": -0.0040269763510790355\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 8,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"其攜過貴道宅和廚長卿原韻曰 颶鳥爭堪回效遲超迂伯喜滴何悲 黃頭竟入軒丁象青簡推行絳灌飛\",\n        \"vietnamese_text\": \"Lão quê sẻ lộc cùng âu lộ, Cười trỏ Trường An sinh thánh rồu\",\n        \"score\": 0.21829474949089694\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 12,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"時清恨暗留壺井在孤貞明許石牀知上殿下大其收旺壺修有一高御石來卷一人坐形流古制2211a0. 坐相待之意憐君還有幸是意宣室未輕天一涯 其夜飲云醒何人若独行癸法晷留賓且対斟手燭尚惡償登短情應告用同更涼是非久關開雷耳 雜亂爾忘醉月心你中山酪然好浮生千日幾分陰\",\n        \"vietnamese_text\": \"31ã\",\n        \"score\": -0.0011242282833152605\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 15,\n        \"vi_start\": 8,\n        \"vi_end\": 9,\n        \"han_text\": \"其春雨自容詩并序云醜虜辰平孤生日老 門尚同而未入酒線郡以何言 辰而火未下流金方中伏\",\n        \"vietnamese_text\": \"©ộc trĩ xóm đân Đất hẹp gò cùng Uống tiếng uang, Cháu con không sợ cướp lều tranh. Nem hươu cầm khách chè quê đặc; Đò lợn 0uợ uề rau quả xanh.\",\n        \"score\": 0.11683742456922266\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 2,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "曲木箱流琴雜鳥號 樵詩云金斧丁丁爾涉溪石生也處斷夷看華實况有來兼望木桂行邑笑轉蹄 耕詩云金投足導溉田溪石岸懸蒼日已西",
+          "vietnamese_text": "Một hiến lên trời một dưới sông, Nước bao mâm ngân trời học đúc; Trời ngờ gương ngọc nước làm duyên.",
+          "score": 0.20975439579467078
+        },
+        {
+          "han_start": 3,
+          "han_end": 4,
+          "vi_start": 1,
+          "vi_end": 3,
+          "han_text": "藻蘭麗要谋積靈竹鞭攜稚赫鳴鷄藐樽祝社先心潔土草同舊獨力看華合辰逢三聘后木梨拋下虛嘉帶牧詩云 金經掛角叩前溪石白松青野照西絲微臨淘安木鳥竹吹報隆開沙鷄巍懸北地終王淺土唱南山未相看",
+          "vietnamese_text": "Giao ly sợ lộ che hình thế, Âu nhạn như thêm rộng cánh lông. Nhớ lại Đào Chu” xong sự nghiệp, Càn khôn say hát giữa trung ương. %am-plhố sóng tro ng Sóng bạc mênh mông mấy thuở uơi, Pha lê rọi sáng bhắp đôi nơi.",
+          "score": 0.17414173935815697
+        },
+        {
+          "han_start": 5,
+          "han_end": 5,
+          "vi_start": 4,
+          "vi_end": 5,
+          "han_text": "幸命每從牛口得木飧草箸更憂蹄",
+          "vietnamese_text": "Gió mưa nhàn rỗi trời thư uiệc; Kênh ngạc thua quyền biên lặng sôi. Này khách anh hùng mong cõi mảng; Không người tráng sĩ hỏi gươm chơi.",
+          "score": -0.0040269763510790355
+        },
+        {
+          "han_start": 6,
+          "han_end": 8,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "其攜過貴道宅和廚長卿原韻曰 颶鳥爭堪回效遲超迂伯喜滴何悲 黃頭竟入軒丁象青簡推行絳灌飛",
+          "vietnamese_text": "Lão quê sẻ lộc cùng âu lộ, Cười trỏ Trường An sinh thánh rồu",
+          "score": 0.21829474949089694
+        },
+        {
+          "han_start": 9,
+          "han_end": 12,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "時清恨暗留壺井在孤貞明許石牀知上殿下大其收旺壺修有一高御石來卷一人坐形流古制2211a0. 坐相待之意憐君還有幸是意宣室未輕天一涯 其夜飲云醒何人若独行癸法晷留賓且対斟手燭尚惡償登短情應告用同更涼是非久關開雷耳 雜亂爾忘醉月心你中山酪然好浮生千日幾分陰",
+          "vietnamese_text": "31ã",
+          "score": -0.0011242282833152605
+        },
+        {
+          "han_start": 13,
+          "han_end": 15,
+          "vi_start": 8,
+          "vi_end": 9,
+          "han_text": "其春雨自容詩并序云醜虜辰平孤生日老 門尚同而未入酒線郡以何言 辰而火未下流金方中伏",
+          "vietnamese_text": "©ộc trĩ xóm đân Đất hẹp gò cùng Uống tiếng uang, Cháu con không sợ cướp lều tranh. Nem hươu cầm khách chè quê đặc; Đò lợn 0uợ uề rau quả xanh.",
+          "score": 0.11683742456922266
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 1656
+}

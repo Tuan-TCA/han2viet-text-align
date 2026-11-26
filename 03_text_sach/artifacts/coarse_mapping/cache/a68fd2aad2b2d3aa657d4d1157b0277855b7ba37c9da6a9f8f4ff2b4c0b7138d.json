@@ -1,0 +1,141 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "a68fd2aad2b2d3aa657d4d1157b0277855b7ba37c9da6a9f8f4ff2b4c0b7138d",
+  "payload": {
+    "han": "上御里爾浮雲\n梅亭趙臨祥錄\n又文物皇冊盛声名海外揚\n孝開儲海水義府儀宮牆\n特幸珪璋器德容礼法陽\n無穷許月旦此處定行蕭\n又甕靈香膠熟雲中湛露新\n雜紅傳綺席蟻綠献佳辰\n親報尊三43爵言歡正再旬\n兒能方上壽扆陛夢年春\n中原臣立延橙候錄又為爾座秀遠應憐曲徑長\n紆迴山葉拖運盡竹沿墻鶴步苔痕合春来花金香\n梅榴流水外別有讀書堂\n中原兵廷揆時錄景興三十五年甲午十月\n王師南伐上將縣公過河傳檄順化廣南二處曰\n大君有命用昭除暴之仁長子帥師事繹報言之義\n無華本非得已奸惡在所必誅\n雍國蒙奄有輿因光隱辛土\n顧此順產之地亦在封域之中\n自端國公以勲廟大臣奉先產祖委方卅重任修憲\n曾經累世無事百有餘色素卦天意降灾書此權臣壽制彼左相張福垂者\n斗首小卷悉蛾邪心蜜緣固園之親叨窃機樞之任\n崇信奸慮隋害忠良\n離首間親專為植党之計招權納關自嘗肥己之謀",
+    "vi": "Khí kết sơn hà tú; Quang phân nhật nguyệt hoa.\nVốn tăng truyền chính tốc; Bổ khuyết ức Hoàng od.\nVăn thuyết không tang phúp; Man dà cánh uõ hoa.\n(Trung nguyên Hoa Sơn thị kính lục)\nXanh xanh nêu chính sắc; Man mác ngát mù sa.\nKhí bết non. sông tốt; Sáng chỉa nhật nguyệt loè.\nHỏi sự truyền chính đạo; Vá trời nhờ Nữ od.\nNghe thuyết không tang phép; Man Đà lại mưa hoa.\nNộn liêu bích như yên, Xuân lưu uyển chuyển diên.\nĐê thuỳ kứm kính bạn; Tò phút ngọc hiểu biên.\nMi tế bơ trung hoa; Yêu khinh phong lý hoàn.\nChương đài thiên uạn thụ; Duy nhĩ mộc ân tiên.\n(Trung nguyên Trần Khâu Kiến Quỹ bái lục).\n@ịch) Liêu non màu bhói biếc; Dòng xuân uốn lượn quanh.\nRủ xuống bờ nước gương; Phất phơ bên cầu ngọc.\nMày (liễu) uẽ trong sóng; Lưng (liễu) uốn trước gió."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 1,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"上御里爾浮雲 梅亭趙臨祥錄\",\n        \"vietnamese_text\": \"Khí kết sơn hà tú; Quang phân nhật nguyệt hoa.\",\n        \"score\": 0.06008211543317837\n      },\n      {\n        \"han_start\": 2,\n        \"han_end\": 3,\n        \"vi_start\": 1,\n        \"vi_end\": 1,\n        \"han_text\": \"又文物皇冊盛声名海外揚 孝開儲海水義府儀宮牆\",\n        \"vietnamese_text\": \"Vốn tăng truyền chính tốc; Bổ khuyết ức Hoàng od.\",\n        \"score\": 0.10323474273930164\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 6,\n        \"vi_start\": 2,\n        \"vi_end\": 3,\n        \"han_text\": \"特幸珪璋器德容礼法陽 無穷許月旦此處定行蕭 又甕靈香膠熟雲中湛露新\",\n        \"vietnamese_text\": \"Văn thuyết không tang phúp; Man dà cánh uõ hoa. (Trung nguyên Hoa Sơn thị kính lục)\",\n        \"score\": 0.15174322077667307\n      },\n      {\n        \"han_start\": 7,\n        \"han_end\": 7,\n        \"vi_start\": 4,\n        \"vi_end\": 4,\n        \"han_text\": \"雜紅傳綺席蟻綠献佳辰\",\n        \"vietnamese_text\": \"Xanh xanh nêu chính sắc; Man mác ngát mù sa.\",\n        \"score\": 0.10331974860397955\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 8,\n        \"vi_start\": 5,\n        \"vi_end\": 5,\n        \"han_text\": \"親報尊三43爵言歡正再旬\",\n        \"vietnamese_text\": \"Khí bết non.\",\n        \"score\": -0.0037925459022238026\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 10,\n        \"vi_start\": 6,\n        \"vi_end\": 7,\n        \"han_text\": \"兒能方上壽扆陛夢年春 中原臣立延橙候錄又為爾座秀遠應憐曲徑長\",\n        \"vietnamese_text\": \"sông tốt; Sáng chỉa nhật nguyệt loè. Hỏi sự truyền chính đạo; Vá trời nhờ Nữ od.\",\n        \"score\": 0.15366862339812107\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 12,\n        \"vi_start\": 8,\n        \"vi_end\": 9,\n        \"han_text\": \"紆迴山葉拖運盡竹沿墻鶴步苔痕合春来花金香 梅榴流水外別有讀書堂\",\n        \"vietnamese_text\": \"Nghe thuyết không tang phép; Man Đà lại mưa hoa. Nộn liêu bích như yên, Xuân lưu uyển chuyển diên.\",\n        \"score\": 0.15717365985655932\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 15,\n        \"vi_start\": 10,\n        \"vi_end\": 10,\n        \"han_text\": \"中原兵廷揆時錄景興三十五年甲午十月 王師南伐上將縣公過河傳檄順化廣南二處曰 大君有命用昭除暴之仁長子帥師事繹報言之義\",\n        \"vietnamese_text\": \"Đê thuỳ kứm kính bạn; Tò phút ngọc hiểu biên.\",\n        \"score\": 0.010284371091294193\n      },\n      {\n        \"han_start\": 16,\n        \"han_end\": 16,\n        \"vi_start\": 11,\n        \"vi_end\": 11,\n        \"han_text\": \"無華本非得已奸惡在所必誅\",\n        \"vietnamese_text\": \"Mi tế bơ trung hoa; Yêu khinh phong lý hoàn.\",\n        \"score\": 0.013721999350040825\n      },\n      {\n        \"han_start\": 17,\n        \"han_end\": 18,\n        \"vi_start\": 12,\n        \"vi_end\": 12,\n        \"han_text\": \"雍國蒙奄有輿因光隱辛土 顧此順產之地亦在封域之中\",\n        \"vietnamese_text\": \"Chương đài thiên uạn thụ; Duy nhĩ mộc ân tiên.\",\n        \"score\": 0.15708955036058783\n      },\n      {\n        \"han_start\": 19,\n        \"han_end\": 20,\n        \"vi_start\": 13,\n        \"vi_end\": 13,\n        \"han_text\": \"自端國公以勲廟大臣奉先產祖委方卅重任修憲 曾經累世無事百有餘色素卦天意降灾書此權臣壽制彼左相張福垂者\",\n        \"vietnamese_text\": \"(Trung nguyên Trần Khâu Kiến Quỹ bái lục).\",\n        \"score\": -0.0035862526515697507\n      },\n      {\n        \"han_start\": 21,\n        \"han_end\": 21,\n        \"vi_start\": 14,\n        \"vi_end\": 14,\n        \"han_text\": \"斗首小卷悉蛾邪心蜜緣固園之親叨窃機樞之任\",\n        \"vietnamese_text\": \"@ịch) Liêu non màu bhói biếc; Dòng xuân uốn lượn quanh.\",\n        \"score\": 0.06929947084250695\n      },\n      {\n        \"han_start\": 22,\n        \"han_end\": 23,\n        \"vi_start\": 15,\n        \"vi_end\": 16,\n        \"han_text\": \"崇信奸慮隋害忠良 離首間親專為植党之計招權納關自嘗肥己之謀\",\n        \"vietnamese_text\": \"Rủ xuống bờ nước gương; Phất phơ bên cầu ngọc. Mày (liễu) uẽ trong sóng; Lưng (liễu) uốn trước gió.\",\n        \"score\": 0.04455421403719495\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 1,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "上御里爾浮雲 梅亭趙臨祥錄",
+          "vietnamese_text": "Khí kết sơn hà tú; Quang phân nhật nguyệt hoa.",
+          "score": 0.06008211543317837
+        },
+        {
+          "han_start": 2,
+          "han_end": 3,
+          "vi_start": 1,
+          "vi_end": 1,
+          "han_text": "又文物皇冊盛声名海外揚 孝開儲海水義府儀宮牆",
+          "vietnamese_text": "Vốn tăng truyền chính tốc; Bổ khuyết ức Hoàng od.",
+          "score": 0.10323474273930164
+        },
+        {
+          "han_start": 4,
+          "han_end": 6,
+          "vi_start": 2,
+          "vi_end": 3,
+          "han_text": "特幸珪璋器德容礼法陽 無穷許月旦此處定行蕭 又甕靈香膠熟雲中湛露新",
+          "vietnamese_text": "Văn thuyết không tang phúp; Man dà cánh uõ hoa. (Trung nguyên Hoa Sơn thị kính lục)",
+          "score": 0.15174322077667307
+        },
+        {
+          "han_start": 7,
+          "han_end": 7,
+          "vi_start": 4,
+          "vi_end": 4,
+          "han_text": "雜紅傳綺席蟻綠献佳辰",
+          "vietnamese_text": "Xanh xanh nêu chính sắc; Man mác ngát mù sa.",
+          "score": 0.10331974860397955
+        },
+        {
+          "han_start": 8,
+          "han_end": 8,
+          "vi_start": 5,
+          "vi_end": 5,
+          "han_text": "親報尊三43爵言歡正再旬",
+          "vietnamese_text": "Khí bết non.",
+          "score": -0.0037925459022238026
+        },
+        {
+          "han_start": 9,
+          "han_end": 10,
+          "vi_start": 6,
+          "vi_end": 7,
+          "han_text": "兒能方上壽扆陛夢年春 中原臣立延橙候錄又為爾座秀遠應憐曲徑長",
+          "vietnamese_text": "sông tốt; Sáng chỉa nhật nguyệt loè. Hỏi sự truyền chính đạo; Vá trời nhờ Nữ od.",
+          "score": 0.15366862339812107
+        },
+        {
+          "han_start": 11,
+          "han_end": 12,
+          "vi_start": 8,
+          "vi_end": 9,
+          "han_text": "紆迴山葉拖運盡竹沿墻鶴步苔痕合春来花金香 梅榴流水外別有讀書堂",
+          "vietnamese_text": "Nghe thuyết không tang phép; Man Đà lại mưa hoa. Nộn liêu bích như yên, Xuân lưu uyển chuyển diên.",
+          "score": 0.15717365985655932
+        },
+        {
+          "han_start": 13,
+          "han_end": 15,
+          "vi_start": 10,
+          "vi_end": 10,
+          "han_text": "中原兵廷揆時錄景興三十五年甲午十月 王師南伐上將縣公過河傳檄順化廣南二處曰 大君有命用昭除暴之仁長子帥師事繹報言之義",
+          "vietnamese_text": "Đê thuỳ kứm kính bạn; Tò phút ngọc hiểu biên.",
+          "score": 0.010284371091294193
+        },
+        {
+          "han_start": 16,
+          "han_end": 16,
+          "vi_start": 11,
+          "vi_end": 11,
+          "han_text": "無華本非得已奸惡在所必誅",
+          "vietnamese_text": "Mi tế bơ trung hoa; Yêu khinh phong lý hoàn.",
+          "score": 0.013721999350040825
+        },
+        {
+          "han_start": 17,
+          "han_end": 18,
+          "vi_start": 12,
+          "vi_end": 12,
+          "han_text": "雍國蒙奄有輿因光隱辛土 顧此順產之地亦在封域之中",
+          "vietnamese_text": "Chương đài thiên uạn thụ; Duy nhĩ mộc ân tiên.",
+          "score": 0.15708955036058783
+        },
+        {
+          "han_start": 19,
+          "han_end": 20,
+          "vi_start": 13,
+          "vi_end": 13,
+          "han_text": "自端國公以勲廟大臣奉先產祖委方卅重任修憲 曾經累世無事百有餘色素卦天意降灾書此權臣壽制彼左相張福垂者",
+          "vietnamese_text": "(Trung nguyên Trần Khâu Kiến Quỹ bái lục).",
+          "score": -0.0035862526515697507
+        },
+        {
+          "han_start": 21,
+          "han_end": 21,
+          "vi_start": 14,
+          "vi_end": 14,
+          "han_text": "斗首小卷悉蛾邪心蜜緣固園之親叨窃機樞之任",
+          "vietnamese_text": "@ịch) Liêu non màu bhói biếc; Dòng xuân uốn lượn quanh.",
+          "score": 0.06929947084250695
+        },
+        {
+          "han_start": 22,
+          "han_end": 23,
+          "vi_start": 15,
+          "vi_end": 16,
+          "han_text": "崇信奸慮隋害忠良 離首間親專為植党之計招權納關自嘗肥己之謀",
+          "vietnamese_text": "Rủ xuống bờ nước gương; Phất phơ bên cầu ngọc. Mày (liễu) uẽ trong sóng; Lưng (liễu) uốn trước gió.",
+          "score": 0.04455421403719495
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 2516
+}

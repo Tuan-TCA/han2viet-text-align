@@ -1,0 +1,87 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "c2fe8ab93b072835c91d7e5dbd6150ef4ef19ccdff1a59d7a55b50846b32c3ce",
+  "payload": {
+    "han": "上御里爾浮雲\n梅亭趙臨祥錄\n又文物皇冊盛声名海外揚\n孝開儲海水義府儀宮牆\n特幸珪璋器德容礼法陽\n無穷許月旦此處定行蕭\n又甕靈香膠熟雲中湛露新\n雜紅傳綺席蟻綠献佳辰\n親報尊三43爵言歡正再旬\n兒能方上壽扆陛夢年春\n中原臣立延橙候錄又為爾座秀遠應憐曲徑長\n紆迴山葉拖運盡竹沿墻鶴步苔痕合春来花金香\n梅榴流水外別有讀書堂\n中原兵廷揆時錄景興三十五年甲午十月\n王師南伐上將縣公過河傳檄順化廣南二處曰\n大君有命用昭除暴之仁長子帥師事繹報言之義\n無華本非得已奸惡在所必誅\n雍國蒙奄有輿因光隱辛土\n顧此順產之地亦在封域之中\n自端國公以勲廟大臣奉先產祖委方卅重任修憲\n曾經累世無事百有餘色素卦天意降灾書此權臣壽制彼左相張福垂者\n斗首小卷悉蛾邪心蜜緣固園之親叨窃機樞之任\n崇信奸慮隋害忠良\n離首間親專為植党之計招權納關自嘗肥己之謀",
+    "vi": "(Trung nguyên Trần Khâu Kiến Quỹ bái lục).\n@ịch) Liêu non màu bhói biếc; Dòng xuân uốn lượn quanh.\nRủ xuống bờ nước gương; Phất phơ bên cầu ngọc.\nMày (liễu) uẽ trong sóng; Lưng (liễu) uốn trước gió.\nChương đài muôn ngàn cây, hiêng ngươi được ơn trước.\nNhất thiên khai thự sắc; Vạn lý hưởng tình lôi.\nLô xướng truyền tam điện; Hồng danh bá cửu cai.\nHà tu thái sử thị; Cánh tấu khánh uân lai.\nĐan bệ thiên ban 0ú, Thiên môn thộp nhị khai.\n(Trạng nguyên Mai Đình Triệu Lâm bái lục)."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 1,\n        \"han_end\": 4,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"梅亭趙臨祥錄 又文物皇冊盛声名海外揚 孝開儲海水義府儀宮牆 特幸珪璋器德容礼法陽\",\n        \"vietnamese_text\": \"(Trung nguyên Trần Khâu Kiến Quỹ bái lục).\",\n        \"score\": 0.08387399105117509\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 7,\n        \"vi_start\": 1,\n        \"vi_end\": 1,\n        \"han_text\": \"無穷許月旦此處定行蕭 又甕靈香膠熟雲中湛露新 雜紅傳綺席蟻綠献佳辰\",\n        \"vietnamese_text\": \"@ịch) Liêu non màu bhói biếc; Dòng xuân uốn lượn quanh.\",\n        \"score\": 0.11891576899607806\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 10,\n        \"vi_start\": 2,\n        \"vi_end\": 2,\n        \"han_text\": \"親報尊三43爵言歡正再旬 兒能方上壽扆陛夢年春 中原臣立延橙候錄又為爾座秀遠應憐曲徑長\",\n        \"vietnamese_text\": \"Rủ xuống bờ nước gương; Phất phơ bên cầu ngọc.\",\n        \"score\": -0.0004256050387268033\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 13,\n        \"vi_start\": 3,\n        \"vi_end\": 4,\n        \"han_text\": \"紆迴山葉拖運盡竹沿墻鶴步苔痕合春来花金香 梅榴流水外別有讀書堂 中原兵廷揆時錄景興三十五年甲午十月\",\n        \"vietnamese_text\": \"Mày (liễu) uẽ trong sóng; Lưng (liễu) uốn trước gió. Chương đài muôn ngàn cây, hiêng ngươi được ơn trước.\",\n        \"score\": 0.11772976537875127\n      },\n      {\n        \"han_start\": 14,\n        \"han_end\": 16,\n        \"vi_start\": 5,\n        \"vi_end\": 6,\n        \"han_text\": \"王師南伐上將縣公過河傳檄順化廣南二處曰 大君有命用昭除暴之仁長子帥師事繹報言之義 無華本非得已奸惡在所必誅\",\n        \"vietnamese_text\": \"Nhất thiên khai thự sắc; Vạn lý hưởng tình lôi. Lô xướng truyền tam điện; Hồng danh bá cửu cai.\",\n        \"score\": 0.13948812989263595\n      },\n      {\n        \"han_start\": 17,\n        \"han_end\": 19,\n        \"vi_start\": 7,\n        \"vi_end\": 8,\n        \"han_text\": \"雍國蒙奄有輿因光隱辛土 顧此順產之地亦在封域之中 自端國公以勲廟大臣奉先產祖委方卅重任修憲\",\n        \"vietnamese_text\": \"Hà tu thái sử thị; Cánh tấu khánh uân lai. Đan bệ thiên ban 0ú, Thiên môn thộp nhị khai.\",\n        \"score\": 0.1463945421261769\n      },\n      {\n        \"han_start\": 20,\n        \"han_end\": 23,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"曾經累世無事百有餘色素卦天意降灾書此權臣壽制彼左相張福垂者 斗首小卷悉蛾邪心蜜緣固園之親叨窃機樞之任 崇信奸慮隋害忠良 離首間親專為植党之計招權納關自嘗肥己之謀\",\n        \"vietnamese_text\": \"(Trạng nguyên Mai Đình Triệu Lâm bái lục).\",\n        \"score\": -0.038884208581980426\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 1,
+          "han_end": 4,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "梅亭趙臨祥錄 又文物皇冊盛声名海外揚 孝開儲海水義府儀宮牆 特幸珪璋器德容礼法陽",
+          "vietnamese_text": "(Trung nguyên Trần Khâu Kiến Quỹ bái lục).",
+          "score": 0.08387399105117509
+        },
+        {
+          "han_start": 5,
+          "han_end": 7,
+          "vi_start": 1,
+          "vi_end": 1,
+          "han_text": "無穷許月旦此處定行蕭 又甕靈香膠熟雲中湛露新 雜紅傳綺席蟻綠献佳辰",
+          "vietnamese_text": "@ịch) Liêu non màu bhói biếc; Dòng xuân uốn lượn quanh.",
+          "score": 0.11891576899607806
+        },
+        {
+          "han_start": 8,
+          "han_end": 10,
+          "vi_start": 2,
+          "vi_end": 2,
+          "han_text": "親報尊三43爵言歡正再旬 兒能方上壽扆陛夢年春 中原臣立延橙候錄又為爾座秀遠應憐曲徑長",
+          "vietnamese_text": "Rủ xuống bờ nước gương; Phất phơ bên cầu ngọc.",
+          "score": -0.0004256050387268033
+        },
+        {
+          "han_start": 11,
+          "han_end": 13,
+          "vi_start": 3,
+          "vi_end": 4,
+          "han_text": "紆迴山葉拖運盡竹沿墻鶴步苔痕合春来花金香 梅榴流水外別有讀書堂 中原兵廷揆時錄景興三十五年甲午十月",
+          "vietnamese_text": "Mày (liễu) uẽ trong sóng; Lưng (liễu) uốn trước gió. Chương đài muôn ngàn cây, hiêng ngươi được ơn trước.",
+          "score": 0.11772976537875127
+        },
+        {
+          "han_start": 14,
+          "han_end": 16,
+          "vi_start": 5,
+          "vi_end": 6,
+          "han_text": "王師南伐上將縣公過河傳檄順化廣南二處曰 大君有命用昭除暴之仁長子帥師事繹報言之義 無華本非得已奸惡在所必誅",
+          "vietnamese_text": "Nhất thiên khai thự sắc; Vạn lý hưởng tình lôi. Lô xướng truyền tam điện; Hồng danh bá cửu cai.",
+          "score": 0.13948812989263595
+        },
+        {
+          "han_start": 17,
+          "han_end": 19,
+          "vi_start": 7,
+          "vi_end": 8,
+          "han_text": "雍國蒙奄有輿因光隱辛土 顧此順產之地亦在封域之中 自端國公以勲廟大臣奉先產祖委方卅重任修憲",
+          "vietnamese_text": "Hà tu thái sử thị; Cánh tấu khánh uân lai. Đan bệ thiên ban 0ú, Thiên môn thộp nhị khai.",
+          "score": 0.1463945421261769
+        },
+        {
+          "han_start": 20,
+          "han_end": 23,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "曾經累世無事百有餘色素卦天意降灾書此權臣壽制彼左相張福垂者 斗首小卷悉蛾邪心蜜緣固園之親叨窃機樞之任 崇信奸慮隋害忠良 離首間親專為植党之計招權納關自嘗肥己之謀",
+          "vietnamese_text": "(Trạng nguyên Mai Đình Triệu Lâm bái lục).",
+          "score": -0.038884208581980426
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 2938
+}

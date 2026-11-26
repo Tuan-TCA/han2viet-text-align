@@ -1,0 +1,87 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "248859761973324ccdb18f8161687c49f82b4597a44c36d1776d2684c65ed2f9",
+  "payload": {
+    "han": "四公族礼侯家文班五疾員只美若二定金如名奇隊船辦\n則中侯奇船或八定或三定或二宗\n其孫一當二十五章三十隊家長名孫一定本奇白名船孫一中侯內外加約美孫或三定或五宗\n屬里十一般目隊長興船兵同一貞右象奇左家奇侯國礼左右前秋奇官止各美識一定五象奇無谷孫五宗錄此以見前說\n王首辰官興年之謹重大槩如此也\n關化必富榮學驕溪知礼二社善豈谷色餅武材社亡造明餅虧田鼎齋萊社諸於燒酒買麵於越洋坊三十文得十餅者之味醇而甘糖粒並佳\n扶賴社亦好\n富榮主西城自民造劉其酒頗陵雲南必為義府\n萬花豐德好社界税納含史司酒五埕\n富安府金户弟油二社屬例酒五埕\n同春綏和二縣例酒二十蝗口登昌星\n愛子社香菜星毫湖社新館社美州坊並亡\n貴石密造黑糖普登糖出鄭金府浮桂歌白一臣重一斤\n阮氏常令商尚记錄安買於春",
+    "vi": "Năm Kỷ Sửu các huyện xã thôn phường phủ Triệu Phong nộp thuế mỡ lợn các chợ, ký phủ 16 chĩnh, còn dư cũng có nộp thay tiển, mỗi chĩnh 3 tiền.\nXứ Quảng Nam cũng có thuế mỡ lợn, đều nộp thay bằng tiển, mỗi chĩnh 5 tiền, để làm phí tổn lau súng đại bác.\nXứ Thuận Hoá, năm Canh Dần, tết Chính Đán, hai viên cai cơ công tộc chỉ mừng tiền trầu 2 quan, cai đội 11 viên, đều 1 con lợn, thay tiển 10 quan, tiền trầu 1 quan; chư tướng ngoại tả 1 viên, chưởng đính 2 viên, chưởng cơ 4 viên, đều lợn 1 con thay tiển 10 quan, tiền trầu thì có hạng 10 quan, có hạng 5 quan; cai cơ 10 viên, chỉ có tiền trầu mỗi viên 2 quan; cai đội 28 viên, cũng như lễ cai đội công tộc; văn ban 5 viên, chỉ có tiền trầu mỗi viên 2 quan.\nĐến như các cơ đội thuyển, thì cơ thuyền Trung hầu hoặc 8 quan, hoặc 3 quan, hoặc 2 quan, còn dư thì một dinh 25 cơ, 30 đội, đội trưởng mỗi tên tiển 1 quan; bản cơ thì mỗi thuyền tiển 1 quan; Trung hầu Nội thuỷ thì nộp thêm tiền trâu hoặc 3 quan, hoặc 5 quan; 12 thuyền thuộc kiên thì đội trưởng cùng thuyền binh cùng nộp 1 quan; các tượng cơ, thì quan chánh Tượng cơ tiền lợn tiển trầu cũng như lệ cai đội; quan tả hữu tiền hậu cơ chỉ mỗi viên 1 quan tiền trầu; ngũ Tượng cơ bình thì đều tiển 5 quan.\nChép thế để biết đại khái tình hình quan quân thời họ Nguyễn trước.\nXứ Thuận Hoá, 2 xã Ly Khê,Tri Lễ huyện Phú Vang khéo làm các thứ bánh.\nXã Mậu Tài giỏi làm bánh hồ (Hồ bính)?, Xã Vu Lai huyện Quảng Điển làm nghề nấu rượu, mua men ở phường Việt Dương, 36 đồng được 10 bánh, nấu rượu mùi êm mà ngọt, gạo nếp gạo tẻ đều tốt cả.\nXã Phù Lại cũng tốt.\nDân Tây Thành huyện Phú Vang tự chế lấy men, rượu bơi lạt.\nXứ Quảng Nam, phủ Quảng Ngãi, huyện Mộ Hoa, xã Thanh Hảo hàng năm nộp rượu cho ty Lệnh sử ð chĩnh."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 0,\n        \"vi_start\": 0,\n        \"vi_end\": 2,\n        \"han_text\": \"四公族礼侯家文班五疾員只美若二定金如名奇隊船辦\",\n        \"vietnamese_text\": \"Năm Kỷ Sửu các huyện xã thôn phường phủ Triệu Phong nộp thuế mỡ lợn các chợ, ký phủ 16 chĩnh, còn dư cũng có nộp thay tiển, mỗi chĩnh 3 tiền. Xứ Quảng Nam cũng có thuế mỡ lợn, đều nộp thay bằng tiển, mỗi chĩnh 5 tiền, để làm phí tổn lau súng đại bác. Xứ Thuận Hoá, năm Canh Dần, tết Chính Đán, hai viên cai cơ công tộc chỉ mừng tiền trầu 2 quan, cai đội 11 viên, đều 1 con lợn, thay tiển 10 quan, tiền trầu 1 quan; chư tướng ngoại tả 1 viên, chưởng đính 2 viên, chưởng cơ 4 viên, đều lợn 1 con thay tiển 10 quan, tiền trầu thì có hạng 10 quan, có hạng 5 quan; cai cơ 10 viên, chỉ có tiền trầu mỗi viên 2 quan; cai đội 28 viên, cũng như lễ cai đội công tộc; văn ban 5 viên, chỉ có tiền trầu mỗi viên 2 quan.\",\n        \"score\": 0.019001608510444044\n      },\n      {\n        \"han_start\": 1,\n        \"han_end\": 3,\n        \"vi_start\": 3,\n        \"vi_end\": 3,\n        \"han_text\": \"則中侯奇船或八定或三定或二宗 其孫一當二十五章三十隊家長名孫一定本奇白名船孫一中侯內外加約美孫或三定或五宗 屬里十一般目隊長興船兵同一貞右象奇左家奇侯國礼左右前秋奇官止各美識一定五象奇無谷孫五宗錄此以見前說\",\n        \"vietnamese_text\": \"Đến như các cơ đội thuyển, thì cơ thuyền Trung hầu hoặc 8 quan, hoặc 3 quan, hoặc 2 quan, còn dư thì một dinh 25 cơ, 30 đội, đội trưởng mỗi tên tiển 1 quan; bản cơ thì mỗi thuyền tiển 1 quan; Trung hầu Nội thuỷ thì nộp thêm tiền trâu hoặc 3 quan, hoặc 5 quan; 12 thuyền thuộc kiên thì đội trưởng cùng thuyền binh cùng nộp 1 quan; các tượng cơ, thì quan chánh Tượng cơ tiền lợn tiển trầu cũng như lệ cai đội; quan tả hữu tiền hậu cơ chỉ mỗi viên 1 quan tiền trầu; ngũ Tượng cơ bình thì đều tiển 5 quan.\",\n        \"score\": 0.3249174376891334\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 4,\n        \"vi_start\": 4,\n        \"vi_end\": 4,\n        \"han_text\": \"王首辰官興年之謹重大槩如此也\",\n        \"vietnamese_text\": \"Chép thế để biết đại khái tình hình quan quân thời họ Nguyễn trước.\",\n        \"score\": 0.1651233200521679\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 5,\n        \"vi_start\": 5,\n        \"vi_end\": 7,\n        \"han_text\": \"關化必富榮學驕溪知礼二社善豈谷色餅武材社亡造明餅虧田鼎齋萊社諸於燒酒買麵於越洋坊三十文得十餅者之味醇而甘糖粒並佳\",\n        \"vietnamese_text\": \"Xứ Thuận Hoá, 2 xã Ly Khê,Tri Lễ huyện Phú Vang khéo làm các thứ bánh. Xã Mậu Tài giỏi làm bánh hồ (Hồ bính)? , Xã Vu Lai huyện Quảng Điển làm nghề nấu rượu, mua men ở phường Việt Dương, 36 đồng được 10 bánh, nấu rượu mùi êm mà ngọt, gạo nếp gạo tẻ đều tốt cả.\",\n        \"score\": 0.21519622028266383\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 6,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"扶賴社亦好\",\n        \"vietnamese_text\": \"Xã Phù Lại cũng tốt.\",\n        \"score\": 0.44744486013778106\n      },\n      {\n        \"han_start\": 7,\n        \"han_end\": 9,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"富榮主西城自民造劉其酒頗陵雲南必為義府 萬花豐德好社界税納含史司酒五埕 富安府金户弟油二社屬例酒五埕\",\n        \"vietnamese_text\": \"Dân Tây Thành huyện Phú Vang tự chế lấy men, rượu bơi lạt.\",\n        \"score\": 0.06407834436895138\n      },\n      {\n        \"han_start\": 10,\n        \"han_end\": 13,\n        \"vi_start\": 10,\n        \"vi_end\": 10,\n        \"han_text\": \"同春綏和二縣例酒二十蝗口登昌星 愛子社香菜星毫湖社新館社美州坊並亡 貴石密造黑糖普登糖出鄭金府浮桂歌白一臣重一斤 阮氏常令商尚记錄安買於春\",\n        \"vietnamese_text\": \"Xứ Quảng Nam, phủ Quảng Ngãi, huyện Mộ Hoa, xã Thanh Hảo hàng năm nộp rượu cho ty Lệnh sử ð chĩnh.\",\n        \"score\": 0.026067438062890642\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 0,
+          "vi_start": 0,
+          "vi_end": 2,
+          "han_text": "四公族礼侯家文班五疾員只美若二定金如名奇隊船辦",
+          "vietnamese_text": "Năm Kỷ Sửu các huyện xã thôn phường phủ Triệu Phong nộp thuế mỡ lợn các chợ, ký phủ 16 chĩnh, còn dư cũng có nộp thay tiển, mỗi chĩnh 3 tiền. Xứ Quảng Nam cũng có thuế mỡ lợn, đều nộp thay bằng tiển, mỗi chĩnh 5 tiền, để làm phí tổn lau súng đại bác. Xứ Thuận Hoá, năm Canh Dần, tết Chính Đán, hai viên cai cơ công tộc chỉ mừng tiền trầu 2 quan, cai đội 11 viên, đều 1 con lợn, thay tiển 10 quan, tiền trầu 1 quan; chư tướng ngoại tả 1 viên, chưởng đính 2 viên, chưởng cơ 4 viên, đều lợn 1 con thay tiển 10 quan, tiền trầu thì có hạng 10 quan, có hạng 5 quan; cai cơ 10 viên, chỉ có tiền trầu mỗi viên 2 quan; cai đội 28 viên, cũng như lễ cai đội công tộc; văn ban 5 viên, chỉ có tiền trầu mỗi viên 2 quan.",
+          "score": 0.019001608510444044
+        },
+        {
+          "han_start": 1,
+          "han_end": 3,
+          "vi_start": 3,
+          "vi_end": 3,
+          "han_text": "則中侯奇船或八定或三定或二宗 其孫一當二十五章三十隊家長名孫一定本奇白名船孫一中侯內外加約美孫或三定或五宗 屬里十一般目隊長興船兵同一貞右象奇左家奇侯國礼左右前秋奇官止各美識一定五象奇無谷孫五宗錄此以見前說",
+          "vietnamese_text": "Đến như các cơ đội thuyển, thì cơ thuyền Trung hầu hoặc 8 quan, hoặc 3 quan, hoặc 2 quan, còn dư thì một dinh 25 cơ, 30 đội, đội trưởng mỗi tên tiển 1 quan; bản cơ thì mỗi thuyền tiển 1 quan; Trung hầu Nội thuỷ thì nộp thêm tiền trâu hoặc 3 quan, hoặc 5 quan; 12 thuyền thuộc kiên thì đội trưởng cùng thuyền binh cùng nộp 1 quan; các tượng cơ, thì quan chánh Tượng cơ tiền lợn tiển trầu cũng như lệ cai đội; quan tả hữu tiền hậu cơ chỉ mỗi viên 1 quan tiền trầu; ngũ Tượng cơ bình thì đều tiển 5 quan.",
+          "score": 0.3249174376891334
+        },
+        {
+          "han_start": 4,
+          "han_end": 4,
+          "vi_start": 4,
+          "vi_end": 4,
+          "han_text": "王首辰官興年之謹重大槩如此也",
+          "vietnamese_text": "Chép thế để biết đại khái tình hình quan quân thời họ Nguyễn trước.",
+          "score": 0.1651233200521679
+        },
+        {
+          "han_start": 5,
+          "han_end": 5,
+          "vi_start": 5,
+          "vi_end": 7,
+          "han_text": "關化必富榮學驕溪知礼二社善豈谷色餅武材社亡造明餅虧田鼎齋萊社諸於燒酒買麵於越洋坊三十文得十餅者之味醇而甘糖粒並佳",
+          "vietnamese_text": "Xứ Thuận Hoá, 2 xã Ly Khê,Tri Lễ huyện Phú Vang khéo làm các thứ bánh. Xã Mậu Tài giỏi làm bánh hồ (Hồ bính)? , Xã Vu Lai huyện Quảng Điển làm nghề nấu rượu, mua men ở phường Việt Dương, 36 đồng được 10 bánh, nấu rượu mùi êm mà ngọt, gạo nếp gạo tẻ đều tốt cả.",
+          "score": 0.21519622028266383
+        },
+        {
+          "han_start": 6,
+          "han_end": 6,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "扶賴社亦好",
+          "vietnamese_text": "Xã Phù Lại cũng tốt.",
+          "score": 0.44744486013778106
+        },
+        {
+          "han_start": 7,
+          "han_end": 9,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "富榮主西城自民造劉其酒頗陵雲南必為義府 萬花豐德好社界税納含史司酒五埕 富安府金户弟油二社屬例酒五埕",
+          "vietnamese_text": "Dân Tây Thành huyện Phú Vang tự chế lấy men, rượu bơi lạt.",
+          "score": 0.06407834436895138
+        },
+        {
+          "han_start": 10,
+          "han_end": 13,
+          "vi_start": 10,
+          "vi_end": 10,
+          "han_text": "同春綏和二縣例酒二十蝗口登昌星 愛子社香菜星毫湖社新館社美州坊並亡 貴石密造黑糖普登糖出鄭金府浮桂歌白一臣重一斤 阮氏常令商尚记錄安買於春",
+          "vietnamese_text": "Xứ Quảng Nam, phủ Quảng Ngãi, huyện Mộ Hoa, xã Thanh Hảo hàng năm nộp rượu cho ty Lệnh sử ð chĩnh.",
+          "score": 0.026067438062890642
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 13313
+}

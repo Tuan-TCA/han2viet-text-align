@@ -1,7 +1,0 @@
-﻿variant,complete,source_chars,processed_chars,han_units,pairs,label_1,label_0,pending,reviewed_precision,matched_char_coverage,verified_correct_char_coverage,correct_chars
-V18,True,904,904,31,9,0,0,9,,0.7013274336283186,0.0,0
-V19,True,904,904,34,15,0,0,15,,0.7311946902654868,0.0,0
-V20,True,904,904,33,15,0,0,15,,0.7400442477876106,0.0,0
-V21,True,904,904,33,12,0,0,12,,0.706858407079646,0.0,0
-V22,True,904,904,33,12,0,0,12,,0.706858407079646,0.0,0
-V23,True,904,904,35,9,0,0,9,,0.577433628318584,0.0,0

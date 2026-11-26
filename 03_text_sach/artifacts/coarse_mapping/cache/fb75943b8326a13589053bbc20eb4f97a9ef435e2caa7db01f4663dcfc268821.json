@@ -1,0 +1,150 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "fb75943b8326a13589053bbc20eb4f97a9ef435e2caa7db01f4663dcfc268821",
+  "payload": {
+    "han": "粟每千升米四升詠二陌\n其縣給米并增粟例美詠一門粟每千升米四六詠二陷每弁三十文\n客戶供頓一千升曰大米十五升\n咏三内粟八百升曰中米十二升孫二百粟六百升\n曰小米八升\n家一陌粟四百升米六升\n序一粟三百升以下每百升米一升孫十二文\n其寓縣米并首粟例美詠一陶粟每千升筆五升成三陽世文\n其餘拾米并增粟例美詠一兩粟每千升年五升孫二隱卅至聖正户新五并附壽各族田租場田能稅例正照收每斛米一升孫四文\n平粟每百升米二升孫九文\n工有租粟一庫詠例每粟千升收扛歲五阪\n又有竹苦詠例每粟千亦苦四床\n每片四角內八庫一片淮除二代納二床收每字二陌粟六十二升半\n言一角收祿卅文粟三十一千二合苦半角四序十五文\n又有券庫見時多每畝三十五文內券庫二十文見狩十五文\n外收灯田每亥十八文\n五有什物率脉每高五文\n又有蘭巨底每米一色\n碑准亥一陌內每升孫一文年宋十升外十五文天有呈面後微禮\n每粟一千升納底二陌米二升\n富洲差祿稅例係猶絹自一尺一分以上為勝正\n自一尺以上為正稅自二十九尺九寸以下為勝附自十五尺下為附\n稅則納絹自十四尺九寸以下為腦半\n自七尺六寸以上增成每尺二百四天五寸四下為半\n附增外每尺一長五限\n營陣東西二洲神紅花稅每色十升代納流五門十九文伶泊洲相青豆說每色十五",
+    "vi": "Chính hộ, thóc cung đốn 3.000 thưng gọi là hạng lớn (đại mể), gạo 15 thưng, tiển 3 tiền, theo thế: hạng lớn mỗi thưng 12 đồng.\nThóc 3.000 thưng gọi là hạng vừa, gạo 12 thưng, tiền 2 tiền, theo thế; hạng vừa mỗi thưng 10 đồng.\nThóc 1.000 thưng gọi là hạng bé, gạo 8 thưng, tiền 1 tiền, theo thế: hạng bé mỗi thưng 8 đồng.\nThóc 500 thưng, gạo 4 thưng, tiển 30 đồng, theo thế, mỗi thưng 8 đồng.\nThóc 400 thưng trở xuống, mỗi 100 thưng thì gạo 1 thưng, tiển 8 đồng.\nLệ gạo ngụ lộc và thóc cũ, tiền trầu 1 tiển.\nThóc mỗi 1.000 thưng thì gạo 4 thưng, tiển 2 tiền.\nNgoài ra lệ gạo cấp và thóc thêm, tiển trầu 1 tiền.\nThóc mỗi 1.000 thưng thì gạo 4 thưng, tiền 2 tiền, mỗi thưng 30 đồng.\nKhách hộ, thóc cung đốn 1.000 thưng gọi là hạng lớn, gạo lỗ thưng, tiền 3 tiền."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 0,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"粟每千升米四升詠二陌\",\n        \"vietnamese_text\": \"Chính hộ, thóc cung đốn 3.\",\n        \"score\": -0.039526873050872484\n      },\n      {\n        \"han_start\": 1,\n        \"han_end\": 3,\n        \"vi_start\": 1,\n        \"vi_end\": 1,\n        \"han_text\": \"其縣給米并增粟例美詠一門粟每千升米四六詠二陷每弁三十文 客戶供頓一千升曰大米十五升 咏三内粟八百升曰中米十二升孫二百粟六百升\",\n        \"vietnamese_text\": \"000 thưng gọi là hạng lớn (đại mể), gạo 15 thưng, tiển 3 tiền, theo thế: hạng lớn mỗi thưng 12 đồng.\",\n        \"score\": 0.32130211885339927\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 4,\n        \"vi_start\": 2,\n        \"vi_end\": 2,\n        \"han_text\": \"曰小米八升\",\n        \"vietnamese_text\": \"Thóc 3.\",\n        \"score\": 0.09884684208670474\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 7,\n        \"vi_start\": 3,\n        \"vi_end\": 3,\n        \"han_text\": \"家一陌粟四百升米六升 序一粟三百升以下每百升米一升孫十二文 其寓縣米并首粟例美詠一陶粟每千升筆五升成三陽世文\",\n        \"vietnamese_text\": \"000 thưng gọi là hạng vừa, gạo 12 thưng, tiền 2 tiền, theo thế; hạng vừa mỗi thưng 10 đồng.\",\n        \"score\": 0.2386659340762072\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 8,\n        \"vi_start\": 4,\n        \"vi_end\": 4,\n        \"han_text\": \"其餘拾米并增粟例美詠一兩粟每千升年五升孫二隱卅至聖正户新五并附壽各族田租場田能稅例正照收每斛米一升孫四文\",\n        \"vietnamese_text\": \"Thóc 1.\",\n        \"score\": -0.0334299306559897\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 11,\n        \"vi_start\": 5,\n        \"vi_end\": 5,\n        \"han_text\": \"平粟每百升米二升孫九文 工有租粟一庫詠例每粟千升收扛歲五阪 又有竹苦詠例每粟千亦苦四床\",\n        \"vietnamese_text\": \"000 thưng gọi là hạng bé, gạo 8 thưng, tiền 1 tiền, theo thế: hạng bé mỗi thưng 8 đồng.\",\n        \"score\": 0.10316087967843918\n      },\n      {\n        \"han_start\": 12,\n        \"han_end\": 14,\n        \"vi_start\": 6,\n        \"vi_end\": 7,\n        \"han_text\": \"每片四角內八庫一片淮除二代納二床收每字二陌粟六十二升半 言一角收祿卅文粟三十一千二合苦半角四序十五文 又有券庫見時多每畝三十五文內券庫二十文見狩十五文\",\n        \"vietnamese_text\": \"Thóc 500 thưng, gạo 4 thưng, tiển 30 đồng, theo thế, mỗi thưng 8 đồng. Thóc 400 thưng trở xuống, mỗi 100 thưng thì gạo 1 thưng, tiển 8 đồng.\",\n        \"score\": 0.20903034831438833\n      },\n      {\n        \"han_start\": 15,\n        \"han_end\": 16,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"外收灯田每亥十八文 五有什物率脉每高五文\",\n        \"vietnamese_text\": \"Lệ gạo ngụ lộc và thóc cũ, tiền trầu 1 tiển.\",\n        \"score\": 0.001363554834560755\n      },\n      {\n        \"han_start\": 17,\n        \"han_end\": 17,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"又有蘭巨底每米一色\",\n        \"vietnamese_text\": \"Thóc mỗi 1.\",\n        \"score\": 0.15373174253818506\n      },\n      {\n        \"han_start\": 18,\n        \"han_end\": 20,\n        \"vi_start\": 10,\n        \"vi_end\": 11,\n        \"han_text\": \"碑准亥一陌內每升孫一文年宋十升外十五文天有呈面後微禮 每粟一千升納底二陌米二升 富洲差祿稅例係猶絹自一尺一分以上為勝正\",\n        \"vietnamese_text\": \"000 thưng thì gạo 4 thưng, tiển 2 tiền. Ngoài ra lệ gạo cấp và thóc thêm, tiển trầu 1 tiền.\",\n        \"score\": 0.22145057558108294\n      },\n      {\n        \"han_start\": 21,\n        \"han_end\": 21,\n        \"vi_start\": 12,\n        \"vi_end\": 12,\n        \"han_text\": \"自一尺以上為正稅自二十九尺九寸以下為勝附自十五尺下為附\",\n        \"vietnamese_text\": \"Thóc mỗi 1.\",\n        \"score\": 0.0024999955064583584\n      },\n      {\n        \"han_start\": 22,\n        \"han_end\": 23,\n        \"vi_start\": 13,\n        \"vi_end\": 13,\n        \"han_text\": \"稅則納絹自十四尺九寸以下為腦半 自七尺六寸以上增成每尺二百四天五寸四下為半\",\n        \"vietnamese_text\": \"000 thưng thì gạo 4 thưng, tiền 2 tiền, mỗi thưng 30 đồng.\",\n        \"score\": 0.15299083902449986\n      },\n      {\n        \"han_start\": 24,\n        \"han_end\": 24,\n        \"vi_start\": 14,\n        \"vi_end\": 14,\n        \"han_text\": \"附增外每尺一長五限\",\n        \"vietnamese_text\": \"Khách hộ, thóc cung đốn 1.\",\n        \"score\": 0.007069652490098525\n      },\n      {\n        \"han_start\": 25,\n        \"han_end\": 25,\n        \"vi_start\": 15,\n        \"vi_end\": 15,\n        \"han_text\": \"營陣東西二洲神紅花稅每色十升代納流五門十九文伶泊洲相青豆說每色十五\",\n        \"vietnamese_text\": \"000 thưng gọi là hạng lớn, gạo lỗ thưng, tiền 3 tiền.\",\n        \"score\": 0.13414748512568217\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 0,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "粟每千升米四升詠二陌",
+          "vietnamese_text": "Chính hộ, thóc cung đốn 3.",
+          "score": -0.039526873050872484
+        },
+        {
+          "han_start": 1,
+          "han_end": 3,
+          "vi_start": 1,
+          "vi_end": 1,
+          "han_text": "其縣給米并增粟例美詠一門粟每千升米四六詠二陷每弁三十文 客戶供頓一千升曰大米十五升 咏三内粟八百升曰中米十二升孫二百粟六百升",
+          "vietnamese_text": "000 thưng gọi là hạng lớn (đại mể), gạo 15 thưng, tiển 3 tiền, theo thế: hạng lớn mỗi thưng 12 đồng.",
+          "score": 0.32130211885339927
+        },
+        {
+          "han_start": 4,
+          "han_end": 4,
+          "vi_start": 2,
+          "vi_end": 2,
+          "han_text": "曰小米八升",
+          "vietnamese_text": "Thóc 3.",
+          "score": 0.09884684208670474
+        },
+        {
+          "han_start": 5,
+          "han_end": 7,
+          "vi_start": 3,
+          "vi_end": 3,
+          "han_text": "家一陌粟四百升米六升 序一粟三百升以下每百升米一升孫十二文 其寓縣米并首粟例美詠一陶粟每千升筆五升成三陽世文",
+          "vietnamese_text": "000 thưng gọi là hạng vừa, gạo 12 thưng, tiền 2 tiền, theo thế; hạng vừa mỗi thưng 10 đồng.",
+          "score": 0.2386659340762072
+        },
+        {
+          "han_start": 8,
+          "han_end": 8,
+          "vi_start": 4,
+          "vi_end": 4,
+          "han_text": "其餘拾米并增粟例美詠一兩粟每千升年五升孫二隱卅至聖正户新五并附壽各族田租場田能稅例正照收每斛米一升孫四文",
+          "vietnamese_text": "Thóc 1.",
+          "score": -0.0334299306559897
+        },
+        {
+          "han_start": 9,
+          "han_end": 11,
+          "vi_start": 5,
+          "vi_end": 5,
+          "han_text": "平粟每百升米二升孫九文 工有租粟一庫詠例每粟千升收扛歲五阪 又有竹苦詠例每粟千亦苦四床",
+          "vietnamese_text": "000 thưng gọi là hạng bé, gạo 8 thưng, tiền 1 tiền, theo thế: hạng bé mỗi thưng 8 đồng.",
+          "score": 0.10316087967843918
+        },
+        {
+          "han_start": 12,
+          "han_end": 14,
+          "vi_start": 6,
+          "vi_end": 7,
+          "han_text": "每片四角內八庫一片淮除二代納二床收每字二陌粟六十二升半 言一角收祿卅文粟三十一千二合苦半角四序十五文 又有券庫見時多每畝三十五文內券庫二十文見狩十五文",
+          "vietnamese_text": "Thóc 500 thưng, gạo 4 thưng, tiển 30 đồng, theo thế, mỗi thưng 8 đồng. Thóc 400 thưng trở xuống, mỗi 100 thưng thì gạo 1 thưng, tiển 8 đồng.",
+          "score": 0.20903034831438833
+        },
+        {
+          "han_start": 15,
+          "han_end": 16,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "外收灯田每亥十八文 五有什物率脉每高五文",
+          "vietnamese_text": "Lệ gạo ngụ lộc và thóc cũ, tiền trầu 1 tiển.",
+          "score": 0.001363554834560755
+        },
+        {
+          "han_start": 17,
+          "han_end": 17,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "又有蘭巨底每米一色",
+          "vietnamese_text": "Thóc mỗi 1.",
+          "score": 0.15373174253818506
+        },
+        {
+          "han_start": 18,
+          "han_end": 20,
+          "vi_start": 10,
+          "vi_end": 11,
+          "han_text": "碑准亥一陌內每升孫一文年宋十升外十五文天有呈面後微禮 每粟一千升納底二陌米二升 富洲差祿稅例係猶絹自一尺一分以上為勝正",
+          "vietnamese_text": "000 thưng thì gạo 4 thưng, tiển 2 tiền. Ngoài ra lệ gạo cấp và thóc thêm, tiển trầu 1 tiền.",
+          "score": 0.22145057558108294
+        },
+        {
+          "han_start": 21,
+          "han_end": 21,
+          "vi_start": 12,
+          "vi_end": 12,
+          "han_text": "自一尺以上為正稅自二十九尺九寸以下為勝附自十五尺下為附",
+          "vietnamese_text": "Thóc mỗi 1.",
+          "score": 0.0024999955064583584
+        },
+        {
+          "han_start": 22,
+          "han_end": 23,
+          "vi_start": 13,
+          "vi_end": 13,
+          "han_text": "稅則納絹自十四尺九寸以下為腦半 自七尺六寸以上增成每尺二百四天五寸四下為半",
+          "vietnamese_text": "000 thưng thì gạo 4 thưng, tiền 2 tiền, mỗi thưng 30 đồng.",
+          "score": 0.15299083902449986
+        },
+        {
+          "han_start": 24,
+          "han_end": 24,
+          "vi_start": 14,
+          "vi_end": 14,
+          "han_text": "附增外每尺一長五限",
+          "vietnamese_text": "Khách hộ, thóc cung đốn 1.",
+          "score": 0.007069652490098525
+        },
+        {
+          "han_start": 25,
+          "han_end": 25,
+          "vi_start": 15,
+          "vi_end": 15,
+          "han_text": "營陣東西二洲神紅花稅每色十升代納流五門十九文伶泊洲相青豆說每色十五",
+          "vietnamese_text": "000 thưng gọi là hạng lớn, gạo lỗ thưng, tiền 3 tiền.",
+          "score": 0.13414748512568217
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 8656
+}

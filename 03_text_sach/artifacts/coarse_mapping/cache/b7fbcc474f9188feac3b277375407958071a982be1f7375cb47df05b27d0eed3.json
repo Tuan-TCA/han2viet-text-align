@@ -1,0 +1,132 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "b7fbcc474f9188feac3b277375407958071a982be1f7375cb47df05b27d0eed3",
+  "payload": {
+    "han": "御陋寫成詩三律以寓懼食以升之微念也\n傷蒙非宗不棄義言則雖青萍結緣亦類長價於辭卞之門矣\n0其一久厭陰靈霧瞻天仰今赤日覩高懸\n秋毫有禁三筆肅春腳無私一境全彷佛潛筆正秦後貞頑貴將下唐年化卅院是而王化條律應殺一休傳其二\n南地欣昭已涵用忍設財貨不流通\n新型美鑄商王輩荷應消阮氏親\n物價自無隱藏悉生民棄步太平民救辰賴良医未急处先從病必攻\n其三意南原屬首山河財賦世如此處多\n度外頑苗休棄彼濟釜中直寇莫若他\n筆糧不遠將清費民力何當飢識嗟今日養成精競之来春\n願速指天不莽白貞年五十三頗有之學於世0務示通捲\n又有校昭銅者香榮此問春社人賀文亦可貞\n其詞曰伏以北閣天高荷奄光之重托南河北遠御鳳盲以來宣\n悉谷生春士亦勸色\n富惟世首遠寶必庭侯而宗清天造草昧惟君子以經御\n易象既旺前毫可繼\n靈太守便宜行事理亂海之乱絕卢將章平闕立功\n解朝歌之錯節誠貞自古可見于念後",
+    "vi": "Nay lại thấy xe thiểu lnG nhiệm, đi qua địa phương, bất giác quên mình quê mùa, viết thành ba bài thơ luật để ngụ ý nhỏ dâng cần hiến bộc””.\nNếu có nhờ ơn dung nạp, không bỏ lời quê, thì đù không phải là gươm Thanh bình ngọc Kết lục, nhưng cũng nhờ giá cao ở cửa Tiết Chúc Biện Hoà vậy.\nCửa yếm âm mới uụ ế thiên.\nNgường kừn xích nhật đổ cao huyền.\nThụ hào hữu cấm tam quên túc; Xuân cước uô tư nhất cảnh toàn.\nPhàng phất tiêm quân bình Thói hậu; Hiệt ngoạn bhiển tướng hạ Đường niên.\nHoá châu bý thị qui 0ương hod, Điều luật tung giao nhất thể truyền.\nNam Bắc hàn chiêm dĩ hôn đồng.\nNhân giao tuyểên hoá bất lưu thông.\nTân hừnh nhược chú Thương uương tệ; Cựu khí ưng tiêu Nguyễn thị đồng.\nVật giá tự uô đằng dũng hoạn; Sinh dân thứ lạc thái bình phong.\nCứu thời nguyện triển lương y thủ; Cấp xứ tiên tòng bệnh xứ công.\nQuảng Nam nguyên thuộc cựu sơn hà; Tòi phú uô như thử xứ đa.\nĐộ ngoại ngoan ruiều hưu khí bử; Phẫu trung bô khấu mục dung tha.\nQuân lương bất hoạn chuyển tào phí, Đân thực hà ưu cơ bhiểm ta.\nKim nhật dưỡng thành tỉnh nhuệ khí; Lai thu nguyện tốc chỉ thiên qua."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 0,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"御陋寫成詩三律以寓懼食以升之微念也\",\n        \"vietnamese_text\": \"Nay lại thấy xe thiểu lnG nhiệm, đi qua địa phương, bất giác quên mình quê mùa, viết thành ba bài thơ luật để ngụ ý nhỏ dâng cần hiến bộc””.\",\n        \"score\": 0.11402433564340365\n      },\n      {\n        \"han_start\": 1,\n        \"han_end\": 1,\n        \"vi_start\": 1,\n        \"vi_end\": 1,\n        \"han_text\": \"傷蒙非宗不棄義言則雖青萍結緣亦類長價於辭卞之門矣\",\n        \"vietnamese_text\": \"Nếu có nhờ ơn dung nạp, không bỏ lời quê, thì đù không phải là gươm Thanh bình ngọc Kết lục, nhưng cũng nhờ giá cao ở cửa Tiết Chúc Biện Hoà vậy.\",\n        \"score\": 0.23491986666349685\n      },\n      {\n        \"han_start\": 2,\n        \"han_end\": 2,\n        \"vi_start\": 2,\n        \"vi_end\": 3,\n        \"han_text\": \"0其一久厭陰靈霧瞻天仰今赤日覩高懸\",\n        \"vietnamese_text\": \"Cửa yếm âm mới uụ ế thiên. Ngường kừn xích nhật đổ cao huyền.\",\n        \"score\": 0.02779668700614979\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 4,\n        \"vi_start\": 4,\n        \"vi_end\": 6,\n        \"han_text\": \"秋毫有禁三筆肅春腳無私一境全彷佛潛筆正秦後貞頑貴將下唐年化卅院是而王化條律應殺一休傳其二 南地欣昭已涵用忍設財貨不流通\",\n        \"vietnamese_text\": \"Thụ hào hữu cấm tam quên túc; Xuân cước uô tư nhất cảnh toàn. Phàng phất tiêm quân bình Thói hậu; Hiệt ngoạn bhiển tướng hạ Đường niên. Hoá châu bý thị qui 0ương hod, Điều luật tung giao nhất thể truyền.\",\n        \"score\": 0.4596099347059463\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 5,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"新型美鑄商王輩荷應消阮氏親\",\n        \"vietnamese_text\": \"Nam Bắc hàn chiêm dĩ hôn đồng.\",\n        \"score\": 0.07392536367187899\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 6,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"物價自無隱藏悉生民棄步太平民救辰賴良医未急处先從病必攻\",\n        \"vietnamese_text\": \"Nhân giao tuyểên hoá bất lưu thông.\",\n        \"score\": 0.06223440413227403\n      },\n      {\n        \"han_start\": 7,\n        \"han_end\": 8,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"其三意南原屬首山河財賦世如此處多 度外頑苗休棄彼濟釜中直寇莫若他\",\n        \"vietnamese_text\": \"Tân hừnh nhược chú Thương uương tệ; Cựu khí ưng tiêu Nguyễn thị đồng.\",\n        \"score\": 0.1542689599314137\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 10,\n        \"vi_start\": 10,\n        \"vi_end\": 11,\n        \"han_text\": \"筆糧不遠將清費民力何當飢識嗟今日養成精競之来春 願速指天不莽白貞年五十三頗有之學於世0務示通捲\",\n        \"vietnamese_text\": \"Vật giá tự uô đằng dũng hoạn; Sinh dân thứ lạc thái bình phong. Cứu thời nguyện triển lương y thủ; Cấp xứ tiên tòng bệnh xứ công.\",\n        \"score\": 0.19322939420401736\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 13,\n        \"vi_start\": 12,\n        \"vi_end\": 12,\n        \"han_text\": \"又有校昭銅者香榮此問春社人賀文亦可貞 其詞曰伏以北閣天高荷奄光之重托南河北遠御鳳盲以來宣 悉谷生春士亦勸色\",\n        \"vietnamese_text\": \"Quảng Nam nguyên thuộc cựu sơn hà; Tòi phú uô như thử xứ đa.\",\n        \"score\": 0.060632138270612874\n      },\n      {\n        \"han_start\": 14,\n        \"han_end\": 14,\n        \"vi_start\": 13,\n        \"vi_end\": 13,\n        \"han_text\": \"富惟世首遠寶必庭侯而宗清天造草昧惟君子以經御\",\n        \"vietnamese_text\": \"Độ ngoại ngoan ruiều hưu khí bử; Phẫu trung bô khấu mục dung tha.\",\n        \"score\": 0.16972206363663894\n      },\n      {\n        \"han_start\": 15,\n        \"han_end\": 16,\n        \"vi_start\": 14,\n        \"vi_end\": 14,\n        \"han_text\": \"易象既旺前毫可繼 靈太守便宜行事理亂海之乱絕卢將章平闕立功\",\n        \"vietnamese_text\": \"Quân lương bất hoạn chuyển tào phí, Đân thực hà ưu cơ bhiểm ta.\",\n        \"score\": 0.07819821877696871\n      },\n      {\n        \"han_start\": 17,\n        \"han_end\": 17,\n        \"vi_start\": 15,\n        \"vi_end\": 15,\n        \"han_text\": \"解朝歌之錯節誠貞自古可見于念後\",\n        \"vietnamese_text\": \"Kim nhật dưỡng thành tỉnh nhuệ khí; Lai thu nguyện tốc chỉ thiên qua.\",\n        \"score\": -0.021288902106093847\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 0,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "御陋寫成詩三律以寓懼食以升之微念也",
+          "vietnamese_text": "Nay lại thấy xe thiểu lnG nhiệm, đi qua địa phương, bất giác quên mình quê mùa, viết thành ba bài thơ luật để ngụ ý nhỏ dâng cần hiến bộc””.",
+          "score": 0.11402433564340365
+        },
+        {
+          "han_start": 1,
+          "han_end": 1,
+          "vi_start": 1,
+          "vi_end": 1,
+          "han_text": "傷蒙非宗不棄義言則雖青萍結緣亦類長價於辭卞之門矣",
+          "vietnamese_text": "Nếu có nhờ ơn dung nạp, không bỏ lời quê, thì đù không phải là gươm Thanh bình ngọc Kết lục, nhưng cũng nhờ giá cao ở cửa Tiết Chúc Biện Hoà vậy.",
+          "score": 0.23491986666349685
+        },
+        {
+          "han_start": 2,
+          "han_end": 2,
+          "vi_start": 2,
+          "vi_end": 3,
+          "han_text": "0其一久厭陰靈霧瞻天仰今赤日覩高懸",
+          "vietnamese_text": "Cửa yếm âm mới uụ ế thiên. Ngường kừn xích nhật đổ cao huyền.",
+          "score": 0.02779668700614979
+        },
+        {
+          "han_start": 3,
+          "han_end": 4,
+          "vi_start": 4,
+          "vi_end": 6,
+          "han_text": "秋毫有禁三筆肅春腳無私一境全彷佛潛筆正秦後貞頑貴將下唐年化卅院是而王化條律應殺一休傳其二 南地欣昭已涵用忍設財貨不流通",
+          "vietnamese_text": "Thụ hào hữu cấm tam quên túc; Xuân cước uô tư nhất cảnh toàn. Phàng phất tiêm quân bình Thói hậu; Hiệt ngoạn bhiển tướng hạ Đường niên. Hoá châu bý thị qui 0ương hod, Điều luật tung giao nhất thể truyền.",
+          "score": 0.4596099347059463
+        },
+        {
+          "han_start": 5,
+          "han_end": 5,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "新型美鑄商王輩荷應消阮氏親",
+          "vietnamese_text": "Nam Bắc hàn chiêm dĩ hôn đồng.",
+          "score": 0.07392536367187899
+        },
+        {
+          "han_start": 6,
+          "han_end": 6,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "物價自無隱藏悉生民棄步太平民救辰賴良医未急处先從病必攻",
+          "vietnamese_text": "Nhân giao tuyểên hoá bất lưu thông.",
+          "score": 0.06223440413227403
+        },
+        {
+          "han_start": 7,
+          "han_end": 8,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "其三意南原屬首山河財賦世如此處多 度外頑苗休棄彼濟釜中直寇莫若他",
+          "vietnamese_text": "Tân hừnh nhược chú Thương uương tệ; Cựu khí ưng tiêu Nguyễn thị đồng.",
+          "score": 0.1542689599314137
+        },
+        {
+          "han_start": 9,
+          "han_end": 10,
+          "vi_start": 10,
+          "vi_end": 11,
+          "han_text": "筆糧不遠將清費民力何當飢識嗟今日養成精競之来春 願速指天不莽白貞年五十三頗有之學於世0務示通捲",
+          "vietnamese_text": "Vật giá tự uô đằng dũng hoạn; Sinh dân thứ lạc thái bình phong. Cứu thời nguyện triển lương y thủ; Cấp xứ tiên tòng bệnh xứ công.",
+          "score": 0.19322939420401736
+        },
+        {
+          "han_start": 11,
+          "han_end": 13,
+          "vi_start": 12,
+          "vi_end": 12,
+          "han_text": "又有校昭銅者香榮此問春社人賀文亦可貞 其詞曰伏以北閣天高荷奄光之重托南河北遠御鳳盲以來宣 悉谷生春士亦勸色",
+          "vietnamese_text": "Quảng Nam nguyên thuộc cựu sơn hà; Tòi phú uô như thử xứ đa.",
+          "score": 0.060632138270612874
+        },
+        {
+          "han_start": 14,
+          "han_end": 14,
+          "vi_start": 13,
+          "vi_end": 13,
+          "han_text": "富惟世首遠寶必庭侯而宗清天造草昧惟君子以經御",
+          "vietnamese_text": "Độ ngoại ngoan ruiều hưu khí bử; Phẫu trung bô khấu mục dung tha.",
+          "score": 0.16972206363663894
+        },
+        {
+          "han_start": 15,
+          "han_end": 16,
+          "vi_start": 14,
+          "vi_end": 14,
+          "han_text": "易象既旺前毫可繼 靈太守便宜行事理亂海之乱絕卢將章平闕立功",
+          "vietnamese_text": "Quân lương bất hoạn chuyển tào phí, Đân thực hà ưu cơ bhiểm ta.",
+          "score": 0.07819821877696871
+        },
+        {
+          "han_start": 17,
+          "han_end": 17,
+          "vi_start": 15,
+          "vi_end": 15,
+          "han_text": "解朝歌之錯節誠貞自古可見于念後",
+          "vietnamese_text": "Kim nhật dưỡng thành tỉnh nhuệ khí; Lai thu nguyện tốc chỉ thiên qua.",
+          "score": -0.021288902106093847
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 2359
+}

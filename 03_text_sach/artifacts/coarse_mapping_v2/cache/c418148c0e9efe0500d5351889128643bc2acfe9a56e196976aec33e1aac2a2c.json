@@ -1,0 +1,105 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "c418148c0e9efe0500d5351889128643bc2acfe9a56e196976aec33e1aac2a2c",
+  "payload": {
+    "han": "下滌二尺爵之應蔽尾日培燒肥土五年\n拙從成实昔為國公掌差人價買肅入同與魚刻善巢責與商人易取貨物遂成例\n元氏歲以五月上旬差新上坊隊長\n并無出就地方令民隨園多少分色會放定價買取椒子一担\n路我五貞再回清河庸責興贈客不許方民私賣\n其坊民例有白椒黑椒若一色\n每色一百六時丞德二十五坊山田林園之錢甲於地方\n有稻田五百二十四數三息五尺七末其半例侍案在前\n阮氏胡椒以百斤為一屬價五六穴\n北客與瑪瑤客常販回廟東\n美鼎以十六葉為一輩十輩價孫二十文\n商客每貶入富共及出來祿制政檳榔亦賤十巨策只裁二文\n其波器密植同匡林色黄文細\n明灵登昌苦縣居民每以作屋柱\n有闊至一尺五寸者與涸一尺半七\n又取极臣作屋靈此甚多\n順化香茶縣各德社興富安城上下村市樹木高大是多一大品\n惟波異密傳曇之頗皆做十國官軍恣意斫伐取薪一年不尽\n古祿按國食木信然順化",
+    "vi": "Hai phủ Quy Nhơn và Phú Yên cũng sản thứ cây này, đầu đen và đặc, tốt hơn dầu Cam Lộ, cho ít phấn kẽm vào thì có thể sơn được đề đạc.\nHọ Nguyễn trước có lệ lấy thuế ở thôn Phúc Yên xã Hà Cừ, cứ mỗi suất mỗi năm nộp dầu 70 bát, được miễn các việc sưu lính.\nTre tai lao (cán giáo) sản ở xã Trung Lộc, huyện Duy Xuyên, xã Giáng La huyện An Nông, dinh Quảng Nam, mỗi năm nộp 120 bó, thứ lớn 80 bó, mỗi bó ð0 cây, thứ nhỏ 40 bó, mỗi bó 100 cây.\nHồ tiêu sản ở các phường và xã Mai Xá tổng Bái Trời huyện Minh Linh, mọc đầy rừng, leo vào các cây mà mọc, tháng 9 có hoa, tháng 11 kết quả, tháng 5 thì hái, tháng 6 thì thu xong.\nKhi mới trêng thì ngắt lấy cái bông thứ nhất do nhánh chính hồ tiêu cũ đâm thẳng ra, đào lỗ ở dưới gốc cây to sâu 2 thước rồi cấy xuống, che giữ nắng gió, vun bồi đất tốt, 5 năm sau thì có quả.\nXưa Đoan quận công từng sai người y theo giá mà mua chở về cùng với vây cá, yến sào, để đổi cho khách buôn lấy hoá vật, bèn làm thành lệ.\nHọ Nguyễn cứ hàng năm vào thượng tuần tháng 5 thì sai đội trưởng thuyển Tân nhất cùng tỉnh binh ra địa phương hạ lệnh cho dân, tuỳ vườn nhiều ít mà chia bao, họp số định giá mua lấy, một gánh hồ tiêu thì trả 5 quan tiền, chở về phố Thanh Hà, bán cho khách tàu, không cho dân địa phương bán riêng.\nDân phường thì có lệ phải cống hồ tiêu trắng và đen mỗi thứ một bao, mỗi bao 100 cân.\nTổng Bái Trời 25 phường, ruộng nứi vườn rừng nhiền hơn các nơi khác, có ruộng lúa 524 mẫu 3 sào, một nửa phải nộp thóc thị túc.\nThời họ Nguyễn trước, hồ tiêu cứ cho 100 cân làm một tạ, giá 5, 6 quan, khách Bắc và khách Mã Cao thường buôn về Quảng Đông."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 1,\n        \"vi_start\": 0,\n        \"vi_end\": 1,\n        \"han_text\": \"下滌二尺爵之應蔽尾日培燒肥土五年 拙從成实昔為國公掌差人價買肅入同與魚刻善巢責與商人易取貨物遂成例\",\n        \"vietnamese_text\": \"Hai phủ Quy Nhơn và Phú Yên cũng sản thứ cây này, đầu đen và đặc, tốt hơn dầu Cam Lộ, cho ít phấn kẽm vào thì có thể sơn được đề đạc. Họ Nguyễn trước có lệ lấy thuế ở thôn Phúc Yên xã Hà Cừ, cứ mỗi suất mỗi năm nộp dầu 70 bát, được miễn các việc sưu lính.\",\n        \"score\": 0.1934076018191693\n      },\n      {\n        \"han_start\": 2,\n        \"han_end\": 4,\n        \"vi_start\": 2,\n        \"vi_end\": 2,\n        \"han_text\": \"元氏歲以五月上旬差新上坊隊長 并無出就地方令民隨園多少分色會放定價買取椒子一担 路我五貞再回清河庸責興贈客不許方民私賣\",\n        \"vietnamese_text\": \"Tre tai lao (cán giáo) sản ở xã Trung Lộc, huyện Duy Xuyên, xã Giáng La huyện An Nông, dinh Quảng Nam, mỗi năm nộp 120 bó, thứ lớn 80 bó, mỗi bó ð0 cây, thứ nhỏ 40 bó, mỗi bó 100 cây.\",\n        \"score\": -0.00724892130937711\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 6,\n        \"vi_start\": 3,\n        \"vi_end\": 3,\n        \"han_text\": \"其坊民例有白椒黑椒若一色 每色一百六時丞德二十五坊山田林園之錢甲於地方\",\n        \"vietnamese_text\": \"Hồ tiêu sản ở các phường và xã Mai Xá tổng Bái Trời huyện Minh Linh, mọc đầy rừng, leo vào các cây mà mọc, tháng 9 có hoa, tháng 11 kết quả, tháng 5 thì hái, tháng 6 thì thu xong.\",\n        \"score\": 0.09270404831300533\n      },\n      {\n        \"han_start\": 7,\n        \"han_end\": 7,\n        \"vi_start\": 4,\n        \"vi_end\": 4,\n        \"han_text\": \"有稻田五百二十四數三息五尺七末其半例侍案在前\",\n        \"vietnamese_text\": \"Khi mới trêng thì ngắt lấy cái bông thứ nhất do nhánh chính hồ tiêu cũ đâm thẳng ra, đào lỗ ở dưới gốc cây to sâu 2 thước rồi cấy xuống, che giữ nắng gió, vun bồi đất tốt, 5 năm sau thì có quả.\",\n        \"score\": 0.028312712695300522\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 9,\n        \"vi_start\": 5,\n        \"vi_end\": 5,\n        \"han_text\": \"阮氏胡椒以百斤為一屬價五六穴 北客與瑪瑤客常販回廟東\",\n        \"vietnamese_text\": \"Xưa Đoan quận công từng sai người y theo giá mà mua chở về cùng với vây cá, yến sào, để đổi cho khách buôn lấy hoá vật, bèn làm thành lệ.\",\n        \"score\": 0.17803807046200984\n      },\n      {\n        \"han_start\": 10,\n        \"han_end\": 12,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"美鼎以十六葉為一輩十輩價孫二十文 商客每貶入富共及出來祿制政檳榔亦賤十巨策只裁二文 其波器密植同匡林色黄文細\",\n        \"vietnamese_text\": \"Họ Nguyễn cứ hàng năm vào thượng tuần tháng 5 thì sai đội trưởng thuyển Tân nhất cùng tỉnh binh ra địa phương hạ lệnh cho dân, tuỳ vườn nhiều ít mà chia bao, họp số định giá mua lấy, một gánh hồ tiêu thì trả 5 quan tiền, chở về phố Thanh Hà, bán cho khách tàu, không cho dân địa phương bán riêng.\",\n        \"score\": -0.012568888912443723\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 14,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"明灵登昌苦縣居民每以作屋柱 有闊至一尺五寸者與涸一尺半七\",\n        \"vietnamese_text\": \"Dân phường thì có lệ phải cống hồ tiêu trắng và đen mỗi thứ một bao, mỗi bao 100 cân.\",\n        \"score\": 0.18625514683036215\n      },\n      {\n        \"han_start\": 15,\n        \"han_end\": 17,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"又取极臣作屋靈此甚多 順化香茶縣各德社興富安城上下村市樹木高大是多一大品 惟波異密傳曇之頗皆做十國官軍恣意斫伐取薪一年不尽\",\n        \"vietnamese_text\": \"Tổng Bái Trời 25 phường, ruộng nứi vườn rừng nhiền hơn các nơi khác, có ruộng lúa 524 mẫu 3 sào, một nửa phải nộp thóc thị túc.\",\n        \"score\": 0.07794373277001794\n      },\n      {\n        \"han_start\": 18,\n        \"han_end\": 18,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"古祿按國食木信然順化\",\n        \"vietnamese_text\": \"Thời họ Nguyễn trước, hồ tiêu cứ cho 100 cân làm một tạ, giá 5, 6 quan, khách Bắc và khách Mã Cao thường buôn về Quảng Đông.\",\n        \"score\": 0.049023511562456025\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 1,
+          "vi_start": 0,
+          "vi_end": 1,
+          "han_text": "下滌二尺爵之應蔽尾日培燒肥土五年 拙從成实昔為國公掌差人價買肅入同與魚刻善巢責與商人易取貨物遂成例",
+          "vietnamese_text": "Hai phủ Quy Nhơn và Phú Yên cũng sản thứ cây này, đầu đen và đặc, tốt hơn dầu Cam Lộ, cho ít phấn kẽm vào thì có thể sơn được đề đạc. Họ Nguyễn trước có lệ lấy thuế ở thôn Phúc Yên xã Hà Cừ, cứ mỗi suất mỗi năm nộp dầu 70 bát, được miễn các việc sưu lính.",
+          "score": 0.1934076018191693
+        },
+        {
+          "han_start": 2,
+          "han_end": 4,
+          "vi_start": 2,
+          "vi_end": 2,
+          "han_text": "元氏歲以五月上旬差新上坊隊長 并無出就地方令民隨園多少分色會放定價買取椒子一担 路我五貞再回清河庸責興贈客不許方民私賣",
+          "vietnamese_text": "Tre tai lao (cán giáo) sản ở xã Trung Lộc, huyện Duy Xuyên, xã Giáng La huyện An Nông, dinh Quảng Nam, mỗi năm nộp 120 bó, thứ lớn 80 bó, mỗi bó ð0 cây, thứ nhỏ 40 bó, mỗi bó 100 cây.",
+          "score": -0.00724892130937711
+        },
+        {
+          "han_start": 5,
+          "han_end": 6,
+          "vi_start": 3,
+          "vi_end": 3,
+          "han_text": "其坊民例有白椒黑椒若一色 每色一百六時丞德二十五坊山田林園之錢甲於地方",
+          "vietnamese_text": "Hồ tiêu sản ở các phường và xã Mai Xá tổng Bái Trời huyện Minh Linh, mọc đầy rừng, leo vào các cây mà mọc, tháng 9 có hoa, tháng 11 kết quả, tháng 5 thì hái, tháng 6 thì thu xong.",
+          "score": 0.09270404831300533
+        },
+        {
+          "han_start": 7,
+          "han_end": 7,
+          "vi_start": 4,
+          "vi_end": 4,
+          "han_text": "有稻田五百二十四數三息五尺七末其半例侍案在前",
+          "vietnamese_text": "Khi mới trêng thì ngắt lấy cái bông thứ nhất do nhánh chính hồ tiêu cũ đâm thẳng ra, đào lỗ ở dưới gốc cây to sâu 2 thước rồi cấy xuống, che giữ nắng gió, vun bồi đất tốt, 5 năm sau thì có quả.",
+          "score": 0.028312712695300522
+        },
+        {
+          "han_start": 8,
+          "han_end": 9,
+          "vi_start": 5,
+          "vi_end": 5,
+          "han_text": "阮氏胡椒以百斤為一屬價五六穴 北客與瑪瑤客常販回廟東",
+          "vietnamese_text": "Xưa Đoan quận công từng sai người y theo giá mà mua chở về cùng với vây cá, yến sào, để đổi cho khách buôn lấy hoá vật, bèn làm thành lệ.",
+          "score": 0.17803807046200984
+        },
+        {
+          "han_start": 10,
+          "han_end": 12,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "美鼎以十六葉為一輩十輩價孫二十文 商客每貶入富共及出來祿制政檳榔亦賤十巨策只裁二文 其波器密植同匡林色黄文細",
+          "vietnamese_text": "Họ Nguyễn cứ hàng năm vào thượng tuần tháng 5 thì sai đội trưởng thuyển Tân nhất cùng tỉnh binh ra địa phương hạ lệnh cho dân, tuỳ vườn nhiều ít mà chia bao, họp số định giá mua lấy, một gánh hồ tiêu thì trả 5 quan tiền, chở về phố Thanh Hà, bán cho khách tàu, không cho dân địa phương bán riêng.",
+          "score": -0.012568888912443723
+        },
+        {
+          "han_start": 13,
+          "han_end": 14,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "明灵登昌苦縣居民每以作屋柱 有闊至一尺五寸者與涸一尺半七",
+          "vietnamese_text": "Dân phường thì có lệ phải cống hồ tiêu trắng và đen mỗi thứ một bao, mỗi bao 100 cân.",
+          "score": 0.18625514683036215
+        },
+        {
+          "han_start": 15,
+          "han_end": 17,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "又取极臣作屋靈此甚多 順化香茶縣各德社興富安城上下村市樹木高大是多一大品 惟波異密傳曇之頗皆做十國官軍恣意斫伐取薪一年不尽",
+          "vietnamese_text": "Tổng Bái Trời 25 phường, ruộng nứi vườn rừng nhiền hơn các nơi khác, có ruộng lúa 524 mẫu 3 sào, một nửa phải nộp thóc thị túc.",
+          "score": 0.07794373277001794
+        },
+        {
+          "han_start": 18,
+          "han_end": 18,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "古祿按國食木信然順化",
+          "vietnamese_text": "Thời họ Nguyễn trước, hồ tiêu cứ cho 100 cân làm một tạ, giá 5, 6 quan, khách Bắc và khách Mã Cao thường buôn về Quảng Đông.",
+          "score": 0.049023511562456025
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 9281
+}

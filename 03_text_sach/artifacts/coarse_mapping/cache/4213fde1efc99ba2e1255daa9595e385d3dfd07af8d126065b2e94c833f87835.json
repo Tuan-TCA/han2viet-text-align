@@ -1,0 +1,96 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "4213fde1efc99ba2e1255daa9595e385d3dfd07af8d126065b2e94c833f87835",
+  "payload": {
+    "han": "阮福淳试穴子科亦昧至甲子德三十五年正此二科葬文亦照阮氏事\n用布族及清葬欠人掌營掌焉\n該為後隊非此不守言進其苗商世亡薩免奏順之人謂之百姓\n求為該隊者只許後源頭隊守御雜隊土兵其子孫不除稅也\n加又自後澤至濟縣与勾稽欣合之子祿亦白出稅非有聊者\n親生子孫仍玄族屬即之官員然亦不免替\n另廣順各頂既取夫許徊成為寓祿百\n有旨例廣南奏義正戶後盜勘理夫三十人半正户年华客臣革字序四十五貫該監夫二十人\n年百歲三十貫正副提貫夫二十人\n正半客竿百庚二十七貴提欲夫十六人生字祿二十一長六四正府七人聖字孫十長該府夫十二人字生百咏十五貞\n外至府著祀夫五人 孫五貞孩副將夫八人\n筆百八十長二阿格该知參將夫八人\n八辛百歲貞贈書祀夫三人額字孫三長本府司稽夫三人\n生一百月三貞如乘該縣夫三人盛三一百郡三貴七門字陵次後隊三人\n正年二貴七陋孩社夫三人至字郡士長处你七夜腰臣夫三人\n經字詠二三七陌社長夫二人然一官祿一貫八門\n其新平華洲富洲鏡戶網見何伯舟匠\n田主同人山田各者属並行取客五夫提督夫二十人\n字年百二十貫提欽夫十六人平白歲十三貞祀府夫七人\n書三四條八三五門發戶欽官夫二人\n雖字減十五長舟匠後官夫八人\n百祿十貫\n舟匠司官夫六人\n半年七月五限舟區後府夫六人\n華洲富洲并內府祿府夫各二十人\n字中宜成谷十五長議户田主後",
+    "vi": "Thời Nguyễn Phúc Chụ, lấy nhiêu học, có một khoa dư luận học trò sôi nổi, Phúc Chu khiến gọi đến cả công đường Chính Đinh ra để thi lại, học trò đều không thi bỏ ra, rồi truất bỏ cả, không lấy một người.\nNăm Canh Thân không có quận thí, chỉ có thu thí, kỳ thứ nhất làm 3 bài văn, người đỗ cho làm nhiêu học tuyển trường, được miễn tiền gạo ð năm; kỳ thứ hai thơ phú 2 bài, kỳ thứ 3 kinh nghĩa 2 bài, người đỗ cho làm nhiêu học thi trúng, được miễn sai địch suốt đời; kỳ thứ tư sách vấn 1 bài, người đỗ cho làm hương cống, bổ chức trì phủ tri huyện, huấn đạo.\nNguyễn Phúc Thuần thi khoa Mậu tý cũng thế.\nĐến năm Giấp Ngọ, vừa 35 năm, chỉ có khoa ấy.\nHoa văn cũng thế.\nHọ Nguyễn chuyên dùng người họ mình, huyện mình và xứ Thanh Hoa.\nChưởng dinh, chưởng cơ, cai cơ, cai đội, không phải hạng ấy thì không được sung tuyển.\nCon cháu họ đời đời được nhiêu miễn.\nNgười ở xứ Thuận Quảng thì gọi là bách tính, người cầu xin làm chức cai đội thì chỉ cho chức cai đội, đội thủ ngự đầu nguồn và tạp đội thổ binh, con cháu họ không được trừ thuế.\nNhư con cháu quan văn từ cai bạ đến phủ huyện và câu kê, cai hợp, cũng đều phải nộp thuế, không phải là chức sắc."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 1,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"阮福淳试穴子科亦昧至甲子德三十五年正此二科葬文亦照阮氏事 用布族及清葬欠人掌營掌焉\",\n        \"vietnamese_text\": \"Thời Nguyễn Phúc Chụ, lấy nhiêu học, có một khoa dư luận học trò sôi nổi, Phúc Chu khiến gọi đến cả công đường Chính Đinh ra để thi lại, học trò đều không thi bỏ ra, rồi truất bỏ cả, không lấy một người.\",\n        \"score\": 0.06365820344173509\n      },\n      {\n        \"han_start\": 2,\n        \"han_end\": 3,\n        \"vi_start\": 1,\n        \"vi_end\": 1,\n        \"han_text\": \"該為後隊非此不守言進其苗商世亡薩免奏順之人謂之百姓 求為該隊者只許後源頭隊守御雜隊土兵其子孫不除稅也\",\n        \"vietnamese_text\": \"Năm Canh Thân không có quận thí, chỉ có thu thí, kỳ thứ nhất làm 3 bài văn, người đỗ cho làm nhiêu học tuyển trường, được miễn tiền gạo ð năm; kỳ thứ hai thơ phú 2 bài, kỳ thứ 3 kinh nghĩa 2 bài, người đỗ cho làm nhiêu học thi trúng, được miễn sai địch suốt đời; kỳ thứ tư sách vấn 1 bài, người đỗ cho làm hương cống, bổ chức trì phủ tri huyện, huấn đạo.\",\n        \"score\": 0.06551914208914969\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 5,\n        \"vi_start\": 2,\n        \"vi_end\": 4,\n        \"han_text\": \"加又自後澤至濟縣与勾稽欣合之子祿亦白出稅非有聊者 親生子孫仍玄族屬即之官員然亦不免替\",\n        \"vietnamese_text\": \"Nguyễn Phúc Thuần thi khoa Mậu tý cũng thế. Đến năm Giấp Ngọ, vừa 35 năm, chỉ có khoa ấy. Hoa văn cũng thế.\",\n        \"score\": 0.08683242454379268\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 9,\n        \"vi_start\": 5,\n        \"vi_end\": 5,\n        \"han_text\": \"另廣順各頂既取夫許徊成為寓祿百 有旨例廣南奏義正戶後盜勘理夫三十人半正户年华客臣革字序四十五貫該監夫二十人 年百歲三十貫正副提貫夫二十人 正半客竿百庚二十七貴提欲夫十六人生字祿二十一長六四正府七人聖字孫十長該府夫十二人字生百咏十五貞\",\n        \"vietnamese_text\": \"Họ Nguyễn chuyên dùng người họ mình, huyện mình và xứ Thanh Hoa.\",\n        \"score\": -0.016276287923201162\n      },\n      {\n        \"han_start\": 10,\n        \"han_end\": 12,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"外至府著祀夫五人 孫五貞孩副將夫八人 筆百八十長二阿格该知參將夫八人 八辛百歲貞贈書祀夫三人額字孫三長本府司稽夫三人\",\n        \"vietnamese_text\": \"Chưởng dinh, chưởng cơ, cai cơ, cai đội, không phải hạng ấy thì không được sung tuyển.\",\n        \"score\": 0.06000921239374179\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 16,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"生一百月三貞如乘該縣夫三人盛三一百郡三貴七門字陵次後隊三人 正年二貴七陋孩社夫三人至字郡士長处你七夜腰臣夫三人 經字詠二三七陌社長夫二人然一官祿一貫八門 其新平華洲富洲鏡戶網見何伯舟匠\",\n        \"vietnamese_text\": \"Con cháu họ đời đời được nhiêu miễn.\",\n        \"score\": -0.002900609324978873\n      },\n      {\n        \"han_start\": 17,\n        \"han_end\": 20,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"田主同人山田各者属並行取客五夫提督夫二十人 字年百二十貫提欽夫十六人平白歲十三貞祀府夫七人 書三四條八三五門發戶欽官夫二人 雖字減十五長舟匠後官夫八人\",\n        \"vietnamese_text\": \"Người ở xứ Thuận Quảng thì gọi là bách tính, người cầu xin làm chức cai đội thì chỉ cho chức cai đội, đội thủ ngự đầu nguồn và tạp đội thổ binh, con cháu họ không được trừ thuế.\",\n        \"score\": 0.11993129649321221\n      },\n      {\n        \"han_start\": 22,\n        \"han_end\": 25,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"舟匠司官夫六人 半年七月五限舟區後府夫六人 華洲富洲并內府祿府夫各二十人 字中宜成谷十五長議户田主後\",\n        \"vietnamese_text\": \"Như con cháu quan văn từ cai bạ đến phủ huyện và câu kê, cai hợp, cũng đều phải nộp thuế, không phải là chức sắc.\",\n        \"score\": 0.04780585354352216\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 1,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "阮福淳试穴子科亦昧至甲子德三十五年正此二科葬文亦照阮氏事 用布族及清葬欠人掌營掌焉",
+          "vietnamese_text": "Thời Nguyễn Phúc Chụ, lấy nhiêu học, có một khoa dư luận học trò sôi nổi, Phúc Chu khiến gọi đến cả công đường Chính Đinh ra để thi lại, học trò đều không thi bỏ ra, rồi truất bỏ cả, không lấy một người.",
+          "score": 0.06365820344173509
+        },
+        {
+          "han_start": 2,
+          "han_end": 3,
+          "vi_start": 1,
+          "vi_end": 1,
+          "han_text": "該為後隊非此不守言進其苗商世亡薩免奏順之人謂之百姓 求為該隊者只許後源頭隊守御雜隊土兵其子孫不除稅也",
+          "vietnamese_text": "Năm Canh Thân không có quận thí, chỉ có thu thí, kỳ thứ nhất làm 3 bài văn, người đỗ cho làm nhiêu học tuyển trường, được miễn tiền gạo ð năm; kỳ thứ hai thơ phú 2 bài, kỳ thứ 3 kinh nghĩa 2 bài, người đỗ cho làm nhiêu học thi trúng, được miễn sai địch suốt đời; kỳ thứ tư sách vấn 1 bài, người đỗ cho làm hương cống, bổ chức trì phủ tri huyện, huấn đạo.",
+          "score": 0.06551914208914969
+        },
+        {
+          "han_start": 4,
+          "han_end": 5,
+          "vi_start": 2,
+          "vi_end": 4,
+          "han_text": "加又自後澤至濟縣与勾稽欣合之子祿亦白出稅非有聊者 親生子孫仍玄族屬即之官員然亦不免替",
+          "vietnamese_text": "Nguyễn Phúc Thuần thi khoa Mậu tý cũng thế. Đến năm Giấp Ngọ, vừa 35 năm, chỉ có khoa ấy. Hoa văn cũng thế.",
+          "score": 0.08683242454379268
+        },
+        {
+          "han_start": 6,
+          "han_end": 9,
+          "vi_start": 5,
+          "vi_end": 5,
+          "han_text": "另廣順各頂既取夫許徊成為寓祿百 有旨例廣南奏義正戶後盜勘理夫三十人半正户年华客臣革字序四十五貫該監夫二十人 年百歲三十貫正副提貫夫二十人 正半客竿百庚二十七貴提欲夫十六人生字祿二十一長六四正府七人聖字孫十長該府夫十二人字生百咏十五貞",
+          "vietnamese_text": "Họ Nguyễn chuyên dùng người họ mình, huyện mình và xứ Thanh Hoa.",
+          "score": -0.016276287923201162
+        },
+        {
+          "han_start": 10,
+          "han_end": 12,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "外至府著祀夫五人 孫五貞孩副將夫八人 筆百八十長二阿格该知參將夫八人 八辛百歲貞贈書祀夫三人額字孫三長本府司稽夫三人",
+          "vietnamese_text": "Chưởng dinh, chưởng cơ, cai cơ, cai đội, không phải hạng ấy thì không được sung tuyển.",
+          "score": 0.06000921239374179
+        },
+        {
+          "han_start": 13,
+          "han_end": 16,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "生一百月三貞如乘該縣夫三人盛三一百郡三貴七門字陵次後隊三人 正年二貴七陋孩社夫三人至字郡士長处你七夜腰臣夫三人 經字詠二三七陌社長夫二人然一官祿一貫八門 其新平華洲富洲鏡戶網見何伯舟匠",
+          "vietnamese_text": "Con cháu họ đời đời được nhiêu miễn.",
+          "score": -0.002900609324978873
+        },
+        {
+          "han_start": 17,
+          "han_end": 20,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "田主同人山田各者属並行取客五夫提督夫二十人 字年百二十貫提欽夫十六人平白歲十三貞祀府夫七人 書三四條八三五門發戶欽官夫二人 雖字減十五長舟匠後官夫八人",
+          "vietnamese_text": "Người ở xứ Thuận Quảng thì gọi là bách tính, người cầu xin làm chức cai đội thì chỉ cho chức cai đội, đội thủ ngự đầu nguồn và tạp đội thổ binh, con cháu họ không được trừ thuế.",
+          "score": 0.11993129649321221
+        },
+        {
+          "han_start": 22,
+          "han_end": 25,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "舟匠司官夫六人 半年七月五限舟區後府夫六人 華洲富洲并內府祿府夫各二十人 字中宜成谷十五長議户田主後",
+          "vietnamese_text": "Như con cháu quan văn từ cai bạ đến phủ huyện và câu kê, cai hợp, cũng đều phải nộp thuế, không phải là chức sắc.",
+          "score": 0.04780585354352216
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 2344
+}

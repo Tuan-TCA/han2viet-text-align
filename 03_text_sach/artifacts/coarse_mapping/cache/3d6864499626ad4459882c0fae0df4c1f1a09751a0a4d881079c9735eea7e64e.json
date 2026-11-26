@@ -1,0 +1,105 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "3d6864499626ad4459882c0fae0df4c1f1a09751a0a4d881079c9735eea7e64e",
+  "payload": {
+    "han": "親障和睦共棄昇平四方無定自有大力受合\n又為寅年奉旨於金鑒前殿中宮御盲乃欽命\n乃集郭主成為船主等前往廣東回進入收安南\n共目卷八十三人競六投其財貨物什項遲\n本庫郊銀三十一觔銖三裁但銀器花祿不勞攀\n一件銀架撻踏來一件銀翠八沙坤員花一件架小大每念一件飛合烹十二件錦猴七疋\n波翁告官往廣東採買回國收入安南\n船主身故板主為國詞供通船貨物共買折進銀六十六觔\n十五為二誅銀策不勞攀銀器磨員二件\n銀策摹蒂株二件錦叢十疋又被安南翁地方官等經卷所費二次\n其銀九十七觔十六用錦微十七定銀器二十一件\n又癸南年差楊國拿苦五船主往廟东採買回國收入安南\n其帝用詔蕃微延什物項件第三百七十四觔十三餘三說又被官庫繇吞西費室船而回\n以上收尾三次抽分德共金銀什物等項三百七十四觔十三秩三識\n致令報事貽累受刑莫伯如是\n吾國大臣朗改亭沙臺五告南有司官席捲鄰事蒙金歷",
+    "vi": "Kim Loan Lâm Liệt Đoàn Mô Long Mã Ma Trượng Y Địa Chiếu Như Hoa Phủ Tung Ba Thom An Mã Hổ Bá Thuật Khoáng Sắc Đoàn Mã Hổ Lục Khôn Ty Vưu Đặc Dã Phổ Ai Vương chiếu rằng: Dếốc tra thánh giáo, phương sách nhu viễn, nên thân yêu láng giềng, thông yên hoà hảo.\nTrước kia nước tôi từng cần ngựa tốt, Xá Thức Sơn Mon đã xin ở nước An Nam, đã vâng được ra ơn.\nSau phàm có việc thông hành sang nước An Nam, hoặc mọi thứ văn thư của Ngài đưa đến nước tôi, thì cũng chiếu theo sự lý mà làm, chính hai nước thân yêu nhau cũng như trời đất dài lâu không cùng.\nNhưng nước tôi hằng sai thuyền ởi lại ở Hạ Môn, Ninh Ba và Quảng Đông để trao đổi mua sắm các đồ nhà nước dùng.\nTrên đường trở về, nhiều khi ghé vào tránh gió ở các địa phương An Nam, đã có giấy tư sang, khẩn xin vua nước An Nam hạ lệnh cấm át các quan hữy ty không được đánh thuế và đòi phí tổn về lương thực đối với thuyền sai nước Xiêm, như là đối với các thuyền của khách buôn thường dân.\nPhàm các thuyền đó của nước Xiêm chở đều là hoá hạng do phát của kho đi mua và do nhà vua sai khiến.\nĐối với những thuyền tránh gió của chúng tôi đó nhất thiết những thuế má và lương tiền cho các quan phái, theo thể lệ của địa phương, đều xin miễn tha, hoặc bằng vào lời khai báo mà đem số tiền đã thu trả về.\nNước An Nam phên thịnh thì mệnh vua phải được theo.\nNguyên trong năm Kỷ Sửu thuyền dài của đại thần nước tôi là Phi Nhã Hồng đi sang Ninh Ba tìm mua những đề khố dụng, khi trở về nước bị giữ ở Huệ An (Hội An).\nCứ lời cung ở trong án do Phi Nhã Hồng tâu rõ thì thuyền chủ là Hồng Đoàn quan mạo phạm vào điều cấm của nước An Nam, đến nỗi can vào quốc pháp, đáng lẽ phải chiếu luật trị tội, nhưng những đổ ngự dụng và những hoá vật trên thuyền thì lại bị nước An Nam giữ lại.\nQua năm Mậu Thìn đã sai hai người là Chấn Nghiêm và Chấn Định đem văn hội tư xin, phiển đội ơn nhân chính của vua nước đại bang cho đệ trả về.\nTừ sau hễ khi nào có thuyền tránh gió ở nước An Nam, bản quốc sẽ tư giấy sang xin đưa về.\nVề việc ấy Mạnh Tử nói rằng: \"Giao thiệp với nước láng giềng phải có đạo ru\", rõ ràng lắm.\nVua nước An Nam ví có thể bỏ điểu lợi mà lấy nhân nghĩa để tiếp nhau, như thế mà không thịnh trị thì chưa có bao giờ!\nCho nên mình tự đòi ở mình nhiều mà đồi ở người ít thì xa điều oán.\nTừ nay về sau như nước An Nam có văn thư đưa lại để sắm đồ thập vật thì nên ban hành trong nước, không kể là đổ quý báu lạ lùng mà trong nước có thì cũng chuẩn cấp sứ mệnh, đó là vâng tỏ lòng thành kính đối với vua nước An Nam vậy."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 2,\n        \"vi_start\": 0,\n        \"vi_end\": 1,\n        \"han_text\": \"親障和睦共棄昇平四方無定自有大力受合 又為寅年奉旨於金鑒前殿中宮御盲乃欽命 乃集郭主成為船主等前往廣東回進入收安南\",\n        \"vietnamese_text\": \"Kim Loan Lâm Liệt Đoàn Mô Long Mã Ma Trượng Y Địa Chiếu Như Hoa Phủ Tung Ba Thom An Mã Hổ Bá Thuật Khoáng Sắc Đoàn Mã Hổ Lục Khôn Ty Vưu Đặc Dã Phổ Ai Vương chiếu rằng: Dếốc tra thánh giáo, phương sách nhu viễn, nên thân yêu láng giềng, thông yên hoà hảo. Trước kia nước tôi từng cần ngựa tốt, Xá Thức Sơn Mon đã xin ở nước An Nam, đã vâng được ra ơn.\",\n        \"score\": 0.30302682654028257\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 3,\n        \"vi_start\": 2,\n        \"vi_end\": 2,\n        \"han_text\": \"共目卷八十三人競六投其財貨物什項遲\",\n        \"vietnamese_text\": \"Sau phàm có việc thông hành sang nước An Nam, hoặc mọi thứ văn thư của Ngài đưa đến nước tôi, thì cũng chiếu theo sự lý mà làm, chính hai nước thân yêu nhau cũng như trời đất dài lâu không cùng.\",\n        \"score\": 0.005040452141500152\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 4,\n        \"vi_start\": 3,\n        \"vi_end\": 3,\n        \"han_text\": \"本庫郊銀三十一觔銖三裁但銀器花祿不勞攀\",\n        \"vietnamese_text\": \"Nhưng nước tôi hằng sai thuyền ởi lại ở Hạ Môn, Ninh Ba và Quảng Đông để trao đổi mua sắm các đồ nhà nước dùng.\",\n        \"score\": 0.059467069637394135\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 7,\n        \"vi_start\": 4,\n        \"vi_end\": 5,\n        \"han_text\": \"一件銀架撻踏來一件銀翠八沙坤員花一件架小大每念一件飛合烹十二件錦猴七疋 波翁告官往廣東採買回國收入安南 船主身故板主為國詞供通船貨物共買折進銀六十六觔\",\n        \"vietnamese_text\": \"Trên đường trở về, nhiều khi ghé vào tránh gió ở các địa phương An Nam, đã có giấy tư sang, khẩn xin vua nước An Nam hạ lệnh cấm át các quan hữy ty không được đánh thuế và đòi phí tổn về lương thực đối với thuyền sai nước Xiêm, như là đối với các thuyền của khách buôn thường dân. Phàm các thuyền đó của nước Xiêm chở đều là hoá hạng do phát của kho đi mua và do nhà vua sai khiến.\",\n        \"score\": 0.2169116796697807\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 10,\n        \"vi_start\": 6,\n        \"vi_end\": 7,\n        \"han_text\": \"十五為二誅銀策不勞攀銀器磨員二件 銀策摹蒂株二件錦叢十疋又被安南翁地方官等經卷所費二次 其銀九十七觔十六用錦微十七定銀器二十一件\",\n        \"vietnamese_text\": \"Đối với những thuyền tránh gió của chúng tôi đó nhất thiết những thuế má và lương tiền cho các quan phái, theo thể lệ của địa phương, đều xin miễn tha, hoặc bằng vào lời khai báo mà đem số tiền đã thu trả về. Nước An Nam phên thịnh thì mệnh vua phải được theo.\",\n        \"score\": 0.023741111967842846\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 12,\n        \"vi_start\": 8,\n        \"vi_end\": 9,\n        \"han_text\": \"又癸南年差楊國拿苦五船主往廟东採買回國收入安南 其帝用詔蕃微延什物項件第三百七十四觔十三餘三說又被官庫繇吞西費室船而回\",\n        \"vietnamese_text\": \"Nguyên trong năm Kỷ Sửu thuyền dài của đại thần nước tôi là Phi Nhã Hồng đi sang Ninh Ba tìm mua những đề khố dụng, khi trở về nước bị giữ ở Huệ An (Hội An). Cứ lời cung ở trong án do Phi Nhã Hồng tâu rõ thì thuyền chủ là Hồng Đoàn quan mạo phạm vào điều cấm của nước An Nam, đến nỗi can vào quốc pháp, đáng lẽ phải chiếu luật trị tội, nhưng những đổ ngự dụng và những hoá vật trên thuyền thì lại bị nước An Nam giữ lại.\",\n        \"score\": 0.2401617933309599\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 13,\n        \"vi_start\": 10,\n        \"vi_end\": 10,\n        \"han_text\": \"以上收尾三次抽分德共金銀什物等項三百七十四觔十三秩三識\",\n        \"vietnamese_text\": \"Qua năm Mậu Thìn đã sai hai người là Chấn Nghiêm và Chấn Định đem văn hội tư xin, phiển đội ơn nhân chính của vua nước đại bang cho đệ trả về.\",\n        \"score\": 0.07814145637420515\n      },\n      {\n        \"han_start\": 14,\n        \"han_end\": 14,\n        \"vi_start\": 11,\n        \"vi_end\": 12,\n        \"han_text\": \"致令報事貽累受刑莫伯如是\",\n        \"vietnamese_text\": \"Từ sau hễ khi nào có thuyền tránh gió ở nước An Nam, bản quốc sẽ tư giấy sang xin đưa về. Về việc ấy Mạnh Tử nói rằng: \\\"Giao thiệp với nước láng giềng phải có đạo ru\\\", rõ ràng lắm.\",\n        \"score\": 0.0039460297972025\n      },\n      {\n        \"han_start\": 15,\n        \"han_end\": 15,\n        \"vi_start\": 13,\n        \"vi_end\": 14,\n        \"han_text\": \"吾國大臣朗改亭沙臺五告南有司官席捲鄰事蒙金歷\",\n        \"vietnamese_text\": \"Vua nước An Nam ví có thể bỏ điểu lợi mà lấy nhân nghĩa để tiếp nhau, như thế mà không thịnh trị thì chưa có bao giờ! Cho nên mình tự đòi ở mình nhiều mà đồi ở người ít thì xa điều oán.\",\n        \"score\": 0.15921149911960125\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 2,
+          "vi_start": 0,
+          "vi_end": 1,
+          "han_text": "親障和睦共棄昇平四方無定自有大力受合 又為寅年奉旨於金鑒前殿中宮御盲乃欽命 乃集郭主成為船主等前往廣東回進入收安南",
+          "vietnamese_text": "Kim Loan Lâm Liệt Đoàn Mô Long Mã Ma Trượng Y Địa Chiếu Như Hoa Phủ Tung Ba Thom An Mã Hổ Bá Thuật Khoáng Sắc Đoàn Mã Hổ Lục Khôn Ty Vưu Đặc Dã Phổ Ai Vương chiếu rằng: Dếốc tra thánh giáo, phương sách nhu viễn, nên thân yêu láng giềng, thông yên hoà hảo. Trước kia nước tôi từng cần ngựa tốt, Xá Thức Sơn Mon đã xin ở nước An Nam, đã vâng được ra ơn.",
+          "score": 0.30302682654028257
+        },
+        {
+          "han_start": 3,
+          "han_end": 3,
+          "vi_start": 2,
+          "vi_end": 2,
+          "han_text": "共目卷八十三人競六投其財貨物什項遲",
+          "vietnamese_text": "Sau phàm có việc thông hành sang nước An Nam, hoặc mọi thứ văn thư của Ngài đưa đến nước tôi, thì cũng chiếu theo sự lý mà làm, chính hai nước thân yêu nhau cũng như trời đất dài lâu không cùng.",
+          "score": 0.005040452141500152
+        },
+        {
+          "han_start": 4,
+          "han_end": 4,
+          "vi_start": 3,
+          "vi_end": 3,
+          "han_text": "本庫郊銀三十一觔銖三裁但銀器花祿不勞攀",
+          "vietnamese_text": "Nhưng nước tôi hằng sai thuyền ởi lại ở Hạ Môn, Ninh Ba và Quảng Đông để trao đổi mua sắm các đồ nhà nước dùng.",
+          "score": 0.059467069637394135
+        },
+        {
+          "han_start": 5,
+          "han_end": 7,
+          "vi_start": 4,
+          "vi_end": 5,
+          "han_text": "一件銀架撻踏來一件銀翠八沙坤員花一件架小大每念一件飛合烹十二件錦猴七疋 波翁告官往廣東採買回國收入安南 船主身故板主為國詞供通船貨物共買折進銀六十六觔",
+          "vietnamese_text": "Trên đường trở về, nhiều khi ghé vào tránh gió ở các địa phương An Nam, đã có giấy tư sang, khẩn xin vua nước An Nam hạ lệnh cấm át các quan hữy ty không được đánh thuế và đòi phí tổn về lương thực đối với thuyền sai nước Xiêm, như là đối với các thuyền của khách buôn thường dân. Phàm các thuyền đó của nước Xiêm chở đều là hoá hạng do phát của kho đi mua và do nhà vua sai khiến.",
+          "score": 0.2169116796697807
+        },
+        {
+          "han_start": 8,
+          "han_end": 10,
+          "vi_start": 6,
+          "vi_end": 7,
+          "han_text": "十五為二誅銀策不勞攀銀器磨員二件 銀策摹蒂株二件錦叢十疋又被安南翁地方官等經卷所費二次 其銀九十七觔十六用錦微十七定銀器二十一件",
+          "vietnamese_text": "Đối với những thuyền tránh gió của chúng tôi đó nhất thiết những thuế má và lương tiền cho các quan phái, theo thể lệ của địa phương, đều xin miễn tha, hoặc bằng vào lời khai báo mà đem số tiền đã thu trả về. Nước An Nam phên thịnh thì mệnh vua phải được theo.",
+          "score": 0.023741111967842846
+        },
+        {
+          "han_start": 11,
+          "han_end": 12,
+          "vi_start": 8,
+          "vi_end": 9,
+          "han_text": "又癸南年差楊國拿苦五船主往廟东採買回國收入安南 其帝用詔蕃微延什物項件第三百七十四觔十三餘三說又被官庫繇吞西費室船而回",
+          "vietnamese_text": "Nguyên trong năm Kỷ Sửu thuyền dài của đại thần nước tôi là Phi Nhã Hồng đi sang Ninh Ba tìm mua những đề khố dụng, khi trở về nước bị giữ ở Huệ An (Hội An). Cứ lời cung ở trong án do Phi Nhã Hồng tâu rõ thì thuyền chủ là Hồng Đoàn quan mạo phạm vào điều cấm của nước An Nam, đến nỗi can vào quốc pháp, đáng lẽ phải chiếu luật trị tội, nhưng những đổ ngự dụng và những hoá vật trên thuyền thì lại bị nước An Nam giữ lại.",
+          "score": 0.2401617933309599
+        },
+        {
+          "han_start": 13,
+          "han_end": 13,
+          "vi_start": 10,
+          "vi_end": 10,
+          "han_text": "以上收尾三次抽分德共金銀什物等項三百七十四觔十三秩三識",
+          "vietnamese_text": "Qua năm Mậu Thìn đã sai hai người là Chấn Nghiêm và Chấn Định đem văn hội tư xin, phiển đội ơn nhân chính của vua nước đại bang cho đệ trả về.",
+          "score": 0.07814145637420515
+        },
+        {
+          "han_start": 14,
+          "han_end": 14,
+          "vi_start": 11,
+          "vi_end": 12,
+          "han_text": "致令報事貽累受刑莫伯如是",
+          "vietnamese_text": "Từ sau hễ khi nào có thuyền tránh gió ở nước An Nam, bản quốc sẽ tư giấy sang xin đưa về. Về việc ấy Mạnh Tử nói rằng: \"Giao thiệp với nước láng giềng phải có đạo ru\", rõ ràng lắm.",
+          "score": 0.0039460297972025
+        },
+        {
+          "han_start": 15,
+          "han_end": 15,
+          "vi_start": 13,
+          "vi_end": 14,
+          "han_text": "吾國大臣朗改亭沙臺五告南有司官席捲鄰事蒙金歷",
+          "vietnamese_text": "Vua nước An Nam ví có thể bỏ điểu lợi mà lấy nhân nghĩa để tiếp nhau, như thế mà không thịnh trị thì chưa có bao giờ! Cho nên mình tự đòi ở mình nhiều mà đồi ở người ít thì xa điều oán.",
+          "score": 0.15921149911960125
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 5719
+}

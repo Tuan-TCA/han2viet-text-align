@@ -1,0 +1,123 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "b4b3bafd6bc636cb0de7b23699b9dad6181835e0166640525136717690961495",
+  "payload": {
+    "han": "留南道在麗水縣武舍社地分有此提兵所垂\n左經右柱前柱御柱右柄步反柄炎中桐炎拔鏡左仍仍船內雄應美海美等父南塘右一提義志廣志雄一雄二前貌稅貌仍顯仍老擔左里刀石里刀振刀\n仍擇衛三洛人三十隊般与馬隊\n俾中象奇管牧并良医草象及新象十六共一千云百九十七人\n有左雄隊所屬左柱右提說右稅前坚刀五船共二百五十人\n有右器奇所弦右柱衙一矣\n一突二級刀勝刀士船共二百千二人\n有左勝奇所屬右聖貌前競右柱\n里柱鏡右刀六船共二百五十七人\n有前勝哥的茲勝柱右柱右挽稅說隣刀機刀共二百八十九人\n有杖勝亨所屬前柱杯柱窺一\n左貌勝刀古望刀六船共二百九十一人\n有左提各而金龍柱稅一石刀\n提銳紅柱機刀大般共二百九十一人\n有右從奇所屬視一左柱說安謨右鏡一捷刀右刀六船\n亥二百九十八人有前提奇印辰小錢\n左柱說在相中柱稅前柱統初祠貌二\n前鏡二鄉履左刀等十船生五百人\n有德提奇四屋右聖柱捷柱初柱\n右里鏡提刀行刀六船共二百九十人\n廣至當在安宅社地分有與兵中為到麼\n五柄災美一丈二小中鏡五中鏡右坐鏡五柱貌右柱鏡左鏡右刀新刀左志為又全又鏡一富一前貌仍顯\n五十九隊般為馬隊四十人中象舟八十一人站象命管牧十人\n車臺",
+    "vi": "6 thuyền cộng 297 người. €ó cơ Tiền thắng. thuộc về đấy là các thuyền Thắng trụ.\nHữu trụ, Hữu súng.\nNhuệ súng.\nThắng đao.\nTiệp đao, 6 thuyền cộng 289 người.\nCó cơ Hậu thăng. thuộc về đấy là các thuyển Tiền trụ, Hậu trụ, Súng nhất.\nTả nhuệ.\nThắng đao.\nHữu kiên đao.\n6 thuyển cộng 991 người."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 0,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"留南道在麗水縣武舍社地分有此提兵所垂\",\n        \"vietnamese_text\": \"6 thuyền cộng 297 người.\",\n        \"score\": -0.0013480788484657882\n      },\n      {\n        \"han_start\": 1,\n        \"han_end\": 3,\n        \"vi_start\": 1,\n        \"vi_end\": 1,\n        \"han_text\": \"左經右柱前柱御柱右柄步反柄炎中桐炎拔鏡左仍仍船內雄應美海美等父南塘右一提義志廣志雄一雄二前貌稅貌仍顯仍老擔左里刀石里刀振刀 仍擇衛三洛人三十隊般与馬隊 俾中象奇管牧并良医草象及新象十六共一千云百九十七人\",\n        \"vietnamese_text\": \"€ó cơ Tiền thắng.\",\n        \"score\": 0.0009984032509590007\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 7,\n        \"vi_start\": 2,\n        \"vi_end\": 2,\n        \"han_text\": \"有左雄隊所屬左柱右提說右稅前坚刀五船共二百五十人 有右器奇所弦右柱衙一矣 一突二級刀勝刀士船共二百千二人 有左勝奇所屬右聖貌前競右柱\",\n        \"vietnamese_text\": \"thuộc về đấy là các thuyền Thắng trụ.\",\n        \"score\": 0.17725336185833077\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 8,\n        \"vi_start\": 3,\n        \"vi_end\": 3,\n        \"han_text\": \"里柱鏡右刀六船共二百五十七人\",\n        \"vietnamese_text\": \"Hữu trụ, Hữu súng.\",\n        \"score\": 0.04570197311998811\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 10,\n        \"vi_start\": 4,\n        \"vi_end\": 5,\n        \"han_text\": \"有前勝哥的茲勝柱右柱右挽稅說隣刀機刀共二百八十九人 有杖勝亨所屬前柱杯柱窺一\",\n        \"vietnamese_text\": \"Nhuệ súng. Thắng đao.\",\n        \"score\": 0.06521958932797352\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 13,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"左貌勝刀古望刀六船共二百九十一人 有左提各而金龍柱稅一石刀 提銳紅柱機刀大般共二百九十一人\",\n        \"vietnamese_text\": \"Tiệp đao, 6 thuyền cộng 289 người.\",\n        \"score\": 0.09817904276856287\n      },\n      {\n        \"han_start\": 14,\n        \"han_end\": 15,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"有右從奇所屬視一左柱說安謨右鏡一捷刀右刀六船 亥二百九十八人有前提奇印辰小錢\",\n        \"vietnamese_text\": \"Có cơ Hậu thăng.\",\n        \"score\": 0.07577212325257127\n      },\n      {\n        \"han_start\": 16,\n        \"han_end\": 18,\n        \"vi_start\": 8,\n        \"vi_end\": 9,\n        \"han_text\": \"左柱說在相中柱稅前柱統初祠貌二 前鏡二鄉履左刀等十船生五百人 有德提奇四屋右聖柱捷柱初柱\",\n        \"vietnamese_text\": \"thuộc về đấy là các thuyển Tiền trụ, Hậu trụ, Súng nhất. Tả nhuệ.\",\n        \"score\": 0.09956645079064252\n      },\n      {\n        \"han_start\": 19,\n        \"han_end\": 19,\n        \"vi_start\": 10,\n        \"vi_end\": 10,\n        \"han_text\": \"右里鏡提刀行刀六船共二百九十人\",\n        \"vietnamese_text\": \"Thắng đao.\",\n        \"score\": 0.05607016634088508\n      },\n      {\n        \"han_start\": 20,\n        \"han_end\": 21,\n        \"vi_start\": 11,\n        \"vi_end\": 11,\n        \"han_text\": \"廣至當在安宅社地分有與兵中為到麼 五柄災美一丈二小中鏡五中鏡右坐鏡五柱貌右柱鏡左鏡右刀新刀左志為又全又鏡一富一前貌仍顯\",\n        \"vietnamese_text\": \"Hữu kiên đao.\",\n        \"score\": -0.010425848679249639\n      },\n      {\n        \"han_start\": 22,\n        \"han_end\": 23,\n        \"vi_start\": 12,\n        \"vi_end\": 12,\n        \"han_text\": \"五十九隊般為馬隊四十人中象舟八十一人站象命管牧十人 車臺\",\n        \"vietnamese_text\": \"6 thuyển cộng 991 người.\",\n        \"score\": 0.11037701660250115\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 0,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "留南道在麗水縣武舍社地分有此提兵所垂",
+          "vietnamese_text": "6 thuyền cộng 297 người.",
+          "score": -0.0013480788484657882
+        },
+        {
+          "han_start": 1,
+          "han_end": 3,
+          "vi_start": 1,
+          "vi_end": 1,
+          "han_text": "左經右柱前柱御柱右柄步反柄炎中桐炎拔鏡左仍仍船內雄應美海美等父南塘右一提義志廣志雄一雄二前貌稅貌仍顯仍老擔左里刀石里刀振刀 仍擇衛三洛人三十隊般与馬隊 俾中象奇管牧并良医草象及新象十六共一千云百九十七人",
+          "vietnamese_text": "€ó cơ Tiền thắng.",
+          "score": 0.0009984032509590007
+        },
+        {
+          "han_start": 4,
+          "han_end": 7,
+          "vi_start": 2,
+          "vi_end": 2,
+          "han_text": "有左雄隊所屬左柱右提說右稅前坚刀五船共二百五十人 有右器奇所弦右柱衙一矣 一突二級刀勝刀士船共二百千二人 有左勝奇所屬右聖貌前競右柱",
+          "vietnamese_text": "thuộc về đấy là các thuyền Thắng trụ.",
+          "score": 0.17725336185833077
+        },
+        {
+          "han_start": 8,
+          "han_end": 8,
+          "vi_start": 3,
+          "vi_end": 3,
+          "han_text": "里柱鏡右刀六船共二百五十七人",
+          "vietnamese_text": "Hữu trụ, Hữu súng.",
+          "score": 0.04570197311998811
+        },
+        {
+          "han_start": 9,
+          "han_end": 10,
+          "vi_start": 4,
+          "vi_end": 5,
+          "han_text": "有前勝哥的茲勝柱右柱右挽稅說隣刀機刀共二百八十九人 有杖勝亨所屬前柱杯柱窺一",
+          "vietnamese_text": "Nhuệ súng. Thắng đao.",
+          "score": 0.06521958932797352
+        },
+        {
+          "han_start": 11,
+          "han_end": 13,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "左貌勝刀古望刀六船共二百九十一人 有左提各而金龍柱稅一石刀 提銳紅柱機刀大般共二百九十一人",
+          "vietnamese_text": "Tiệp đao, 6 thuyền cộng 289 người.",
+          "score": 0.09817904276856287
+        },
+        {
+          "han_start": 14,
+          "han_end": 15,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "有右從奇所屬視一左柱說安謨右鏡一捷刀右刀六船 亥二百九十八人有前提奇印辰小錢",
+          "vietnamese_text": "Có cơ Hậu thăng.",
+          "score": 0.07577212325257127
+        },
+        {
+          "han_start": 16,
+          "han_end": 18,
+          "vi_start": 8,
+          "vi_end": 9,
+          "han_text": "左柱說在相中柱稅前柱統初祠貌二 前鏡二鄉履左刀等十船生五百人 有德提奇四屋右聖柱捷柱初柱",
+          "vietnamese_text": "thuộc về đấy là các thuyển Tiền trụ, Hậu trụ, Súng nhất. Tả nhuệ.",
+          "score": 0.09956645079064252
+        },
+        {
+          "han_start": 19,
+          "han_end": 19,
+          "vi_start": 10,
+          "vi_end": 10,
+          "han_text": "右里鏡提刀行刀六船共二百九十人",
+          "vietnamese_text": "Thắng đao.",
+          "score": 0.05607016634088508
+        },
+        {
+          "han_start": 20,
+          "han_end": 21,
+          "vi_start": 11,
+          "vi_end": 11,
+          "han_text": "廣至當在安宅社地分有與兵中為到麼 五柄災美一丈二小中鏡五中鏡右坐鏡五柱貌右柱鏡左鏡右刀新刀左志為又全又鏡一富一前貌仍顯",
+          "vietnamese_text": "Hữu kiên đao.",
+          "score": -0.010425848679249639
+        },
+        {
+          "han_start": 22,
+          "han_end": 23,
+          "vi_start": 12,
+          "vi_end": 12,
+          "han_text": "五十九隊般為馬隊四十人中象舟八十一人站象命管牧十人 車臺",
+          "vietnamese_text": "6 thuyển cộng 991 người.",
+          "score": 0.11037701660250115
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 2687
+}

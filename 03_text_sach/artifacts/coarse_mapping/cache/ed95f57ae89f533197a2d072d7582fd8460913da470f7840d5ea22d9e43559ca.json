@@ -1,0 +1,114 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "ed95f57ae89f533197a2d072d7582fd8460913da470f7840d5ea22d9e43559ca",
+  "payload": {
+    "han": "尾波棘鑑之患權有法禁然而自用錢以來未是並錫趙而死者\n故自巴志盜勢鉛新之好行而嘉宏之案價騰\n號善盜謠鉛寶去得利之富若載之他處\n恐漏其奸故不計貨之貴則皆隨而買之粟價遂因之而貴\n案貴則人民畏飢畏飢則爭買而積爭積且衆日益貴\n案貴則天下之物皆隨而貴焉\n泥人情誰不當坚牢而嫌易敗\n令以招新之易敗而當銅寶之星年\n所以民爭積案而不肯禮錢也\n美良帝辰獵秦封而之重更勝家詠物價騰號米石步孫\n此諸薄致案貴院有明卧矣\n且自有知宏民在此處者未嘗以積粟己利\n今為室府家之皆積案不特嘉室\n令富春及諸府不海貴賤自農有孫去\n皆相爭而種業而使案之不貴其可得\n宋翁室貴案即法府之案不得不貴\n諸府之粟貴且富春之民不飢去幾希矣\n夫人情一日不再食且飢終矣\n不製衣則氣亂實切身不廣意耻故奸邪日起而盜財日生\n语云一朝不食父子無義\n父不亡保其罪子君安亡保其艮奇",
+    "vi": "Những bậc đại thần đời xưa, người ta không khen họ là trí mưu tài lược, mà chỉ là một người khăng kháng lòng thiện chứ không có tài nghệ gì khác, hớn hở vui vẻ có lượng dụng người mà thôi.\nNgười học giả nên bỏ lòng riêng của mình mà thăng đến chỗ khăng khăng và vui vẻ ấy, thì mới có thể giúp đỡ được thiên hạ, kéo lại sự thịnh trị của Tam đại, thế mới là không phụ lòng của vua ta và không uống cái bước xuất thế ấy vậy\" Ngô Thế lấn lại có một bài luận về tiển tệ mà Nguyễn Phúc Thuần không xét đến.\nBài ấy nói rằng: “Trộm nghe khi tiên chúa mở mang đất còn hẹp, dân còn thưa, phía Nam chưa có đất Gia Định màu mỡ, phía Bắc còn có việc phòng thủ ở Hoành Sơn. liển năm chính chiến mà dân không đói kém, nhà nước thừa tiêu.\nNgày nay thiên hạ bình tĩnh đã lâu. đất rộng dân đông, những đất trồng lúa đã khai khẩn hết, nguồn lợi núi chằm đã khai thác hết.\nHơn nữa, ruộng ở Phiên Trấn và Long Hồ lại không bị hạn lụt bao giờ.\nThế mà từ năm Mậu Tý tới nay, giá thóc cao vọt, nhân đân đói kém, là cớ làm sao?\nThần trộm nghĩ không phải là thiếu thóc mà chính vì tiên kẽm gây nên vậy.\nPhàm dân chạy về chỗ lợi cũng như nước chảy xuống thấp, thế không thể ngăn được, cho nên tuy rừng sâu có độc lam chướng, có nạn hùm beo, biển lớn có nguy sóng gió, có nạn kình ngạc, mà người ta vẫn thường đến mà không sợ, đó là vì thấy lợi mà quên hại vậy.\nHuống chỉ lợi đúc tiền kẽm lại gấp bội lợi khác, mà không có cái lo về lam chướng hùm beo, sóng gió kình ngạc, dẫu có phép cấm, nhưng từ khi dùng tiền đến nay, chưa nghe có ai vì đúc trộm tiền mà chết bao giờ.\nCho nên từ khi việc đúc trộm tiển kẽm ở Ba Xắc hoành hành thì giá thóc ở Gia Định cao vọt, là bởi kẻ đúc trộm tiền kẽm là được lợi rất nhiều, nến chở đi nơi khác thì sợ lộ việc gian, cho nên không kể hàng đắt hay rẻ, đều tuỳ tiện mà mua lấy, giá thóc bèn nhân đó mà đắt lên."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 0,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"尾波棘鑑之患權有法禁然而自用錢以來未是並錫趙而死者\",\n        \"vietnamese_text\": \"Những bậc đại thần đời xưa, người ta không khen họ là trí mưu tài lược, mà chỉ là một người khăng kháng lòng thiện chứ không có tài nghệ gì khác, hớn hở vui vẻ có lượng dụng người mà thôi.\",\n        \"score\": 0.08044072490335574\n      },\n      {\n        \"han_start\": 1,\n        \"han_end\": 3,\n        \"vi_start\": 1,\n        \"vi_end\": 2,\n        \"han_text\": \"故自巴志盜勢鉛新之好行而嘉宏之案價騰 號善盜謠鉛寶去得利之富若載之他處 恐漏其奸故不計貨之貴則皆隨而買之粟價遂因之而貴\",\n        \"vietnamese_text\": \"Người học giả nên bỏ lòng riêng của mình mà thăng đến chỗ khăng khăng và vui vẻ ấy, thì mới có thể giúp đỡ được thiên hạ, kéo lại sự thịnh trị của Tam đại, thế mới là không phụ lòng của vua ta và không uống cái bước xuất thế ấy vậy\\\" Ngô Thế lấn lại có một bài luận về tiển tệ mà Nguyễn Phúc Thuần không xét đến. Bài ấy nói rằng: “Trộm nghe khi tiên chúa mở mang đất còn hẹp, dân còn thưa, phía Nam chưa có đất Gia Định màu mỡ, phía Bắc còn có việc phòng thủ ở Hoành Sơn.\",\n        \"score\": 0.024702612289928327\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 4,\n        \"vi_start\": 3,\n        \"vi_end\": 4,\n        \"han_text\": \"案貴則人民畏飢畏飢則爭買而積爭積且衆日益貴\",\n        \"vietnamese_text\": \"liển năm chính chiến mà dân không đói kém, nhà nước thừa tiêu. Ngày nay thiên hạ bình tĩnh đã lâu.\",\n        \"score\": 0.25987083553634094\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 7,\n        \"vi_start\": 5,\n        \"vi_end\": 5,\n        \"han_text\": \"案貴則天下之物皆隨而貴焉 泥人情誰不當坚牢而嫌易敗 令以招新之易敗而當銅寶之星年\",\n        \"vietnamese_text\": \"đất rộng dân đông, những đất trồng lúa đã khai khẩn hết, nguồn lợi núi chằm đã khai thác hết.\",\n        \"score\": -0.017294005701771427\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 8,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"所以民爭積案而不肯禮錢也\",\n        \"vietnamese_text\": \"Hơn nữa, ruộng ở Phiên Trấn và Long Hồ lại không bị hạn lụt bao giờ.\",\n        \"score\": 0.177814006940171\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 10,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"美良帝辰獵秦封而之重更勝家詠物價騰號米石步孫 此諸薄致案貴院有明卧矣\",\n        \"vietnamese_text\": \"Thế mà từ năm Mậu Tý tới nay, giá thóc cao vọt, nhân đân đói kém, là cớ làm sao?\",\n        \"score\": 0.0033961777318640488\n      },\n      {\n        \"han_start\": 11,\n        \"han_end\": 12,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"且自有知宏民在此處者未嘗以積粟己利 今為室府家之皆積案不特嘉室\",\n        \"vietnamese_text\": \"Thần trộm nghĩ không phải là thiếu thóc mà chính vì tiên kẽm gây nên vậy.\",\n        \"score\": 0.0536244165430814\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 16,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"令富春及諸府不海貴賤自農有孫去 皆相爭而種業而使案之不貴其可得 宋翁室貴案即法府之案不得不貴 諸府之粟貴且富春之民不飢去幾希矣\",\n        \"vietnamese_text\": \"Phàm dân chạy về chỗ lợi cũng như nước chảy xuống thấp, thế không thể ngăn được, cho nên tuy rừng sâu có độc lam chướng, có nạn hùm beo, biển lớn có nguy sóng gió, có nạn kình ngạc, mà người ta vẫn thường đến mà không sợ, đó là vì thấy lợi mà quên hại vậy.\",\n        \"score\": 0.11619760106732058\n      },\n      {\n        \"han_start\": 17,\n        \"han_end\": 19,\n        \"vi_start\": 10,\n        \"vi_end\": 10,\n        \"han_text\": \"夫人情一日不再食且飢終矣 不製衣則氣亂實切身不廣意耻故奸邪日起而盜財日生 语云一朝不食父子無義\",\n        \"vietnamese_text\": \"Huống chỉ lợi đúc tiền kẽm lại gấp bội lợi khác, mà không có cái lo về lam chướng hùm beo, sóng gió kình ngạc, dẫu có phép cấm, nhưng từ khi dùng tiền đến nay, chưa nghe có ai vì đúc trộm tiền mà chết bao giờ.\",\n        \"score\": 0.07894413206869018\n      },\n      {\n        \"han_start\": 20,\n        \"han_end\": 20,\n        \"vi_start\": 11,\n        \"vi_end\": 11,\n        \"han_text\": \"父不亡保其罪子君安亡保其艮奇\",\n        \"vietnamese_text\": \"Cho nên từ khi việc đúc trộm tiển kẽm ở Ba Xắc hoành hành thì giá thóc ở Gia Định cao vọt, là bởi kẻ đúc trộm tiền kẽm là được lợi rất nhiều, nến chở đi nơi khác thì sợ lộ việc gian, cho nên không kể hàng đắt hay rẻ, đều tuỳ tiện mà mua lấy, giá thóc bèn nhân đó mà đắt lên.\",\n        \"score\": 0.018604986117726444\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 0,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "尾波棘鑑之患權有法禁然而自用錢以來未是並錫趙而死者",
+          "vietnamese_text": "Những bậc đại thần đời xưa, người ta không khen họ là trí mưu tài lược, mà chỉ là một người khăng kháng lòng thiện chứ không có tài nghệ gì khác, hớn hở vui vẻ có lượng dụng người mà thôi.",
+          "score": 0.08044072490335574
+        },
+        {
+          "han_start": 1,
+          "han_end": 3,
+          "vi_start": 1,
+          "vi_end": 2,
+          "han_text": "故自巴志盜勢鉛新之好行而嘉宏之案價騰 號善盜謠鉛寶去得利之富若載之他處 恐漏其奸故不計貨之貴則皆隨而買之粟價遂因之而貴",
+          "vietnamese_text": "Người học giả nên bỏ lòng riêng của mình mà thăng đến chỗ khăng khăng và vui vẻ ấy, thì mới có thể giúp đỡ được thiên hạ, kéo lại sự thịnh trị của Tam đại, thế mới là không phụ lòng của vua ta và không uống cái bước xuất thế ấy vậy\" Ngô Thế lấn lại có một bài luận về tiển tệ mà Nguyễn Phúc Thuần không xét đến. Bài ấy nói rằng: “Trộm nghe khi tiên chúa mở mang đất còn hẹp, dân còn thưa, phía Nam chưa có đất Gia Định màu mỡ, phía Bắc còn có việc phòng thủ ở Hoành Sơn.",
+          "score": 0.024702612289928327
+        },
+        {
+          "han_start": 4,
+          "han_end": 4,
+          "vi_start": 3,
+          "vi_end": 4,
+          "han_text": "案貴則人民畏飢畏飢則爭買而積爭積且衆日益貴",
+          "vietnamese_text": "liển năm chính chiến mà dân không đói kém, nhà nước thừa tiêu. Ngày nay thiên hạ bình tĩnh đã lâu.",
+          "score": 0.25987083553634094
+        },
+        {
+          "han_start": 5,
+          "han_end": 7,
+          "vi_start": 5,
+          "vi_end": 5,
+          "han_text": "案貴則天下之物皆隨而貴焉 泥人情誰不當坚牢而嫌易敗 令以招新之易敗而當銅寶之星年",
+          "vietnamese_text": "đất rộng dân đông, những đất trồng lúa đã khai khẩn hết, nguồn lợi núi chằm đã khai thác hết.",
+          "score": -0.017294005701771427
+        },
+        {
+          "han_start": 8,
+          "han_end": 8,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "所以民爭積案而不肯禮錢也",
+          "vietnamese_text": "Hơn nữa, ruộng ở Phiên Trấn và Long Hồ lại không bị hạn lụt bao giờ.",
+          "score": 0.177814006940171
+        },
+        {
+          "han_start": 9,
+          "han_end": 10,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "美良帝辰獵秦封而之重更勝家詠物價騰號米石步孫 此諸薄致案貴院有明卧矣",
+          "vietnamese_text": "Thế mà từ năm Mậu Tý tới nay, giá thóc cao vọt, nhân đân đói kém, là cớ làm sao?",
+          "score": 0.0033961777318640488
+        },
+        {
+          "han_start": 11,
+          "han_end": 12,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "且自有知宏民在此處者未嘗以積粟己利 今為室府家之皆積案不特嘉室",
+          "vietnamese_text": "Thần trộm nghĩ không phải là thiếu thóc mà chính vì tiên kẽm gây nên vậy.",
+          "score": 0.0536244165430814
+        },
+        {
+          "han_start": 13,
+          "han_end": 16,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "令富春及諸府不海貴賤自農有孫去 皆相爭而種業而使案之不貴其可得 宋翁室貴案即法府之案不得不貴 諸府之粟貴且富春之民不飢去幾希矣",
+          "vietnamese_text": "Phàm dân chạy về chỗ lợi cũng như nước chảy xuống thấp, thế không thể ngăn được, cho nên tuy rừng sâu có độc lam chướng, có nạn hùm beo, biển lớn có nguy sóng gió, có nạn kình ngạc, mà người ta vẫn thường đến mà không sợ, đó là vì thấy lợi mà quên hại vậy.",
+          "score": 0.11619760106732058
+        },
+        {
+          "han_start": 17,
+          "han_end": 19,
+          "vi_start": 10,
+          "vi_end": 10,
+          "han_text": "夫人情一日不再食且飢終矣 不製衣則氣亂實切身不廣意耻故奸邪日起而盜財日生 语云一朝不食父子無義",
+          "vietnamese_text": "Huống chỉ lợi đúc tiền kẽm lại gấp bội lợi khác, mà không có cái lo về lam chướng hùm beo, sóng gió kình ngạc, dẫu có phép cấm, nhưng từ khi dùng tiền đến nay, chưa nghe có ai vì đúc trộm tiền mà chết bao giờ.",
+          "score": 0.07894413206869018
+        },
+        {
+          "han_start": 20,
+          "han_end": 20,
+          "vi_start": 11,
+          "vi_end": 11,
+          "han_text": "父不亡保其罪子君安亡保其艮奇",
+          "vietnamese_text": "Cho nên từ khi việc đúc trộm tiển kẽm ở Ba Xắc hoành hành thì giá thóc ở Gia Định cao vọt, là bởi kẻ đúc trộm tiền kẽm là được lợi rất nhiều, nến chở đi nơi khác thì sợ lộ việc gian, cho nên không kể hàng đắt hay rẻ, đều tuỳ tiện mà mua lấy, giá thóc bèn nhân đó mà đắt lên.",
+          "score": 0.018604986117726444
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 3703
+}

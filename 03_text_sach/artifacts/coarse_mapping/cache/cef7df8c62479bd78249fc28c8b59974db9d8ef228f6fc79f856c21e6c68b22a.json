@@ -1,0 +1,96 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "cef7df8c62479bd78249fc28c8b59974db9d8ef228f6fc79f856c21e6c68b22a",
+  "payload": {
+    "han": "1\nx怪群生急紅輪亦太茫\n其山居即事云蟬聲喧午夜竹影舊潛苔\n老圓秋無事榮门春不同\n溪雲當坐起山雨通江來\n清世淮高尚困眼為不才\n其為圗樂故城懷古云斜阳停馬望無限夜興情\n園苑僧為寺宮庭牧自耕\n殘32山廐古塔剩水竄荒城\n神道原無擾西開漫刻盟\n其詠馮雍云填门客食漫翁帝義四君得幾人\n雖有和獻依小游發惜無善策制發素劍歌曆唱殊堪天鬼尸窟三城自可親\n相國若無收印日誰知彈欽是佳寶\n其詠文君云已流前債思誰厭無息琴聲半夜催\n紅葉不勞顯句去白桐解作伐柯柔\n阿翁不憤雍容物見女堪情亦愛才\n詞容早知情太自白頭甘分老粧臺\n吳世璞有貴友人阮養浩書畧曰\n凡人言语正到映意辰便齋然亡忍默得意無正到發提辰便翕然它收\n欽緣憤怨嗜敬正到騰滯辰便處於亡消化得此非天下之大會無不忘中\n康謂知耻近乎勇同是耻其不臣堯去已私以至產買地位也",
+    "vi": "Chớ lạ quần sinh uội; Mặt trời cũng rộn ràng.\n10. Sơn cư tức sự Thiển thanh huyện ngo dạ; Trúc ảnh hộ giai đài.\nLão phố thu Uô sự; Sài môn trú bất khai.\nKhê uân dương toạ bhỏi; Sơn 0uũ quá giang lại.\nThanh thế thuỳ cao thượng?\nNhàn miên 0ì bất tài.\nnúi túc sự Tiếng ue triết hè rộn.\nThêm rêu bong trúc che, Vườn cũ thu rỗi uiệc; Cửa nè ngày cần buông.\nMây che quanh chỗ nổi; Mưa núi qua sông sang.\nĐời thanh dì cao thương?"
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 3,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"1 x怪群生急紅輪亦太茫 其山居即事云蟬聲喧午夜竹影舊潛苔 老圓秋無事榮门春不同\",\n        \"vietnamese_text\": \"Chớ lạ quần sinh uội; Mặt trời cũng rộn ràng.\",\n        \"score\": 0.15486549092583712\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 5,\n        \"vi_start\": 1,\n        \"vi_end\": 1,\n        \"han_text\": \"溪雲當坐起山雨通江來 清世淮高尚困眼為不才\",\n        \"vietnamese_text\": \"10.\",\n        \"score\": -0.021181505103029803\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 8,\n        \"vi_start\": 2,\n        \"vi_end\": 2,\n        \"han_text\": \"其為圗樂故城懷古云斜阳停馬望無限夜興情 園苑僧為寺宮庭牧自耕 殘32山廐古塔剩水竄荒城\",\n        \"vietnamese_text\": \"Sơn cư tức sự Thiển thanh huyện ngo dạ; Trúc ảnh hộ giai đài.\",\n        \"score\": 0.1666545607055117\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 11,\n        \"vi_start\": 3,\n        \"vi_end\": 4,\n        \"han_text\": \"神道原無擾西開漫刻盟 其詠馮雍云填门客食漫翁帝義四君得幾人 雖有和獻依小游發惜無善策制發素劍歌曆唱殊堪天鬼尸窟三城自可親\",\n        \"vietnamese_text\": \"Lão phố thu Uô sự; Sài môn trú bất khai. Khê uân dương toạ bhỏi; Sơn 0uũ quá giang lại.\",\n        \"score\": 0.0836597773204372\n      },\n      {\n        \"han_start\": 12,\n        \"han_end\": 13,\n        \"vi_start\": 5,\n        \"vi_end\": 6,\n        \"han_text\": \"相國若無收印日誰知彈欽是佳寶 其詠文君云已流前債思誰厭無息琴聲半夜催\",\n        \"vietnamese_text\": \"Thanh thế thuỳ cao thượng? Nhàn miên 0ì bất tài.\",\n        \"score\": 0.14367362836447867\n      },\n      {\n        \"han_start\": 14,\n        \"han_end\": 16,\n        \"vi_start\": 7,\n        \"vi_end\": 8,\n        \"han_text\": \"紅葉不勞顯句去白桐解作伐柯柔 阿翁不憤雍容物見女堪情亦愛才 詞容早知情太自白頭甘分老粧臺\",\n        \"vietnamese_text\": \"núi túc sự Tiếng ue triết hè rộn. Thêm rêu bong trúc che, Vườn cũ thu rỗi uiệc; Cửa nè ngày cần buông.\",\n        \"score\": 0.13776710243494425\n      },\n      {\n        \"han_start\": 17,\n        \"han_end\": 18,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"吳世璞有貴友人阮養浩書畧曰 凡人言语正到映意辰便齋然亡忍默得意無正到發提辰便翕然它收\",\n        \"vietnamese_text\": \"Mây che quanh chỗ nổi; Mưa núi qua sông sang.\",\n        \"score\": 0.04826239683135662\n      },\n      {\n        \"han_start\": 19,\n        \"han_end\": 20,\n        \"vi_start\": 10,\n        \"vi_end\": 10,\n        \"han_text\": \"欽緣憤怨嗜敬正到騰滯辰便處於亡消化得此非天下之大會無不忘中 康謂知耻近乎勇同是耻其不臣堯去已私以至產買地位也\",\n        \"vietnamese_text\": \"Đời thanh dì cao thương?\",\n        \"score\": 0.02250552063134125\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 3,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "1 x怪群生急紅輪亦太茫 其山居即事云蟬聲喧午夜竹影舊潛苔 老圓秋無事榮门春不同",
+          "vietnamese_text": "Chớ lạ quần sinh uội; Mặt trời cũng rộn ràng.",
+          "score": 0.15486549092583712
+        },
+        {
+          "han_start": 4,
+          "han_end": 5,
+          "vi_start": 1,
+          "vi_end": 1,
+          "han_text": "溪雲當坐起山雨通江來 清世淮高尚困眼為不才",
+          "vietnamese_text": "10.",
+          "score": -0.021181505103029803
+        },
+        {
+          "han_start": 6,
+          "han_end": 8,
+          "vi_start": 2,
+          "vi_end": 2,
+          "han_text": "其為圗樂故城懷古云斜阳停馬望無限夜興情 園苑僧為寺宮庭牧自耕 殘32山廐古塔剩水竄荒城",
+          "vietnamese_text": "Sơn cư tức sự Thiển thanh huyện ngo dạ; Trúc ảnh hộ giai đài.",
+          "score": 0.1666545607055117
+        },
+        {
+          "han_start": 9,
+          "han_end": 11,
+          "vi_start": 3,
+          "vi_end": 4,
+          "han_text": "神道原無擾西開漫刻盟 其詠馮雍云填门客食漫翁帝義四君得幾人 雖有和獻依小游發惜無善策制發素劍歌曆唱殊堪天鬼尸窟三城自可親",
+          "vietnamese_text": "Lão phố thu Uô sự; Sài môn trú bất khai. Khê uân dương toạ bhỏi; Sơn 0uũ quá giang lại.",
+          "score": 0.0836597773204372
+        },
+        {
+          "han_start": 12,
+          "han_end": 13,
+          "vi_start": 5,
+          "vi_end": 6,
+          "han_text": "相國若無收印日誰知彈欽是佳寶 其詠文君云已流前債思誰厭無息琴聲半夜催",
+          "vietnamese_text": "Thanh thế thuỳ cao thượng? Nhàn miên 0ì bất tài.",
+          "score": 0.14367362836447867
+        },
+        {
+          "han_start": 14,
+          "han_end": 16,
+          "vi_start": 7,
+          "vi_end": 8,
+          "han_text": "紅葉不勞顯句去白桐解作伐柯柔 阿翁不憤雍容物見女堪情亦愛才 詞容早知情太自白頭甘分老粧臺",
+          "vietnamese_text": "núi túc sự Tiếng ue triết hè rộn. Thêm rêu bong trúc che, Vườn cũ thu rỗi uiệc; Cửa nè ngày cần buông.",
+          "score": 0.13776710243494425
+        },
+        {
+          "han_start": 17,
+          "han_end": 18,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "吳世璞有貴友人阮養浩書畧曰 凡人言语正到映意辰便齋然亡忍默得意無正到發提辰便翕然它收",
+          "vietnamese_text": "Mây che quanh chỗ nổi; Mưa núi qua sông sang.",
+          "score": 0.04826239683135662
+        },
+        {
+          "han_start": 19,
+          "han_end": 20,
+          "vi_start": 10,
+          "vi_end": 10,
+          "han_text": "欽緣憤怨嗜敬正到騰滯辰便處於亡消化得此非天下之大會無不忘中 康謂知耻近乎勇同是耻其不臣堯去已私以至產買地位也",
+          "vietnamese_text": "Đời thanh dì cao thương?",
+          "score": 0.02250552063134125
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 8156
+}

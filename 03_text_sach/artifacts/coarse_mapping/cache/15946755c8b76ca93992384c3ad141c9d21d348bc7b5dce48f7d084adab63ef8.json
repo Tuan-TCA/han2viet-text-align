@@ -1,0 +1,141 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "15946755c8b76ca93992384c3ad141c9d21d348bc7b5dce48f7d084adab63ef8",
+  "payload": {
+    "han": "每三節十 四年香 二十埋貴魚一善四一辦子七百五圩\n歸仁府逢山符離綏遠三縣并各卷人故一弓五千七百三十三人\n除給員子与饒夫各賦谷另存納稅三千三百十人收侯二了四十四百一長二百四十七文\n米四千七百六十五色必廿四升五合\n澤開東坊三百二十一人除另外穷迹存猶稅二百四十七人收侯九十一立三陌替搜\n另崙佃士百九量附津開東坊四百六十三人\n除窮近存洞稅三百四十人收減四百九十七長七四十二交米四十五巳三升替搜另齋油二百八2十二量律開面坊二百六十九人附窮與存湘稅二百八人收余四百云長四的五十二文智搜另看由五百六十四量鹿觀席匠隊十七人收帝五十改綏遠陽河澆漂新五村附廟衙二\n卷五千二百三十六\n除饒夫宮項石徊稅四千二百十人收歲共一万十十六百八十五貴二十文替搜\n另大中小灯三千八百四十二枚朱邊五\n東備户零一千三百十八人除消差窮邊存一千三百人\n收金二十陽四月三歲謙戶為油二居清河為社各共八百六十七人\n除銷差宮近存六百九十人收流二千一百十六貫四十三文\n秦四一百七十六量江花一百三十九色范重六\n每升祿四支云門酒五程大級二千五百引中紙三弓二千引\n安官同\n春後和三縣并各產四千三百二十人\n除財色穷項存納稅三千三百三\n土人收歲一万四十五貞二四三十二文\n米一千一百八十四色二十升五合紅花八百廿一色延桑油二千五百五十七量四陽酒二十埕虬蒙",
+    "vi": "Thôn Nghĩa Lập. số người 236 người. trừ các hạng cùng. hạng đào, còn nộp thuế 174 người, thu mật mía õ3 chỉnh.\nXã Thanh Hảo huyện Mộ Hoa. số người 1.304 người, trừ các hạng lánh ngoại. cùng, đào, còn 1.016 người, thu các tiền 2.427 quan 3 tiền 1 đồng, gạo 179 bao 38 thưng 19 bát 7 cáp, thế sưu và lính 1.170 tấm vải trắng. rượu ð chỉnh.\nBốn xã Lâm An.\nTrung Ấn, Phi Chiêu.\nAn Đông, cộng 613 người, trừ các hạng lánh ngoại, còng, đào, còn nộp thuế 480 người. thu tiển cộng 1,825 quan 7 tiển 7 đồng, gạo 1.689 thưng 1 cáp 7 thược. thế sưu và lính 2.736 lường đầu chay.\nXã An Vĩnh nộp đổi mồi 10 bộ (mỗi bộ 13 phiến), mắm 4 vò, dầu vừng 20 chỉnh. cá quy 1 sọt (nặng 100 cân). nước mắm 705 vò.\nPhú Qui Nhơn, ba huyện Bồng Sơn, Phù Ly."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 0,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"每三節十 四年香 二十埋貴魚一善四一辦子七百五圩\",\n        \"vietnamese_text\": \"Thôn Nghĩa Lập.\",\n        \"score\": 0.04447298973752517\n      },\n      {\n        \"han_start\": 1,\n        \"han_end\": 1,\n        \"vi_start\": 1,\n        \"vi_end\": 2,\n        \"han_text\": \"歸仁府逢山符離綏遠三縣并各卷人故一弓五千七百三十三人\",\n        \"vietnamese_text\": \"số người 236 người. trừ các hạng cùng.\",\n        \"score\": 0.027099547050305872\n      },\n      {\n        \"han_start\": 2,\n        \"han_end\": 2,\n        \"vi_start\": 3,\n        \"vi_end\": 3,\n        \"han_text\": \"除給員子与饒夫各賦谷另存納稅三千三百十人收侯二了四十四百一長二百四十七文\",\n        \"vietnamese_text\": \"hạng đào, còn nộp thuế 174 người, thu mật mía õ3 chỉnh.\",\n        \"score\": 0.2432686368516489\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 3,\n        \"vi_start\": 4,\n        \"vi_end\": 4,\n        \"han_text\": \"米四千七百六十五色必廿四升五合\",\n        \"vietnamese_text\": \"Xã Thanh Hảo huyện Mộ Hoa.\",\n        \"score\": 0.05428243490291909\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 5,\n        \"vi_start\": 5,\n        \"vi_end\": 6,\n        \"han_text\": \"澤開東坊三百二十一人除另外穷迹存猶稅二百四十七人收侯九十一立三陌替搜 另崙佃士百九量附津開東坊四百六十三人\",\n        \"vietnamese_text\": \"số người 1. 304 người, trừ các hạng lánh ngoại.\",\n        \"score\": 0.20975161708991072\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 9,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"除窮近存洞稅三百四十人收減四百九十七長七四十二交米四十五巳三升替搜另齋油二百八2十二量律開面坊二百六十九人附窮與存湘稅二百八人收余四百云長四的五十二文智搜另看由五百六十四量鹿觀席匠隊十七人收帝五十改綏遠陽河澆漂新五村附廟衙二 卷五千二百三十六 除饒夫宮項石徊稅四千二百十人收歲共一万十十六百八十五貴二十文替搜 另大中小灯三千八百四十二枚朱邊五\",\n        \"vietnamese_text\": \"cùng, đào, còn 1.\",\n        \"score\": -0.011878580027469724\n      },\n      {\n        \"han_start\": 10,\n        \"han_end\": 12,\n        \"vi_start\": 8,\n        \"vi_end\": 9,\n        \"han_text\": \"東備户零一千三百十八人除消差窮邊存一千三百人 收金二十陽四月三歲謙戶為油二居清河為社各共八百六十七人 除銷差宮近存六百九十人收流二千一百十六貫四十三文\",\n        \"vietnamese_text\": \"016 người, thu các tiền 2. 427 quan 3 tiền 1 đồng, gạo 179 bao 38 thưng 19 bát 7 cáp, thế sưu và lính 1.\",\n        \"score\": 0.3391875228801441\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 13,\n        \"vi_start\": 10,\n        \"vi_end\": 10,\n        \"han_text\": \"秦四一百七十六量江花一百三十九色范重六\",\n        \"vietnamese_text\": \"170 tấm vải trắng.\",\n        \"score\": 0.07486143817409595\n      },\n      {\n        \"han_start\": 14,\n        \"han_end\": 14,\n        \"vi_start\": 11,\n        \"vi_end\": 12,\n        \"han_text\": \"每升祿四支云門酒五程大級二千五百引中紙三弓二千引\",\n        \"vietnamese_text\": \"rượu ð chỉnh. Bốn xã Lâm An.\",\n        \"score\": 0.17189719146271473\n      },\n      {\n        \"han_start\": 15,\n        \"han_end\": 15,\n        \"vi_start\": 13,\n        \"vi_end\": 16,\n        \"han_text\": \"安官同\",\n        \"vietnamese_text\": \"Trung Ấn, Phi Chiêu. An Đông, cộng 613 người, trừ các hạng lánh ngoại, còng, đào, còn nộp thuế 480 người. thu tiển cộng 1,825 quan 7 tiển 7 đồng, gạo 1. 689 thưng 1 cáp 7 thược.\",\n        \"score\": 0.009915777174100937\n      },\n      {\n        \"han_start\": 16,\n        \"han_end\": 17,\n        \"vi_start\": 17,\n        \"vi_end\": 18,\n        \"han_text\": \"春後和三縣并各產四千三百二十人 除財色穷項存納稅三千三百三\",\n        \"vietnamese_text\": \"thế sưu và lính 2. 736 lường đầu chay.\",\n        \"score\": 0.21485077296489463\n      },\n      {\n        \"han_start\": 18,\n        \"han_end\": 18,\n        \"vi_start\": 19,\n        \"vi_end\": 20,\n        \"han_text\": \"土人收歲一万四十五貞二四三十二文\",\n        \"vietnamese_text\": \"Xã An Vĩnh nộp đổi mồi 10 bộ (mỗi bộ 13 phiến), mắm 4 vò, dầu vừng 20 chỉnh. cá quy 1 sọt (nặng 100 cân).\",\n        \"score\": -0.006589078112274234\n      },\n      {\n        \"han_start\": 19,\n        \"han_end\": 19,\n        \"vi_start\": 21,\n        \"vi_end\": 22,\n        \"han_text\": \"米一千一百八十四色二十升五合紅花八百廿一色延桑油二千五百五十七量四陽酒二十埕虬蒙\",\n        \"vietnamese_text\": \"nước mắm 705 vò. Phú Qui Nhơn, ba huyện Bồng Sơn, Phù Ly.\",\n        \"score\": 0.1825711057911214\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 0,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "每三節十 四年香 二十埋貴魚一善四一辦子七百五圩",
+          "vietnamese_text": "Thôn Nghĩa Lập.",
+          "score": 0.04447298973752517
+        },
+        {
+          "han_start": 1,
+          "han_end": 1,
+          "vi_start": 1,
+          "vi_end": 2,
+          "han_text": "歸仁府逢山符離綏遠三縣并各卷人故一弓五千七百三十三人",
+          "vietnamese_text": "số người 236 người. trừ các hạng cùng.",
+          "score": 0.027099547050305872
+        },
+        {
+          "han_start": 2,
+          "han_end": 2,
+          "vi_start": 3,
+          "vi_end": 3,
+          "han_text": "除給員子与饒夫各賦谷另存納稅三千三百十人收侯二了四十四百一長二百四十七文",
+          "vietnamese_text": "hạng đào, còn nộp thuế 174 người, thu mật mía õ3 chỉnh.",
+          "score": 0.2432686368516489
+        },
+        {
+          "han_start": 3,
+          "han_end": 3,
+          "vi_start": 4,
+          "vi_end": 4,
+          "han_text": "米四千七百六十五色必廿四升五合",
+          "vietnamese_text": "Xã Thanh Hảo huyện Mộ Hoa.",
+          "score": 0.05428243490291909
+        },
+        {
+          "han_start": 4,
+          "han_end": 5,
+          "vi_start": 5,
+          "vi_end": 6,
+          "han_text": "澤開東坊三百二十一人除另外穷迹存猶稅二百四十七人收侯九十一立三陌替搜 另崙佃士百九量附津開東坊四百六十三人",
+          "vietnamese_text": "số người 1. 304 người, trừ các hạng lánh ngoại.",
+          "score": 0.20975161708991072
+        },
+        {
+          "han_start": 6,
+          "han_end": 9,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "除窮近存洞稅三百四十人收減四百九十七長七四十二交米四十五巳三升替搜另齋油二百八2十二量律開面坊二百六十九人附窮與存湘稅二百八人收余四百云長四的五十二文智搜另看由五百六十四量鹿觀席匠隊十七人收帝五十改綏遠陽河澆漂新五村附廟衙二 卷五千二百三十六 除饒夫宮項石徊稅四千二百十人收歲共一万十十六百八十五貴二十文替搜 另大中小灯三千八百四十二枚朱邊五",
+          "vietnamese_text": "cùng, đào, còn 1.",
+          "score": -0.011878580027469724
+        },
+        {
+          "han_start": 10,
+          "han_end": 12,
+          "vi_start": 8,
+          "vi_end": 9,
+          "han_text": "東備户零一千三百十八人除消差窮邊存一千三百人 收金二十陽四月三歲謙戶為油二居清河為社各共八百六十七人 除銷差宮近存六百九十人收流二千一百十六貫四十三文",
+          "vietnamese_text": "016 người, thu các tiền 2. 427 quan 3 tiền 1 đồng, gạo 179 bao 38 thưng 19 bát 7 cáp, thế sưu và lính 1.",
+          "score": 0.3391875228801441
+        },
+        {
+          "han_start": 13,
+          "han_end": 13,
+          "vi_start": 10,
+          "vi_end": 10,
+          "han_text": "秦四一百七十六量江花一百三十九色范重六",
+          "vietnamese_text": "170 tấm vải trắng.",
+          "score": 0.07486143817409595
+        },
+        {
+          "han_start": 14,
+          "han_end": 14,
+          "vi_start": 11,
+          "vi_end": 12,
+          "han_text": "每升祿四支云門酒五程大級二千五百引中紙三弓二千引",
+          "vietnamese_text": "rượu ð chỉnh. Bốn xã Lâm An.",
+          "score": 0.17189719146271473
+        },
+        {
+          "han_start": 15,
+          "han_end": 15,
+          "vi_start": 13,
+          "vi_end": 16,
+          "han_text": "安官同",
+          "vietnamese_text": "Trung Ấn, Phi Chiêu. An Đông, cộng 613 người, trừ các hạng lánh ngoại, còng, đào, còn nộp thuế 480 người. thu tiển cộng 1,825 quan 7 tiển 7 đồng, gạo 1. 689 thưng 1 cáp 7 thược.",
+          "score": 0.009915777174100937
+        },
+        {
+          "han_start": 16,
+          "han_end": 17,
+          "vi_start": 17,
+          "vi_end": 18,
+          "han_text": "春後和三縣并各產四千三百二十人 除財色穷項存納稅三千三百三",
+          "vietnamese_text": "thế sưu và lính 2. 736 lường đầu chay.",
+          "score": 0.21485077296489463
+        },
+        {
+          "han_start": 18,
+          "han_end": 18,
+          "vi_start": 19,
+          "vi_end": 20,
+          "han_text": "土人收歲一万四十五貞二四三十二文",
+          "vietnamese_text": "Xã An Vĩnh nộp đổi mồi 10 bộ (mỗi bộ 13 phiến), mắm 4 vò, dầu vừng 20 chỉnh. cá quy 1 sọt (nặng 100 cân).",
+          "score": -0.006589078112274234
+        },
+        {
+          "han_start": 19,
+          "han_end": 19,
+          "vi_start": 21,
+          "vi_end": 22,
+          "han_text": "米一千一百八十四色二十升五合紅花八百廿一色延桑油二千五百五十七量四陽酒二十埕虬蒙",
+          "vietnamese_text": "nước mắm 705 vò. Phú Qui Nhơn, ba huyện Bồng Sơn, Phù Ly.",
+          "score": 0.1825711057911214
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 2187
+}

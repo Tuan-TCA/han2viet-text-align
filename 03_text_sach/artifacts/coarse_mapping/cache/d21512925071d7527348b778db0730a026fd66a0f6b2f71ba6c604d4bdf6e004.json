@@ -1,0 +1,96 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "d21512925071d7527348b778db0730a026fd66a0f6b2f71ba6c604d4bdf6e004",
+  "payload": {
+    "han": "貫律陌脚米六陽嘗新節料五門世文莊長差餘係一長二門脚朱云阪嘗新節料五門卅文祠丞停差餘康一貞二門腳米士門嘗新節料孫五世文教坊差餘殘一貫五改腳米六陶免嘗新節將凌順化處惟香榮\n唐尚富榮郡昌海陵等縣正容户項有初差餘脚朱嘗新節斜其加明灵縣只免節行\n沛益德客戶年次各成一長民项百名\n六門將臣停戌六陌莊長停歲五門官員子停詠五門老頂成五門窮頂祿三門不具排三門赴項免獄\n康祿麗水二縣免嘗新節料成支\n康祿臨例又稍減民項殘一支\n四陽老頂一貫云門軍項二長兩南市奴止有全明学学祥信学香茶縣例免腳米弄嘗新節料侯二分议正户原納嘗新節料二礼米壯項六升半\n老项五升半民项四升半官員七升首疏社七升首知田七升首另六升首優另六升半\n將臣停五升首椽吏五亦首道士四升半首通史五升首\n時臣云升旨社長常班六升社長停五升\n不具四升長丁四升半於始令代納\n每升卅文一季縢巨庚十五文二季共參拾文\n順化選場期有許供下項例亦以寬民\n其旨供祠作式\n本月日某府縣社官員各職本跡阮某供由本社下項",
+    "vi": "Tiền công thiếu ở dân và các viên đều được miễn, tô ruộng thì tha cho một nửa về năm ấy.\nXử Thuận Hoá, chính hộ thì tha cho tiển tết năm ấy, nếu xã ấy không có tiền tết thì tha cho tiền sai dư; khách hộ và dân phụ thì tha cho nửa phần sai dư.\nXứ Quảng Nam, chính hộ, khách hộ, tiền tết được miễn cả.\nCòn tù đồ đều được tha, duy người cố sát thì không theo lệ tha.\nLệ thu tiền sai dư ở xứ Thuận Hoá.\nTuy trước có chức sắc cũng không được trừ, như chính hộ cai xã cũ, tiền sai dư 1 quan, tiển gạo cước 6 tiển, tiền thường tân và tiền tết 7 tiền; duyện lại cũ, tiền sai dư 1 quan, tiền gạo cước 6 tiển, tiền thường tân và tiền tết 5 tiền rưởi; đạo sĩ cũ, tiền sai dư 1 quan, tiền gạo cước 6 tiền, tiền thường tân và tiền tết 5 tiền; thông lại cũ, tiền sai dư 1 quan, tiền gạo cước 6 tiền, tiền thường tân và tiền tết 5 tiền rưỡi; tướng thần cũ, xã trưởng cũ, tiền sai dư đều 1 quan, tiền gạo cước 6 tiền, tiền thường tân và tiền tết 5 tiền rưỡi; trì điển cũ\", tiền sai dư 1 quan, tiển gạo cước 6 tiền, tiền thường tân và tiển tết 7 tiền, lại ty cũ”, tiền sai dư 1 quan, tiền gạo cước 6 tiền, tiển thường tân và tiền tết 6 tiền rưỡi; lính ưu cũ, tiền sai dư 1 quan, tiền gạo cước 6 tiền, tiền thường tân và tiền tết 6G tiền; tướng thần đình việc, tiền sai dư 1 quan 4 tiền, tiền gạo cước 6 tiền, tiền thường tân và tiền tết 5 tiền rưỡi; xã trưởng đình việc, tiền sai dư 1 quan 2 tiền, tiền gạo cước 6 tiền, tiền thường tân và tiển tết 5 tiền rưỡi; từ thừa đình việc, -tiển sai dư 1 quan 2 tiền, gạo cước 6 tiền, tiền thường tân và tiền tết 5 tiền, ty Giáo phường đình việc, tiền sai dư 1 quan 5 tiển, tiền gạo cước 6 tiển, miễn tiền thường tân và tiền tết.\nXứ Thuận Hoá, chỉ 5 huyện Hương Trà, Quảng Điền, Phú Vinh, Đăng Xương, Hải Lăng là các hạng chính hộ có nộp các tiền sai dư, gạo cước, thường tân, tết.\nCòn huyện Minh Linh được miễn tiền tết.\nTổng Bái Trời, khách hộ hạng quân mỗi người 1 quan, hạng dân mỗi người 6 tiền; tướng thần đình việc 6 tiền, xã trưởng đình việc ð tiền, con cháu quan viên bị đình ã tiền; tướng thần cũ nộp tiền ö tiển, xã trưởng cũ nộp tiền 5 tiển, hạng lão ð tiền, hạng cố 3 tiền, hạng bất cụ 3 tiền, hạng cùng 2 tiển, hạng đào không phải nộp.\nHai huyện Khang Lộc, Lệ Thuỷ được miễn tiền thường tân và tiển tết; về huyện Khang Lộc thì lệ lại hơi giảm, hạng dân nộp tiền 1 quan 4 tiền, hạng lão 1 quan 6 tiền, hạng quân 2 quan 1 tiền."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 1,\n        \"vi_start\": 0,\n        \"vi_end\": 2,\n        \"han_text\": \"貫律陌脚米六陽嘗新節料五門世文莊長差餘係一長二門脚朱云阪嘗新節料五門卅文祠丞停差餘康一貞二門腳米士門嘗新節料孫五世文教坊差餘殘一貫五改腳米六陶免嘗新節將凌順化處惟香榮 唐尚富榮郡昌海陵等縣正容户項有初差餘脚朱嘗新節斜其加明灵縣只免節行\",\n        \"vietnamese_text\": \"Tiền công thiếu ở dân và các viên đều được miễn, tô ruộng thì tha cho một nửa về năm ấy. Xử Thuận Hoá, chính hộ thì tha cho tiển tết năm ấy, nếu xã ấy không có tiền tết thì tha cho tiền sai dư; khách hộ và dân phụ thì tha cho nửa phần sai dư. Xứ Quảng Nam, chính hộ, khách hộ, tiền tết được miễn cả.\",\n        \"score\": 0.16520311834029902\n      },\n      {\n        \"han_start\": 2,\n        \"han_end\": 3,\n        \"vi_start\": 3,\n        \"vi_end\": 3,\n        \"han_text\": \"沛益德客戶年次各成一長民项百名 六門將臣停戌六陌莊長停歲五門官員子停詠五門老頂成五門窮頂祿三門不具排三門赴項免獄\",\n        \"vietnamese_text\": \"Còn tù đồ đều được tha, duy người cố sát thì không theo lệ tha.\",\n        \"score\": 0.005202427756643894\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 4,\n        \"vi_start\": 4,\n        \"vi_end\": 4,\n        \"han_text\": \"康祿麗水二縣免嘗新節料成支\",\n        \"vietnamese_text\": \"Lệ thu tiền sai dư ở xứ Thuận Hoá.\",\n        \"score\": 0.08933671992467944\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 8,\n        \"vi_start\": 5,\n        \"vi_end\": 5,\n        \"han_text\": \"康祿臨例又稍減民項殘一支 四陽老頂一貫云門軍項二長兩南市奴止有全明学学祥信学香茶縣例免腳米弄嘗新節料侯二分议正户原納嘗新節料二礼米壯項六升半 老项五升半民项四升半官員七升首疏社七升首知田七升首另六升首優另六升半 將臣停五升首椽吏五亦首道士四升半首通史五升首\",\n        \"vietnamese_text\": \"Tuy trước có chức sắc cũng không được trừ, như chính hộ cai xã cũ, tiền sai dư 1 quan, tiển gạo cước 6 tiển, tiền thường tân và tiền tết 7 tiền; duyện lại cũ, tiền sai dư 1 quan, tiền gạo cước 6 tiển, tiền thường tân và tiền tết 5 tiền rưởi; đạo sĩ cũ, tiền sai dư 1 quan, tiền gạo cước 6 tiền, tiền thường tân và tiền tết 5 tiền; thông lại cũ, tiền sai dư 1 quan, tiền gạo cước 6 tiền, tiền thường tân và tiền tết 5 tiền rưỡi; tướng thần cũ, xã trưởng cũ, tiền sai dư đều 1 quan, tiền gạo cước 6 tiền, tiền thường tân và tiền tết 5 tiền rưỡi; trì điển cũ\\\", tiền sai dư 1 quan, tiển gạo cước 6 tiền, tiền thường tân và tiển tết 7 tiền, lại ty cũ”, tiền sai dư 1 quan, tiền gạo cước 6 tiền, tiển thường tân và tiền tết 6 tiền rưỡi; lính ưu cũ, tiền sai dư 1 quan, tiền gạo cước 6 tiền, tiền thường tân và tiền tết 6G tiền; tướng thần đình việc, tiền sai dư 1 quan 4 tiền, tiền gạo cước 6 tiền, tiền thường tân và tiền tết 5 tiền rưỡi; xã trưởng đình việc, tiền sai dư 1 quan 2 tiền, tiền gạo cước 6 tiền, tiền thường tân và tiển tết 5 tiền rưỡi; từ thừa đình việc, -tiển sai dư 1 quan 2 tiền, gạo cước 6 tiền, tiền thường tân và tiền tết 5 tiền, ty Giáo phường đình việc, tiền sai dư 1 quan 5 tiển, tiền gạo cước 6 tiển, miễn tiền thường tân và tiền tết.\",\n        \"score\": 0.2650514531668614\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 11,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"時臣云升旨社長常班六升社長停五升 不具四升長丁四升半於始令代納 每升卅文一季縢巨庚十五文二季共參拾文\",\n        \"vietnamese_text\": \"Xứ Thuận Hoá, chỉ 5 huyện Hương Trà, Quảng Điền, Phú Vinh, Đăng Xương, Hải Lăng là các hạng chính hộ có nộp các tiền sai dư, gạo cước, thường tân, tết.\",\n        \"score\": 0.05834030866519976\n      },\n      {\n        \"han_start\": 12,\n        \"han_end\": 12,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"順化選場期有許供下項例亦以寬民\",\n        \"vietnamese_text\": \"Còn huyện Minh Linh được miễn tiền tết.\",\n        \"score\": 0.0797661507241259\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 13,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"其旨供祠作式\",\n        \"vietnamese_text\": \"Tổng Bái Trời, khách hộ hạng quân mỗi người 1 quan, hạng dân mỗi người 6 tiền; tướng thần đình việc 6 tiền, xã trưởng đình việc ð tiền, con cháu quan viên bị đình ã tiền; tướng thần cũ nộp tiền ö tiển, xã trưởng cũ nộp tiền 5 tiển, hạng lão ð tiền, hạng cố 3 tiền, hạng bất cụ 3 tiền, hạng cùng 2 tiển, hạng đào không phải nộp.\",\n        \"score\": 0.009329922409081585\n      },\n      {\n        \"han_start\": 14,\n        \"han_end\": 14,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"本月日某府縣社官員各職本跡阮某供由本社下項\",\n        \"vietnamese_text\": \"Hai huyện Khang Lộc, Lệ Thuỷ được miễn tiền thường tân và tiển tết; về huyện Khang Lộc thì lệ lại hơi giảm, hạng dân nộp tiền 1 quan 4 tiền, hạng lão 1 quan 6 tiền, hạng quân 2 quan 1 tiền.\",\n        \"score\": 0.05724946839326223\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 1,
+          "vi_start": 0,
+          "vi_end": 2,
+          "han_text": "貫律陌脚米六陽嘗新節料五門世文莊長差餘係一長二門脚朱云阪嘗新節料五門卅文祠丞停差餘康一貞二門腳米士門嘗新節料孫五世文教坊差餘殘一貫五改腳米六陶免嘗新節將凌順化處惟香榮 唐尚富榮郡昌海陵等縣正容户項有初差餘脚朱嘗新節斜其加明灵縣只免節行",
+          "vietnamese_text": "Tiền công thiếu ở dân và các viên đều được miễn, tô ruộng thì tha cho một nửa về năm ấy. Xử Thuận Hoá, chính hộ thì tha cho tiển tết năm ấy, nếu xã ấy không có tiền tết thì tha cho tiền sai dư; khách hộ và dân phụ thì tha cho nửa phần sai dư. Xứ Quảng Nam, chính hộ, khách hộ, tiền tết được miễn cả.",
+          "score": 0.16520311834029902
+        },
+        {
+          "han_start": 2,
+          "han_end": 3,
+          "vi_start": 3,
+          "vi_end": 3,
+          "han_text": "沛益德客戶年次各成一長民项百名 六門將臣停戌六陌莊長停歲五門官員子停詠五門老頂成五門窮頂祿三門不具排三門赴項免獄",
+          "vietnamese_text": "Còn tù đồ đều được tha, duy người cố sát thì không theo lệ tha.",
+          "score": 0.005202427756643894
+        },
+        {
+          "han_start": 4,
+          "han_end": 4,
+          "vi_start": 4,
+          "vi_end": 4,
+          "han_text": "康祿麗水二縣免嘗新節料成支",
+          "vietnamese_text": "Lệ thu tiền sai dư ở xứ Thuận Hoá.",
+          "score": 0.08933671992467944
+        },
+        {
+          "han_start": 5,
+          "han_end": 8,
+          "vi_start": 5,
+          "vi_end": 5,
+          "han_text": "康祿臨例又稍減民項殘一支 四陽老頂一貫云門軍項二長兩南市奴止有全明学学祥信学香茶縣例免腳米弄嘗新節料侯二分议正户原納嘗新節料二礼米壯項六升半 老项五升半民项四升半官員七升首疏社七升首知田七升首另六升首優另六升半 將臣停五升首椽吏五亦首道士四升半首通史五升首",
+          "vietnamese_text": "Tuy trước có chức sắc cũng không được trừ, như chính hộ cai xã cũ, tiền sai dư 1 quan, tiển gạo cước 6 tiển, tiền thường tân và tiền tết 7 tiền; duyện lại cũ, tiền sai dư 1 quan, tiền gạo cước 6 tiển, tiền thường tân và tiền tết 5 tiền rưởi; đạo sĩ cũ, tiền sai dư 1 quan, tiền gạo cước 6 tiền, tiền thường tân và tiền tết 5 tiền; thông lại cũ, tiền sai dư 1 quan, tiền gạo cước 6 tiền, tiền thường tân và tiền tết 5 tiền rưỡi; tướng thần cũ, xã trưởng cũ, tiền sai dư đều 1 quan, tiền gạo cước 6 tiền, tiền thường tân và tiền tết 5 tiền rưỡi; trì điển cũ\", tiền sai dư 1 quan, tiển gạo cước 6 tiền, tiền thường tân và tiển tết 7 tiền, lại ty cũ”, tiền sai dư 1 quan, tiền gạo cước 6 tiền, tiển thường tân và tiền tết 6 tiền rưỡi; lính ưu cũ, tiền sai dư 1 quan, tiền gạo cước 6 tiền, tiền thường tân và tiền tết 6G tiền; tướng thần đình việc, tiền sai dư 1 quan 4 tiền, tiền gạo cước 6 tiền, tiền thường tân và tiền tết 5 tiền rưỡi; xã trưởng đình việc, tiền sai dư 1 quan 2 tiền, tiền gạo cước 6 tiền, tiền thường tân và tiển tết 5 tiền rưỡi; từ thừa đình việc, -tiển sai dư 1 quan 2 tiền, gạo cước 6 tiền, tiền thường tân và tiền tết 5 tiền, ty Giáo phường đình việc, tiền sai dư 1 quan 5 tiển, tiền gạo cước 6 tiển, miễn tiền thường tân và tiền tết.",
+          "score": 0.2650514531668614
+        },
+        {
+          "han_start": 9,
+          "han_end": 11,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "時臣云升旨社長常班六升社長停五升 不具四升長丁四升半於始令代納 每升卅文一季縢巨庚十五文二季共參拾文",
+          "vietnamese_text": "Xứ Thuận Hoá, chỉ 5 huyện Hương Trà, Quảng Điền, Phú Vinh, Đăng Xương, Hải Lăng là các hạng chính hộ có nộp các tiền sai dư, gạo cước, thường tân, tết.",
+          "score": 0.05834030866519976
+        },
+        {
+          "han_start": 12,
+          "han_end": 12,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "順化選場期有許供下項例亦以寬民",
+          "vietnamese_text": "Còn huyện Minh Linh được miễn tiền tết.",
+          "score": 0.0797661507241259
+        },
+        {
+          "han_start": 13,
+          "han_end": 13,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "其旨供祠作式",
+          "vietnamese_text": "Tổng Bái Trời, khách hộ hạng quân mỗi người 1 quan, hạng dân mỗi người 6 tiền; tướng thần đình việc 6 tiền, xã trưởng đình việc ð tiền, con cháu quan viên bị đình ã tiền; tướng thần cũ nộp tiền ö tiển, xã trưởng cũ nộp tiền 5 tiển, hạng lão ð tiền, hạng cố 3 tiền, hạng bất cụ 3 tiền, hạng cùng 2 tiển, hạng đào không phải nộp.",
+          "score": 0.009329922409081585
+        },
+        {
+          "han_start": 14,
+          "han_end": 14,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "本月日某府縣社官員各職本跡阮某供由本社下項",
+          "vietnamese_text": "Hai huyện Khang Lộc, Lệ Thuỷ được miễn tiền thường tân và tiển tết; về huyện Khang Lộc thì lệ lại hơi giảm, hạng dân nộp tiền 1 quan 4 tiền, hạng lão 1 quan 6 tiền, hạng quân 2 quan 1 tiền.",
+          "score": 0.05724946839326223
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 2969
+}

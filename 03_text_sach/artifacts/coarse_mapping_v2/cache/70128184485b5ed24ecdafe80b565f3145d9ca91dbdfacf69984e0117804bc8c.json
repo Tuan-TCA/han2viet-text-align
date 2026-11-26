@@ -1,0 +1,105 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "70128184485b5ed24ecdafe80b565f3145d9ca91dbdfacf69984e0117804bc8c",
+  "payload": {
+    "han": "七洞一尺七寸長三十他尺\n其從加線把之星好服之三四年始裂\n升華府花洲雷歲納绢稅八百九疋\n礼絹十一疋貯七十函通神善龍以上供孔以饋鎮官亦古意也\n順化錦緣匠不過十餘人照人故出四幅小差遂收入庫\n方綿線價拽九陌李綿絲價接六雨傳綿絲價我五陌亦年年令人代約錢\n其每年正旦知薄猶礼紅嚮一延自綣花歲惡替彻共十六\n每年生日礼同該法贈只有生日礼真金微一疋\n第十七台红方絲一足替五灵白方絲一足五定第廣南嘗有光結匠吳龍約差\n餘嘗新節料花光後四十六疋\n虞義義花步青好社芳尙皆搜另白市一千一百七十五\n富榮縣同寅楊鄉穹年魯生社出\n癸税市安留社出\n紫花黄绢白須\n富榮與浦源匠最工巧花樣疏密殊彩\n同養社婦人多好繡於衣領及衛美囊香茶夢廚川社人\n善藏馬尾帽亡作童圓彩夢將三山八室",
+    "vi": "Nay hỏi những người đi hái hương ở Thuận Hoá và Nghệ An mới biết thuyết cũ là không đúng.\nLại sách Bản thủo bị yếu nói rằng: Trầm hương cay đắng, tính ôn, các gỗ đều nổi. chỉ trầm hương là chìm, cho nên hay hạ khí mà sa đờm rãi, hay giang khí mà cũng hay thăng khí, hương khí vào tỳ, cho nên hay trị dược các khí mà điều hoà, sắc đen thể thơm, cho nên vào mạnh môn hữu thận”, ấm tỉnh tráng dương, hành khí chứ không thương khí, ôn trung không trợ hỏa, trị lòng bụng xói đau, cấm khẩu, độc ly, uất kết, tà khí, sợ gió lạnh, bệnh tê, bệnh ly.\nSắc đen mà chìm xuống nước là tốt; thơm ngọt thì tính bình, cay thì nóng.\nCó vân như đếm đa đa thì gọi là hoàng trầm, đen như sừng trâu thì gọi là giác trầm; nhấm mềm, gọt quăn, thì gọi là hoàng lạp trầm, thứ này khó được.\nNổi thì gọi là tiển hương; nửa chìm thì gọi là tiễn hương kế cốt hương; tuy chìm mà lòng rắn thì cũng không dùng được.\nTrộm ngờ kỳ nam hương tốt nhất tức là hoàng lạp trầm, hạng thứ là loại hoàng trầm.\nHuyện Hương Trà có phường làm nghề dệt hàng tơ ở sau Phủ Cam, phía Đông Nam sông Phú Xuân, về địa phận ba xã Sơn Điền, Dương Xuân, Vạn Xuân, chia làm ba ấp, mỗi ấp mười nhà, mỗi nhà 15 người thợ dệt.\nTổ xa đời của họ Nguyễn là người định Quảng Nam phủ Thăng Hoa, học dệt ở người Bắc khách, đời truyền nghề cho nhau.\nCác hàng vóc, sa, lĩnh, gấm, trừu cải hoa rất khéo.\nỞ Quảng Nam lụa thuế chỉ lấy ở hai phủ Thăng Hoa."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 0,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"七洞一尺七寸長三十他尺\",\n        \"vietnamese_text\": \"Nay hỏi những người đi hái hương ở Thuận Hoá và Nghệ An mới biết thuyết cũ là không đúng.\",\n        \"score\": 0.019959554518873688\n      },\n      {\n        \"han_start\": 1,\n        \"han_end\": 2,\n        \"vi_start\": 1,\n        \"vi_end\": 1,\n        \"han_text\": \"其從加線把之星好服之三四年始裂 升華府花洲雷歲納绢稅八百九疋\",\n        \"vietnamese_text\": \"Lại sách Bản thủo bị yếu nói rằng: Trầm hương cay đắng, tính ôn, các gỗ đều nổi.\",\n        \"score\": 0.04629695499853767\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 5,\n        \"vi_start\": 2,\n        \"vi_end\": 2,\n        \"han_text\": \"礼絹十一疋貯七十函通神善龍以上供孔以饋鎮官亦古意也 順化錦緣匠不過十餘人照人故出四幅小差遂收入庫 方綿線價拽九陌李綿絲價接六雨傳綿絲價我五陌亦年年令人代約錢\",\n        \"vietnamese_text\": \"chỉ trầm hương là chìm, cho nên hay hạ khí mà sa đờm rãi, hay giang khí mà cũng hay thăng khí, hương khí vào tỳ, cho nên hay trị dược các khí mà điều hoà, sắc đen thể thơm, cho nên vào mạnh môn hữu thận”, ấm tỉnh tráng dương, hành khí chứ không thương khí, ôn trung không trợ hỏa, trị lòng bụng xói đau, cấm khẩu, độc ly, uất kết, tà khí, sợ gió lạnh, bệnh tê, bệnh ly.\",\n        \"score\": 0.20354347655179286\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 6,\n        \"vi_start\": 3,\n        \"vi_end\": 3,\n        \"han_text\": \"其每年正旦知薄猶礼紅嚮一延自綣花歲惡替彻共十六\",\n        \"vietnamese_text\": \"Sắc đen mà chìm xuống nước là tốt; thơm ngọt thì tính bình, cay thì nóng.\",\n        \"score\": 0.03918806334010411\n      },\n      {\n        \"han_start\": 7,\n        \"han_end\": 7,\n        \"vi_start\": 4,\n        \"vi_end\": 4,\n        \"han_text\": \"每年生日礼同該法贈只有生日礼真金微一疋\",\n        \"vietnamese_text\": \"Có vân như đếm đa đa thì gọi là hoàng trầm, đen như sừng trâu thì gọi là giác trầm; nhấm mềm, gọt quăn, thì gọi là hoàng lạp trầm, thứ này khó được.\",\n        \"score\": -0.019022400379212295\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 9,\n        \"vi_start\": 5,\n        \"vi_end\": 6,\n        \"han_text\": \"第十七台红方絲一足替五灵白方絲一足五定第廣南嘗有光結匠吳龍約差 餘嘗新節料花光後四十六疋\",\n        \"vietnamese_text\": \"Nổi thì gọi là tiển hương; nửa chìm thì gọi là tiễn hương kế cốt hương; tuy chìm mà lòng rắn thì cũng không dùng được. Trộm ngờ kỳ nam hương tốt nhất tức là hoàng lạp trầm, hạng thứ là loại hoàng trầm.\",\n        \"score\": 0.11678500029687201\n      },\n      {\n        \"han_start\": 10,\n        \"han_end\": 12,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"虞義義花步青好社芳尙皆搜另白市一千一百七十五 富榮縣同寅楊鄉穹年魯生社出 癸税市安留社出\",\n        \"vietnamese_text\": \"Huyện Hương Trà có phường làm nghề dệt hàng tơ ở sau Phủ Cam, phía Đông Nam sông Phú Xuân, về địa phận ba xã Sơn Điền, Dương Xuân, Vạn Xuân, chia làm ba ấp, mỗi ấp mười nhà, mỗi nhà 15 người thợ dệt.\",\n        \"score\": 0.20766437366900078\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 15,\n        \"vi_start\": 8,\n        \"vi_end\": 9,\n        \"han_text\": \"紫花黄绢白須 富榮與浦源匠最工巧花樣疏密殊彩 同養社婦人多好繡於衣領及衛美囊香茶夢廚川社人\",\n        \"vietnamese_text\": \"Tổ xa đời của họ Nguyễn là người định Quảng Nam phủ Thăng Hoa, học dệt ở người Bắc khách, đời truyền nghề cho nhau. Các hàng vóc, sa, lĩnh, gấm, trừu cải hoa rất khéo.\",\n        \"score\": 0.16897087592798773\n      },\n      {\n        \"han_start\": 16,\n        \"han_end\": 16,\n        \"vi_start\": 10,\n        \"vi_end\": 10,\n        \"han_text\": \"善藏馬尾帽亡作童圓彩夢將三山八室\",\n        \"vietnamese_text\": \"Ở Quảng Nam lụa thuế chỉ lấy ở hai phủ Thăng Hoa.\",\n        \"score\": -0.062024361422150676\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 0,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "七洞一尺七寸長三十他尺",
+          "vietnamese_text": "Nay hỏi những người đi hái hương ở Thuận Hoá và Nghệ An mới biết thuyết cũ là không đúng.",
+          "score": 0.019959554518873688
+        },
+        {
+          "han_start": 1,
+          "han_end": 2,
+          "vi_start": 1,
+          "vi_end": 1,
+          "han_text": "其從加線把之星好服之三四年始裂 升華府花洲雷歲納绢稅八百九疋",
+          "vietnamese_text": "Lại sách Bản thủo bị yếu nói rằng: Trầm hương cay đắng, tính ôn, các gỗ đều nổi.",
+          "score": 0.04629695499853767
+        },
+        {
+          "han_start": 3,
+          "han_end": 5,
+          "vi_start": 2,
+          "vi_end": 2,
+          "han_text": "礼絹十一疋貯七十函通神善龍以上供孔以饋鎮官亦古意也 順化錦緣匠不過十餘人照人故出四幅小差遂收入庫 方綿線價拽九陌李綿絲價接六雨傳綿絲價我五陌亦年年令人代約錢",
+          "vietnamese_text": "chỉ trầm hương là chìm, cho nên hay hạ khí mà sa đờm rãi, hay giang khí mà cũng hay thăng khí, hương khí vào tỳ, cho nên hay trị dược các khí mà điều hoà, sắc đen thể thơm, cho nên vào mạnh môn hữu thận”, ấm tỉnh tráng dương, hành khí chứ không thương khí, ôn trung không trợ hỏa, trị lòng bụng xói đau, cấm khẩu, độc ly, uất kết, tà khí, sợ gió lạnh, bệnh tê, bệnh ly.",
+          "score": 0.20354347655179286
+        },
+        {
+          "han_start": 6,
+          "han_end": 6,
+          "vi_start": 3,
+          "vi_end": 3,
+          "han_text": "其每年正旦知薄猶礼紅嚮一延自綣花歲惡替彻共十六",
+          "vietnamese_text": "Sắc đen mà chìm xuống nước là tốt; thơm ngọt thì tính bình, cay thì nóng.",
+          "score": 0.03918806334010411
+        },
+        {
+          "han_start": 7,
+          "han_end": 7,
+          "vi_start": 4,
+          "vi_end": 4,
+          "han_text": "每年生日礼同該法贈只有生日礼真金微一疋",
+          "vietnamese_text": "Có vân như đếm đa đa thì gọi là hoàng trầm, đen như sừng trâu thì gọi là giác trầm; nhấm mềm, gọt quăn, thì gọi là hoàng lạp trầm, thứ này khó được.",
+          "score": -0.019022400379212295
+        },
+        {
+          "han_start": 8,
+          "han_end": 9,
+          "vi_start": 5,
+          "vi_end": 6,
+          "han_text": "第十七台红方絲一足替五灵白方絲一足五定第廣南嘗有光結匠吳龍約差 餘嘗新節料花光後四十六疋",
+          "vietnamese_text": "Nổi thì gọi là tiển hương; nửa chìm thì gọi là tiễn hương kế cốt hương; tuy chìm mà lòng rắn thì cũng không dùng được. Trộm ngờ kỳ nam hương tốt nhất tức là hoàng lạp trầm, hạng thứ là loại hoàng trầm.",
+          "score": 0.11678500029687201
+        },
+        {
+          "han_start": 10,
+          "han_end": 12,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "虞義義花步青好社芳尙皆搜另白市一千一百七十五 富榮縣同寅楊鄉穹年魯生社出 癸税市安留社出",
+          "vietnamese_text": "Huyện Hương Trà có phường làm nghề dệt hàng tơ ở sau Phủ Cam, phía Đông Nam sông Phú Xuân, về địa phận ba xã Sơn Điền, Dương Xuân, Vạn Xuân, chia làm ba ấp, mỗi ấp mười nhà, mỗi nhà 15 người thợ dệt.",
+          "score": 0.20766437366900078
+        },
+        {
+          "han_start": 13,
+          "han_end": 15,
+          "vi_start": 8,
+          "vi_end": 9,
+          "han_text": "紫花黄绢白須 富榮與浦源匠最工巧花樣疏密殊彩 同養社婦人多好繡於衣領及衛美囊香茶夢廚川社人",
+          "vietnamese_text": "Tổ xa đời của họ Nguyễn là người định Quảng Nam phủ Thăng Hoa, học dệt ở người Bắc khách, đời truyền nghề cho nhau. Các hàng vóc, sa, lĩnh, gấm, trừu cải hoa rất khéo.",
+          "score": 0.16897087592798773
+        },
+        {
+          "han_start": 16,
+          "han_end": 16,
+          "vi_start": 10,
+          "vi_end": 10,
+          "han_text": "善藏馬尾帽亡作童圓彩夢將三山八室",
+          "vietnamese_text": "Ở Quảng Nam lụa thuế chỉ lấy ở hai phủ Thăng Hoa.",
+          "score": -0.062024361422150676
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 6047
+}

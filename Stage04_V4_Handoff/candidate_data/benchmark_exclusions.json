@@ -1,0 +1,44 @@
+{
+  "excluded_pages": {
+    "Cap_01": [
+      1,
+      2,
+      3,
+      4,
+      21,
+      22,
+      30,
+      31,
+      38,
+      39,
+      40,
+      41,
+      53
+    ],
+    "Cap_02": [
+      13,
+      14,
+      15,
+      16,
+      20,
+      21,
+      35,
+      36,
+      51
+    ]
+  },
+  "reasons": {
+    "Cap_01": [
+      "1-2: Silver/Stage04 V4 development pilot",
+      "3-4: page3/4 source continuation development",
+      "21-22 and 40-41: Stage03 fresh context-size comparisons",
+      "30-31, 38-39, 53: Stage03 frozen held-out windows"
+    ],
+    "Cap_02": [
+      "13-14 and 15-16: Stage03 frozen held-out windows",
+      "20-21 and 35-36: Stage03 fresh context-size comparisons",
+      "51: Stage03 frozen held-out window"
+    ]
+  },
+  "warning": "This exclusion list is based on the published Stage03/Stage04 reports. Agent must inspect all actual Stage04 requests, caches, manifests and experiment logs before confirming a window is genuinely unseen."
+}

@@ -1,0 +1,96 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "852b921b2a2a80427290f8d1cbd6469afe1c6124641709cdb4358b5ee5fe7215",
+  "payload": {
+    "han": "榜木匠作三隊兵服用押作差使惟鑄成鏡內心而已\n順化有鑄匠司二隊谷三十人\n有鑄坊在富春河南岸皆雜居\n僑寓亦亡誇巍興請壽擔銅籀燈樂灯臺其策巫其木匠隊\n永度已酉年始立觀一百人免差sn餘孫并米興搜役屬知因家官歲納色米十歲\n福在鑄場漸之加至百九十人\n富榮鼎網沈社以鉛作鈞鐘斧浙為業\n弟材社善作鑰綜秩綜安留社生磨器柳野梨社善作船蓬及虛幅\n阮氏有內錫匠司另十人\n其匠顏巧錫價亦賦所作美盤國金刻層花彩二件共錢四百但色欠白耳\n前阮氏每年生日礼各司匠官並有賀孫身二有或五\n預鑄匠司本部務一刻大垂覽諭一口中座龍撥一口燈柱諭每船一株誇匠司京人五酒大唾觀諭一口中唾護餘一口燈柱爺一株塵南會芬龍魏調銅靈洋譜販到乎辰以千夢計\n客又回清河廟每得一倍之利\n大明宣分辰蜜金尋籍巧銅香炉有刻宣德聚字者皆光潤滑瑩洞絕無續燁",
+    "vi": "Công việc làm cũng như trên.\nĐịnh súng thì thợ rèn làm, cò máy thì thợ bạc làm, tai súng thì thợ tai làm, báng súng thì thợ mộc làm, quân ba đội chỉ đúc lòng súng mà thôi.\nThuận Hoá có hai đội ty thợ đúc, đều 30 người.\nCó phường đúc ở bờ nam sông Phú Xuân, đều là người kiều ngụ ở lộn, cũng biết đúc súng đồng và vạc, chảo, nổi, xanh, cây đẻn, cây nến, mọi vật.\nĐội than gỗ thì mới lập từ năm Ký Dậu đời Vĩnh Khánh, ngạch có 100 người, được miễn tiền gạo sai dư và sưu dịch, thuộc quan tri Đồ gia cai quản, hàng năm nộp thuế than ở trường đúc, dần dần thêm lên đến 195 người.\nXã Võng Trì huyện Phú Vang lấy đúc cuốc, mai, rìu, búa làm nghiệp; xã Mậu Tài khéo làm dây thau, dây thép; xã An Lưu khéo mài khí giới; xã Dã Lê khéo làm Họ Nguyễn có ty thợ thiếc nội gồm 10 người, thợ rất khéo.\nGiá thiếc cũng rẻ, làm hai cái hộp đựng trầu tròn, chạm vẽ hoa văn, cộng tiền cổ là 4 tiền, nhưng sắc kém sáng trắng.\nHọ Nguyễn trước mỗi năm đến ngày lễ sinh nhật các quan ty thợ đều có tiền mừng, hoặc 2 tiển, hoặc 5 tiền, duy có ty thợ đúc, thợ bản bộ thì tiển 1 quan, ống nhổ thau lớn 1 chiếc, ống nhổ thau vừa 1 chiếc cây đèn thau 1 cây, thợ người kinh thì mỗi người õ tiền, ống nhổ thau lớn 1 chiếc, ống nhổ thau vừa 1 chiếc, cây đèn thau vừa 1 cây.\nPhố Hội An xứ Quảng Nam, nổi đồng mâm đồng, do tàu Tây phương chở đến bán, bình thời kể có hàng nghìn hàng vạn, người Bắc khách lại buôn về phố Thanh Hà, thường được lời gấp đôi.\nThời Tuyên Đức nhà Đại Minh, đề đạc chế rất tỉnh xảo."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 0,\n        \"vi_start\": 0,\n        \"vi_end\": 1,\n        \"han_text\": \"榜木匠作三隊兵服用押作差使惟鑄成鏡內心而已\",\n        \"vietnamese_text\": \"Công việc làm cũng như trên. Định súng thì thợ rèn làm, cò máy thì thợ bạc làm, tai súng thì thợ tai làm, báng súng thì thợ mộc làm, quân ba đội chỉ đúc lòng súng mà thôi.\",\n        \"score\": 0.0946037371928778\n      },\n      {\n        \"han_start\": 1,\n        \"han_end\": 1,\n        \"vi_start\": 2,\n        \"vi_end\": 2,\n        \"han_text\": \"順化有鑄匠司二隊谷三十人\",\n        \"vietnamese_text\": \"Thuận Hoá có hai đội ty thợ đúc, đều 30 người.\",\n        \"score\": 0.15816698669151535\n      },\n      {\n        \"han_start\": 2,\n        \"han_end\": 3,\n        \"vi_start\": 3,\n        \"vi_end\": 3,\n        \"han_text\": \"有鑄坊在富春河南岸皆雜居 僑寓亦亡誇巍興請壽擔銅籀燈樂灯臺其策巫其木匠隊\",\n        \"vietnamese_text\": \"Có phường đúc ở bờ nam sông Phú Xuân, đều là người kiều ngụ ở lộn, cũng biết đúc súng đồng và vạc, chảo, nổi, xanh, cây đẻn, cây nến, mọi vật.\",\n        \"score\": 0.32452022989706336\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 5,\n        \"vi_start\": 4,\n        \"vi_end\": 4,\n        \"han_text\": \"永度已酉年始立觀一百人免差sn餘孫并米興搜役屬知因家官歲納色米十歲 福在鑄場漸之加至百九十人\",\n        \"vietnamese_text\": \"Đội than gỗ thì mới lập từ năm Ký Dậu đời Vĩnh Khánh, ngạch có 100 người, được miễn tiền gạo sai dư và sưu dịch, thuộc quan tri Đồ gia cai quản, hàng năm nộp thuế than ở trường đúc, dần dần thêm lên đến 195 người.\",\n        \"score\": 0.19898844215908393\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 8,\n        \"vi_start\": 5,\n        \"vi_end\": 5,\n        \"han_text\": \"富榮鼎網沈社以鉛作鈞鐘斧浙為業 弟材社善作鑰綜秩綜安留社生磨器柳野梨社善作船蓬及虛幅 阮氏有內錫匠司另十人\",\n        \"vietnamese_text\": \"Xã Võng Trì huyện Phú Vang lấy đúc cuốc, mai, rìu, búa làm nghiệp; xã Mậu Tài khéo làm dây thau, dây thép; xã An Lưu khéo mài khí giới; xã Dã Lê khéo làm Họ Nguyễn có ty thợ thiếc nội gồm 10 người, thợ rất khéo.\",\n        \"score\": 0.2927010448558898\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 9,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"其匠顏巧錫價亦賦所作美盤國金刻層花彩二件共錢四百但色欠白耳\",\n        \"vietnamese_text\": \"Giá thiếc cũng rẻ, làm hai cái hộp đựng trầu tròn, chạm vẽ hoa văn, cộng tiền cổ là 4 tiền, nhưng sắc kém sáng trắng.\",\n        \"score\": 0.35136774671926824\n      },\n      {\n        \"han_start\": 10,\n        \"han_end\": 12,\n        \"vi_start\": 7,\n        \"vi_end\": 8,\n        \"han_text\": \"前阮氏每年生日礼各司匠官並有賀孫身二有或五 預鑄匠司本部務一刻大垂覽諭一口中座龍撥一口燈柱諭每船一株誇匠司京人五酒大唾觀諭一口中唾護餘一口燈柱爺一株塵南會芬龍魏調銅靈洋譜販到乎辰以千夢計 客又回清河廟每得一倍之利\",\n        \"vietnamese_text\": \"Họ Nguyễn trước mỗi năm đến ngày lễ sinh nhật các quan ty thợ đều có tiền mừng, hoặc 2 tiển, hoặc 5 tiền, duy có ty thợ đúc, thợ bản bộ thì tiển 1 quan, ống nhổ thau lớn 1 chiếc, ống nhổ thau vừa 1 chiếc cây đèn thau 1 cây, thợ người kinh thì mỗi người õ tiền, ống nhổ thau lớn 1 chiếc, ống nhổ thau vừa 1 chiếc, cây đèn thau vừa 1 cây. Phố Hội An xứ Quảng Nam, nổi đồng mâm đồng, do tàu Tây phương chở đến bán, bình thời kể có hàng nghìn hàng vạn, người Bắc khách lại buôn về phố Thanh Hà, thường được lời gấp đôi.\",\n        \"score\": 0.44475423234239236\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 13,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"大明宣分辰蜜金尋籍巧銅香炉有刻宣德聚字者皆光潤滑瑩洞絕無續燁\",\n        \"vietnamese_text\": \"Thời Tuyên Đức nhà Đại Minh, đề đạc chế rất tỉnh xảo.\",\n        \"score\": 0.089723073279978\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 0,
+          "vi_start": 0,
+          "vi_end": 1,
+          "han_text": "榜木匠作三隊兵服用押作差使惟鑄成鏡內心而已",
+          "vietnamese_text": "Công việc làm cũng như trên. Định súng thì thợ rèn làm, cò máy thì thợ bạc làm, tai súng thì thợ tai làm, báng súng thì thợ mộc làm, quân ba đội chỉ đúc lòng súng mà thôi.",
+          "score": 0.0946037371928778
+        },
+        {
+          "han_start": 1,
+          "han_end": 1,
+          "vi_start": 2,
+          "vi_end": 2,
+          "han_text": "順化有鑄匠司二隊谷三十人",
+          "vietnamese_text": "Thuận Hoá có hai đội ty thợ đúc, đều 30 người.",
+          "score": 0.15816698669151535
+        },
+        {
+          "han_start": 2,
+          "han_end": 3,
+          "vi_start": 3,
+          "vi_end": 3,
+          "han_text": "有鑄坊在富春河南岸皆雜居 僑寓亦亡誇巍興請壽擔銅籀燈樂灯臺其策巫其木匠隊",
+          "vietnamese_text": "Có phường đúc ở bờ nam sông Phú Xuân, đều là người kiều ngụ ở lộn, cũng biết đúc súng đồng và vạc, chảo, nổi, xanh, cây đẻn, cây nến, mọi vật.",
+          "score": 0.32452022989706336
+        },
+        {
+          "han_start": 4,
+          "han_end": 5,
+          "vi_start": 4,
+          "vi_end": 4,
+          "han_text": "永度已酉年始立觀一百人免差sn餘孫并米興搜役屬知因家官歲納色米十歲 福在鑄場漸之加至百九十人",
+          "vietnamese_text": "Đội than gỗ thì mới lập từ năm Ký Dậu đời Vĩnh Khánh, ngạch có 100 người, được miễn tiền gạo sai dư và sưu dịch, thuộc quan tri Đồ gia cai quản, hàng năm nộp thuế than ở trường đúc, dần dần thêm lên đến 195 người.",
+          "score": 0.19898844215908393
+        },
+        {
+          "han_start": 6,
+          "han_end": 8,
+          "vi_start": 5,
+          "vi_end": 5,
+          "han_text": "富榮鼎網沈社以鉛作鈞鐘斧浙為業 弟材社善作鑰綜秩綜安留社生磨器柳野梨社善作船蓬及虛幅 阮氏有內錫匠司另十人",
+          "vietnamese_text": "Xã Võng Trì huyện Phú Vang lấy đúc cuốc, mai, rìu, búa làm nghiệp; xã Mậu Tài khéo làm dây thau, dây thép; xã An Lưu khéo mài khí giới; xã Dã Lê khéo làm Họ Nguyễn có ty thợ thiếc nội gồm 10 người, thợ rất khéo.",
+          "score": 0.2927010448558898
+        },
+        {
+          "han_start": 9,
+          "han_end": 9,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "其匠顏巧錫價亦賦所作美盤國金刻層花彩二件共錢四百但色欠白耳",
+          "vietnamese_text": "Giá thiếc cũng rẻ, làm hai cái hộp đựng trầu tròn, chạm vẽ hoa văn, cộng tiền cổ là 4 tiền, nhưng sắc kém sáng trắng.",
+          "score": 0.35136774671926824
+        },
+        {
+          "han_start": 10,
+          "han_end": 12,
+          "vi_start": 7,
+          "vi_end": 8,
+          "han_text": "前阮氏每年生日礼各司匠官並有賀孫身二有或五 預鑄匠司本部務一刻大垂覽諭一口中座龍撥一口燈柱諭每船一株誇匠司京人五酒大唾觀諭一口中唾護餘一口燈柱爺一株塵南會芬龍魏調銅靈洋譜販到乎辰以千夢計 客又回清河廟每得一倍之利",
+          "vietnamese_text": "Họ Nguyễn trước mỗi năm đến ngày lễ sinh nhật các quan ty thợ đều có tiền mừng, hoặc 2 tiển, hoặc 5 tiền, duy có ty thợ đúc, thợ bản bộ thì tiển 1 quan, ống nhổ thau lớn 1 chiếc, ống nhổ thau vừa 1 chiếc cây đèn thau 1 cây, thợ người kinh thì mỗi người õ tiền, ống nhổ thau lớn 1 chiếc, ống nhổ thau vừa 1 chiếc, cây đèn thau vừa 1 cây. Phố Hội An xứ Quảng Nam, nổi đồng mâm đồng, do tàu Tây phương chở đến bán, bình thời kể có hàng nghìn hàng vạn, người Bắc khách lại buôn về phố Thanh Hà, thường được lời gấp đôi.",
+          "score": 0.44475423234239236
+        },
+        {
+          "han_start": 13,
+          "han_end": 13,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "大明宣分辰蜜金尋籍巧銅香炉有刻宣德聚字者皆光潤滑瑩洞絕無續燁",
+          "vietnamese_text": "Thời Tuyên Đức nhà Đại Minh, đề đạc chế rất tỉnh xảo.",
+          "score": 0.089723073279978
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 5188
+}

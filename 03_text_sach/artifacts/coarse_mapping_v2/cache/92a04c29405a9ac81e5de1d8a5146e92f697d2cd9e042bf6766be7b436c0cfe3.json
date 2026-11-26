@@ -1,0 +1,87 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "92a04c29405a9ac81e5de1d8a5146e92f697d2cd9e042bf6766be7b436c0cfe3",
+  "payload": {
+    "han": "廣南營新正庫註微田祖場每年三月谷官屬有常新孔該得記錄人每人米八色\n乾掃四十圩酒密各四十埕鬱錢二十四貞淚案知薄七包孫二十亥勾稽每人米五色\n擇十六兌該合以下無密每人米三色\n謝八亥首合每人米十色謝四定司吏每人米三色裁六貴\n此一礼亦得朱一百八十二色孫四百六十二貫\n至六月期有嘗新礼記錄米二十包\n乾榔一百坟酒密一百埕替拽六十宗紅花二色替錢十定\n共材七十定議案知零米十四色各礼替礼五十八貞將臣之同句替差未十包礼替許二十三定誤令末六色乾櫛酒習我十六宗首令米三色乾神酒替八\n六穴同之共米十色酒五十埋書十定\n此礼亦得米二百五十四色我七百三十九定\n其吏部官侯微官亦有礼相同密替錢三十宗\n至如塵必祀錄礼不遇未三色酒密名十埕奇傳二宗\n鄭垂府以御替密礼故亦同之\n而仁府亦然已记崇揭寶二礼\n其徐則無名府易田祖陽亦無之\n至如年節礼亦惟廣南嘗官吏為多\n正旦礼銀二十五家五用八八八星書八五百八十八六三四三十六文美辦十so",
+    "vi": "Người Thăng Hoa, Điện Bàn biết dệt vải lụa vóc đoạn lĩnh là, hoa màu khéo đẹp chẳng kém Quảng Đông, ruộng đồng rộng rãi, gạo.lúa tốt đẹp, trầm hương, tốc hương, sừng tê, ngà voi, vàng bạc, đổi mỗi, trai ốc, bông, sáp, đường, mật, dầu sơn, cau, hồ tiêu, cá muối, gỗ lạt, đều sản xuất ở đấy.\nBa phủ Quy Nhơn, Quảng Ngãi, Gia Định thì thóc gạo không xiết kể, khách Bắc buôn bán quen khen bao không ngớt.\nCác xứ Hòn Lãnh, Thu Bồn, Phường Tây thuộc về hai phủ Thăng, Điện sản voi như trâu ngựa, nhà dân đều có chăn nuôi.\nQuy Nhơn và Quảng Ngãi cũng có.\nCác xứ Cò Đen () Kẻ Dã (} phủ Quy Nhơn thì sản xuất ngựa, ngựa sinh ở trong hang núi thành đàn hàng trăm hàng nghìn con, có con cao tới 2 thước rưỡi và 3 thước trở lên.\nNgười địa phương tập dạy cho thồ chở hàng hoá sang phủ Phú Yên.\nCho đến đàn bà buôn bán đi chợ hay đi xa cũng cưỡi ngựa là thường.\nDinh Quảng Nam cai trưng trường tô ruộng kho Tân An, mỗi năm cứ tháng 3 thì các quan thuộc có lễ thường tân, cai bạ ký lục mỗi người gạo 8 bao, cau khô 40 vò, rượu và mật đều 40 chĩnh, thay tiền 24 quan; cai ấn trì bạ mỗi người gạo 7 bao, tiền 24 quan; câu kê mỗi người gạo 5 bao, tiển 16 quan; cai hợp trở xuống không có mật, mỗi người gạo 3 bao, tiền 8 quan; thủ hợp mỗi người gạo 2 bao, tiền 4 quan, ty lại mỗi người gạo 3 bao, tiển 6 quan.\nMột lễ ấy cũng được gạo 182 bao, tiền 462 quan.\nĐến kỳ tháng 6 lại có lễ thường tân, ký lục gạo 20 bao, cau khô 100 vò, rượu và mật đều 100 chĩnh, thay tiền 60 quan, hồng hoa 2 bao, thay tiển 10 quan, cộng tiền 70 quan; cai án, tri bạ gạo 14 bao, các lễ thay tiền 58 quan; tướng thần, ty lại, câu kê, đều gạo 10 bao, các lễ thay tiền 33 quan; cai hợp gạo 6 bao, cau khô và rượu, thay tiền 16 quan; thủ hợp gạo 3 bao, cau khô và rượu thay tiền 6 quan, ty lại cộng gạo 10 bao, rượu ð0 chĩnh, thay tiền 10 quan."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 1,\n        \"vi_start\": 0,\n        \"vi_end\": 1,\n        \"han_text\": \"廣南營新正庫註微田祖場每年三月谷官屬有常新孔該得記錄人每人米八色 乾掃四十圩酒密各四十埕鬱錢二十四貞淚案知薄七包孫二十亥勾稽每人米五色\",\n        \"vietnamese_text\": \"Người Thăng Hoa, Điện Bàn biết dệt vải lụa vóc đoạn lĩnh là, hoa màu khéo đẹp chẳng kém Quảng Đông, ruộng đồng rộng rãi, gạo. lúa tốt đẹp, trầm hương, tốc hương, sừng tê, ngà voi, vàng bạc, đổi mỗi, trai ốc, bông, sáp, đường, mật, dầu sơn, cau, hồ tiêu, cá muối, gỗ lạt, đều sản xuất ở đấy.\",\n        \"score\": 0.13773644279012573\n      },\n      {\n        \"han_start\": 2,\n        \"han_end\": 3,\n        \"vi_start\": 2,\n        \"vi_end\": 3,\n        \"han_text\": \"擇十六兌該合以下無密每人米三色 謝八亥首合每人米十色謝四定司吏每人米三色裁六貴\",\n        \"vietnamese_text\": \"Ba phủ Quy Nhơn, Quảng Ngãi, Gia Định thì thóc gạo không xiết kể, khách Bắc buôn bán quen khen bao không ngớt. Các xứ Hòn Lãnh, Thu Bồn, Phường Tây thuộc về hai phủ Thăng, Điện sản voi như trâu ngựa, nhà dân đều có chăn nuôi.\",\n        \"score\": 0.08724947950853983\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 4,\n        \"vi_start\": 4,\n        \"vi_end\": 5,\n        \"han_text\": \"此一礼亦得朱一百八十二色孫四百六十二貫\",\n        \"vietnamese_text\": \"Quy Nhơn và Quảng Ngãi cũng có. Các xứ Cò Đen () Kẻ Dã (} phủ Quy Nhơn thì sản xuất ngựa, ngựa sinh ở trong hang núi thành đàn hàng trăm hàng nghìn con, có con cao tới 2 thước rưỡi và 3 thước trở lên.\",\n        \"score\": 0.06871189381681678\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 5,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"至六月期有嘗新礼記錄米二十包\",\n        \"vietnamese_text\": \"Người địa phương tập dạy cho thồ chở hàng hoá sang phủ Phú Yên.\",\n        \"score\": 0.06351293462093702\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 8,\n        \"vi_start\": 7,\n        \"vi_end\": 8,\n        \"han_text\": \"乾榔一百坟酒密一百埕替拽六十宗紅花二色替錢十定 共材七十定議案知零米十四色各礼替礼五十八貞將臣之同句替差未十包礼替許二十三定誤令末六色乾櫛酒習我十六宗首令米三色乾神酒替八 六穴同之共米十色酒五十埋書十定\",\n        \"vietnamese_text\": \"Cho đến đàn bà buôn bán đi chợ hay đi xa cũng cưỡi ngựa là thường. Dinh Quảng Nam cai trưng trường tô ruộng kho Tân An, mỗi năm cứ tháng 3 thì các quan thuộc có lễ thường tân, cai bạ ký lục mỗi người gạo 8 bao, cau khô 40 vò, rượu và mật đều 40 chĩnh, thay tiền 24 quan; cai ấn trì bạ mỗi người gạo 7 bao, tiền 24 quan; câu kê mỗi người gạo 5 bao, tiển 16 quan; cai hợp trở xuống không có mật, mỗi người gạo 3 bao, tiền 8 quan; thủ hợp mỗi người gạo 2 bao, tiền 4 quan, ty lại mỗi người gạo 3 bao, tiển 6 quan.\",\n        \"score\": 0.20170947238316164\n      },\n      {\n        \"han_start\": 9,\n        \"han_end\": 12,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"此礼亦得米二百五十四色我七百三十九定 其吏部官侯微官亦有礼相同密替錢三十宗 至如塵必祀錄礼不遇未三色酒密名十埕奇傳二宗 鄭垂府以御替密礼故亦同之\",\n        \"vietnamese_text\": \"Một lễ ấy cũng được gạo 182 bao, tiền 462 quan.\",\n        \"score\": 0.03801945376963303\n      },\n      {\n        \"han_start\": 13,\n        \"han_end\": 16,\n        \"vi_start\": 10,\n        \"vi_end\": 10,\n        \"han_text\": \"而仁府亦然已记崇揭寶二礼 其徐則無名府易田祖陽亦無之 至如年節礼亦惟廣南嘗官吏為多 正旦礼銀二十五家五用八八八星書八五百八十八六三四三十六文美辦十so\",\n        \"vietnamese_text\": \"Đến kỳ tháng 6 lại có lễ thường tân, ký lục gạo 20 bao, cau khô 100 vò, rượu và mật đều 100 chĩnh, thay tiền 60 quan, hồng hoa 2 bao, thay tiển 10 quan, cộng tiền 70 quan; cai án, tri bạ gạo 14 bao, các lễ thay tiền 58 quan; tướng thần, ty lại, câu kê, đều gạo 10 bao, các lễ thay tiền 33 quan; cai hợp gạo 6 bao, cau khô và rượu, thay tiền 16 quan; thủ hợp gạo 3 bao, cau khô và rượu thay tiền 6 quan, ty lại cộng gạo 10 bao, rượu ð0 chĩnh, thay tiền 10 quan.\",\n        \"score\": 0.11346971418485005\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 1,
+          "vi_start": 0,
+          "vi_end": 1,
+          "han_text": "廣南營新正庫註微田祖場每年三月谷官屬有常新孔該得記錄人每人米八色 乾掃四十圩酒密各四十埕鬱錢二十四貞淚案知薄七包孫二十亥勾稽每人米五色",
+          "vietnamese_text": "Người Thăng Hoa, Điện Bàn biết dệt vải lụa vóc đoạn lĩnh là, hoa màu khéo đẹp chẳng kém Quảng Đông, ruộng đồng rộng rãi, gạo. lúa tốt đẹp, trầm hương, tốc hương, sừng tê, ngà voi, vàng bạc, đổi mỗi, trai ốc, bông, sáp, đường, mật, dầu sơn, cau, hồ tiêu, cá muối, gỗ lạt, đều sản xuất ở đấy.",
+          "score": 0.13773644279012573
+        },
+        {
+          "han_start": 2,
+          "han_end": 3,
+          "vi_start": 2,
+          "vi_end": 3,
+          "han_text": "擇十六兌該合以下無密每人米三色 謝八亥首合每人米十色謝四定司吏每人米三色裁六貴",
+          "vietnamese_text": "Ba phủ Quy Nhơn, Quảng Ngãi, Gia Định thì thóc gạo không xiết kể, khách Bắc buôn bán quen khen bao không ngớt. Các xứ Hòn Lãnh, Thu Bồn, Phường Tây thuộc về hai phủ Thăng, Điện sản voi như trâu ngựa, nhà dân đều có chăn nuôi.",
+          "score": 0.08724947950853983
+        },
+        {
+          "han_start": 4,
+          "han_end": 4,
+          "vi_start": 4,
+          "vi_end": 5,
+          "han_text": "此一礼亦得朱一百八十二色孫四百六十二貫",
+          "vietnamese_text": "Quy Nhơn và Quảng Ngãi cũng có. Các xứ Cò Đen () Kẻ Dã (} phủ Quy Nhơn thì sản xuất ngựa, ngựa sinh ở trong hang núi thành đàn hàng trăm hàng nghìn con, có con cao tới 2 thước rưỡi và 3 thước trở lên.",
+          "score": 0.06871189381681678
+        },
+        {
+          "han_start": 5,
+          "han_end": 5,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "至六月期有嘗新礼記錄米二十包",
+          "vietnamese_text": "Người địa phương tập dạy cho thồ chở hàng hoá sang phủ Phú Yên.",
+          "score": 0.06351293462093702
+        },
+        {
+          "han_start": 6,
+          "han_end": 8,
+          "vi_start": 7,
+          "vi_end": 8,
+          "han_text": "乾榔一百坟酒密一百埕替拽六十宗紅花二色替錢十定 共材七十定議案知零米十四色各礼替礼五十八貞將臣之同句替差未十包礼替許二十三定誤令末六色乾櫛酒習我十六宗首令米三色乾神酒替八 六穴同之共米十色酒五十埋書十定",
+          "vietnamese_text": "Cho đến đàn bà buôn bán đi chợ hay đi xa cũng cưỡi ngựa là thường. Dinh Quảng Nam cai trưng trường tô ruộng kho Tân An, mỗi năm cứ tháng 3 thì các quan thuộc có lễ thường tân, cai bạ ký lục mỗi người gạo 8 bao, cau khô 40 vò, rượu và mật đều 40 chĩnh, thay tiền 24 quan; cai ấn trì bạ mỗi người gạo 7 bao, tiền 24 quan; câu kê mỗi người gạo 5 bao, tiển 16 quan; cai hợp trở xuống không có mật, mỗi người gạo 3 bao, tiền 8 quan; thủ hợp mỗi người gạo 2 bao, tiền 4 quan, ty lại mỗi người gạo 3 bao, tiển 6 quan.",
+          "score": 0.20170947238316164
+        },
+        {
+          "han_start": 9,
+          "han_end": 12,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "此礼亦得米二百五十四色我七百三十九定 其吏部官侯微官亦有礼相同密替錢三十宗 至如塵必祀錄礼不遇未三色酒密名十埕奇傳二宗 鄭垂府以御替密礼故亦同之",
+          "vietnamese_text": "Một lễ ấy cũng được gạo 182 bao, tiền 462 quan.",
+          "score": 0.03801945376963303
+        },
+        {
+          "han_start": 13,
+          "han_end": 16,
+          "vi_start": 10,
+          "vi_end": 10,
+          "han_text": "而仁府亦然已记崇揭寶二礼 其徐則無名府易田祖陽亦無之 至如年節礼亦惟廣南嘗官吏為多 正旦礼銀二十五家五用八八八星書八五百八十八六三四三十六文美辦十so",
+          "vietnamese_text": "Đến kỳ tháng 6 lại có lễ thường tân, ký lục gạo 20 bao, cau khô 100 vò, rượu và mật đều 100 chĩnh, thay tiền 60 quan, hồng hoa 2 bao, thay tiển 10 quan, cộng tiền 70 quan; cai án, tri bạ gạo 14 bao, các lễ thay tiền 58 quan; tướng thần, ty lại, câu kê, đều gạo 10 bao, các lễ thay tiền 33 quan; cai hợp gạo 6 bao, cau khô và rượu, thay tiền 16 quan; thủ hợp gạo 3 bao, cau khô và rượu thay tiền 6 quan, ty lại cộng gạo 10 bao, rượu ð0 chĩnh, thay tiền 10 quan.",
+          "score": 0.11346971418485005
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 19578
+}

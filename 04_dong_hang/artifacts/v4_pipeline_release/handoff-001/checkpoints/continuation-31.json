@@ -1,0 +1,2266 @@
+{
+ "window": "continuation",
+ "cap": "Cap_01",
+ "pages": [
+  2,
+  3,
+  4
+ ],
+ "context": 31,
+ "full": true,
+ "ids": [
+  "Cap_01-VI-0186-003",
+  "Cap_01-VI-0187-001",
+  "Cap_01-VI-0187-002",
+  "Cap_01-VI-0187-003",
+  "Cap_01-VI-0187-004",
+  "Cap_01-VI-0187-005",
+  "Cap_01-VI-0188-001",
+  "Cap_01-VI-0188-002",
+  "Cap_01-VI-0188-003",
+  "Cap_01-VI-0188-004",
+  "Cap_01-VI-0189-001",
+  "Cap_01-VI-0189-002",
+  "Cap_01-VI-0189-003",
+  "Cap_01-VI-0189-004",
+  "Cap_01-VI-0190-001",
+  "Cap_01-VI-0190-002",
+  "Cap_01-VI-0190-003",
+  "Cap_01-VI-0190-004",
+  "Cap_01-VI-0190-005",
+  "Cap_01-VI-0190-006",
+  "Cap_01-VI-0190-007",
+  "Cap_01-VI-0190-008",
+  "Cap_01-VI-0190-009",
+  "Cap_01-VI-0190-010",
+  "Cap_01-VI-0190-011",
+  "Cap_01-VI-0191-001",
+  "Cap_01-VI-0191-002",
+  "Cap_01-VI-0191-003",
+  "Cap_01-VI-0191-004",
+  "Cap_01-VI-0191-005",
+  "Cap_01-VI-0191-006"
+ ],
+ "han": [
+  [
+   396,
+   452
+  ],
+  [
+   452,
+   458
+  ],
+  [
+   458,
+   513
+  ],
+  [
+   513,
+   531
+  ],
+  [
+   531,
+   558
+  ],
+  [
+   558,
+   571
+  ],
+  [
+   571,
+   638
+  ],
+  [
+   638,
+   647
+  ],
+  [
+   647,
+   664
+  ],
+  [
+   664,
+   678
+  ],
+  [
+   678,
+   710
+  ],
+  [
+   710,
+   727
+  ],
+  [
+   727,
+   758
+  ],
+  [
+   758,
+   780
+  ],
+  [
+   780,
+   795
+  ],
+  [
+   795,
+   808
+  ],
+  [
+   808,
+   822
+  ],
+  [
+   822,
+   839
+  ],
+  [
+   839,
+   881
+  ],
+  [
+   881,
+   905
+  ],
+  [
+   905,
+   931
+  ],
+  [
+   931,
+   952
+  ],
+  [
+   952,
+   976
+  ],
+  [
+   976,
+   994
+  ],
+  [
+   994,
+   1010
+  ],
+  [
+   1010,
+   1030
+  ],
+  [
+   1030,
+   1044
+  ],
+  [
+   1044,
+   1088
+  ],
+  [
+   1088,
+   1100
+  ],
+  [
+   1100,
+   1114
+  ],
+  [
+   1114,
+   1131
+  ],
+  [
+   1131,
+   1147
+  ],
+  [
+   1147,
+   1163
+  ],
+  [
+   1163,
+   1175
+  ],
+  [
+   1175,
+   1192
+  ],
+  [
+   1192,
+   1274
+  ],
+  [
+   1274,
+   1293
+  ],
+  [
+   1293,
+   1307
+  ],
+  [
+   1307,
+   1319
+  ],
+  [
+   1319,
+   1343
+  ],
+  [
+   1343,
+   1397
+  ],
+  [
+   1397,
+   1411
+  ],
+  [
+   1411,
+   1426
+  ],
+  [
+   1426,
+   1439
+  ],
+  [
+   1439,
+   1461
+  ],
+  [
+   1461,
+   1473
+  ],
+  [
+   1473,
+   1499
+  ],
+  [
+   1499,
+   1512
+  ],
+  [
+   1512,
+   1525
+  ],
+  [
+   1525,
+   1549
+  ],
+  [
+   1549,
+   1561
+  ],
+  [
+   1561,
+   1579
+  ],
+  [
+   1579,
+   1592
+  ],
+  [
+   1592,
+   1628
+  ],
+  [
+   1628,
+   1658
+  ],
+  [
+   1658,
+   1670
+  ],
+  [
+   1670,
+   1687
+  ],
+  [
+   1687,
+   1704
+  ],
+  [
+   1704,
+   1720
+  ],
+  [
+   1720,
+   1735
+  ],
+  [
+   1735,
+   1750
+  ],
+  [
+   1750,
+   1764
+  ]
+ ],
+ "key": "61681b9730c0ac20e0261e484532f9df2f6cda14ac2e0bf357a47dc34d4a62f7",
+ "status": "success",
+ "baseline": [
+  {
+   "Han_Start": 396,
+   "Han_End": 513,
+   "Han_Text": "或減十三貫稽限二家次者咏六貫限八兩尚者侯三長限臺刃五侯司吏二貫鎮祿案詠八貨庫提欲與疾與孫該管歲十四貨庫陽長八貫五改司官八貫五內弦場侯属各八貫祀府十貫祀縣祀屬侯總欣社各四貨五門糧吏三步五陌祠圍今史舍庚各一長五陽祠堂次陽長迎所庫与土產各隊",
+   "VI_IDs": [
+    "Cap_01-VI-0186-003",
+    "Cap_01-VI-0187-001"
+   ],
+   "Vietnamese_Text": "Lại phải nộp tiền lễ, gạo lễ về phu hầu để thuê mướn người đi theo thuyền thuế chở đến Phú Xuân, như năm Kỷ Sửu, tri phủ phủ Thăng Hoa nộp tiền 1 quan 5 tiền, gạo 15 bát, tri huyện huấn đạo mỗi người 1 quan 1 tiền, gạo 1õ bát, cai phủ 1 quan 7 tiền, gạo 15 bát, ký phủ 1 quan, gạo 15 bát, ký huyện, ký thuộc cai tổng, cai man, mỗi người 8 tiền, gạo mỗi người 12 bát, cai quan, chính ty trưởng, mỗi người 1 quan 3 tiền, gạo 15 bát, ty quan 1 quan 2 tiền, gạo 1ð bát, thủ hợp, cai thuộc, mỗi người 9 tiền, gạo 13 bát, thủ lăng đội trưởng, từ đường thứ đội trưởng, mỗi người 1 quan, gạo 15 bát, thủ lăng thứ đội trưởng 6 tiền, gạo 10 bát, tướng thần 7 tiền, gạo 8 bát, thượng đẳng từ thừa 8 tiền, gạo 12 bát, trung đẳng từ thừa 7 tiển, gạo 10 bát, hạ đăng từ thừa 6 tiền, gạo 8 bát, các chức cộng 278 người, nộp tiển 213 quan 7 tiển, gạo cộng 2.727 bát. Ngoài ra các xã phường cấp ngụ lộc và biệt nạp biệt tái, lại cứ số định hiện có, thu tiền lễ ngụ lộc mỗi người 12 đồng, cứ 100 người thì thu gạo trình diện 5 thưng; tiền trầu thì xã lớn 1 tiền, xã vừa 30 đồng; tiền đầu quan mỗi người 7 đồng 9 phân.",
+   "Alignment_Type": "N-M",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "continuation-31",
+   "API_Response_ID": "R0004",
+   "Validation_Status": "mapped",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "indices_text",
+   "Han_Units": [
+    0,
+    1,
+    2
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_01-VI-0186-003",
+     0,
+     850
+    ],
+    [
+     "Cap_01-VI-0187-001",
+     0,
+     248
+    ]
+   ],
+   "Score": 0.19391574013032414,
+   "Row": 0,
+   "Source_Rows": [
+    {
+     "response": "R0004",
+     "row": 0
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 0,
+     "han_end": 2,
+     "vi_start": 0,
+     "vi_end": 1,
+     "han_text": "或減十三貫稽限二家次者咏六貫限八兩尚者侯三長限臺刃五侯司吏二貫鎮祿案詠八貨庫提欲與疾與孫該管歲十四貨庫陽長八貫五 改司官八貫五 內弦場侯属各八貫祀府十貫祀縣祀屬侯總欣社各四貨五門糧吏三步五陌祠圍今史舍庚各一長五陽祠堂次陽長迎所庫与土產各隊",
+     "vietnamese_text": "Lại phải nộp tiền lễ, gạo lễ về phu hầu để thuê mướn người đi theo thuyền thuế chở đến Phú Xuân, như năm Kỷ Sửu, tri phủ phủ Thăng Hoa nộp tiền 1 quan 5 tiền, gạo 15 bát, tri huyện huấn đạo mỗi người 1 quan 1 tiền, gạo 1õ bát, cai phủ 1 quan 7 tiền, gạo 15 bát, ký phủ 1 quan, gạo 15 bát, ký huyện, ký thuộc cai tổng, cai man, mỗi người 8 tiền, gạo mỗi người 12 bát, cai quan, chính ty trưởng, mỗi người 1 quan 3 tiền, gạo 15 bát, ty quan 1 quan 2 tiền, gạo 1ð bát, thủ hợp, cai thuộc, mỗi người 9 tiền, gạo 13 bát, thủ lăng đội trưởng, từ đường thứ đội trưởng, mỗi người 1 quan, gạo 15 bát, thủ lăng thứ đội trưởng 6 tiền, gạo 10 bát, tướng thần 7 tiền, gạo 8 bát, thượng đẳng từ thừa 8 tiền, gạo 12 bát, trung đẳng từ thừa 7 tiển, gạo 10 bát, hạ đăng từ thừa 6 tiền, gạo 8 bát, các chức cộng 278 người, nộp tiển 213 quan 7 tiển, gạo cộng 2727 bát. Ngoài ra các xã phường cấp ngụ lộc và biệt nạp biệt tái, lại cứ số định hiện có, thu tiền lễ ngụ lộc mỗi người 12 đồng, cứ 100 người thì thu gạo trình diện 5 thưng; tiền trầu thì xã lớn 1 tiền, xã vừa 30 đồng; tiền đầu quan mỗi người 7 đồng 9 phân.",
+     "score": 0.19391574013032414
+    }
+   ],
+   "Cap": "Cap_01",
+   "Han_IDs": [
+    "Cap_01-001-002-S4-0021",
+    "Cap_01-001-002-S4-0022",
+    "Cap_01-001-002-S4-0023"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_01-VI-0186-003",
+     0,
+     849
+    ],
+    [
+     "Cap_01-VI-0187-001",
+     0,
+     248
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 4
+    },
+    {
+     "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 5
+    }
+   ],
+   "Request_Key": "61681b9730c0ac20e0261e484532f9df2f6cda14ac2e0bf357a47dc34d4a62f7",
+   "Context_Evidence": 1,
+   "API_Score": 0.19391574013032414,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 513,
+   "Han_End": 531,
+   "Han_Text": "次陽長各二長通夾祀丞樣夫各一巨五問主",
+   "VI_IDs": [
+    "Cap_01-VI-0187-002",
+    "Cap_01-VI-0187-003",
+    "Cap_01-VI-0187-004",
+    "Cap_01-VI-0187-005"
+   ],
+   "Vietnamese_Text": "Như năm Kỷ Sửu các huyện thuộc phủ Thăng Hoa cộng 1 vạn 4.349 người, thu các tiển cộng 483 quan 3 tiển 36 đồng, gạo cộng 714 thưng 9 cáp, trừ tiền thuê mướn chở đi mỗi 100 quan là 4 tiển, gạo mỗi bao là 4 tiền, còn bao nhiêu thì chở nộp. Không riêng một xứ Quảng Nam, xứ Thuận Hoá cũng thế, rất là tủn mủn. Các dinh ở Thuận Quảng đặt ty lại và chức sắc bản đường các phủ huyện, số người rất nhiều, khiến họ thu tiền thóc đình điền, lấy ở các lại các chức cũng không phải nhẹ. Như có lệ nộp tiền lĩnh bằng, tiền trầu và tiền thế bạc thì ở các định, cai hợp, thủ hợp tuỳ chỗ nhiều việc ít việc, chỗ nhiều việc thì hoặc tiền là 13 quan, bạc lá để\" 2 hốt, chỗ vừa thì tiền 6 quan, bạc 8 lạng, chỗ ít thì tiển 2 quan bạc 1 lạng ð đồng cân, ty lại 2 quan, cai án trấn 8 quan, đề lĩnh kho và cai quan trấn tuần nguồn 14 quan, đội trưởng kho 8 quan ð tiền, cai trường, cai thuộc mỗi người 8 quan, _ký phủ 10 quan, ký huyện, ký thuộc, cai tổng, cai xã mỗi người 4 quan ð tiền, để lại 3 quan ð tiền, từ thừa, lệnh sử, xá lại thuộc 1 quan 1 tiền, thứ đội trưởng từ đường, thứ đội trưởng tuần khố và các đội thổ sản mỗi người 2 quan, thông lại, duyện lại mỗi người 1 quan 5 tiền, cho đến các thuyền, các xã, các phường, có đổi bằng mới, đều nộp 1 quan 1 tiển.",
+   "Alignment_Type": "1-N",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "continuation-31",
+   "API_Response_ID": "R0004",
+   "Validation_Status": "mapped",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "indices_text",
+   "Han_Units": [
+    3
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_01-VI-0187-002",
+     0,
+     237
+    ],
+    [
+     "Cap_01-VI-0187-003",
+     0,
+     68
+    ],
+    [
+     "Cap_01-VI-0187-004",
+     0,
+     168
+    ],
+    [
+     "Cap_01-VI-0187-005",
+     0,
+     771
+    ]
+   ],
+   "Score": -0.0150460841126089,
+   "Row": 1,
+   "Source_Rows": [
+    {
+     "response": "R0004",
+     "row": 1
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 3,
+     "han_end": 3,
+     "vi_start": 2,
+     "vi_end": 5,
+     "han_text": "次陽長各二長通夾祀丞樣夫各一巨五問主",
+     "vietnamese_text": "Như năm Kỷ Sửu các huyện thuộc phủ Thăng Hoa cộng 1 vạn 4349 người, thu các tiển cộng 483 quan 3 tiển 36 đồng, gạo cộng 714 thưng 9 cáp, trừ tiền thuê mướn chở đi mỗi 100 quan là 4 tiển, gạo mỗi bao là 4 tiền, còn bao nhiêu thì chở nộp. Không riêng một xứ Quảng Nam, xứ Thuận Hoá cũng thế, rất là tủn mủn. Các dinh ở Thuận Quảng đặt ty lại và chức sắc bản đường các phủ huyện, số người rất nhiều, khiến họ thu tiền thóc đình điền, lấy ở các lại các chức cũng không phải nhẹ. Như có lệ nộp tiền lĩnh bằng, tiền trầu và tiền thế bạc thì ở các định, cai hợp, thủ hợp tuỳ chỗ nhiều việc ít việc, chỗ nhiều việc thì hoặc tiền là 13 quan, bạc lá để\" 2 hốt, chỗ vừa thì tiền 6 quan, bạc 8 lạng, chỗ ít thì tiển 2 quan bạc 1 lạng ð đồng cân, ty lại 2 quan, cai án trấn 8 quan, đề lĩnh kho và cai quan trấn tuần nguồn 14 quan, đội trưởng kho 8 quan ð tiền, cai trường, cai thuộc mỗi người 8 quan, _ký phủ 10 quan, ký huyện, ký thuộc, cai tổng, cai xã mỗi người 4 quan ð tiền, để lại 3 quan ð tiền, từ thừa, lệnh sử, xá lại thuộc 1 quan 1 tiền, thứ đội trưởng từ đường, thứ đội trưởng tuần khố và các đội thổ sản mỗi người 2 quan, thông lại, duyện lại mỗi người 1 quan 5 tiền, cho đến các thuyền, các xã, các phường, có đổi bằng mới, đều nộp 1 quan 1 tiển.",
+     "score": -0.0150460841126089
+    }
+   ],
+   "Cap": "Cap_01",
+   "Han_IDs": [
+    "Cap_01-001-002-S4-0024"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_01-VI-0187-002",
+     0,
+     236
+    ],
+    [
+     "Cap_01-VI-0187-003",
+     0,
+     68
+    ],
+    [
+     "Cap_01-VI-0187-004",
+     0,
+     168
+    ],
+    [
+     "Cap_01-VI-0187-005",
+     0,
+     771
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 6
+    },
+    {
+     "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 7
+    },
+    {
+     "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 8
+    },
+    {
+     "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 9
+    }
+   ],
+   "Request_Key": "61681b9730c0ac20e0261e484532f9df2f6cda14ac2e0bf357a47dc34d4a62f7",
+   "Context_Evidence": 1,
+   "API_Score": -0.0150460841126089,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 531,
+   "Han_End": 647,
+   "Han_Text": "各船社坊有換懸新禮各一支一陌有印侯并美成各營侯奇該合賦其聲間或一長九限或一長五門或一長五兩或一亥一門司夾五門發屋祿案後收各一長六門癸近源欣官三長四門後府司官一貫玖陌记縣记在該孫張莊提吏各一長三門犯垂舍更合史一貫七門祠堂迎庫次侯隊八陌",
+   "VI_IDs": [
+    "Cap_01-VI-0188-001"
+   ],
+   "Vietnamese_Text": "Có lệ nộp tiền ấn và tiển trầu ở các dinh, cai hợp, thủ hợp tuỳ chỗ nhiều việc ít việc, hoặc 1 quan 9 tiền, hoặc 1 quan 9 tiển, hoặc 1 quan 1 tiền, ty lại 5 tiển, cai án, cai thu, trấn thuộc mỗi người I quan 6 tiển, cai quan trấn tuần nguồn 3 quan 4 tiền, cai phủ, ty quan 1 quan 9 tiền, ký huyện, ký thuộc cai tổng, cai xã, đề lại mỗi người 1 quan 3 tiền, từ thừa, lệnh sử, xá lại thuộc 1 quan 7 tiền, thứ đội trưởng từ đường, tuần, khố 8 tiền, thông lại, duyện lại, viên tử, nhiêu phu, tướng thần lại, xã trưởng, mỗi người 5 tiền, các thuyển, các xã, thôn, phường, đổi bằng mới đều mỗi người l quan 1 tiền.",
+   "Alignment_Type": "N-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "continuation-31",
+   "API_Response_ID": "R0004",
+   "Validation_Status": "mapped",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "indices_text",
+   "Han_Units": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_01-VI-0188-001",
+     0,
+     608
+    ]
+   ],
+   "Score": 0.34248120547690786,
+   "Row": 2,
+   "Source_Rows": [
+    {
+     "response": "R0004",
+     "row": 2
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 4,
+     "han_end": 7,
+     "vi_start": 6,
+     "vi_end": 6,
+     "han_text": "各船社坊有換懸新禮各一支一陌有印侯并美成各營侯奇該合賦 其聲間或一長九限或一長五門 或一長五兩或一亥一門司夾五門發屋祿案後收各一長六門癸近源欣官三長四門後府司官一貫玖陌记縣记在該孫張莊提吏各一長三門犯垂舍更合史一貫七門 祠堂迎庫次侯隊八陌",
+     "vietnamese_text": "Có lệ nộp tiền ấn và tiển trầu ở các dinh, cai hợp, thủ hợp tuỳ chỗ nhiều việc ít việc, hoặc 1 quan 9 tiền, hoặc 1 quan 9 tiển, hoặc 1 quan 1 tiền, ty lại 5 tiển, cai án, cai thu, trấn thuộc mỗi người I quan 6 tiển, cai quan trấn tuần nguồn 3 quan 4 tiền, cai phủ, ty quan 1 quan 9 tiền, ký huyện, ký thuộc cai tổng, cai xã, đề lại mỗi người 1 quan 3 tiền, từ thừa, lệnh sử, xá lại thuộc 1 quan 7 tiền, thứ đội trưởng từ đường, tuần, khố 8 tiền, thông lại, duyện lại, viên tử, nhiêu phu, tướng thần lại, xã trưởng, mỗi người 5 tiền, các thuyển, các xã, thôn, phường, đổi bằng mới đều mỗi người l quan 1 tiền.",
+     "score": 0.34248120547690786
+    }
+   ],
+   "Cap": "Cap_01",
+   "Han_IDs": [
+    "Cap_01-001-002-S4-0025",
+    "Cap_01-001-002-S4-0026",
+    "Cap_01-001-002-S4-0027",
+    "Cap_01-001-002-S4-0028"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_01-VI-0188-001",
+     0,
+     608
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 11
+    }
+   ],
+   "Request_Key": "61681b9730c0ac20e0261e484532f9df2f6cda14ac2e0bf357a47dc34d4a62f7",
+   "Context_Evidence": 1,
+   "API_Score": 0.34248120547690786,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 647,
+   "Han_End": 664,
+   "Han_Text": "此為內房侍女為內外五右吏礼部官之祿",
+   "VI_IDs": [
+    "Cap_01-VI-0188-002"
+   ],
+   "Vietnamese_Text": "Đó là lộc của thị nữ nội phòng, cùng các quan nội ngoại tả hữu, Lại bộ, LỄ bộ.",
+   "Alignment_Type": "1-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "continuation-31",
+   "API_Response_ID": "R0004",
+   "Validation_Status": "mapped",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "indices_text",
+   "Han_Units": [
+    8
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_01-VI-0188-002",
+     0,
+     78
+    ]
+   ],
+   "Score": 0.43773632064436396,
+   "Row": 3,
+   "Source_Rows": [
+    {
+     "response": "R0004",
+     "row": 3
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 8,
+     "han_end": 8,
+     "vi_start": 7,
+     "vi_end": 7,
+     "han_text": "此為內房侍女為內外五右吏礼部官之祿",
+     "vietnamese_text": "Đó là lộc của thị nữ nội phòng, cùng các quan nội ngoại tả hữu, Lại bộ, LỄ bộ.",
+     "score": 0.43773632064436396
+    }
+   ],
+   "Cap": "Cap_01",
+   "Han_IDs": [
+    "Cap_01-001-002-S4-0029"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_01-VI-0188-002",
+     0,
+     78
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 12
+    }
+   ],
+   "Request_Key": "61681b9730c0ac20e0261e484532f9df2f6cda14ac2e0bf357a47dc34d4a62f7",
+   "Context_Evidence": 1,
+   "API_Score": 0.43773632064436396,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 664,
+   "Han_End": 727,
+   "Han_Text": "至來每年正旦生日所四二处各然各職皆有禮限自一二時以上至二三易美孫自十五文以上五貫沙在公堂官收彼雖社長之微亦有八張一族美孫三十文",
+   "VI_IDs": [
+    "Cap_01-VI-0188-003"
+   ],
+   "Vietnamese_Text": "Còn như hàng năm ngày Chính đán và Sinh nhật, các chức ở hai xứ đều có bạc lễ từ 1 đồng cân trở lên đến 2 hay 3 hốt, tiển trầu từ 15 đồng trở lên đến 5 quan, quan công đường sở tại phải thu nộp, tuy chức xã trưởng là bé, cũng có người phải nộp 1 đồng cân bạc, 30 đồng tiền trầu; ngày ky cũng thế.",
+   "Alignment_Type": "N-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "continuation-31",
+   "API_Response_ID": "R0004",
+   "Validation_Status": "mapped",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "indices_text",
+   "Han_Units": [
+    9,
+    10,
+    11
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_01-VI-0188-003",
+     0,
+     296
+    ]
+   ],
+   "Score": 0.29795130551625837,
+   "Row": 4,
+   "Source_Rows": [
+    {
+     "response": "R0004",
+     "row": 4
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 9,
+     "han_end": 11,
+     "vi_start": 8,
+     "vi_end": 8,
+     "han_text": "至來每年正旦生日所四二处各然 各職皆有禮限自一二時以上至二三易美孫自十五文以上五貫沙在公堂官收 彼雖社長之微亦有八張一族美孫三十文",
+     "vietnamese_text": "Còn như hàng năm ngày Chính đán và Sinh nhật, các chức ở hai xứ đều có bạc lễ từ 1 đồng cân trở lên đến 2 hay 3 hốt, tiển trầu từ 15 đồng trở lên đến 5 quan, quan công đường sở tại phải thu nộp, tuy chức xã trưởng là bé, cũng có người phải nộp 1 đồng cân bạc, 30 đồng tiền trầu; ngày ky cũng thế.",
+     "score": 0.29795130551625837
+    }
+   ],
+   "Cap": "Cap_01",
+   "Han_IDs": [
+    "Cap_01-001-002-S4-0030",
+    "Cap_01-001-002-S4-0031",
+    "Cap_01-001-002-S4-0032"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_01-VI-0188-003",
+     0,
+     296
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 13
+    }
+   ],
+   "Request_Key": "61681b9730c0ac20e0261e484532f9df2f6cda14ac2e0bf357a47dc34d4a62f7",
+   "Context_Evidence": 1,
+   "API_Score": 0.29795130551625837,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 727,
+   "Han_End": 758,
+   "Han_Text": "諱日亦照順廣選揚有許各人納草揚門与羽單乞升賦次內禮限侯所得亦多",
+   "VI_IDs": [
+    "Cap_01-VI-0188-004"
+   ],
+   "Vietnamese_Text": "Tuyển trường ở hai xứ Thuận Quảng, có cho người ta nộp đơn ở cửa trường và nộp đơn xin thăng chức bậc, thu được bạc tiền thượng lễ, nội lễ cũng nhiều, như năm Bính Tuất.",
+   "Alignment_Type": "1-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "continuation-31",
+   "API_Response_ID": "R0004",
+   "Validation_Status": "partial_viet",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "exact_text_fallback",
+   "Han_Units": [
+    12
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_01-VI-0188-004",
+     0,
+     169
+    ]
+   ],
+   "Score": 0.20770533155738236,
+   "Row": 5,
+   "Source_Rows": [
+    {
+     "response": "R0004",
+     "row": 5
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 12,
+     "han_end": 12,
+     "vi_start": 9,
+     "vi_end": 9,
+     "han_text": "諱日亦照順廣選揚有許各人納草揚門与羽單乞升賦次內禮限侯所得亦多",
+     "vietnamese_text": "Tuyển trường ở hai xứ Thuận Quảng, có cho người ta nộp đơn ở cửa trường và nộp đơn xin thăng chức bậc, thu được bạc tiền thượng lễ, nội lễ cũng nhiều, như năm Bính Tuất.",
+     "score": 0.20770533155738236
+    }
+   ],
+   "Cap": "Cap_01",
+   "Han_IDs": [
+    "Cap_01-001-002-S4-0033"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_01-VI-0188-004",
+     0,
+     169
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 14
+    }
+   ],
+   "Request_Key": "61681b9730c0ac20e0261e484532f9df2f6cda14ac2e0bf357a47dc34d4a62f7",
+   "Context_Evidence": 1,
+   "API_Score": 0.20770533155738236,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 758,
+   "Han_End": 822,
+   "Han_Text": "丙戌年符離驟將臣殿福昭陰祀府上禮限二十易五兩替侯五百十五貴又重亦限一易二歲五玄替年二千五長六百十二文附礼精限四易替味一百二貴五陌",
+   "VI_IDs": [
+    "Cap_01-VI-0188-004"
+   ],
+   "Vietnamese_Text": "huyện Phù Ly có Tướng thần là Đoàn Phúc Chiêm thăng chức ký phủ, nộp thượng lễ là 20 hốt 5 lạng bạc tốt, thay bằng tiền là 512 quan ð tiển, với 1 hốt 2 đồng cân 5 phân bạc nặng cân, thay bằng tiền là 25 quan 6 tiền 12 đồng; nộp nội lễ 4 hốt bạc tốt, thay bằng tiền là 102 quan 5 tiền, với 2 lạng ð phân bạc nặng cân, thay bằng tiển là 5 quan 1 tiền 15 đồng, cùng 4 lạng bạc lá để, thay bằng tiền là 9 quan 9 tiền, với 2 đông cân bạc nặng cân, thay bằng tiển là 4 tiền 36 đồng, và tiền trầu 6 tiền, ngoài ra lễ trình diện nộp ở nội đường và tiển quà trẻ con là 8 quan 3 tiền; cộng các tiền là 664 quan 3 tiển 6 đồng.",
+   "Alignment_Type": "N-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "continuation-31",
+   "API_Response_ID": "R0004",
+   "Validation_Status": "partial_viet",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "exact_text_fallback",
+   "Han_Units": [
+    13,
+    14,
+    15,
+    16
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_01-VI-0188-004",
+     170,
+     785
+    ]
+   ],
+   "Score": 0.14904860040306914,
+   "Row": 6,
+   "Source_Rows": [
+    {
+     "response": "R0004",
+     "row": 6
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 13,
+     "han_end": 16,
+     "vi_start": 10,
+     "vi_end": 10,
+     "han_text": "丙戌年符離驟將臣殿福昭陰祀府上禮限二十易五兩 替侯五百十五貴又重亦限一易二歲 五玄替年二千五長六百十二文 附礼精限四易替味一百二貴五陌",
+     "vietnamese_text": "huyện Phù Ly có Tướng thần là Đoàn Phúc Chiêm thăng chức ký phủ, nộp thượng lễ là 20 hốt 5 lạng bạc tốt, thay bằng tiền là 512 quan ð tiển, với 1 hốt 2 đồng cân 5 phân bạc nặng cân, thay bằng tiền là 25 quan 6 tiền 12 đồng; nộp nội lễ 4 hốt bạc tốt, thay bằng tiền là 102 quan 5 tiền, với 2 lạng ð phân bạc nặng cân, thay bằng tiển là 5 quan 1 tiền 15 đồng, cùng 4 lạng bạc lá để, thay bằng tiền là 9 quan 9 tiền, với 2 đông cân bạc nặng cân, thay bằng tiển là 4 tiền 36 đồng, và tiền trầu 6 tiền, ngoài ra lễ trình diện nộp ở nội đường và tiển quà trẻ con là 8 quan 3 tiền; cộng các tiền là 664 quan 3 tiển 6 đồng.",
+     "score": 0.14904860040306914
+    }
+   ],
+   "Cap": "Cap_01",
+   "Han_IDs": [
+    "Cap_01-001-002-S4-0034",
+    "Cap_01-001-002-S4-0035",
+    "Cap_01-001-002-S4-0036",
+    "Cap_01-001-002-S4-0037"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_01-VI-0188-004",
+     170,
+     785
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 14
+    }
+   ],
+   "Request_Key": "61681b9730c0ac20e0261e484532f9df2f6cda14ac2e0bf357a47dc34d4a62f7",
+   "Context_Evidence": 1,
+   "API_Score": 0.14904860040306914,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 822,
+   "Han_End": 931,
+   "Han_Text": "又重升限二兩五分替祿五貴一四十五文并榕限四兩替九辰武陌又重升限二鄉階陳四阳卅六文美底六阪餘祫內堂呈而禮并鬼子承柳之三頭共城六百六十四長三四女文雜川人阮金珠同春人陳文見陞记縣上禮精限八笏五兩替余二百十二長五門又重升限四兩",
+   "VI_IDs": [
+    "Cap_01-VI-0189-001"
+   ],
+   "Vietnamese_Text": "Người ở Duy Xuyên là Nguyễn Kim Châu, người ở Đông Xuân là Trần Văn Kiến, thăng chức ký huyện, nộp thượng lễ mỗi người 8 hốt 5 lạng bạc tốt, thay bằng tiền 212 quan ð tiền, với 4 lạng 3 đồng cân 5 phân bạc nặng cân, thay bằng 10 quan 6 tiền 15 đồng; nộp nội lễ 2 hốt 7 lạng bạc tốt, thay bằng tiền 423 đồng 5 tiền, với 8 đồng cân 5 phân bạc nặng cân, thay bằng tiền 2 quan.",
+   "Alignment_Type": "N-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "continuation-31",
+   "API_Response_ID": "R0004",
+   "Validation_Status": "mapped",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "exact_text_fallback",
+   "Han_Units": [
+    17,
+    18,
+    19,
+    20
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_01-VI-0189-001",
+     0,
+     373
+    ]
+   ],
+   "Score": 0.08443424552168487,
+   "Row": 7,
+   "Source_Rows": [
+    {
+     "response": "R0004",
+     "row": 7
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 17,
+     "han_end": 20,
+     "vi_start": 11,
+     "vi_end": 11,
+     "han_text": "又重升限二兩五分替祿五貴一四十五文 并榕限四兩替九辰武陌又重升限二鄉階陳四阳卅六文美底六阪餘祫內堂呈而禮并鬼子承柳之三頭 共城六百六十四長三四女文雜川人阮金珠同春人陳文見 陞记縣上禮精限八笏五兩替余二百十二長五門又重升限四兩",
+     "vietnamese_text": "Người ở Duy Xuyên là Nguyễn Kim Châu, người ở Đông Xuân là Trần Văn Kiến, thăng chức ký huyện, nộp thượng lễ mỗi người 8 hốt 5 lạng bạc tốt, thay bằng tiền 212 quan ð tiền, với 4 lạng 3 đồng cân 5 phân bạc nặng cân, thay bằng 10 quan 6 tiền 15 đồng; nộp nội lễ 2 hốt 7 lạng bạc tốt, thay bằng tiền 423 đồng 5 tiền, với 8 đồng cân 5 phân bạc nặng cân, thay bằng tiền 2 quan.",
+     "score": 0.08443424552168487
+    }
+   ],
+   "Cap": "Cap_01",
+   "Han_IDs": [
+    "Cap_01-001-002-S4-0038",
+    "Cap_01-001-002-S4-0039",
+    "Cap_01-001-002-S4-0040",
+    "Cap_01-003-004-S4-0001"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_01-VI-0189-001",
+     0,
+     373
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 15
+    }
+   ],
+   "Request_Key": "61681b9730c0ac20e0261e484532f9df2f6cda14ac2e0bf357a47dc34d4a62f7",
+   "Context_Evidence": 1,
+   "API_Score": 0.08443424552168487,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 931,
+   "Han_End": 1010,
+   "Han_Text": "二歲五分替底十貞云門十五文内禮精限二笏七兩替脉四十二長五四又重斤限後五分替成二長一門十五文并籍銀美限各一兩五成替詠三貴四四卅文又重升根七分五厘替成一陌四十五文",
+   "VI_IDs": [
+    "Cap_01-VI-0189-002"
+   ],
+   "Vietnamese_Text": "1 tiền lỗ đồng, 1 lạng 5 đồng cân bạc lá đề, thay bằng tiền 3 quan 4 tiền 30 đồng, với 7 phân 5 ly bạc nặng cân, thay bằng tiền 1 tiền 45 đồng, và tiền trầu 6 tiền; ngoài ra nộp lễ trình diện ở nội đường và tiền quà trẻ con là 5 quan 2 tiền; cộng cả các tiền là 277 quan 1 tiển 45 đồng.",
+   "Alignment_Type": "N-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "continuation-31",
+   "API_Response_ID": "R0004",
+   "Validation_Status": "mapped",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "exact_text_fallback",
+   "Han_Units": [
+    21,
+    22,
+    23,
+    24
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_01-VI-0189-002",
+     0,
+     286
+    ]
+   ],
+   "Score": 0.15797438365582142,
+   "Row": 8,
+   "Source_Rows": [
+    {
+     "response": "R0004",
+     "row": 8
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 21,
+     "han_end": 24,
+     "vi_start": 12,
+     "vi_end": 12,
+     "han_text": "二歲五分替底十貞云門十五文内禮精限二笏七兩 替脉四十二長五四又重斤限後五分替成二長一門十五文 并籍銀美限各一兩五成替詠三貴四四卅文 又重升根七分五厘替成一陌四十五文",
+     "vietnamese_text": "1 tiền lỗ đồng, 1 lạng 5 đồng cân bạc lá đề, thay bằng tiền 3 quan 4 tiền 30 đồng, với 7 phân 5 ly bạc nặng cân, thay bằng tiền 1 tiền 45 đồng, và tiền trầu 6 tiền; ngoài ra nộp lễ trình diện ở nội đường và tiền quà trẻ con là 5 quan 2 tiền; cộng cả các tiền là 277 quan 1 tiển 45 đồng.",
+     "score": 0.15797438365582142
+    }
+   ],
+   "Cap": "Cap_01",
+   "Han_IDs": [
+    "Cap_01-003-004-S4-0002",
+    "Cap_01-003-004-S4-0003",
+    "Cap_01-003-004-S4-0004",
+    "Cap_01-003-004-S4-0005"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_01-VI-0189-002",
+     0,
+     286
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 16
+    }
+   ],
+   "Request_Key": "61681b9730c0ac20e0261e484532f9df2f6cda14ac2e0bf357a47dc34d4a62f7",
+   "Context_Evidence": 1,
+   "API_Score": 0.15797438365582142,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 1010,
+   "Han_End": 1100,
+   "Han_Text": "并成六陽深祔内堂呈面礼并兒子孫各五長武四共城二百七十七貫一門四十五文明灵縣人楊伯錫川官員子隆欣穩上礼精限世易替詠二百二十五之又重升限二兩五分替歲長二門三十文内礼精限一易替孫二十五貞",
+   "VI_IDs": [
+    "Cap_01-VI-0189-003"
+   ],
+   "Vietnamese_Text": "Người huyện Minh Lành là Dương Bá Tích là quan viên tử thăng cai tổng, nộp thượng lễ 5 hốt bạc tốt, thay bằng tiển 195 quan, với 9 lạng 5 phân bạc nặng cân, thay bằng tiền 6 quan 2 tiền 30 đồng: nộp nội lễ 1 hốt bạc tốt, thay bằng tiển 2ð quan, với 5 đồng cân bạc nặng cân, thay bằng 1 tiền quan 2 tiền 30 đồng, cùng một lạng 5 đồng cân, bạc lá để, thay bằng tiền 3 quan 4 tiền 30 đồng, với 7 phân 5 ly bạc nặng cân, thay bằng tiển 1 tiền 45 đồng; ngoài ra lễ trình diện nộp ở nội đường và tiền quà trẻ con là 4 quan 1 tiền cộng cả là 165 quan 2 tiền 15 đồng.",
+   "Alignment_Type": "N-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "continuation-31",
+   "API_Response_ID": "R0004",
+   "Validation_Status": "mapped",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "exact_text_fallback",
+   "Han_Units": [
+    25,
+    26,
+    27,
+    28
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_01-VI-0189-003",
+     0,
+     559
+    ]
+   ],
+   "Score": 0.24612946008329314,
+   "Row": 9,
+   "Source_Rows": [
+    {
+     "response": "R0004",
+     "row": 9
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 25,
+     "han_end": 28,
+     "vi_start": 13,
+     "vi_end": 13,
+     "han_text": "并成六陽深祔内堂呈面礼并兒子孫各五長武四 共城二百七十七貫一門四十五文 明灵縣人楊伯錫川官員子隆欣穩上礼精限世易替詠二百二十五之又重升限二兩五分替歲長二門三十文 内礼精限一易替孫二十五貞",
+     "vietnamese_text": "Người huyện Minh Lành là Dương Bá Tích là quan viên tử thăng cai tổng, nộp thượng lễ 5 hốt bạc tốt, thay bằng tiển 195 quan, với 9 lạng 5 phân bạc nặng cân, thay bằng tiền 6 quan 2 tiền 30 đồng: nộp nội lễ 1 hốt bạc tốt, thay bằng tiển 2ð quan, với 5 đồng cân bạc nặng cân, thay bằng 1 tiền quan 2 tiền 30 đồng, cùng một lạng 5 đồng cân, bạc lá để, thay bằng tiền 3 quan 4 tiền 30 đồng, với 7 phân 5 ly bạc nặng cân, thay bằng tiển 1 tiền 45 đồng; ngoài ra lễ trình diện nộp ở nội đường và tiền quà trẻ con là 4 quan 1 tiền cộng cả là 165 quan 2 tiền 15 đồng.",
+     "score": 0.24612946008329314
+    }
+   ],
+   "Cap": "Cap_01",
+   "Han_IDs": [
+    "Cap_01-003-004-S4-0006",
+    "Cap_01-003-004-S4-0007",
+    "Cap_01-003-004-S4-0008",
+    "Cap_01-003-004-S4-0009"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_01-VI-0189-003",
+     0,
+     559
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 17
+    }
+   ],
+   "Request_Key": "61681b9730c0ac20e0261e484532f9df2f6cda14ac2e0bf357a47dc34d4a62f7",
+   "Context_Evidence": 1,
+   "API_Score": 0.24612946008329314,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 1100,
+   "Han_End": 1163,
+   "Han_Text": "又重升限五歲替係二貫二三十文美根語根一兩五條替歲三貫集陌三十文又重六限七分五座替庚一內四十五文餘給內堂呈面礼并邊子殘各四長一陶",
+   "VI_IDs": [
+    "Cap_01-VI-0189-004"
+   ],
+   "Vietnamese_Text": "Người ở Phú Châu là Trần Văn Tình làm duyện lại, nộp thượng lễ 2 hốt 5 lạng bạc tốt, thay bằng tiền 62 quan ð tiền, với 1 lạng 9 đồng cân ö phân bạc nặng cân, thay bằng tiển 3 quan tiền 15 đồng, nộp nội lễ 5 lạng bạc tốt, thay bằng tiền 20 quan 5 tiền, với 2 đồng cân 5 phân bạc nặng cân, thay bằng tiền 6 tiền 15 đồng, và tiền trầu 6 tiền: ngoài ra lễ trình diện nộp ở nội đường và tiển quà trẻ con là 3 quan 1 tiền; cộng cả là 82 quan 4 tiền 30 đồng.",
+   "Alignment_Type": "N-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "continuation-31",
+   "API_Response_ID": "R0004",
+   "Validation_Status": "mapped",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "exact_text_fallback",
+   "Han_Units": [
+    29,
+    30,
+    31,
+    32
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_01-VI-0189-004",
+     0,
+     452
+    ]
+   ],
+   "Score": 0.17212470925139145,
+   "Row": 10,
+   "Source_Rows": [
+    {
+     "response": "R0004",
+     "row": 10
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 29,
+     "han_end": 32,
+     "vi_start": 14,
+     "vi_end": 14,
+     "han_text": "又重升限五歲替係二貫二三十文 美根語根一兩五條替歲三貫集陌三十文 又重六限七分五座替庚一內四十五文 餘給內堂呈面礼并邊子殘各四長一陶",
+     "vietnamese_text": "Người ở Phú Châu là Trần Văn Tình làm duyện lại, nộp thượng lễ 2 hốt 5 lạng bạc tốt, thay bằng tiền 62 quan ð tiền, với 1 lạng 9 đồng cân ö phân bạc nặng cân, thay bằng tiển 3 quan tiền 15 đồng, nộp nội lễ 5 lạng bạc tốt, thay bằng tiền 20 quan 5 tiền, với 2 đồng cân 5 phân bạc nặng cân, thay bằng tiền 6 tiền 15 đồng, và tiền trầu 6 tiền: ngoài ra lễ trình diện nộp ở nội đường và tiển quà trẻ con là 3 quan 1 tiền; cộng cả là 82 quan 4 tiền 30 đồng.",
+     "score": 0.17212470925139145
+    }
+   ],
+   "Cap": "Cap_01",
+   "Han_IDs": [
+    "Cap_01-003-004-S4-0010",
+    "Cap_01-003-004-S4-0011",
+    "Cap_01-003-004-S4-0012",
+    "Cap_01-003-004-S4-0013"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_01-VI-0189-004",
+     0,
+     452
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 18
+    }
+   ],
+   "Request_Key": "61681b9730c0ac20e0261e484532f9df2f6cda14ac2e0bf357a47dc34d4a62f7",
+   "Context_Evidence": 1,
+   "API_Score": 0.17212470925139145,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 1163,
+   "Han_End": 1175,
+   "Han_Text": "共一百六十五貫二兩十五文",
+   "VI_IDs": [
+    "Cap_01-VI-0190-001"
+   ],
+   "Vietnamese_Text": "Năm người ấy tổng cộng số tiển là 1.",
+   "Alignment_Type": "1-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "continuation-31",
+   "API_Response_ID": "R0004",
+   "Validation_Status": "partial_viet",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "exact_text_fallback",
+   "Han_Units": [
+    33
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_01-VI-0190-001",
+     0,
+     36
+    ]
+   ],
+   "Score": 0.06386869495242843,
+   "Row": 11,
+   "Source_Rows": [
+    {
+     "response": "R0004",
+     "row": 11
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 33,
+     "han_end": 33,
+     "vi_start": 15,
+     "vi_end": 15,
+     "han_text": "共一百六十五貫二兩十五文",
+     "vietnamese_text": "Năm người ấy tổng cộng số tiển là 1.",
+     "score": 0.06386869495242843
+    }
+   ],
+   "Cap": "Cap_01",
+   "Han_IDs": [
+    "Cap_01-003-004-S4-0014"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_01-VI-0190-001",
+     0,
+     36
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 19
+    }
+   ],
+   "Request_Key": "61681b9730c0ac20e0261e484532f9df2f6cda14ac2e0bf357a47dc34d4a62f7",
+   "Context_Evidence": 1,
+   "API_Score": 0.06386869495242843,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 1175,
+   "Han_End": 1293,
+   "Han_Text": "富洲人陳文情為祿夾上禮限二笏五兩替康云十二長五門五重升限一兩二庚五分替歲三長一陌十五文内禮精限五兩替脉十二長五門五重行根二歲五亥替詠六陌十五文美祿六除拾內堂呈面禮并免子底三長一四共縣八十二四四三十文這五若成數一千四百六十六貫三四二十一文",
+   "VI_IDs": [],
+   "Vietnamese_Text": "",
+   "Alignment_Type": "1-0",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "continuation-31",
+   "API_Response_ID": "R0004",
+   "Validation_Status": "untraceable",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "text_mismatch",
+   "Han_Units": [
+    34,
+    35,
+    36
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [],
+   "Score": -0.0006199137628101419,
+   "Row": 12,
+   "Source_Rows": [
+    {
+     "response": "R0004",
+     "row": 12
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 34,
+     "han_end": 36,
+     "vi_start": 16,
+     "vi_end": 16,
+     "han_text": "富洲人陳文情為祿夾上禮限二笏五兩替 康云十二長五門五重升限一兩二庚五分替歲三長一陌十五文内禮精限五兩替脉十二長五門五重行根二歲五亥替詠六陌十五文美祿六除拾內堂呈面禮并免子底三長一四共縣八十二四四三十文 這五若成數一千四百六十六貫三四二十一文",
+     "vietnamese_text": "466 quan 3 tiền 21 đồng.",
+     "score": -0.0006199137628101419
+    }
+   ],
+   "Cap": "Cap_01",
+   "Han_IDs": [
+    "Cap_01-003-004-S4-0015",
+    "Cap_01-003-004-S4-0016",
+    "Cap_01-003-004-S4-0017"
+   ],
+   "VI_Payload_Spans": [],
+   "VI_Source_Rows": [],
+   "Request_Key": "61681b9730c0ac20e0261e484532f9df2f6cda14ac2e0bf357a47dc34d4a62f7",
+   "Context_Evidence": 1,
+   "API_Score": -0.0006199137628101419,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 1293,
+   "Han_End": 1397,
+   "Han_Text": "本朝自洪德至中興盛德永壽年同並常續造戶籍見載主善政集大欒四改三年一小造六年一大修差官圓還令各聰社類同正容云先試士子中者饒孝欽者查所色登前說查民丁分為旺頂年民頂老頂穷疾頊各色老說別併漂流近别者出淺長成至紫者入澤",
+   "VI_IDs": [
+    "Cap_01-VI-0190-002"
+   ],
+   "Vietnamese_Text": "Bản triều từ đời Hồng Đức đến khoảng đời Thịnh Đức, Vĩnh Thọ thời Trung Hưng đều thường làm hộ tịch, thấy chép ở Thiện chính tập, đạt khái xét được: Cứ 3 năm một lần làm nhỏ (tiểu tạo), 6 năm một lần làm lớn (đại tu), sai quan duyệt tuyển, bắt các tổng xã kê khai chính hộ khách hộ, trước hết thi học trò, người đỗ thì được làm nhiêu học, sau xét đến chức sắc, nhiêu ấm, sau nữa xét đến dân đính, chia làm các hạng tráng, hạng quân, hạng dân, hạng lão, hạng tật, hạng cùng; lão nhiêu tính riêng; người xiêu tán đi nơi.",
+   "Alignment_Type": "N-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "continuation-31",
+   "API_Response_ID": "R0004",
+   "Validation_Status": "partial_viet",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "exact_text_fallback",
+   "Han_Units": [
+    37,
+    38,
+    39,
+    40
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_01-VI-0190-002",
+     0,
+     518
+    ]
+   ],
+   "Score": 0.47551573798279756,
+   "Row": 13,
+   "Source_Rows": [
+    {
+     "response": "R0004",
+     "row": 13
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 37,
+     "han_end": 40,
+     "vi_start": 17,
+     "vi_end": 17,
+     "han_text": "本朝自洪德至中興盛德永壽年同 並常續造戶籍見載主善政集 大欒四改三年一小造六年一大修差官圓還令各聰社類同 正容云先試士子中者饒孝欽者查所色登前說查民丁分為旺頂年民頂老頂穷疾頊各色老說別併漂流近别者出淺長成至紫者入澤",
+     "vietnamese_text": "Bản triều từ đời Hồng Đức đến khoảng đời Thịnh Đức, Vĩnh Thọ thời Trung Hưng đều thường làm hộ tịch, thấy chép ở Thiện chính tập, đạt khái xét được: Cứ 3 năm một lần làm nhỏ (tiểu tạo), 6 năm một lần làm lớn (đại tu), sai quan duyệt tuyển, bắt các tổng xã kê khai chính hộ khách hộ, trước hết thi học trò, người đỗ thì được làm nhiêu học, sau xét đến chức sắc, nhiêu ấm, sau nữa xét đến dân đính, chia làm các hạng tráng, hạng quân, hạng dân, hạng lão, hạng tật, hạng cùng; lão nhiêu tính riêng; người xiêu tán đi nơi.",
+     "score": 0.47551573798279756
+    }
+   ],
+   "Cap": "Cap_01",
+   "Han_IDs": [
+    "Cap_01-003-004-S4-0018",
+    "Cap_01-003-004-S4-0019",
+    "Cap_01-003-004-S4-0020",
+    "Cap_01-003-004-S4-0021"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_01-VI-0190-002",
+     0,
+     518
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 20
+    }
+   ],
+   "Request_Key": "61681b9730c0ac20e0261e484532f9df2f6cda14ac2e0bf357a47dc34d4a62f7",
+   "Context_Evidence": 1,
+   "API_Score": 0.47551573798279756,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 1397,
+   "Han_End": 1426,
+   "Han_Text": "附善者為附社類落四本一席工進一方迎戶部一本送丞司一本送縣官",
+   "VI_IDs": [
+    "Cap_01-VI-0190-002",
+    "Cap_01-VI-0190-003"
+   ],
+   "Vietnamese_Text": "khác thì bỏ ra số; người đến tuổi trưởng thành thì vào số; người biên phụ vào số là phụ. Mỗi xã khai bốn bản sổ, 1 bản tâu lên, 1 bản đệ lên quan Hộ bộ, 1 bản gửi lên Thừa ty, 1 bản gửi lên quan huyện.",
+   "Alignment_Type": "N-M",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "continuation-31",
+   "API_Response_ID": "R0004",
+   "Validation_Status": "partial_viet",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "exact_text_fallback",
+   "Han_Units": [
+    41,
+    42
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_01-VI-0190-002",
+     519,
+     607
+    ],
+    [
+     "Cap_01-VI-0190-003",
+     0,
+     112
+    ]
+   ],
+   "Score": 0.22083572282850317,
+   "Row": 14,
+   "Source_Rows": [
+    {
+     "response": "R0004",
+     "row": 14
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 41,
+     "han_end": 42,
+     "vi_start": 18,
+     "vi_end": 19,
+     "han_text": "附善者為附社類落四本一席工進 一方迎戶部一本送丞司一本送縣官",
+     "vietnamese_text": "khác thì bỏ ra số; người đến tuổi trưởng thành thì vào số; người biên phụ vào số là phụ. Mỗi xã khai bốn bản sổ, 1 bản tâu lên, 1 bản đệ lên quan Hộ bộ, 1 bản gửi lên Thừa ty, 1 bản gửi lên quan huyện.",
+     "score": 0.22083572282850317
+    }
+   ],
+   "Cap": "Cap_01",
+   "Han_IDs": [
+    "Cap_01-003-004-S4-0022",
+    "Cap_01-003-004-S4-0023"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_01-VI-0190-002",
+     519,
+     607
+    ],
+    [
+     "Cap_01-VI-0190-003",
+     0,
+     112
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 20
+    },
+    {
+     "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 21
+    }
+   ],
+   "Request_Key": "61681b9730c0ac20e0261e484532f9df2f6cda14ac2e0bf357a47dc34d4a62f7",
+   "Context_Evidence": 1,
+   "API_Score": 0.22083572282850317,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 1426,
+   "Han_End": 1473,
+   "Han_Text": "至景治年间朝廷厌其圓還類數始差分行勘定通併各社人丁田產量補率效立為平例生者不計耗者不除首法遂廢",
+   "VI_IDs": [
+    "Cap_01-VI-0190-004"
+   ],
+   "Vietnamese_Text": "Đến khoảng đời Cảnh Trị, triểu đình cho duyệt tuyển là phiển mới sai quan chia đi khám thực, tính suốt cä nhân định điền sản các xã, lượng bổ số suất, đặt làm bình lệ, người sinh ra không kể, người hụt đi không trừ, phép cũ bèn bãi bỏ.",
+   "Alignment_Type": "N-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "continuation-31",
+   "API_Response_ID": "R0004",
+   "Validation_Status": "mapped",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "exact_text_fallback",
+   "Han_Units": [
+    43,
+    44,
+    45
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_01-VI-0190-004",
+     0,
+     235
+    ]
+   ],
+   "Score": 0.341313554747725,
+   "Row": 15,
+   "Source_Rows": [
+    {
+     "response": "R0004",
+     "row": 15
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 43,
+     "han_end": 45,
+     "vi_start": 20,
+     "vi_end": 20,
+     "han_text": "至景治年间朝廷厌其圓還類數 始差分行勘定通併各社人丁田產量補率效立為平例 生者不計耗者不除首法遂廢",
+     "vietnamese_text": "Đến khoảng đời Cảnh Trị, triểu đình cho duyệt tuyển là phiển mới sai quan chia đi khám thực, tính suốt cä nhân định điền sản các xã, lượng bổ số suất, đặt làm bình lệ, người sinh ra không kể, người hụt đi không trừ, phép cũ bèn bãi bỏ.",
+     "score": 0.341313554747725
+    }
+   ],
+   "Cap": "Cap_01",
+   "Han_IDs": [
+    "Cap_01-003-004-S4-0024",
+    "Cap_01-003-004-S4-0025",
+    "Cap_01-003-004-S4-0026"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_01-VI-0190-004",
+     0,
+     235
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 22
+    }
+   ],
+   "Request_Key": "61681b9730c0ac20e0261e484532f9df2f6cda14ac2e0bf357a47dc34d4a62f7",
+   "Context_Evidence": 1,
+   "API_Score": 0.341313554747725,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 1473,
+   "Han_End": 1499,
+   "Han_Text": "阮氏族守廣順傳習家久兵民田效租炫一遵洪德規例非有異也",
+   "VI_IDs": [
+    "Cap_01-VI-0190-005"
+   ],
+   "Vietnamese_Text": "Họ Nguyễn đóng giữ xứ Thuận Quảng, truyền nối lâu đời, sổ binh đân, ruộng đất, tô thuế, tất cả theo qui lệ đời Hồng Đức, không khác.",
+   "Alignment_Type": "1-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "continuation-31",
+   "API_Response_ID": "R0004",
+   "Validation_Status": "mapped",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "exact_text_fallback",
+   "Han_Units": [
+    46
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_01-VI-0190-005",
+     0,
+     132
+    ]
+   ],
+   "Score": 0.2997132212388255,
+   "Row": 16,
+   "Source_Rows": [
+    {
+     "response": "R0004",
+     "row": 16
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 46,
+     "han_end": 46,
+     "vi_start": 21,
+     "vi_end": 21,
+     "han_text": "阮氏族守廣順傳習家久兵民田效租炫一遵洪德規例非有異也",
+     "vietnamese_text": "Họ Nguyễn đóng giữ xứ Thuận Quảng, truyền nối lâu đời, sổ binh đân, ruộng đất, tô thuế, tất cả theo qui lệ đời Hồng Đức, không khác.",
+     "score": 0.2997132212388255
+    }
+   ],
+   "Cap": "Cap_01",
+   "Han_IDs": [
+    "Cap_01-003-004-S4-0027"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_01-VI-0190-005",
+     0,
+     132
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 23
+    }
+   ],
+   "Request_Key": "61681b9730c0ac20e0261e484532f9df2f6cda14ac2e0bf357a47dc34d4a62f7",
+   "Context_Evidence": 1,
+   "API_Score": 0.2997132212388255,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 1499,
+   "Han_End": 1512,
+   "Han_Text": "此法照軍項進取可謂兵效多矣",
+   "VI_IDs": [
+    "Cap_01-VI-0190-006"
+   ],
+   "Vietnamese_Text": "Phép ấy chiếu hạng quân mà tuyển lấy có thể được số quân nhiều.",
+   "Alignment_Type": "1-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "continuation-31",
+   "API_Response_ID": "R0004",
+   "Validation_Status": "mapped",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "exact_text_fallback",
+   "Han_Units": [
+    47
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_01-VI-0190-006",
+     0,
+     63
+    ]
+   ],
+   "Score": 0.39702103892950386,
+   "Row": 17,
+   "Source_Rows": [
+    {
+     "response": "R0004",
+     "row": 17
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 47,
+     "han_end": 47,
+     "vi_start": 22,
+     "vi_end": 22,
+     "han_text": "此法照軍項進取可謂兵效多矣",
+     "vietnamese_text": "Phép ấy chiếu hạng quân mà tuyển lấy có thể được số quân nhiều.",
+     "score": 0.39702103892950386
+    }
+   ],
+   "Cap": "Cap_01",
+   "Han_IDs": [
+    "Cap_01-003-004-S4-0028"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_01-VI-0190-006",
+     0,
+     63
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 24
+    }
+   ],
+   "Request_Key": "61681b9730c0ac20e0261e484532f9df2f6cda14ac2e0bf357a47dc34d4a62f7",
+   "Context_Evidence": 1,
+   "API_Score": 0.39702103892950386,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 1512,
+   "Han_End": 1525,
+   "Han_Text": "唐太遣使點中男入庫者亦兆此",
+   "VI_IDs": [
+    "Cap_01-VI-0190-007"
+   ],
+   "Vietnamese_Text": "Thái Tông nhà Đường sai sứ điểm hạng trung nam sung làm quân thì cũng như thế.",
+   "Alignment_Type": "1-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "continuation-31",
+   "API_Response_ID": "R0004",
+   "Validation_Status": "mapped",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "exact_text_fallback",
+   "Han_Units": [
+    48
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_01-VI-0190-007",
+     0,
+     78
+    ]
+   ],
+   "Score": 0.38156735054814156,
+   "Row": 18,
+   "Source_Rows": [
+    {
+     "response": "R0004",
+     "row": 18
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 48,
+     "han_end": 48,
+     "vi_start": 23,
+     "vi_end": 23,
+     "han_text": "唐太遣使點中男入庫者亦兆此",
+     "vietnamese_text": "Thái Tông nhà Đường sai sứ điểm hạng trung nam sung làm quân thì cũng như thế.",
+     "score": 0.38156735054814156
+    }
+   ],
+   "Cap": "Cap_01",
+   "Han_IDs": [
+    "Cap_01-003-004-S4-0029"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_01-VI-0190-007",
+     0,
+     78
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 25
+    }
+   ],
+   "Request_Key": "61681b9730c0ac20e0261e484532f9df2f6cda14ac2e0bf357a47dc34d4a62f7",
+   "Context_Evidence": 1,
+   "API_Score": 0.38156735054814156,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 1525,
+   "Han_End": 1549,
+   "Han_Text": "且在家則出孫無殺徵英為併兌祖強亦古者寓兵主整之意",
+   "VI_IDs": [
+    "Cap_01-VI-0190-008"
+   ],
+   "Vietnamese_Text": "Vả khi ở nhà thì nộp tiền để được miễn địch, khi đòi ra thì được miễn cả tô phú, đó cũng là ý ngụ bình ư nông của đời xưa.",
+   "Alignment_Type": "1-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "continuation-31",
+   "API_Response_ID": "R0004",
+   "Validation_Status": "mapped",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "exact_text_fallback",
+   "Han_Units": [
+    49
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_01-VI-0190-008",
+     0,
+     122
+    ]
+   ],
+   "Score": 0.23032006861501753,
+   "Row": 19,
+   "Source_Rows": [
+    {
+     "response": "R0004",
+     "row": 19
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 49,
+     "han_end": 49,
+     "vi_start": 24,
+     "vi_end": 24,
+     "han_text": "且在家則出孫無殺徵英為併兌祖強亦古者寓兵主整之意",
+     "vietnamese_text": "Vả khi ở nhà thì nộp tiền để được miễn địch, khi đòi ra thì được miễn cả tô phú, đó cũng là ý ngụ bình ư nông của đời xưa.",
+     "score": 0.23032006861501753
+    }
+   ],
+   "Cap": "Cap_01",
+   "Han_IDs": [
+    "Cap_01-003-004-S4-0030"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_01-VI-0190-008",
+     0,
+     122
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 26
+    }
+   ],
+   "Request_Key": "61681b9730c0ac20e0261e484532f9df2f6cda14ac2e0bf357a47dc34d4a62f7",
+   "Context_Evidence": 1,
+   "API_Score": 0.23032006861501753,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 1549,
+   "Han_End": 1579,
+   "Han_Text": "玄另頭常如應多已除外不計至如照丁口等策以差次出賦味示不至有偏",
+   "VI_IDs": [
+    "Cap_01-VI-0190-009",
+    "Cap_01-VI-0190-010"
+   ],
+   "Vietnamese_Text": "Hạng lính thường phục dịch đã trừ ra không kể, còn như chiếu theo đẳng hạng số đinh, theo thứ bậc mà nộp tiền thuế thì cũng không có bên nhẹ bên nặng. Mở sổ ra xem, số dân rõ ràng, rất dễ tra xét.",
+   "Alignment_Type": "N-M",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "continuation-31",
+   "API_Response_ID": "R0004",
+   "Validation_Status": "mapped",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "exact_text_fallback",
+   "Han_Units": [
+    50,
+    51
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_01-VI-0190-009",
+     0,
+     150
+    ],
+    [
+     "Cap_01-VI-0190-010",
+     0,
+     45
+    ]
+   ],
+   "Score": 0.19111706884551372,
+   "Row": 20,
+   "Source_Rows": [
+    {
+     "response": "R0004",
+     "row": 20
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 50,
+     "han_end": 51,
+     "vi_start": 25,
+     "vi_end": 26,
+     "han_text": "玄另頭常如應多已除外不計 至如照丁口等策以差次出賦味示不至有偏",
+     "vietnamese_text": "Hạng lính thường phục dịch đã trừ ra không kể, còn như chiếu theo đẳng hạng số đinh, theo thứ bậc mà nộp tiền thuế thì cũng không có bên nhẹ bên nặng. Mở sổ ra xem, số dân rõ ràng, rất dễ tra xét.",
+     "score": 0.19111706884551372
+    }
+   ],
+   "Cap": "Cap_01",
+   "Han_IDs": [
+    "Cap_01-003-004-S4-0031",
+    "Cap_01-003-004-S4-0032"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_01-VI-0190-009",
+     0,
+     150
+    ],
+    [
+     "Cap_01-VI-0190-010",
+     0,
+     45
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 27
+    },
+    {
+     "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 28
+    }
+   ],
+   "Request_Key": "61681b9730c0ac20e0261e484532f9df2f6cda14ac2e0bf357a47dc34d4a62f7",
+   "Context_Evidence": 1,
+   "API_Score": 0.19111706884551372,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 1579,
+   "Han_End": 1592,
+   "Han_Text": "若祥酒是生生老成北仍其成例",
+   "VI_IDs": [
+    "Cap_01-VI-0190-011"
+   ],
+   "Vietnamese_Text": "Xưa Đông Pha nói: \"Phép theo nhau thì việc dễ thành\".",
+   "Alignment_Type": "1-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "continuation-31",
+   "API_Response_ID": "R0004",
+   "Validation_Status": "mapped",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "exact_text_fallback",
+   "Han_Units": [
+    52
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_01-VI-0190-011",
+     0,
+     53
+    ]
+   ],
+   "Score": 0.06280749970289787,
+   "Row": 21,
+   "Source_Rows": [
+    {
+     "response": "R0004",
+     "row": 21
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 52,
+     "han_end": 52,
+     "vi_start": 27,
+     "vi_end": 27,
+     "han_text": "若祥酒是生生老成北仍其成例",
+     "vietnamese_text": "Xưa Đông Pha nói: \"Phép theo nhau thì việc dễ thành\".",
+     "score": 0.06280749970289787
+    }
+   ],
+   "Cap": "Cap_01",
+   "Han_IDs": [
+    "Cap_01-003-004-S4-0033"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_01-VI-0190-011",
+     0,
+     53
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 29
+    }
+   ],
+   "Request_Key": "61681b9730c0ac20e0261e484532f9df2f6cda14ac2e0bf357a47dc34d4a62f7",
+   "Context_Evidence": 1,
+   "API_Score": 0.06280749970289787,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 1592,
+   "Han_End": 1628,
+   "Han_Text": "雜中各色量加裁減於微員目渠八省約郎一方之民巳沐膏澤而兵財自足國課亦有餘矣",
+   "VI_IDs": [
+    "Cap_01-VI-0191-001"
+   ],
+   "Vietnamese_Text": "Nếu theo lệ trước mà trong đó chước lượng giảm bớt các viên mục cai trưng, đại khái giảm ít đi thì đân trong hạt đã được thấm nhuần ơn huệ mà binh và của đều đủ, thuế khoá của nước cũng có thừa.",
+   "Alignment_Type": "1-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "continuation-31",
+   "API_Response_ID": "R0004",
+   "Validation_Status": "mapped",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "exact_text_fallback",
+   "Han_Units": [
+    53
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_01-VI-0191-001",
+     0,
+     194
+    ]
+   ],
+   "Score": 0.1915319171761514,
+   "Row": 22,
+   "Source_Rows": [
+    {
+     "response": "R0004",
+     "row": 22
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 53,
+     "han_end": 53,
+     "vi_start": 28,
+     "vi_end": 28,
+     "han_text": "雜中各色量加裁減於微員目渠八省約郎一方之民巳沐膏澤而兵財自足國課亦有餘矣",
+     "vietnamese_text": "Nếu theo lệ trước mà trong đó chước lượng giảm bớt các viên mục cai trưng, đại khái giảm ít đi thì đân trong hạt đã được thấm nhuần ơn huệ mà binh và của đều đủ, thuế khoá của nước cũng có thừa.",
+     "score": 0.1915319171761514
+    }
+   ],
+   "Cap": "Cap_01",
+   "Han_IDs": [
+    "Cap_01-003-004-S4-0034"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_01-VI-0191-001",
+     0,
+     194
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 30
+    }
+   ],
+   "Request_Key": "61681b9730c0ac20e0261e484532f9df2f6cda14ac2e0bf357a47dc34d4a62f7",
+   "Context_Evidence": 1,
+   "API_Score": 0.1915319171761514,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 1628,
+   "Han_End": 1658,
+   "Han_Text": "廣順六年一選場正月差官六月選風香柔奏田富榮三縣一場在辯擂下處",
+   "VI_IDs": [
+    "Cap_01-VI-0191-002",
+    "Cap_01-VI-0191-003"
+   ],
+   "Vietnamese_Text": "Xứ Thuận Quảng cứ 6 nàm một kỳ tuyển trường, tháng giêng sai quan đi, tháng 6 thì duyệt tuyển. Ba huyện Hương Trà, Quảng Điền.",
+   "Alignment_Type": "1-N",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "continuation-31",
+   "API_Response_ID": "R0004",
+   "Validation_Status": "mapped",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "exact_text_fallback",
+   "Han_Units": [
+    54
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_01-VI-0191-002",
+     0,
+     94
+    ],
+    [
+     "Cap_01-VI-0191-003",
+     0,
+     31
+    ]
+   ],
+   "Score": 0.29340279324486296,
+   "Row": 23,
+   "Source_Rows": [
+    {
+     "response": "R0004",
+     "row": 23
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 54,
+     "han_end": 54,
+     "vi_start": 29,
+     "vi_end": 30,
+     "han_text": "廣順六年一選場正月差官六月選風香柔奏田富榮三縣一場在辯擂下處",
+     "vietnamese_text": "Xứ Thuận Quảng cứ 6 nàm một kỳ tuyển trường, tháng giêng sai quan đi, tháng 6 thì duyệt tuyển. Ba huyện Hương Trà, Quảng Điền.",
+     "score": 0.29340279324486296
+    }
+   ],
+   "Cap": "Cap_01",
+   "Han_IDs": [
+    "Cap_01-003-004-S4-0035"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_01-VI-0191-002",
+     0,
+     94
+    ],
+    [
+     "Cap_01-VI-0191-003",
+     0,
+     31
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 31
+    },
+    {
+     "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 32
+    }
+   ],
+   "Request_Key": "61681b9730c0ac20e0261e484532f9df2f6cda14ac2e0bf357a47dc34d4a62f7",
+   "Context_Evidence": 1,
+   "API_Score": 0.29340279324486296,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 1658,
+   "Han_End": 1704,
+   "Han_Text": "登昌海陵明天三縣一場康祿正麗水南南政各縣各一場廣南九縣九暢差官自擇善地無有定所並限一月內完讫",
+   "VI_IDs": [
+    "Cap_01-VI-0191-004",
+    "Cap_01-VI-0191-005"
+   ],
+   "Vietnamese_Text": "Phú Vang một trường, ở xứ Cồn Soi Hạ; ba huyện Đăng Xương. Hải Lăng, Minh Lành một trường, huyện Khang Lộc, huyện Lệ Thuỷ và Nam Bố Chính mỗi huyện một trường; chín huyện ở Quảng Nam thì chín trường; sai quan tự chọn chỗ tốt, không có định sở, và hạn trong một tháng phải xong.",
+   "Alignment_Type": "N-M",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "continuation-31",
+   "API_Response_ID": "R0004",
+   "Validation_Status": "mapped",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "exact_text_fallback",
+   "Han_Units": [
+    55,
+    56,
+    57
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_01-VI-0191-004",
+     0,
+     58
+    ],
+    [
+     "Cap_01-VI-0191-005",
+     0,
+     218
+    ]
+   ],
+   "Score": 0.2639866474612442,
+   "Row": 24,
+   "Source_Rows": [
+    {
+     "response": "R0004",
+     "row": 24
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 55,
+     "han_end": 57,
+     "vi_start": 31,
+     "vi_end": 32,
+     "han_text": "登昌海陵明天三縣一場康祿 正麗水南南政各縣各一場廣南九縣九暢 差官自擇善地無有定所並限一月內完讫",
+     "vietnamese_text": "Phú Vang một trường, ở xứ Cồn Soi Hạ; ba huyện Đăng Xương. Hải Lăng, Minh Lành một trường, huyện Khang Lộc, huyện Lệ Thuỷ và Nam Bố Chính mỗi huyện một trường; chín huyện ở Quảng Nam thì chín trường; sai quan tự chọn chỗ tốt, không có định sở, và hạn trong một tháng phải xong.",
+     "score": 0.2639866474612442
+    }
+   ],
+   "Cap": "Cap_01",
+   "Han_IDs": [
+    "Cap_01-003-004-S4-0036",
+    "Cap_01-003-004-S4-0037",
+    "Cap_01-003-004-S4-0038"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_01-VI-0191-004",
+     0,
+     58
+    ],
+    [
+     "Cap_01-VI-0191-005",
+     0,
+     218
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 33
+    },
+    {
+     "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 34
+    }
+   ],
+   "Request_Key": "61681b9730c0ac20e0261e484532f9df2f6cda14ac2e0bf357a47dc34d4a62f7",
+   "Context_Evidence": 1,
+   "API_Score": 0.2639866474612442,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  },
+  {
+   "Han_Start": 1704,
+   "Han_End": 1720,
+   "Han_Text": "頗落只責人效增減以收其稅非是遂另",
+   "VI_IDs": [
+    "Cap_01-VI-0191-006"
+   ],
+   "Vietnamese_Text": "Khai sổ chỉ xét số người thêm hay bớt để thu thuế, không phải là tuyển lính.",
+   "Alignment_Type": "1-1",
+   "Segmentation_Strategy": "S4+T1",
+   "Experiment_ID": "continuation-31",
+   "API_Response_ID": "R0004",
+   "Validation_Status": "mapped",
+   "Han_Resolution": "indices_text",
+   "VI_Resolution": "exact_text_fallback",
+   "Han_Units": [
+    58
+   ],
+   "Han_Partial_Unit": false,
+   "VI_Char_Spans": [
+    [
+     "Cap_01-VI-0191-006",
+     0,
+     76
+    ]
+   ],
+   "Score": 0.3684626528454212,
+   "Row": 25,
+   "Source_Rows": [
+    {
+     "response": "R0004",
+     "row": 25
+    }
+   ],
+   "Original_API_Rows": [
+    {
+     "han_start": 58,
+     "han_end": 58,
+     "vi_start": 33,
+     "vi_end": 33,
+     "han_text": "頗落只責人效增減以收其稅非是遂另",
+     "vietnamese_text": "Khai sổ chỉ xét số người thêm hay bớt để thu thuế, không phải là tuyển lính.",
+     "score": 0.3684626528454212
+    }
+   ],
+   "Cap": "Cap_01",
+   "Han_IDs": [
+    "Cap_01-003-004-S4-0039"
+   ],
+   "VI_Payload_Spans": [
+    [
+     "Cap_01-VI-0191-006",
+     0,
+     76
+    ]
+   ],
+   "VI_Source_Rows": [
+    {
+     "path": "02_ocr_tho/Cap_01/VIET/VIET_0186-0251.xlsx",
+     "sheet": "CAU_VIET",
+     "row": 35
+    }
+   ],
+   "Request_Key": "61681b9730c0ac20e0261e484532f9df2f6cda14ac2e0bf357a47dc34d4a62f7",
+   "Context_Evidence": 1,
+   "API_Score": 0.3684626528454212,
+   "Label_Target": "UNKNOWN",
+   "Review_Status": "PENDING_INDEPENDENT_REVIEW"
+  }
+ ]
+}

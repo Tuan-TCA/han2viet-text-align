@@ -1,0 +1,96 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "a1ef95c4ee62cbda8b96e61b7813a39657d8f926760256db31eda784a097ae11",
+  "payload": {
+    "han": "而中春設撫鎮衙門始作同許曉\n若依首生理葉發攬揚豁免征花許得爾行販賣\n於是傍海社村老坊漸要爐灶沙土鹵地以次懇治\n其塲一白而甘不異各處\n初一期小碗己孫三酉秋初價止小碗六文香菜云y0望鴻奉正等社明灵之許論明媚苦社各效百燈並照首例受稅\n約墟南制致卅僻頭東南同意\n已得八十爐渠河社柰村同煑得五六十驥未補龍例\n其販賣爐盛各社首有計丁税每丁受三四卷亦未補稅例\n民於是若悅寬養生理日增物價日賤\n百國課就藏可以不煩事載清人之檢入而官兵隨處取之足矣\n順化江魚富盛看南常不及\n魚有名\n餘誓之身小頭福俗以作鯨\n海魚有名接處易小似踰腰了\n海蝦大於東南俗名無發\n富春江多鯉俗呼為號\n又有一頌惡似經而頗福金色味耳\n美如歸呼為野游讜亦似海陽財黃味肥而大\n歸魚小者呼為鄭集大者呼為鄭丞\n諸江亦有之不如出他潭谷",
+    "vi": "Mùa xuân năm Bính Thân, đặt nha môn Trấn thủ, mới ra hiểu dụ, cho dân đều theo nghề cũ làm ăn, cấm bắt kẻ quấy nhiễu, rộng tha thuế má giao dịch cho được thông hành buôn bán, từ đó những xã thôn ở kể biển dẫn mở lò nấu.\nNhững ruộng cát đất mặn lần lượt được khẩn trị, muối ngọt mà trắng, không khác các xứ.\nĐầu mùa xuân mỗi chén nhỏ muối giá 30 đồng, sau đầu mùa thu giá chỉ còn 6 đồng.\nXã Diêm Trường, xã Phụng Chính huyện Hương Trà, xã Xuân MỊ, xã DI Loan huyện Minh Linh, đều có mấy trăm lò, đều theo lệ cũ của họ Nguyễn chịu thuế nộp muối.\nPhường Cồn Đầu, trang Đông Cao châu Nam Bố Chính mở nấu được 80 lò.\nNại thôn thuộc xã Cừ Hà được õ0 lò, chưa bổ thuế.\nCác xã buôn muối cũ có thuế điêm đình, 3 sọt, 4 sọt, cũng chưa bổ thuế.\nDân được khoan dưỡng, nên sinh kế càng ngày càng tăng, giá hàng hạ mà thuế khoá dồi dào, có thể không phiền phải chở muối ở Thanh Nghệ đến mà quan bình tuỳ chỗ lấy dùng cũng đủ.\nXứ Thuận Hoá,sông Hương Giang cá sông nhiều.\nCó giống cá tên là cá thệ”', mình nhỏ đầu hẹp, tục dùng làm mắm."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 2,\n        \"vi_start\": 0,\n        \"vi_end\": 0,\n        \"han_text\": \"而中春設撫鎮衙門始作同許曉 若依首生理葉發攬揚豁免征花許得爾行販賣 於是傍海社村老坊漸要爐灶沙土鹵地以次懇治\",\n        \"vietnamese_text\": \"Mùa xuân năm Bính Thân, đặt nha môn Trấn thủ, mới ra hiểu dụ, cho dân đều theo nghề cũ làm ăn, cấm bắt kẻ quấy nhiễu, rộng tha thuế má giao dịch cho được thông hành buôn bán, từ đó những xã thôn ở kể biển dẫn mở lò nấu.\",\n        \"score\": 0.3030211024439616\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 3,\n        \"vi_start\": 1,\n        \"vi_end\": 1,\n        \"han_text\": \"其塲一白而甘不異各處\",\n        \"vietnamese_text\": \"Những ruộng cát đất mặn lần lượt được khẩn trị, muối ngọt mà trắng, không khác các xứ.\",\n        \"score\": 0.14742547553591961\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 4,\n        \"vi_start\": 2,\n        \"vi_end\": 3,\n        \"han_text\": \"初一期小碗己孫三酉秋初價止小碗六文香菜云y0望鴻奉正等社明灵之許論明媚苦社各效百燈並照首例受稅\",\n        \"vietnamese_text\": \"Đầu mùa xuân mỗi chén nhỏ muối giá 30 đồng, sau đầu mùa thu giá chỉ còn 6 đồng. Xã Diêm Trường, xã Phụng Chính huyện Hương Trà, xã Xuân MỊ, xã DI Loan huyện Minh Linh, đều có mấy trăm lò, đều theo lệ cũ của họ Nguyễn chịu thuế nộp muối.\",\n        \"score\": 0.1819349766033621\n      },\n      {\n        \"han_start\": 5,\n        \"han_end\": 5,\n        \"vi_start\": 4,\n        \"vi_end\": 4,\n        \"han_text\": \"約墟南制致卅僻頭東南同意\",\n        \"vietnamese_text\": \"Phường Cồn Đầu, trang Đông Cao châu Nam Bố Chính mở nấu được 80 lò.\",\n        \"score\": 0.11567233810715806\n      },\n      {\n        \"han_start\": 6,\n        \"han_end\": 7,\n        \"vi_start\": 5,\n        \"vi_end\": 6,\n        \"han_text\": \"已得八十爐渠河社柰村同煑得五六十驥未補龍例 其販賣爐盛各社首有計丁税每丁受三四卷亦未補稅例\",\n        \"vietnamese_text\": \"Nại thôn thuộc xã Cừ Hà được õ0 lò, chưa bổ thuế. Các xã buôn muối cũ có thuế điêm đình, 3 sọt, 4 sọt, cũng chưa bổ thuế.\",\n        \"score\": 0.39513555216550095\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 11,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"民於是若悅寬養生理日增物價日賤 百國課就藏可以不煩事載清人之檢入而官兵隨處取之足矣 順化江魚富盛看南常不及 魚有名\",\n        \"vietnamese_text\": \"Dân được khoan dưỡng, nên sinh kế càng ngày càng tăng, giá hàng hạ mà thuế khoá dồi dào, có thể không phiền phải chở muối ở Thanh Nghệ đến mà quan bình tuỳ chỗ lấy dùng cũng đủ.\",\n        \"score\": 0.3114817002744474\n      },\n      {\n        \"han_start\": 12,\n        \"han_end\": 15,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"餘誓之身小頭福俗以作鯨 海魚有名接處易小似踰腰了 海蝦大於東南俗名無發 富春江多鯉俗呼為號\",\n        \"vietnamese_text\": \"Xứ Thuận Hoá,sông Hương Giang cá sông nhiều.\",\n        \"score\": -0.009721902855087863\n      },\n      {\n        \"han_start\": 16,\n        \"han_end\": 19,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"又有一頌惡似經而頗福金色味耳 美如歸呼為野游讜亦似海陽財黃味肥而大 歸魚小者呼為鄭集大者呼為鄭丞 諸江亦有之不如出他潭谷\",\n        \"vietnamese_text\": \"Có giống cá tên là cá thệ”', mình nhỏ đầu hẹp, tục dùng làm mắm.\",\n        \"score\": 0.06567475240834972\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 2,
+          "vi_start": 0,
+          "vi_end": 0,
+          "han_text": "而中春設撫鎮衙門始作同許曉 若依首生理葉發攬揚豁免征花許得爾行販賣 於是傍海社村老坊漸要爐灶沙土鹵地以次懇治",
+          "vietnamese_text": "Mùa xuân năm Bính Thân, đặt nha môn Trấn thủ, mới ra hiểu dụ, cho dân đều theo nghề cũ làm ăn, cấm bắt kẻ quấy nhiễu, rộng tha thuế má giao dịch cho được thông hành buôn bán, từ đó những xã thôn ở kể biển dẫn mở lò nấu.",
+          "score": 0.3030211024439616
+        },
+        {
+          "han_start": 3,
+          "han_end": 3,
+          "vi_start": 1,
+          "vi_end": 1,
+          "han_text": "其塲一白而甘不異各處",
+          "vietnamese_text": "Những ruộng cát đất mặn lần lượt được khẩn trị, muối ngọt mà trắng, không khác các xứ.",
+          "score": 0.14742547553591961
+        },
+        {
+          "han_start": 4,
+          "han_end": 4,
+          "vi_start": 2,
+          "vi_end": 3,
+          "han_text": "初一期小碗己孫三酉秋初價止小碗六文香菜云y0望鴻奉正等社明灵之許論明媚苦社各效百燈並照首例受稅",
+          "vietnamese_text": "Đầu mùa xuân mỗi chén nhỏ muối giá 30 đồng, sau đầu mùa thu giá chỉ còn 6 đồng. Xã Diêm Trường, xã Phụng Chính huyện Hương Trà, xã Xuân MỊ, xã DI Loan huyện Minh Linh, đều có mấy trăm lò, đều theo lệ cũ của họ Nguyễn chịu thuế nộp muối.",
+          "score": 0.1819349766033621
+        },
+        {
+          "han_start": 5,
+          "han_end": 5,
+          "vi_start": 4,
+          "vi_end": 4,
+          "han_text": "約墟南制致卅僻頭東南同意",
+          "vietnamese_text": "Phường Cồn Đầu, trang Đông Cao châu Nam Bố Chính mở nấu được 80 lò.",
+          "score": 0.11567233810715806
+        },
+        {
+          "han_start": 6,
+          "han_end": 7,
+          "vi_start": 5,
+          "vi_end": 6,
+          "han_text": "已得八十爐渠河社柰村同煑得五六十驥未補龍例 其販賣爐盛各社首有計丁税每丁受三四卷亦未補稅例",
+          "vietnamese_text": "Nại thôn thuộc xã Cừ Hà được õ0 lò, chưa bổ thuế. Các xã buôn muối cũ có thuế điêm đình, 3 sọt, 4 sọt, cũng chưa bổ thuế.",
+          "score": 0.39513555216550095
+        },
+        {
+          "han_start": 8,
+          "han_end": 11,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "民於是若悅寬養生理日增物價日賤 百國課就藏可以不煩事載清人之檢入而官兵隨處取之足矣 順化江魚富盛看南常不及 魚有名",
+          "vietnamese_text": "Dân được khoan dưỡng, nên sinh kế càng ngày càng tăng, giá hàng hạ mà thuế khoá dồi dào, có thể không phiền phải chở muối ở Thanh Nghệ đến mà quan bình tuỳ chỗ lấy dùng cũng đủ.",
+          "score": 0.3114817002744474
+        },
+        {
+          "han_start": 12,
+          "han_end": 15,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "餘誓之身小頭福俗以作鯨 海魚有名接處易小似踰腰了 海蝦大於東南俗名無發 富春江多鯉俗呼為號",
+          "vietnamese_text": "Xứ Thuận Hoá,sông Hương Giang cá sông nhiều.",
+          "score": -0.009721902855087863
+        },
+        {
+          "han_start": 16,
+          "han_end": 19,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "又有一頌惡似經而頗福金色味耳 美如歸呼為野游讜亦似海陽財黃味肥而大 歸魚小者呼為鄭集大者呼為鄭丞 諸江亦有之不如出他潭谷",
+          "vietnamese_text": "Có giống cá tên là cá thệ”', mình nhỏ đầu hẹp, tục dùng làm mắm.",
+          "score": 0.06567475240834972
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 8953
+}

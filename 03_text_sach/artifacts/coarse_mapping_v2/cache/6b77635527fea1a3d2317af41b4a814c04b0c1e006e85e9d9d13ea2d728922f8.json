@@ -1,0 +1,105 @@
+{
+  "endpoint": "https://kimhannom.fit.hcmus.edu.vn/api/web/clc-sinonom/sentence-alignment",
+  "key": "6b77635527fea1a3d2317af41b4a814c04b0c1e006e85e9d9d13ea2d728922f8",
+  "payload": {
+    "han": "按武備法三伏有國一名首港\n產鶴頂鳥大大於鴨腦骨厚餘外黃內赤鮮麗可愛\n淳泥國亦有之\n順化有名環照玉自初蘭國帶來\n青白二色為多淡黃赤色絕少\n大者必玉燭小者似綠玉以飭指環及帽頂暗中有光壺然\n近目視之五色光彩青紅陶爍\n入火不焦一粒粒價至銀百義兩\n其次小饌火饌金圃诸玉\n西洋國人惡心伯為前阮王天文兩院\n居寬春坊已三十年所攜書有故十卷皆西洋文字人不亡\n該園堂盤潔以賣三藥為業\n其棄凡散酒湯並用玻臻水晶\n留皿蛇目石嵌指琛者只有淡黃純黃二色别色皆假也\n環照玉以入火不焦碎者為真\n焦者五水晶順化以葉磨琥珀顯光圓咀鬱金針黃之然從以紫弦未浸酒\n蘇邑將疏珀事浸渠臣辰漢者皆成赤色\n次日取少油擦之豐澤如真號殉核木中固無之\n出於暹眾日本九真日南等國蕃船酒煎火漫深紅可渠浣之色不退\n碑礪生廣南首無掌稅有用製飭其族同家官伊處公",
+    "vi": "Mặt sau có quả đồng trường canh, lúc lắc không ngớt cho đồng hồ chạy.\nMặt sau có một tấm đồng, bên tả có chốt, bên hữu có khoá, cũng dùng để mở đóng.\nÝ chừng toàn cơ ngọc hành”' đời xưa, chẳng qua cũng như thế.\nVăn Tú có thể sửa được.\nCái này không có dây xỏ; nhưng đặt bằng thì nó mới chạy, hơi chút không bằng thì không chạy.\nThuận Hoá có thứ ngọc hạc đính giống ngà voi mà vàng hơi có điểm đỏ, tế nhị sáng nhuần, chế làm hộp sáp thơm và tràng hạt, đeo có thể tránh được rắn rết.\nThứ ấy do tàu tây đem đến bán chứ không phải là thổ sản.\nXét sách Võ b¿ chí chép \"Nước Tam Phật Tế”, một bên là Cựu Cảng”, sản chim hạc đính, lớn bằng con vịt, xương óc nó dày hơn một tấc, ngoài vàng trong đỏ, tươi đẹp đáng yêu.\nNước Bôt Nê\"\" cũng có\".\nThuận Hoá có thứ ngọc gọi là hoàn chiếu, do thuyền buôn Hoà Lan đem đến, có hai sắc xanh và trắng là nhiều, sắc vàng nhạt và đỏ thì rất ít, thứ lớn thì bằng hạt ngô, thứ nhỏ thì bằng hạt đậu xanh, dùng để sức nhẫn và chỏm mũ."
+  },
+  "attempt": 1,
+  "http": 200,
+  "api_code": "000000",
+  "headers": {},
+  "raw_response": "{\n  \"is_success\": true,\n  \"code\": \"000000\",\n  \"message\": null,\n  \"data\": {\n    \"result\": [\n      {\n        \"han_start\": 0,\n        \"han_end\": 0,\n        \"vi_start\": 0,\n        \"vi_end\": 1,\n        \"han_text\": \"按武備法三伏有國一名首港\",\n        \"vietnamese_text\": \"Mặt sau có quả đồng trường canh, lúc lắc không ngớt cho đồng hồ chạy. Mặt sau có một tấm đồng, bên tả có chốt, bên hữu có khoá, cũng dùng để mở đóng.\",\n        \"score\": -0.034996413192436605\n      },\n      {\n        \"han_start\": 1,\n        \"han_end\": 1,\n        \"vi_start\": 2,\n        \"vi_end\": 2,\n        \"han_text\": \"產鶴頂鳥大大於鴨腦骨厚餘外黃內赤鮮麗可愛\",\n        \"vietnamese_text\": \"Ý chừng toàn cơ ngọc hành”' đời xưa, chẳng qua cũng như thế.\",\n        \"score\": 0.10747789382456885\n      },\n      {\n        \"han_start\": 2,\n        \"han_end\": 2,\n        \"vi_start\": 3,\n        \"vi_end\": 3,\n        \"han_text\": \"淳泥國亦有之\",\n        \"vietnamese_text\": \"Văn Tú có thể sửa được.\",\n        \"score\": 0.13541103233721236\n      },\n      {\n        \"han_start\": 3,\n        \"han_end\": 3,\n        \"vi_start\": 4,\n        \"vi_end\": 4,\n        \"han_text\": \"順化有名環照玉自初蘭國帶來\",\n        \"vietnamese_text\": \"Cái này không có dây xỏ; nhưng đặt bằng thì nó mới chạy, hơi chút không bằng thì không chạy.\",\n        \"score\": -0.06227106475091849\n      },\n      {\n        \"han_start\": 4,\n        \"han_end\": 6,\n        \"vi_start\": 5,\n        \"vi_end\": 5,\n        \"han_text\": \"青白二色為多淡黃赤色絕少 大者必玉燭小者似綠玉以飭指環及帽頂暗中有光壺然 近目視之五色光彩青紅陶爍\",\n        \"vietnamese_text\": \"Thuận Hoá có thứ ngọc hạc đính giống ngà voi mà vàng hơi có điểm đỏ, tế nhị sáng nhuần, chế làm hộp sáp thơm và tràng hạt, đeo có thể tránh được rắn rết.\",\n        \"score\": 0.28129025434958765\n      },\n      {\n        \"han_start\": 7,\n        \"han_end\": 7,\n        \"vi_start\": 6,\n        \"vi_end\": 6,\n        \"han_text\": \"入火不焦一粒粒價至銀百義兩\",\n        \"vietnamese_text\": \"Thứ ấy do tàu tây đem đến bán chứ không phải là thổ sản.\",\n        \"score\": 0.021480758231681576\n      },\n      {\n        \"han_start\": 8,\n        \"han_end\": 11,\n        \"vi_start\": 7,\n        \"vi_end\": 7,\n        \"han_text\": \"其次小饌火饌金圃诸玉 西洋國人惡心伯為前阮王天文兩院 居寬春坊已三十年所攜書有故十卷皆西洋文字人不亡 該園堂盤潔以賣三藥為業\",\n        \"vietnamese_text\": \"Xét sách Võ b¿ chí chép \\\"Nước Tam Phật Tế”, một bên là Cựu Cảng”, sản chim hạc đính, lớn bằng con vịt, xương óc nó dày hơn một tấc, ngoài vàng trong đỏ, tươi đẹp đáng yêu.\",\n        \"score\": 0.2745797252860899\n      },\n      {\n        \"han_start\": 12,\n        \"han_end\": 15,\n        \"vi_start\": 8,\n        \"vi_end\": 8,\n        \"han_text\": \"其棄凡散酒湯並用玻臻水晶 留皿蛇目石嵌指琛者只有淡黃純黃二色别色皆假也 環照玉以入火不焦碎者為真 焦者五水晶順化以葉磨琥珀顯光圓咀鬱金針黃之然從以紫弦未浸酒\",\n        \"vietnamese_text\": \"Nước Bôt Nê\\\"\\\" cũng có\\\".\",\n        \"score\": -0.01000037567891135\n      },\n      {\n        \"han_start\": 16,\n        \"han_end\": 19,\n        \"vi_start\": 9,\n        \"vi_end\": 9,\n        \"han_text\": \"蘇邑將疏珀事浸渠臣辰漢者皆成赤色 次日取少油擦之豐澤如真號殉核木中固無之 出於暹眾日本九真日南等國蕃船酒煎火漫深紅可渠浣之色不退 碑礪生廣南首無掌稅有用製飭其族同家官伊處公\",\n        \"vietnamese_text\": \"Thuận Hoá có thứ ngọc gọi là hoàn chiếu, do thuyền buôn Hoà Lan đem đến, có hai sắc xanh và trắng là nhiều, sắc vàng nhạt và đỏ thì rất ít, thứ lớn thì bằng hạt ngô, thứ nhỏ thì bằng hạt đậu xanh, dùng để sức nhẫn và chỏm mũ.\",\n        \"score\": 0.16032810333426567\n      }\n    ]\n  }\n}",
+  "body": {
+    "is_success": true,
+    "code": "000000",
+    "message": null,
+    "data": {
+      "result": [
+        {
+          "han_start": 0,
+          "han_end": 0,
+          "vi_start": 0,
+          "vi_end": 1,
+          "han_text": "按武備法三伏有國一名首港",
+          "vietnamese_text": "Mặt sau có quả đồng trường canh, lúc lắc không ngớt cho đồng hồ chạy. Mặt sau có một tấm đồng, bên tả có chốt, bên hữu có khoá, cũng dùng để mở đóng.",
+          "score": -0.034996413192436605
+        },
+        {
+          "han_start": 1,
+          "han_end": 1,
+          "vi_start": 2,
+          "vi_end": 2,
+          "han_text": "產鶴頂鳥大大於鴨腦骨厚餘外黃內赤鮮麗可愛",
+          "vietnamese_text": "Ý chừng toàn cơ ngọc hành”' đời xưa, chẳng qua cũng như thế.",
+          "score": 0.10747789382456885
+        },
+        {
+          "han_start": 2,
+          "han_end": 2,
+          "vi_start": 3,
+          "vi_end": 3,
+          "han_text": "淳泥國亦有之",
+          "vietnamese_text": "Văn Tú có thể sửa được.",
+          "score": 0.13541103233721236
+        },
+        {
+          "han_start": 3,
+          "han_end": 3,
+          "vi_start": 4,
+          "vi_end": 4,
+          "han_text": "順化有名環照玉自初蘭國帶來",
+          "vietnamese_text": "Cái này không có dây xỏ; nhưng đặt bằng thì nó mới chạy, hơi chút không bằng thì không chạy.",
+          "score": -0.06227106475091849
+        },
+        {
+          "han_start": 4,
+          "han_end": 6,
+          "vi_start": 5,
+          "vi_end": 5,
+          "han_text": "青白二色為多淡黃赤色絕少 大者必玉燭小者似綠玉以飭指環及帽頂暗中有光壺然 近目視之五色光彩青紅陶爍",
+          "vietnamese_text": "Thuận Hoá có thứ ngọc hạc đính giống ngà voi mà vàng hơi có điểm đỏ, tế nhị sáng nhuần, chế làm hộp sáp thơm và tràng hạt, đeo có thể tránh được rắn rết.",
+          "score": 0.28129025434958765
+        },
+        {
+          "han_start": 7,
+          "han_end": 7,
+          "vi_start": 6,
+          "vi_end": 6,
+          "han_text": "入火不焦一粒粒價至銀百義兩",
+          "vietnamese_text": "Thứ ấy do tàu tây đem đến bán chứ không phải là thổ sản.",
+          "score": 0.021480758231681576
+        },
+        {
+          "han_start": 8,
+          "han_end": 11,
+          "vi_start": 7,
+          "vi_end": 7,
+          "han_text": "其次小饌火饌金圃诸玉 西洋國人惡心伯為前阮王天文兩院 居寬春坊已三十年所攜書有故十卷皆西洋文字人不亡 該園堂盤潔以賣三藥為業",
+          "vietnamese_text": "Xét sách Võ b¿ chí chép \"Nước Tam Phật Tế”, một bên là Cựu Cảng”, sản chim hạc đính, lớn bằng con vịt, xương óc nó dày hơn một tấc, ngoài vàng trong đỏ, tươi đẹp đáng yêu.",
+          "score": 0.2745797252860899
+        },
+        {
+          "han_start": 12,
+          "han_end": 15,
+          "vi_start": 8,
+          "vi_end": 8,
+          "han_text": "其棄凡散酒湯並用玻臻水晶 留皿蛇目石嵌指琛者只有淡黃純黃二色别色皆假也 環照玉以入火不焦碎者為真 焦者五水晶順化以葉磨琥珀顯光圓咀鬱金針黃之然從以紫弦未浸酒",
+          "vietnamese_text": "Nước Bôt Nê\"\" cũng có\".",
+          "score": -0.01000037567891135
+        },
+        {
+          "han_start": 16,
+          "han_end": 19,
+          "vi_start": 9,
+          "vi_end": 9,
+          "han_text": "蘇邑將疏珀事浸渠臣辰漢者皆成赤色 次日取少油擦之豐澤如真號殉核木中固無之 出於暹眾日本九真日南等國蕃船酒煎火漫深紅可渠浣之色不退 碑礪生廣南首無掌稅有用製飭其族同家官伊處公",
+          "vietnamese_text": "Thuận Hoá có thứ ngọc gọi là hoàn chiếu, do thuyền buôn Hoà Lan đem đến, có hai sắc xanh và trắng là nhiều, sắc vàng nhạt và đỏ thì rất ít, thứ lớn thì bằng hạt ngô, thứ nhỏ thì bằng hạt đậu xanh, dùng để sức nhẫn và chỏm mũ.",
+          "score": 0.16032810333426567
+        }
+      ]
+    }
+  },
+  "status": "ok",
+  "latency_ms": 7641
+}

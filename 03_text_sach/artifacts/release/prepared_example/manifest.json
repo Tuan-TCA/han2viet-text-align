@@ -1,0 +1,35 @@
+{
+  "config": {
+    "benchmark_cap": "Cap_01",
+    "benchmark_pages": [
+      1,
+      2
+    ],
+    "benchmark_vi_pages": [
+      186,
+      188
+    ],
+    "sizes": [
+      5,
+      10,
+      15,
+      20,
+      30
+    ],
+    "api_delay": 0.8,
+    "api_timeout": 90,
+    "api_retries": 2,
+    "genre": "history",
+    "fresh_pairs_per_cap": 2,
+    "default_method": "S4"
+  },
+  "mode": "prepare",
+  "source_hash": "f5098f4f1e4e8762e1acf21644368ff81d561c3fca5e7fd0b747e539b61c75e6",
+  "method": "S4",
+  "cap": "Cap_01",
+  "pages": [
+    1,
+    2
+  ],
+  "implementation": "60969465c018c1784bb52047c8fd487ecab015528f8326ef687acced118c5d17"
+}
