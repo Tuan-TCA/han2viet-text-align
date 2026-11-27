@@ -1,0 +1,13 @@
+PWD c:/Users/Tuan TCA/OneDrive/Tai_Lieu/3ndYear/NLP/Midterm/CV16/doc
+INPUT c:/texlive2/2026/texmf.cnf
+INPUT c:/texlive2/2026/texmf-dist/web2c/texmf.cnf
+INPUT c:/texlive2/2026/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT c:/Users/Tuan TCA/OneDrive/Tai_Lieu/3ndYear/NLP/Midterm/CV16/doc/main.tex
+OUTPUT out/main.log
+INPUT c:/texlive2/2026/texmf-dist/tex/latex/base/article.cls
+INPUT c:/texlive2/2026/texmf-dist/tex/latex/base/article.cls
+INPUT c:/texlive2/2026/texmf-dist/tex/latex/base/size10.clo
+INPUT c:/texlive2/2026/texmf-dist/tex/latex/base/size10.clo
+INPUT c:/texlive2/2026/texmf-dist/tex/latex/base/size10.clo
+INPUT c:/texlive2/2026/texmf-dist/tex/latex/fontspec/fontspec.sty
+INPUT c:/texlive2/2026/texmf-dist/tex/latex/fontspec/fontspec.sty

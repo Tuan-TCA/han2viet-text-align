@@ -60,8 +60,8 @@ print("=" * 80)
 
 def check_drift(df: pd.DataFrame, label: str):
     v = df[df["MISSING"] == 0].copy()
-    v["hp"] = v["Pair_ID"].str.slice(1, 4).astype(int)
-    v["vp"] = v["Pair_ID"].str.slice(6, 9).astype(int)
+    v["hp"] = v["Pair_ID"].astype(str).str.extract(r"C(\d{3})_V\d{3}$")[0].astype(int)
+    v["vp"] = v["Pair_ID"].astype(str).str.extract(r"C\d{3}_V(\d{3})$")[0].astype(int)
     
     def get_blk(vp):
         if 186 <= vp <= 251: return "Cap_01"
@@ -86,8 +86,8 @@ print("\n" + "=" * 80)
 print("4. 12 MẪU HẬU KIỂM NGẪU NHIÊN TỪ v3")
 print("=" * 80)
 v3_valid = df3[df3["MISSING"] == 0].copy()
-v3_valid["hp"] = v3_valid["Pair_ID"].str.slice(1, 4).astype(int)
-v3_valid["vp"] = v3_valid["Pair_ID"].str.slice(6, 9).astype(int)
+v3_valid["hp"] = v3_valid["Pair_ID"].astype(str).str.extract(r"C(\d{3})_V\d{3}$")[0].astype(int)
+v3_valid["vp"] = v3_valid["Pair_ID"].astype(str).str.extract(r"C\d{3}_V(\d{3})$")[0].astype(int)
 
 s_cap1 = v3_valid[(v3_valid["vp"] >= 186) & (v3_valid["vp"] <= 251)].sample(4, random_state=42)
 s_cap2v = v3_valid[(v3_valid["vp"] <= 105) & (v3_valid["vp"].between(20, 35) | v3_valid["vp"].between(95, 102))].sample(4, random_state=42)

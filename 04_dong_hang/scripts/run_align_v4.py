@@ -477,6 +477,7 @@ def build_alignment_row(
     viet_items: List[Dict],
     ratio_min: float,
     ratio_max: float,
+    pair_num: int = 1,
 ) -> Dict:
     n_zh = len(han_items)
     n_vi = len(viet_items)
@@ -487,7 +488,7 @@ def build_alignment_row(
 
     han_page = han_items[0]["han_page"] if n_zh > 0 else 0
     viet_page = viet_items[0]["viet_page_start"] if n_vi > 0 else 0
-    pair_id = f"C{han_page:03d}_V{viet_page:03d}"
+    pair_id = f"P{pair_num:04d}_C{han_page:03d}_V{viet_page:03d}"
 
     ocr_conf_min: Optional[float] = (
         round(min(item["ocr_conf_min"] for item in han_items), 4)
@@ -568,7 +569,7 @@ def save_to_excel(rows: List[Dict], out_path: Path) -> None:
 # ==============================================================================
 # 6. LUỒNG CHẠY CHÍNH (ĐỌC 03/v3 -> XUẤT 04/v4)
 # ==============================================================================
-def run_block_alignment(block: Dict) -> Tuple[List[Dict], Dict]:
+def run_block_alignment(block: Dict, start_pair_num: int = 1) -> Tuple[List[Dict], Dict]:
     name = block["name"]
     print(
         f"\n>>> [{OUTPUT_VERSION} | Input={INPUT_VERSION} | Numeric-Norm + MAX_ALIGN={MAX_ALIGN}] "
@@ -618,8 +619,11 @@ def run_block_alignment(block: Dict) -> Tuple[List[Dict], Dict]:
             v_items,
             ratio_min=block["ratio_min"],
             ratio_max=block["ratio_max"],
+            pair_num=start_pair_num + offset,
         )
-        for h_items, v_items in tqdm(realigned_pairs, desc=f"Xuất dòng [{name}]")
+        for offset, (h_items, v_items) in enumerate(
+            tqdm(realigned_pairs, desc=f"Xuất dòng [{name}]")
+        )
     ]
     save_to_excel(aligned_rows, block["out_xlsx"])
 
@@ -660,7 +664,7 @@ def main():
     blocks_summary = {}
 
     for block in BLOCK_CONFIGS:
-        block_rows, blk_sum = run_block_alignment(block)
+        block_rows, blk_sum = run_block_alignment(block, start_pair_num=len(all_rows) + 1)
         all_rows.extend(block_rows)
         blocks_summary[block["name"]] = blk_sum
 

@@ -1,0 +1,386 @@
+\documentclass[10pt,a4paper]{article}
+
+% --- Packages for LuaLaTeX (Multilingual: English + Vietnamese + Classical Chinese) ---
+\usepackage{fontspec}
+\directlua{
+  luaotfload.add_fallback("cjkfallback", {
+    "file:msjh.ttc:index=0;mode=node;",
+    "file:mingliub.ttc:index=0;mode=node;",
+    "file:simsun.ttc:index=0;mode=node;",
+    "file:simsunb.ttf:mode=node;"
+  })
+}
+% Enable natural line-breaking between CJK characters in LuaLaTeX (built-in luatexbase)
+\directlua{
+  local glyph_id = node.id("glyph")
+  local glue_id  = node.id("glue")
+  local function is_cjk(c)
+    return (c >= 0x3000 and c <= 0x303F)
+        or (c >= 0x3400 and c <= 0x9FFF)
+        or (c >= 0xF900 and c <= 0xFAFF)
+        or (c >= 0xFF00 and c <= 0xFFEF)
+  end
+  local function add_cjk_breakable_glue(head)
+    local cur = head
+    while cur do
+      if cur.id == glyph_id and cur.next and cur.next.id == glyph_id then
+        if is_cjk(cur.char) or is_cjk(cur.next.char) then
+          local g = node.new(glue_id)
+          node.setglue(g, 0, 12000, 0, 0, 0)
+          head = node.insert_after(head, cur, g)
+          cur = g
+        end
+      end
+      cur = cur.next
+    end
+    return head
+  end
+  luatexbase.add_to_callback("pre_linebreak_filter", add_cjk_breakable_glue, "cjk_break")
+}
+
+\usepackage[margin=1.42cm, top=1.35cm, bottom=1.40cm]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows.meta, positioning, calc, backgrounds, fit}
+\usepackage{titlesec}
+\usepackage{needspace}
+\usepackage{caption}
+\usepackage[colorlinks=true, linkcolor=blue!65!black, urlcolor=blue!65!black, citecolor=blue!65!black]{hyperref}
+
+% --- Fonts (Resolved via OSFONTDIR -> Instant Load, Full Viet + CJK) ---
+\setmainfont{times.ttf}[
+  BoldFont = timesbd.ttf,
+  ItalicFont = timesi.ttf,
+  BoldItalicFont = timesbi.ttf,
+  RawFeature = {fallback=cjkfallback}
+]
+\setsansfont{arial.ttf}[
+  BoldFont = arialbd.ttf,
+  ItalicFont = ariali.ttf,
+  BoldItalicFont = arialbi.ttf,
+  RawFeature = {fallback=cjkfallback}
+]
+\setmonofont{consola.ttf}[
+  Scale = 0.85,
+  BoldFont = consolab.ttf,
+  ItalicFont = consolai.ttf,
+  BoldItalicFont = consolaz.ttf,
+  RawFeature = {fallback=cjkfallback}
+]
+
+% --- Color Palette ---
+\definecolor{primary}{HTML}{1B4F72}
+\definecolor{secondary}{HTML}{2874A6}
+\definecolor{accent}{HTML}{C0392B}
+\definecolor{softbg}{HTML}{F4F7FA}
+\definecolor{bordercol}{HTML}{BDD0E0}
+\definecolor{okgreen}{HTML}{1E8449}
+\definecolor{warnamber}{HTML}{D68910}
+
+% --- Compact Academic Spacing (< 5 Pages Target: 4 Balanced Pages) ---
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3.5pt}
+\emergencystretch=1.5em
+\setlist[itemize]{leftmargin=1.35em, itemsep=1.5pt, topsep=1.5pt, parsep=0pt}
+\setlist[enumerate]{leftmargin=1.5em, itemsep=1.5pt, topsep=1.5pt, parsep=0pt}
+\captionsetup{font={footnotesize}, labelfont={bf,color=primary}, skip=3pt}
+
+\titleformat{\section}{\large\bfseries\color{primary}}{\thesection.}{0.45em}{}[\vspace{-3pt}\textcolor{bordercol}{\titlerule[0.8pt]}]
+\titlespacing*{\section}{0pt}{7pt}{4pt}
+\titleformat{\subsection}{\normalsize\bfseries\color{secondary}}{\thesubsection}{0.45em}{}
+\titlespacing*{\subsection}{0pt}{5pt}{2pt}
+
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}}
+
+\begin{document}
+
+% ==============================================================================
+% HEADER BANNER
+% ==============================================================================
+\begin{tikzpicture}[remember picture, overlay]
+  \fill[primary] ([yshift=-0.22cm]current page.north west) rectangle ([yshift=-0.38cm]current page.north east);
+\end{tikzpicture}
+\vspace{-0.45cm}
+\begin{center}
+  {\small\bfseries\sffamily\textcolor{secondary}{NATURAL LANGUAGE PROCESSING --- MIDTERM PROJECT REPORT (TOPIC CODE: CV16)}}\\[2pt]
+  {\LARGE\bfseries\textcolor{primary}{Building a Classical Chinese--Vietnamese Parallel Corpus\\from Historical Scans of \textit{Phủ Biên Tạp Lục} (撫邊雜錄)}}\\[4pt]
+  {\normalsize \textbf{Student:} Trần Cảnh Anh Tuấn \quad|\quad \textbf{Student ID:} 24125048 \quad|\quad \textbf{Date:} November 2026}
+\end{center}
+\vspace{-6pt}
+\noindent\textcolor{bordercol}{\rule{\textwidth}{0.6pt}}
+\vspace{-8pt}
+
+% ==============================================================================
+% 1. INTRODUCTION
+% ==============================================================================
+\section{Introduction}
+\textbf{Project Objective:} This project constructs a high-quality, sentence- and clause-level Classical Chinese--Vietnamese (\textit{Hán--Việt}) parallel corpus from historical scanned editions of \textit{Phủ Biên Tạp Lục} (撫邊雜錄, \textit{Miscellaneous Records of Pacifying the Frontier}, compiled by Lê Quý Đôn in 1776). Historical Sino-Vietnamese texts pose severe low-resource NLP challenges: Classical Chinese manuscripts lack punctuation and use vertical right-to-left (RTL) calligraphy, while Vietnamese editions employ literary restructuring, dense historical footnotes, and interleaved Sino-Vietnamese phonetic transcriptions (\textit{phiên âm}).
+
+\textbf{Assigned Task \& Data Scope:} Executed individually under Topic \textbf{CV16}, the project processes two archival source groups split into three structural blocks: \textbf{\texttt{Cap\_01}} (taxation registers, official stipends, and military quotas in Thuận Hóa \& Quảng Nam, 53 manuscript pages), \textbf{\texttt{Cap\_02\_V}} (Volume V: classical poetry, prefaces, and prose correspondence, 51 pages), and \textbf{\texttt{Cap\_02\_VI}} (Volume VI: regional geography and local products, 37 pages). Per course guidelines for scanned image/PDF inputs requiring OCR, the individual deliverable benchmark is \textbf{$\ge$ 2,000 valid aligned pairs} with an alignment error rate strictly \textbf{$\le$ 30\%} (internal quality target $\le$ 20\%) across synchronized \texttt{.tsv} and \texttt{.xlsx} (\texttt{DONG\_HANG}) files.
+
+% ==============================================================================
+% 2. DATA AND TOOLS USED
+% ==============================================================================
+\section{Data and Tools Used}
+\subsection{Input Data Inventory and Structural Characteristics}
+Prior to batch OCR, all source PDFs in \texttt{01\_nguon/} were audited to verify content boundaries and cross-edition page mappings (Table~\ref{tab:inventory}). Crucially, \texttt{Cap\_02/HAN.pdf} combines Volume V and Volume VI within a single file (transitioning at page 51 via header \texttt{撫邊雜錄卷之六}), whereas the Vietnamese translation separates them across distinct page intervals and embeds \textit{Phiên âm} blocks immediately before \textit{(Dịch):} translations in Volume V.
+
+\begin{table}[!htb]
+\centering
+\caption{Source document inventory audited in \texttt{01\_nguon/Kiem\_ke\_nguon.xlsx}.}
+\label{tab:inventory}
+\footnotesize
+\renewcommand{\arraystretch}{1.12}
+\begin{tabularx}{\textwidth}{@{}l l l c L{3.5cm} Y@{}}
+\toprule
+\textbf{Block} & \textbf{Lang.} & \textbf{File (\texttt{01\_nguon/})} & \textbf{Pages (Content)} & \textbf{Archival Source} & \textbf{Format \& Physical Characteristics} \\
+\midrule
+\texttt{Cap\_01} & Hán & \texttt{Cap\_01/HAN.pdf} & 53 (53) & Gallica BnF (\textit{Vietnamien A 18}) & PDF Scan; handwritten vertical RTL, dark spine shadow, page tilt, unpunctuated. \\
+\texttt{Cap\_01} & Việt & \texttt{Cap\_01/VIET.pdf} & 251 (pp.\,186--251) & Published translation scan & PDF Scan with embedded OCR; noisy digits (\texttt{õ/ð}$\to$\texttt{5}, \texttt{I/l}$\to$\texttt{1}) and footnotes. \\
+\texttt{Cap\_02} & Hán & \texttt{Cap\_02/HAN.pdf} & 92 (pp.\,1--87) & VNPF / NLV (\texttt{R.1606}) & PDF Scan; Vol.\,V (pp.\,1--51) \& Vol.\,VI (pp.\,51--87); spaced vertical columns. \\
+\texttt{Cap\_02} & Việt & \texttt{Cap\_02/VIET.pdf} & 105 + 36 & Reference scan (2007 ed.) & PDF Scan; Vol.\,V (pp.\,1--105, mixed \textit{Phiên âm} + verse) \& Vol.\,VI (pp.\,405--439). \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\vspace{-4pt}
+\subsection{Tools, Libraries, and Deep Learning Models}
+\begin{itemize}
+  \item \textbf{Image Pre-processing \& OCR (\texttt{02\_ocr\_tho}):} \texttt{PyMuPDF} \& \texttt{Poppler} (\texttt{pdftotext -bbox-layout}, \texttt{pdftoppm}) for rendering and XML coordinate parsing; \texttt{OpenCV} \& \texttt{SciPy} for Hough/projection auto-deskewing, CLAHE contrast enhancement, and RTL column slicing; \textbf{PaddleOCR GPU} (\texttt{lang='chinese\_cht'} on Kaggle Tesla T4) for vertical Traditional Chinese recognition.
+  \item \textbf{Cleaning \& Classical Punctuation (\texttt{03\_text\_sach}):} \texttt{OpenCC} (\texttt{t2s} internal mapping while preserving Traditional glyphs); HuggingFace token classifier \textbf{\texttt{guwen-biaodian}} (\texttt{raynardj/classical-chinese-punctuation-guwen-biaodian}) for Classical Chinese punctuation restoration.
+  \item \textbf{Bilingual Alignment \& Auditing (\texttt{04\_dong\_hang}):} \textbf{Bertalign} with multilingual \textbf{LaBSE} embeddings (\texttt{faiss-cpu}, \texttt{max\_align=5}), custom \textbf{Numeric-Normalized \& 3-Phase Value-Aware Boundary Re-aligner} (\texttt{pandas}, \texttt{openpyxl}), and \textbf{Google GenAI SDK} (\texttt{gemini-3.5-flash-lite} with Pydantic Structured Outputs) for automated LLM-as-a-Judge evaluation.
+\end{itemize}
+
+% ==============================================================================
+% 3. IMPLEMENTATION PIPELINE
+% ==============================================================================
+\section{Implementation Pipeline}
+The engineering workflow follows a modular 4-stage reproducible architecture (\texttt{01\_nguon} $\to$ \texttt{04\_dong\_hang}), depicted schematically in Figure~\ref{fig:pipeline} and demonstrated on an actual tilted manuscript page in Figure~\ref{fig:ocr_visual}.
+
+\begin{figure}[!htb]
+\centering
+\begin{tikzpicture}[
+    node distance=0.42cm,
+    stage/.style={rectangle, rounded corners=4pt, draw=primary, line width=0.8pt, fill=softbg, text width=3.92cm, minimum height=2.25cm, align=left, font=\scriptsize, inner sep=4.5pt},
+    titlebox/.style={rectangle, rounded corners=2pt, fill=primary, text=white, font=\scriptsize\bfseries\sffamily, inner sep=2.5pt},
+    arr/.style={-{Stealth[length=2.3mm, width=1.7mm]}, line width=1.1pt, color=secondary}
+]
+  \node[stage] (s1) {
+    \vspace{5pt}
+    $\bullet$ Audit BnF \& R.1606 PDFs\\
+    $\bullet$ Map Vol.\,V/VI page anchors\\
+    $\bullet$ Auto-Deskew ($\pm 5^\circ$ shear)\\
+    $\bullet$ RTL Column Crop + PaddleOCR\\
+    $\bullet$ Poppler XML bbox Viet extract
+  };
+  \node[titlebox, anchor=south] at ([yshift=-1pt]s1.north) {Stage 1--2: Source \& OCR};
+
+  \node[stage, right=of s1] (s2) {
+    \vspace{5pt}
+    $\bullet$ Strip headers, page\#, footnotes\\
+    $\bullet$ Prune leaked \textit{Phiên âm} (113 rows)\\
+    $\bullet$ Fix Viet OCR digits (\texttt{õ/ð}$\to$\texttt{5})\\
+    $\bullet$ \texttt{guwen-biaodian} punctuation\\
+    $\bullet$ Anti-fragment ($\ge 5$ CJK chars)
+  };
+  \node[titlebox, anchor=south] at ([yshift=-1pt]s2.north) {Stage 3: Clean \& Segment (v3)};
+
+  \node[stage, right=of s2] (s3) {
+    \vspace{5pt}
+    $\bullet$ Hán$\to$Arabic num norm (LaBSE)\\
+    $\bullet$ Full-block \texttt{Bertalign} ($n{+}m\le 5$)\\
+    $\bullet$ \textbf{Phase A:} Merge \texttt{1-0}/\texttt{0-1} orphans\\
+    $\bullet$ \textbf{Phase B:} Shift clause boundaries\\
+    \hspace*{4pt}via numeric ($\ge 10$) \& particles
+  };
+  \node[titlebox, anchor=south] at ([yshift=-1pt]s3.north) {Stage 4: Align \& Re-align (v4)};
+
+  \node[stage, right=of s3] (s4) {
+    \vspace{5pt}
+    $\bullet$ Genre-specific length bounds\\
+    $\bullet$ Flag \texttt{OMIS}/\texttt{ADD}/\texttt{MISS} \& OCR\\
+    $\bullet$ Stratified human \& LLM Judge\\
+    $\bullet$ Final human-in-the-loop polish\\
+    \hspace*{4pt}$\to$ $\ge 2{,}000$ pairs (\texttt{.tsv}/\texttt{.xlsx})
+  };
+  \node[titlebox, anchor=south] at ([yshift=-1pt]s4.north) {QC \& Deliverable Export};
+
+  \draw[arr] (s1.east) -- (s2.west);
+  \draw[arr] (s2.east) -- (s3.west);
+  \draw[arr] (s3.east) -- (s4.west);
+\end{tikzpicture}
+\caption{Overview of the 4-stage Classical Chinese--Vietnamese corpus construction pipeline.}
+\label{fig:pipeline}
+\end{figure}
+
+\vspace{-4pt}
+\begin{enumerate}
+  \item \textbf{Source Auditing \& Geometry-Aware OCR (\texttt{01\_nguon} $\to$ \texttt{02\_ocr\_tho}):} Classical Chinese pages are cropped (bottom 3\%), denoised, contrast-enhanced via CLAHE, and deskewed by maximizing horizontal-shear vertical projection variance ($\mathrm{Var}(p)/\mu_p^2$) seeded by spine Hough lines (e.g., rotating \texttt{Cap\_01} p.\,48 by $-1.20^\circ$ yields a $+26.5\%$ projection variance gain). Vertical columns are sliced right-to-left using spine-masked Otsu projection (\texttt{Cap\_01}) or half-page median-pitch peak interpolation (\texttt{Cap\_02}), filtering outer frame borders via geometric connected-component scoring while preserving all 16 text columns/page. Each column is recognized by PaddleOCR (\texttt{chinese\_cht}) with confidence logging. For Vietnamese scans, \texttt{viet\_ocr\_batch.py} parses XML bounding boxes ($x, y$, font size) to classify prose (\texttt{van\_xuoi}), verse (\texttt{dich\_tho}), page numbers (\texttt{so\_trang}), headers, and footnotes (\texttt{chu\_thich}).
+  \item \textbf{De-noising \& Classical Sentence Segmentation (\texttt{03\_text\_sach/v3}):} Duplicate/non-content pages (\texttt{Cap\_01} p.\,49 duplicate; \texttt{Cap\_02} pp.\,88--92 covers) are stripped. In \texttt{Cap\_02\_V}, a Sino-Vietnamese lexical density detector preceding \texttt{(Dịch):} markers removes \textbf{113 leaked \textit{Phiên âm} lines} and recovers 5 misclassified bottom prose segments. Vietnamese OCR errors (\texttt{õ/ð}$\to$\texttt{5}, \texttt{I/l}$\to$\texttt{1} before units \textit{quan, tiền, bát}, \texttt{nhân định}$\to$\textit{nhân đinh}) are normalized via context regexes. Unpunctuated Hán streams are punctuated by \texttt{guwen-biaodian} with a two-layer anti-fragment guard (\texttt{MIN\_HAN\_CJK\_CHARS = 5}, \texttt{HAN\_COMMA\_SPLIT\_LEN = 25}), achieving zero 1--4 character fragments (\texttt{le\_4\_chars\_count = 0}).
+  \item \textbf{Numeric-Normalized Bertalign \& 3-Phase Re-alignment (\texttt{04\_dong\_hang/v4}):} Classical Chinese numerals are converted into Arabic digits strictly inside Bertalign's internal matching string (e.g., \texttt{一百十二}$\to$\texttt{112}, \texttt{五萬八百八十四}$\to$\texttt{50884}) so LaBSE aligns tax/military figures directly while preserving 100\% original Traditional glyphs in the output. Following full-block DP (\texttt{max\_align=5}), a \textbf{3-Phase Boundary Shift Re-aligner} merges adjacent \texttt{1-0}/\texttt{0-1} orphans (\textit{Phase A}) and shifts boundary clauses between $(k, k{+}1)$ using genre length ratios, exact numeric values ($\ge 10$), and classical discourse particles (\texttt{又}/\textit{Lại}, \texttt{凡}/\textit{Phàm}, \texttt{其}/\textit{Về}, \texttt{耳}/\textit{thôi}) (\textit{Phase B}, applying \textbf{223 boundary shifts}).
+\end{enumerate}
+
+\begin{figure}[!htb]
+\centering
+\begin{tabular}{@{}c@{\hspace{6pt}}c@{\hspace{6pt}}c@{\hspace{8pt}}m{5.1cm}@{}}
+  \includegraphics[height=4.2cm]{figures/cap01_p48_raw_skewed.jpg} &
+  \includegraphics[height=4.2cm]{figures/cap01_p48_deskew_cols.jpg} &
+  \includegraphics[height=4.2cm]{figures/paddleocr_col_p48.jpg} &
+  \vspace{-4.1cm}\fcolorbox{bordercol}{softbg}{%
+    \parbox{4.85cm}{\scriptsize\raggedright
+      \textbf{\textcolor{primary}{(d) Trace of Col.\,03 $\to$ Pair \texttt{P0724\_C048\_V246}:}}\\[2.5pt]
+      \textbf{1. Raw OCR} (\texttt{conf = 0.81}):\\
+      營留屯廣平三營共一百十二般川上每船一百二十人四奇十二陽外四\\[2.5pt]
+      \textbf{2. Guwen Punct.\,+\,Internal Num Norm:}\\
+      ...首營留屯廣平三營。共 \textbf{112} 般，川上每船 \textbf{120} 人...\\[2.5pt]
+      \textbf{3. Aligned Output (\texttt{1-2}, \texttt{Label=1}):}\\
+      \textbf{ZH:} 共一百十二般，川上每船一百二十人，四奇十二，陽外四船三，水隊十二船。\\[1.5pt]
+      \textbf{VI:} Ba dinh Cựu Dinh, Lưu Đồn, Quảng Bình, cộng \textbf{112} thuyền, mỗi thuyền \textbf{120} người. Bốn dực cơ 19 đội, ngoại xã \textbf{4} thuyền, đội Tam thuỷ \textbf{12} thuyền...
+    }%
+  } \\
+  {\scriptsize \textbf{(a)} Raw scan (\texttt{Cap\_01} p.\,48, $-1.20^\circ$)} &
+  {\scriptsize \textbf{(b)} Deskewed + 16 RTL cols (\texttt{01}--\texttt{16})} &
+  {\scriptsize \textbf{(c)} Col.\,03} &
+\end{tabular}
+\caption{Visual pipeline trace on \texttt{Cap\_01} Page 48: (a) tilted scan with dark spine shadow, (b) auto-deskewing ($+26.5\%$ variance gain) and border-filtered RTL slicing, (c) PaddleOCR vertical detection, and (d) numeric-normalized sentence alignment.}
+\label{fig:ocr_visual}
+\end{figure}
+
+% ==============================================================================
+% 4. ACHIEVED RESULTS
+% ==============================================================================
+\section{Achieved Results}
+\textbf{Processed Volume \& Deliverables:} From 140 content manuscript pages of Classical Chinese (51,791 CJK characters; 2,804 segmented sentences) and 206 Vietnamese pages (2,966 sentences), the automated \textbf{Version 4 (raw)} pipeline generates \textbf{1,951 aligned pairs} in \texttt{PhuBienTapLuc\_Alignment\_Full.xlsx} (12 QC metadata columns), with \textbf{1,774 pairs (90.93\%)} passing all automated quality checks (\texttt{Label\_Target = 1}) and \textbf{94.93\%} meeting \texttt{OCR\_Valid} ($\ge 0.55$) (Table~\ref{tab:results}). Alignment types follow natural translation structure: \textbf{41.26\%} \texttt{1-1} (805), \textbf{30.14\%} \texttt{1-2}/\texttt{2-1} (588), \textbf{8.61\%} \texttt{2-2} (168), and \textbf{18.55\%} multi-clause merges, with just 28 missing-side rows (\texttt{1.44\%}). While \texttt{v2} already demonstrated $>2{,}000$-pair capacity (2,451 pairs), \texttt{v4} is retained as the high-precision raw baseline for final human post-editing to export the clean \textbf{$\ge$ 2,000-pair} deliverable in \texttt{<MA\_TAC\_PHAM>\_parallel.tsv} and \texttt{.xlsx} (\texttt{DONG\_HANG}).
+
+\begin{table}[!htb]
+\centering
+\caption{Quantitative summary of cleaned sentences (\texttt{03/v3}) and automated alignment output (\texttt{04/v4}) across blocks.}
+\label{tab:results}
+\scriptsize
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabularx}{\textwidth}{@{}Y r r r r r r c c c r@{}}
+\toprule
+\textbf{Corpus Block} & \textbf{Hán Sents} & \textbf{CJK Chars} & \textbf{Việt Sents} & \textbf{Shifts} & \textbf{Pairs} & \textbf{\texttt{Label=1} (\%)} & \textbf{\texttt{1-1} / \texttt{1-2,2-1}} & \textbf{OM / AD / MS} & \textbf{\texttt{OCR\_Valid}} & \textbf{Anchor} \\
+\midrule
+\texttt{Cap\_01} (Tax/Military) & 1,145 & 23,261 & 1,172 & 83 & 776 & 679 (87.50\%) & 300 / 254 & 18 / 8 / 9 & 717 (92.4\%) & 557 (71.8\%) \\
+\texttt{Cap\_02\_V} (Poetry/Prose) & 982 & 16,973 & 1,232 & 113 & 743 & 686 (92.33\%) & 297 / 216 & 10 / 3 / 18 & 715 (96.2\%) & 73 (9.8\%) \\
+\texttt{Cap\_02\_VI} (Geography) & 677 & 11,557 & 562 & 27 & 432 & 409 (94.68\%) & 208 / 118 & 3 / 5 / 1 & 420 (97.2\%) & 170 (39.4\%) \\
+\midrule
+\textbf{Total (\texttt{v4} Raw)} & \textbf{2,804} & \textbf{51,791} & \textbf{2,966} & \textbf{223} & \textbf{1,951} & \textbf{1,774 (90.93\%)} & \textbf{805 / 588} & \textbf{31 / 16 / 28} & \textbf{1,852 (94.9\%)} & \textbf{800 (41.0\%)} \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\vspace{-4pt}
+\begin{table}[!htb]
+\centering
+\caption{Illustrative aligned pairs across genres from \texttt{04\_dong\_hang/output/v4/PhuBienTapLuc\_Alignment\_Full.xlsx}.}
+\label{tab:examples}
+\scriptsize
+\renewcommand{\arraystretch}{1.15}
+\begin{tabularx}{\textwidth}{@{}l c L{5.75cm} Y@{}}
+\toprule
+\textbf{Pair ID (Block)} & \textbf{Type} & \textbf{Classical Chinese (\texttt{Chinese})} & \textbf{Vietnamese Translation (\texttt{Vietnamese})} \\
+\midrule
+\texttt{P0010\_C001\_V187} (\texttt{Cap\_01}) & \texttt{1-1} & 卯已丑，升華府各縣屬一萬四千三百四十九人，收各歲共四百八十三。 & Như năm Kỷ Sửu các huyện thuộc phủ Thăng Hoa cộng 1 vạn 4349 người, thu các tiền cộng 483 quan 3 tiền 36 đồng, \\
+\texttt{P0013\_C001\_V187} (\texttt{Cap\_01}) & \texttt{2-1} & 順廣諸營許司吏与祚，各縣本堂或色，各效眾亥，按收丁侯田粟。 其收各吏，各既不為控矣。 & Các dinh ở Thuận Quảng đặt ty lại và chức sắc bản đường các phủ huyện, số người rất nhiều, khiến họ thu tiền thóc đinh điền, lấy ở các lại các chức cũng không phải nhẹ. \\
+\texttt{P1479\_C048\_V101} (\texttt{Cap\_02\_V}) & \texttt{1-1} & 正是心開桂玉，天難賤，運落尾波夢亦驚。 & Nhưng vì liền năm đói kém, mất kế dinh sinh, chính là ``Lòng lo gạo củi trời khôn hiểu, vận gặp ba đào mộng cũng kinh'', \\
+\texttt{P1589\_C057\_V410} (\texttt{Cap\_02\_VI}) & \texttt{1-1} & 昔為國公，掌差人價買肅入，同與魚刻善巢，責與商人易取貨物。 & Xưa Đoan quận công từng sai người y theo giá mà mua chở về cùng với vây cá, yến sào, để đổi cho khách buôn lấy hoá vật, bèn làm thành lệ. \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+% ==============================================================================
+% 5. EVALUATION AND DISCUSSION
+% ==============================================================================
+\needspace{6\baselineskip}
+\section{Evaluation and Discussion}
+\subsection{Multi-Tier Evaluation Methodology and Quantitative Results}
+Quality evaluation integrates automated rules, LLM-as-a-Judge, and stratified manual auditing ($n=60$ stratified samples across 3 blocks + 100 contiguous rows at the head of \texttt{Cap\_01}) under the Guideline metric $\text{Error Rate} = N_{\text{error}} / N_{\text{valid}}$ (Figure~\ref{fig:eval_chart}):
+\begin{enumerate}
+  \item \textbf{Automated Heuristic \& Value Verification:} Evaluates genre-specific Viet-word/CJK-char bounds (\texttt{[0.42, 2.35]} for prose/registers; \texttt{[0.42, 3.20]} for mixed verse), \texttt{MISSING} sides, \texttt{OCR\_Valid} ($\ge 0.55$), and exact number value correspondence ($\ge 10$). \texttt{v4} achieves \textbf{90.93\%} clean pass (\textbf{9.07\%} flagged: \texttt{OMISSION} 1.59\%, \texttt{ADDITION} 0.82\%, \texttt{MISSING} 1.44\%, low OCR/num 5.23\%), far outperforming both the \textbf{$\le$ 30\%} acceptance threshold and \textbf{$\le$ 20\%} internal safety margin.
+  \item \textbf{LLM-as-a-Judge (\texttt{judge\_real\_label\_v4.py}) \& Stratified Human Audit:} Auditing 460 pairs via \texttt{gemini-3.5-flash-lite} (Structured Outputs) yields \textbf{80.22\% \texttt{CLEAN}} (369), \textbf{17.17\% \texttt{PARTIAL}} (79, core meaning matches with minor 1-clause slip), and only \textbf{2.61\% \texttt{MISMATCH}} (12) (\textbf{97.39\% usable}). Stratified human inspection on \texttt{Label\_Target=1} corroborates \textbf{$\sim$98.1\% usable semantic match} (\textbf{1.9\% true mismatch}) and \textbf{$\sim$72.7\% strict boundary perfection} (95\% CI: 61.2\%--84.1\%), with block-level strict perfection reaching \textbf{90.0\%} on \texttt{Cap\_02\_VI} and \textbf{75.0\%} on \texttt{Cap\_01}.
+\end{enumerate}
+
+\begin{figure}[!htb]
+\centering
+\begin{tikzpicture}[font=\scriptsize]
+  % Left panel: Progress across versions
+  \node[anchor=west, font=\scriptsize\bfseries\color{primary}] at (0, 1.55) {(a) Strict Boundary Cleanliness \& Usable Rate Across Versions};
+  \draw[bordercol, thick] (0,0) rectangle (8.3, 1.35);
+  \foreach \y/\lbl/\val/\col in {1.02/v2 (Baseline)/55.0/secondary!70, 0.70/v3.1 (Full-Block)/73.6/secondary, 0.38/v4 (Strict Clean)/72.7/primary, 0.08/v4 (Usable Core)/98.1/okgreen} {
+    \node[anchor=east, font=\tiny\bfseries] at (2.15, \y+0.11) {\lbl};
+    \fill[\col, rounded corners=1pt] (2.2, \y+0.02) rectangle ({2.2 + \val*0.052}, \y+0.21);
+    \node[anchor=west, font=\tiny\bfseries] at ({2.25 + \val*0.052}, \y+0.11) {\val\%};
+  }
+
+  % Right panel: LLM-as-a-Judge breakdown (n=460)
+  \node[anchor=west, font=\scriptsize\bfseries\color{primary}] at (8.9, 1.55) {(b) LLM-as-a-Judge Audit ($n=460$) vs.\ Guideline Threshold};
+  \draw[bordercol, thick] (8.9,0) rectangle (18.0, 1.35);
+  % Stacked horizontal bar
+  \fill[okgreen!85] (9.1, 0.72) rectangle ({9.1 + 8.5*0.8022}, 1.15);
+  \fill[warnamber!85] ({9.1 + 8.5*0.8022}, 0.72) rectangle ({9.1 + 8.5*0.9739}, 1.15);
+  \fill[accent!85] ({9.1 + 8.5*0.9739}, 0.72) rectangle (17.6, 1.15);
+  \node[text=white, font=\tiny\bfseries] at ({9.1 + 8.5*0.40}, 0.935) {CLEAN: 80.2\% (369)};
+  \node[text=black, font=\tiny\bfseries] at ({9.1 + 8.5*0.888}, 0.935) {17.2\%};
+  \node[anchor=west, font=\tiny] at (9.05, 0.32) {\textcolor{okgreen}{\rule{5pt}{5pt}} Exact Match (80.2\%) \quad \textcolor{warnamber}{\rule{5pt}{5pt}} Partial Slip (17.2\%) \quad \textcolor{accent}{\rule{5pt}{5pt}} Mismatch: \textbf{2.6\%} ($\ll 30\%$ limit)};
+\end{tikzpicture}
+\caption{Visual summary of iterative alignment gains (\texttt{v2}$\to$\texttt{v4}) and LLM-as-a-Judge semantic verification ($n=460$).}
+\label{fig:eval_chart}
+\end{figure}
+
+\vspace{-4pt}
+\subsection{Iterative Bottlenecks and Root-Cause Analysis Across Pipeline Versions}
+Constructing the \textit{Phủ Biên Tạp Lục} aligner progressed through four experimental milestones (\texttt{v2} $\to$ \texttt{v3} $\to$ \texttt{v3.1} $\to$ \texttt{v4}), each resolving a specific bottleneck in historical OCR data (Table~\ref{tab:versions}):
+
+\begin{table}[!htb]
+\centering
+\caption{Evolution of alignment mechanisms, quantitative metrics, bottlenecks, and root causes from \texttt{v2} to \texttt{v4}.}
+\label{tab:versions}
+\scriptsize
+\renewcommand{\arraystretch}{1.14}
+\begin{tabularx}{\textwidth}{@{}L{2.0cm} L{3.3cm} L{3.25cm} Y@{}}
+\toprule
+\textbf{Version} & \textbf{Core Mechanism} & \textbf{Key Quantitative Metrics} & \textbf{Encountered Bottleneck \& Root-Cause Analysis} \\
+\midrule
+\textbf{v2} \newline \textit{(Baseline)} & Full-block Bertalign on basic cleaned \& clause-split text (\texttt{COMMA\_LEN=15}). & \textbf{2,451} pairs; \texttt{Label=1}: 92.49\%; Strict \texttt{real\_label} $\sim$\textbf{55.0\%}. & \textbf{Issue:} Heavy leakage of Sino-Vietnamese \textit{Phiên âm} lines before \texttt{(Dịch):} locally doubled Vietnamese sentence counts, causing cascading page drift in \texttt{Cap\_02\_V}.\newline \textbf{Cause:} Pre-processing lacked phonetic-vs-translation separation; loose ratio cap (\texttt{4.50}) hid multi-sentence merges. \\
+\addlinespace[1.5pt]
+\textbf{v3} \newline \textit{(5-Page Hard Window)} & Stage \texttt{03/v3} \textit{Phiên âm} filter + hard 5-page Hán window slicing via LaBSE anchors. & \textbf{2,174} pairs; \texttt{MISSING} spiked to \textbf{293} (13.48\%); \texttt{Anchor\_Match} dropped to 27.32\%. & \textbf{Issue:} Spawned hundreds of single-side rows (206 \texttt{0-1}, 87 \texttt{1-0}).\newline \textbf{Cause:} Hard-cutting Vietnamese index \texttt{v\_cut} before Bertalign stranded counterparts across window borders; strict count rule $|\#_{\text{zh}}-\#_{\text{vi}}|\le 2$ over-penalized multi-number tax tables. \\
+\addlinespace[1.5pt]
+\textbf{v3.1} \newline \textit{(Full-Block + 3-Phase Shift)} & Removed hard windows; full-block Bertalign (\texttt{max\_align=5}) + 3-phase boundary re-aligner. & \textbf{1,938} pairs; \texttt{MISSING} cut by \textbf{90\%} ($\to$29); Strict \texttt{real\_label} $\to$\textbf{73.6\%} (\texttt{02\_V}: 86.7\%, \texttt{02\_VI}: 80.0\%). & \textbf{Issue:} Tax/military block \texttt{Cap\_01} lagged (\textbf{53.3\%} strict clean) with 208 pairs flagged for severe numeric count mismatch.\newline \textbf{Cause:} (1) Repetitive tax formulas differing only in Hán numerals (\texttt{四千八百廿人}) prevented LaBSE from matching Arabic digits (\texttt{4820}); (2) Naive regex counted nominal tokens (\texttt{第一}, \texttt{三司}) and OCR-split number spans. \\
+\addlinespace[1.5pt]
+\textbf{v4} \newline \textit{(Numeric-Norm + Value-Aware)} & Internal Hán$\to$Arabic norm for Bertalign; value-based ($\ge 10$) \& particle boundary shift; genre ratio bounds. & \textbf{1,951} pairs; \texttt{Label=1}: \textbf{1,774} (90.93\%); \texttt{Cap\_01} $\to$\textbf{75.0\%}; \texttt{Cap\_02\_VI} $\to$\textbf{90.0\%}; Mismatch \textbf{1.9\%}; Usable \textbf{98.1\%}. & \textbf{Issue:} Corpus-wide strict boundary rate reached $\sim$\textbf{72.7\%} (95\% CI: 61.2\%--84.1\%), just shy of the 80\% mark.\newline \textbf{Cause:} (1) Long unpunctuated tax lists at the start of \texttt{Cap\_01} still induce 1-clause boundary slips (\texttt{PARTIAL}); (2) Residual \textit{Phiên âm} ($\sim$1.1\%--1.5\%) and Tang-verse enjambment in \texttt{Cap\_02\_V}. \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+% ==============================================================================
+% 6. CONCLUSION AND FUTURE WORK
+% ==============================================================================
+\needspace{6\baselineskip}
+\section{Conclusion and Future Work}
+\subsection{Completed Contributions}
+\begin{itemize}
+  \item \textbf{End-to-End Historical Processing Pipeline:} Built an automated workflow spanning tilted manuscript deskewing and RTL column PaddleOCR (\texttt{02\_ocr\_tho}), \texttt{guwen-biaodian} punctuation restoration, OpenCC mapping, and \textit{Phiên âm} pruning (\texttt{03\_text\_sach/v3}), through numeric-normalized Bertalign and 3-phase boundary re-alignment (\texttt{04\_dong\_hang/v4}).
+  \item \textbf{Curated \textit{Phủ Biên Tạp Lục} Parallel Corpus:} Generated 1,951 annotated pairs (\texttt{PhuBienTapLuc\_Alignment\_Full.xlsx}, 12 columns) with \textbf{90.93\%} passing quality gates (\texttt{Label\_Target=1}), reducing true semantic mismatch to \textbf{$\sim$1.9\%} (\textbf{$\sim$98.1\%} usable core meaning), lifting \texttt{Cap\_01} strict boundary accuracy from 53.3\% $\to$ \textbf{75.0\%}, and achieving \textbf{90.0\%} on \texttt{Cap\_02\_VI}.
+  \item \textbf{Multi-Tier Auditing Framework:} Combined heuristic/value gates, stratified manual checks ($n=60$ + 100 contiguous rows), and a checkpointed \textbf{LLM-as-a-Judge} evaluator (\texttt{judge\_real\_label\_v4.py}) with Structured Outputs.
+\end{itemize}
+
+\subsection{Remaining Limitations and Future Directions}
+\begin{itemize}
+  \item \textbf{Limitations:} (1) \textit{Minor clause-boundary slip (\texttt{PARTIAL}) in continuous enumerations:} Dense unpunctuated tax/official lists in early \texttt{Cap\_01} still exhibit 1-clause boundary shifts despite 100\% core content correspondence; (2) \textit{Localized OCR \& transcription noise:} Blurred manuscript strokes leave 99 rows with \texttt{OCR\_Conf\_Min < 0.55} (affecting proper nouns/numbers) alongside $\sim$1.1\%--1.5\% residual \textit{Phiên âm} lines in \texttt{Cap\_02\_V}; (3) \textit{Pre-trained embedding domain gap \& manual scale:} Because LaBSE targets Modern Chinese (\textit{Baihua}), classical allusions and regulated verse still rely on heuristic post-processing, and full 1,951-row semantic verification requires semi-automated human-in-the-loop review.
+  \item \textbf{Future Work:} (1) Perform targeted human post-editing on flagged \texttt{Label\_Target=0} and \texttt{PARTIAL} rows to finalize the official \textbf{$\ge$ 2,000-pair} deliverable in synchronized \texttt{.tsv} and \texttt{.xlsx} (\texttt{DONG\_HANG}) files; (2) Build a lightweight web review tool integrating LLM-suggested OCR glyph fixes and one-click boundary shifting; (3) Fine-tune a Classical Chinese--Vietnamese bi-encoder (\texttt{OmniAlign} / \texttt{BGE-M3}) on the verified parallel corpus.
+\end{itemize}
+
+\end{document}
