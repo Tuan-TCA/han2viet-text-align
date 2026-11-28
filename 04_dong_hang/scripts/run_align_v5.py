@@ -76,7 +76,7 @@ def get_labse_model() -> SentenceTransformer:
 # ==============================================================================
 # 1. CẤU HÌNH ĐƯỜNG DẪN & THAM SỐ VERSION 5
 # ==============================================================================
-INPUT_VERSION = "v3"
+INPUT_VERSION = "v4"
 OUTPUT_VERSION = "v5"
 
 SCRIPT_DIR = Path(__file__).resolve().parent

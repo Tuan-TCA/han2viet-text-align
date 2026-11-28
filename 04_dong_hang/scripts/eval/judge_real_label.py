@@ -30,7 +30,7 @@ from tqdm import tqdm
 # 1. CẤU HÌNH MẶC ĐỊNH & DANH SÁCH MODEL FREE TIER FALLBACK
 # ==============================================================================
 SCRIPT_DIR = Path(__file__).resolve().parent
-PROJECT_ROOT = SCRIPT_DIR.parents[1]
+PROJECT_ROOT = next(p for p in SCRIPT_DIR.parents if (p / "04_dong_hang").exists())
 
 DEFAULT_INPUT = PROJECT_ROOT / "04_dong_hang" / "output" / "v5" / "PhuBienTapLuc_Alignment_V5.xlsx"
 DEFAULT_OUTPUT = PROJECT_ROOT / "04_dong_hang" / "output" / "v5" / "PhuBienTapLuc_Alignment_V5_Judged.xlsx"
@@ -40,10 +40,11 @@ DEFAULT_MODEL = "gemini-3.5-flash-lite"
 FALLBACK_MODELS = [
     "gemini-3.5-flash-lite",
     "gemini-3.8-flash",
-    "gemini-2.5-flash-lite",
-    "gemini-2.5-flash",
-    "gemini-2.0-flash-lite",
-    "gemini-2.0-flash",
+    "gemini-3.7-flash",
+    "gemini-3.6-flash",
+    "gemini-3.5-flash",
+    "gemini-3.1-flash-lite",
+    "gemini-4-hydrogen",
 ]
 
 DEFAULT_BATCH_SIZE = 20
@@ -120,38 +121,85 @@ def build_candidate_models(preferred_model: str) -> List[str]:
 
 
 class ModelSelector:
-    """Giữ trạng thái model đang hoạt động tốt và tự động chuyển model khi gặp 404 / 503 liên tiếp."""
+    """Giữ trạng thái (API Key, Model) đang hoạt động tốt và tự động xoay vòng khi gặp 404 / RPD hết quota ngày / 503."""
 
-    def __init__(self, preferred_model: str):
-        self.candidates = build_candidate_models(preferred_model)
-        self.active_idx = 0
-        self.dead_404_models = set()
+    def __init__(self, preferred_model: str, api_keys: Optional[List[str]] = None):
+        self.models = build_candidate_models(preferred_model)
+        raw_keys = api_keys or [os.environ.get("GEMINI_API_KEY", "")]
+        seen_k = set()
+        self.keys = []
+        for k in raw_keys:
+            ks = k.strip()
+            if ks and ks not in seen_k:
+                seen_k.add(ks)
+                self.keys.append(ks)
+        if not self.keys:
+            raise EnvironmentError("Chưa đặt biến môi trường GEMINI_API_KEY hoặc --api-keys.")
+        self.clients = [genai.Client(api_key=k) for k in self.keys]
+        # Ưu tiên duyệt hết các API key trên cùng 1 model trước (để giữ nhất quán model chấm), rồi mới sang model kế
+        self.slots = [(m_idx, k_idx) for m_idx in range(len(self.models)) for k_idx in range(len(self.keys))]
+        self.active_slot = 0
+        self.dead_slots = set()
 
     @property
     def current_model(self) -> str:
-        return self.candidates[self.active_idx]
+        m_idx, _ = self.slots[self.active_slot]
+        return self.models[m_idx]
 
-    def mark_404_and_advance(self, bad_model: str) -> str:
-        self.dead_404_models.add(bad_model)
-        for idx, m in enumerate(self.candidates):
-            if m not in self.dead_404_models:
-                self.active_idx = idx
-                return m
-        raise RuntimeError(f"Tất cả các model ứng viên đều trả về 404/không tồn tại: {self.candidates}")
+    @property
+    def current_key_idx(self) -> int:
+        _, k_idx = self.slots[self.active_slot]
+        return k_idx
+
+    @property
+    def current_client(self) -> genai.Client:
+        return self.clients[self.current_key_idx]
+
+    @property
+    def candidates(self) -> List[str]:
+        return [f"{self.models[m]}[key#{k+1}]" for m, k in self.slots]
+
+    def mark_dead_and_advance(self, reason_tag: str = "404/RPD") -> str:
+        self.dead_slots.add(self.slots[self.active_slot])
+        for idx, slot in enumerate(self.slots):
+            if slot not in self.dead_slots:
+                self.active_slot = idx
+                return f"{self.current_model}[key#{self.current_key_idx+1}]"
+        raise RuntimeError(f"Tất cả các cặp (Model, Key) đều hết quota ngày hoặc 404 ({reason_tag}): {self.candidates}")
+
+    def mark_model_dead_all_keys(self, bad_model: str) -> str:
+        for m_idx, m in enumerate(self.models):
+            if m == bad_model:
+                for k_idx in range(len(self.keys)):
+                    self.dead_slots.add((m_idx, k_idx))
+        for idx, slot in enumerate(self.slots):
+            if slot not in self.dead_slots:
+                self.active_slot = idx
+                return f"{self.current_model}[key#{self.current_key_idx+1}]"
+        raise RuntimeError(f"Tất cả các model ứng viên đều không khả dụng: {self.models}")
 
     def next_available_after_overload(self) -> str:
-        for step in range(1, len(self.candidates) + 1):
-            nxt_idx = (self.active_idx + step) % len(self.candidates)
-            cand = self.candidates[nxt_idx]
-            if cand not in self.dead_404_models:
-                self.active_idx = nxt_idx
-                return cand
-        return self.current_model
+        for step in range(1, len(self.slots) + 1):
+            nxt = (self.active_slot + step) % len(self.slots)
+            if self.slots[nxt] not in self.dead_slots:
+                self.active_slot = nxt
+                return f"{self.current_model}[key#{self.current_key_idx+1}]"
+        return f"{self.current_model}[key#{self.current_key_idx+1}]"
 
 
 def is_404_error(err: Exception) -> bool:
     msg = str(err).lower()
-    return "404" in msg or "not_found" in msg or "not found" in msg or "is not supported" in msg
+    return "404" in msg or "not_found" in msg or "not found" in msg or "is not supported" in msg or "no longer available" in msg
+
+
+def is_daily_quota_error(err: Exception) -> bool:
+    msg = str(err).lower()
+    return (
+        "requests per day" in msg
+        or "perday" in msg
+        or "generate_content_free_tier_requests, limit: 0" in msg
+        or ("429" in msg and "retrydelay': '" in msg and any(f"retrydelay': '{d}" in msg for d in ("1", "2", "3", "4", "5", "6", "7", "8", "9")) and "s'" in msg and int(re.search(r"retrydelay': '(\d+)s'", msg).group(1) if re.search(r"retrydelay': '(\d+)s'", msg) else 0) > 600)
+    )
 
 
 def is_overload_or_rate_error(err: Exception) -> bool:
@@ -164,12 +212,13 @@ def is_overload_or_rate_error(err: Exception) -> bool:
         or "resource_exhausted" in msg
         or "quota" in msg
         or "500" in msg
+        or "504" in msg
         or "deadline" in msg
     )
 
 
 def judge_batch(
-    client: genai.Client,
+    client: Optional[genai.Client],
     selector: ModelSelector,
     batch_df: pd.DataFrame,
 ) -> List[dict]:
@@ -182,13 +231,15 @@ def judge_batch(
 
     prompt = "Hãy đánh giá từng cặp câu dưới đây:\n\n" + "\n\n".join(lines)
 
-    total_attempts = max(8, len(selector.candidates) * MAX_RETRIES_PER_MODEL)
+    total_attempts = max(12, len(selector.slots) * MAX_RETRIES_PER_MODEL)
     overload_streak = 0
 
     for attempt in range(1, total_attempts + 1):
         model_name = selector.current_model
+        key_tag = f"key#{selector.current_key_idx + 1}"
+        active_client = selector.current_client
         try:
-            response = client.models.generate_content(
+            response = active_client.models.generate_content(
                 model=model_name,
                 contents=prompt,
                 config=types.GenerateContentConfig(
@@ -204,7 +255,6 @@ def judge_batch(
             # Đảm bảo trả về đủ tất cả row_idx trong lô; nếu thiếu cá biệt dòng nào thì gọi bù riêng
             missing_in_resp = [i for i in expected_indices if i not in by_idx]
             if missing_in_resp and len(parsed.results) == len(expected_indices):
-                # Trường hợp hiếm model đánh lại số thứ tự 0..k-1 thay vì row_idx gốc
                 by_idx = {}
                 for real_i, item in zip(expected_indices, parsed.results):
                     d = item.model_dump()
@@ -213,7 +263,7 @@ def judge_batch(
                 missing_in_resp = []
 
             if missing_in_resp:
-                sub_records = judge_batch(client, selector, batch_df.loc[missing_in_resp])
+                sub_records = judge_batch(active_client, selector, batch_df.loc[missing_in_resp])
                 for rec in sub_records:
                     by_idx[int(rec["row_idx"])] = rec
 
@@ -221,29 +271,37 @@ def judge_batch(
 
         except Exception as e:
             if is_404_error(e):
-                new_m = selector.mark_404_and_advance(model_name)
+                new_slot = selector.mark_model_dead_all_keys(model_name)
                 print(
-                    f"\n[Fallback 404] Model `{model_name}` không khả dụng ({e}). Chuyển sang `{new_m}`...",
+                    f"\n[Fallback 404] Model `{model_name}` không khả dụng. Chuyển ngay sang `{new_slot}`...",
+                    flush=True,
+                )
+                continue
+
+            if is_daily_quota_error(e):
+                new_slot = selector.mark_dead_and_advance("DailyQuota")
+                overload_streak = 0
+                print(
+                    f"\n[Hết Quota Ngày] `{model_name}[{key_tag}]` chạm trần RPD. Chuyển vĩnh viễn sang `{new_slot}`...",
                     flush=True,
                 )
                 continue
 
             overload_streak += 1
-            if is_overload_or_rate_error(e) and overload_streak >= 2:
-                old_m = model_name
-                new_m = selector.next_available_after_overload()
-                overload_streak = 0
-                wait_sec = min(30, 4 * attempt)
+            if is_overload_or_rate_error(e):
+                old_slot = f"{model_name}[{key_tag}]"
+                new_slot = selector.next_available_after_overload()
+                wait_sec = min(15, 3 + 2 * overload_streak)
                 print(
-                    f"\n[Fallback 503/429] Model `{old_m}` quá tải/giới hạn ({e}). "
-                    f"Đợi {wait_sec}s rồi thử sang `{new_m}`...",
+                    f"\n[Xoay vòng 503/429] `{old_slot}` bận ({str(e)[:90]}...). "
+                    f"Đợi {wait_sec}s rồi chuyển sang `{new_slot}`...",
                     flush=True,
                 )
                 time.sleep(wait_sec)
             else:
-                wait_sec = min(60, 5 * (2 ** min(attempt - 1, 3)))
+                wait_sec = min(30, 4 * attempt)
                 print(
-                    f"\n[Cảnh báo] Lỗi API trên `{model_name}` (lần {attempt}/{total_attempts}): {e}. "
+                    f"\n[Cảnh báo] Lỗi API trên `{model_name}[{key_tag}]` (lần {attempt}/{total_attempts}): {str(e)[:120]}. "
                     f"Đợi {wait_sec}s...",
                     flush=True,
                 )
@@ -331,6 +389,12 @@ def main():
         default=DEFAULT_SLEEP_SEC,
         help=f"Thời gian nghỉ (giây) giữa các lô gọi API (mặc định: {DEFAULT_SLEEP_SEC})",
     )
+    parser.add_argument(
+        "--api-keys",
+        type=str,
+        default=None,
+        help="Danh sách API keys phân tách dấu phẩy (hoặc đọc từ GEMINI_API_KEYS / GEMINI_API_KEY).",
+    )
     args = parser.parse_args()
 
     input_xlsx = resolve_path(args.input)
@@ -347,12 +411,13 @@ def main():
     else:
         checkpoint_jsonl = output_xlsx.parent / "judge_checkpoint.jsonl"
 
-    api_key = os.environ.get("GEMINI_API_KEY")
-    if not api_key:
-        raise EnvironmentError("Chưa đặt biến môi trường GEMINI_API_KEY.")
+    raw_keys_str = args.api_keys or os.environ.get("GEMINI_API_KEYS") or os.environ.get("GEMINI_API_KEY", "")
+    key_list = [k.strip() for k in raw_keys_str.split(",") if k.strip()]
+    if not key_list:
+        raise EnvironmentError("Chưa đặt biến môi trường GEMINI_API_KEY / GEMINI_API_KEYS hoặc --api-keys.")
 
-    client = genai.Client(api_key=api_key)
-    selector = ModelSelector(args.model)
+    selector = ModelSelector(args.model, api_keys=key_list)
+    client = selector.current_client
 
     xl = pd.ExcelFile(input_xlsx)
     sheet = "Alignment_Dataset" if "Alignment_Dataset" in xl.sheet_names else xl.sheet_names[0]
